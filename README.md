@@ -2,4 +2,6 @@ This is a list of races designed by me for use on WCS servers. If you choose to 
 
 Many but not all of these races are untested and have never been balanced. some of the balanced and tested races are in the WCSAZ race folder, others are spread throughout the rest of the races and are not labeled in any way to differentiate them, sorry.
 
+There are some duplicates or similar races. This is usually because a race was adapted or redesigned from one server to the next over the years.
+
 If you have questions, you can message me on discord (awful_) or steam (https://steamcommunity.com/id/AwfulxAim/)
