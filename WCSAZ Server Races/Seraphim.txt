@@ -1,0 +1,17 @@
+82. Seraphim ( 1700 )
+
+Divinus Vis: 50% chance on spawn to set enemies with invis greater than 50% to 50%.
+
+Kyrie Eleison: set all teammates grav to 50%
+
+Divinum Flamen: 30% chance on hit to burn the enemy.
+
+Angelus Pennae: Your team spawns with 40 More HP.
+
+Curatio: Heals target player for 60 HP over 5 seconds to a max of 200 HP. if no target selected (aimed at) it heals yourself. Ability. 20 second CD
+
+Via Caelum: Heal yourself for 50 HP over 5 seconds, maxes at 200 HP. Ability1 25 second C/D
+
+Excrucio: Crit strike from Orc
+
+Agnus Dei: Suicide, respawn your entire team with all of the buffs you would normally give. Grants 100 xp for each revived player. Ultimate

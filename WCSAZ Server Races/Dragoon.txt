@@ -1,0 +1,29 @@
+Dragoon 
+
+High Jump, Life Surge, Dragon Breath, White Wind, Ferocity, Dragon Dive
+
+High Jump:
+
+Impale yourself, 5 second CD
+
+Life Surge:
+
+Life leech, 35% chance to leech 50% of your damage back as HP
+
+Dragon Breath:
+
+20% chance on hit to slow by 20%, burn for 5 seconds, and deal 10-25 extra damage.
+
+White Wind:
+
+40% chance to heal yourself and one nearby player for 25 HP on hit.
+
+Ferocity:
+
+Spawn with 160 HP and 140% speed.
+
+Dragon Dive:
+
+Become immune to fall damage, Push yourself to the ground, deal AoE damage in 2x ward range, based on  your height in the air.
+
+an activation from a normal jump off of cs_assault deals about 75 damage.
