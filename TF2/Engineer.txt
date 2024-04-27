@@ -1,0 +1,20 @@
+Meet the: Engineer
+
+Spawns with M3, USP, and Knife.
+
+
+Shotgun- 10% chance on hit to deal 3x more damage.
+
+Teleporter- Telepoerts you back to Spawn (ability) 20 second C/D
+
+Sentry- One ward, ward does 50 damage per second, has the range and duration of a normal ward. (ability)
+
+Sappin' mah sentry!- 80% chance to spawn with ultimate and ward immunity.
+
+Enjie health- Spawn with 125 HP.
+
+Dispenser- Healing ward, lasts whole round, heals 24 HP per second, must be standing in circle to be healed.
+
+
+
+Can lay both healing and sentry ward in the same round.

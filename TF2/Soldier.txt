@@ -1,0 +1,16 @@
+Meet the: Soldier
+
+Spawns with AWP with 20 round clip only. This is to prevent quick switching.
+
+
+Reload- Like Force of Nature, gives 4 extra ammo. (ability2) 20 second C/D
+
+Shotgun- Give M3 for 8 seconds, then give AWP with 15 round clip. (ability) 20 second C/D
+
+Maggots!- 20% chance on hit to deal 3x more damage.
+
+Soldier Durability- Spawn with 200 HP and 95% speed.
+
+Rocket Jump- Relocate from Beholder.
+
+Shock and Awe- 100% chance to deal 200 extra damage with grenades, give Soldier 4 grenades. (ultimate) initial 30 second C/D, then 60 second C/D

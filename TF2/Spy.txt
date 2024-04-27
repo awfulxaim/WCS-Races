@@ -1,0 +1,16 @@
+Meet the: Spy
+
+Spawns with Deagle and Knife.
+
+
+Cloak- Fades into 100% invisibility, lasts 10 seconds, while cloaked Spy is restricted to the knife. (ability) 20 second c/D
+
+Disguise- Spawns with the opposite team's model, has no blue coloring like moles, 100% chance to spawn with ward immunity.
+
+Revolver- 15% chance on hit to deal 3x more damage.
+
+Sapper- 3 wards, wards last whole round. (ability2)
+
+Backstab- Backstabs instantly kill.
+
+Double reverse quadruple agent- Swap teams, change your model to the new enemies model. (ultimate) 25 second initial C/D, then 60 second C/D

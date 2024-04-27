@@ -1,0 +1,10 @@
+Rogue V2
+
+Shiv- 40% chance on hit TO THE FRONT to slow the opponent to 76% speed for 8 seconds.
+Gouge- 25% chance on knife hit TO THE FRONT to totally immobilize the opponent for 5 seconds, any damage dealt to the opponent removes this effect.
+Kick- 50% chance on hit TO THE FRONT to silence the opponent for 5 seconds. You gain ability immunity during these 5 seconds.
+Ambush- 25% chance on hit WHILE STEALTHED AND BEHIND THE ENEMY to deal 275% extra damage.
+Cheap Shot- 20% chance on hit to immobilize opponent for 4 seconds.
+Blind- (ability2) Next attack blinds the opponent and prevents them from attacking for 10 seconds though they may still move, any damage dealt to the opponent removes this effect.
+Stealth- (ability) Gain 100% invisibility until you attack or are attacked.
+Vanish- (ultimate) Gain Stealth, become invulnerable for 10 seconds or until your next attack. (0 second initial C/D, 90 second C/D)

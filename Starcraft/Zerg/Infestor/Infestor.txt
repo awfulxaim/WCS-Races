@@ -1,0 +1,20 @@
+SC2: Infestor
+
+Has no weapons.
+
+Carapace- Spawn with 125 HP and 72% damage reduction.
+
+Burrowed movement- Burrow from zergling, can move while burrowed, moves at 100% speed while burrowed.
+
+Zerg Speed- Spawns with 200% Speed.
+
+Fungal Scourge- Targeted enemy takes 25dmg/sec until death; when he dies, all enemies in ward range take 25 damage. (ability) 30 second C/D
+
+Neural Parasite- Mind Control
+
+Infested Marines- Respawn 5 teamates, can only be used once per round (ability2)
+
+Metasynaptic Node- Team spawns with 50 extra HP.
+
+Dark Swarm- Silence enemy team for 30 seconds, give Infestor one smoke grenade, all teammates inside of the smoke cloud take no damage. (ultimate) 30 second C/D
+

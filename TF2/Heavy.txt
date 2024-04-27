@@ -1,0 +1,16 @@
+Meet the: Heavy
+
+Spawns with an M249Para with 200 round clip.
+
+
+Sasha- 20% chance on hit to deal 3x more damage.
+
+Sandvich- Heals 120 HP over 4 seconds. (ability) 30 second C/D
+
+Reload- Like Force of Nature, gives 50 extra ammo. (ability2) 10 second C/D
+
+Heavy Health- Spawn with 400 HP and 85% speed.
+
+Rev Up- 35% chance when hit to deal 2x more damage for 2 seconds.
+
+Medic!- Reduce damage by 24 for 10 seconds. (ultimate) 35 second C/D

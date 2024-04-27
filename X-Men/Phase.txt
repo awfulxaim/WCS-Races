@@ -1,0 +1,15 @@
+Phase
+
+Can use all pistols but dualies, can use grenades and knife. Spawn with 1% speed and 999% Gravity until antishift shock is leveled.
+
+Shift- Blink from chaos with no C/D when maxed. (ability)
+
+Grenade Pass- for the next 8 seconds, when you throw a grenade, after it explodes instantly teleport to the explosion spot, and create another grenade. (ability2)
+
+AntiShift Shock- Spawn with 100% Speed and 100% Gravity.
+
+ShiftDodge- 48% chance to evade.
+
+CounterShift- 48% chance when you evade to teleport behind the opponent.
+
+FocusShift- 32% chance on hit, teleport behind opponent and become invulnerable for 2 seconds.

@@ -1,0 +1,13 @@
+SC: Marauder
+
+Tech Lab- Spawn with 125 HP
+
+Dual Missile Launchers- 40% chance on hit to slow opponent to 68% speed and deal 16 extra damage.
+
+Wrist Mounted FlameThrower- 50% Chance on hit to set opponent on fire for 15 Burn damage
+
+Infantry Weapons- 100% chance on hit to deal 4 extra damage.
+
+CMC 660 Combat Suit- Gain 100 armor on spawn.
+
+Stimpack- Increase damage dealt by 8 and increase speed to 120% for 8 seconds, lose 25 HP. (ultimate)

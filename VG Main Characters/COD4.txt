@@ -1,0 +1,8 @@
+COD4
+
+Stopping Power- +8 Damage to all attacks.
+Juggernaught- 8 Damage reduction from all damage received.
+Martyrdom- Suicide Bomber from Undead, does 800 damage.
+RPG-7- Give M3 with 2 shots, the next two shots kill. 
+Sprint- 150% speed for 8 seconds when maxed. (ability2)
+55 in the 10th- 80% chance to spawn with one of these weapons when maxed: Deagle, M249Para, M4, AK, M3, xM1014, P90, MP5, USP, Frag Nade.

@@ -1,0 +1,15 @@
+Vasily Zeitsev
+
+Can only use scout, usp.
+
+Mosin Nagant- When you have 5 or less bullets in your mag gain +40 damage with the scout.
+
+TT Tokarev- 100% chance to spawn with the P228 when maxed.
+
+Professional- When you headshot someone deal 100 damage to any enemies in 5 meters of the headshotted enemy.
+
+Gun Slinger- Impetus from oblivion, effects only the USP
+
+Heroics- For each kill you have more than your deaths gain +8 damage with the scout.
+
+Motherland- when you're team wins a round they spawn next round with 50 extra HP.

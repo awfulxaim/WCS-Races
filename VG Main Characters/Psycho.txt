@@ -1,0 +1,19 @@
+Psycho
+
+Changes colors with use of each Maximum, starts out colored black.
+
+Weapon Modification- Spawn with Krieg 552 and 1 frag grenade; deal 8 extra damage 80% of the time when maxed.
+
+Nano-Regeneration- Gain 10 HP every 2 seconds to a max of 100 HP.
+
+Maximum Strength- This skill changes Psycho red until it wears off. Lower Gravity to 33 percent, Knife attacks instantly kill, grenades deal 50 extra damage. All of these last for 10 seconds. Costs 30 Energy.
+
+Maximum Stealth- Become 100% invisible for 10 seconds. Costs 70 Energy.
+
+Maximum Speed- This skill changes Psycho white until it wears off. Gain 500% speed for 5 seconds. Costs 50 Energy.
+
+Maximum Armor- This skill changes Psycho blue until another skill is used. Gain 100 HP, you cannot have more than 200 HP. Costs 100 Energy.
+
+Energy Regeneration- Gain 10 Energy and Armor per second to a max of 100 of each, spawn with 100 Energy and Armor. (energy is like skulls from succubus hunter)
+
+Activate Nano-Suit- Choose a maximum and activate it, C/D begins at 8 and ends at 1 second. (ultimate)

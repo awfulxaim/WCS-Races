@@ -1,0 +1,16 @@
+Simo Hayha
+
+Spawns colored white, can use AWP, Knife, MP5, and Scout.
+
+Iron Sights- Gain extra damage the closer someone is to you, to a max of 40, this effect works for scout and AWP only.
+
+Weaponry- 60% chance to spawn with an MP5, 30% Chance to spawn with scout, 10% chance to spawn with AWP.
+
+Stealth- Set speed to 80%, become 80% invisible until recast. (Ability2) no C/D
+
+Relocation- Spawn with 135% speed.
+
+Prone- Bury yourself half way, deal 40% extra damage, when recast unbury yourself and lose the buff. (ability) no C/D
+
+The White Death- When you have more kills than deaths: 80% chance to respawn, at your own spawn, and can respawn multiple times per round.
+When you have less kills than deaths: 40% chance to evade.

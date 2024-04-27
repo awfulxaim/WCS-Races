@@ -1,0 +1,8 @@
+Marcus Fenix
+M4, Deagle, knife race.
+
+Roadie run- 1.35 speed
+Jack- +8 damage to all attacks when maxed.
+Chainsaw Bayonet- Chance on KNIFE hit to kill enemy.
+Intense Training- 175HP when maxed
+Delta Squad- Chance on death to respawn you and 5 of your teammates with 175HP, 1.35 speed, +8 damage, and chance to kill on knife hit.

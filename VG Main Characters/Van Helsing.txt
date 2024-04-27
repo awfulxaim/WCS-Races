@@ -1,0 +1,15 @@
+Van Helsing
+
+Spawns with DEagle. Restricted to DEagle and AWP
+
+Crossbow- 80% chance to spawn with an AWP.
+
+Undead Hunter- 64% chance on hit to deal extra damage equal to your enemies HP minus yours, to a max of 300 Damage.
+
+Helsing's Hat- When HP drops below 55, deal 40 AoE damage to all enemies in ward range, if it kills someone gain 40 HP. This can only occur once per Life.
+
+Undead Immunity- Deal 100% mirror damage to all knife attacks. starts at 60% mirror damage and maxes at 100%.
+
+Silver Bullets- Hits to the chest deal extra damage equal to the opponents HP divided by 7. starts divided by 15 and maxes divided by 7.
+
+Crucifix- 40% chance on and when hit to stun opponent for 1 second.

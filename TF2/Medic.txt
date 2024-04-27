@@ -1,0 +1,16 @@
+Meet The: Medic
+
+Spawns with MP5 and Knife.
+
+
+Kritz- 20% chance on hit to deal 3x more damage.
+
+Medigun- Like Lifebloom, Heals 25 HP per second for 10 seconds to a maximum of 250 HP
+
+Regeneration- Regenerate 3 HP per second to a max of 250 HP
+
+Hippocratic suggestion- Spawn with 150 HP and 120% speed.
+
+BoneSaw- 100% of knife hits deal 45 extra damage.
+
+KritzKrieg- Gain Kritzkrieg aura for 10 seconds: Medic and all teammates in ward range deal 3x more damage. (ultimate) initial 30 second C/D, then 60 second C/D

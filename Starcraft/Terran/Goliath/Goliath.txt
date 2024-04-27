@@ -1,0 +1,13 @@
+SC: Goliath
+
+Goliath Armor- Spawn with 125 HP.
+
+Smoothbore Autocannons- 32% chance on hit to deal 16 to 24 extra damage.
+
+Hellfire AA-scatter missiles- 100% chance on hit to raise enemies gravity to 500%
+
+Vehicle Weapons- All attacks deal 8% more damage.
+
+Vehicle Plating- Take 8% less damage.
+
+Charon Boosters- 100% chance to deal 18 extra damage for 8 seconds.

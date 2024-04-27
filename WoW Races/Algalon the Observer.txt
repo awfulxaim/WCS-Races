@@ -1,0 +1,9 @@
+Algalon the Observer – Max Level 8 – Weaponless Race – Spawns with 500 HP
+-Celestial Void: Reduce gravity by 15/20/25/30/35/40/45/50%
+-Ethereal Form: Gain 15/20/25/30/35/40/45/50% invisibility and 5/10/10/15/15/20/20/25% evasion
+-Analysis: Every 10 seconds, reveal all enemies for 1 second.
+-Phase Out: When hit, 3/4/5/6/7/8/9/10% chance to completely immobilize the attacker for 5 seconds and give them 80% invis.
+-Reply Code Omega: On death, 1/2/2/3/3/4/4/5% chance to deal 20 damage to all enemies, and increase allies’ damage by 5% for the rest of the round.
+-Cosmic Smash: Create an explosion where you’re aiming that deals 5/10/10/15/15/20/20/25 damage to enemies in range and knocks them back. 45 second cooldown.
+-Black Hole: Meathook all enemies within a medium sized range to you and decrease their speed by 15/20/25/30/35/40/45/50% for 10 seconds. 45 second cooldown.
+-Big Bang: (Ultimate) Float into the air, then root and beacon yourself for 10 seconds, you take 50% extra damage during this time. If you survive for 10 seconds, then the message “Witness the fury of the cosmos” appears on the screens of all enemies. Create a nuke-sized explosion for 15/20/25/30/35/40/45/50 damage to all enemies centered on yourself 5 seconds later. 120 second cooldown.

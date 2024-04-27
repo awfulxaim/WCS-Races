@@ -1,0 +1,15 @@
+Robin Hood
+
+Scout race
+
+Steal from the rich and give to the poor- Take the HP of the highest HP enemy and give it to you, that enemy's HP is then set to your previous HP. (ability)
+
+Piercing his own arrow- The second hit dealt to any enemy increases damage dealt by 50%.
+
+Roguish Trickery- 30% chance to evade, when you evade you become invisible for 1 second.
+
+Spirit of the Forest- Windwalk, 25 second C/D (Ability2)
+
+Inspiration- When you head shot an enemy you and all your teammates gain 20 HP.
+
+Lie in waiting- When crouched become 90% invisible.

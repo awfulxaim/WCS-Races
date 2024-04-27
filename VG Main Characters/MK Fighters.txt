@@ -1,0 +1,208 @@
+Scorpion
+
+Harpoon-                (Meathook)
+10 Hit Combo-           (Lockdown)
+Teleport-               (Long Jump)
+Air Throw-              (Tornado, ability)
+Finish Him-             (Ultimate: receive and be restricted to a USP with one bullet until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Cyrax
+
+Knife, Nade race
+
+Teleport-           (Long Jump)
+Far grenade-        (Crit Nade)
+Close grenade-      (Create Nades, every 3 seconds)
+Energy web-         (Entangling Roots, ability)
+Air throw-          (Tornado, ability2)
+Finish Him-         (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Ermac
+
+Fireball-        (Fire Strike)
+Teleport-        (Long Jump)
+Mental slam-     (Spectral Ray)
+Finish Him-      (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Jade
+
+Usp only
+
+Low boomerang-             (Trueshot aura)
+High boomerang-            (Lockdown)
+Middle boomerang-          (Banish)
+Returning boomerang-       (Poison)
+Glow kick-                 (Reverse Meathook)
+Flash-                     (Chaos Teleport, ability)
+Finish Him-                (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Jax
+
+(Compensated for OP)
+
+Single missile-      (Arm nuke, ability2)
+Double missile-      (Launch Nuke, ability)
+Gotcha grab-         (Meathook)
+Rushing punch-       (Berserk, from berserker)
+Backbreaker-         (Shadow Prison)
+Finish Him-          (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Kabal
+
+Cocoon-          (Adamantite skin)
+Fireball-        (Fire strike)
+Blade summons-   (Eradicate)
+7 Hit Combo-     (Lockdown)
+Face of death-   (TimeShifter Swap, ability)
+Finish Him-      (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Kano
+
+Knife Race, unless spawned with M4
+
+Knife uppercut     (Backstab)
+Knife throw        (Weapon of the sorcerer)
+Cannon ball        (Berserk from Flame Predator)
+Grab and shake     (Earthquake)
+Vertical roll      (Evasion)
+Air throw          (Tornado, ability)
+Finish Him-        (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Kitana
+
+Knife, nade race
+
+Fan wave-              (Create nades, every 3 seconds)
+Fan throw-             (Serpent Ward, ability)
+Fan slice-             (Backstab)
+Leg throw-             (Lockdown)
+Square wave punch      (War stomp, ability2)
+Double fan throw       (Crit nades)
+Finish Him-            (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Liu Kang
+
+Hammer kick-           (Lockdown)
+Hat toss-              (Crit nades)
+Teleport-              (long jump)
+Spin-                  (Evasion)
+Finish Him-            (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Mileena
+
+Sai shoot-             (Chain Lightning, ability)
+Teleport kick          (Long jump +damage)
+Roll attack            (Trueshot aura)
+6 hit combo-           (Lockdown)
+Finish Him-            (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Nightwolf
+
+Arrow-               (Trueshot aura)
+Hatchet uppercut-    (Deathcoil, ability)
+Shadow shoulder-     (Meld)
+Reflect-             (Mirror Damage)
+Finish Him-          (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+
+Reptile
+
+Knife and Nade race
+
+Acid spit-         (Poison)
+Slow force ball-   (Create nades, ability2)
+Fast force ball-   (Crit nades)
+Dash-              (Unholy Aura)
+Slide-             (Blink, ability)
+Invisibility-      (Phantom Moon)
+Finish Him-        (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Sektor
+
+Homing missile-       (Arm Nuke, ability2)
+Straight missile-     (Launch Nuke, ability)
+Teleport uppercut-    (Long Jump +damage)
+5 hit combo-          (Lockdown)
+Finish Him-           (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Shang Tsung
+
+Knife race
+
+Flame eruption-          (Fire strike)
+Single flaming skull-    (Totem Incantation, ability)
+Double flaming skulls-   (Daemonic Knife)
+Triple flaming skulls-   (Daemonic Transformation, on spawn)
+Morph-                   (Mind control, ability2)
+Finish Him-              (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Sheeva
+
+Teleport stomp-          (Human Alliance Teleport + Warstomp, ability)
+Stomp-                   (Entangling roots, ability2)
+Fireball                 (Fire Strike)
+7 hit combo-             (Lockdown)
+Finish Him-              (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Sindel
+
+Fireball-        (Fire strike)
+Air fireball-    (Burning Blade)
+Scream-          (Entangling Roots, ability2)
+Fly-             (Take-off, ability)
+Finish Him-      (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Smoke
+
+Harpoon-            (Meathook)
+Teleport uppercut-  (Long Jump +damage)
+Invisibility-       (Phantom Moon)
+Air throw-          (Tornado, ability)
+Morph-              (Mind control, ability2)
+Finish Him-         (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Human Smoke
+
+Harpoon-            (Meathook)
+Teleport punch-     (Long Jump +damage)
+Air throw-          (Tornado, ability)
+8 hit combo-        (Lockdown)
+Morph-              (Mind Control, ability2)
+Finish Him-         (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Sonya
+
+Ring toss-            (Crit nades)
+Leg grab-             (Entangling roots, ability2)
+Square wave flight-   (Take-off, ability)      
+Bicycle kick-         (Trueshot aura)
+Finish Him-           (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Stryker
+
+Nade and Knife race unless spawned with M4 or deagle.
+
+Gun-              (Weapon Of the Sorcerer)
+High gernade-     (Crit nade)
+Low gernade-      (Create Nade, every 3 seconds)
+Baton throw-      (Create Flashbang, ability)
+Baton trip-       (Entangling roots, ability2)
+Finish Him-       (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Sub Zero
+
+Knife Race
+
+Slide-         (Blink, ability)
+Freeze-        (Shadow Prison, ability2)
+Ice shower-    (Kidney shot)
+Clone-         (Evasion)
+Finish Him-    (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)
+
+Original Sub Zero
+
+Freeze-           (Shadow Prison)
+Ground freeze-    (Warstomp, ability2)
+Slide-            (Entangling roots, ability)
+8 hit combo-      (Lockdown)
+Finish Him-       (Ultimate: receive and be restricted to a USP with one bullet, until bullet is used, all damage you do to enemies with the USP has 2000 damage added.)

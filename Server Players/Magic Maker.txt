@@ -1,0 +1,8 @@
+Magic Maker
+
+Leech- 40% chance on hit to deal 1 to 40 extra damage, all extra damage dealt is added to HP.
+Blood Pact- Gain 50 HP for each kill.
+Swift- Spawn with 1.35 speed.
+Evasion- 35% chance to evade.
+Entrap- 32% chance on hit to Bash.
+Respawn- Respawn from Orc.

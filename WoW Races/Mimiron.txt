@@ -1,0 +1,9 @@
+Mimiron – Max Level 8 – Starts with 300 HP – Restricted to P90
+-Speed of Invention: Increase movement speed by 2.5/5/7.5/10/12.5/15/17.5/20%.
+-Napalm Shell: 3/4/5/6/7/8/9/10% chance on hit to create an explosion centered on the target that deals 3/4/5/6/7/8/9/10 damage to all nearby targets.
+-Shock Blast: 3/4/5/6/7/8/9/10% chance on hit to shake enemy for 0.5/1/1.5/2/2.5/3/3.5/4 seconds.
+-Heat Wave: Every 10 seconds, all enemies within War Stomp range are set on fire for 5/5/5/10/10/10/10/15 damage over 5 seconds.
+-Self Destruct: On death, 3/4/5/6/7/8/9/10% chance to explode for 13/14/15/16/17/18/19/20 damage and set all enemies hit by explosion on fire for an additional 13/14/15/16/17/18/19/20 damage over 5 seconds.
+-Proximity Mine: (Ability) Place up to 1/1/1/2/2/2/2/3 land mines which last until your death that deal 9/12/15/18/21/24/27/30 damage when triggered, cooldown 60 seconds.
+-Spin Up: (Ability2) Get Spun Up, increasing speed by an extra 2.5/5/7.5/10/12.5/15/17.5/20% and enabling P3Wx2 Laser Barrage. Cooldown 120 seconds.
+-P3Wx2 Laser Barrage: (Ultimate) Requires yourself to be Spun Up. Root and beacon yourself for 10 seconds. If you survive for 10 seconds, create a warstomp sized explosion where you’re aiming that hits all enemies 5/10/15/20/25/30/35/40 damage, shakes them for 10 seconds and knocks them far away. Removes the Spun Up effect. Cooldown 60 seconds.

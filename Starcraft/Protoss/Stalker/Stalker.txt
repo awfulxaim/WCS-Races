@@ -1,0 +1,19 @@
+SC2: Stalker
+
+Cannot use: M4, TMP, Grenades, Defuse kit, any pistol. All knife attacks do 10 extra damage to Stalker, All gun attacks do 10 less damage to Stalker.
+
+Shadow Essence- Blink in and out of 100% invisibility including weapons. 1 second visible, 1 second invisible.
+
+Swift- On spawn gain 135% speed.
+
+Particle Disruptors- 32% chance on hit to deal between 16 and 32 extra damage.
+
+Cripple- 48% chance on hit to make enemy totally visible for the rest of the round.
+
+Stealth- Teammates in ward range of Stalker gain 70% invisibility.
+
+Guile- Like burrow, Become 100% invisible, become unable to move, can still shoot and take damage. (ability) Toggle, no C/D
+
+Dance- When Stalker has 25 HP or less begin regenerating 5 HP/second to a max of 25. While regenerating HP, all attacks gain +8 damage.
+
+Blink- Blink from Chaos. (ultimate)

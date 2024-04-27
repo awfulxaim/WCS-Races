@@ -1,0 +1,9 @@
+Thorim – Max Level 8 – Starts with 300 HP – Knife race
+-Unbalancing Strike: On hit, you have a 2.5/5/7.5/10/12.5/15/17.5/20% chance to knock the enemy upwards.
+-Stormhammer: On hit, you have a 2.5/5/7.5/10/12.5/15/17.5/20% chance to stun the enemy for 2 seconds.
+-Lightning Charge: Every 5 seconds, steal 1/2/2/3/3/4/4/5 health from all enemies within War Stomp range.
+-Fury of the Storm: Increase speed by 2.5/5/7.5/10/12.5/15/17.5/20%.
+-Titan Storm: Increases damage by 2.5/5/7.5/10/12.5/15/17.5/20%.
+-Lightning Sheath: (Ability) Reduce damage taken by 10/20/30/40/50/60/70/80/90% for 10 seconds, but reduce speed by 75%. Supercharge is disabled while this ability is in effect.
+-Chain Lightning: (Ability2) Deal 4/8/12/16/20/24/28/32 damage to the targeted enemy, can jump to nearby enemies up to 2 times. 45 second cooldown.
+-Supercharge: (Ultimate) Take 50 damage, increase your damage by 5/10/15/20/25/30/35/40%, increase damage taken by 40% and beacon yourself for 20 seconds. 90 second cooldown.

@@ -1,0 +1,9 @@
+Freya – Max Level 8 – Starts with 300 HP – Max HP 500
+-Touch of Eonar: Regenerate 1/2/2/3/3/4/4/5 HP every 5 seconds.
+-Sunbeam: 2.5/5/7.5/10/12.5/15/17.5/20% chance on hit to deal 10 damage to the enemy hit and all enemies near them. Golden beam effect.
+-Brightleaf: Increase your gun damage by 2.5/5/7.5/10/12.5/15/17.5/20%.
+-Stonebark: 7.5/15/22.5/30/37.5/45/52.5/60% to spawn with ultimate immunity.
+-Ironbranch: Reduce damage taken by 2.5/5/7.5/10/12.5/15/17.5/20%, but reduce speed by 10% for 5 seconds when hit.
+-Ground Tremor: (Ability) Shake all enemies within War Stomp range and reduce their speed by 22.5/25/27.5/30/32.5/35/37.5/40% for 0.5/1/1.5/2/2.5/3/3.5/4 seconds. 45 seconds cooldown.
+-Iron Roots (Ability2) Immobilize the targetted enemy’s movement for 2/2.25/2.5/2.75/3/3.25/3.5/3.75/4 seconds. 30 seconds cooldown.
+-Solar Flare: (Ultimate) Root and beacon yourself for 10 seconds. If you survive for 5 seconds, create a large explosion centered on yourself that deals 5/10/15/20/25/30/35/40 damage to nearby enemies. 60 second cooldown.

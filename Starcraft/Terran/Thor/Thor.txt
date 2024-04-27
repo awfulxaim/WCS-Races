@@ -1,0 +1,13 @@
+SC2: Thor
+
+Spawns with 90% speed.
+
+Thor's Hammer Particle Accelerator- 50% chance on hit to deal 20 extra damage.
+
+Neosteel Armor- Spawn with 400 HP
+
+Missile Launcher- 100% of damage dealt to is dealt to the enemies near them.
+
+Mechanical Rebirth- 50% chance to respawn at corpse.
+
+250mm Cannons- Become stunned for 4 seconds, enemies in nuke range of the place you are aiming at take 25dmg/sec for 4 seconds. inital 30 second C/D, then 2 minute C/D

@@ -1,0 +1,13 @@
+SC: Ultralisk
+
+Knife only.
+
+Carapace- Spawn with 400HP
+
+Kaiser Blades- All knife attacks deal 32 extra damage.
+
+Chitinous Plating- Damage taken is reduced by 2%.
+
+Anabolic Synthesis- Spawn with 150% speed.
+
+Burrow- Same as Zerg.

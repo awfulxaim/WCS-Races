@@ -1,0 +1,9 @@
+Hodir –  Max Level 8 – Knife Race – Spawns with 300 HP
+-Biting Cold: Close nearby enemies take 1/1/2/2/3/3/4/4 damage per second.
+-Frostbite: On hit, 2.5/5/7.5/10/12.5/15/17.5/20% chance to disarm the opponent.
+-Frozen Fortitude: Reduce damage taken by 2.5/5/7.5/10/12.5/15/17.5/20%.
+-Glacial Strength: Increase damage dealt by 2.5/5/7.5/10/12.5/15/17.5/20%.
+-Frost Shield: Once per round, instead of dieing survive with 1HP and get 3/4/5/6/7/8/9/10 seconds of invincibility. You automatically die at the end of the duration.
+-Freeze: (Ability) Targetted enemy’s movement is frozen for 1.25/1.5/1.75/2/2.25/2.5/2.75/3 seconds. 20 second cooldown.
+-Flash Freeze: (Ability2) All enemies within a nuke-sized range are slowed by 5/10/15/20/25/30/35/40% and have their screens turned 25% blue for 10 seconds. 60 seconds cooldown.
+-Frozen Blows: (Ultimate) For 20 seconds, reduce your damage to 0, but deal 26/28/30/32/34/36/38/40 extra damage to an enemy on hit. 60 seconds cooldown.

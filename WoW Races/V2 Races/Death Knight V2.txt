@@ -1,0 +1,10 @@
+Death Knight v.2 - Knife Race - 8 skills, 8 levels
+
+- Runecrafting: Enchant your weapon with ancient runes.(30% chance on hit to heal 3/4/5/6/7/8/9/10% of damage and increase damage by 3/4/5/6/7/8/9/10% for 10 seconds.)
+- Icebound Fortitude: Freeze the blood in your veins. (Increase your health by 15/20/25/30/35/40/45/50 and gain 10/20/30/40/50/60/70/80 armor.)
+- Death Strike: A deadly attack with your weapon. (10% chance on hit to deal 10% extra damage and heal 60% of the damage.)
+- Bladed Armor: Cover your armor with sharp blades. (Return 6/10/12/14/16/18/20% of the damage dealt to you.)
+- Crypt Fever: Infect your enemy with a weakening disease. (35% chance on hit to increase the damage your target takes by 3/4/5/6/7/8/9/10% for 5 seconds.)
+- Death Grip (Ability): Harness unholy energy to pull enemies toward you (Meathook targeted enemy and stun their movement for 0.3/0.4/0.5/0.6/0.7/0.8/0.9/1 second.
+- Chains of Ice (Ability2): Bind your enemy in frozen chains (Stop the enemies' movement for 2 seconds, then reduce their speed to 95%/90%/85%/80%/75%/70%/65%/60% for 5 seconds after that.)
+- Death and Decay (Ultimate): Create a circle of blight at your feet. (Place a ward that lasts for 6 seconds and deals 3/6/9/12/15/18/21/24 damage per second.

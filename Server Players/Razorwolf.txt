@@ -1,0 +1,10 @@
+RazorWolf
+
+M4, M3, Scout, Knife race.
+
+Because He Said So- Orc Crit Strike.
+Scout Master- Give and restrict to Scout, 72% Invis, 24% chance on SCOUT hit to Blind or Bash, 125% Speed.
+Eternal Master- Give and restrict to M4, regenerate 8 HP every 4 seconds, longjump, 32% chance to add 15 damage.
+Twilight Master- Give and restrict to M3, 30% evasion, Lower health to 80, 24% chance to add 32 damage.
+Marlute Master- Give and restrict to Knife, 160% Speed, 72% Invis, 200 HP, 16% chance to add 48 damage.
+ChangeRace- Select armor type, 64% chance to spawn with Ultimate immunity.

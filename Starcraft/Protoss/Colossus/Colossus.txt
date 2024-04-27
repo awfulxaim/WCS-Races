@@ -1,0 +1,17 @@
+SC2: Colossus
+
+Null Circuit- Spawn with 200 HP.
+
+Thermal Lance- All enemies within ward range of the enemy being shot take 50% of the damage you deal to him. (For clarification: enemies shot take 100% of damage dealt, nearby enemies take 50% of that damage)
+
+Lance Extension- 50% chance on hit: All enemies within ward range of the enemy being shot take 8 extra damage.
+
+Collsi Height- Spawn with 20% gravity.
+
+Ground Weapons- 32% chance on hit to deal 8% extra damage.
+
+Ground Armor- Spawn with 150 Armor.
+
+Plasma Shields- 32% chance when hit to reduce damage taken by 8%.
+
+Null-Flux Generator- 50% chance when hit: Damage is reduced for each consecutive proc starting at 1% and ending at 4%.

@@ -1,0 +1,10 @@
+NightCrawler
+
+Deagle and knife race.
+
+Prayer- Like Mechanical Prestidigitism, gain 2 secondary ammo for each hit, 3 for a headshot, and 7 for a kill
+Teleportation- Blink from Chaos
+NightStep- Shadowstep
+NightWatch- Orc Critical Strike
+Directed Shadows- 1.35 Speed
+Sweeping Shadows- get 100% invisibility for 8 seconds, all KNIFE attacks get +65 damage, 25 seconds C/D

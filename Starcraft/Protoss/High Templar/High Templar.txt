@@ -1,0 +1,18 @@
+SC2: High Templar
+
+Knife only. Spawns with 40 HP and 40 armor.
+
+Hallucination- Respawn two teammates with 20 HP in the area you are aiming at. (ability2) inital 30 second C/D, then 1 miunute C/D
+
+Plasma Shields- 100% chance to reduce damage by 32.
+
+Ground armor- 48% chance: reduces damage with each consecutive proc, starting at 1 and maxing at 8.
+
+Khaydarian Amulet- Knife damage is increased by 5 each hit. 
+
+Psionic Storm- Silence enemy team for 7 seconds, spawn an illidan ward that does 16 damage per second for 7 seconds. Can make up to 3 per round. (ability)
+
+Psionic Blade- 48% chance on hit to stun opponent.
+
+Phase Shift- Become 100% invisible for 8 seconds, cannot take damage or attack. (ultimate) 20 second C/D
+

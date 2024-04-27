@@ -1,0 +1,11 @@
+SC: Terran Marine
+
+Spawns with 45 HP
+
+Infantry Weapons- 100% chance on hit to deal 16 extra damage.
+
+Ballistic Alloy- Spawn with 165 HP.
+
+Infantry Armor- Gain 100 armor on spawn.
+
+Stimpack- Increase damage dealt by 8 and increase speed to 120% for 8 seconds, lose 25 HP. (ultimate)

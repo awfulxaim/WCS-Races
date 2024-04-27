@@ -1,0 +1,17 @@
+Shadow Priest V2
+
+Vampiric Touch- 24% chance on hit to deal 10 dmg/sec for 4 seconds. If Mind Blast is cast on an enemy afflicted with Vampiric touch, gain 25 HP to a max of 300.
+
+Vampiric Embrace- 24% of all damage deal is gained back in HP to a max of 300 HP.
+
+Mind Blast- 24% chance to deal 25 extra damage.
+
+Shadow Word: Pain- 24% chance on hit to deal 4 dmg/sec for 8 seconds.
+
+Devouring Plague- 24% chance on hit to deal 4dmg/sec for 10 seconds, all damage dealt by Devouring Plague is gained in HP to a max of 300.
+
+Mind Flay- 24% chance to deal 8 dmg/sec for 5 seconds, if this is cast on enemy afflicted with SW:P then deal 2 extra dmg/sec and reset the timer for SW:P.
+
+ShadowForm- Reduce damage taken by 15%, Gain 50% invisibility, No attacks may be cast until you are in ShadowForm, if you drop below 50 HP gain 5% extra damage. (ability) initial 0 C/D then 5 second C/D
+
+Mind Sear- The enemy nearest to you is beaconed, any enemies that come into ward range of that enemy take 20dmg/sec for as long as they are in range, this is not including the beaconed enemy, the mind sear effect lasts 10 seconds. (ultimate) intial C/D of 10 seconds then 45 second C/D

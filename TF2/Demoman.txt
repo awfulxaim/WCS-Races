@@ -1,0 +1,16 @@
+Meet the: Demoman
+
+Spawns with a grenade a knife.
+
+
+Grenade launcher- Spawn with 4 grenades, then 8, then 12, then 16, then 20, then 24, then 32, then 36, as you level this skill.
+
+Crit 'nade- 20% chance on hit to deal 3x more damage.
+
+Sticky 'nades- Claymore from Metatron. (ability)
+
+Sticky jump- Relocate from Beholder. (ability2)
+
+Bomb Squad- Spawn with 200 HP, 120% speed, and 50% gravity.
+
+KA-BOOM!- 80% chance for all grenades to deal 50 extra damage. (ultimate)

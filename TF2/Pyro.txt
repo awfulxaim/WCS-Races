@@ -1,0 +1,16 @@
+Meet The: Pyro
+
+Spawns with M3 and knife, M3 has 8 shots only.
+
+
+Critical Hit- 20% chance on hit to deal 3x more damage.
+
+Pyro Intensity- Spawns with 125 HP, 135% speed, and ward immunity.
+
+FireProof- 100% chance of Slow reaction from Slowpoke, takes damage 8 seconds later, time to damage gap is increased by leveling, % chance is always 100.
+
+Flamethrower- 100% chance on KNIFE hit, Player is slowed to 90% speed and burned for 5 damage a second for 30 seconds.
+
+Airblast- Tornado from wind elemental (ability)
+
+Spy Check!- Burn enemies in lurker range for 5 damage per second for 30 seconds and slow them to 90% speed. (ultimate) 60 second C/D

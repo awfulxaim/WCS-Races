@@ -1,0 +1,16 @@
+Meet the: Scout
+
+Spawns with M3, USP and knife; M3 has a 25 round clip only.
+
+
+Reload- Like Force of Nature, gives 5 extra ammo. (ability2) 10 second C/D
+
+Scattergun - 10% chance on hit to deal 3x more damage.
+
+Kind of a big deal- Spawns with 165% speed.
+
+BaseBall- 80% chance to spawn with ward and ultimate immunity.
+
+Twitch- Astral Spirit from Ninja (long jump).
+
+BONK- Next KNIFE hit deals 600 damage. (Ultimate) 30 second C/D

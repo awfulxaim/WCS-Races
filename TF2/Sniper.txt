@@ -1,0 +1,16 @@
+Meet The: Sniper
+
+Spawns with Scout and knife, Scout has 25 round clip only.
+
+
+Zoom- for every second zoomed in, increase damage by 8.
+
+Reload- Like Force of Nature, gives 7 extra ammo. (ability2) 10 second C/D
+
+Sniper Agility- Spawns with 125 HP and 120% speed.
+
+The Professional- 10% chance on hit to deal 3x more damage.
+
+SMG- Give MP5 for 8 seconds, then give Scout with 25 round clip. (ability) 20 second C/D
+
+SPY!- Become invulnerable to all KNIFE hits for 10 seconds. (ultimate)

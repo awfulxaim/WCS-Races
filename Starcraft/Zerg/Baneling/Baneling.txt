@@ -1,0 +1,11 @@
+SC2: Baneling
+
+Knife only, spawns with 35 HP
+
+Carapace- Reduce damage taken by 80%.
+
+Burrow- Same as Zergling.
+
+Centrifugal Hooks- Spawn with 250% speed.
+
+Baneling Burst- Suicide, deal 640 damage to anyone in Wisp range, cannot fail.

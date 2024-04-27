@@ -1,0 +1,13 @@
+SC2: Roach
+
+Knife only.
+
+Metabolism- Same as Zergling.
+
+Carapace- Same as Zergling.
+
+Organic Carapace- Regenerate 15HP/sec to a max of 100, when below 50HP regenerates 25HP/sec until you reach 50HP.
+
+Burrow- Same as Zergling.
+
+Missile Attack- Targeted enemy takes 25 damage. (ultimate) 15 second C/D
