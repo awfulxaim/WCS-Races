@@ -1,0 +1,17 @@
+Viper- J. Vansaint
+
+Spawn with a TMP and usp
+
+Hyper reality visor- puts a dot in your view to mark where every enemy is, like wall hacks. you cannot shoot while this is activated. the dot lasts 10 seconds. ability2 15 second CD
+
+Alien Stamina- Viper spawns with 160% speed and 6% damage reduction.
+
+Alien Camouflage- Viper spawns 75% invisibility and 75 HP.
+
+Frag grenade- Spawn with one frag that deals 25 extra damage.
+
+Cloak- Viper becomes 100% invisible while standing still or 90% invisible while moving. Viper loses this invisibility if he attacks. ability
+
+GL-7 Bear Claw- Gain 15 Frag grenades each deal 25 extra damage.
+
+Machete- Knife attacks deal 200 damage.

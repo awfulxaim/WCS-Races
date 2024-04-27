@@ -1,0 +1,10 @@
+Asmodeus, King of Hell
+
+Astronomy- Gain HP on spawn, increasing with each round. up to +100 HP.
+Arithmetic- Increase damage dealt with Mac 10. adds +2 damage for each round missing in the mag.
+Craftsmanship- Spawn with a Mac10. Adds +1 round in the magazine per hit.
+Steal Thoughts- 35% chance to evade.
+Twist Thoughts- aura, people in chill range are drugged and slowed for 3 seconds.
+Break Bonds- swaps an enemy to your team for the remainder of the round.
+No Rest for the Wicked- Suicide. Respawn your entire team.
+

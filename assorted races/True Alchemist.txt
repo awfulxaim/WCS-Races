@@ -1,0 +1,8 @@
+True Alchemist
+
+Transmute Life- Trade 25% of your current HP for Money, 10$ for each 1HP.
+Transmute Gold- Trade 25% of your current Money for Armor, 1 armor for each 10$.
+Transmute Soul- Kills grant souls, souls grant additional gold gain with each soul. 25$ for the first soul, 50$ for the second, 100$ for the third, and so on. Souls reset on death.
+Transmute Fire- 20% chance on hit to set opponent on fire, if the opponent is already burning it will put them out and deal 40 instant damage.
+Transmute Water- 15% chance on hit to slow and darken the opponents screen, if the person is already under this effect, they will begin to take 10 damage per second, until the effect wears off.
+Transmute Steel- Trade 25% of your current armor for Health, 1 armor for each 1HP.

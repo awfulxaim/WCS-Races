@@ -1,0 +1,21 @@
+Alchemist
+
+Transmutation Circle- lay a ward.
+
+Transmute: Stone Spires- Knock up all enemies near your ward and deal damage to them.
+
+Transmute: Firearms- Spawn 3 random weapons on the ground on top of your ward.
+
+Transmute: Plague Bog- Slow and poison all enemies near your ward.
+
+Transmute: Flameburst- knockback and burn all enemies near your ward.
+
+Transmute: Fog of Silence- Silence and blind all enemies near your ward.
+
+Transmute: Paralyzing Bolt- Stun all enemies near your ward, they will be stunned again every 5 seconds for the next 20 seconds.
+
+Forbidden Transmutation: Human- Pay 99 HP, ressurect one of your teammates. When maxed, if the ressurected player kills an enemy that enemy is ressurected on your team. If the price cannot be paid, kill the player but do not grant the effect.
+
+Forbidden Transmutation: Gold- Pay 50 HP, grant your entire team 4k. If the price cannot be paid, kill the player but do not grant the effect.
+
+Katsu!- Pick a transmutation.

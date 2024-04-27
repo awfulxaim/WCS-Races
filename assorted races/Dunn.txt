@@ -1,0 +1,8 @@
+Dunn
+
+Protect- when you would take damage greater than 100 set Dunn's HP to 1
+Blowback- ability, record last hit of damage Dunn has taken and add it to your next attack
+Reinforce- headshot immunity, attacks to your head heal you for 100% of your current HP
+Ricochet- ability2, block next incoming damage, add it to Dunn's next attack.
+Payday- Dunn spawns with extra money equal to the HP he ended with last round.
+Revitalize- Give 30 ammo and HP to Dunn instantly.

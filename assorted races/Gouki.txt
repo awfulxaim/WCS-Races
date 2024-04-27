@@ -1,0 +1,27 @@
+Gouki, The Raging Demon
+
+Gohadouken- Strong Surge Fist
+
+Ability2, gives Gouki a USP with one shot, every 6th activation grants a deagle with one shot. 2 second C/D
+
+Goshoryuken- Strong Rising Dragon Fist
+
+10% chance on knife hit to knock the player into the air and then stun the player for 1 second
+
+Hyakkishu- Hundred Devil Attacks (Demon Flip)
+
+85% gravity, 1.35 Move speed
+
+Tatsumaki Zankukyaku- Tornado Air Slashing Kick
+
+10% chance on knife hit to deal 100% of knife damage and stun enemies in ward range for 1 second.
+
+Ashura Senkuu- Asura Flashing Sky
+
+Ability, grants Gouki invuln and 1.65 movespeed for 2 seconds. 12 second C/D
+During this time Gouki blinks red and leaves a red fiery trail.
+
+Shin Shun Goku Satsu- True Instant Hell Murder (Wrath of The Raging Demon)
+
+Ultimate, Gouki becomes invuln and gains 1.65 movespeed for 2 seconds, on knife hit during this both the enemy and gouki become invuln and stunned for 4 seconds, every player is blinded, the knifed enemy then takes damage equal half of their current life + 27 or 50 damage (Whichever is higher), after the damage is dealt all players are unblinded.
+Upon activation Greentext in chat says "Prepare Yourself!", On Knife hit Greentext in chat says "Isshun Sengeki, One Thousand Strikes, One Blink"

@@ -1,0 +1,17 @@
+A.R.K.- M.A.R.S.
+
+Spawns with an M4 and usp
+
+Hyper reality visor- puts a dot in your view to mark where every enemy is, like wall hacks. you cannot shoot while this is activated. the dot lasts 6 seconds. ability2 15 second CD
+
+Android circuitry- Spawn with 137 HP and 25% damage reduction.
+
+Swarm Rocket- gives mars a 2 shot AWP enemies take 100 damage if they are hit or near where the bullets hit. can only be used once per round unless heavy weapon refill is used. ability4
+
+Heavy weapon refill- resets the cooldown of swarm rocket. can only be used once per round. ability3
+
+Ammuniton pod- refills your entire teams ammo for their guns to full and gives them each 2 frag grenades. this can only be used once per round. ability
+
+Frag grenade- spawn with 1 grenade that deal 25 extra damage
+
+Proximity mine- lay an invisible ward that deals 100 damage when stepped on. can only be used once unless ammunition pod is used. ultimate 

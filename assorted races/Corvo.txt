@@ -1,0 +1,8 @@
+The Dishonored Corvo
+
+Agility- increased speed and double jump (ability3)
+Vitality- Increased Hp and armor, HP regens when below 100.
+Blink- instantly teleport to your crosshair (ability)
+Possess- swap places with targert enemy (ability2)
+Dark Vision- spawn with nightvision, while night vision is on, enemies leave a trail.
+Loyalist support- while your knife is out you are 80% invisible, while the usp is out you are 50% invisible.

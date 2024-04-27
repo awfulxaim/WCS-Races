@@ -1,0 +1,17 @@
+Evangelion EVA-01
+
+AT Field- Eva absorbs all damage less than 23, however if the attack will deal more than 23 damage Eva takes full damage from it. Grants armor on spawn.
+
+Berserk- when health drops below 25 become invulnerable, gain 200% speed, restricted to knife, and blinded, for 10 seconds.
+
+S2 Engine- Spawn each round with continually more speed. 105%, 110%, 115%, 120%, etc.
+
+Hunger- On kill gain 5 HP, spawn the next round with all of your collected kill HP.
+
+Spear of Longinus- Eva's attacks cannot be evaded or reduced.
+
+Rifle training- Spawn with an AWP, AUG, or Famas.
+
+N2 Mine- Lay up to one ward at a time, these wards deal 40 damage instantly to the first person to walk into range of it.
+
+Instrumentality- Ult. Kill yourself to instantly end the round. Maybe slays everyone, or if possible just grants the team with the most living players the win and ends the round.

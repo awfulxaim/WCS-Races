@@ -1,0 +1,5 @@
+Arena Master
+
+Railgun- 100% chance to spawn with a scout
+Long Jump Module- 1.25 speed, extremely small long jump
+Instagib- 100% chance on hit to kill. Ultimate

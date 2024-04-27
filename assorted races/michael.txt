@@ -1,0 +1,10 @@
+Michael
+Can wield any weapon.
+Expertise- level 100, gain 15 HP on teammate death.
+
+Purification- shots with the deagle deal an additional 25% damage
+Celestia- increased speed up to 1.4
+Wings of the Omnipotent- 200% long jump.
+Faith- spawn with up to 150 HP and ultimate immunity.
+Blessed Blade- spawn with a desert eagle with up to 14 shots.
+Godhand- Instantly teleport to a nearby location, for 2 seconds all knife attacks deal 300% damage.

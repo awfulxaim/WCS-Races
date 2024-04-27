@@ -1,0 +1,10 @@
+Raigor Stonehoof
+
+Fissure- stun every enemy in a line to where you aim.
+ability
+
+Enchant totem- +damage on hit
+
+Aftershock- stun and damage nearby enemies when an ability procs or is activated.
+
+Echoslam- Damage enemies in an area around you, if it hits an enemy, then it deal damage to enemies in an area around them, spreading until it does not hit another enemy.

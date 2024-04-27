@@ -1,0 +1,19 @@
+Grendel- K. Moreau
+
+Spawns with m249 and usp
+
+Hyper reality visor- puts a dot in your view to mark where every enemy is, like wall hacks. you cannot shoot while this is activated. the dot lasts 10 seconds ability2 15 second CD
+
+Customized armor- spawn with 150 HP and 12% damage reduction.
+
+Trident Minigun- M249 firerate is increased and it gains an additional 900 rounds.
+
+Ammunition Pod Mk1- resets the ammo of you and your teammates guns to max and gives each player 2 frag grenades and a smoke grenade. can only be used once per round. ability
+
+Frag grenade- Spawn with one frag that deals 25 extra damage.
+
+He grenade- Spawn with one frag grenade that deals 50 extra damage.
+
+Digi grenade- Spawn with one smoke grenade that blinds enemies for 5 seconds when they step into them.
+
+Proximity mine- lay one invisible ward that deals 100 damage when it is stepped on by enemies. can only be used once per round unless ammunition pod is used. ultimate
