@@ -1,0 +1,22 @@
+Race Name: The Hidden
+Weapon Restrictions: Restricted to the knife and nades it spawns.
+
+The Hidden spawns with 35% damage reduction passive.
+
+---Feed: Eat the corpse of your victims, regaining lost stamina.---
+Root yourself, become totally visible, gain 2/2/4/4/6/6/8/10 HP per second until deactivated or to a max of 100 HP, when deactivated or HP max is reached regain invisibility and movement. (ability2) 30 second C/D, Toggle ability2
+
+---Pounce: Leap onto foes with savage vigor.---
+Teleport, when maxed it is the same as a level 1 Beholder (Same as Observer, I think) Relocate. (ability) 1 Second C/D
+
+---Enhancement: The scientist's work was not a total failure.---
+Take 13/26/39/52/65/78/91/100% less fall damage.
+
+---Subject 617: Even failed experiments gain something from the dreadful procedure.---
+Spawn with 12/24/36/48/60/72/84/96% invisibility including the knife.
+
+---Pipe Bombs: If you can't find a weapon, make one.---
+Spawn with 1/1/1/1/2/2/2/3 grenades.
+
+---Wall Grab: Clutch the walls, awaiting your prey..---
+Stun yourself, use again to deactivate, you can stay stunned up to a maximum of 2/2/4/4/8/8/16/Infinite seconds. (ultimate) No C/D 

@@ -1,0 +1,27 @@
+Sylvanas Windrunner
+
+Restricted to Scout, TMP, Mac-10, AK47, M4, and USP. Spawns with USP. Can pick up bomb and kit.
+
+Meld- Meld into the shadows.
+
+8/16/24/32/40/48/56/64% Invisibility
+
+Impulse- Become enraged when attacked.
+
+5/10/15/20/25/30/35/40% chance when hit to increase speed by 6/12/18/24/30/36/42/50% for 1/1/2/2/3/3/3/4 seconds.
+
+Mend- Heal yourself of previous battle wounds.
+
+Spawn with 106/112/118/124/130/136/142 HP.
+
+Reach- Swiftly pounce upon foes.
+
+Long jump, same as Ninjas from AZ, really high and really far.
+
+Frost- Freeze your enemies to the core.
+
+6/8/10/12/14/16/18/20% chance on hit to stun the enemy.
+
+Drain- Drain the lifeblood of your adversary.
+
+6/9/12/15/18/21/27/30% chance on hit to regain 8/12/16/20/24/28/32/36% of the damage you dealt back in the form of HP. (30% chance to life steal 36% of damage you deal.)

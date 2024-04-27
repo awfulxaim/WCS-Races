@@ -1,0 +1,27 @@
+Race Name: Observer
+
+Spawns with and is restricted to P228, has 25 HP, and is immune to wards, ultimates, abilities, and skills.
+
+Light Distortion: Distort light in your favor, granting you invisibility.
+
+100% Invisibility not including pistol.
+
+Relocate: Warp to a given location.
+
+Far Teleport. (ability)
+
+Command Aura: Increase the damage of your teammates.
+
+Added damage.
+
+Anti-Reveal: Prevent inferior enemies from revealing you.
+
+100% chance to spawn with Reveal immunity, if Observer is higher level than the enemy casting Reveal.
+
+Eclipse: Darken the vision of those you view.
+
+Enemies screens are darkened, like the darkness skill from Nightstalker, for 10 seconds. (ability2) 20 second Cooldown
+
+Deprive: Strip the opponent of all worldly possessions.
+
+8% chance on hit to make enemy drop all items they're carrying, this includes kit, bomb, grenades, guns, and knife.

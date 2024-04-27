@@ -1,0 +1,35 @@
+Deathwing (7 skills/8 levels per skill) level 5000 race
+
+Skill names: Shadow Flames, Death Pulse, Tail Lash, Infernal Eruption, Immolation, Death Aspect, Shadowburn, Cataclysm
+
+Shadow Flames: The flames of The Sundering have forged strong armor. 
+
+Spawn with 250 HP
+
+Death Pulse: An orb of nothingness is left in your wake.
+
+20% chance on kill to turn that person into a blackhole, you gain exp for the blackhole kills, and enemies who are sucked in can become blackholes too. the balckhole lasts about 2 seconds.
+
+Tail Lash: Swat away the tiny beings who dare to stand in your way.
+
+Mirror damage and immunity to knife attacks.
+
+Infernal Eruption: The ground beneath you erupts into dark flames.
+
+Lay 2 wards that deal 25 damage per second and burn you.
+
+Immolation: Burn your enemies to ash
+
++burn and impale
+
+Death Aspect: Become Deathwing, The Sunderer, and Move with the speed of death itself.
+
+150% speed 
+
+Shadowburn: Burn your enemies to the very core, destroying their very existence.
+
+20% chance on hit to burn the enemy dealing 20 damage over time, this damage also spreads to all enemies near the effected player, this effect deals 2x damage if the player is near one of his teammates, 3x if he is near 2 teammates, 4x if he is near 3 teammates, etc.
+
+Cataclysm: Begin The Sundering, end this world.
+
+Knock the entire enemy team into the air high enough to take fall damage, this happens once every 2 seconds and happens up to 5 times, deal 40 damage instantly to each of enemy when cast, and set them on fire for an additional 20 damage during the knock up.
