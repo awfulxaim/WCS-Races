@@ -8,7 +8,7 @@ ability1: all enemies are revealed, dealt 2/2/3/4 damage per second, and lose 10
 Shukuchi
 ability2: Weaver becomes 100% invis and his speed is set to 2.00 for 4 seconds, during this time Weaver is disarmed. Enemies that enter ward range of Weaver take 9/11/13/15 damage. 12/10/8/6 second CD.
 
-Germinate attack
+Geminate attack
 Every 6/5/4/3 seconds Weaver's next attack will do 2x damage.
 
 Time Lapse
