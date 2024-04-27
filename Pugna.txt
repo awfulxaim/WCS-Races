@@ -1,0 +1,15 @@
+Pugna the Oblivion
+
+Deagle only
+
+Nether Blast
+ability1: Deals 10/18/25/33 damage to all enemies in ward range after a 1 second delay. 5 second CD.
+
+Decrepify
+ability2: target enemy is disarmed, invulnerable to regular attacks, slowed by .5, and takes 50% increased damage from abilities and ultimates for 2/2.5/3/3.5 seconds.
+
+Nether Ward
+Enemies that stay in nuke range of Pugna lose 15/30/45/60$ per second. When any of those enemies cast an ability or ultimate they take .75x its cooldown as damage.
+
+Life Drain
+Ultimate: Pugna is rooted for 10 seconds or until target enemy leaves nuke radius of Pugna. Target enemy takes 12/18/24/30 damage per second until they leave nuke radius of Pugna. Pugna is healed for the damage dealt over time. Max HP of 100. if Pugnas HP is maxed the damage dealt over time is granted to pugna as money. 22/22/22/0 second CD.

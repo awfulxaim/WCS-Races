@@ -1,0 +1,13 @@
+Vol'jin Zharvakko, Witch Doctor
+
+Paralyzing Cask
+ability1: Target enemy is stunned for 1 second, if there is an enemy in ward range of the target enemy that enemy is also stunned for 1 second after a 1 second delay, then if there is an enemy in range of that enemy, and so on. each enemy stunned is also dealt 5 damage. Bounces up to 2/4/6/8 times. 20/18/16/14 second CD.
+
+Voodoo Restoration
+Witch doctor and all teammates in ward range of witchdoctor are healed for 2/2/3/4 HP per second.
+
+Maledict
+ability2: lays a ward where you aim that debuffs all enemies caught in it. ward lasts 1 second. the debuffed enemies take 2/3/5/6 damage every 3 seconds for 12 seconds. while the enemy is debuffed every time they have lost 10 HP they take an additional 2/2/3/4 damage. 35 second CD.
+
+Death Ward
+Ultimate: Lays a ward that deals 6/9/12/15 damage per .25 seconds and lasts 8 seconds. For this ward's duration Witch Doctor is stunned. At max level enemies damaged by a death ward will spawn a new death ward underneath them. Maximum of 4 death wards at once. 80 second CD.

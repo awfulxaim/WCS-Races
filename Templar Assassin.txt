@@ -1,0 +1,15 @@
+Lanaya, Templar Assassin
+
+knife only until psi blades is leveled.
+
+Refraction
+ability1: for the next 17 seconds or 3/4/5/6 attacks, Lanaya takes 0 damage when hit. She also deals 20/40/60/80 extra damage on hit for the same amount of time or attacks. 17 second CD.
+
+Meld
+ability2: Lanaya becomes 100% invis and rooted until she attacks. this attack deals 5/10/15/20 extra damage and removes 20/40/60/80 armor from that enemy and they take 20% increased damage for 10 seconds. 7 second CD.
+
+Psi Blades
+Grants use of the deagle. 100% chance on hit to deal 100% of the damage to a random enemy in knife/ward/>ward/nuke radius behind that enemy.
+
+Psionic Trap
+ultimate: lays an invisible ward where you aim. When you activate this again, enemies in that wards range are slowed by .3 and then slowed by an additional .05 per second until they are slowed by .5.  11/9/7/0 second CD.

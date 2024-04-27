@@ -1,0 +1,16 @@
+Razor, Lightning Revenant
+
+Pump shotgun only
+
+Plasma Field
+Ability1: all enemies in ward range of you take damage based on their distance from you. Reveals all enemies hit bu Plasma Field. Enemies are hit twice by this. minimum damage 3x2/5x2/7x2/9x2.
+Maximum damage 8x2/12x2/15x2/19x2. 14 second CD.
+
+Static Link
+ability2: Debuff target enemy. The debuff remains for 8 seconds or until they leave ward range of Razor. This debuff reduces that enemy's damage by 7/14/21/28 per second. For 18 seconds all damage that was taken from the enemy is added to Razor's attacks. 25 second CD
+
+Unstable Current
+100% chance when hit to slow the enemy by 1.00 for .4/.8/1.2/1.6 seconds and deal 4/7/10/13 damage to the enemy who hit you. Razor spawns with +.04/.08/.12/.16 speed.
+
+Eye of the Storm
+Ultimate: for the next 30 seconds any enemy who comes into ward range of Razor will take 4/5/6/7 damage and lose 10 armor every 1/.75/.5/.25 seconds. 80/70/60/50 second CD.

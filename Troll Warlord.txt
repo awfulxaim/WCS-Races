@@ -1,0 +1,15 @@
+Jah'rakal, Troll Warlord
+
+Deagle only.
+
+Berserker's Rage
+Toggle, ability1: While active, Troll is restricted to knife only and granted +15 damage on hit, +100 HP, +30 armor and 10% damage reduction, +.1/.2/.3/.4 speed, 10% chance on hit to stun for 1/1.2/1.6/2 seconds and deal an additional 1/2/3/4/5 damage.
+
+Whirling Axes
+ability2: while Berserker's rage is not active, all players in a ward are right in front of you take 8 damage and are slowed by .3 for 3/4/5/6 seconds. 20 second CD. While Bersker's rage is active,  for 4 seconds all enemies that enter ward range of Troll take 8/13/18/23 damage and have a 60% chance on hit to miss for 4/5/6/7 seconds. 12 second CD.
+
+Fervor
+100% chance on hit to gain a stack of fervor each time you hit the same enemy. Fervor stacks grant .2 speed per stack. Max stacks 2/3/4/5. Stacks are dropped to 0 if you hit a new enemy.
+
+Battle Trance
+Ultimate: All teammates and yourself are granted a new weapon and the ability to use that weapon based on their current weapon for 4/5/6/7 seconds. If they are wielding a knife they are granted a mac10 and if they are using any other weapon they are granted an mp5. 30 second CD.

@@ -1,0 +1,13 @@
+Raijin Thunderkeg, Storm Spirit
+
+Static Remnant
+ability1: lays a claymore that lasts 12 seconds. if an enemy steps on it they take 14/18/22/26 damage. 3.5 second CD.
+
+Electric Vortex
+ability2: target enemy is pulled toward you and unable to do anything for 1/1.5/2/2.5 seconds. You are slowed by .5 for 3 seconds. 21/20/19/18 second CD
+
+Overload
+when storm spirit casts an ability or ultimate his next attack deals 3/5/7/9 extra damage which is also dealt to all enemies in ward range of that enemy. all enemies affected by overload are slowed by .8 for 1 second.
+
+Ball lightning
+Ultimate: Human alliance style teleport, While teleporting storm spirit is invulnerable. deals 8/12/16/24 damage to all enemies in ward range of where he lands. costs 150$ +7% of your money to cast. 0 second CD.

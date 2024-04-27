@@ -1,0 +1,15 @@
+Ymir, the Tuskarr
+
+knife only
+
+Ice Shards
+ability1: Target enemy takes 7/14/21/28 damage and a wall is spawned directly behind him that lasts for 5 seconds. if no enemy is targetted the wall spawns where you aim. 18/16/14/12 second CD.
+
+Snowball
+ability2: Tusk and all teammates in ward range of Tusk are sucked toward target enemy for 3 seconds. Tussk next attack on that enemy deals 8/12/16/20 damage and stuns that enemy for .5/1/1.5/2 seconds. This attack also deals 4/8/12/16 damage to all enemies in ward range of that enemy and stuns them for 1 second. 21 second CD.
+
+Frozen Sigil
+Enemies that step into ward range of Tusk are slowed by .33/.46/.6/.75 while in that range
+
+Walrus Punch
+Ultimate: Once activated Tusk's next attack will shoot the enemy into the air, then push them back into the ground. This attack also deal 3x/3x/3x/4x damage and slows them by .4 for 2/3/4/5 seconds. 36/30/24/18 second CD.

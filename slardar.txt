@@ -1,0 +1,15 @@
+Slardar, Slithereen Guard
+
+knife only
+
+Sprint
+ability1: for 20 seconds Slardar gets +.2/.28/.36/.44 speed but takes 15% increased damage. 28 second CD.
+
+Slithereen Crush
+ability2: all enemies in ward range take 5/10/15/20 damage and are stunned for 1/1.5/2/2.5 seconds. 8 second CD.
+
+Bash
+10/15/20/25% chance on hit to stun the enemy for 2 seconds and deal 4/5/6/7 extra damage.
+
+Amplify damage
+Ultimate: Target enemy loses all their armor. They also are revealed and take 10/15/20/25% more damage for 25 seconds. 10 second CD.

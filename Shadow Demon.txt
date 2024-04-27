@@ -1,0 +1,13 @@
+Eredar, Shadow Demon
+
+Disruption
+ability1: target enemy or teammate or self is stunned and invulnerable for 2.5 seconds. If the target is an enemy after the invulnerability that enemy will take 2 damage per second for 5/6/7/8 seconds. if the target is a teammate or yourself they are granted 33% chance to evade for 5/6/7/8 seconds. 25/22/19/16 second CD.
+
+Soul Catcher
+ability2: a random enemy in ward range of the area you aim at is debuffed to take 20/30/40/50% extra damage. this damage is dealt .5 seconds after they are hit.
+
+Shadow Poison
+75% chance on hit to deal 5 extra damage and put a poison stack on the enemy. each stack put on them after the first deals an additional 2/4/5/7 damage. when a stack is added all stacks timers refresh. after 10 seconds the stacks fall off and deal another instance of damage equal to 1/2/4/8 times the number of stacks on the enemy. 6 stacks maximum.
+
+Demonic Purge
+ultimate: target enemy is slowed and loses all buffs. their HP is set to 100 if their HP is above 100. their armor is set to 0. their speed is set to .2 and slowly recovers up to 1.0 over 5 seconds. and finally they take 20/30/40/50 damage. 50 second CD.

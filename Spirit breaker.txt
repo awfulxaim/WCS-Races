@@ -1,0 +1,15 @@
+Barathrum the Spirit Breaker
+
+knife only
+
+Charge of Dakrness
+ability1: Targets a random enemy. after a delay based on their distance from you spirit breaker is teleported to the target enemy, if that enemy dies before the delay is up a new enemy is targeted. When spirit breaker teleports to the enemy that enemy and all enemies in nuke radius of him are stunned for 1.2/1.6/2/2.4 seconds. 35 second CD.
+
+Empowering Haste
+You spawn with +.06/.10/.14/.18 speed.
+
+Greater Bash
+17% chance on hit to stun the enemy for 1/1.2/1.4/1.6 seconds and grant spirit breaker +.15 speed for 3 seconds. The stunned enemy takes damage equal to 10/15/20/25% of your speed.
+
+Nether Strike
+Ultimate: after a 1.2 second delay in which spirit breaker is immune to abilities and ultimates, spirit breaker teleports behind the target enemy greater bashes them and deals an additional 15/25/35/45 damage. nuke radius cast range. 75/75/75/25 second CD.

@@ -1,0 +1,13 @@
+Rhasta, The shadow Shaman
+
+Ether Shock
+8% chance on hit to deal 14/20/26/32 extra damage and deal this extra damage to all enemies in ward range of that enemy. at level 1 this spell does not deal damage to the extra enemies. Maximum enemies hit 1/3/5/7.
+
+Hex
+ability1: target enemy is slowed to .2, disarmed, silenced, and is turned into a chicken for 1/2/3/4 seconds. 13 second CD.
+
+Shackles
+ability2: Targete enenmy and yourself are stunned for 2.5/3.25/4/5 seconds. while the enemy is stunned he takes 4 damage per second. 16 second CD.
+
+Mass Serpent Ward
+Ultimate: Lays 10 wards in a huge circular pattern covering roughly nuke radius around you. These wards last 40 seconds and deal 7/9/11/13 damage per 2 seconds. 110 second CD.

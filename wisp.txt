@@ -1,0 +1,13 @@
+Io, The Guardian Wisp
+
+Tether
+ability1: target teammate and yourself are granted +.17 speed. When you are healed your targetted teammate is granted 1.5x that health. When you get a kill your teammate is granted 1.5x the money from it. If an enemy crosses between the two of you they are slowed by 1.00 for 1/1/2/3 seconds. lasts 12 seconds. If the target teammate leaves nuke radius from you tether ends. 12 second CD
+
+Spirits
+ability2: Grants 5 charges of spirits. Enemies outside of ward radius but inside of nuke radius take 3/5/6/10 damage. Every time an enemy is damage by this ability a spirit charge is used. when all spirit charges are used up or if 19 seconds have passed the ability ends. 20/18/16/14 second CD. When spirits is activated a menu is brought up with the options spirits in and spirits out. If spirits in is chosen then only enemies in ward range are hit. if spirits out is chosen then only enemies outside of nuke radius are hit. if the menu is just closed then the default range is chosen.
+
+Overcharge
+Io spawns with +.4/.5/.6/.7 speed. Io spawns with 5/10/15/20% damage reduction.
+
+Relocate
+Ultimate: Teleports you and anyone you are tethered to the place you are aiming after a 2.5/2/1.5/1 second delay. After 12 seconds you are teleported back to where you cast relocate. 90/75/60/30 second CD.

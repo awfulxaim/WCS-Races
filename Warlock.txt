@@ -1,0 +1,15 @@
+Demnok Lannik, Warlock
+
+five-seven only
+
+Fatal Bonds
+When an enemy is dealt damage by warlock the 3/4/5/6 closest enemies to that enemy is dealt 20% of the damage dealt.
+
+Shadow Word
+ability1: target player or self is healed or damaged for 2/3/4/5 HP per second for 9 seconds. 16 second CD.
+
+Upheaval
+ability2: lays a ward where you aim that slows enemies by .21/.42/.63/.84 while in the ward and for 3 seconds after leaving the ward. 50 second CD.
+
+Chaotic Offering
+Ultimate: after a .5 second delay, fires a nuke where you aim, this nuke deals 3/4/5/6 damage per second for 60 seconds and stuns for 1 second. This nuke also has a 60% chance on cast to deal an instant 10/15/20/25 damage to enemies in ward radius at the center of the nuke. 165 second CD.

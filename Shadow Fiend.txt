@@ -1,0 +1,16 @@
+Nevermore, The Shadow Fiend
+
+Shadowraze Near
+ability1: deals 8/15/23/30 damage to all enemies in ward radius of a point at the edge of ward radius in front of you. 10 second CD.
+
+Shadowraze Far
+ability2: deals 8/15/23/30 damage to all enemies in ward radius of a point at the edge of nuke radius in front of you. 10 second CD.
+
+Necro Mastery
+100% chance on kill to grant Shadow Fiend 6 souls. These souls persist through the entire map. On death He loses half of his current souls. Each soul grants 1 additional damage on hit. Max of 12/20/28/36 souls.
+
+Presence of the Dark Lord
+Enemies that enter ward range of Shadow Fiend lose 30/40/50/60 armor.
+
+Requiem of Souls
+Ultimate: Passively when Shadow Fiend dies he deals 8/12/16/20 x 25% of his souls to all enemies in nuke radius. When activated after a 1 second delay in which Shadow Fiend is stunned all enemies in nuke radius take 8/12/16/20 damage x half his current number of souls and slows all affected enemies by .2 for 5 seconds and reducing their damage dealt by 50% for the same duration. 120/110/100/90 second CD.

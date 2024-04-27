@@ -1,0 +1,13 @@
+Shendelzare Silkwood, Vengeful Spirit
+
+Magic Missile
+ability1: target enemy is stunned for 1.5/1.6/1.7/1.8 seconds and deal 10/18/25/33 damage. 10 second CD.
+
+Wave of Terror
+ability2: all enemies in a stright line in front of you take 3/5/7/9 damage and lose 20/30/40/50 armor. Affected enemies also take 30% increased damage for 20 seconds.
+
+Vengeance Aura
+Teammates in nuke radius and Vengeful Spirit deal 12/20/28/36% increased damage.
+
+Nether Swap
+Ultimate: Vengeful Spirit and target enemy or teammate swap places instantly. 45/45/45/10 second CD.

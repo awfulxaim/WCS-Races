@@ -1,0 +1,15 @@
+Crixalis, the Sand King
+
+knife only
+
+Burrowstrike
+ability1: Sand king teleports to target point aimed at, any enemies between you and that point are stunned for 2 seconds and take 10/16/22/28 damage. 11 second CD.
+
+Sand Storm
+ability2: Sand king is rooted for 1 second. As soon as Sand Storm is activated Sand King becomes 100% invis. If sand king moves the invis is removed. While Sand King is invis enemies that come into ward range are dealt 3/5/8/10 damage per second while they stay in range. lasts 20/40/60/80 seconds. 40/30/20/10 second CD.
+
+Caustic Finale
+100% chance hit to debuff the enemy for 8 seconds. if that enemy dies while debuffed all enemies in ward range of the killed enemy takes 9/13/17/22 damage.
+
+Epicenter
+Ultimate: for 2 seconds Sand king is stunned. after the 2 second stun he begins sending out damage pulses. the first pulse is knife range, second pulse is ward range and the third and beyond are nuke radius. each pulse deals 11 damage. pulses happen every .5 seconds. Enemies hit by a pulse are slowed by .3 for 3 seconds. 6/8/10/12 pulses. 140/120/100/80 second CD.

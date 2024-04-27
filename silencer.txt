@@ -1,0 +1,13 @@
+Nortrom, the Silencer
+
+Curse of the Silent
+ability1: lays a ward where you aim that lasts 1 second. Debuffs all enemies that enter the ward. this debuff casues enemeis to lose 90/160/240/320$ per second and take 2/4/6/7 damage per second for 6 seconds or until they cast an ability or ult. 28/18/16/14 second CD.
+
+Glaives of Wisdom
+100% chance on kill to get 2 stacks of Intelligence. 100% chance on hit to deal extra damage equal to 30/45/60/75% of your stacks of intelligence.
+
+Last Word
+ability2: target enemy is debuffed. if they cast an ability or ult in the next 5 seconds they lose the ability to cast abilities or ults for the next 3/4/5/6. if they do not cast an ability or ult while debuffed they are then sielnced and disarmed for 3/4/5/6 seconds. 36/28/20/12 second CD.
+
+Global Silence
+Ultimate: All enemies cannot cast abilities or ults for 4/5/6/7 seconds. At max level this applies curse of the silent debuff to all enemies as well. 140 second CD.

@@ -1,0 +1,15 @@
+Rizzrak, Dendrophobic Goblin
+
+knife only
+
+Whirling Death
+ability1: All enemies in ward range take 10/15/20/25 damage and have their damage reduced by 15% for 7 seconds. If a prop is in ward range of rizzrak the damage dealt is increased by 30%.
+
+Timber chain
+ability2: human style teleport with massive range. once acitvated rizzrak loses the ability to move on his own until he lands. All enemies that enter ward range of rizzrak while he is teleporting take 10/14/18/22 damage.
+
+Reactive Armor
+100% chance when hit to grant rizzrak a stack of reactive armor. reactive armor stacks last 16 seconds. Reactive armor grants 1 hp/sec, 10 armor and 5% reduction in damage taken per stack. max of 4/8/12/16 stacks.
+
+Chakram
+Ultimate: Lays a series of wards that lead to where you aim. these ward that lead up last only 1 second. The ward that appears where you aimed remains until you toggle this ability. Lead up wards deal 10/14/18/22 damage. the chakram ward deals 5/8/10/11 damage per second and slows by .2, when you toggle the ward deals an additioanl 10/14/18/22 damage and then disappears. when the chakram ward disappears the lead up ward then reappear in reverse order leading back to you. 0 second CD. costs 100/150/200/250$ per second chakram is active.

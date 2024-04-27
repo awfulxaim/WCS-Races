@@ -1,0 +1,15 @@
+Pudge, the Butcher
+
+Knife only
+
+Meat Hook
+ability1: mark target area. after a 2 second delay, the closest enemy or teammate between you and the marked area is pulled to you. if the affected player is an enemy they take 9/18/27/36 damage. 14/13/12/11 second CD.
+
+Rot
+Toggle, Ability2: enemies in ward range take 4/6/9/11 damage per second and are slowed by .20, Pudge also takes 4/6/9/11 damage per second while active.
+
+Flesh heap
+Pudge spawns with 6/8/10/12% reduced damage from abilities and ultimates. When an enemy dies in nuke radius of pudge he is granted 10/15/20/25 HP and a stack of Flesh. When Pudge spawns he spawns with +10/15/20/25 HP for each flesh stack he has.
+
+Dismember
+ultimate: You and target enemy in knife range are stunned for 3 seconds. The target enemy takes 8/13/18/23 damage per second + an instant amount of damage equal to the number of flesh stacks you have. You are healed for the damage dealt per second. 30 second CD.

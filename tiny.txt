@@ -1,0 +1,15 @@
+Tiny, the Giant Stone Golem
+
+knife only
+
+Avalanche
+ability1: lays a ward that deals 10/18/26/30 damage per second and stuns enemies that enter it for 1 second. Lasts 2 seconds. 17 second CD.
+
+Toss
+ability2: the closest player (not tiny) is shot high into the air then sucked toward target enemy. when that player lands the target takes 8/15/23/30 damage. if the thrown player is an enemy that player takes that damage plus an additional 20% damage. The same player you target may be thrown as well, if that happens he is simply thrown into the air then sucked to Tiny and dealt all the damage. 9 second CD.
+
+Craggy Exterior
+10/15/20/25% chance when hit to stun the enemy for 1.2/1.3/1.4/1.5 seconds and cause them to take 3/4/5/6 damage. Tiny spawns with 20/30/40/50 armor and 5/10/15/20% damage reduction.
+
+Grow
+passive ultimate: tiny's player model increases in size with each level. Tiny is granted +5/10/15/20 on hit, +.2/.4/.6/.8 speed on spawn, 35/50/65/80% increased toss damage, and at max level 100% chance on hit to deal 50% damage to all enemies in ward range of the enemy who was hit.

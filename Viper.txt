@@ -1,0 +1,13 @@
+Viper, Netherdrake
+
+Poison Attack
+50% chance on hit to slow the enemy by .1/.2/.3/.4 and deal 1/2/2/3 damage per second for 2 seconds.
+
+Nethertoxin
+When Poison Attack does not proc the enemy is dealt 3/5/8/10 extra damage. this damage is doubled for each 20 HP below 100 the enemy has.
+
+Corrosive skin
+100% chance when hit the enemy is slowed by .1/.15/.2/.25 and takes 1/2/2/3 damage per second for 4 seconds. for this duration Viper takes 10/15/20/25% reduced damage from abilities and ultimates.
+
+Viper strike
+Ultimate: Target enemy is slowed by .4/.6/.8/1.0 for 5 seconds at max level the enemy is also disarmed. That enemy also takes 6/10/15/21 damage per second for the same duation. 80/50/30/12 second CD.

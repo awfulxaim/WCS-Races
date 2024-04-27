@@ -1,0 +1,13 @@
+Boush, the Tinker
+
+Laser
+14% chance on hit to blind the enemy totally for 3 seconds and cause them to deal 100% reduced damage for that duration. the affected enemy also takes 8/16/24/32 extra damage.
+
+Heat-seeking missile
+ability1: the two closest enemies to tinker take 10/18/25/33 damage. 25 second CD.
+
+March of the Machines
+ability2: lays a huge nuke sized ward that deals 2/2/3/4 damage per second and lasts 6 seconds. 35 second CD.
+
+Rearm
+ultimate: all cooldowns associated with the player are reset after a 4/3/2/1 second delay in which tinker is stunned. costs 150/250/350/450$.

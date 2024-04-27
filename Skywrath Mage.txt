@@ -1,0 +1,13 @@
+Dragonus, Skywrath Mage
+
+Arcane Bolt
+ability1: Target enemy takes 6/8/10/12 + 1.6x your current kills. 5/4/3/2 second CD.
+
+Concussive Shot
+ability2: target enemy takes 5/10/15/20 damage and is slowed by .4 for 4 seconds. 20/18/16/14 second CD.
+
+Ancient Seal
+11% chance on hit to silence target and cause them to take 18/24/30/36% more damage from your abilities and ultimates for the next 3/4/5/6 seconds.
+
+Mystic Flare
+Ultimate: Lays a ward where you aim that lasts 2 seconds. Deals 30/90/120/150 damage per second divided by the number of enemies inside to each enemy inside. Costs 700/1150/1600$ to activate. 40/20/10/0 second CD.

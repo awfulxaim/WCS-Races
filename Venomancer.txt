@@ -1,0 +1,15 @@
+Lesale Deathbringer, Hydralisk Venomancer
+
+Usp only
+
+Venomous Gale
+ability1: 2 wards are summoned leading in the direction you aim. These wards last .5 seconds. All enemies caught in the wards are dealt 3/5/8/10 damage. Those enemies are then slowed by .5 for 15 seconds. Slowed enemies are deal 0/3/6/9 damage per 3 seconds for 15 seconds. 22 second CD.
+
+Poison Sting
+100% chance on hit to slow the enemy by .11/.12/.13/.14 and cause them to take 1/1/2/3 damage per second for 6/9/12/15 seconds.
+
+Plague Ward
+ability2: lays a ward and a crate where you aim, if the crate is destroyed the ward disappears, otherwise the ward lasts up to 40 seconds. ward deals 1/2/3/4 damage per second and causes the enemy to be afflicted with poison sting. 5 second CD.
+
+Poison Nova
+Ultimate: All enemies in nuke range of Venomancer are dealt 4/6/8/11 damage per second for 12/14/15/16 seconds, however Poison Nova will not bring an enemy below 1 HP. If the enemy has other dots on them, those dots may still kill them. 140/120/100/60 second CD.

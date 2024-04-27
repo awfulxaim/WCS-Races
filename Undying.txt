@@ -1,0 +1,15 @@
+Dirge the Undying
+
+knife only
+
+Decay
+ability1: all enemies in ward range of target area you aim at take 2/6/10/14 damage + 6 and deal 6 less damage for 40 seconds. Dirge is healed for 6x the number of affected enemies and will deal 6x the number of enemies in extra damage on hit for the next 40 seconds. After the 40 seconds run out the affected enemies are healed for 6 HP and dirge takes 6x the number of affected enemies in damage. 10/9/6/4 second CD.
+
+Soul Rip
+50% chance on hit to deal 3x the number of enemies and teammates in nuke radius of Dirge in damage to the enemy. 50% chance when hit to heal Dirge by 3x the number of enemies and teammates in nuke radius of Dirge. Max number of units 5/10/15/20.
+
+Tombstone
+ability2: lays a ward that increases in size with levels up to nuke size. this ward deals (4 damage per second times the number of seconds spent in the ward divided by 3) and slows all enemies that enter it by .1 for 15/20/25/30 seconds. If any enemy that enters the ward or is in the ward that has 5/10/15/20 or less hp they take 2x damage from the ward. ward lasts 15/20/25/30 seconds. 60 second CD.
+
+Flesh Golem
+Ultimate: for the next 30 seconds all enemies that stand in ward range of Dirge take 20/25/30/35% more damage and are slowed by .1 for as long as they stay in that radius. While Flesh Golem is active, when an enemy dies Dirge is healed for 8/8/8/13% of his current HP. 75 second CD.

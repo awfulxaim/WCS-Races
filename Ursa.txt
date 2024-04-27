@@ -1,0 +1,15 @@
+Ulfsaar, Ursa Berserker
+
+knife only
+
+Earthshock
+ability1: Enemies in ward range of Ursa take 9/14/19/24 damage and are slowed by .25/.35/.45/.55 for 4 seconds. 6 second CD.
+
+Overpower
+ability2: Ursa's next attack will cause enemies that stay in knife range of Ursa to take 25 damage per .5 seconds for 1.5/2/2.5/3 seconds. If Ursa does not hit an enemy in the next 15 seconds after activating overpower he loses the chance to deal the damage. 25 second CD.
+
+Fury Swipes
+Any time an enemy takes damage from Ursa, ability, ultimate, or regular knife attack the enemy gains a stacking debuff. this debuff causes the enemy to take 2/2/3/4 extra damage for each stack. stacks last 15 seconds. if the enemy is hit by ursa all stacks refresh.
+
+Enrage
+Ultimate: for the next 15 seconds all damage from Ursa, ability, ultimate, or regular knife attack is increased by 5/6/7/8% of Ursa's current life. 25 second CD.

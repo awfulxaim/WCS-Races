@@ -1,0 +1,13 @@
+Auroth, Winter Wyvern
+
+Arctic Burn
+ability1: For the next 6 seconds Winter Wyvern is granted flying, an autosnipe,r and 100% chance on hit to damage the enemy for 6% of the enemy's HP per second and slow the enemy by .25/.3/.35/.4 for 5 seconds. 50/40/30/20 second CD.
+
+Splinter Blast
+40% chance on hit to deal 10/18/26/34 damage to all enemies in ward range of the attacked enemy. Those enemies are slowed by .25 for 4 seconds. The enemy that was attacked is not affected by any of this.
+
+Cold Embrace
+ability2: target teammate or self is stunned, granted invulnerability, ulti, ward, and ability immunity, and 5/6/7/8 HP regen per second for 4 seconds. 27/16/15/14 second CD.
+
+Winter's Curse
+Ultimate: Target enemy is stunned for 2.5/2.75/3/3.5 seconds. All enemies in ward range of the target enemy are also stunned for the same amount of time. The target enemy is dealt 10x the number of non-target enemies stunned by winter's curse per second for the stun duration. 90/80/70/60 second CD.

@@ -1,0 +1,15 @@
+Sven, The Rogue Knight
+
+knife only
+
+Storm Hammer
+ability1: target enemy and all enemies in ward range of that enemy are stunned for 2 seconds and take 10/18/25/33 damage. 13 seconds CD.
+
+Great Cleave
+100% chance on hit to deal 20/35/50/65% of the damage to all enemies in ward range around you.
+
+Warcry
+ability2: all teammates in nuke radius gain 40/80/120/160 armor and .12 speed for 7 seconds. 36/30/24/18 second CD.
+
+God's Strength
+ultimate: for the next 25 seconds, sven will deal 2x/2.5x/3x/3.5x damage. 80 second CD.

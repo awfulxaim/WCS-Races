@@ -1,0 +1,13 @@
+Rubick, The Grand Magus
+
+Telekinesis
+ability1: Target enemy is lifted into the air and then stunned for 1.5/1.75/2/2.25 seconds. When they land all enemies in ward range of that enemy are stunned for 1/1.25/1.5/1.75 seconds. 22 second CD.
+
+Fade Bolt
+Ability2: target enemy takes 7/14/21/28 damage and has their damage reduced by 14/20/26/32 for 10 seconds. This ability will bounce to a random enemy in ward range, and continue bouncing until there are no more possible jumps. Cannot jump to the same enemy more than once. 16/14/12/10 second CD.
+
+Null Field
+Rubick takes 5/10/15/20% less damage from abilities and ultimates.
+
+Spell Steal
+Ultimate: When cast on an enemy you are granted the ability to cast the last ability or ultimate they used. After being cast for the first time consecutive casts bring up a menu asking whether you want to steal a new ability or cast the one you last stole. 20/18/16/5 second CD.

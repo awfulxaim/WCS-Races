@@ -1,0 +1,15 @@
+Skitskurr Anub'seran, Nerubian Weaver
+
+Famas only
+
+The Swarm
+ability1: all enemies are revealed, dealt 2/2/3/4 damage per second, and lose 10 armor per second for the next 8/12/16/20 seconds, or until they reload, whichever comes first. 36/33/30/27 second CD.
+
+Shukuchi
+ability2: Weaver becomes 100% invis and his speed is set to 2.00 for 4 seconds, during this time Weaver is disarmed. Enemies that enter ward range of Weaver take 9/11/13/15 damage. 12/10/8/6 second CD.
+
+Germinate attack
+Every 6/5/4/3 seconds Weaver's next attack will do 2x damage.
+
+Time Lapse
+Ultimate: When activated, Weaver is instantly teleported back to where he was 5 seconds ago, his HP is set to what is was back then and he loses all debuffs. 60/50/40/30 second CD.

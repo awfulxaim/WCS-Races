@@ -1,0 +1,15 @@
+Slark, Murloc Nightcrawler
+
+knife only
+
+Dark Pact
+ability1: after a 1.5 second delay all enemies in ward range take 8/15/23/30 damage and slark takes 4/7/11/15 damage and loses all negative debuffs and disables. 9/8/7/6 second CD.
+
+Pounce
+ability2: human alliance style teleport. after activating for the next 2 seconds your next attack will root the enemy for 3.5 seconds and deal an additional 7/14/21/28 damage. 20/16/12/8 second CD.
+
+Essence Shift
+100% chance on hit to deal an extra 3 damage and burn 30$, then reduce the damage the enemy deals by 3 and increase yours by 3 for 15/30/60/120 seconds. Stacks infinitely.
+
+Shadow Dance
+Passive and Active Ult: Passively, if slark has not been damaged in the past 2 seconds he will heal 3/5/7/9 HP per second and get +.3/.35/.4/.45 speed. When activated Slark becomes 100% invis which does not get removed when you attack or cast a spell and becomes invulnerable and is granted .3/.35/.4/.45 speed and 3/5/7/9 HP per second, all of which lasts 4 seconds. 65 second CD.

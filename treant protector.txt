@@ -1,0 +1,15 @@
+Rooftrellen, Treant Protector
+
+knife only
+
+Nature's Guise
+ability1: target teammate or self is granted 100% invis and +.1 speed while they are within ward range of a prop. This invis and speed is lost when treant protector attacks but not when he casts. invis and speed lasts 15/30/45/60 seconds. 10/8/6/4 second CD.
+
+Leech Seed
+20/40/60/80% chance on hit to slow the enemy by .28 for 4.5 seconds. deals 2/4/5/6 damage per second for 6 seconds. all of treants teammates in ward range of that enemy are healed for 3/5/6/8 HP per second for 6 seconds.
+
+Living armor
+ability2: The teammet with the lowest HP is granted 90% damage reduction on the next 4/5/6/7 hits against them and 4/7/10/13 hp per second for 15 seconds. 32/26/20/14 second CD.
+
+Overgrowth
+ultimate: All enemies in ward range are stunned for 3/4/4.5/6 seconds. 70 second CD.

@@ -1,0 +1,15 @@
+Kardel Sharpeye, Sniper
+
+five seven only until take aim is leveled.
+
+Shrapnel
+ability1: lays a ward where you aim that lasts 9 seconds. Slows enemies by .15/.2/.25/.3 and deals 1/2/4/5 damage per second. 15 second CD.
+
+Headshot
+40% chance on hit to deal 2/4/7/9 extra damage and stun the enemy for .5 seconds.
+
+Take Aim
+Restricts five seven and grants use of scout/aug/awp/auto-sniper.
+
+Assassinate
+Ultimate: Target enemy takes 36/51/66/81 damage after a 1.7 second delay. During that delay you are rooted. If you are killed before the delay is over they take no damage. 20/15/10/0 second CD.

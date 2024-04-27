@@ -1,0 +1,15 @@
+Leoric Ostarion, Skeleton King
+
+Knife only
+
+Hellfire Blast
+ability1: Target enemy is stunned for 2 seconds and takes 5/10/15/20 damage. after the two seconds are up the enemy is slowed by .2 for 4 seconds and takes 2/3/4/5 damage per seconds for the duration. 8 second CD.
+
+Vampiric aura
+Skeleton King and teammates in nuke radius of him have 15/20/25/30% lifesteal.
+
+Mortal Strike
+15% chance on hit to deal 1.25/1.75/2.25/2.75x damage.
+
+Reincarnation
+Passive Ultimate: every 999/260/160/60 seconds gains the ability to respawn at his corpse after a 3 second delay. When he respawns all enemies in nuke radius are slowed by .5 for 4 seconds. At level 1 skeleton king can only respawn once in a round.

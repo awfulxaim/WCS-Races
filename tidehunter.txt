@@ -1,0 +1,15 @@
+Leviathan, Tidehunter
+
+knife only
+
+Gush
+ability1: target enemy takes 11/16/21/26 damage and is slowed by .4 for 4 seconds. that enemy also loses 20/30/40/50 armor and takes 10% additional damage for the duration. 12 second CD.
+
+Kraken Shell
+100% chance when hit to reduce the damage taken by 9/18/27/36. When Tidehunter is at 40 hp or below he cannot be slowed, stunned, rooted, silenced, etc.
+
+Anchor Smash
+ability2: All enemies in ward range take 8/13/18/23 damage and deal 40% less damage for 6 seconds. 7/6/5/4 second CD.
+
+Ravage
+ultimate: All enemies in nuke radius are knocked into the air, take 20/33/45 damage and are stunned for 2/2/3/4 seconds. 150 second CD.

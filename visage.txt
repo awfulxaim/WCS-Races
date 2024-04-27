@@ -1,0 +1,13 @@
+Necro'lic The Visage Bound
+
+Grave chill
+ability1: target enemy's speed is reduced by .53, visage's speed is increased by the same amount for 3/4/5/6 seconds. 10 second CD.
+
+Soul Assumption
+ability2: passively grants Visage 1 soul for each 11 damage any player takes while in nuke range of Visage, to a maximum of 3/4/5/6 souls. Souls last 6 seconds. when activated target enemy takes 2+7x the number of souls visage has. 4 second CD.
+
+Gravekeeper's Cloak
+Visage is granted 1 stack of cloak every 12/10/8/6 seconds, up to 4 stacks. Each stack grants 10/20/40/50 armor, 5/10/15/20% damage reduction, and 3/6/12/16% damage reduction from abilities and ultimates. Each time Visage takes damage from anywhere one stack is removed.
+
+Stone Form Familiars
+Ultimate: Passively enemies that enter 2x a ward's size range of Visage are dealt 6/10/15/21 damage per second as long as Visage stays above 70/55/40/25 HP. when activated, after a 1 second delay, all enemies that are in that range are dealt 6/10/14/18 damage and stunned for 1/1.25/1.5/2 seconds and for the next 8 seconds Visage regens 5/7/9/11 HP per sec. 30 second CD.

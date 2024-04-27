@@ -1,0 +1,15 @@
+Lyralei Windrunner
+
+Scout only
+
+Shackleshot
+ability1: target enemy is stunned for 1 second. if there is another enemy in ward range of the target enemy instead both of those enemies are stunned for 1.5/2/3/4 seconds. If there is more than one enemy in range the closest one to the target is chosen. 12 second CD.
+
+Powershot
+While not attacking or moving Windrunner passively gains additional damage on her next attack up to 12/20/28/36 extra damage. Takes 1 second to fully charge.
+
+Windrunner
+ability2: Windrunner gains 100% evasion and +.5 speed for 3/4/4/5 seconds. Enemies that come into ward range of windrunner are slowed by .08/.16/.24/.3 while they are in range. 15 second CD.
+
+Focus Fire
+Ultimate: When activated Windrunner is granted an autosniper. Target enemy takes 50/40/30/20% less damage from windrunner. If windrunner attacks an enemy that is not the target she loses the autosniper and gets her scout back, and the enemy loses his damage reduction. Maximum duration with autosniper: 20 seconds. 60/60/60/15 second CD.

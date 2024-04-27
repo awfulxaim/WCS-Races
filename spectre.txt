@@ -1,0 +1,18 @@
+Mercurial, the Spectre
+
+knife only
+
+Spectral Dagger
+ability1: target enemy is deal 5/10/15/20 damage and is slowed by .05/.09/.14/.18 for 12 seconds. for this duration they leave a very long black ribbon animation behind them. While they are slowed Spectre's gains +.05/.09/.14/.18 speed and no-clip. 16 second CD.
+
+Desolate
+100% chance on hit to deal 2/4/5/7 extra damage when there are no additional enemies in ward range of the enemy you hit.
+
+Dispersion
+100% chance when hit to reflect 10/14/19/22% of the damage you take to all enemies in nuke radius.
+
+Reality
+ability2: can only be activated when ult is active. teleports you behind the lowest HP enemy on the map, that enemy will no longer take haunt damage however. 0 second CD.
+
+Haunt
+Ultimate: All enemies on the map are beaconed for 5/6/7/8 seconds and take 5 damage per second for that duration. 120 second CD.

@@ -1,0 +1,15 @@
+Rikimaru, Stealth Assassin
+
+knife only
+
+Smoke Screen
+ability1: Lays a ward that slows enemies by .25 and causes enemies who stand in it to have a 40/50/60/70% chance to deal no damage on hit. lasts 6 seconds. 13 second CD.
+
+Blink Strike
+ability2: teleports you behind target enemy and deals 3/6/9/12 damage to them. 20/15/10/5 second CD.
+
+Backstab
+When you attack an enemy from behind you deal +50/75/100/125% damage.
+
+Permanent Invisibility
+passive ultimate: Riki spawns with 100% invisibility. When riki attacks he is revealed for 4/3/2/1 seconds. Using abilities does not reveal riki.

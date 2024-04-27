@@ -1,0 +1,15 @@
+Zeus, Lord of Olympus in Heaven
+
+Five-seven only
+
+Arc Lightning
+ability1: target enemy is dealt 9/10/12/15 damage. if there is an enemy in ward range of the target enemy, he is dealt the same damage. if there is an enemy in ward range of this new target he is dealt the same damage as well, and so on. cannot bounce to the same enemy twice. bounces up to 5/7/9/15 times. 2 second CD.
+
+Lightning bolt
+ability2: target enemy is stunned for 1 second and dealt 10/18/28/35 damage. Enemies in nuke radius of that enemy are revealed. 6 second CD.
+
+Static Field
+When Zeus casts an ability or ultimate all enemies in nuke radius of Zeus lose 5/7/9/11% of their HP.
+
+Thundergod's Wrath
+Ultimate: Checks for enemies with 100% invis. Those enemies are revealed then granted ultimate immunity for .5  seconds. Then all enemies are dealt 35/48/54/64 damage. Centered text appears on all enemy screens, YOU CAN'T RUN FROM HEAVEN! 90 second CD.

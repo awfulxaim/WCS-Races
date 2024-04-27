@@ -1,0 +1,15 @@
+Akasha, Queen of Pain
+
+UMP only
+
+Shadow Strike
+8/12/16/20% chance on hit to slow target enemy by .2/.3/.4/.5 for 15 seconds, deal 5/8/10/13 extra damage, and deal 3/4/5/6 damage per 3 seconds for 15 seconds.
+
+Blink
+ability1: instantly teleport to where you aim. 12/10/8/6 second CD.
+
+Scream of Pain
+ability2: All enemies in ward range take 9/17/23/30 damage.
+
+Sonic wave
+Ultimate: All enemies in nuke radius in front of you take 35/48/53/73 damage after a 1 second delay. 135/100/70/40 second CD.
