@@ -1,0 +1,15 @@
+Magina, Prodigy Anti-Mage
+
+knife only
+
+Mana Break
+100% chance on hit to remove 28/40/52/64$ from enemy, 60% of that money is dealt in additional damage. If the enemy has no money they take no additional damage. max damage per hit per level is 17/24/31/38.
+
+blink
+ability1: instantly teleport to where you are aiming. range increases with each level. 12/9/7/5 second CD.
+
+Spell Shield
+Reduces all damage taken, (abilities, wards, ultimates, attacks) by 26/34/42/50%
+
+Mana Void
+Ultimate: target enemy and all enemies in ward range of him take 16000-the targets current money divided by 300/225/150/75 (based on skill level) damage. 70 second CD

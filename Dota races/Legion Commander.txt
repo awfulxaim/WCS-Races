@@ -1,0 +1,15 @@
+Tresdin, Legion Commander
+
+knife only
+
+Overwhelming Odds
+ability1: lays a ward where you aim that deals 6/12/18/24 (+ the number of enemies caught in it) damage per second for 1 second. Legion commander is granted +.12 speed for 7 seconds for each enemy caught in the ward. 18 second CD.
+
+Press The Attack
+ability2: target teammate or self is granted 3/4/5/6 hp per second and 60/80/100/120% faster knife speed for 4 seconds. 16/15/14/13 second CD.
+
+Moment of Courage
+16/18/20/22% chance when hit to deal 25 damage to the enemy and heal Legion Commander for 5/10/15/20 HP.
+
+Duel
+Ultimate: Target enemy and Legion Commander become invulnerable to all damage not dealt by each other. Legion Commander and the target enemy are silenced. Legion commander and the target enemy are black holed to each other for 4/5/6/7 seconds. If either player is killed the player who lives is granted 10/14/18/22 bonus damage on hit for the rest of the map. 50 second CD.

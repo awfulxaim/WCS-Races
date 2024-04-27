@@ -1,0 +1,13 @@
+Harbinger, The Outworld Destroyer
+
+Arcane Orb
+50% chance on hit to deal damage = to (your current money x .0006/.0007/.0008/.001)
+
+Astral Imprisonment
+ability1: target player, if no player is targeted yourself, is rendered invulnerable and stunned for 1/2/3/4 seconds. If that player is an enemy they have 40/60/80/100$ stolen and OD is granted 4/6/8/10 souls. 18/16/14/12 second CD.
+
+Essence Aura
+Passive: 10/20/30/40% chance when you cast any ability, ultimate, or your orb procs to be granted 75/150/225/300$.
+
+Sanity's Eclipse
+Ultimate: All enemies in nuke range of Harbinger take damage = to ((your money - their money) divided by 190/180/170/160) + your souls. If their money is equal to or greater than yours instead of dealing damage that enemy loses all their money. Costs 1750/2250/3250/4750$. 160 second CD.

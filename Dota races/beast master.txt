@@ -1,0 +1,18 @@
+Karroch Rexxar, Beastmaster
+
+knife only
+
+Wild axes
+ability1: Gives you a pump shotgun with one shot. That shot deals 9/12/15/18 extra damage. 13 second CD.
+
+Call of the wild
+ability2: level 1: beacons all nearby enemies for 6 seconds.
+level 2: beacons all nearby enemies for 7 seconds and slows them by .2 for 7 seconds
+level 3: beacons all nearby enemies for 8 seconds and slows them by .2 for 7 seconds
+level 4: beacons all nearby enemies for 8 seconds and slows them by .35 for 7 seconds
+
+Inner beast
+increases your speed by .18/.26/.32/.40
+
+Primal Roar
+Ultimate: stuns target enemy for 2/3/4/5 seconds and slows them by .5 for an additional 2/3/4/5 seconds afterward. That enemy takes 15/20/25/30 damage instantly 80/75/70/45 second CD

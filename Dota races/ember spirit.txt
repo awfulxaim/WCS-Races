@@ -1,0 +1,15 @@
+Xin, The Ember Spirit
+
+knife only
+
+Searing Chains
+ability1: 2 random enemies in ward range of ember spirit are rooted for 2/2/3/3 seconds and dealt 4/6/8/10 damage per second for that duration. 14/12/10/8 second CD.
+
+Sleight of Fist
+ability2: Enemies in ward range of target area take 3/6/9/12 damage. For 1 second, Ember Spirit is rooted, 100% invisible, and invulnerable.  30/22/14/6 second CD.
+
+Flame Guard
+10% chance when hit to reduce damage taken by 5/20/35/50. When this procs, for the next 8/12/16/20 seconds if any enemy enters ward range of Ember spirit that enemy takes 3/4/5/6 damage per second for every second they remain in that range.
+
+Fire Remnant
+Ultimate: Passively grants Ember spirit 1 stack of Fire remnants every 35 seconds. Ember Spirit spawns with 3 stacks. When activated Ember Spirit lays a ward, that is invisible to enemies, and lasts 45 seconds. Ember Spirit can have up to 3 wards layed at a time. When ember spirit tries to lay a ward while there are 3 already on the map all of the wards deal 10/15/20/25 damage to enemies in their range and then disappear. Ember spirit is then teleported to a random wards location before it disappeared.

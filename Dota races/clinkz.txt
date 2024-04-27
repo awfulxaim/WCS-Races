@@ -1,0 +1,15 @@
+Clinkz, the Bone Fletcher
+
+Autosniper only.
+
+Strafe
+ability1: for the next 4/6/8/10 seconds clinkz gains 1.3 speed.
+
+Searing arrows
+100% chance on hit to deal an additional 2/3/4/5 damage.
+
+Skeleton Walk
+ability2: Clinks becomes 100% invis for 20/25/30/35 seconds. While clinkz is invis he gains .11/.22/.33/.44 movespeed. If clinkz attacks or uses an ability he is revealed. 20 second CD.
+
+Death Pact
+Ultimate: target enemy or teammate is cursed. If the target dies, Clinkz gains 45/50/65/80 HP and 5/7/8/10 extra damage for 35 seconds. 45 second CD.

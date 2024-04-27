@@ -1,0 +1,16 @@
+Morphling
+
+WaveForm
+ability1: human alliance style teleport. Enemies in ward rnage of you while you are teleporting take 10/18/25/33 damage. 11 second CD.
+
+Adaptive Strike
+ability2: Target enemy takes 2/4/5/8 x your current level in Morph agility and is stunned for .25/.50/.75/1 x your current Morph Strength level.
+
+Morph Agility
+You deal 3/4/5/6 extra damage.
+
+Morph Strength
+you spawn with +30/40/50/60 HP
+
+Replicate
+Ultimate: Target teammate is granted the ability to respawn once if they die in the next 15/30/45/60 seconds. If activated again before cooldown you will be teleported instantly next to that teammate. 80 second CD.

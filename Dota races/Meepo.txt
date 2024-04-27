@@ -1,0 +1,20 @@
+Meepo Meepo Meepo Meepo Meepo, The Geomancers
+
+knife only, 5 meepos per team
+
+Earth bind
+ability1: roots all enemies in ward radius of the place you are aiming for 2 seconds.
+20/16/12/8 second CD.
+
+Poof
+Ability2: First use each round grants that player a "priority" which is announced in chat.
+ie. first meepo to use poof is announced as meepo 1 in chat the second is announced meepo 2 and so on. when cast for the second time in a round the meepo who cast it will teleport to the next meepo in priority, meepo 5 will teleport to meepo 1 however. when a meepo teleports he deals 5/10/15/20 damage to all nearby enemies where he teleported from and an additional 5/10/15/20 damage to all nearby enemies where he teleported to. 12/10/8/6 second CD
+
+Geostrike
+Passive. 100% chance on hit to slow the enemy by .05/.1/.15/.2 for 2 seconds and deal 2/5/7/9 damage per second for 2 seconds. Geostrike will stack with other meepos geostrikes.
+
+Divided We Stand
+Passive ultimate. If a meepo on your team has any points in this skill, if any meepo on your team dies all other meepos will suicide instantly. All meepos on your team spawn with 1.5 speed. If one meepo gets a kill they will all be granted experience and $ for it. All of the following stats this skill gives you will be granted and will stack with other meepos.
+--Spawn with +50/60/70/80 HP. For a maximum of 500 HP if all 5 meepos have level 4 ult.
+--100% chance on hit to deal 4/6/8/10 extra damage. for a maximum of 50 extra damage on hit if all 5 meepos have level 4 ult.
+--Spawn with 50/100/150/200 extra $. for a maximum of 1000 extra $ if all 5 meepos have level 4 ult.

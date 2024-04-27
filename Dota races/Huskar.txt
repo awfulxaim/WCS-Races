@@ -1,0 +1,13 @@
+Huskar, The Sacred Warrior
+
+Inner Vitality
+ability1: target ally or self is granted 2/4/6/8 hp/sec for 16 seconds. HP/sec is tripled if HP is below 40. 25 second CD.
+
+Burning Spear
+10% chance on hit to deal 1/2/2/3 damage per second to the enemy for 7 seconds, and cause Huskar to lose 15 HP. This ability can stack on itself.
+
+Berserker's Blood
+Every 13 HP lost grants Husakr a stack of Blood. Blood increases Huskar's movespeed by .08/.12/.16/.20 and reduces his damage taken by 4/5/6/7%. If Huskar is healed he loses a stack for  every 13 HP gained.
+
+Life Break
+Ultimate: Instantly teleports Huskar to target enemy. Huskar takes 40/35/30/25% of his current HP as damage and deals 50/50/50/65% of his targets current HP in damage to them. The target is slowed by .5 for 5 seconds. 45/30/15/4 second CD.

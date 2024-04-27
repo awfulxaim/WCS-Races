@@ -1,0 +1,15 @@
+Black Arachnia, Broodmother
+
+Knife only
+
+Spawn Spiderlings
+ability1: target enemy takes 8/15/23/30 damage and is slowed by .15 for 2 seconds. If that enemy dies while slowed, you are granted 1/2/3/4 extra damage for this map.
+
+Spin web
+ability2: lays a ward that heals only broodmother for 2/4/6/8 HP/sec and grants .2/.25/.3/.35 speed while you are in range. Broodmother is 100% invis while under its effects. you may lay up to 2/4/6/8 of these wards per round. 30 second CD
+
+Incapacitating bite
+100% chance on hit to slow the enemy by .1/.2/.3/.4 and cause them to have a 30/40/50/60% chance to deal no damage on attack for 2 seconds.
+
+Insatiable Hunger
+Ultimate: Broodmother deals 6/8/10 extra damage and has 100% chance on hit to lifesteal 40/60/80% of the damage dealt. Lasts 14 seconds. 45 second CD

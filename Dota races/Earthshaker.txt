@@ -1,0 +1,13 @@
+Raigor Stonehoof, The Earth Shaker
+
+Fissure
+Ability1: summons 3 walls after a one second delay, laid end to end in the direction you are facing. If any enemy is in ward range of any part of the walls they are stunned for 1/1.25/1.5/1.75 seconds and take 12/18/23/28 damage. The walls last 8 seconds. Can be used to make enemies stuck. 15 second CD.
+
+Enchant Totem
+Ability2: Earthshakers next attack will deal +10/20/30/40% damage. If Earthshaker hasn't attacked anyone after activating this for 14 seconds the buff is removed. 5 second CD.
+
+Aftershock
+Passive: When Earthshaker uses any of his abilities or ultimates enemies in ward range of Earthshaker take 5/8/10/13 damage and are stunned for 1/1/1/2 seconds.
+
+Echo Slam
+Ultimate: Checks for enemies in ward range of earthshaker. Any enemies in this range take (16/21/27/34 damage + (4/5/6/7 x the number of enemies in this area)). Then checks each enemy hit to see if there are enemies in ward range of them. They take (16/21/27/34 damage + (4/5/6/7 x the number of enemies in this area)). 150/130/110/90 second CD.

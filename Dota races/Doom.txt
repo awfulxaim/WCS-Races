@@ -1,0 +1,21 @@
+Lucifer, The World's Doom
+
+knife only
+
+Devour
+Passive: On kill, Doom is granted 25/50/75/100 extra $. Increases Critical Strike's damage to 125/150/175/200%. Increases chance to spawn with Packleader's Aura to 25/50/75/100%.
+
+Scorched earth
+ability1: for the next 10/12/14/16 seconds all enemies that get in ward range will take 1/2/3/4 damage per second. While this is active Doom is granted 1/2/3/4 HP regen per second and .16 speed. 60/55/50/45 second CD.
+
+LVL Death
+ability2: target enemy takes 13/18/23/28 damage plus 20 if that enemies level is a multiple of 6/5/4/3 or is level cap. 8 second CD.
+
+Critical Strike
+Passive: 5/10/15/20% chance on hit to deal X% more damage based on Devour's Level.
+
+Packleader's Aura
+Passive: X% chance on spawn (based on Devour's level) for all teammates to deal 15/20/25/30% extra damage.
+
+Doom
+Ultimate: Target enemy cannot be healed, cannot cast abilities or ultimates, and cannot buy or use items. Targetted enemy takes 5/7/8/11 damage per second for 16 seconds. While the enemy is in ward range of Lucifer the duration of the damage over time is refreshed. 110 second CD.

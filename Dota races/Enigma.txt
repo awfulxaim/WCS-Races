@@ -1,0 +1,13 @@
+Darchrow, Enigma
+
+Malefice
+15% chance on hit to cause the enemy to take 3/4/6/7 damage every 2 seconds for 6 seconds. When the enemy takes this damage they are stunned for 1 second.
+
+Demonic Conversion
+35% chance on kill that you will be granted 3/6/9/12 additional damage. If/when this procs for the third time in a single round your HP is set back to max.
+
+Midnight Pulse
+Ability1: Lays a ward that deals 4/5/6/7% of the hp that player had when they spawned last, in damage. lasts 8 seconds. 25 second CD.
+
+Black Hole
+Ultimate: Lays a ward that pulls in nearby enemies. Enemies take damage based on how close they are to the ward. Far enemies take 3/5/7/9 + 4/5/6/7% of the hp they had when they spawned last in damage per second. Enemies closer to the center take 6/10/14/18 + 4/5/6/7% of the hp they had when they last spawned in damage per second. Lasts 4 seconds. 200/190/180/170 second CD.

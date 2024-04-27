@@ -1,0 +1,19 @@
+Kunkka, The Admiral
+
+knife only
+
+Torrent
+ability1: after a 2 second delay all enemies in ward range of the area you aim at are knocked into the air and take 12/18/24/30 damage and are slowed by .35 for 1/2/3/4 seconds. 12 second CD.
+
+Tidebringer
+every 13/10/7/4 seconds, Kunkka's next attack will deal an additional 10/15/20/25 and all enemies in ward range behind the hit enemy will take 100% of the damage dealt to the enemy including the added damage. Diagram of area hit with tidebringer
+
+ _
+( ) <--- area hit by tidebringer
+ o  <-- hit enemy
+
+X Marks the Spot
+ability2: target enemy or friendly (or self if no target) will be returned to where they were standing when X was cast on them, after 1/2/3/4 seconds. 13 second CD.
+
+Ghost Ship
+Ultimate: after a 3 second delay, all enemies in nuke radius of where you aim take 30/40/50/60 damage and are stunned for 1.5 seconds and have their damage reduced by 50% for 8 seconds. As soon as the ultimate is cast all teammates are granted 8 seconds of .1 increased speed. 60/50/40/30 second cooldown.

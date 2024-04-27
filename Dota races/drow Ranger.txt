@@ -1,0 +1,15 @@
+Traxex, Drow Ranger
+
+Scout only
+
+Frost arrows
+100% chance on hit to slow the enemy by .11/.24/.37/.60
+
+Silence
+ability1: all enemies in ward range of where you aim cannot use abilities or ultimates. 13 second cd.
+
+Precision aura
+All teammates are granted +18/24/30/36% damage.
+
+Marksmanship
+Passive Ultimate: Drow deals an additional 40/60/80 damage on hit. This ability cannot proc if there is an enemy in ward range of drow.

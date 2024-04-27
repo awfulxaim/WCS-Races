@@ -1,0 +1,15 @@
+Mortred, Phantom Assassin
+
+knife only
+
+Stifling dagger
+ability1: Target enemy takes 6/10/14/18 damage and is slowed by .5 for 1/2/3/4 seconds. 8 second CD.
+
+Phantom Strike
+ability2: You are instantly teleported to target enemy for the next 4 seconds your speed is increased by 1.00. 14/11/8/5 second CD.
+
+Blur
+Phantom Assassin spawns with 20/25/30/40% invis and 20/25/30/40% evasion.
+
+Coup De Grace
+Passive Ultimate: 15% chance on hit to deal 1.5x/2.5x/3.5x/4.5x damage. Stifling dagger has the same crit chance and factor.

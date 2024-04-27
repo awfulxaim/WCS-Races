@@ -1,0 +1,18 @@
+Kaolin, Earth Spirit
+
+knife only
+
+Stone Caller
+passively, Kaolin is granted 1 Stone stack per 25 seconds even while dead. Maximum of 6 stacks. Kaolin spawns with 3/4/5/6 Stone stacks.
+
+Boulder Smash
+10/15/20/25% chance on hit to knock the enemy far away and cause them to take and deal 10/15/20/25 damage to any enemy that gets in ward range of them. If you have a stone stack, a stack is spent and the enemy is knocked even further back and all enemies affected are silenced for 5 seconds.
+
+Rolling Boulder
+ability2: human alliance teleport that deals 9/12/15/18 damage in ward range where you land. if you have a stone stack this spends a stack. If a stack was spent the range and speed is increased and Kaolin deals 14/18/23/27 damage and slows the enemy by .8 for 2 seconds where he lands instead. 16/12/8/4 second CD.
+
+Geomagnetic Grip
+ability2: Target player. If the player is an enemy, a stone stack is used (if you have no stone stacks the ability fails), they are stunned for 1/1.5/2/2.5 seconds and dealt 13 damage. if the player is a teammate, they is pulled to Kaolin, and any enemy that enters ward range of that teammate for the next 1 second are stunned for 1/1.5/2/2.5 seconds. 13 second CD.
+
+Magnetize
+Ultimate: All enemies in ward range of Kaolin are dealt 5/8/10/11 damage per second for 6 seconds. if any of the affected enemies are silenced or slowed the silence or slow is spread to all enemies affected. When the 6 second dot ends magnetize checks if any enemy is in ward range of Kaolin. If they are, a stone stack is spent, the enemy takes an instant 5/8/10/11 damage and the dot is reapplied, this can repeat until kaolin runs out of stone stacks. 80 second CD.

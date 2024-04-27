@@ -1,0 +1,13 @@
+Chen, The Holy Knight
+
+Penitence
+ability1: Slow target enemy by .08/.16/.24./.32 and force them to take 8/16/24/32% more damage for 7 seconds. 14 second CD.
+
+Test of Faith
+Ability2: Deal 5/10/15/20 to 10/20/30/40 damage to target enemy. If you target an ally they are teleported back to spawn after a 6/5/4/3 second delay. 24 second CD.
+
+Holy persuasion
+9% chance on hit to convert the enemy to your team and grant them 8/16/23/30 extra HP. The enemy is swapped back after either of your deaths or on round end. Can happen up to 1/1/2/3 times per round.
+
+Hand of God
+Ultimate: Heals all teammates for 20/30/40/50 HP. 160/140/120/30 second CD.

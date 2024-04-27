@@ -1,0 +1,15 @@
+Azgalor, Abyssal Pit Lord
+
+knife only
+
+Firestorm
+ability1: Lays a ward where you aim that deals 3/4/6/7 damage per second for 6 seconds. Enemies affected by the ward are then dealt an additional 1/1/2/3 damage per second for 2 seconds. 14 second CD.
+
+Pit of Malice
+Ability2: lays a ward where you aim that deals no damage but roots for 1/1.5/2/2.5 seconds. this ward lasts 7 seconds. When the enemy is rooted they are dealt 10 damage. 24/21/18/15 second CD.
+
+Atrophy Aura
+Enemies that enter nuke radius of pit lord deal 18/26/34/42% less damage. If an enemy affected by Atrophy are killed Pit lord gains 4 extra damage on hit for the enxt 30/35/40/45 seconds.
+
+Dark Rift
+Ultimate: After a 6/5/4/3 second delay Pit Lord and all teammates in ward range, are instantly teleported to the location you aim at. 130 second CD.

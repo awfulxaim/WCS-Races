@@ -1,0 +1,16 @@
+Moghul "Axe" Khan, Commander of the Red Legion
+
+Knife only
+
+Berserker's call
+Ability1: all enemies in ward range are blackholed to you for 1.5/2/2.5/3 seconds. all damage you recieve for the duration is reduced to 1. 10 second CD.
+
+Battle hunger
+ability2: target enemy begins taking damage over time until they kill an enemy. When an enemy is affected by battle hunger you gain a stack of movement speed until the dot is dispelled.
+Deals 1/2/3/4 damage every second for 4/8/12/16 seconds. 20/15/10/5 CD
+
+Counter Helix
+Grants 200 extra HP to Axe. 20% chance when axe is hit that he will deal 10/15/20/25 damage to all enemies in ward range.
+
+Culling blade
+ultimate: Checks enemies HP in ward range, any enemy whos HP is at or below 25/30/45/65 is instantly killed. If their HP is higher than the threshold, that enemy takes 15/25/30/45 damage. When an enemy dies from culling blade your entire team is granted +.25 move speed for 6 seconds. 60/50/40/10 second CD

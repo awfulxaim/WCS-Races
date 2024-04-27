@@ -1,0 +1,15 @@
+Balanar, Night Stalker
+
+knife only
+
+Void
+ability1: target enemy is slowed by .5 for 2 seconds and takes 9/16/26/34 damage and is stunned for .5 seconds.
+
+Crippling Fear
+ability2: target enemy cannot use abilities or ultimates and has a 10% chance to deal no damage for 3 seconds.
+
+Hunter in the Night
+When Darkness is activate you gain +.2/.25/.3/.35 speed and 45/55/65/75% additional damage.
+
+Darkness
+Ultimate: All enemies and teammates have their screen darkened, except you. Lasts 25/50/80/115 seconds. While active void slows for 4 seconds rather than 2 and Crippling fear silences and causes miss chance for 5/6/7/8 seconds based on its level rather than 3. 180/150/120/90 second CD

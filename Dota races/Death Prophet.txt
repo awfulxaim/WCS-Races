@@ -1,0 +1,13 @@
+Krobelus, Death Prophet
+
+Crypt Swarm
+Ability1: Enemies in the area around where you aim take 10/18/25/30 damage. 8 second CD.
+
+Silence
+Ability2: Enemies in the area around where you aim cannot use abilities or ultimates for 3/4/5/6 seconds. 15 second CD.
+
+Witchcraft
+Passive: Spawn with .05/.1/.15/.20 speed. Silence duration increased by 1/2/3/4 seconds. Crypt swarm deals 1/2/3/4 more damage. all cooldowns reduced by 1/2/3/4 seconds. Exorcism deals 3/4/5/6 extra damage.
+
+Exorcism
+Ultimate: Enemies in nuke range of Death Prophet will take 5 damage per second, up to 1/4/12/21 of the closest enemies. Lasts 30 seconds. After the 30 second duration 25% of the damage dealt is granted to death prophet as HP.

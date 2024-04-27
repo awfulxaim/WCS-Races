@@ -1,0 +1,19 @@
+Aggron Stonebreak, Ogre Magi
+
+knife only
+
+Fireblast
+ability1: target enemy is stunned for 1.5 seconds and takes 8/15/21/28 damage. 12 second CD
+
+Ignite
+ability2: target enemy is slowed by .2/.22/.24/.26 and take 13/20/30/40 damage total over 5/6/7/8 seconds. 15 second CD.
+
+Bloodlust
+Passive: you and all enemies in ward range of you get +.30/.42/.54/.66 speed. 20 second CD.
+
+Multicast
+Passive Ultimate: Fireblast cooldown is reduced by 2/4/6/8 seconds. Ignite will also damage and slow all enemies in ward range of the target. bloodlust will effect the entire team.
+At level 1 multicast you have a 25% chance for your active abilities to deal double damage and stun for double the time when cast.
+At level 2 multicast you have a 40% chance for your active abilities to deal double damage and stun for double the time whencast. and a 20% chance for your active abilities to deal triple damage and stun for triple the time when cast.
+at level 3 multicast you have a 50% chance for your active abilities to deal double damage and stun for double the time when cast. and a 25% chance for your active abilities to deal triple damage and stun for triple the time when cast. and a 12.5% chance for your active abilities to deal quadruple damage and stun for quadruple the time when cast.
+at level 4 multicast you have a 55% chance for your active abilities to deal double damage and stun for double the time when cast. and a 30% chance for your active abilities to deal triple damage and stun for triple the time when cast. and a 20% chance for your active abilities to deal quadruple damage and stun for quadruple the time when cast.

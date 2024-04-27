@@ -1,0 +1,15 @@
+Cairne Bloodhoof, Elder Titan
+
+Knife only
+
+Echo Stomp
+Ability1: after a 1.5 second delay all enemies in ward range of yourself (and where you aim if Astral Spirit is active) will be stunned for 2/3/4/5 seconds or until attacked and take 8 damage. 15 second CD.
+
+Astral Spirit
+Ability2: Summons a ward that follows where you aim. This ward deal 1/3/4/5 damage every 2 seconds. While active you deal an additional 3/6/9/12 damage, and gain an addiitonal .X speed where X is the damage dealt by the ward so far. lasts 8 seconds. 16 second CD.
+
+Natural Order
+Passive: 25/50/75/100% chance when Elder Titan spawns to  remove all armor from enemies and prevent them from buying armor. Enemies will take an additional 8/16/25/33% damage from elder titans abilities and ultimates.
+
+Earth Splitter
+Ultimate: After 3 seconds, all enemies in front of Elder Titan, all the way across the map, are pulled toward where Elder titan aims for 1 second. Enemies affected take damage equal to 35% of all their HP combined. Enemeis are then slowed by .3/.4/.5/.6 for 3/4/5/6 seconds. 100 second CD.

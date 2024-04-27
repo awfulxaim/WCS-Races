@@ -1,0 +1,16 @@
+Gondar, Bounty Hunter
+
+Knife only
+
+Shuriken Toss
+ability1: target enemy takes 10/20/25/33 damage and is stunned for .5 seconds
+
+Jinada
+every 12/10/8/6 seconds Gondar's next hit will deal +15/17.5/20/22.5% extra damage and slow the affected enemy by .25 for 3 seconds.
+
+Shadow Walk
+ability2: Turns Gondar 100% invis for 15/20/25/30 seconds or until Gondar attacks. the invis builds up to 100% over 4/3/2/1 seconds. While gondar is stealthed he will deal an additional 3/6/9/12 damage on his next attack, which stacks with jinada. 15 second CD
+
+Track
+Ultimate: target enemy is beaconed for 30 seconds, All allies in nuke radius of the beaconed enemy gains +.20 speed for the duration. If the affected enemy dies while under the effects, Gondar will gain 100/150/200/250$ and all teammates in the range will gain 50/100/150/200$.
+13/10/7/5 second CD.

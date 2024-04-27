@@ -1,0 +1,13 @@
+Nerif, The Oracle
+
+Fortune's End
+While Oracle is standing still and not attacking he charges up Fortune's End. Once charged for 3 seconds Oracle's next attack will deal 8/15/23/30 damage to the enemy and all enemies in ward range of that enemy. All affected enemies also are purged of ALL buffs, debuffs, dots, hots, etc.
+
+Fate's Edict
+ability1: Target player (or self) is disarmed. That player is also purged of debuffs, becomes ward, ability, and ult immune, and takes 50% increased damage from attacks. 14 second CD.
+
+Purifying Flames
+ability2: Target player (or self) is dealt 9/18/27/36 damage per second for 9 seconds. That same player is also healed for 2/3/4/5 HP per second for the same duration at the same time. If cast on a teammate or yourself, the damage can only bring you to 1 HP and cannot kill you. This ability stacks with itself. 3 second CD.
+
+False Promise
+Ultimate: Target teammate (or self) is granted 100% invis while attacking or moving for 7/8/9/10 seconds. Any damage, healing, regen, dot damage, etc is recorded but not dealt. When the duration ends all healing that should have been given is doubled and applied, then the damage is applied. 20 second CD.

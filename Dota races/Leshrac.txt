@@ -1,0 +1,13 @@
+Leshrac, the Tormented Soul
+
+Split Earth
+ability1: all enemies in ward range target area you aim at are stunned for 2 seconds and take 12/18/24/30 damage. 9 second CD.
+
+Diabloic Edict
+ability2: For the next 8 seconds enemies that stay in ward range of you will take 5/10/15/20 damage per second, reduced by 1 damage per second for each enemy taking damage to a minimum 1/5/10/15. 22 second CD.
+
+Lightning Storm
+5% chance on hit to deal 8/15/21/27 damage and have that damage jump to any enemies in ward range of that enemy, and then jump again in a similar fashion. Will jump from enemy to enemy 4/6/7/8 times.
+
+Pulse Nova
+Ultimate Toggle: At the cost of 110$ initial plus an additional 2/4/6/8$ per second all enemies in ward range will take 7/10/15/20 damage per second. No cooldown.

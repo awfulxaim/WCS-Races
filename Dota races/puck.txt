@@ -1,0 +1,13 @@
+Puck, The Faerie Dragon
+
+Illusory Orb
+ability1: Mark target area. after 3 seconds enemies between you and that area take 7/14/21/28 damage. If this ability is activated again in the next 3 seconds you will be instantly teleported to the marked area. 12 second CD.'
+
+Waning Rift
+ability2: all enemies in ward range take 7/14/21/28 and cannot use abilities or ults for 1/2/2/3 seconds. 16 second CD.
+
+Phase Shift
+35% chance when hit for puck to evade all damage, become 100% invisible and get stunned for 1 second.
+
+Dream Coil
+Ultimate: all enemies in ward range of target area take 10/15/20/25 damage and get stunned for 1 second. If those enemies then leave that area in the next 8 seconds they take 10/20/25/30 damage are stunned for 2/2/3/4 seconds. 85 second CD.

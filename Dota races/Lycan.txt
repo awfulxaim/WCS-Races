@@ -1,0 +1,15 @@
+Banehallow, the Lycanthrope
+
+Knife only
+
+Summon Wolves
+ability1: grants lycan 2/3/4/5 extra damage on hit and 50% invis for 55 seconds or until Lycan is shot twice. 30 second CD.
+
+Howl
+ability2: grants all teammates and lycan 3/4/6/7 extra damage on hit for 12 seconds. 50/45/40/35 second CD.
+
+Feral Impulse
+Lycan deals 15/20/25/30% extra damage on hit, this stacks with all damage buffs. Lycan spawns with  +.15/.20/.25/.30 speed.
+
+Shapeshift
+ultimate: for 18 seconds lycan gets: 0/100/200/300 extra HP. 30% chance on hit to deal 1.7x damage. becomes unaffected by darkened screens. speed is set to 2.0 and he cannot be slowed. 100/70/40/18 second CD.

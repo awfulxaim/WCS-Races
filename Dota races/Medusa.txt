@@ -1,0 +1,13 @@
+Medusa, the Gorgon
+
+Split shot
+100% chance on hit to deal 50/60/70/80% of your regular damage. However all enemies in nuke radius of you take that damage as well.
+
+Mystic Snake
+ability1: Like Chain Frost from Lich. Mystic snake jumps from target enemy to enemies in ward range of him, dealing 25% additional damage with each jump and stealing money. jumps a maximum of 3/4/5/6 times, dealing 8/12/16/20 damage per jump and stealing 20/30/40/50$. 11 second CD.
+
+Mana shield
+ability2: Toggle. While active all damage taken is reduced by 50%. While active, for every 1 damage you take you lose 4/3/2/1$ No CD.
+
+Stone Gaze
+Ultimate: for the enxt 6 seconds, all enemies in nuke range are slowed by .5, if they look toward you they are slowed by an additional .5, if any enemy is looking at you when this duration ends they are stunned for 3 seconds. While enemies are stunned by stone gaze they take 20/30/40/50% additional damage and Mystic snake deals double damage to them. 90 second CD.

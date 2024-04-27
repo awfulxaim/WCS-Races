@@ -1,0 +1,13 @@
+Dazzle, Shadow Priest
+
+Poison Touch
+7/11/13/15% chance on hit to slow the enemy by .33/.33/.66/.66 for 1/2/3/3 seconds, and deal 1/2/3/4 damage per second on that enemy. After the duration the Enemy is stunned for an additional 0/0/1/1 seconds.
+
+Shallow Grave
+Ability1: For the next 5 seconds, teammates in small/ward/nuke/map range cannot be killed but can only be reduced to 1 HP. 60/45/30/15 second CD.
+
+Shadow Wave
+Ability2: target teammate and teammates in ward range of that teammate are healed for 8/10/12/14 HP multiplied by the number of other teammates in that range up to 3/4/5/6. Enemies that are also in that range take damage equal to the amount healed. 12/10/8/6
+
+Weave
+Ultimate: Teammates gain 3 armor per second for the next 12/18/24/30 seconds. Enemies lose 3 armor  per second for the enxt 12/18/24/30 seconds. 40 Second CD.

@@ -1,0 +1,15 @@
+Azwraith, Phantom Lancer
+
+knife only
+
+Spirit Lance
+ability1: Target enemy takes 10/15/20/25 damage and is slowed by .1/.2/.3/.4 for 3 seconds. That enemy takes 2 damage per second for 2/4/6/8 seconds. While the enemy is taking damage over time from your spirit lance you are granted a stack of 12% evasion. 7 second CD. if you already have 8 stacks of evasion this will grant no stacks.
+
+Doppelwalk
+ability2: Phantom lancer is granted 100% invis for 8 seconds, or until you attack or cast spirit lance. For the next 20 seconds you are granted a stack of 12% evasion. 30/25/20/15 second CD. if you already have 8 stacks of evasion this will grant no stacks.
+
+Juxtapose
+12% chance on hit to be granted a 20 second stack of 12% evasion and deal 2 damage per second for 2/4/6/8 seconds. maximum evasion stacks from juxtapose 2/4/6/8. if you already have 8 stacks of evasion this will grant no stacks.
+
+Phantom Edge
+Passive Ultimate: You are granted 10/15/20/25% reduced damage from abilities and ultimates. Juxtapose has an additional 2/4/6/8% chance to proc. For every 12% evasion you have you get an additional 3/5/7/9% chance for juxtapose to proc.

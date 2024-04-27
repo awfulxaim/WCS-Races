@@ -1,0 +1,15 @@
+Juggernaut
+
+Knife only
+
+Bladefury
+ability1: all enemies that stand in ward range of you for the next 5 seconds will take 8/10/12/14 damage per second. 30/28/26/24 second CD.
+
+Healing Ward
+ability2: target teammate or self if no target and all teammates that stand in ward range of the target are healed for 2/3/4/5 HP/sec for 25 seconds. 60 second CD.
+
+Blade Dance
+15/20/25/35% chance on hit to deal 2x damage.
+
+Omnislash
+Ultimate: Checks for enemies in nuke radius. Rolls an X sided dice where X is the number of enemies in range. Cannot roll 0. if there are no enemies the ability does not activate or go on cooldown. Teleports you to the number of enemies rolled, enemies are chosen randomly. Max number of teleports (and enemies): 3/6/9/12. When you teleport to an enemy they take 25 damage. While this is active you are invulnerable. You teleport every .5 seconds.

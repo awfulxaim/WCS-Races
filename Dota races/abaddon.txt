@@ -1,0 +1,16 @@
+Abaddon, Lord of Avernus
+
+knife only
+
+Mist coil
+ability1: Heal or damage target player at the cost of your own HP, cannot self-cast.
+Heals allies and damages enemies for 10/15/20/25. Deals 5/7/10/12 damage to you. 5 second CD
+
+Aphotic Shield
+ability2: Shields yourself purging all disables and debuffs, stuns, etc, and preventing the next 110/140/170/220 damage. When the shield is broken or times out it deals 11/14/17/22 damage to all nearby enemies. lasts 15 seconds. 12/10/8/6 second CD
+
+Curse of Avernus
+100% chance on hit to slow by .15/.20/.25/.3 for 3 seconds and grant you and nearby teammates .15 speed for 5 seconds.
+
+Borrowed Time
+ultimate: when you are brought below 40 HP or when activated all damage you take heals you for double the damage dealt for the next 4/5/6/7 seconds. You turn blue and leave a blue trail behind you while active. 70/60/50/40 second CD

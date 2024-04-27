@@ -1,0 +1,15 @@
+Naga Siren
+
+Knife only
+
+Mirror Image
+Ability1: for 30 seconds you are granted 75% evasion. every time you are hit while this is active your evasion is reduced by 25%. While you still have evasion you deal 30/35/40/45% extra damage.
+
+Ensnare
+14% chance when hit to reveal and root target enemy for 2/3/4/5 seconds.
+
+Rip tide
+ability2: All enemies in ward range of you take 12/16/19/22 damage and lose 20/30/40/50 armor. Deals extra damage based on your evasion. if you have 75% evasion this deals 4x, 50% deals 3x, 25% deals 2x.
+
+Song of The Siren
+Ultimate: All enemies in nuke radius of Naga are stunned and invulnerable for 7 seconds. 180/120/60/24 second CD

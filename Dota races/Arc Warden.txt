@@ -1,0 +1,13 @@
+Zet, The Arc Warden
+
+Flux
+20% chance on hit, if there are no other enemies in ward range of the hit enemy, to slow the enemy by .5 and deal 2/3/5/6 damage per second for 6 seconds.
+
+Magnetic Field
+ability1: lays a ward where you aim that grants 100% evasion and +.5/.6/.7/.8 speed to all teammates in the ward for 3.5/4/4.5/5 seconds. 50 second CD.
+
+Spark Wraith
+Ability2: Summons a ward where you aim, the ward has no effect for the first 3 seconds it is up, but after that time the first enemy that enters the ward is dealt 15/20/25/30 damage, then the ward disappears. 4 second CD.
+
+Tempest Double
+Ultimate: At the cost of 45/30/15/0% of Arc Warden's HP and money: Arcwarden is granted 2x damage on all abilities and attacks, and 50% evasion for 20 seconds. 65/60/55/50 second CD.

@@ -1,0 +1,13 @@
+Luna Moonfang, the Moon Rider
+
+Lucent Beam
+ability1: stun target enemy for .5 seconds and deal 8/15/23/30 damage. 6 second CD.
+
+Moon Glaive
+100% chance on hit for your attacks to bounce to enemies in ward range of the attacked enemy and then to enemies in ward range of them and so on. Can bounce to the same person multiple times. max bounces 1/2/3/5. each bounce reduces damage deal by 35%
+
+Lunar Blessing
+Teammates in nuke radius of you deal 1/2/3/4 extra damage on hit. Nightstalker Darkness does not affect you.
+
+Eclipse
+Ultimate: Darkens all players screens except your own for 10 seconds. A random enemy that is or comes into ward range of Luna will take damage based on your Lucent Beam level every .6 seconds for 1.8/3.6/5.4/6.6 seconds as long as they remain in range. 160/150/140/130 second CD.

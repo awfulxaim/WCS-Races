@@ -1,0 +1,14 @@
+Aurel Vlaicu, Inventor of the Gyrocopter
+
+Rocket Barrage
+Ability1: deals 33/45/57/69 damage divided evenly among all enemies that stay in ward range. Damage is dealt in 11/15/19/23 damage ticks over 3 seconds. 7/7/6/6 second CD
+
+Homing Missile
+ability2: Target enemy is revealed and beaconed until the ability completes. after a 3 seconds delay, the enemy's distance moved is recorded. The enemy is stunned and dealt damage based on the distance. the farther the distance the more damage but the longer the delay between cast and the damage. stuns for 2.2/2.4/2.6/2.8 seconds. minimum damage 5. maximum damage 11/22/33/44. 20/17/14/11 second CD.
+
+Flak Cannon
+30% chance on hit to deal 100% of damage dealt to enemies in ward range of the enemy hit.
+
+Call Down
+Ultimate: Fire a nuke where you are aiming, has a 2 second delay and strikes twice. second strike occurs 2 seconds after the first strike. deals 25/30/35/40 damage on first strike and slows enemies hit by .2, deals 18/20/23/28 damage on second strike and slows enemies hit by .5, Slows last 2/2/2/3 seconds.
+55/50/45/40 second CD

@@ -1,0 +1,13 @@
+Thrall, Stormcraft Disruptor
+
+Thunder strike
+16% chance on hit to cause the enemy to take 4/6/8/10 damage every second for 4 seconds. Enemies who get in ward range of the affected enemy will also take this damage.
+
+Glimpse
+Ability1: target enemy is teleported back tot he place they were 4 seconds ago. 60/50/40/30 seconds CD.
+
+Kinetic Field
+ability2: Lays a ward at the place you aim that lasts 2.5/3/3.5/4 seconds. Any enemy that steps in the ward is rooted for 1.2 seconds and will continue to be rooted until the ward disappears. 14 second CD.
+
+Static Storm
+Ultimate: Lays a ward at the place you aim that lasts 5 seconds. The ward prevents enemies in it from casting abilities or ults and deals 12/17/22/27 damage per second. 85 second CD.

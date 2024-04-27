@@ -1,0 +1,20 @@
+Davion, Dragon Knight
+
+Knife only
+
+Breathe Fire
+Ability1: Target enemy and enemies around them take 9/17/24/30 damage. 12 second CD
+
+Dragon Tail
+Passive. 9% chance on hit to stun enemy for 2.5/2.75/3/3.25 seconds.
+
+Dragon Blood
+Passive. +2/3/4/5 HP regen/sec. Spawn with 30/60/90/120 Armor.
+
+Elder Dragon Form
+Ultimate: Level 1: Davion is granted an autosniper.
+Level 2: Davion is granted an autosniper and all attacks deal 2 damage/sec for 5 seconds.
+Level 3: Davion is granted an autosniper and all attacks deal 2 damage/sec for 5 seconds to all enemies in ward range of the enemy hit as well as 100% of the damage dealt to that enemy.
+Levle 4: Davion is granted an autosniper and all attacks deal 2 damage/sec for 5 seconds to all enemies in ward range of the enemy hit as well as being slowed by .30 for the duration and taking 100% of the damage dealt to that enemy.
+Lasts 60 seconds.
+115 second CD.

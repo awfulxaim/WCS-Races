@@ -1,0 +1,13 @@
+Mirana, Priestess of the Moon
+
+Starstorm
+ability1: all enemies in ward range take 8/15/23/30 damage, one random enemy from the affected enemies will take an additional 6/10/17/24 damage. 12 second CD.
+
+Sacred Arrow
+17% chance on hit to affect the enemy with sacred arrow. they are alerted of being affected by it. after a 3 second delay if the enemy has not moved a certain distance they are stunned and take damage based on the distance they did move, increasing with distance. stuns range from .5-5 seconds and damage ranges from 9-19/18-28/27-37/36-46. If mirana dies before the delay ends the enemy is not stunend or damaged.
+
+Leap
+ability2: Human Alliance teleport. Your entire team is granted +.12/.24/.36/.48 speed for 10 seconds. 30/26/22/18 second CD.
+
+Moonlight shadow
+Ultimate: for the next 15 seconds all of your team becomes 100% invis. If they attack they are revealed for 3/2.5/2/1.5 seconds. 140/120/100/80 second CD.

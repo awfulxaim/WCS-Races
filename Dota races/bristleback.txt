@@ -1,0 +1,16 @@
+Rigwarl, Bristleback
+
+knife only
+
+Viscous Nasal Goo
+Ability1: target enemy gains 1 stack of a debuff that slows by .13/.16/.19/.22 and causes them to take an additional 1/1/2/2 damage when hit by quill spray. each stack lasts 6 seconds.
+2 second CD
+
+Quill spray
+ability2: enemies in ward range take 2/4/6/8 damage. they also get a stack of quillspray that deals an additional 3 damage for each stack added. The first time you are hit if quill spray is level 1 you take 5, then 8, then 11, then 14 and so on. The stacks last 14 seconds. 3 second CD.
+
+Bristleback
+Rigwarl takes 16/24/32/40% less damage and spawns with +150 HP. Each 25 damage Rigwarl takes will cast a quill spray even if it is on cooldown.
+
+Warpath
+Passive ultimate. Rigwarl spawns with +.04/.05/.07/.1 movespeed and deals an additional 2/3/4/5 damage on hit. When Rigwarl casts an ability he gains a stack of Warpath. Warpath stacks increase Rigwarls movespeed by .04/.05/.07/.1 and increase his damage dealt by 2/3/4/5. each stack lasts 10 seconds and stacks up to 5 times.

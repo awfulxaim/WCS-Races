@@ -1,0 +1,515 @@
+--------------------Page 1--------------------
+1. Undead Scourge ( 0 ) Gun
+Vampric Aura, Unholy Aura, Levitation, Suicide Bomber
+2. Human Allience ( 0 ) Gun
+Invisibility, Devotion Aura, Bash, Teleport
+3. Orcish Horde ( 0 ) Gun
+Critical Strike, Critical Grenade, Reincarnation, Chain Lightning
+4. Night Elves ( 0 ) Gun
+Evasion, Thorns Aura, Trueshot Aura, Entangling Roots
+5. Blood Mage ( 40 ) Gun
+Phoenix, Banish, Siphon Mana, Flame Strike, Curing Ritual
+6. Archmage Proudmoore ( 50 ) Gun
+Earthquake, Broom of Velocity, Weapon of the Sorceror, Lift off
+7. Shadow Hunter ( 60 ) Gun
+Healing Wave, Hex, Serpent Ward, Big Bad Voodoo
+--------------------Page 2--------------------
+8. Warden ( 70 ) Gun
+Fan of Knives, Blink, Shadow Strike, Vengeance
+9. Crypt Lord ( 80 ) Gun
+Impale, Spiked Carapace, Carrion Beetles, Locust Swarm
+10. Flame Predator ( 80 ) Knife
+Berserk, Cloak of Invisibility, Levitation, Claw Attack, Burning Blade, Burning Inferno
+11. Succubus Hunter ( 90 ) Gun
+Daemonic Knife, Head Hunter, Totem Incantation, Assault Tackle, Daemonic Transformation
+12. Wisp ( 100 ) Knife
+Meld, Self-Destruction
+13. Paladin ( 100 ) Gun
+Holy Light, Devotion Aura, Hand of Freedom, Divine Shield
+14. Mountain King ( 100 ) Gun
+Storm Bolt, Thunder Clap, Bash, Avatar
+--------------------Page 3--------------------
+15. Blademaster ( 100 ) Knife
+Fortify Body, Fortify Soul, Mirror Image, Critical Strike, Wind Walk
+16. Far Seer ( 100 ) Gun
+Far Sight, Feral Spirit, Earthquake, Chain Lightning
+17. Tauren Chieftain ( 100 ) Gun
+Shock Wave, War Stomp, Endurance Aura, Reincarnation
+18. Demon Hunter ( 100 ) Gun
+Mana Burn, Immolation, Evasion, Metamorphosis
+19. Keeper of the Grove ( 100 ) Gun
+Entangling Roots, Force of Nature, Thorns Aura, Tranquility
+20. Priestess of the Moon ( 100 ) Gun
+Trueshot Aura, Elune's Arrows, Leap, Moonlight Shadow
+21. Death Knight ( 100 ) Gun
+Death Coil, Frostmourne, Unholy Aura, Animate Dead
+--------------------Page 4--------------------
+22. Dread Lord ( 100 ) Gun
+Carrion Swarm, Sleep, Vampiric Aura, Inferno
+23. Lich ( 100 ) Gun
+Frost Nova, Frost Armor, Dark Ritual, Death and Decay
+24. Drow Ranger ( 200 ) Scout
+Frost Arrows, Trueshot Aura, Meld, Marksmanship, Searing Arrows, Wind Walk
+25. Faceless Void ( 200 ) Deagle
+Time Walk, Backtrack, Time Lock, Chronosphere
+26. Firelord ( 250 ) Gun
+Soul Born, Summon Lava Spawn, Incinerate, Volcano
+27. Faerie Dragon ( 250 ) Gun
+Reinforced Hide, Mana Flare, Phase Shift, Dream Rift
+28. Pandaren Brewmaster ( 250 ) Gun
+Breath of Fire, Drunken Haze, Drunken Brawler, Storm, Earth and Fire
+--------------------Page 5--------------------
+29. Goblin Alchemist ( 280 ) Gun
+Healing Spray, Chemical Rage, Acid Bomb, Transmute
+30. Water Elemental ( 300 ) Knife
+Seven Seas, Fluid Movement, Waveform, Frost Pillar, Whirlpool
+31. Fire Elemental ( 300 ) Gun
+Ignite Mana, Immolate, Magma Shackles, Essence of Fire, Ember Blast
+32. Wind Elemental ( 300 ) Knife
+Tempest, Sandstorm, Gust, Squall, Tornado
+33. Earth Elemental ( 300 ) Gun
+Tremor, Corrosion, Noxious Fumes, Ancient Might, War Stomp.
+34. Zergling ( 350 ) Knife
+Metabolic Boost, Adrenal Glands, Carapace, Burrow
+35. Hydralisk ( 350 ) Gun, Ultimate turns Weaponless
+Muscular Augments, Grooved Spines, Slow Poison, Lurker Aspect
+--------------------Page 6-------------------
+36. Zealot ( 350 ) Knife
+Psionic Blade, Plasma Shield, Leg Enhancement, Rush
+37. Dark Templar ( 350 ) Knife
+Permanent Cloak, Dark Void, Backstab, Eradicate
+38. Dark Archon ( 350 ) Weaponless
+Feedback, Mind Control, Argus Talisman, Maelstrom
+39. Ghost ( 350 ) Scout, Usp
+Lock Down, Cloaking, Ocular Implants, Moebius Factor, Arm Nuke, Nuke
+40. Reaper ( 350 ) Elites, can use HE Grenades
+Stim Pack, Jet Pack, D-8 Charge, Jet Boost
+41. Ninja ( 400 ) Knife, can use Smoke Grenades
+Phantom Moon, Rend, Dragon's Breath, Infinite Fury, Astral Spirit, Lunar Veil
+42. Zombie ( 400 ) Knife
+Plague, Consume, Infection, Carnivorous Impulse, Septic Swarm
+--------------------Page 7--------------------
+43. Siren ( 450 ) Gun
+Cure, Sleep Song, Protect, Harmony, Silent Voice
+44. Diablos ( 450 ) Gun
+Gravija, Poison, Darkside, Osmose, Dark Messenger
+45. Eden ( 500 ) Gun
+Boost, Mad Rush, Spatial Warp, Time Compression, Eternal Breath
+46. Maverick Hunter ( 500 ) Gun, Blade Armor makes it a knife race.
+X-Buster, Heart Tank, Force Armor, Falcon Armor, Shadow Armor, Blade Armor, Ultimate Armor, Equip Armor
+47. Immortal ( 500 ) Gun
+Twin Phase Disruptor, Energy Shield, Advanced Technology, Immortality
+48. Twilight Archon ( 500 ) M3 Shotgun
+Psionic Shockwave, Advanced Plasma Shield, Uraj Fragment, Twilight
+49. Soul Reaper ( 500 ) Gun
+Death Scythe, Spirit Harvest, Soul Channel, Rebirth, Phantom Soul, Soul Eater
+--------------------Page 8--------------------
+50. Beholder ( 550 ) P228
+Light Distortion, Relocate, Command Aura, Reveal All
+51. Oblivion ( 600 ) AWP, Usp
+Impetus, Fel Blaze, Adamantine Skin, Life Drain, Vile Essence, Netherstep
+52. Apparition ( 600 ) Gun
+Phantasm, Lunar Shade, Acceleration, Infiltrate, Avoidance Aura, Time Paradox, Amaurosis, Warp
+53. Alchemist ( 600 ) Grenade, can use Knife
+Rig Explosives, Pitch Potion, Chemical Rage, Create Explosives, Acid Spray, Aviate
+54. Magikarp ( 650 ) Knife, Ultimate give an AK
+Splash, Tackle, Splash Attack, Evolution
+55. Mudkip ( 650 ) Gun
+Mud-Slap, Take Down, Protect, Endeavor, Whirlpool
+56. Slowpoke ( 650 ) Gun
+Slow Reaction, Confusion, Amnesia, Disable, Slack Off
+--------------------Page 9--------------------
+57. Gengar ( 650 ) Gun
+Lick, Hypnosis, Confuse Ray, Night Shade, Levitate, Dream Eater
+58. Wobbuffet ( 650 ) Weaponless
+Counter, Safe Guard, Endurance, Shadow Tag, Destiny Bond
+59. Snorlax ( 650 ) Gun
+Snore, Body Slam, Yawn, Thick Fat, Rest
+60. Bloodseeker ( 700 ) Gun
+Rupture, Blood Bath, Blood Thirst, Vampiric Breath, Lethal Rend, Bloodrage
+61. Night Stalker ( 750 ) Gun
+Void, Crippling Fear, Hunter in the Night, Shadow Cast, Occulation, Darkness
+62. Butcher ( 800 ) Gun
+Meat Hook, Rot, Disease Cloud, Flesh Heap, Putrid Carapace, Dismember
+63. Pit Lord ( 900 ) Gun
+Firestorm, Pit of Malice, Expulsion, Conflagrant Vigor, Banish, Dark Rift
+--------------------Page 10--------------------
+64. Shadow Priest ( 1000 ) Gun
+Devouring Plague, Mind Flay, Flash Heal, Psychic Horror, Inner Fire, Shadowform
+65. Rogue ( 1000 ) Knife
+Stealth, Camouflage, Hemorrhage, Kidney Shot, Backstab, Sprint, Lightning Reflexes, Shadowstep
+66. Shaman ( 1000 ) Gun
+Chain Heal, Earth Fire Wind Air, Nature's Guardian, Reincarnation, Earth Shield, Bloodlust
+67. Hunter ( 1000 ) Scout, P228
+Hunter's Mark, Flare, Serpent Sting, Lightning Reflexes, Multi-Shot, Trueshot Aura
+68. Druid ( 1000 ) Glock, Usp, P228
+Mark of the Wild, Wrath, Rejuvenation, Lifebloom, Moonfire, Entangling Roots, Thorns Aura, Shapeshift
+69. Warrior ( 1000 ) Knife
+Heroic Strike, Hamstring, Intercept, Disarm, Thunderclap, Vitality, Damage Shield, Heroic Leap
+70. NSC-CCP-01 Jester ( 1100 ) Elites
+Mechanical Prestidigitism, Mechanical Acrobatism, Bio-Enhanced Muscular System, NSC Bootboost MK. I, N.Mako Core Upgrade
+--------------------Page 11--------------------
+71. NSC-CCP-02 Eternal ( 1100 ) Gun
+N.Mako Enhanced Nanobot System, Alien Component Recycling Process, N.Mako Enhanced Shells, Autonomous Evolution System, NSC Bootboost MK. II, Bio-Mechanical Restoration
+72. NSC-CCP-03 Predator ( 1200 ) Steyr AUG
+5.56x6S T&P Ammunition, N.Mako Powered Cloaked Armor, E.V.A.R.S. Accuracy Add-on, MT502 Device Autodestruction, NSC-P Bootboost MK. II, S.A.R.T.E.S. Stalking Device
+73. NSC-CCP-04 Timeshifter ( 1200 ) Gun
+Bio-Mechanical Decelerator, TS-V2 G.Point Swap, Enhanced Automated Velocity, N.Mako Vitality Core, TS-1A Chrono Shift, NSC-T Bootboost MK. I, Alpha Convergence
+74. NSC-MCU-01 Harlute ( 1300 ) Knife
+N.Mako Powered Stabilizators, Force Shield, Gravitational Modulator, Gravity Distortion, NSC-D.Matter Hoverboots, Force Pulsar, Zero Gravity
+75. NSC-MCU-02 Marlute ( 1300 ) Knife
+N.Mako-Powered Stabilizators, Mana Drain, NSC-M2 Angel Veil, Soul Extraction, NSC-D.Matter Hoverboots, Terrestrial Coffin, Soul Conversion
+76. NSC-MCU-03 Sundel ( 1400 ) Tmp, Mac-10, Five-Seven
+N.Mako-Enhanced Nanobot System, Rippling Convulsion, Spectral Ray, Phase Shift, NSC-D.Matter Hoverboots, Ethereal Flare
+77. NSC-MCU-04 Metatron ( 1400 ) Deagle, Mac-10, Famas, Galil, M3 Shotgun, Auto-Shotgun, Scout
+NSC-M Burst Shell, N. Mako Core Upgrade, MT-04 Claymore, Stasis Shock, NSC-D. Matter Hoverboots, Celestial Wrath
+--------------------Page 12--------------------
+78. NSC-SPU-01 Chaos ( 1500 ) Scout, Usp
+N.Mako-Enhanced Photon Blaster, NSC-SP01 Sleipnir, Blink, Fluctuating Maelstrom, Occult Essence, Warp Blade
+79. NSC-SPU-02 Loki <Private race> ( 1500 )
+80. Devouring One [Hero] ( 1600 ) Knife
+Metabolic Boost, Adrenal Glands, Advanced Carapace, Feral Sphere, Call Zerglings, Burrow
+81. Danimoth [Hero] <Private race> ( 1600 )
+82. Seraphim ( 1700 ) Gun
+Divinus Vis, Kyrie Eleison, Divinum Flamen, Angelus Pennae, Curatio, Via Caelum, Excurcio, Agnus Dei
+83. Berserker ( 1800 ) Knife
+Berserk, Furious Leap, Last Stand, Unending Rage
+84. Lv1900 Race Placeholder ( 9900 )
+--------------------Page 13--------------------
+85. Illidan Stormrage ( 2000 ) Gun
+Flames of Azzinoth, Skull of Gul'dan, Draw Soul, Shadowfury, Berserk, Metamorphosis
+86. Kael'thas Sunstrider ( 2000 ) Gun
+Mind Control, Shock Barrier, Flamestrike, Nether Beam, Gravity Lapse, Summon Phoenix
+87. Archimonde ( 2100 ) Gun
+Air Burst, Soul Charge, Grip of the Legion, Fear, Finger of Death, Doomfire
+88. Thrall ( 2100 ) Gun
+Purge, Horn of Snowsong, Shock, Lightning Shield, Healing Wave, Chain Lightning
+89. Alleria Windrunner ( 2200 ) Gun
+Searing Arrows, Aimed Shot, Windrunner, Concussive Shot, Piercing Wind, Kill Shot, Favor of the Wind Goddess
+90. Tyrande Whisperwind ( 2200 ) Gun
+Trueshot Aura, Prayer of Mending, Lightwell, Spirit of Redemption, Blessed Recovery, Meld, Holy Nova
+91. Uther the Lightbringer ( 2300 ) Gun
+Devotion Aura, Hammer of Justice, Seal of the Martyr, Judgement of Light, Pursuit of Justice, Divine Shield
+--------------------Page 14--------------------
+92. Jaina Proudmoore ( 2300 ) Gun
+Blizzard, Blink, Living Bomb, Ice Armor, Polymorph, Deep Freeze
+93. Ragnaros ( 2400 ) Knife
+Eruption, Melt Weapon, Elemental Fire, Flame Cyclone, Pyrogenics, Wrath of Ragnaros
+94. Therazane ( 2400 ) Glock
+Impale, Fists of Stone, Curse of the Earth, Thick Skin, Ground Tremor, Seismic Wave
+95. Al'Akir ( 2500 ) Gun
+Chain Lightning, Thunderstorm, Curse of the Sky, Windfury, Spirit of the Wind, Winged Harbinger
+96. Neptulon ( 2500 ) Gun
+Frost Storm, Chilling Touch, Ice Block, Tidal Wave, Water Shield, Vortex
+97. Vek'lor ( 2600 ) Gun
+Heal Brother, Twin Teleport, Shadow Bolt, Frostbolt, Nether Protection, Arcane Burst
+98. Vek'nilash ( 2600 ) Gun
+Heal Brother, Twin Teleport, Uppercut, Unbalancing Strike, Vigilance, Shattering Throw
+--------------------Page 15--------------------
+99. Jormungandr ( 2700 ) Knife, 3 kills - Deagle, 6 kills and more - M4
+Devour Flesh, Constrict, Terrestrial Dominion, Lunge, Cloak of Shadows, Nightfall
+100. Anub'arak ( 2700 ) Gun
+Impale, Freezing Slash, Spiked Carapace, Relentless Pursuit, Permafrost, Leeching Swarm
+101. Tinkmaster Overspark ( 2800 ) Gun
+Nigh-Invulnerability Belt, Gnomish Death Ray, Gnomish Net-o-Matic Projector, Alarm-o-Bot, Gnomish Weapon Dispenser, Gnomish Engineering
+102. Nixx Sprocketspring ( 2800 ) Gun
+Goblin Rocket Launcher, The Bigger One, Goblin Bomb Dispenser, Goblin Rocket Boots, The Mortar: Reloaded, Goblin Engineering
+103. Sylvanas Windrunner ( 2900 ) Scout
+Black Arrow, Fade, Marksmanship, Song of Sylvanas, Ghostly Strike, Shriek of the Highborne
+104. Maiev Shadowsong ( 2900 ) Knife, can summon a Glock
+Shadow Strike, Vanish, Cheap Shot, Cloak of Shadows, Master of Subtlety, Cheat Death
+105. Algalon the Observer ( 3000 ) Gun
+Phase Punch, Cosmic Smash, Collapsing Star, Quantum Strike, Celestial Power, Big Bang
+--------------------Page 16--------------------
+106. Deathbringer Saurfang ( 3100 ) Gun
+Blood Nova, Rune of Blood, Blood Link, Mark of the Fallen Champion
+107. Void Walker ( 3200 ) Gun
+Dark Binding, Nether Warp, Void Sphere, Riftwalk
+108. Death Wraith ( 3300 ) Gun
+Haunt, Doom, Entropy, Defile
+109. Shadefiend ( 3400 ) Gun
+Vengeful Blast, Dark Shade, Shadow Sneak, Shadow Walk
+110. Dragoon ( 3500 ) Gun
+High Jump, Life Surge, Dragon Breath, White Wind, Ferocity, Dragon Dive
+111. Knight ( 3600 ) Gun
+Judgment, Weapon Break, Speed Break, Overpower, Defender, Last Stand
+112. Lv3700 Race Placeholder ( 9999 )
+--------------------Page 17--------------------
+113. Lv3800 Race Placeholder ( 9999 )
+114. Sindragosa ( 3900 ) Gun
+Frost Aura, Tail Smash, Ice Tomb, Icy Grip, Permeating Chill, Blistering Cold
+115. The Lich King ( 4000 ) Gun
+Soul reaper, Necrotic Plague, Defile, Harvest Soul, Frost Presence, Unholy Aura, Raise Dead
+116. Lv4100 Race Placeholder ( 9999 )
+117. Lv4200 Race Placeholder ( 9999 )
+118. Lv4300 Race Placeholder ( 9999 )
+119. Lv4400 Race Placeholder ( 9999 )
+--------------------Page 18--------------------
+120. Lv4500 Race Placeholder ( 9999 )
+121. Lv4600 Race Placeholder ( 9999 )
+122. Lv4700 Race Placeholder ( 9999 )
+123. Lv4800 Race Placeholder ( 9999 )
+124. Lv4900 Race Placeholder ( 9999 )
+125. Deathwing ( 5000 ) Gun
+Shadow Flames, Death Pulse, Tail Lash, Infernal Eruption, Immolation, Death Aspect, Shadowburn, Cataclysm
+126. Lv5000 Race Placeholder ( 9999 )
+--------------------Page 19--------------------
+127. Lv5000 Race Placeholder ( 9999 )
+--------------------Page 25--------------------
+174. Jihad Assassin ( 100 ) HE Grenades, Smoke Grenades
+Ammo of Allah, Allah's Wrath, RUN AWAY!, The Jihad Special
+--------------------Page 27--------------------
+189. Gren ( 100 ) Gun
+Bounty Hunters Armor, 1st Class License, Wargear, Zip Tie, DROP YOUR WEAPONS!, Truth Serum
+--------------------Page 1--------------------
+1. Undead Scourge ( 0 )
+Vampric Aura, Unholy Aura, Levitation, Suicide Bomber
+2. Human Allience ( 0 )
+Invisibility, Devotion Aura, Bash, Teleport
+3. Orcish Horde ( 0 )
+Critical Strike, Critical Grenade, Reincarnation, Chain Lightning
+4. Night Elves ( 0 )
+Evasion, Thorns Aura, Trueshot Aura, Entangling Roots
+5. Blood Mage ( 40 )
+Phoenix, Banish, Siphon Mana, Flame Strike, Curing Ritual
+6. Archmage Proudmoore ( 50 )
+Earthquake, Broom of Velocity, Weapon of the Sorceror, Lift off
+7. Shadow Hunter ( 60 )
+Healing Wave, Hex, Serpent Ward, Big Bad Voodoo
+--------------------Page 2--------------------
+8. Warden ( 70 )
+Fan of Knives, Blink, Shadow Strike, Vengeance
+9. Crypt Lord ( 80 )
+Impale, Spiked Carapace, Carrion Beetles, Locust Swarm
+10. Flame Predator ( 80 )
+Berserk, Cloak of Invisibility, Levitation, Claw Attack, Burning Blade, Burning Inferno
+11. Succubus Hunter ( 90 )
+Daemonic Knife, Head Hunter, Totem Incantation, Assault Tackle, Daemonic Transformation
+12. Wisp ( 100 )
+Meld, Self-Destruction
+13. Paladin ( 100 )
+Holy Light, Devotion Aura, Hand of Freedom, Divine Shield
+14. Mountain King ( 100 )
+Storm Bolt, Thunder Clap, Bash, Avatar
+--------------------Page 3--------------------
+15. Blademaster ( 100 )
+1- Fortify Body : 250hp
+2- Fortify Soul : 140% speed
+3- Mirror Image : evasion 30%
+4- Crtitical Strike : up tp 200 add dmg
+5- Windwalk : get like 180% speed and 100% invis for about 5 seconds
+16. Far Seer ( 100 )
+Far Sight, Feral Spirit, Earthquake, Chain Lightning
+17. Tauren Chieftain ( 100 )
+Shock Wave, War Stomp, Endurance Aura, Reincarnation
+18. Demon Hunter ( 100 )
+Mana Burn, Immolation, Evasion, Metamorphosis
+19. Keeper of the Grove ( 100 )
+Entangling Roots, Force of Nature, Thorns Aura, Tranquility
+20. Priestess of the Moon ( 100 )
+Trueshot Aura, Elune's Arrows, Leap, Moonlight Shadow
+21. Death Knight ( 100 )
+Death Coil, Frostmourne, Unholy Aura, Animate Dead
+--------------------Page 4--------------------
+22. Dread Lord ( 100 )
+Carrion Swarm, Sleep, Vampiric Aura, Inferno
+23. Lich ( 100 )
+Frost Nova, Frost Armor, Dark Ritual, Death and Decay
+24. Drow Ranger ( 200 )
+Frost Arrows, Trueshot Aura, Meld, Marksmanship, Searing Arrows, Wind Walk
+25. Faceless Void ( 200 )
+Time Walk, Backtrack, Time Lock, Chronosphere
+26. Firelord ( 250 )
+Soul Born, Summon Lava Spawn, Incinerate, Volcano
+27. Faerie Dragon ( 250 )
+Reinforced Hide, Mana Flare, Phase Shift, Dream Rift
+28. Pandaren Brewmaster ( 250 )
+Breath of Fire, Drunken Haze, Drunken Brawler, Storm, Earth and Fire
+--------------------Page 5--------------------
+29. Goblin Alchemist ( 280 )
+Healing Spray, Chemical Rage, Acid Bomb, Transmute
+30. Water Elemental ( 300 )
+Seven Seas, Fluid Movement, Waveform, Frost Pillar, Whirlpool
+31. Fire Elemental ( 300 )
+Ignite Mana, Immolate, Magma Shackles, Essence of Fire, Ember Blast
+32. Wind Elemental ( 300 )
+Tempest, Sandstorm, Gust, Squall, Tornado
+33. Earth Elemental ( 300 )
+Tremor, Corrosion, Noxious Fumes, Ancient Might, War Stomp.
+34. Zergling ( 350 )
+Metabolic Boost, Adrenal Glands, Carapace, Burrow
+35. Hydralisk ( 350 )
+Muscular Augments, Grooved Spines, Slow Poison, Lurker Aspect
+--------------------Page 6-------------------
+36. Zealot ( 350 )
+Psionic Blade, Plasma Shield, Leg Enhancement, Rush
+37. Dark Templar ( 350 )
+Permanent Cloak, Dark Void, Backstab, Eradicate
+38. Dark Archon ( 350 )
+Feedback, Mind Control, Argus Talisman, Maelstrom
+39. Ghost ( 350 )
+Lock Down, Cloaking, Ocular Implants, Moebius Factor, Arm Nuke, Nuke
+40. Reaper ( 350 )
+Stim Pack, Jet Pack, D-8 Charge, Jet Boost
+41. Ninja ( 400 )
+Phantom Moon, Rend, Dragon's Breath, Infinite Fury, Astral Spirit, Lunar Veil
+42. Zombie ( 400 )
+Plague, Consume, Infection, Carnivorous Impulse, Septic Swarm
+--------------------Page 7--------------------
+43. Siren ( 450 )
+Cure, Sleep Song, Protect, Harmony, Silent Voice
+44. Diablos ( 450 )
+Gravija, Poison, Darkside, Osmose, Dark Messenger
+45. Eden ( 500 )
+Boost, Mad Rush, Spatial Warp, Time Compression, Eternal Breath
+46. Maverick Hunter ( 500 )
+X-Buster, Heart Tank, Force Armor, Falcon Armor, Shadow Armor, Blade Armor, Ultimate Armor, Equip Armor
+47. Immortal ( 500 )
+Twin Phase Disruptor, Energy Shield, Advanced Technology, Immortality
+48. Twilight Archon ( 500 )
+Psionic Shockwave, Advanced Plasma Shield, Uraj Fragment, Twilight
+49. Soul Reaper ( 500 )
+Death Scythe, Spirit Harvest, Soul Channel, Rebirth, Phantom Soul, Soul Eater
+--------------------Page 8--------------------
+50. Beholder ( 550 )
+Light Distortion, Relocate, Command Aura, Reveal All
+51. Oblivion ( 600 )
+Impetus, Fel Blaze, Adamantine Skin, Life Drain, Vile Essence, Netherstep
+52. Apparition ( 600 )
+Phantasm, Lunar Shade, Acceleration, Infiltrate, Avoidance Aura, Time Paradox, Amaurosis, Warp
+53. Alchemist ( 600 )
+Rig Explosives, Pitch Potion, Chemical Rage, Create Explosives, Acid Spray, Aviate
+54. Magikarp ( 650 )
+Splash, Tackle, Splash Attack, Evolution
+55. Mudkip ( 650 )
+Mud-Slap, Take Down, Protect, Endeavor, Whirlpool
+56. Slowpoke ( 650 )
+Slow Reaction, Confusion, Amnesia, Disable, Slack Off
+--------------------Page 9--------------------
+57. Gengar ( 650 )
+Lick, Hypnosis, Confuse Ray, Night Shade, Levitate, Dream Eater
+58. Wobbuffet ( 650 )
+Counter, Safe Guard, Endurance, Shadow Tag, Destiny Bond
+59. Snorlax ( 650 )
+Snore, Body Slam, Yawn, Thick Fat, Rest
+60. Bloodseeker ( 700 )
+Rupture, Blood Bath, Blood Thirst, Vampiric Breath, Lethal Rend, Bloodrage
+61. Night Stalker ( 750 )
+Void, Crippling Fear, Hunter in the Night, Shadow Cast, Occulation, Darkness
+62. Butcher ( 800 )
+Meat Hook, Rot, Disease Cloud, Flesh Heap, Putrid Carapace, Dismember
+63. Pit Lord ( 900 )
+Firestorm, Pit of Malice, Expulsion, Conflagrant Vigor, Banish, Dark Rift
+--------------------Page 10--------------------
+64. Shadow Priest ( 1000 )
+Devouring Plague, Mind Flay, Flash Heal, Psychic Horror, Inner Fire, Shadowform
+65. Rogue ( 1000 )
+Stealth, Camouflage, Hemorrhage, Kidney Shot, Backstab, Sprint, Lightning Reflexes, Shadowstep
+66. Shaman ( 1000 )
+Chain Heal, Earth Fire Wind Air, Nature's Guardian, Reincarnation, Earth Shield, Bloodlust
+67. Hunter ( 1000 )
+Hunter's Mark, Flare, Serpent Sting, Lightning Reflexes, Multi-Shot, Trueshot Aura
+68. Druid ( 1000 )
+Mark of the Wild, Wrath, Rejuvenation, Lifebloom, Moonfire, Entangling Roots, Thorns Aura, Shapeshift
+69. Warrior ( 1000 )
+Heroic Strike, Hamstring, Intercept, Disarm, Thunderclap, Vitality, Damage Shield, Heroic Leap
+70. NSC-CCP-01 Jester ( 1100 )
+Mechanical Prestidigitism, Mechanical Acrobatism, Bio-Enhanced Muscular System, NSC Bootboost MK. I, N.Mako Core Upgrade
+--------------------Page 11--------------------
+71. NSC-CCP-02 Eternal ( 1100 )
+N.Mako Enhanced Nanobot System, Alien Component Recycling Process, N.Mako Enhanced Shells, Autonomous Evolution System, NSC Bootboost MK. II, Bio-Mechanical Restoration
+72. NSC-CCP-03 Predator ( 1200 )
+5.56x6S T&P Ammunition, N.Mako Powered Cloaked Armor, E.V.A.R.S. Accuracy Add-on, MT502 Device Autodestruction, NSC-P Bootboost MK. II, S.A.R.T.E.S. Stalking Device
+73. NSC-CCP-04 Timeshifter ( 1200 )
+Bio-Mechanical Decelerator, TS-V2 G.Point Swap, Enhanced Automated Velocity, N.Mako Vitality Core, TS-1A Chrono Shift, NSC-T Bootboost MK. I, Alpha Convergence
+74. NSC-MCU-01 Harlute ( 1300 )
+N.Mako Powered Stabilizators, Force Shield, Gravitational Modulator, Gravity Distortion, NSC-D.Matter Hoverboots, Force Pulsar, Zero Gravity
+75. NSC-MCU-02 Marlute ( 1300 )
+N.Mako-Powered Stabilizators, Mana Drain, NSC-M2 Angel Veil, Soul Extraction, NSC-D.Matter Hoverboots, Terrestrial Coffin, Soul Conversion
+76. NSC-MCU-03 Sundel ( 1400 )
+N.Mako-Enhanced Nanobot System, Rippling Convulsion, Spectral Ray, Phase Shift, NSC-D.Matter Hoverboots, Ethereal Flare
+77. NSC-MCU-04 Metatron ( 1400 )
+NSC-M Burst Shell, N. Mako Core Upgrade, MT-04 Claymore, Stasis Shock, NSC-D. Matter Hoverboots, Celestial Wrath
+--------------------Page 12--------------------
+78. NSC-SPU-01 Chaos ( 1500 )
+N.Mako-Enhanced Photon Blaster, NSC-SP01 Sleipnir, Blink, Fluctuating Maelstrom, Occult Essence, Warp Blade
+79. NSC-SPU-02 Loki <Private race> ( 1500 )
+80. Devouring One [Hero] ( 1600 )
+Metabolic Boost, Adrenal Glands, Advanced Carapace, Feral Sphere, Call Zerglings, Burrow
+81. Danimoth [Hero] <Private race> ( 1600 )
+82. Seraphim ( 1700 )
+Divinus Vis, Kyrie Eleison, Divinum Flamen, Angelus Pennae, Curatio, Via Caelum, Excurcio, Agnus Dei
+83. Berserker ( 1800 )
+Berserk, Furious Leap, Last Stand, Unending Rage
+84. Lv1900 Race Placeholder ( 9900 )
+--------------------Page 13--------------------
+85. Illidan Stormrage ( 2000 )
+Flames of Azzinoth, Skull of Gul'dan, Draw Soul, Shadowfury, Berserk, Metamorphosis
+86. Kael'thas Sunstrider ( 2000 )
+Mind Control, Shock Barrier, Flamestrike, Nether Beam, Gravity Lapse, Summon Phoenix
+87. Archimonde ( 2100 )
+Air Burst, Soul Charge, Grip of the Legion, Fear, Finger of Death, Doomfire
+88. Thrall ( 2100 )
+Purge, Horn of Snowsong, Shock, Lightning Shield, Healing Wave, Chain Lightning
+89. Alleria Windrunner ( 2200 )
+Searing Arrows, Aimed Shot, Windrunner, Concussive Shot, Piercing Wind, Kill Shot, Favor of the Wind Goddess
+90. Tyrande Whisperwind ( 2200 )
+Trueshot Aura, Prayer of Mending, Lightwell, Spirit of Redemption, Blessed Recovery, Meld, Holy Nova
+91. Uther the Lightbringer ( 2300 )
+Devotion Aura, Hammer of Justice, Seal of the Martyr, Judgement of Light, Pursuit of Justice, Divine Shield
+--------------------Page 14--------------------
+92. Jaina Proudmoore ( 2300 )
+Blizzard, Blink, Living Bomb, Ice Armor, Polymorph, Deep Freeze
+93. Ragnaros ( 2400 )
+Eruption, Melt Weapon, Elemental Fire, Flame Cyclone, Pyrogenics, Wrath of Ragnaros
+94. Therazane ( 2400 )
+Impale, Fists of Stone, Curse of the Earth, Thick Skin, Ground Tremor, Seismic Wave
+95. Al'Akir ( 2500 )
+Chain Lightning, Thunderstorm, Curse of the Sky, Windfury, Spirit of the Wind, Winged Harbinger
+96. Neptulon ( 2500 )
+Frost Storm, Chilling Touch, Ice Block, Tidal Wave, Water Shield, Vortex
+97. Vek'lor ( 2600 )
+Heal Brother, Twin Teleport, Shadow Bolt, Frostbolt, Nether Protection, Arcane Burst
+98. Vek'nilash ( 2600 )
+Heal Brother, Twin Teleport, Uppercut, Unbalancing Strike, Vigilance, Shattering Throw
+--------------------Page 15--------------------
+99. Jormungandr ( 2700 )
+Devour Flesh, Constrict, Terrestrial Dominion, Lunge, Cloak of Shadows, Nightfall
+100. Anub'arak ( 2700 )
+Impale, Freezing Slash, Spiked Carapace, Relentless Pursuit, Permafrost, Leeching Swarm
+101. Tinkmaster Overspark ( 2800 )
+Nigh-Invulnerability Belt, Gnomish Death Ray, Gnomish Net-o-Matic Projector, Alarm-o-Bot, Gnomish Weapon Dispenser, Gnomish Engineering
+102. Nixx Sprocketspring ( 2800 )
+Goblin Rocket Launcher, The Bigger One, Goblin Bomb Dispenser, Goblin Rocket Boots, The Mortar: Reloaded, Goblin Engineering
+103. Sylvanas Windrunner ( 2900 )
+Black Arrow, Fade, Marksmanship, Song of Sylvanas, Ghostly Strike, Shriek of the Highborne
+104. Maiev Shadowsong ( 2900 )
+Shadow Strike, Vanish, Cheap Shot, Cloak of Shadows, Master of Subtlety, Cheat Death
+105. Algalon the Observer ( 3000 )
+Phase Punch, Cosmic Smash, Collapsing Star, Quantum Strike, Celestial Power, Big Bang
+--------------------Page 16--------------------
+106. Deathbringer Saurfang ( 3100 )
+107. Lv3200 Race Placeholder ( 9999 )
+108. Lv3300 Race Placeholder ( 9999 )
+109. Lv3400 Race Placeholder ( 9999 )
+110. Lv3500 Race Placeholder ( 9999 )
+111. Lv3600 Race Placeholder ( 9999 )
+112. Lv3700 Race Placeholder ( 9999 )
+--------------------Page 17--------------------
+113. Lv3800 Race Placeholder ( 9999 )
+114. Lv3900 Race Placeholder ( 9999 )
+115. Lv4000 Race Placeholder ( 9999 )
+116. Lv4100 Race Placeholder ( 9999 )
+117. Lv4200 Race Placeholder ( 9999 )
+118. Lv4300 Race Placeholder ( 9999 )
+119. Lv4400 Race Placeholder ( 9999 )
+--------------------Page 18--------------------
+120. Lv4500 Race Placeholder ( 9999 )
+121. Lv4600 Race Placeholder ( 9999 )
+122. Lv4700 Race Placeholder ( 9999 )
+123. Lv4800 Race Placeholder ( 9999 )
+124. Lv4900 Race Placeholder ( 9999 )
+125. Deathwing ( 5000 )
+126. Lv5000 Race Placeholder ( 9999 )
+--------------------Page 19--------------------
+127. Lv5000 Race Placeholder ( 9999 )

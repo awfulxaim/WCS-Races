@@ -1,0 +1,13 @@
+Lina, The Slayer
+
+Dragon Slave
+ability1: all enemies in a range ahead of you take 10/17/23/28 damage. 8.5 second CD.
+
+Light Strike Array
+ability2: lays a ward at the place you aim after a 1 second delay. The ward lasts 1.5 seconds and stuns all enemies that enter it and deals 9/15/21/28 damage per second. 7 second CD.
+
+Fiery Soul
+Each time you cast an ability or ultimate you are granted a stack of Fiery Soul that lasts 7 seconds. each stack grants .04/.05/.06/.07 speed. Maxes at 3 stacks. When you reach three stacks at once your stacks are used up and you are granted .44/.60/.76/.92 speed for 7 seconds.
+
+Laguna Blade
+Ultimate: target enemy takes 45/68/95/125 damage. 70/60/50/40 second CD. Enemy must be in ward range of you.

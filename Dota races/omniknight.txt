@@ -1,0 +1,15 @@
+Purist Thunderwrath, Omniknight
+
+knife only
+
+Purification
+ability1: Target ally or self is healed for 9/18/27/36 HP. Any enemies in ward range of the target is dealt the same damage. 10 second CD.
+
+Repel
+ability2: Target teammate or self cannot take damage from abilities or ultimates for 6/8/10/12 seconds. 14 second CD.
+
+Degen Aura
+Enemies that come in ward range of you are slowed by .07/.14/.21/.28
+
+Guardian Angel
+Ultimate: Your entire team is invulnerable to all non-ability, non-ultimate damage for 5/6/7/8 seconds. 150 second CD.

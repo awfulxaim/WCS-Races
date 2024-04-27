@@ -1,0 +1,13 @@
+Rylai Crestfall, the Crystal Maiden
+
+Crystal Nova
+Ability1: all enemies in ward radius around where you aim are slowed by .3 for 3.5/4/4.5/5 seconds and take 10/15/20/25 damage. 15 second CD
+
+Frostbite
+Ability2: Stun target enemy for 1.5/2/2.5/3 seconds and deal 7 damage per second for that duration. 10 Seconds CD
+
+Arcane Aura
+Passive: all teammates are granted 1/2/2/3$ per second. Rylai is granted 2/3/4/5$ per second. All teammates cooldowns are reduced by 1/2/2/3 seconds. Rylai's cooldowns are reduced by 2/3/4/5 seconds.
+
+Freezing Field
+Ultimate: Stun Rylai for 7 seconds. All enemies in nuke range of Rylai take 17/25/31 damage per second for 7 seconds and are slowed by .3, If rylai dies while this is active the spell is stopped. 150/120/90/60 second CD

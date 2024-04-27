@@ -1,0 +1,13 @@
+Kaldr, Ancient Apparition
+
+Cold feet
+ability1: lays a ward that deals 4/5/6/8 damage per second, lasts 4 seconds. Anyone in ward range when the time runs out is stunned for 1/2/3/4 seconds. 15/13/11/9 second CD
+
+Ice vortex
+ability2: lays a ward that slows enemies by .18/.22/.26/.30 and causes enemies in range to take 10/15/20/25% extra damage, lasts 12 seconds. 5 second CD
+
+Chilling touch
+20% chance on hit to give yourself and nearby teammates a buff increasing damage on hit by 5/6/7/8 for the next 6 attacks.
+
+Ice blast
+ultimate: debuffs all enemies in a radius around where you aim, which grows in size based on distance to the point aimed at, up to the size of a nuke. The debuff deals 15/25/35/45 damage instantly and deals and additional 1/2/2/3 damage per second for the next 8/9/10/11 seconds. for the 17 (11 dot +6 additional) second duration debuffed enemies cannot be healed. each second the dot ticks dbuffed enemies HPs are checked, any enemy at or below 10/11/12 HP are instantly killed. 45 second CD

@@ -1,0 +1,15 @@
+Magnus Magnataur, the Magnoceros
+
+knife only
+
+Shockwave
+ability1: all enemies on the ground in straight line in front of you take 8/15/23/30 damage. 10/9/8/7 second CD.
+
+Empower
+Your attacks deal 20/30/40/50% extra damage and you deal 20/30/40/50% of the damage you deal to all enemies in ward range of the enemy hit.
+
+Skewer
+ability2: Stun all enemies in a ward sized circle in front of you for 1 second. Magnus will then human style teleport in the direction he is facing. 1 second after activation all enemies effected by the initial stun will take 7/14/21/28 damage and be instantly teleported in front of you. Max units affected 1/2/3/4. 30 second CD.
+
+Reverse Polarity
+Ultimate: All enemies in ward range take 5/13/20/26 damage. they are then teleported directly in front of you, very close together, and stunned for 2/3/4/5 seconds. 120/110/100/90 second CD.

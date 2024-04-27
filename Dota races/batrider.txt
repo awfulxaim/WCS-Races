@@ -1,0 +1,16 @@
+Jin'Zakk, Bat Rider
+
+grenade and knife only
+
+Sticky Napalm
+Grenades will give enemies hit stacks of sticky napalm each stack slows the enemy by .03./05./.07/.09 and causes your next grenade to deal 10/15/20/25 extra damage. each stack lasts 8 seconds.
+
+Flame break
+Spawns you with a grenade, gives you a new one when your last one is thrown.
+knocks back enemies hit by your grenades, stuns enemies hit for .5 seconds, deals 7.5/15/22.5/30 extra damage.
+
+Firefly
+ability1: you leave a trail of wards in your wake, each deals 2/4/6/8 damage per second, and lasts 18 seconds. While active you can fly. 40 second CD
+
+Flaming lasso
+ultimate: target enemy is sucked to you like a blackhole for 3/3.5/4/4.5 seconds. 90/70/50/30 second CD.

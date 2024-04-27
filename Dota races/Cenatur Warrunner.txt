@@ -1,0 +1,17 @@
+Bradwarden, Centaur Warrunner
+
+Knife only
+
+Hoofstomp
+Ability1: Stuns all nearby enemies for 2/2.25/2.5/2.75 seconds and deals 10/15/20/25 damage.
+13 second CD
+
+Double Edge
+ability2: deals 18/25/33/40 damage to all enemies in ward range, and to yourself.
+8 second CD
+
+Return
+Spawn with +50 HP. 100% chance when hit to return 16/18/20/22 damage to that enemy.
+
+Stampede
+Ultimate: Grants all teammates +1.0 speed for 4 seconds. Enemies dealt damage by a knife for that duration are slowed by 1.0 for 2 seconds and take 100% of your current HP in damage. 150/120/90/60 second CD.

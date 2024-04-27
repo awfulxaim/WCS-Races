@@ -1,0 +1,15 @@
+N'aix, the Lifestealer
+
+knife only
+
+Rage
+ability1: for the next 3/4/5/6 seconds you cannot be stunned, slowed, etc. You cannot be effected by abilities or ultimates for this duration as well. while this is active you are granted .3/.45/.6/.8 speed. 19 second CD.
+
+Feast
+100% chance on hit to heal for 4/5/6/7% of the damage dealt.
+
+Open wounds
+ability2: target enemy is slowed by .7 for 8 seconds, any teammate or yourself that deal damage to that enemy are healed for 15/20/25/30% of the damage they deal to them for the duration. the range you can cast at increases with levels, starting at knife range away and ending at ward range away. 24/20/16/12 second CD.
+
+Infest
+Ultimate: Lifestealer is put underground, stunned, invulnerable, and following target enemy or teammate. When reactivated Lifestealer will be put above the target and lose all buffs and debuffs. Lifestealer will be granted HP equal to the targets current HP if the target was an enemy. When he reactivates he deals 20/30/40/50 damage to all enemies in ward range of the target. 100 second CD.

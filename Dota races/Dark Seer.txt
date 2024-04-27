@@ -1,0 +1,15 @@
+Ish'Kafel, The Dark Seer
+
+knife only
+
+Vacuum
+24% chance on hit to cause all enemies on the map to be sucked toward the hit enemy for 1 second, and deal 4/8/12/16 damage to that enemy.
+
+Ion Shell
+Ability1: target player deals 3/5/7/9 damage per second to all nearby enemies. Lasts 20 seconds. 10 second CD.
+
+Surge
+ability2: target teammate's speed is set to 5.22 for 3/5/6/8 seconds. 12/11/10/9 second CD.
+
+Wall of Replica
+Ultimate: Lays 3 ward in a line where you aim. Any enemies who walk into those wards are debuffed and will hurt themselves when they damage someone for the next 15/30/45/60 seconds. 100% chance when the debuffed enemy deals damage to one of your teammates, that enemy takes 90/100/120/140% of the damage they dealt.

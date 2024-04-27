@@ -1,0 +1,15 @@
+Anub'arak, Nyx Assassin
+
+knife only
+
+Impale
+ability1: target enemy and all enemies in a vague line between you and the target are launched into the air. When they land they are stunned for 1/2/2/3 seconds and take 8/14/20/26 damage. 11 second CD.
+
+Mana Burn
+4/12/20/28% chance on hit to burn 35/40/45/50% of the targets money. They take damage equal to .01/.015/.020/.025 times the money burnt.
+
+Spiked Carapace
+ability2: for the next 2.25 seconds you are invulnerable and all damage you would have taken is reflected. Enemies who shoot you are stunned for .6/1.2/1.8/1.4 seconds. 23/20/17/14 second CD.
+
+Vendetta
+Ultimate: for the next 5/20/35/50 seconds you are 100% invisible, unless you attack or cast an ability. While you are invisible you gain +.16/.18/.20 speed. If you attack to leave invis instead of let the duration run out or cast an ability your attack will deal 10/25/40/55 extra damage. 80/70/60/50 second CD.

@@ -1,0 +1,15 @@
+Aiushtha, the Enchantress
+
+AWP only
+
+Untouchable
+Passive: 100% chance when hit to stun the enemy who hit you for .3/.6/.9/1.2 seconds and slow them for the same amount for 3 seconds.
+
+Enchant
+ability1: Target enemy is slowed by .2/.3/.4/.5 for 5.5 seconds. 30/25/20/15 second CD.
+
+Nature's Attendants
+ability2: Heals the nearest teammate (or herself) whichever is lower HP for 30/50/70/90 HP/sec up to a max of 100 HP. Lasts 10 seconds. 45 second CD.
+
+Impetus
+Passive Ultimate: 100% chance on hit to deal additional damage based on the distance the enemy si from you. Additional damage caps at 38/50/63/77. Puts the Word Sproink! across the screen when someone dies to impetus damage.

@@ -1,0 +1,15 @@
+Mangix, Pandaren Brewmaster
+
+knife only
+
+Thunderclap
+ability1: nearby enemies are slowed by .25/.35/.45/.55 for 4 seconds and take 10/18/25/30 damage.
+
+Drunken Haze
+ability2: target enemy is slowed by .14/.18/.22/.26 and have a 45/55/65/75% chance their attacks will do no damage. lasts 8 seconds
+
+Drunken Brawler
+10/15/20/25% chance when hit to evade. 10/15/20/25% chance on hit to deal 2x damage.
+
+Primal Split
+Ultimate: For the next 19/20/23/26 seconds you are ward and ultimate immune, 50% invis, gain +.5 movespeed and your attacks have: 70% chance on hit to stun for 2 seconds, 20% chance on hit to deal 20 damage to all nearby enemies, 80% chance to deal 20 extra damage, and 22% chance on hit to set the enemy on fire dealing 5 damage per second for 5 seconds. 180/160/140/120 second CD

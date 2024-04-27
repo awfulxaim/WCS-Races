@@ -1,0 +1,24 @@
+Squee, Spleen, and Spoon, Goblin Techies
+
+Spawns with .75 movespeed passively.
+
+1. MINES MINES MINES
+ability1: opens a menu where you can pick from 3 different types of wards to lay. allows up to 25/20/15/10 second CD
+
+Land Mines summons an invisible ward that lasts forever and deals its damage once to the first enemy that steps on it, then disappears.
+
+Stasis Traps summons an invisible ward that lasts forever and stuns the first enemy that steps into it, then disappears.
+
+Remote Mines summons an invisible ward that lasts forever and deals its damage once when Focused Detonate is activated, then disappears.
+
+2. Land mines
+causes land mines to deal 30/40/50/60 damage to the first enemy that steps on them and allows you to make up to 20 of them.
+
+3. Stasis Traps
+causes stasis traps to stun the first enemy that steps on it for 3/4/5/6 seconds and allows you to make up to 36 of them.
+
+4. Suicide Squad Attack
+ability2: Goblin Techies suicide. all enemies in ward range take 65/85/115/155 damage. 180/170/160/150 second CD.
+
+5. Remote Mines and Focused Detonate
+Ultimate: causes remote mines in nuke radius of goblin techies to deal 30/45/60/75 damage to all enemies in ward range of the mines when this is activated. All other mines, remote or otherwise are unaffected. 1 second CD.

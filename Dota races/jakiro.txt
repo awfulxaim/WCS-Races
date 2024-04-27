@@ -1,0 +1,13 @@
+Jakiro, Twin Headed Dragon
+
+Dual breath
+10% chance on hit to deal 4/6/11/14 damage and an additional 1/1/2/2 damage per second for 4 seconds. for the duration the enemy is slowed by .3. If the same enemy is hit by this ability again while the dot is active on them is will reset the dot and double its damage.
+
+Ice Path
+ability1: all enemies in a straight line across the whole map in the direction you aim are stunned for 1/1.4/1.8/2.2 seconds and take 3/5/8/10 damage.
+
+Liquid Fire
+Every 20/15/10/5 seconds, Jakiros next attack will deal 1/2/2/3 damage per second and slow the enemy by .2/.3/.4/.5 for 5 seconds. this stacks with dual breath.
+
+Macropyre
+Ultimate: lays 3 wards in straight line in front of you. These wards last 7 seconds and and deal 13/14/18/23 damage per second. 60 second CD.

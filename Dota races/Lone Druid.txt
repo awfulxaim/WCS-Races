@@ -1,0 +1,33 @@
+Sylla, Lone Druid
+
+USP only, 1 per team.
+
+Spirit Bear
+Passive. Grants Spirit Bear +1300/1700/2200/2600 HP on spawn, if the Spirit bear dies you take 50/75/100/125 damage.
+
+Rabid
+ability1: Increases your and Spirit Bear's movespeed by +.05/.1/.15/.2 speed for 10 seconds. 30 second CD.
+
+Synergy
+Passive. Grants 1/2/3/4 additional damage to Spirit bear. +.1/.2/.3/.4 speed on spawn for spirit bear. Increases Rabids duration by 10/20/30/40 seconds. Increases HP gained when true form is activated by 100/200/300/400.
+
+Battle Cry
+ability2: Grants 2/4/6/8 HP regen per sec and 2/4/6/8 extra damage on hit to Lone druid and spirit bear for 8 seconds. 30 second CD
+
+True form
+Ultimate: When activated transform. While transformed you gain 2/4/6/8 HP regen per second, and+100/250/400/600 HP. However you become knife only and your speed is reduced by .35 press ultimate again to transform back and remove all buffs and debuffs.
+
+_________________________________________________________
+
+Spirit Bear
+
+Knife only, 1 per team.
+
+Return
+ability1: teleports you instantly to Lone druid, cannot be cast if you have taken damage in the past 3 seconds. 5 second CD.
+
+Resistance
+Reduces damage taken from wards, abilities, and ultimates by 33%.
+
+Entangling claws
+Passive Ultimate. 20% chance on hit to deal 6 damage per second for 3 seconds and root them for that duration.

@@ -1,0 +1,15 @@
+Faceless Void
+
+Knife only
+
+Time Walk
+ability1: human alliance style teleport that slows enemies that get in ward range of you by .2/.3/.4/.5 starting when you activate the teleport and lasting 3 seconds. 19/17/15/13 second CD.
+
+Backtrack
+Passive: 10/15/20/25% cahcen to evade any damage including spell and ultimate damage.
+
+Timelock
+Passive: 10/15/20/25% chacne on hit to stun the enemy for 1/1/1/2 seconds and deal an additional 4/5/6/7 damage.
+
+Chronosphere
+Ultimate: Lays a ward that stuns anyone who steps in it, teammate or enemy, except Faceless void. All enemies and teammates inside are silenced and cannot cast abilities or ultimates and are gagged and muted in game so they cannot chat or use voice. all wcs menus are disabled as well. While faceless void is inside the ward he deals and additional 4/5/6/7 damage on hit. Lasts 4/4.5/5/6 seconds. 120/110/100/60 second CD.

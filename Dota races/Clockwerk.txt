@@ -1,0 +1,15 @@
+Rattletrap, in the Clockwerk Suit
+
+knife only
+
+Battery Assault
+25% chance when hit to stun the enemy and deal 2/4/6/8 damage to that enemy.
+
+Power Cogs
+ability1: Lays a ward that knocks back enemies affected, stuns them for 1 second and deals 8/12/16/20 damage. Steals 80/120/160/200 $ per second. lasts 5/6/7/8 seconds. 15 second CD.
+
+Rocket flare
+ability2: deals 8/12/16/20 damage to a random enemy and beacons them for 10 seconds. 20/18/16/14 second CD.
+
+Hookshot
+Ultimate: Teleports you (Human Alliance type) to target enemy. Deals 10/20/30/40 damage and stuns them for 1/1.5/2/2.5 seconds. 70/55/40/12 second CD.

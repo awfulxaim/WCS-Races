@@ -1,0 +1,17 @@
+Razzil Darkbrew, Alchemist
+
+knife only
+
+Acid Spray
+Ability 1: lays a ward where you aim, the ward does not slow enemies caught in it but will remove all of their armor and begin dealing 1/2/3/4 damage per second. Ward lasts 16 seconds.
+22 second CD
+
+Unstable concoction
+ability2: Gives you a grenade, a timer begins counting down in chat, after 7 seconds, it checks to see if a grenade is in your inventory if you have one you are stunned for 4 seconds. This grenade will deal 15/22/29/36 extra damage and will sutn all enemeis hit for 2/3/3/4 seconds.
+16 seconds CD
+
+Greevil's Greed
+Passive, Every kill you get within 25 seconds of another grants a bonus 1.5x/2x/3x/4x gold.
+
+Chemical rage
+Ultimate: for the next 25 seconds alchemist gains .1/.2/.3/.4 movespeed, 100/250/500/750 HP, 15/30/45/60 HP/sec. 45 second CD
