@@ -1,0 +1,16 @@
+Doom
+
+Devour
+When you kill an enemy you get their passive skills until your next kill or death. you gain 20/40/60/70/100/120/140/160 more money per kill. you take 1/2/3/4/5/6/7/8 flat + 15% less damage per hit.
+
+Scorched earth (ability)
+for 6/8/10/12/14/16/18/20 seconds you heal 1/2/2/3/3/4/4/5 HP per second and get 7/8/9/10/14/15/16/17% increased movement speed and enemies nearby (200 range) take 2/3/4/5/5/6/7/8 damage per second while they are nearby.
+
+Infernal Blade
+2/4/7/10/13/16/19/21% chance on hit to bash for .6 seconds and deal 1/2/3/4/5/6/7/8 flat + 1/2/3/4/5/6/7/8% of their current health as damage per second for 4 seconds.
+
+LVL Death
+1/2/3/4/5/6/7/8% chance on hit to deal damage equal to the enemies current race level x 3/3/3/4/4/4/5/6.
+
+Doom
+3/5/7/9/12/14/17/20% chance when you kill an enemy, the next round they spawn without any skills and cannot be healed.

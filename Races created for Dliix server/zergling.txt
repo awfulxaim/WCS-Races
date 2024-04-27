@@ -1,0 +1,15 @@
+Zergling
+
+starts at 75 HP, knife only
+
+Claw Attack-
+Any knife attack deals an extra 1/2/3/4/5/6/8 damage. 8 levels
+Adrenal Glands-
+Left click knife attacks deal an extra 1/2/3/4/5/6/8 damage. 8 levels.
+Metabolic Boost-
+Take no extra damage from headshots, increase your movement speed by .16/.31/.47/.63/.78/.94/1.09/1.25. 8 levels
+Carapace-
+Spawn with 5/10/15/20/25/30/35/40 more HP. 8 levels
+Burrow (ultimate)-
+Burrow underneath the ground, hiding but becoming unable to move. Press ultimate again to unburrow. Initial cooldown 40/35/30/25/20/15/10/5 seconds. Cooldown 14/12/10/8/6/4/2/0.
+Burrow teleports the player model underground so their head is just below ground, they cannot move but can turn while underground.

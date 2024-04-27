@@ -1,0 +1,15 @@
+Gondar
+
+Knife only
+
+Shuriken Toss (ability)
+Deals 8/10/12/14/16/18/20/25 damage to the enemy aimed at and all tracked enemies. Then, those enemies are slowed by 80% for 2 seconds. 10 second cooldown. you must be aiming at an enemy to activate this, you cannot just automatically hit tracked enemies without an enemy to aim at.
+
+Jinada
+Every 15/12/9/7/5/3 seconds, power up your knife attacks. Your next hit deals 6/9/10/13/14/17/18/21 extra damage and steals 120/200/280/360/620/700/780/860 money from the enemy hit.
+
+Shadow Walk (ability2)
+Gradually become 100% invisible over 2/1.75/1.5/1.25/1/.75/.5/.25 seconds. this invisibility lasts 5/10/15/20/25/30/35/40 seconds or until you attack. If you hit an enemy from invisibility they are bashed for .6/.8/1/1.2/1.4/1.6/1.8/2 seconds. You take 30% reduced damage while invisible. 18/17/16/15/13/12/11/10 second cooldown.
+
+Track (ultimate)
+The enemy aimed at becomes visible through walls for your entire team for 30 seconds. While you are in a large area around that enemy (1200 range) you get 14/16/18/20/22/24/26/28% increased movement speed. You deal 112/125/137/150/162/175/187/200% damage to tracked enemies, including jinada and shuriken toss damage. If you kill a tracked enemy you get 1000/1300/1750/2250/2700/3200/3650/4000$. If a teammate kills a tracked enemy, that teammate gets 400/450/800/850/1200/1250/1650/2000$. 5 second cooldown.

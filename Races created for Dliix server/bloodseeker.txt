@@ -1,0 +1,13 @@
+bloodseeker
+
+Bloodrage (ability)
+when activated, take 20/19/18/17/16/14/12/10 damage per second for 6/6/6/6/6/7/8/9 seconds, but you deal 15/30/45/60/75/90/105/120% more damage on every hit. No initial cooldown. 6/6/6/6/6/7/8/9 second cooldown. 8 levels
+
+Blood Bath
+When an enemy player dies Bloodseeker heals 5/10/15/20/25/30/35/40 HP. 8 levels
+
+Thirst
+Bloodseeker gains .14 movement speed per enemy with 75 HP or less up to a maximum of 1.14/1.28/1.42/1.56/1.7/1.84/1.98/2.12. If an enemy has 50 or less HP a red line that is only visible to Bloodseeker is drawn from the bloodseeker to that enemy. The line and your movement speed updates every second. 8 levels
+
+Rupture (ultimate)
+when activated a random enemy will take 2/4/6/8/10/12/14/16 damage every 2 seconds for 4/6/8/10/12/14/16/18 seconds. If they moved between damage instances they take 3/4/5/6/7/8/9/10 more damage on the next instance. 45 second initial cooldown. 45 second cooldown. 8 levels.

@@ -1,0 +1,9 @@
+wisp
+
+knife only.
+
+Meld
+Spawn with 50/55/60/65/70/75/80/85% invisibility.
+
+Sacrifice (ultimate)
+Kill yourself but deal 200/200/200/200/250/250/250/300 damage to all enemies in a 100/100/100/100/100/100/100/150 unit radius. if you get a kill with this skill you gain 2.5x the normal experience.

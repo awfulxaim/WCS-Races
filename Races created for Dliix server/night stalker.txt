@@ -1,0 +1,13 @@
+night stalker
+
+Void
+2/4/6/8/10/12/14/16% chance on hit to slow the enemy by 50% for 1.25 seconds and deal 4/7/8/10/12/14/16/18 damage. if it is dark, bash them for 1 second, and then slow them for 2/2.5/3/3.5/4/4.5/5/5.5 seconds and deal 4/7/8/10/12/14/16/18 damage instead.
+
+Crippling Fear (ability)
+Enemies in a 400 unit radius take 1/1/2/2/3/3/4/5 damage per second, cannot activate abilities or ultimates, and have a 50% chance to deal no damage with attacks, for 3 seconds. If it is dark, this lasts 4/4/4/4/5/5/5/6 seconds instead. 30/25/25/20/20/15/15/10 second cooldown.
+
+Hunter in the Night
+While it is dark you get 19/22/25/28/31/34/37/40% increased movement speed, 25% chance to block bash, freeze, sleep, slow, knockback, drug, shake, banish, or impale. Killing an enemy while it is dark heals you for 30 HP and gives you 25% more money.
+
+Darkness (ultimate)
+Darkens the screen of all enemy players by 25% for 40 seconds. When activated your crippling fear cooldown is refreshed. 40 second initial cooldown. 140/130/120/110/100/90/80/70 second cooldown.

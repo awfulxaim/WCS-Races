@@ -1,0 +1,18 @@
+Anti-mage
+
+Knife only
+
+Mana Break
+100% chance on hit to remove 25/30/35/40/45/50/55/60 + 10% of their money. They take 50% of that number as extra damage. If an enemy has no money they are slowed by 25/30/35/40/45/50/55/60% for 4 seconds instead.
+
+Blink (ability)
+instantly teleport to wherever you are aiming. 1000 range. 14/13/11/10/9/8/6/5 second cooldown.
+
+Counterspell (ability2)
+you take 15/25/35/45/55/65/75% less damage from extra damage or abilities and ultimates. if activated, for 1.2 seconds any extra damage or ability or ultimate damage is evaded and mirrored to the enemy. 17/15/13/11/9/7/5/3 second cooldown.
+
+Blink Fragment (ability3)
+instantly teleports you to wherever you are aiming. 1000 range. for the next 3 seconds you deal 75% less damage, but you have 75% chance to evade and 30/40/50/60/70/80/90/100% chance to do mirror damage. then you instantly teleport back to where you teleported from. shares a cooldown with Blink.
+
+Mana Void (Ultimate)
+All nearby (150 range) enemies take 1 damage for every 533/400/320/266/228/200/177/160$ they have less than 16,000. 70/60/50/40/30/20/20/20 second cooldown.

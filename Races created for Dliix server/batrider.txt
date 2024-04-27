@@ -1,0 +1,15 @@
+Batrider
+
+tec9, knife, and HE only.
+
+Sticky napalm (ability)
+Drop a 175 radius ward on the ground beneath you that lasts .5 seconds. enemies that are in the ward take 2/4/6/8/10/12/14/16 damage and get a stack of napalm. enemies with napalm take 2/4/6/8/10/12/14/16 extra damage from any of your skills' damage and from molotovs. 3 second cooldown. stacks last 6 seconds. an enemy can have a max of 10 stacks.
+
+Flamebreak
+When you throw your HE enemies that take damage from it get knocked back hard, slowed by 5/10/15/20/25/30/35/40%, and are burned for 5/10/15/20/25/30/35/40 damage over 1/2/3/4/5/6/7/8 seconds.
+
+Firefly (ability2)
+Fly like archmage. while you are flying you drop lit molotovs every 1 second. You can not stop yourself from flying, you must wait out the duration. Lasts 15/15/15/15/15/15/15/20 seconds. 60/55/45/40/35/30/25/20 second cooldown.
+
+Flaming Lasso (ultimate)
+knifing an enemy removes all the ammo from your gun and their gun for the duration and that enemy is pulled toward you like a black hole. For the duration the enemy cannot activate abilities or ultimates. Duration is 3/4/5/6/7/8/9/10 seconds. after the duration you and the enemy get a fully loaded gun back. 90/85/75/70/65/60/55/50 second cooldown.

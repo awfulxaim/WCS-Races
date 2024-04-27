@@ -1,0 +1,19 @@
+slowpoke
+
+yawn
+1/1/1/2/2/3/4/5% chance when hit to make the enemy that hit you sleep (blind + freeze) for 2 seconds a second after this procs.
+
+headbutt
+4/8/12/15/20/24/28/30% chance on hit to bash the enemy for 1 second and deal 10 extra damage.
+
+slack off (ability)
+put yourself to sleep for 3 seconds, after 2 seconds heal for 50 HP. If an enemy is asleep when you heal, heal for 75 instead. 16/15/14/13/12/10/9/8 second cooldown.
+
+curse
+Spawn with 94/92/90/88/86/84/82/80% movement speed and 130/140/150/160/170/180/190/200 HP. Your max HP becomes 375. 3/6/9/12/15/18/21/25% chance on hit to deal 5 extra damage.
+
+confusion
+3/4/5/6/7/8/9/10% chance when hit to deal 10 mirror damage to that enemy and make that enemy "confused" for 3-5 seconds chosen randomly. Confused enemies have a 50% chance on hit to deal no damage and take 50% mirror damage instead.
+
+amnesia
+30/40/50/60/70/80/90/100% chance to evade all damage including extra damage. 1/1/2/2/3/4/5/6 seconds after evading a hit take the damage you evaded. You have a 15/20/25/30/35/40/45/50% chance to block extra damage.

@@ -1,0 +1,15 @@
+Bristleback
+
+Knife only
+
+Viscous Nasal Goo (ability)
+the enemy you are aiming at get a stack of goo and are slowed by 15% for 5 seconds. a stack of goo slows them by an additional 1/3/6/9/12/15% per stack up to 4/4/4/4/4/4/4/6 stacks. when the inital slow ends the stacks are removed. 2 second cooldown.
+
+Quill Spray (ability2)
+nearby (175 range) enemies get a stack of quills and take 1/3/5/7/9/11/13/16 damage. a stack of quills causes the enemy to take 3/3/3/3/4/4/4/5 more damage per stack when hit with quill spray to a max of 50 damage per quill spray. stacks last 14 seconds. 3 second cooldown.
+
+Bristleback
+You take 16/24/24/32/32/40/40/48% less damage from enemies not on your screen and 8/12/12/16/16/20/20/24% less damage from enemies on your screen. 12/15/18/20/23/25/28/30% chance when hit by an enemy not on your screen that you activate quill spray automatically and put goo on all nearby (200 range) enemies. you get a stack of fury when this procs.
+
+Warpath
+Everytime you use an ability you get a stack of Fury. every stack of fury gives you 1/1/1/2/2/3/4/5% increased movement speed and you deal 1/1/2/2/3/3/4/5 extra damage on hit up to 8/8/8/8/10/10/10/12 stacks. each stack lasts 6/8/10/12/14/16/18/20 seconds.

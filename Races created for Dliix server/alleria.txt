@@ -1,0 +1,15 @@
+Alleria Windrunner
+
+Scout and Knife only
+
+Void Arrow
+25/30/35/40/45/50/55/60% chance on hit to blind the enemy completely and increase their gravity by 300% for 3 seconds. that enemy also takes 3/6/9/12/15/18/21/25 extra damage.
+
+Marksmanship
+100% chance on hit with the scout to deal 1 extra damage for every 9/8/7/6/5/4/3/2 HP less than 100 the enemy has. enemies cannot evade your hits. enemies at 50HP or less are slayed.
+
+Ranger-Captain
+Spawn with 125/130/135/140/145/150/155/160 health, 125/130/135/140/145/150/155/160% movement speed, and 25/30/35/40/45/50/55/60% less gravity.
+
+Windrun (ultimate)
+become 100% invisible, gain 2.0 movement speed, gain 50% evasion, become knife only for 1/1/1/2/2/3/4 seconds. during this you deal 75% less damage. 45/40/35/30/25/20/15/10 second cooldown.

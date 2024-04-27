@@ -1,0 +1,15 @@
+mRikimaru
+
+knife and smoke only.
+
+Smoke Screen
+you get a smoke every 20/17/17/14/14/11/11/8 seconds. Enemies in your smoke are "silenced" and have a 0/15/30/45/60/75/75/75% chance to deal no damage with hits. "Silenced" means they cannot proc skills or shopmenu items, and cannot activate abilities or ultimates.
+
+Blink Strike (ability)
+Teleport behind the player you are aiming at up to 950 range away. if it is an enemy they are slowed by 50% and take 2/4/5/6/7/8/9/10 damage. can be activated twice before the cooldown starts. 25/21/21/17/16/13/13/9 second cooldown.
+
+Tricks of the Trade (ability2)
+Become invulnerable and rooted for 2 seconds. All enemies in a 300 radius around you take 25 damage per second for the duration. 18/16/15/14/13/12/11/9 second cooldown. plays a sound while active.
+
+Cloak and Dagger
+on spawn and 9/8/7/6/5/4/3/2 seconds after attacking become 100% invisible and gain 10% more movement speed. when you attack (but not when using abilities) you lose all invisibility. you get 5/10/15/20/25/30/35/40 extra XP per kill.

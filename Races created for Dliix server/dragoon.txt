@@ -1,0 +1,27 @@
+dragoon
+
+max 320 HP
+
+high jump and dive
+night crawler high jump and pounce. height increases with levels. you don't lose your weapons while pouncing. you have a 2/4/6/8/10/12/14/16% chance to evade while you are airborne. you deal damage in a 200 radius around you when you land based on how high in the air you were when you started the pounce. pounce has no cooldown. as long as you have a point in this skill you take no fall damage.
+
+second wind and white wind (ability)
+when activated you heal for 15/20/25/30/35/40/45/50 HP. 10 second cooldown. Every 2 seconds and/or 1/3/6/9/12/15/18/21% chance on hit to heal yourself and all teammates in a 600 unit radius for 15% of your current HP.
+
+Lance charge (ability2)
+For 6/8/10/12/14/16/18/20 seconds you deal 10% more damage with attacks, abilities, and ultimates. 60 second cooldown.
+
+fang and claw
+you deal 1/3/5/7/9/11/13/15% extra damage to enemies when you hit them from the side, and 16/18/20/22/24/26/28/30% extra damage when you hit them from the back.
+
+leg sweep
+2/4/6/8/10/12/14/16% chance on hit to pull the enemy to the ground, then bash the enemy for 2/2/2/2/2/2/2/3 seconds.
+
+feint
+3/6/9/12/15/18/21/24% chance on hit to make that enemy deal 10% less damage with attacks, abilities, and ultimates for 10 seconds.
+
+Thrust
+3/4/5/6/7/8/9/10% chance on hit to deal 17 extra damage on the first proc on a single enemy. second proc on the same enemy deals 25 damage. third proc on the same enemy deals 40 damage. fourth proc on the same enemy deals 48 damage. if you proc this 3 times on a single enemy your fang and claw skill deals 5% more damage for 30 seconds. if you proc this 4 times on a single enemy your fang and claw skill deals 5% more damage for the rest of the round. 
+
+[Limit Break] Sky High and Sky Shatter (ultimate)
+90 second cooldown. remove all roots, freezes, bashes, and sleeps. get 185% movement speed and fly for 5 seconds. after the duration or when you activate this again, fall hard into the ground dealing 90/100/110/120/130/140/150/160 damage to all enemies in a 400 unit radius and half that damage to all enemies in a 600 radius. after this ability ends you gain 240 HP for 10 seconds.

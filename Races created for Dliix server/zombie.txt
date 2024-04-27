@@ -1,0 +1,15 @@
+Zombie
+uses the combine zombie model from half-life
+knife only
+
+Headless
+Spawn with 150/300/500/750/1000/1250/1500/2000 HP and set your max HP to that value. Reduce your speed by .1/.2/.3/.4/.5/.6/.7/.75; You take 100/100/100/100/100/100/100/0% damage from headshots.
+
+Lunge
+human teleport. reduce your gravity by .05/.1/.15/.2/.25/.30/.35/.4
+
+Undying
+1/2/2/2/3/3/3/4% chance to evade and gain 50HP when you evade. Killing an enemy heals you for 10/25/50/75/100/125/200 HP. your max HP is the HP set by "Headless".
+
+Berserking (ultimate)
+Set your speed to 100% for 2/2/3/3/4/4/5/6 seconds. 25 second cooldown.

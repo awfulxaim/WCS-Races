@@ -1,0 +1,16 @@
+Meruna Siren
+
+Ebb and Flow (ability)
+weaker human dash but backwards. for 1.5 seconds after activating this ability you have 100% evade chance. 13/12/11/10/9/8/7/6 second cooldown.
+
+Tsunami
+1/2/4/5/6/8/9/10% chance on hit to push the enemy and all enemies in 150 units of that enemy back 400 units and deal 6/8/10/12/14/16/18/20 extra damage to them.
+
+Summon Storms (ability2)
+for the next 12 seconds all enemies that enter a 600 unit radius around you take 3/4/5/6/7/8/9/10 damage every 2 seconds and are frozen for .5 seconds when they take that damage. 60/55/50/45/40/35/30/25 second cooldown.
+
+Brine Orb
+You get 1/1/2/2/3/4/5/6 grenades per round, given to you 3 seconds after the last grenade was thrown. enemies hit by the grenade are slowed by 100%. this slow decays over time, slowing by less each second until the enemy is back to normal speed. slow decreases by 10% every second.
+
+Siren Screech (ultimate)
+Deal 5/10/15/20/25/30/35/40 damage to all enemies in a 400 unit radius and banish them for 4 seconds. you and teammates in that unit range get 5/10/15/20/25/30/35/40% increased movement speed for 4 seconds. 55/50/45/40/35/30/25/20 second cooldown.

@@ -1,0 +1,18 @@
+Faceless Void
+
+Deagle and knife only
+
+Time walk (ability)
+Human teleport, but when you activate it you set your HP to what it was 2 seconds ago. 24/23/18/17/12/11/6/5 second cooldown.
+
+Time Dilation (ability2)
+Slow all enemies around you (400 range) by 20% for 4/5/6/7/8/9/10/11 seconds, Reduce the damage dealt by the effected enemies by 15%, and add 6 seconds to their cooldowns. Enemies effected also take 4 damage per second. 28/26/24/22/20/18/16/14 second cooldown.
+
+Time Lock
+4/6/8/10/12/16/20/24% chance on hit to bash an enemy for .5 seconds and deal double damage on that hit.
+
+Back Track
+6/8/10/12/14/16/18/20% chance to evade. When this procs, become invulnerable for .5 seconds.
+
+Chronosphere (ultimate)
+Cannot be blocked by immunity or invulnerability. Lays a large ward (400 range) that completely freezes ANY player (besides players playing faceless void) that touches it for the duration of the ward. players caught in the ward cannot shoot, turn, move, or change weapons. ward lasts 2.5/3/3.5/4/4.5/5/5.5/6 seconds. While inside your own ward you get 50% increased movement speed. 40 second cooldown.

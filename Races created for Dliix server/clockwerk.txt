@@ -1,0 +1,18 @@
+Clockwerk
+
+knife and HE only. freeze means that enemy cannot move, turn, or shoot.
+
+Battery Assault
+every .7/.7/.7/.7/.7/.7/.7/.45 seconds you freeze one nearby (100 range) enemy for .2 seconds and deal that enemy 2/4/5/7/7/9/10/12 damage. when an enemy is effected by this a noise plays
+
+Power Cogs (ability2)
+Summon 7 barrels around you in a large circle (300 radius) and heal yourself for 5/5/5/10/10/10/15/20. enemies who get close to the barrels are knocked back and take 20 damage. Barrels last 1/2/3/4/5/6/7/8 seconds. 15/15/15/15/15/15/15/12 second cooldown.
+
+Rocket Flare
+you spawn with an HE grenade, you get another one every 20/18/18/16/16/14/14/12 seconds. enemies damaged by the grenade get a pulsing circle around them that makes a loud noise for 6/6/6/6/6/6/6/10 seconds.
+
+Overclocking (ability3)
+For 13 seconds, battery assault bashes all nearby (150 range) enemies instead of just one, you get a new HE grenade every 3 seconds, your hookshot bashes for 1.5 additional seconds, and you get 60% increased movement speed. after the duration is up you lose all the bonuses and move at 50% movement speed for 3 seconds. 50 second cooldown. you make a loud noise while this is active.
+
+Hookshot (ultimate)
+10/20/30/40/50/60/70/80% chance when you activate this ultimate you teleport instantly to the enemy you are aiming at. that enemy and all nearby (175 range) enemies are frozen for 1/1.2/1.4/1.6/1.8/2/2.2/2.4 seconds and take 4/8/12/16/18/22/26/28 damage. 60/60/60/60/45/45/45/30 second cooldown.

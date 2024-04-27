@@ -1,0 +1,18 @@
+Drow Ranger
+
+Auto Sniper only. sapwns with your team's autosniper
+
+Frost Arrows
+10/20/30/40/50/60/70/80% chance on hit to slow the enemy by 5/10/15/20/25/30/40/55% for 1.5 seconds. 
+
+Gust (ability)
+knocks nearby enemies (200 range) back and prevents them from activating abilities or ultimates for 1/1/2/2/3/4/5/6 seconds. you get 10/12/14/16/25/27/29/31% increased movement speed for 1/1/2/2/3/4/5/6 seconds. 19/17/15/15/13/13/11/9 second cooldown.
+
+Multishot
+Enemies already affected by frost arrows take 6/12/18/21/24/27/33/39 extra damage instead. adds 0/.5/1/1.5/2/2.5/3/3.5 seconds to the frost arrows duration.
+
+Glacier (ability2)
+you and nearby teammates (175 range) gain 10/20/30/40/50/60/70/80% invisibility and your attacks cannot be evaded. 8 second duration. 20 second cooldown.
+
+Marksmanship
+you and your teammates have a 20/22/30/32/40/42/50/52% chance on hit to deal 4/4/4/4/6/6/6/8 extra damage. if you die or an enemy gets close to you (200 range) everyone loses this bonus until the enemy leaves the area or is killed.

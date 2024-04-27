@@ -1,0 +1,19 @@
+guillotine
+
+Double Jump
+You can jump in mid-air. When you press jump while in mid-air you move quickly in an arc in the direction you are pressing. You spawn with 4 out of 4 double jump charges. every 11/10/9/8/7/6/5/4 seconds you get another charge up to the maximum of 4. charges are reset each spawn.
+
+Blade Flurry (ability)
+use a blade flurry charge, all enemies within 600 units in a 120 degree arc in front of you take 20 damage. You have a 6/8/10/12/14/16/18/20% chance on hit to gain a blade flurry charge. you automatically get a charge when you get a kill. 1.5 second cooldown. charges are maintained through the entire match.
+
+Assassin's Scarf
+You become 10/20/30/40/50/60/70/75% invisible. 3/6/9/12/15/18/21/24% chance when hit to evade.
+
+Training
+You spawn with 115/120/125/130/135/140/145/150% movement speed. You have no weapon bloom while in the air.
+
+Release (ultimate)
+no initial cooldown. 45 second cooldown. For the next 10 seconds you have:
+a max of 8 double jump charges, refill your charges when you activate your ultimate.
+Blade Flurry gives you a charge for each enemy hit by it. blade flurry's cooldown is set to .5 seconds.
+set your movement speed to 185%. you cannot be slowed.

@@ -1,0 +1,21 @@
+Timeshifter
+
+cannot buy boots of speed or winged boots.
+
+LX555 Checkpoint System (ability)
+When activated you set your current location, when you activate this again you instantly appear back at that location. 50/45/40/35/30/25/20/15 second cooldown after second activation.
+
+Time Loop Reincarnation Procedure
+30/40/50/60/70/80/90/100% chance when you die to save the guns, grenades, armor, and kit you had when you died, and get them back when you spawn next. You have a 40/45/50/55/60/65/70/75% chance to respawn at your team's spawn point 6-12 seconds after you die chosen randomly. if you will respawn, you receive a message in chat letting you know as soon as you die.
+
+Qx-5 Time Leech Catalyst
+15/20/25/30/35/40/45/50% chance on hit to reduce the enemies movement speed by 5% and increase yours by 5% for 5 seconds. For each 5% movement speed you have greater than the enemy hit you deal 1 extra damage and heal for the amount of damage dealt.
+
+Unravel Time
+1/2/3/5/6/7/9/10% chance when hit to evade. When you evade you instantly appear where you were 2 seconds ago and double your movement speed for 2 seconds.
+
+Chronos Timelock Suit
+Spawn with 3/6/9/12/15/18/21/25% increased movement speed and 25/30/35/40/45/50/55/60% reduced gravity.
+
+Phase Point Shift (ultimate)
+For you and a random enemy a 5 second count down begins. after the count down ends, you and that enemy swap locations. If the enemy dies in the next 1/2/4/6/8/10/12/14 seconds you get exp as if you killed them. 15 second initial cooldown. 20 second cooldown.

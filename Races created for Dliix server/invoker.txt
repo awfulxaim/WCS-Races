@@ -1,0 +1,52 @@
+Invoker
+
+p2000 only. cannot buy items.
+
+Quas (ability)
+when activated, gives you one stack of Quas up to a max of 3. you can only have 3 stacks of any essence at a time. no cooldown. each stack of quas gives you 1/2/3/4/5/6/7/8% life steal including extra damage. your max HP is 100/122/144/166/188/210/232/254.
+
+Wex (ability2)
+when activated, gives you one stack of Wex up to a max of 3. you can only have 3 stacks of any essence at a time. no cooldown. each stack of wex gives you 2/2/3/4/4/6/7/8% increased movement speed. you spawn with 20/30/50/70/80/100/120/150 armor and helmet.
+
+Exort (ability3)
+when activated, gives you one stack of Exort up to a max of 3. you can only have 3 stacks of any essence at a time. no cooldown. each stack of exort gives you 1/2/3/4/5/6/7/8% more damage including your ultimate spells. you deal 1/2/3/4/5/6/7/8% more damage on hit, not including your ultimate spells.
+
+Invoke (ultimate)
+when activated stores a spell based on your current essence stacks. activating invoke again casts the spell. there is a 3 second cooldown on invoke after the spell is cast.
+
+the spells you can cast are
+
+WWW - EMP
+all enemies around you (600 range) are pulled toward you and lose 250 flat + 750 money per level of your Wex skill. you get 25% of that money. the effected enemies then take 6/6/6/6/6/6/6/9% of the money lost as damage. you can only cast this once every 30 seconds.
+
+QWW - Tornado
+all enemies in front of you (800 range at max) are knocked into the air, rooted, and cannot do or take any damage for 1/1.2/1.4/1.6/1.8/2/2.2/2.4/2.6 seconds based on the level of Quas. when they fall to the ground they take 5 flat + 5/9/14/18/23/27/32/36/40 damage based on the level of your Wex. they cannot take damage until they are on the ground. you can only cast this once every 30 seconds. the distance away enemies can be increases with levels in invoke.
+
+WWE- Alacrity
+gives you an m4a4 and gives you 3/5/6/7/8/9/11/12 extra damage per hit based on the level of Exort. this lasts 5/6/7/8/9/10/11/12 seconds based on the level of Wex. you lose the m4 after this duration. you can only cast this once every 17 seconds.
+
+QQW- Ghost Walk
+You become 100% invisible for 60 seconds or until you shoot or activate an ability or ultimate. while invisible enemies nearby (400 range) are slowed by 20/25/30/35/40/45/50/55% and your movement speed is modified by -15/-10/-5/0/+5/+10/+15/+20%. enemy movement speed is based on your level of Quas and your movement speed is based on your level of Wex. while invisible you heal 1/2/2/3/3/4/4/5 HP per second based on the level of Quas. enemies slowed by this effect get a chat message that they are being slowed by ghost walk. you make no footstep noises while this is active. you can only cast this once every 35 seconds.
+
+QWE- Deafening Blast
+all enemies in front of you (600 range at max) drop all their guns and cannot pick them back up for 1.25/2/2.75/3.5/4.25/5/5.75/6.5 seconds based on your level of Wex. then they are knocked back a distance based on your level of Quas. after being knocked back they are rooted for 0.2/0.4/0.6/0.8/1/1.2/1.4/1.6 seconds based on your level of Quas. finally, they take 6/10/14/18/22/26/30/34 damage based on your level of exort. when you have invoke maxed out this spell hits everyone around you instead of just infront of you. you can only cast this once every 40 seconds. the distance away enemies can be increases with levels in invoke.
+
+WEE- Chaos Meteor
+After 1.7 seconds lays a 2 ward (100 radius wards) wide 4 ward deep line of red wards in front of you that last 1.55/2.05/2.6/3.1/3.65/4.15/4.7/5.25 seconds based on your level in invoke. enemies caught in a ward take 6/8/11/13/15/18/21/22 damage and take 1/2/2/3/3/4/4/5 damage per second for 3 seconds based on your level of exort. the length of the line of wards is based on wex. when you have invoke maxed out this spell repeats two more times every 1.7 seconds after the first cast. when the spell repeats the wards are always placed in the exact same place. you can only cast this spell once every 55 seconds.
+
+QQQ- Cold Snap
+The next enemy you shoot is inflicted with Cold Snap for 3/3.5/4/4.5/5/5.5/6/6.5 seconds. when they take 5 or more damage from anything they are bashed for .4 seconds. when they are bashed they take 1/2/2/3/4/5/6/6 extra damage and you are healed for 1/3/4/5/7/8/9/10 HP. all of these are based on your level of quas. you can only cast this once every 20 seconds, unless you have invoke maxed, then you can cast it every 15 seconds, instead.
+
+QQE- Ice Wall
+Lays a long line of 7 (100 radius) wards horizontally in front of you. enemies who step in the wards are slowed by 10/20/30/40/50/60/70/80% based on you level of quas and take 1/1/2/2/3/4/4/5 damage per second based on your level of exort. the wards last 3/4.5/6/7.5/9/10.5/12/13.5 seconds based on your level of quas. if you have invoke maxed, the wards deal 6/6/7/7/8/8/9/10 damage per second instead. you can only cast this once every 25 seconds.
+
+QEE- Forge Spirit
+Respawn a random teammate. that teammate deals 2/3/4/5/6/7/8/9 extra damage per hit based on your level of exort and has a bonus 30/40/50/60/70/80//90/100 HP based on your level of quas. when you have invoke maxed out you respawn two random teammtes instead. you can only cast this once every 30 seconds.
+
+EEE- Sunstrike
+place an invisible (100 radius) ward underneath a random enemy and play a sound to that enemy. after 1.7 seconds if the enemy has not moved out of the ward radius they take 20/25/30/34/40/45/50/55 damage based on the level of exort. you can only cast this once every 25 seconds. if you have invoke maxed and you jump while casting this the effect changes. Instead, you place 2 visible  orange wards, one under and one overlapping but near EACH and EVERY enemy; after 1.7 seconds if each enemy didn't move out of their wards radius that enemy takes 20/25/30/34/40/45/50/55 damage based on the level of exort; if any enemies were in both ward radiuses they are insta-killed. a sound is played to everyone and a text box appears that says "CATACLYSM" when this version of the spell is cast. you cannot cast either version of this spell for 100 seconds after casting cataclysm.
+
+combos:
+alacrity, tornado, cataclysm, deafening blast, ice wall, chaos meteor, ghost walk
+alacrity, tornado, chaos meteor, deafening blast, EMP, ice wall, cataclysm, ghost walk
+alacrity, chaos meteor, cold snap, ice wall, EMP, tornado, cataclysm, defeaning blast, alacrity, cold snap

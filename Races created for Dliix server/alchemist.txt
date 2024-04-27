@@ -1,0 +1,15 @@
+alchemist
+
+knife and HE only
+
+Transmute (ability)
+No cooldown. lose $600. You get an HE grenade. when you throw a grenade you get a new one 4 seconds later for the rest of the round.
+
+Resistive Apron
+spawn with 150 armor and helmet, 25/30/35/40/45/50/55/60% invisibility, 5/10/15/20/25/30/35/40% increased movement speed.
+
+Explosive Potions
+You have 100% chance to deal 75/100/125/150/175/200/225/250% extra damage with grenades.
+
+Alchemists Ascension (ultimate)
+Archmage fly for up to 10/15/20/25/30/35/40/45 seconds.

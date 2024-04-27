@@ -1,0 +1,13 @@
+Butcher
+
+Meathook
+1/2/3/5/8/13/21/34% chance on hit to pull an enemy straight to you. 8 levels
+
+Rot
+5/10/15/20/25/30/35/40% chance when hit to lay down a rot ward that lasts 2 seconds. enemies affected by the ward are slowed by .14/.2/.26/.32/.34/.36/.41/.48 and take 1/3/6/9/12/15/18/21 damage per second. 8 levels
+
+Flesh Heap
+When you kill an enemy you gain a stack of flesh. For each stack of flesh you spawn with .5/1/1.5/2/2.5/3/4/5 more HP and 1% more chance to proc Dismember on hit. Flesh stacks reset at the beginning of each match, but continue to stack each round. 8 levels.
+
+Dismember (ultimate)
+1/2/3/4/5/6/7/8% chance on hit to stun the enemy hit for 2.75 seconds, deal an extra 2/4/8/10/12/14/18/21 damage, and heal for the extra damage dealt. 8 levels

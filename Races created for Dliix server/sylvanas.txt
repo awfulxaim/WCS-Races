@@ -1,0 +1,15 @@
+Sylvanas Windrunner
+
+Scout, M4A1-S, MP5-SD, USP-S, and knife only. black player model.
+
+Black arrow
+same as crit strike from orcish horde, but can be activated to get a scout with one shot. that shot deals 65 extra damage. if it kills the enemy, a teammate is respawned, and the cooldown is reset. 20 second cooldown.
+
+Multi-shot
+3/4/5/6/7/8/9/10% chance on hit to deal the damage you dealt to that enemy to the entire enemy team.
+
+Dark Lady
+Spawn with 130/140/150/160/170/180/190/200 HP, 110/115/120/125/130/135/140/145% movement speed, long jump, and 25/30/35/40/45/50/55/60% invisibility.
+
+Fade
+become 100% invisible and gain 50% more movement speed for 1/1/1/2/2/3/3/4 seconds or until you shoot or take damage. 55/50/45/40/35/30/25/20 second cooldown.

@@ -1,0 +1,13 @@
+queen of pain
+
+Shadow Strike
+3/4/5/6/7/8/9/10% chance on hit to deal 3/6/8/9/11/12/14/17 damage and poison them for an additional 1/2/3/4/5/6/7/8 damage every 3 seconds for 15 seconds. enemies poisoned are slowed by 12/20/28/35/42/50/58/65% for the duration. you heal 1/2/2/3/3/4/4/5 HP every time an enemy takes damage from your poison.
+
+Blink (ability)
+Instantly appear where you are aiming. you must blink 100 units away minimum, and can blink up to 2075/2150/2225/2300/2375/2450/2525/2600 units away. 12/10/10/8/8/6/6/4 second cooldown.
+
+Scream of Pain (ability2)
+Deal 4/8/9/12/13/15/17/20 damage to all enemies in a 200 unit radius. 7 second cooldown.
+
+Sonic Wave
+create 4 wards in a straight line in front of you. the first ward is 100 units radius placed in front of you so that you are touching its edge. the next is 200 units radius placed so that its edge meets the first wards edge. and so on. the wards last 1.4 seconds. any enemy who steps in the wards take 30/35/45/55/65/75/85/90 damage and are knocked away from you. 110/95/80/70/65/50/45/35 second cooldown. this damage pierces ultimate immunity but not invulnerability.

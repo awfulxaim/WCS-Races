@@ -1,0 +1,41 @@
+Ogre Magi
+
+knife and deagle only.
+
+Fireblast
+17% chance on hit to deal 7/13/19/25/31/37/43/49 damage on hit and bash that enemy for 1.2 seconds. when this procs you lose 300/350/400/425/475/500/525/575 money, if you don't have that much, this will not proc.
+
+Ignite (ability)
+Burns the nearest 2 enemies for 2/3/4/4/5/5/6/7 damage per second and slowing them by 20/20/20/23/23/23/26/29% for 1/2/3/4/5/6/7/8 seconds. 17 second cooldown. when you activate this you lose 375/400/425/450/475/500/525/550 money, if you don't have that much, this won't activate.
+
+Bloodlust (ability2)
+You get 11/15/19/20/21/22/24/26% increased movement speed for 30 seconds. 28/26/24/22/20/18/16/14 second cooldown. when you activate this you lose 175/200/225/250/275/300/325/350 money, if you don't have that much, this won't activate.
+
+Unrefined Fireblast
+21% chance on hit to deal 15 flat + 80/90/100/110/120/130/140/150% of your current HP as damage on hit and bash that enemy for 1.2 seconds. When this procs you lose 35% of your current money.
+
+Fire Shield (ability3)
+For the next 3 hits or 25 seconds whichever happens first, you take 15/25/35/45/55/65/75/85% less damage and deal 16 mirror damage. 15 second cooldown.
+
+Dumb Luck
+You spawn with 150/165/183/200/216/232/246/260 HP. Increases your chance for multicast to proc by 1/2/3/4/5/6/7/8%. You do not get money from killing players or winning/losing rounds. Instead your money is set to $2000 on first spawn. at the beginning of every round you spawn with $800 more than the previous round. while you are alive you get $160 every 3 seconds.
+
+Multicast
+you have a 40/45/50/55/60/65/70/75% chance:
+when proccing fireblast to bash for 1.8 seconds and deal double fireblast damage instead.
+when activating ignite to burn the nearest 4 enemies instead.
+when activating blood lust to also give your nearest teammate 10/14/17/19/20/21/22/23% increased movement speed for the duration.
+when proccing unrefined fireblast to bash for 1.8 seconds and deal double unrefined fireblast damage instead.
+when activating fire shield to also give your nearest teammate a fire shield too.
+you have a 0/0/0/0/0/10/20/30% chance:
+when proccing fireblast to bash for 2.4 seconds and deal triple fireblast damage instead.
+when activating ignite to burn the nearest 6 enemies instead.
+when activating blood lust to also give your 2 nearest teammates 10/14/17/19/20/21/22/23% increased movement speed for the duration.
+when proccing unrefined fireblast to bash for 2.4 seconds and deal triple unrefined fireblast damage instead.
+when activating fire shield to also give your 2 nearest teammate a fire shield too.
+you have a 0/0/0/0/0/0/0/15% chance:
+when proccing fireblast to bash for 3 seconds and deal quadruple fireblast damage instead.
+when activating ignite to burn the nearest 8 enemies instead.
+when activating blood lust to also give your 3 nearest teammates 10/14/17/19/20/21/22/23% increased movement speed for the duration.
+when proccing unrefined fireblast to bash for 3 seconds and deal quadruple unrefined fireblast damage instead.
+when activating fire shield to also give your nearest 3 teammates a fire shield too.

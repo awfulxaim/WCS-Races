@@ -1,0 +1,21 @@
+The Hidden
+
+Knife and smoke, flash, and HE only.
+
+Pig Stick
+If you are the only person alive on your team, your right click knife attacks deal 350 extra damage. This can only proc once every 45/40/35/30/25/20/15/10 seconds.
+
+Subject 617
+Spawn with 55/60/65/70/75/80/85/90% invisibility, including your weapons. You spawn with an HE grenade and are given 3 per round. HE grenades do 25 extra damage. You do not make footstep sounds when you move. You take no fall damage. (If you can put a heat shimmer/mirage effect in, then make it 100% invisibility but he always has the heat shimmer effect on him.)
+
+Sense Fear (ability3, toggle)
+See a colored outline on all enemies within a certain distance of you while active, 650/700/750/800/850/900/950/1000 unit range. the color changes based on the enemy's HP. Enemies with HP at 100 or above don't show up. Moving also turns this off.
+
+Pounce (ability)
+much less strength Human teleport. 11/10/9/8/7/6/5/4 second cooldown.
+
+Feed (ability2)
+Killing an enemy with your knife (not with nades) gives you a corpse stack. Activating Feed uses one corpse stack, then you are rooted and cannot attack for 4 seconds, this plays the sandvich sound. You are healed for 3/6/9/12/15/18/21/25 HP every 2 seconds while you are rooted, for a maximum total of 50 HP. Corpse stacks are lost at round end.
+
+Wall Grab (ultimate, toggle)
+Root yourself. You can stay rooted for 2/3/4/5/6/7/8/9 seconds. Pressing ultimate again before the time is up turns this off. 

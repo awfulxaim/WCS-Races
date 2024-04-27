@@ -1,0 +1,18 @@
+Metatron
+
+Nova and knife only
+
+XV-36 Swarm System
+You have a 5/10/15/20/25/30/35/40% chance on hit to deal bonus damage based on the number of pellets that hit on that single shot. 1/1/1/1/2/2/2/3 extra damage with each pellet hit per pellet hit. Ex. Hitting with 6 pellets does 18 extra damage on each pellet for a total of 108 extra damage.
+
+Bastion Cuirass
+Spawn with 75/100/125/150/175/200/225/250 armor and helmet and 4/10/15/20/25/30/35/40 more HP and 6/8/10/12/14/16/18/20% increased movement speed.
+
+Nano-carbon Reclamation
+Getting a kill heals you for 5/10/15/20/25/30/35/40 to a max of 170/180/190/200/210/220/230/240 HP.
+
+Archangel Overwatch Platform
+Standing still decreases your damage taken. For every 2 seconds you stand still you take 1/1/1/1/2/2/3/4% less damage up to a maximum of 5/10/15/20/25/30/35/40% less damage taken. If you move more than 150 units away the damage reduction is lost.
+
+Land mine (ultimate)
+Roots you for 4 seconds then lays an invisible 50 unit radius ward. Stepping into the ward “arms” it. If that enemy leaves the ward area all enemies in a 150 unit radius take 250 damage. You can have up to 2 wards active at a time. Costs $500 to use. 15 second cooldown.

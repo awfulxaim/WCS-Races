@@ -1,0 +1,15 @@
+Devouring One (prestige race) prestige races could only be unlocked by maxing the race before it, in addition to reaching the total level requirement.
+
+starts at 100 HP, knife only
+
+Claw Attack-
+Any knife attack deals an extra 1/2/3/5/13/21/34 damage. 8 levels
+Metabolic Boost-
+Take no extra damage from headshots, increase your movement speed by .16/.31/.47/.63/.78/.94/1.09/1.25 and the movement speed of any zerglings by 0/0/0/.05/.10/.15/.20/.25 8 levels
+Carapace-
+Spawn with 5/10/15/20/25/35/45/55 more HP. zerglings spawn with 0/0/0/10/20/30/40/50 more HP. 8 levels
+Call The Swarm (ability)-
+when activated summon all zerglings on your team to you after an 8/7/6/5/4/3/2/1 second delay. 40/35/30/25/20/15/10/5 second cooldown. 8 levels.
+Burrow (ultimate)-
+Burrow underneath the ground, hiding but becoming unable to move. Press ultimate again to unburrow. While underground you and zerglings nearby are healed for 0/0/0/1/2/5/10/15 HP every 3 seconds up to the HP you spawned with. Initial cooldown 40/35/30/25/20/15/10/5 seconds. Cooldown 14/12/10/8/6/4/2/0.
+Burrow teleports the player model underground so their head is just below ground, they cannot move but can turn while underground.

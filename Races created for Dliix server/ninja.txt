@@ -1,0 +1,18 @@
+Ninja
+
+Knife and smoke grenade only. gets 4 smoke grenades like orcish horde gets frags. 
+
+Agility
+short but very fast long jump and spawn with 5/10/15/20/25/30/35/40% increased movement speed.
+
+Shuriken (ability)
+20/18/16/14/12/10/8/5 cooldown, the enemy you aim at when you activate this ability takes 25 damage. 1000 unit range
+
+Camouflage
+Spawn with 25/30/35/40/45/50/55/60% invisibility.
+
+Ninja Training
+Spawn with 5/10/15/20/25/30/35/40% less gravity.
+
+Kawarimi (ultimate)
+10/13/16/19/21/24/27/30% chance to evade, but when you evade you become completely invisible for .75 seconds.

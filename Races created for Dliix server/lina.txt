@@ -1,0 +1,16 @@
+Lina the Slayer
+
+Dragon Slave
+2/4/6/8/10/12/14/16% chance on hit to deal 1/2/4/7/11/16/22/29 extra damage. this can only proc once every 4 seconds.
+
+Light Strike Array
+2/4/6/8/10/12/14/16% chance on hit to deal 1/2/4/7/11/16/22/29 extra damage and bash the enemy for 1/1.3/1.6/1.9/2/2.3/2.6/2.9 seconds. this can only proc once every 7 seconds.
+
+Fiery Soul
+Every time one of your skills proc you get a Fiery Soul stack. Each stack gives you 1/2/2/2/3/3/4/5% increased movement speed and 5 more rounds in your mag. Stacks last 20 seconds. maximum of 7 stacks.
+
+Flame Cloak (ability)
+For 1/2/3/4/5/6/7/8 seconds you take 35% less damage and deal 35% more damage. 25 second cooldown.
+
+Laguna Blade
+1/1/1/2/2/3/4/5% chance on hit to deal 55/60/65/70/75/80/85/90 extra damage. if this damage kills an enemy you get 10 stacks of Fiery Soul for 5 seconds. If Fiery Cloak was active when Laguna Blade kills an enemy you get 15 stacks of Fiery Soul for 5 seconds instead. can only proc once every 70/60/50/45/35/25/15/10 seconds. this plays a sound when it procs.

@@ -1,0 +1,15 @@
+Bane
+
+P250 only.
+
+Enfeeble (ability)
+a random enemy deals 35/40/45/40/44/60/65/70% less damage and take 1/2/2/3/3/3/4/4 damage per second for 9 seconds. 30/28/25/21/17/14/10/7 second cooldown.
+
+Brain Sap
+8/10/11/12/13/14/15/17% chance on hit to deal 9/16/23/30/34/41/48/55 extra damage and heal for that amount.
+
+Nightmare (ability2)
+1/1/1/2/2/2/3/4% chance on hit to sleep that enemy for 3/3.5/4/4.5/5/5.5/6/6.5 seconds on hit. Sleeping enemies cannot move, shoot, or turn, can't activate abilities or ultimates, and take no damage from the next hit they take. If they are hit, they wake up. attacking a nightmared player makes the player that attacked fall asleep. You are immune to sleep and can damage sleeping players. activate this ability to wake all sleeping players up.
+
+Fiend's Grip (ultimate)
+You and a random enemy are rooted for 5/5/6/6/7/7/8/9 seconds. they take 7/7/7/7/11/11/15 damage per second. you steal 5/5/5/5/5/5/5/10% of their money every second. 140/130/120/110/100/75/65/55 second cooldown.

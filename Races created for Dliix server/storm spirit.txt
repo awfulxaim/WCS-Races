@@ -1,0 +1,13 @@
+storm spirit
+
+Static Remnant (ability1)
+Lays a light blue 50 unit radius ward that lasts 12 seconds. if an enemy is in the ward for longer than 1 second, destroy the ward and deal 12/17/18/23/24/29/30/35 damage to that enemy. 4 second cooldown.
+
+Electric Vortex (ability2)
+3/6/9/12/15/18/21/24% chance on hit to pull the enemy toward you like a stronger void master decoy for 1/1/1/2/2/2/2/3 seconds. activate this ability to pull all enemies up to 600 units away towards you instead. if you activate this ability you cannot proc it until the cooldown is back up. 28/26/24/22/20/18/16/14 second cooldown.
+
+Overload
+When you activate an ability or your ultimate or when electric vortex procs, your next hit deals 3/4/5/6/7/8/9/10 extra damage and slows the enemy by 80% for 1 second.
+
+Ball Lightning (ultimate)
+Human dash. until you land you lay static remnant wards behind you every 100 units you travel. deal damage equal to .1x the units traveled to all enemies within 400 units when you land.

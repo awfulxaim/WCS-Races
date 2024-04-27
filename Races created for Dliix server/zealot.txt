@@ -1,0 +1,21 @@
+Zealot
+
+knife only
+
+Augmented Legs
+Spawn with 40/45/50/55/60/65/70/75% increased movement speed.
+
+Power Suit
+Spawn with 110/120/130/140/150/160/170/180 HP and 112/125/138/150/163/175/188/200 armor
+
+Psionic Blades
+100% chance on hit to deal 8/12/16/20/24/28/32/35% more damage. Extra damage cannot be evaded.
+
+Precognition
+15/20/25/30/35/40/45/50% chance to evade headshots.
+
+Plasma Shields
+5/10/15/20/25/30/35/40% chance to evade.
+
+Charge (ultimate)
+increase you movement speed by 40/45/50/55/60/65/70/75% for 1/1/1/1/2/2/2/3 seconds.

@@ -1,0 +1,15 @@
+magikarp
+
+knife only until ultimate is used.
+
+Splash
+Spawn with 6/8/10/12/14/16/18/20% reduced gravity. When you evolve, gain 5/10/15/20/25/30/35/40 HP and increase your movement speed by 5/10/15/20/25/30/35/40%.
+
+Tackle
+30/40/50/60/70/80/90/100% chance on hit to deal 5-15 extra damage rolled randomly. When you evolve, this also bashes for .5 seconds.
+
+Flail
+3/6/9/12/15/18/21/25% chance on hit to deal 1 extra damage for every 10 HP you have less than 100. When you evolve, you deal 1 extra damage for every 10 HP you have less than 140 instead.
+
+Evolve (ultimate)
+Give yourself an AK and activate the evolve sections of your skills and you get long jump which increases with levels in this skill. 40 second initial cooldown. 45 second cooldown.

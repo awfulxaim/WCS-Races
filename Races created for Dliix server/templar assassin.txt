@@ -1,0 +1,18 @@
+Templar Assassin
+
+Mp9, dualies, and knife only.
+
+Refraction (ability)
+get 1/2/3/4/5/6/7/8 stacks of refraction. Each time you would take damage remove one stack of refraction instead. while you have at least one stack of refraction you deal 3/5/5/7/7/9/9/11 extra damage. Lose all stacks of refraction after 9 seconds. 18 second Cooldown.
+
+Meld (ability2)
+Roots you for .5 seconds and sets your invisibility to 100% until you move or attack. enemies hit by you while you are melded take 2/4/6/8/10/12/16/20 extra damage and then for the next 12 seconds take 3/4/5/6/7/8/9/10/11% more damage when hit. 19/17/15/13/11/9/7/5 second cooldown.
+
+Psi Blades
+Your hits deal damage to enemies near (200 radius) the enemy you attacked. Nearby enemies take 50% of the damage dealt. The enemy you hit takes 5% more damage for each enemy hit with the spread damage. at level 1-3, you have a knife only. at level 4-7 you spawn with dualies. at level 8 you spawn with an mp9 and dualies.
+
+Psionic Projection (ability3)
+after 2 seconds, teleports you to your nearest Psionic trap, causing it to explode, dealing 20 damage to all enemies near (150 radius) it and slowing them by 25/30/35/40/45/50/55/60% for 6 seconds. 10 second cooldown. enemies with ward protection are unaffected by this.
+
+Psionic Trap (ultimate)
+Places a 25 radius pink ward where you are aiming, after 2 seconds the ward becomes invisible. you can have a max of 4/5/8/9/11/12/15 wards at a time. 17/15/12/11/9/8/5 second cooldown.

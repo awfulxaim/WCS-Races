@@ -1,0 +1,27 @@
+knife juggler
+
+knife only
+
+Juggle
+You spawn with 3/3/3/3/4/4/5/6 juggle charges. Using an ability uses one of your charges. If you have no charges you do not get your knife back. you get a juggle charge when you kill an enemy. Your movement speed is 200% (-10% for each juggle charge you have).
+
+Knife Toss (ability)
+Lose your knife for 1 second, you have a 100% chance (-10% for each juggle charge you have) to add 10 damage to your next knife attack. if you do not succeed, you lose 10 HP. Each success stacks. .5 second cooldown.
+
+Knife Catch
+you evade 100% (-10% for each juggle charge you have) of knife attacks. if you evade a knife attack the enemy who attacked you loses their knife for 1 second and you gain a juggle charge.
+
+Knife Throw (ability2)
+Lose your knife for 1 second. Deal damage to the enemy you are aiming at equal to 100 (-10 for each juggle charge you have). 1 second cooldown.
+
+Knife Balance
+Spawn with 40/35/30/25/20/15/10/5 less HP. The first time each round you would have no charges left, you gain 1 charge and heal for the amount of HP you lost when you spawned. Killing an enemy heals you for 10 HP for each juggle charge you have to your max of 110 HP.
+
+Bouncing Blade
+Knife Throw has a 10% (+10% for each juggle charge you have) to deal the same damage to the enemy nearest to the enemy damaged by Knife Throw. 
+
+Twist the Knife
+You deal 5 extra damage with left click attacks for each juggle counter you have. you deal 5/10/20/30/40/50/60/70 extra damage on a right click attack and lose your knife for 1 second and lose one charge.
+
+Fan of Knives (ultimate)
+lose your knife for 1 second. Use all of your juggle charges. you deal damage to all enemies within 400 units equal to 10x the juggle charges used. no cooldown. cannot be used if you have no charges. 5 second cooldown.

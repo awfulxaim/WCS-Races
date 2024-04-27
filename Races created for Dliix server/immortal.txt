@@ -1,0 +1,21 @@
+Immortal
+
+UMP and dualies only.
+
+MkIII Magnekinetic Recycling Rounds
+While using the UMP your damage cannot be evaded and slows enemies by 6/8/10/12/14/16/18/20%. While using the Dualies you deal 4/8/12/16/20/24/28/32% extra damage and have a 50% chance every time you shoot to add 2 rounds to your magazine.
+
+X10A2 Nanofiber Reinforcement
+Spawn with 113/126/139/152/165/178/191/200 HP, armor and helmet, and 20% reduced gravity.
+
+Ablative Exoskeleton (ability)
+When activated, remove all slows, roots, freezes, bashes, drugs, shakes, and blinds from yourself and block those effects for 3 seconds. 30/26/22/18/16/14/12/10 second cooldown.
+
+SRT-23 Subatomic Repair Technology
+You heal for 1/2/3/5/6/7/9/10 HP per second to a max of 200/220/225/250/275/300/325/350 HP.
+
+Adaptive Response System
+10/20/30/40/50/60/70/80% chance when you are hit to reduce your movement speed by 20% for 3 seconds. For that duration you get 6/8/10/12/14/16/18/20% chance to evade. When you evade, add 0-5 extra damage on hit, rolled randomly, to your next attack. Hits you take during this duration refresh the duration, but evaded hits do not refresh the duration.
+
+Lazarus Reconstruction Program
+100% chance on death to respawn at the location you died at 1-30 seconds later, rolled randomly. A message appears in chat telling you how long until your next respawn when you die. You can respawn a maximum of 4/5/6/7/8/9/10/25 times per round. If an enemy is within 200 units of the location you died when you would respawn, you respawn back at your spawn point instead.

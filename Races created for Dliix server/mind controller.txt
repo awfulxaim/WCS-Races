@@ -1,0 +1,15 @@
+Mind Controller
+
+smoke, flash, decoy, and zeus only.
+
+Neurotoxin - 1 level
+enemies that walk into your smoke cloud take 5 damage per second and are blinded with a grey screen for 5 seconds, this reapplies until they leave the smoke.
+
+Concussive Blast - 1 level
+Enemies that are flashed take 25 damage and get drugged for 2 seconds every 7 seconds for the rest of the round. can be blocked by necklace of immunity.
+
+Unlimited Power - 1 level
+spawn with a zeus. if you miss with it you die. if you kill an enemy with it, you get one bank level and 4x normal exp for the kill banked.
+
+Mind Control (ultimate) - 1 level
+Give yourself a decoy if you don't have one. 100% chance when an enemy is directly hit or dealt damage by a decoy to change them to your team. when this procs you gain 2x the exp you would get from killing them.

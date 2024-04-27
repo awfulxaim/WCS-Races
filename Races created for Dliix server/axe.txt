@@ -1,0 +1,15 @@
+Axe
+
+Knife only
+
+Berserker's Call (ability)
+Nearby enemies have their aim pointed at you and are pulled towards you like a black hole for 1/1/1/1/2/2/2/3 seconds. during this duration you take 25/25/25/25/25/25/25/30 less damage per hit. 17/15/14/13/12/11/10/8 second cooldown.
+
+Battle Hunger (ability2)
+a random enemy takes 1/2/2/3/3/4/4/5 damage per second and is slowed by 10/20/20/30/30/35/40/45% while not aiming at you, until they kill a player.
+
+Counter Helix
+17/18/19/20/27/28/29/30% chance when hit to deal 6/9/10/13/14/17/18/21 damage to all nearby (150 range) enemies. enemies that take this damage get a stack of damage reduction. a damage reduction stack reduces their damage by 15% per stack. each stack lasts 6 seconds.
+
+Culling Blade (ultimate)
+your next attack cannot be evaded or blocked and deals 23/28/38/43/48/53/62/67 damage. if it kills the enemy the cooldown is reset, you take 5/10/15/20/20/25/30/35% less damage, and get 5/10/15/20/25/30/35/40% increased movement speed for 6/6/6/6/6/6/6/10 seconds. 100/100/100/100/85/85/70 second cooldown. This is available to use as soon as you spawn.

@@ -1,0 +1,21 @@
+Oblivion
+
+AWP and USP-S only. no knife.
+
+Essence Steal
+15/20/25/30/35/40/45/50% chance on hit to heal for 5 HP for every 200 range away an enemy is when you hit them. cannot proc on enemies less than 400 range away.
+
+DX-23 Railgun
+While scoped in your AWP charges up. For each second (up to 5 seconds) you are scoped in the AWP deals 3/4/5/6/7/8/9/10 extra damage. if you are double scoped in each second adds 6/8/10/12/14/16/18/20 extra damage instead. a message in the chat box shows your current charge each second increasing by 20% each time. charge resets after each shot or when zooming in further.
+
+Decimate
+100% chance on hit to deal 10% more damage for each 200 range away an enemy is when you hit them. cannot proc on enemies less than 1600/1400/1200/1000/800/600/400/200 range away.
+
+Augmented Musculature
+Spawn with 5/10/15/20/25/30/35/40% reduced gravity and 8/12/16/20/24/28/32/35% increased movement speed.
+
+Diamantine Exosuit
+Spawn with 105/110/115/120/125/130/135/140 HP, 100 armor and helmet, and 20/30/40/50/60/70/80/90% invisibility not including your guns.
+
+Digitigrade Legs
+spawn with weak long jump. Each successful bunnyhop you make increases your long jump distance and decreases your gravity. gravity decreases by 1/1/1/2/2/2/3/4% for every success. you have .1/.2/.25/.3/.35/.4/.45/.5 seconds to jump again when you land for this to activate. maximum gravity reduction is 90%.

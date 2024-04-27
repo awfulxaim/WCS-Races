@@ -1,0 +1,20 @@
+IRIS Soldier
+
+AUG, P90, Nova, Famas, 5-7 only. Spawns with 5-7. has no knife.
+
+Armory (ability)
+activate to bring up a menu to allow you to pick a gun. you also spawn with 40/50/60/70/80/90/100/125 armor and helmet. the options are:
+AUG - a normal AUG
+P90 - a normal P90
+Nova - does 4/8/12/16/20/24/28/32 extra damage to invisible enemies.
+famas - does no damage, but removes invisibility if it hits an enemy, and shakes their screen and poisons them for 5 damage per second for 10 seconds. this effect stacks.
+
+Laser alarm sensor (ability2)
+lays a large invisible ward on the ground (300 unit radius). if an enemy steps into it, they lose all their invisibility and start to pulse a red circle around them. the pulse makes a loud noise. you can lay up to 1/1/1/1/2/2/3/4 of these wards. 8 second cool down.
+
+Teamwork
+You spawn with 3/4/5/6/7/8/9/10 more HP for each teammate you have. When there is a teammate nearby, you and that teammate are healed for 10 HP every 2 seconds with no maximum.
+
+If It Bleeds We Can Kill It
+You deal extra damage the more HP an enemy has. You have a 5/10/15/20/25/30/35/40% chance to block ultimates against you.
+For every 475/400/350/300/250/200/150/125HP an enemy has you deal 15/20/25/30/35/40/45/50 extra damage.

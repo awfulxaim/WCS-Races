@@ -1,0 +1,25 @@
+rogue
+
+Cheap Shot
+5/10/15/20/24/30/35/40% chance on hit to prevent the enemy from moving or attacking for 4 seconds.
+
+Sprint (ability)
+Increase your movement speed by 5/10/20/30/40/50/60/70% for 1/2/3/4/5/6/7/8 seconds. 28 second cooldown.
+
+Stealth (ability2)
+Become 100% invisible until you attack or take damage or after 20 seconds, which ever happens first. 30/28/24/20/18/16/12/10 second cooldown
+
+Garrote
+Attacks from stealth cause the enemy to bleed. They take 20% of the damage that procced this skill to them every second for 10 seconds.
+
+Ambush
+You first hit while stealthed deals 30/40/50/60/70/80/90/100% extra damage.
+
+Evasion (ability3)
+You gain 75% chance to evade for 6 seconds. an evaded attack does not take you out of stealth. 70/65/55/50/45/40/35/30 second cooldown.
+
+Backstab
+You deal 5/30/35/40/45/50/55/60% increased damage. At max level a right click back stab will instantly kill the enemy.
+
+Shadowstep (ultimate)
+Teleport behind the enemy you are aiming at instantly and get 5/10/20/30/40/50/60/70% increased movement speed for 2 seconds. 20/19/18/17/16/15/14/12 second cooldown.

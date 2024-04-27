@@ -1,0 +1,27 @@
+kael'thas sunstrider (prestige race for blood mage)
+
+Cannot buy mole.
+
+Flamestrike
+same as blood mage but also burns enemies near (150 range) the enemy burned
+
+Phoenix
+same as blood mage, but gives the player that respawns the gun they died with.
+
+Shock Barrier
+4/8/10/12/14/16/18/20% chance to evade or block bonus damage or bash effects.
+
+Mind Control
+1/1/1/1/1/2/2/3% chance when you hit an enemy to gain exp as if you killed them, then change their team to yours for the rest of the round or until they die. at round end they turn back to their original team and can be killed if they are still alive. Max 3 enemies mind controlled per round.
+
+Nether Beam
+1/1/1/2/2/3/3/4% chance on hit to deal 2/5/7/10/12/15/17/20 extra damage and apply double that extra damage to a nearby enemy (100 range). If there is more than one nearby enemy the damage is increased by 100% for each enemy and applied one by one to each enemy nearby. for example if there are 3 enemies within 100 range of each other when this procs the first takes 20, second takes 40, and third takes 60.
+
+Living Bomb (ability1)
+when activated plant a living bomb in a random enemy. this causes the enemy to pulse with a circle around them, after 5 pulses they explode dealing damage based on the number of enemies in the circle during the explosion. the circle is 150 radius. 5/7/10/12/15/17/20/25 damage per enemy in the circle (including the living bombed enemy) any enemies in that circle when it explodes also take that damage and get a living bomb themselves. 15 second cooldown
+
+Pyroblast (ability2)
+Costs $2000. You are rooted and cannot attack for 11/10/9/8/7/6/5/4 seconds, then if you are still alive after the time is up you deal 45-55 damage randomly rolled to each enemy within 1750 range. 45 second cooldown.
+
+Gravity Lapse (ultimate)
+lowers all enemies gravity and impales them, knocking them into the air. after 5 seconds gives them greatly increased gravity. they take fall damage when they hit the ground. 60 second cooldown.

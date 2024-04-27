@@ -1,0 +1,15 @@
+Sand King
+
+Knife only
+
+Burrowstrike (ability)
+Human dash but while you are flying through the air you are invulnerable. enemies that enter a 150 radius around you while you are flying through the air or where you land take 12/14/16/18/20/22/24/26 damage and are impaled and then frozen when they land for 1.2/1.4/1.6/1.6/1.8/1.8/2/2.2 seconds. enemies affected by this are afflicted with your current level of caustic finale for 6 seconds. 14/13/12/12/11/11/10/9 second cooldown.
+
+Sand Storm (ability2)
+Lay a 325 radius ward on the ground. The ward lasts 20/20/20/25/25/30/30/35 seconds or until you leave the ward area. As long as you are in the ward you get 25/50/75/75/100/100/125/150% increased movement speed and 100% invisibility. enemies who step in the ward take 3/4/5/6/7/8/9/10 damage per second and are slowed by 35% while they are inside. Enemies have their screen darkened by 65% while they are in the ward area. Activating Sand Storm refreshes the cooldown on Burrow Strike. 43/40/37/34/31/28/25/22 second cooldown.
+
+Caustic Finale
+100% chance on hit to deal 5/7/9/11/17/19/21/23 extra damage and slow the enemy by 12/14/16/18/20/22/24/26%. 100% chance on hit to afflict the enemy with caustic finale for 6 seconds. Enemies afflicted by caustic finale explode when they die, dealing 10/14/18/22/26/30/34/38 damage to all enemies near them (115 radius).
+
+Epicenter (ultimate)
+Root yourself for 2 seconds. After the 2 seconds are up deal 11/12/12/13/13/14/14/15 damage in pulses to all nearby enemies every 1/1/.75/.75/.5/.5/.25/.25 seconds for 3 seconds. with each pulse the radius increases. Enemies dealt damage by a pulse have their screen shake and are slowed by 30/30/30/40/40/40/50/50% for 3 seconds. 120/120/120/120/110/110/110/100 second cooldown. radius starts at 115 and increases by 30 every pulse.

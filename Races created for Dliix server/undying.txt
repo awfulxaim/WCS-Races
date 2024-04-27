@@ -1,0 +1,15 @@
+Undying
+
+knife only. no max HP
+
+Decay (ability)
+Deal 1/4/5/8/9/12/13/17 damage to all nearby enemies (350 range). you gain 4/4/4/4/4/4/4/8 HP for each enemy dealt damage. 13/11/10/8/7/6/5/2 second cooldown.
+
+Soul Rip (ability2)
+Deal 2/3/3/4/4/5/5/6 damage to all nearby players including teammates (700 radius). you heal for the amount of damage dealt and deal that much damage to a random enemy in the area. 20/18/16/14/12/10/8/6 second cooldown.
+
+Tombstone (ability3)
+Lays a 450 radius ward that lasts 30 seconds. this ward deals damage and slows enemies in its radius. 2/2/3/3/4/5/5/6 damage per second. Slows enemy by 5% stacking with each second and lasts 2.5 seconds. You gain any movement speed enemies lose from Tombstone. If you die while Tombstone ward is active after 3 seconds you respawn at the ward and the ward is destroyed. when you respawn you are rooted for 3 seconds. 90/85/80/75/75/70/65/60 second cooldown.
+
+Flesh Golem (ultimate)
+Heal for 20/30/40/50/60/100/110/120% of your current HP. you gain 10/10/20/20/30/30/40/40% increased movement speed and deal 20/20/25/25/30/30/35/35% increased damage for 40 seconds. enemies that come within 200 raneg of you are slowed by 35/35/40/40/45/45/50/50% during that duration. 125 second cooldown.
