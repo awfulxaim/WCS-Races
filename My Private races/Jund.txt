@@ -1,0 +1,37 @@
+Steam ID: STEAM_0:1:9831521 (Awful Aim)
+Friend Steam ID:
+Race Name: Jund
+Weapon Restrictions: None.
+Shopmenu Restrictions: None.
+Race Skills: Putrid Leech | Broodmate | Bituminous Blast | Blightning | Maelstrom Pulse | Cascade
+Race Description:
+
+---Putrid Leech: The leech feeds off your Life, gaining power.---
+Pay 10 HP to deal an additional 10% damage, this effect lasts until death and may stack up to 3 times. (ability) 10 second C/D
+Howlofterror.wav
+
+---Broodmate: Spawn a Broodmate to assist in the hunt.---
+50% Chance on death to respawn you and a teammate. Can only happen once per round.
+bigbadvoodoospellbirth1.wav
+
+---Bituminous Blast: Envelop your enemies in burning tar.---
+20% chance on hit to deal an additional 40% damage.
+Black thin line from you to enemy (line from blood rune on Saurfang)
+Breathoffire1.wav
+
+---Blightning: Shock enemies with a brain smoldering charge.---
+20% chance on hit to deal an additional 30% damage.
+red line from you to enemy
+calllightning.wav
+
+---Maelstom Pulse: Erupt in a storm of singularity crushing those nearby.---
+25% chance when hit to deal 100% mirror damage to the opponent and everyone in ward range of that opponent.
+Bash animation on the enemy, Jund turns green for 1 second.
+feralspirittarget1.wav
+
+---Cascade: Your spells can cascade into more spells creating huge waves of power.---
+25% chance when an ability not including Maelstrom Pulse or Broodmate procs for one of your other abilities to proc. abilities that proc because of Cascade can cause Cascade to proc the same ability again or another skill. (Maelstrom Pulse or Broodmate cannot benefit from this)
+3 thin lines, 1 red, 1 green, and 1 black from you to the enemy.
+flamestrikebirth1.wav
+
+Max Skill Level: 8 

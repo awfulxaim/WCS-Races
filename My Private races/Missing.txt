@@ -1,0 +1,10 @@
+Missing
+
+No weapon, 100 HP.
+
+Hidden- 100% Invisibility
+Malevolence- Deal 15 damage to enemies that touch you. Enemies who are touched for longer than a second take 15 damage per second.
+Omnipotence- 25% gravity when maxed.
+Storm Bolt- Targeted enemy takes 15 damage and is stunned for 2 seconds. (ability) 10 second C/D
+Magnetism- Pull all enemies toward you like a weak blackhole for 8 seconds. 28 second C/D (ability2)
+Disintegrate- Targeted enemies guns are destroyed. (ultimate) 45 second C/D

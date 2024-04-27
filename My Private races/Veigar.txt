@@ -1,0 +1,15 @@
+Veigar, The Tiny Master of Evil
+
+Deagle only race.
+
+Entropy- Ability, Enemies in rupture range deal 20% less damage. Veigar gains 4 extra damage per enemy affected by Entropy to a max 20 extra damage. 40 second C/D
+
+Baleful Strike- 20% chance on hit to deal 8 extra damage, if this proc kills the enemy you begin dealing 5 added extra damage per proc. To clarify, this begins by hitting 8 extra damage, if it kills the enemy it then does 13 extra damage.
+
+Dark Matter- Ability2, after 2 seconds targetted area is hit by a ward sized nuke that deals 36 damage. 52 second C/D
+
+Event Horizon-  Ultimate, Create a ward at targetted location, this ward deal no damage and lasts 9 seconds, anyone who steps into the wards range is stunned for 3 seconds. 60 second C/D
+
+Primordial Burst- 10% chance on hit to deal 4 extra damage plus additional extra damage equal to .25% of the enemies money. If the enemy is killed by this proc Veigar gains 1500 money and this attack will gain an additional 5 extra damage per proc.
+
+Archangel's Staff- Gain 29 Money every 5 seconds.

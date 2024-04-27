@@ -1,0 +1,8 @@
+L4DS: Zoey
+
+Make the grade- Spawns with Scout and Dualies
+Game over- 48% chance on hit to deal 8 extra damage.
+Run like Hell- 80% chance to spawn with 130% speed.
+Revive a survivor- Respawn a teammate with 50 HP. (Ability) can only be used 4 times per round, whatever C/D that is.
+Horror Movies- 10 damage reduction.
+First Aid Kit- Like lifebloom, heals 10 health per second for 5 seconds, then heals an additional 30 HP, to a max of 100 HP.

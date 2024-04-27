@@ -1,0 +1,26 @@
+Krazy Climber
+Knife only
+
+Fuckin' Ice Pick
+MuthaFucka!
+Damage dealt with the knife is increased by 100%
+
+Fall Immunity
+Bitch, I don't take fall damage, I got like a parachute or some shit
+Take no fall damage
+
+Rope
+Shit, man, I got like this rope, And you can like swing from it and shit, like god damn Indiana Jones.
+Teleport like beholder.
+
+Checkpoint
+Yea, bitch, I can go wherever the fuck I want!
+sets the place where you are standing as the place where the next abiliuty teleports you to. (ability)
+
+Revert
+Bitch, if you fuck me up ima just teleport back where ever the fuck I want.
+Teleports you to the last place you set your checkpoint. (ability2)
+
+KZMOD
+There aint no fuckin' fightin' in KZMOD you live fo' fuckin' ever.
+Respawn like Timeshifter.

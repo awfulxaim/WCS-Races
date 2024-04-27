@@ -1,0 +1,15 @@
+Avareth Swiftstrike
+
+Restricted to Scout, TMP, M4, and USP. Spawns with USP. Can pick up bomb, but not kit.
+
+Meld- 8/16/24/32/40/48/56/64% Invisibility
+
+Impulse- 10/20/30/40/50/60/70/80% chance when hit to increase speed by 10/20/30/40/50/60/70/80% for 1/1/2/2/3/3/3/4 seconds.
+
+Mend- Spawn with 116/124/132/140/148/156/164/172 HP.
+
+Reach- Long jump, same as ninjas.
+
+Frost- 8/8/16/16/24/24/28/32% chance on hit to stun the enemy for 1/1/1/1/1/1/1/2 seconds.
+
+Drain- 2/4/6/8/10/12/14/16% of all damage dealt is gained in HP, to a max of whatever HP your current Mend level starts you at.

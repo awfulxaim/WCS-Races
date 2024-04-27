@@ -1,0 +1,17 @@
+ZALGO
+
+Knife and TMP
+
+Beast with 6 maws- Increase maws that can be opened to 6, increase chances when hit to open a maw by 20% and when you hit an opponent by 10%. When a maw is opened, you evade the next hit you take.
+
+Bubbling Pitch- 100% mirror damage to KNIFE hits, Begin to blind the opponent, after 4 hits the opponent becomes fully blinded.
+
+Fear Engine- Close 2 of your maws, Resurrect a teammate with 200HP and 100 armor, this deals 25 damage to a player on the opposing team.
+
+Starving crows- Close 2 of your maws, Create a "black hole" in the opponents spawn, this black hole does not suck people in, but rather deals 1 damage per second for 30 seconds.
+
+Incinerating Radiance- Close 2 of your maws, Deal 20 damage to enemies in Maelstrom range, gain HP for all damage dealt, to a max of 200 HP.
+
+The song that ends the Earth- Close 6 of your maws, Blind the opposing team for 6 seconds, Commit suicide, deal damage equal to 200 minus your HP before Suicide, to all opponents. Your corpse becomes a dark messenger. All damage dealt for the next 6 seconds is nullified. Spawn with 1 HP and a knife only next round.
+
+When you activate the ultimate a menu is brought up, you then choose the number for the ability you would like to use, if you have enough opened maws the ability is activated.

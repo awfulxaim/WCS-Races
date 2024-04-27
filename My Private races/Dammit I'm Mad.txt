@@ -1,0 +1,13 @@
+DaMmIt Im MaD
+
+RaCe CaR- Spawn with 132% Speed.
+
+RadaR- Enemies in Twilight range are Beaconed and take 16 damage. (30 second C/D) (Ability)
+
+EvaDe Me, DavE- 32% chance to evade, for 1 second after you evade an attack increase speed by 8%
+
+NevEr Odd Or EveN- Gain 4HP/sec until HP is an even number or to a max of 200.
+
+DuMb MuD- 24% chance on hit to slow the enemy by 40% for 2 seconds.
+
+BoMbarD A DrAb MoB- Gain 24 HP and long jump, Beaconed enemies lose their beacon and take 24 damage. (45 second C/D) (Ultimate)

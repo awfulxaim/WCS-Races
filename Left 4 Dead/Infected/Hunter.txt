@@ -1,0 +1,10 @@
+L4DI: Hunter
+
+Knife Only
+
+Mutated Endurance- Spawn with 250 HP.
+Mutated Speed- Spawn with 120% speed and Astral Spirit from Ninja.
+Dark Corners- Spawn with 85% invisibility.
+Crouch- Like burrow, Become 100% invisible but become unable to move, can still attack and can take damage. (ability2) no C/D
+Pounce- Become meathooked to targeted enemy, targeted enemy takes 25 damage, Hunter and targeted enemy are stunned until one of them is shot. Targetted enemy takes 32 damage per second while stunned. (ability) 5 second C/D
+Panic- 25% chance when hit to respawn all Infected on your team to you.

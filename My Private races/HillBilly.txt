@@ -1,0 +1,11 @@
+HillBilly (4 skills / 8 levels)
+M3, Xm1014, knife only. Shotguns begin with 100 ammo in clip
+
+Good shootin' (Crit Strike, Orc)
+Good skinnin' (Eradicate, Dark Templar)
+Good Ol' Camo (Phantom Moon, Ninja)
+Git R' Dun (Become unable to move; evade all damage; all damage evaded is dealt to opponent, lasts 8 seconds. Ultimate)
+
+The Git R' Dun skill when activated should show the animation from lockdown (from ghost) on the Hillbilly.
+
+This race would be invisible, with extra damage on its knife and guns.

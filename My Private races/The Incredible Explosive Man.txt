@@ -1,0 +1,23 @@
+The Incredible Explosive Man
+
+Knife Only.
+
+Explode!- The high explosive's residue coating your body erupts in a storm of destruction!
+Knock back you and all enemies in wisp range (should knock back about as far as 3 slaps), Deal 25 Damage to all enemies and take 10 Damage, Makes wisp explosion sound when activated. Ability. 2 Second C/D.
+
+Explosive Speed- Ignition of footmounted Nitrogen Triiodide containers increases your speed.
+Spawn with 150% speed.
+
+Blast Suit- Your Blast Suit is the best protectant against all things explosive.
+Spawn with 500 HP, Grenades, including critical ones, deal no damage.
+
+Sonic Boom- Your speed, combined with your innate strength, daze and immobilize enemies.
+Your knife attacks have a 25% chance to stun and deal 50% additional damage.
+
+Spill of Destruction- An ill-timed shot could cause you to spill one of your explosives from your bag of "tricks".
+10% chance when hit to spawn a Land mine about 2 feet behind you.
+
+Tick, Tick, Boom- Open up your bag of "tricks" and bring all eyes on you, time to show them what volatile really means.
+Become rooted and invulnerable for 15 seconds, after the 15 seconds are up, become unrooted and vulnerable, deal 200 damage to everyone in nuke range, after 2 seconds take 250 damage.
+20 second initial C/D, then 45 second C/D. Ultimate. During the 15 second build up period Explosive man should have the shield animation from Zealot over him, "What's that he's doing there? KEEP SHOOTING!" should appear in the middle of the screen of all players,
+when the damage happens it should sound and look like a nuke, "Just look at this charred and bloody mess." should appear in the center of all player's screens afterwards.

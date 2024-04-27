@@ -1,0 +1,17 @@
+Shadownet Spy
+
+Spawns with M4, 5 Smoke grenades, and Knife, Can ONLY do damage with the knife, all other damage is reduced to 0.
+
+Shadownet Camouflage- Shadownet Spy cannot be revealed, blinded (including flash blind), or beaconed.
+
+Shock gun- 100% chance on hit with the M4 to stun the opponent for 2 seconds.
+
+Smoke Grenade- Enemies that step into your smoke are slowed by 50%
+
+Stealth training- Become more and more invisible each second starting at 80% invisibility and gaining 5% invis per second, when shot your invis is set back to 80%.
+
+Flashbang- Twilight Storm from Twilight Archon, but white instead of blue, 30 second C/D. (ability)
+
+Neck Snap- Backstabs deal 5x damage.
+
+Escape Move- Become 100% invisible. Gain +50% speed for 4 seconds. 30 second C/D (ultimate)

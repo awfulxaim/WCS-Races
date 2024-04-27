@@ -1,0 +1,25 @@
+Enormous Baloth
+
+Swing- 22% Chance on hit to deal an additional 7 Damage.
+
+Its diet consists of fruits, plants, small woodland animals, large woodland animals, woodlands, fruit groves, fruit farmers, and small cities.
+
+Toughness- Spawn with 70 additional HP.
+
+This beastly creature is tougher than most Johnnies could possibly hope for.
+
+Rending Vines- 30% Deal additional damage equal to your HP minus your opponents. When this activates gain 7 HP to a max of 170 HP.
+
+Vines of the Baloth's natural habitat are like the sharpest Katanas of Kamigawa.
+
+Toil to Renown- Ability, Gain 10% of your current life in HP to a max of 170 HP. 30 second C/D, 15 second initial C/D.
+
+The last survivor of the baloth, the warrior returned expecting disappointment and scorn, instead they found gratitude. "You are alive. That is reason to celebrate."
+
+Giant Growth- Ability2, Gain 30 HP and deal 3 additional damage for 10 seconds. After 30 seconds lose the damage buff, but keep the HP. 15 second Initial C/D, 60 second C/D
+
+Before my eyes, the smallest of the Baloth's runts became enormous beasts of wonder.
+
+Nature's Spiral- After dying, wait 30 seconds, then respawn at your spawn point. This may only happen once per round. 40% chance.
+
+Like nature, a fern spirals back on it's self, trying to reach the center.

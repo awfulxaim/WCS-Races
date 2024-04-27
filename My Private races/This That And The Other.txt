@@ -1,0 +1,15 @@
+This, That, And The Other.
+
+Knife only
+
+This- Spawn with 50% Gravity, 90% Invisibility, and 124% Speed.
+
+That- Spawn with extra HP equal to your deaths to a max of 150 HP.
+
+And- 16% chance when hit to make EVERY player 100% invisible except for your attacker for 8 seconds.
+
+The- 24% chance on hit to trade HP with your attacker if you have less HP than them to a max of 150 HP.
+
+Other- 16% chance when hit to completely to completely blind the opponent for 4 seconds and instantly summon them to a random location on the map. They cannot be damaged after this procs until they have been teleported.
+
+With an Ultimate- become 100% invisible, set 100% gravity, and set 100% Speed, Set health to 100, become blinded for 4 seconds, then teleport to a random location on the map, then regain your Speed, Invisibility, and Gravity buffs. You can take damage after this activates and before you are teleported.

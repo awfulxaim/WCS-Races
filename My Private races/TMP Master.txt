@@ -1,0 +1,19 @@
+TMP Master
+
+4 skills with 8 ranks per skill
+
+Spawns with and is restricted to Knife and TMP (with unlimited ammo)
+
+AP Rounds: Has 40% chance to receive 25% of damage done back as health, to a max HP of 200 (rank 1: 30% chance for 5% damage, rank 2: 30% for 10% damage, rank 3: 35% for 15% damage, rank 4: 35% for 20% damage, rank 5: 40% chance for 25% damage) (The health gain would be 100% of damage added)
+Sit Still: Has unblinding teleport, like the Human Alliance's, that has a 40% chance to deal 15 AoE damage and stun for .75 seconds where the teleport began from (has no cooldown) (rank 1: 10% chance, rank 2: 20% chance, and so on.) (ability)
+Clutch Player: Has 40% chance that, while crouched, you become totally invisible (rank 1: 10%, rank 2: 20%, rank 3: 40%, rank 4: 50%, rank 5: 60%)
+No Pressure: Has 75% Evasion for 4 seconds (rank 1: 10% for 5, rank 2: 20% for 5, and so on.) (ultimate)
+
+With vampiric damage for lack of inital HP.
+The Teleport is it's main skill which gives it the ability to trump most knife races, which it would otherwise be weak against because of it's lack of speed.
+Chance to become invisible while crouched gives it the ability to stealth when in a clutch situation.
+75% evasion for 5 seconds for those last ten seconds of the match when you may need to defuse or plant the bomb without getting headshotted.
+
+I'd like for two of my skills to have an animation, "No pressure" and "Sit Still".
+"No Pressure" should cause the character to quickly flash white on each evaded shot.
+"Sit Still" should leave a Fiery ring (like the pit of malice from Pit Lord) around the AoE damaged area when activated.

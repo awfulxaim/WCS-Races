@@ -1,0 +1,13 @@
+Fox McCloud
+
+Arwing- Decrease gravity by 85%
+
+Boosters- Longjump.
+
+Sweet Maneuver- Force yourself towards the ground. (ability2)
+
+Charged Shot- Increase damage by 2 for every second you spend between shots to a maximum of 20 Damage, this damage knocks enemies back.
+
+Landmaster- Increase HP by 40.
+
+Do A Barrel Roll!- 30% chance when hit to become invulnerable for .5 seconds.

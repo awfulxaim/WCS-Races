@@ -1,0 +1,13 @@
+Soldier
+
+Camouflage: Spawn with 75% invisibility
+
+Endurance: Spawn with 125% Speed
+
+Standard Issue: Spawn with an M4, Frag, Flash, Kevlar & Helmet.
+
+Magnum Ammunition: 25% chance on hit to stun the opponent for one second and deal 5 extra damage.
+
+Shredder Rounds: 20% Chance on hit to turn the enemies screen red and deal 10 damage over 5 seconds.
+
+Resupply: Refills the ammo on all of your guns and heals you for 4 HP per second until you reach 100, or get shot. Ultimate. 15 second C/D

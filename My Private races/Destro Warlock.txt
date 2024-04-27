@@ -1,0 +1,28 @@
+Steam ID: STEAM_0:1:9831521 (Awful Aim)
+Friend Steam ID: STEAM_0:0:22240754 (Narwhal)
+Race Name: Destro Lock
+Weapon Restrictions: Can only use Scout, USP, Knife, and AWP if ultimate is activated.
+Player Spawn CMD: Spawns with a Scout, USP, and Knife.
+Shopmenu Restrictions: None.
+Race Skills: Shadowfury | Immolate | Searing Pain | Fel Armor | Demonic Circle | Chaos Bolt
+Race Description:
+
+---Shadowfury: Shadowfury is unleashed, causing Shadow damage and stunning all nearby enemies.---
+An enemy and all enemies in ward range of that enemy take 10 damage and are stunned for 2 seconds, the enemy must be targeted with your crosshair. (Ability) 20 second C/D
+
+---Shadow Bolt: A direct-damage spell causing Shadow damage.---
+Trueshot Aura.
+
+---Searing Pain: Burns the target for Fire damage.---
+30% chance on hit to deal +15 damage and burn the enemy for 1 second.
+
+---Fel Armor: Surrounds the caster with fel energy, increasing spell power and regaining HP.---
+Spawn with 175HP and regenerate 7 HP every 5 seconds to a max of 175.
+
+---Demonic Circle: Teleports you to your Demonic Circle and removes all snare effects.---
+Chaos's Blink, when activated also removes all stun effects. (ability2) 1 second C/D
+
+---Chaos Bolt: Sends a bolt of chaotic fire at the enemy. Chaos Bolt cannot be resisted, and pierces through all absorption effects.---
+When activated gives you an AWP with 1 shot. This shot cannot be evaded or reduced. (ultimate) 12 second C/D
+
+Max Skill Level: 8 

@@ -1,0 +1,10 @@
+Weedle
+
+Starts with 50 HP
+
+Poison Sting- 48% chance on hit to begin dealing 16 to 56 DoT.
+String Shot- Decelerator from TimeShifter.
+Harden- Activated when evolving for the first time. +50 HP, 10 damage reduction from all attacks.
+Fury Attack- Can only be activated after evolving twice. Next attack does 200 damage minus Weedle's current health. 15 second C/D (ability)
+PinMissile- Can only be activated after evolving twice. Fly, give T autosniper, 24% chance on hit to Bash and deal 24 damage. (ability2)
+Evolve- Initial 30 second C/D, then 1 minute C/D, on second activation give +100 HP, 24% evasion, and 8% chance to do damage equal to Weedle's current HP minus the opponent's level. (ultimate)

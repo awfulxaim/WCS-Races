@@ -1,0 +1,22 @@
+Summoner
+
+Ignite
+10% chance on hit to set the player on fire for 8 seconds dealing 50% of their race level per second
+
+Exhaust
+15% chance on hit to slow the player by 50% and blind them for 6 seconds
+
+Flash
+Instanly appear where your crosshair is aiming
+
+Ghost
+Increase your speed by 40% for 14 seconds
+
+Revive
+50% chance on death to respawn back at base with all of your weapons
+
+Smite
+20% chance on hit to deal 20 damage plus 25% of your race level.
+
+Cleanse
+When activated purge all debuffs from you and gain invuln for 3 seconds.

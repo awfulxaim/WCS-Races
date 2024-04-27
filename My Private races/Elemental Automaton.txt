@@ -1,0 +1,13 @@
+Elemental Automaton
+
+ZDirectMetallurgy- Damage dealt by Abilites have a chance to be nullified, while ultimates and wards will be reflected back upon the opponent at reduced strength.
+
+Fissure-Induction V6.0c- Rupture nearby tectionic plates and force enemies into the fault lines of the earth.
+
+HydroDynamic Maelstrom- When Automaton is destroyed it realeases extreme tidal energies forcing all enemies to be pulled towards an epicenter created above your corpse.
+
+Electro Magnetic Pulsar- Automaton fires an intense Gamma radiation beam focused on each enemy.
+
+PyroClastephra Engine- Increases Automaton's speed by 25% and reduces the Cooldown of each of Automaton's abilities.
+
+Microbot-Burst Algorithm- Automaton can be recreated by the microscopic robots infused into the Automaton's parts, after reproduction the microbots eject millions of small air currents, forcing nearby enemies back.

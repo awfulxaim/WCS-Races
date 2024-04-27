@@ -1,0 +1,13 @@
+Master Yi
+
+Double Strike- Every 7 Hits Master Yi deals 200% damage.
+
+Alpha Strike- Teleports you to the target and deals 55 damage to up to 4 people around the target.
+
+Meditate- Become rooted and invuln gain 20 HP per second until 100 HP.
+
+Wuju Style- Knife attacks deal 35 extra damage.
+
+Wuju Blade- for 10 seconds all knife attacks deal 70 extra damage.
+
+Highlander- Increase speed by 40%, increase damage by 80%, and become invulnerable to stuns and slows for 12 seconds.

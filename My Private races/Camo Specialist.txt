@@ -1,0 +1,13 @@
+Camo Specialist (6 Skills / 4 levels)
+
+Underhanded Move- Throw sand in the opponents eyes blinding them. (25% chance to blind enemy on hit.)
+Entangling roots-                                                 (ability)
+Evasion-                                                          (30% chance to evade)
+Mirror Damage-                                                    (25% chance to deal 40% of damage back to enemies.)
+Long Jump-
+Hide away- Quickly melt into the foliage surrounding you.         (toggle ultimate: can fail, Become 100% invisible but be unable to move)
+
+Hide away would be like burrow but you would still be able to take damage and attack while burrowed.
+
+The knife ambush should have an animation of a large green circle spreading out from the opponents feet when activated.
+The blinding should be the same as the blinding from DT.

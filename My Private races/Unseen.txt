@@ -1,0 +1,15 @@
+Unseen
+
+Knife only, spawns with 100 HP
+
+Hidden- 100% Invisibility
+
+Magnetism- Pull all enemies toward you like a weak blackhole for 8 seconds. 28 second C/D (ability2)
+
+Omnipotence- 25% gravity when maxed.
+
+Burrow- Become invulnerable but unable to move or attack. (ability)
+
+Unseen Aura- All teammates not including the Unseen gain +50% knife damage.
+
+Benefactory- 100% chance on death to darken enemy team's screens, enemy team is beaconed, Unseen's team gains 8 damage absorption.

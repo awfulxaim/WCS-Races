@@ -1,0 +1,8 @@
+Probability Being
+
+Chance of Regeneration- Every 4 seconds gain a random amount of health between 0 and 10; has a 8% chance deal 2 damage.
+Feasibility of Offense- Spawn with and be restricted to a random weapon or item including each type of grenade.
+Contingency of Speed- Spawn with a random amount of speed between 1% and 300%.
+Likelihood of Damage- Each hit adds a random amount of damage between 0 and 100; has a 8% chance of reducing damage dealt to 0.
+Possibility of Invisibility- Spawn with a random percentage of invisibility; has an 8% chance to beacon Probability Being.
+Beat the Odds- 8% chance when maxed to spawn with 200 HP, an AK47, a frag, smoke, and 2 flash grenades, a Deagle, Kevlar and Helmet, 50% Grav, 135% speed, 70% invisibility, and +10 damage to 50% of attacks.

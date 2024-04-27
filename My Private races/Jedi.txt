@@ -1,0 +1,15 @@
+Jedi
+
+Knife only
+
+Force Push- All enemies in ward range are pushed back a ways. Enemies effected are stunned for 1 second and take 16 damage. (ability2) 10 second C/D
+
+Force Pull- Like storm bolt, enemy is meathooked to you, he takes 16 damage and is stunned for 1 second. (ability) 10 second C/D
+
+Force Body- All damage dealt with the knife is increased by 16 damage
+
+Force Jump- Long jump.
+
+Force Speed- On spawn set speed to 170% and 35% evasion
+
+Force Kinetite- Jedi is stunned for 4 seconds; after the stun: enemies in a nuke sized range of where you are aiming take 50 damage, are stunned for 2 seconds, and are knocked back very very far. (ultimate) 20 second initial C/D, 99 second C/D after

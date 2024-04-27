@@ -1,0 +1,10 @@
+L4DI: Tank
+
+Knife only. Is always Beaconed.
+
+Mutated Endurance- Spawn with 4000 HP.
+Rock Throw- Become stunned for 1 second. Targetted enemy takes 30 damage and is stunned for 4 seconds. (ability) 20 second C/D
+Mutated Strength- 100% chance on hit to stun enemy for 2 seconds.
+Mutated Skin- Spawns with 4000 Armor.
+KnockBack- 100% chance on hit to knock enemies back.
+Tank Power- 100% chance to spawn with ward and ultimate immunity.

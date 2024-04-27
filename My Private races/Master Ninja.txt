@@ -1,0 +1,22 @@
+Master Ninja
+Knife race
+
+Knife Throw- Throw your Knife, Because I said so. (ability) 25 second C/D
+Like Mountain Kings Storm Bolt, Deals 64 damage and "Bashes" for 4 seconds, lose your knife.
+
+Go pick up your Knife- Are you retarded? You have no weapon now. (ability2) 20 second C/D
+Spawn a knife.
+
+Smoke Bombs- Real ninjas disappear into smoke.
+Spawn with two Smoke grenades. The clouds are poisonous and deal 4 damage per second.
+
+Stealthiness- Remember when you played Hide and Seek and thought "One day, I'll be a ninja and I'll show them," Now you can.
+88% Invisibility, 32% chance to evade.
+
+Ninja Quickness- Be speedy like the ninjas from those really gay animes kids watch nowadays.
+Spawn with 144% speed, and 40% gravity.
+
+Bloodthirst- Drink the blood of your enemies and pretend you didn't get AIDS.
+64% chance on hit to gain 24 HP.
+
+This race cannot pick knives up off the ground if it throws the knife it has it must spawn a new one.

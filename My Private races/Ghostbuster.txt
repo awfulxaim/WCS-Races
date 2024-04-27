@@ -1,0 +1,34 @@
+Steam ID: STEAM_0:1:9831521 (Awful Aim)
+Friend Steam ID: 
+Race Name: Ghostbuster
+Weapon Restrictions: None.
+Shopmenu Restrictions: None.
+Player Spawn CMDs: Ghostbuster has 50% Mirror damage when hit with a knife.
+Race Skills: Flashlight | Anti-Ecto Suit | Ecto-Drain | Extra Large Sticky Fly Trap | Ghost Camouflage | Ghost Container
+Race Description:
+
+Flashlight:
+Turn on your trusty Maglight and reveal those ghosties.
+30/40/50/60/70/80/90/100% chance on hit to reveal the opponent for the rest of the round and silence them for 5 seconds.
+
+Anti-Ecto Suit:
+The Anti-Ecto suit prevents any Ghost-ular accidents.
+30/40/50/60/70/80/90/100% chance to spawn with Immunity from Ultimates and Wards.
+
+Ecto-Drain:
+The Ecto-Drain system pulls the life force out of all those nasty ghosties.
+25/30/35/40/45/50/55/60% chance on hit to leech 30% of damage dealt.
+
+Extra Large Sticky Fly Trap:
+It's even big enough to catch ghosts.
+9/12/15/18/21/24/27/30% chance on hit to slow the enemy to 70% for 4 seconds
+
+Ghost Camouflage:
+Blend in with the ghosties.
+Spawn with 18/27/36/45/54/63/72/75% invisibility.
+
+Ghost Container:
+Release the ghosts and they will be forever grateful.
+Gives you +100HP, this can only be activated if you have less than 100 HP and maxes at 199 HP. All enemies are silenced for 10 seconds. ICD of 25 seconds and C/D of 30 seconds. (Ultimate)
+
+Max Skill Level: 8 

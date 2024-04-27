@@ -1,0 +1,10 @@
+Master Berserker
+
+Knife only. Screen is deep red, when shot screen becomes normal for 4 seconds, time from multiple shots stacks.
+
+Infinite strength- Berserker's first kill of the round gives +10 damage, 2nd gives +20 damage, 3rd gives +30, and forth and beyond gives +40 damage.
+Skin of Stone- 1st hit Berserker takes deals 0 less damage, next deals -8, then -16, and 4th and beyond deal -24 damage.
+Determination- Spawn with 260 HP
+Rush- Spawn with 148% speed.
+Tackle- Long jump.
+Adrenaline- Gain 100% evasion, lose 40 HP per second, set speed to 268%. (Toggle ultimate)

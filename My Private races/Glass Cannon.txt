@@ -1,0 +1,28 @@
+Steam ID: STEAM_0:1:9831521 (Awful Aim)
+Friend Steam ID:
+Race Name: Glass Cannon
+Weapon Restrictions: Can Only use the AWP and Knife. Spawns with an AWP and Knife.
+On Spawn CMD: Spawn with 25 HP.
+Shopmenu Restrictions: None, yet.
+Race Skills: Wrecking Ball | Hurdle The Dead | Blink | Translucency | Reckless Speed | Glass The World
+Race Description:
+
+---Wrecking Ball: Damage is increased exponentially.---
+Impetus from oblivion, damage dealt is increased 2x.
+
+---Hurdle the Dead: Each kill grants extra damage.---
+50% chance on kill to increase all damage dealt by 25%.
+
+---Blink: Teleport to a chosen destination.---
+Chaos's Blink.
+
+---Translucency: A glass body increases invisibility.---
+Spawn with 80% invisibility.
+
+---Reckless Speed: Throw no caution to the wind, you are faster than your foe.---
+Spawn with 135% Speed
+
+---Glass the World: Make this world a beautiful wasteland.---
+Algalon's Big Bang, No charge up time, but has an increased C/D
+
+Max Skill Level: 6

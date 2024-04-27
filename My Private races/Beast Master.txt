@@ -1,0 +1,11 @@
+Beast Master
+
+Mongoose Form- Spawn with 135% speed; 35% chance on hit to deal an additional 65% damage.
+
+Salamander Form- While standing still for longer than 4 seconds grants 20 Hp per 5 seconds.
+
+Octopus Form- Spawn with 70% invisibility; 35% chance when hit to blind and stun the enemy for 2 seconds.
+
+Phoenix Form- Passive: When killed if there is an enemy that is beaconed, destroy the beacon and respawn; Active: Teleport, if an enemy is near you when you begin teleporting or landing after the teleport the will take 5-15 damage over 5 seconds and are beaconed for 5 seconds.
+
+Turtle Form- Passive: Spawn with 200 Armor; Active: Become Invulnerable but unable to shoot or move. Ultimate

@@ -1,0 +1,7 @@
+Focus Shot- Each shot with the dualies decreases cooldowns by 1 second.
+Execute- Ability1 6 second C/D, Spawn an AWP with 1 shot in it, your next shot stuns enemies on hit for 1 second.
+Rocket Jump- Ability2 10 second C/D, Humans teleport, but teleports you in the opposite direction of your crosshair.
+Mortar- 25% chance on hit with dualies to deal 100% damage to al enemies near the enemy shot. Players damaged in this way are blinded for 2 seconds.
+Cloak- 15% chance when hit to become 100% invisible for 3 seconds.
+Disabling shot- 20% chance on hit with dualies to disarm the opponent and slow them by 60% for 4 seconds.
+Rocket Launcher- Ultimate, 20 second C/D, your next 5 dualie shots deal 10 extra damage and knock the enemy back.

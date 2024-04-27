@@ -1,0 +1,15 @@
+Entropic Colossus
+
+Gravity Burst- All enemies gravity is increased by 500% for 5 seconds. (ability)
+
+Flamestrike- from Kael'thas.
+
+Soul of Stone- Spawn with 160 HP, 35% chance to reduce damage taken by 10.
+
+Haunt- When killed remove all ammo from killers main weapon, killer takes 5 damage for each hit the killer deals to another player.
+
+Unbalancing Strike- 20% chance to force enemies view away from you. Deal 10 extra damage, and deal 5dmg/sec for 2 seconds.
+
+Void Zone- Spawn 1 ward does 20dmg/2sec, knocks effected enemies back like a slap. Lasts 20 seconds, can be resummoned after 30 seconds. (ability2)
+
+Fist of Entropy- Send nearby enemies into the air for 3 seconds, deal 15 damage to these enemies, lethal damage dealt using Fist of Entropy grants 1 Soul of Entropy, Entropic Colossus will respawn as long as it has atleast 1 Soul of Entropy, Respawns cost 1 Soul of Entropy.

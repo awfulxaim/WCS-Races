@@ -1,0 +1,27 @@
+Malfurion Stormrage
+
+Spawns with a Glock. Restricted to MP5, Galil, Famas, Aug, Krieg, Auttoshotty, Pumpshotty, Scout.
+
+Stalwart- Use your strength and bravery to fight through the Legion.
+
+Spawn with 110/120/130/135/140/145/150/160 HP
+
+Righteous- Your Righteousness imbues you with great power in times of need.
+
+Become invulnerable to all damage for 1/1/2/2/3/3/4/4 seconds.
+
+Shan'do- The honored teacher of Cenarius has developed powerful magic.
+
+Regenerate 1/3/5/7/9/11/13/15 HP and 2/2/4/4/4/6/6/8 ammo every 10 seconds.
+
+Escape- Bolt from the battle to regain control of your wits.
+
+Long jump from Ninja.
+
+Wisdom- Over the years you have gained great wisdom of where and when to hide.
+
+Spawn with 10/20/30/40/50/60/60/70% Invisibility
+
+Spellfury- When time comes, you will know when to shatter the will of the Legion.
+
+Chain Lightning from Thrall.

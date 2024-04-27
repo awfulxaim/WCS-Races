@@ -1,0 +1,18 @@
+Seraph
+
+Scout, AWP, Deagle, Knife.
+
+Spawns with and is restricted to Scout and Knife until the Ultimate is used.
+
+Shift- Blink from chaos.
+Vanish- 75% invisibility.
+Fog- Twilight Storm from Twilight archon but is Purple instead of Blue.
+Disturb- 48% Chance to add 48 damage to Scout or Knife hits.
+Feint- 30% chance to evade.
+Evoke- Become 100% invisible, not including any weapons, Give AWP and Deagle, Smoke begins to follow you like Sandstorm from Wind elemental.
+
+Initial C/D of 30 seconds, lasts until next round.
+
+Blink should have almost instantaneous C/D like Chaos's but a little faster.
+
+Fog should have the same C/D as Twilight Storm.

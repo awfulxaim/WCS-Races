@@ -1,0 +1,15 @@
+Swashbuckler
+
+Knife only.
+
+Cloak and Dagger- Become 100% invisible every 2 seconds for 1 second. If its possible show me when I'm visible by putting a very very slight blind on me.
+
+Adventurous- Spawn with 155% speed and 145 HP.
+
+Swordsman- 75% chance on hit to deal 100% extra knife damage.
+
+Courage- Spawn with 26% gravity.
+
+Style- 40% chance when hit to movement stun the attacker.
+
+Wit- Become 100% invisible and unable to move or shoot. Use again to deactivate and become visible. Ultimate 5 second C/D

@@ -1,0 +1,27 @@
+Steam ID: STEAM_0:1:9831521 (Awful Aim)
+Friend Steam ID:
+Race Name: Marksman
+Weapon Restrictions: Can Only use the AWP and Knife, Can use Deagle if ultimate is activated.
+Shopmenu Restrictions: None, yet.
+Race Skills: Gear up | Rangefinder | Chase | Awareness | Claymore | Gunslinger
+Race Description:
+
+---Gear up: Grant Armor and an Arctic Warfare Super Magnum Rifle on spawn.---
+100% chance to spawn with an AWP, Spawn with 80/90/100/110/120/130/140/150 Armor.
+
+---Rangefinder: Deal extra damage based on distance.---
+Impetus from Oblivion.
+
+---Chase: Spawn with additional speed.---
+Spawn with 105/110/115/120/125/130/135/140% Speed.
+
+---Awareness: Become immune to certain attacks.---
+30/40/50/60/70/80/90/100% chance to spawn with Ward, ultimate, impale, and stun immunity.
+
+---Claymore: Spawn up to two claymores.---
+Metatron's Landmines, you may only have 2 active at a time. (ability)
+
+---Gunslinger: Stun nearby enemies and spawn a Deagle.---
+Stun everyone in Twilight range for 1 second, Spawn a Deagle with 25 rounds in mag, Lose the Deagle after 10 seconds. 20 Second C/D, 10 second Initial C/D.(ultimate)
+
+Max Skill Level: 8

@@ -1,0 +1,17 @@
+Alchemist
+
+Spawns with 140 HP and 140% Speed, Spawns with 1 grenade and a knife, grenades spawn infinitely.
+
+Toxic Vial- 100% chance on hit with a grenade, deal 17 extra damage then deals 7 damage per 2 seconds to the enemy and 11 per 2 seconds to his nearby allies for 6 seconds.
+
+Healing Potion- Teammates hit by your grenades explosion are healed for 28 HP and are then healed for 2 HP per second for 6 seconds.
+
+Barrier- Ability, Targeted teammate or self if untargeted. for 5 seconds increase the targets movement speed by 15% and the target takes 46 less damage per hit.
+
+Clarity Potion- 20% chance on hit with grenade explosion: Enemies are Purged of all buffs. Teammates are Purged of all status debuffs.
+
+Sleep Vial- 10% chance on hit with grenade explosion: Enemies are put to sleep for 4 seconds.
+
+Dealy Injection- 25% chance on knife hit: The enemy deals 50% less damage for 5 seconds, is stunned for 3 seconds, and is dealt 25 extra damage.
+
+Crippling Goo- ultimate 15 second C/D, for 6 seconds all grenades spawn a ward that slows enemies by 60% and deals 14 damage per second.

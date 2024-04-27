@@ -1,0 +1,8 @@
+L4DS: Francis
+
+Gun = Fun- Spawn with either an M3 or an Xm1014
+Barfighter- Deal 100% mirror damage when hit with a knife.
+Indestructible- Spawn with 150 HP, 50% chance to respawn at corpse.
+Revive a survivor- Respawn a teammate with 50 HP. (Ability) can only be used 4 times per round, whatever C/D that is.
+Used to it- 80% chance to spawn with Beholder's immunities.
+First Aid Kit- Like lifebloom, heals 10 health per second for 5 seconds, then heals an additional 30 HP, to a max of 100 HP.

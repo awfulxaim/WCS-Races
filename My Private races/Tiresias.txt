@@ -1,0 +1,15 @@
+Tiresias
+
+Spawns with 1 HP, is immune to all abilities, Ultimates, and wards. Must be shot to be killed.
+
+Forsight- 100% invisibility when maxed.
+
+Prophecy- Spawn with 8 Flash grenades, and when maxed become immune to flashbangs.
+
+Wisdom- People blinded by Tiresias's Flash grenades take 5dmg/sec for 5 seconds.
+
+Divinity- 20% gravity when maxed.
+
+Falsify- 13% Chance to Mind Control all enemies who are blinded by one of Tiresias's flash grenades.
+
+Religion- 100% chance on hit, (this means hitting them with a flash grenade,) to blind and beacon enemy for 8 seconds, when 8 seconds are up all enemies in ward range of the beaconed enemy are blinded for 5 seconds and dealt 5dmg/sec for 5 seconds.

@@ -1,0 +1,13 @@
+Ordinance Expert
+
+In Combat Munitions- Gain 10 ammo in clip per 5 seconds to a max of 100 ammo.
+
+Steel Rain- 6 wards that deal 5 damage each.
+
+Dum-Dums- Damage dealt to enemies is reduced by 50%, deal the other 50% of the damage to his nearest teammate, no matter how far from the enemy he is.
+
+Shaped Charge- Lay an invisible land mine, cannot lay another until the previous has detonated.
+
+Incendiary cartridges- 25% chance on hit to burn the enemy for 5 seconds, this deals no damage but slows them.
+
+Tracer Rounds- 100% chance when you hit an enemy that they become beaconed, has the animation from grooved spines.

@@ -1,0 +1,12 @@
+Average CS Player (5 skills / 4 levels)
+
+Spawns and is restricted to: Scout, Deagle, HE Grenade, C4 (if T), Defusal kit (if CT).
+
+Ultimate Immunity- 100% immunity from all ultimates. (Level 1: 25% chance to be immune; Level 2: 50% chance to be immune; and so on.)
+Ward Immunity- 100% immunity from all types of wards. (Level 1: 25% chance to be immune; Level 2: 50% chance to be immune; and so on.)
+Ability Immunity- 100% immunity from all abilities. (Level 1: 25% chance to be immune; Level 2: 50% chance to be immune; and so on.)
+Skill Immunity- 100% immunity from all skills. (Level 1: 25% chance to be immune; Level 2: 50% chance to be immune; and so on.)
+Even The Odds- All attacks add 60% damage. (Level 1: Add 15% damage; Level 2: Add 30% damage; and so on.)
+
+The immunities are used to give 'The Average CS Player' an even playing field. Like playing on a normal CS server.
+The damage is to make up for the amount of health, speed, evasion, damage, armor, and invisibility most races are given.

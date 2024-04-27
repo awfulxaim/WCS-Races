@@ -1,0 +1,17 @@
+Sweeping Strikes- Next 5 hits deal 10 damage to an enemy near the enemy hit. Ability 30 second C/D
+
+Improved Rend- 25% chance on hit to deal 2 damage every second for 10 seconds, this cannot be stacked.
+
+Strength of Arms- Increase HP by 65.
+
+Second Wind- When stunned or immobilized, gain 2 HP per second for 10 seconds.
+
+Bladestorm- Prevent yourself from being able to shoot, deal 10 damage per second, for the next 6 seconds, to up to 4 enemies in ward range. Ability2 1.5 Minute C/D
+
+Specialize- bring up a menu to decide which of these you want to specialize in this round.
+
+Sword Spec- 5% chance to deal 2x damage, cannot happen more than once every 6 seconds.
+
+Mace Spec- Deal 15% extra damage.
+
+Poleaxe Spec- 5% chance to deal 1.5x damage and deal 20 damage over time.

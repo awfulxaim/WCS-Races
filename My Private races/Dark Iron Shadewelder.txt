@@ -1,0 +1,25 @@
+Dark Iron Shadewelder
+
+Arc lightning- Afflict your target with static electricity damaging those he comes in contact with.
+
+2/4/6/8/10/12/14/15% chance on hit, afflict enemy with Arc lightning, this deals 10 damage per second to all enemies in ward range of the afflicted enemy but does not include the afflicted enemy. This effect lasts 10 seconds.
+
+Arc Weld- Weld your target to the floor with a static shock, any movement causes him pain.
+
+2/4/6/8/10/12/14/15% chance on hit to stun enemy for one second and afflict them with Arc weld, this deals 10 damage per second only when the target is moving, while standing still he takes no damage, this lasts 8 seconds. Displays on screen "STAND STILL!"
+
+Horror- Fill your target with immense fear causing them to abondon all hope and flee.
+
+2/4/6/8/10/12/14/15% chance on hit, forces enemy to drop their weapon and pushes them away from you for 5 seconds.
+
+Shadow Word: Death- Engulf an enemy in shadow magic damaging him at risk of your own health.
+
+Deal 25 damage to target enemy if it does not kill them then you take 15 damage. 17/16/15/14/13/12/11/10 second C/D
+
+Mind Flay- Crush your enemies mind, causing great suffering and debilitating him instantly.
+
+6/8/10/12/14/16/18/20% chance on hit to deal 3 damage per second and slow them by 40% for 5 seconds.
+
+Chain lightning- Erupt in a storm of electricity damaging all nearby enemies.
+
+Copied from Orcish Horde.

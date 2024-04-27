@@ -1,0 +1,15 @@
+Goblin Gunslinger
+
+Restricted to Pistols, Spawns with any gun in the pistol category.
+
+Black Overcoat- Spawn with 35% Evasion
+
+Sleight of Hand- 35% chance on hit to add 4 ammo to Goblin Gunslinger's magazine.
+
+Dead Eye- All damage dealt with pistols is increased by 35%. This skill stacks with the damage increase from Dead to Rights.
+
+Dead to Rights- When Goblin Gunslinger kills an enemy his damage dealt with pistols is increased by 10%. This skill may stack.
+
+First Man to Fire- When standing still Goblin Gunslinger gains 10% Evasion per second until it reaches 100%, this evasion is lost when Goblin Gunslinger shoots or moves.
+
+Showdown- When activated Goblin Gunslinger gains +50% evasion for 6 seconds and a full refill on his pistol ammo. (ultimate) 25 Second C/D

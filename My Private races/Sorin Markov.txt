@@ -1,0 +1,15 @@
+Sorin Markov
+
+Spawns with Scout and duelies, spawn with 40 HP. Cannot buy anything but XP and immunities in Shopmenu.
+
+Vampiric Touch- Deal 20 damage to the nearest enemy, gain 40 HP. (ability) 20 second C/d
+
+Curse of Blood- Lose 30 HP, the enemy nearest to you is reduced to 50 HP. (ability2) No C/D
+
+Planewalk- Sorin takes 50% less damage.
+
+Black Mana- Spawn with an extra $2000.
+
+Swampwalk- Enemies will spawn with 25% less speed and cannot evade Sorin's damage.
+
+Mind Posession- Lose 70 HP, Gain 200 Exp, the enemy closest to you will spawn on your team next round. (ultimate) No C/D

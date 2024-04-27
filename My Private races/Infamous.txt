@@ -1,0 +1,13 @@
+Infamous
+
+Shock Grenade- 24% chance to deal 16 extra lightning damage to enemies hit by the grenade, this damage can jump up to 2 times increasing damage by 8 for each jump.
+
+Lightning Bolt- 32% chance on hit to deal 8 extra damage, Headshots heal you for 10 HP, to a max of 100.
+
+Induction Grind- Increase speed by 124%
+
+Bio Leech- 50% Chance on kill to heal you for your current HP to a maximum of 100.
+
+Static thrusters- Long jump.
+
+Thunder Drop- Ultimate, you are shot into the air, about as high as a 50% gravity jump, when you land enemies in ward range take 24 damage and are knocked back, this damage can jump up to 2 times, but decreases by 8 damage per jump. 

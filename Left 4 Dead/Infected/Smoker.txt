@@ -1,0 +1,10 @@
+L4DI: Smoker
+
+Knife Only
+
+Tongue- Targeted enemy is meathooked and stunned, Smoker and targeted enemy are stunned until one of them is shot. Targetted enemy takes 32 damage per second while stunned. (ability) 10 second C/D
+Mutated Endurance- Spawn with 250 HP
+Dark Corners- Spawn with 90% invisibility.
+Mutated Speed- Spawn with 120% speed.
+Panic- 25% chance when hit to respawn all Infected on your team to you.
+Smoke Cloud- 100% chance on death to spawn a smoke cloud that blinds enemies who walk into it for 5 seconds.

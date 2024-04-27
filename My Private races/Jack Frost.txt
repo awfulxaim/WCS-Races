@@ -1,0 +1,29 @@
+Jack Frost
+
+Frost bite- Freeze your enemies hands forcing them to drop their weapons
+
+3/6/9/12/15/18/21/24% Chance to force them to drop all of their weapons like Deprive from Observer.
+
+Frost Trap- Summon a small trap, when enemies step on the trap they are frozen and cannot move.
+
+Summon a Frost trap like Hunter's. 15 Second C/D, no max amount of traps. (ability)
+
+Frost Floor- Create a thin layer of Ice on the floor, hindering movement control.
+
+Enemies in a X/X+50/X+100/X+150/X+200/X+250/X+300/X+350 unit range have their friction reduced by 50%
+
+Frost Armor- Encase yourself in ice protecting you from damage.
+
+Reduce damage by 25 each shot you take lowers the reduced damage by 1 until it reaches 0.
+
+Frost Storm- Enemies are buffeted by a barrage of ice.
+
+Rupture, slows enemies hit by 25%. 30 Second C/D (ability2)
+
+Hypothermia- Enemies become more deeply effected by the cold.
+
+Enemies that are disarmed take extra damage equal to the amount of ammo in the clip minus 26/22/18/14/10/6/2/0,
+Frost Trapped enemies are stunned for 1/1/2/2/3/3/3/4 seconds longer,
+Friction from Frost Floor is reduced further to 45/40/35/30/25/20/15/10% friction,
+Frost Armor reduced 1/2/2/3/3/4/4/5 more damage and can return up to 1/2/3/4/5/6/7/8 damage when hit,
+Frost storm range is increased and slows by an additional 5/10/10/15/15/20/20/25%.

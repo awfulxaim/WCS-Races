@@ -1,0 +1,8 @@
+Mew
+
+Psychic- AoE, all enemies in "Maelstrom" range deal 30% less damage and take 10% more. (ability)
+Me First- for 4 seconds, 150% of damage dealt is returned to the attacker. (ability2)
+Nasty Plot- 36% chance on hit to deal 16 damage, each proc after the first adds one extra damage.
+Baton Pass- When any status ailments are cast on Mew, immediately gain 25 HP.
+AncientPower- 32% chance when hit, increase damage dealt by 10%, decrease damage taken by 10%, and get 135% speed (each of these for 4 seconds.)
+Barrier- Next 12 hits are evaded. (ultimate) 30 sec C/D

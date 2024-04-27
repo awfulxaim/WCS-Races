@@ -1,0 +1,10 @@
+L4DI: Boomer
+
+Spawns with 50 HP. Knife only.
+
+Vomit- Targeted enemy takes 10 damage, is blinded for 5 seconds, and is beaconed. If any friendly Infected are dead when this is activated they are spawned near the targeted enemy. (ability) 10 second C/D
+Bile- 100% mirror damage
+Panic- 25% chance when hit to respawn all Infected on your team to you.
+Dark Corners- Spawn with 80% invisibility
+Mutated Speed- Spawn with 120% Speed.
+Vile Explosion- 100% chance on death, all enemies in ward range: take 10 damage, are blinded for 5 seconds, are beaconed, and are knocked back. If any friendly Infected are dead when this is activated they are spawned near your corpse.

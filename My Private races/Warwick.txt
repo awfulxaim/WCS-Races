@@ -1,0 +1,15 @@
+WarWick The Blood Hunter
+
+Knife Race
+
+Eternal Thirst- 60/70/80/90/100% Chance that each of warwicks consecutive attacks on the same enemy heal him for 5 HP, this HP stacks and he begins to gain more HP per hit.
+
+Hungering Strike- 60/70/80/90/100% chance to strike an enemy for 20 Extra damage, then gain 100% of the combined damage back in HP. Has a 12 second Internal C/D
+
+Hunter's Call- Increase Warwicks speed by 50% and all teammates speed by 25% for 6/9/12/15/18 seconds. (ability) 32 second C/D
+
+Blood Scent- Warwick senses enemies under 50 HP within wisp/ward/twilight/nuke/bomb range. Upon sensing an enemy with 50 HP or below, The enemies are beaconed and warwick gains 20/25/30/35/40% speed.
+
+Bloodthirster- Gain 25% of damage dealt in HP, 25% of HP gained from this skill is dealt in damage to the enemy it was taken from.
+
+Infinite Duress- Stun targetted enemy for 2 seconds, Teleport to their back, deal 5/10/15/20/25 damage to them. (Ultimate) 100 second C/D

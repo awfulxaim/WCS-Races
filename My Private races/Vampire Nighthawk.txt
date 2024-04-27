@@ -1,0 +1,16 @@
+Vampire Nighthawk
+
+DeathTouch- 20% chance on death to kill all people that you dealt damage this life.
+
+Fly- Decrease gravity to 45%
+
+Lifelink- 35% chance on hit to gain 35% of the damage you dealt in HP
+
+Creeping Shadows- Magikarp's teleport, when activated become 100% invisible for 4 seconds.
+
+Nightwatch- Spawn with 170 HP
+
+Bloodchief's call- 100% chance on kill to gain a skull. When you have:
+1 or more skulls: You spawn with 10 extra HP but lose 1 skull on spawn
+2 or more skulls: You will respawn 5 seconds after death but lose 2 skulls.
+6 or more skulls: You spawn with 75% invisibility but lose 6 skulls.

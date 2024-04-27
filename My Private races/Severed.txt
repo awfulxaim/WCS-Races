@@ -1,0 +1,15 @@
+Severed
+
+Is not restricted to any weapons.
+
+Rifle Specialization- 72% Chance when maxed to spawn with an M4, AK47, or AWP. <- Randomly picks one of these.
+
+FeatherLite- Spawn with 1.24 Speed and 72% Gravity.
+
+Endurance- Spawn with 165 HP.
+
+Kneecapped- 24% Chance on hit to stun the enemy for 1 second then slow them for 4 seconds.
+
+Marksmanship- 32% Chance on hit to deal damage based on distance from the enemy to a max of 40 damage.
+
+Killer Instinct- Blink copied and pasted, directly from Chaos.

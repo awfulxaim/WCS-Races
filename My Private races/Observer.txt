@@ -1,0 +1,10 @@
+Observer
+
+Spawns with and is restricted to USP, has 50 HP.
+
+Light Distortion- 100% Invisibility not including pistol. Same as Beholder's.
+Relocate- Far Teleport. Same as Beholder's. (ability)
+Command Aura- Added damage, a little stronger than Beholder's.
+Anti-Reveal- 100% chance to spawn with Reveal immunity, if Observer is higher level than enemy casting Reveal.
+Parachute- 25% gravity.
+Produce- Give 8 extra bullets in clip. (ultimate) 15 second C/D

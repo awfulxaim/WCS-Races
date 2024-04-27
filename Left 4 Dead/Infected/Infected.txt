@@ -1,0 +1,10 @@
+L4DI: Infected
+
+Knife only. All Infected take 20 extra damage from grenades.
+
+Mutated Endurance- Regenerate 10 HP/sec to a max of 100.
+Mutated Speed- Gain with 145% speed when an enemy on the map is beaconed.
+Dark Corners- Spawn with 85% invisibility
+Distraction- Enemies who come within ward range of Infected are beaconed.
+Panic- 25% chance when hit to respawn all Infected on your team to you.
+Horde- Teammates in ward range are healed for 10 HP/sec to a max of 100.

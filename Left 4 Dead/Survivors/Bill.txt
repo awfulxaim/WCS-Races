@@ -1,0 +1,8 @@
+L4DS: Bill
+
+'Nam Veteran- Spawns with M4 and a frag grenade
+Flashback- 32% Chance when hit to evade and slow speed to 80% for 1 second.
+War against Humanity- When Bill's HP reaches 25 or below his health is set to 75.
+Revive a survivor- Respawn a teammate with 50 HP. (Ability) can only be used 4 times per round, whatever C/D that is.
+Combat skills- 48% chance on hit to deal 8 extra damage.
+First Aid Kit- Like lifebloom, heals 10 health per second for 5 seconds, then heals an additional 30 HP, to a max of 100 HP.

@@ -1,0 +1,9 @@
+Fly
+
+Knife only, spawns with 50% speed and 50 HP, begins flying 1 second into the round and cannot stop flying.
+
+Fly Speed- +200% Speed
+Disease- 100% chance on hit to deal 10dmg/sec until enemy dies.
+Fly Size- 100% Invisibility not including knife.
+Fly Evasion- 50% chance to evade.
+Fly Guts- 80% chance on death to lay an Illidan ward at corpse.

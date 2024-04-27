@@ -1,0 +1,10 @@
+Undead HumanOrc
+
+Cannot be blocked by teammates.
+
+Unholy aura- increase speed
+Vampiric Aura- leech life
+Bash- stun the opponent.
+Devotion Aura- grant extra HP.
+Critical grenades- grenades deal extra damage.
+Reincarnation- respawn with your old weapons.

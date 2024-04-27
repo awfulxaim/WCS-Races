@@ -1,0 +1,13 @@
+Rolo Lamperouge
+
+Born Assassin- 35% chance to evade
+
+Expert Marksman- Chest shots with the Desert Eagle have a chance to deal 50% more damage.
+
+Signature Knife- All knife attacks deal 50 Extra damage.
+
+Burst of Geass- The original Blink from Chaos, when activated lose 5 HP, 1 second C/D
+
+Absolute Devotion- Doubles Rolo's current HP, may only be used when he is below 50 HP, no initial CD, CD of 75 seconds
+
+Ward of Absolute Suspension- Chronosphere, Does not force Rolo to use his knife, when activated lose 15 HP, 10 Second C/D
