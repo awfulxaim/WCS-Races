@@ -1,4 +1,4 @@
-This is a list of races designed by me for use on WCS servers. If you choose to code and use a race please credit me as the designer somewhere. You can either link this github page, or just attach my name in the race info, or even just in your forum post or announcement for when the race is added to your server if you do that kind of thing. Just so long as you don't pretend you made it.
+This is a list of races designed or re-designed by me for use on WCS servers. If you choose to code and use a race please credit me as the designer somewhere. You can either link this github page, or just attach my name in the race info, or even just in your forum post or announcement for when the race is added to your server if you do that kind of thing. Just so long as you don't pretend you made it.
 
 Many but not all of these races are untested and have never been balanced. some of the balanced and tested races are in the WCSAZ race folder, others are spread throughout the rest of the races and are not labeled in any way to differentiate them, sorry.
 
