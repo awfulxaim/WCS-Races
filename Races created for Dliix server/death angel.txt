@@ -1,0 +1,18 @@
+Death Angel
+
+knife only
+
+A Quiet Place
+Spawn with 160/180/200/220/240/260/280/300HP but you are completely blinded.
+
+Armored Plates
+You take 50/60/65/70/75/80/85/90% less damage to the body and 65/70/75/80/85/90/95/100% less damage to the head but you are completely blinded.
+
+Super Evolution
+Spawn with 130/140/150/160/170/180/190/200% movement speed and long jump but you are completely blinded.
+
+Hybrid Claws
+You deal 90/95/100/105/110/115/120/125% extra damage.
+
+Hypersensitivity (ultimate)
+Unblind yourself but reduce your movement speed to 15/20/25/30/35/40/45/50%. While this is active you take 300% more damage to the head. Press ultimate again to toggle this back off. No cooldown. If an enemy playing Lee Abbott affects you with their High Frequency ability you are frozen and take 300% more damage from headshots regardless of if you have this active.

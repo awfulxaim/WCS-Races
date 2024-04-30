@@ -1,0 +1,10 @@
+Lee Abbott
+
+A Quiet Place
+while you are not making sound you are 100% invisible. When you make a sound you remain visible for 2/1.75/1.5/1.25/1/.75/.5/.25 seconds then fade into invisibility over another .5 seconds. If the sound you made is shooting an M4A1-S, MP5SD, USP-S, you fade into invisibility over .25 seconds instead.
+
+High Frequency (ability)
+Blind enemies in a 350 unit radius for 3/4/5/6/7/8/9/10 seconds. 30 second cooldown.
+
+Sacrifice (ultimate)
+Become visible for the rest of the round but your teammates become 100% invisible for 1/1/1/2/2/3/4/5 seconds. can only be used once per round.
