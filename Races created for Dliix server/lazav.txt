@@ -1,0 +1,27 @@
+Lazav Mastermind
+
+cannot buy negev, m249, bizon, or p90.
+
+Hexproof
+You have a 30/40/50/60/70/80/90/100% chance when you spawn to be immune to ultimates and abilities.
+
+Cloak of Illusion
+You spawn with the other team's player model. You have a 20/25/30/35/40/45/50/55% chance when you shoot to make no sound with that shot. when you spawn, you have a 30/35/40/45/50/55/60/65% chance to make no footstep noises when you move for that round.
+
+Memory Ward
+You have 4/8/12/16/20/24/28/32% chance to evade. When you evade, become invisible for 1 second.
+
+Scheme (ability)
+Change teams for 4/4/5/5/6/6/7/8 seconds or press ability again to switch back. 55/50/45/40/35/30/25/20 second cooldown. Cannot be activated when you are the last player alive on your team.
+
+Familiar Stranger
+3/6/9/12/15/18/21/25% on hit to deal 50% extra damage and heal for the amount of extra damage dealt. If this damage kills an enemy, double the damage this skill deals when it procs for the rest of the round.
+
+Multifarious (ability2) (1 level)
+When an enemy or teammate dies, a message in chat tells you their race. activating this ability changes your race to the race of the last player that died and grants you their passive (on spawn) skills immediately. you stay that race until the end of the round. When the round ends you are immediately swapped back to Lazav.
+
+Wearer of Faces
+3/6/9/12/15/18/21/25% chance on hit to gain $1000. if this procs on the hit that kills the enemy, you get all the shopmenu items that player had.
+
+Corpseshift
+You have a 30/40/50/60/70/80/90/100% chance when you kill an enemy to instantly teleport to the location they were at when you killed them, refill your ammo, and become invulnerable for 1.5 seconds.

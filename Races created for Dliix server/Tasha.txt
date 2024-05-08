@@ -1,0 +1,32 @@
+﻿Tasha the witch queen
+
+
+Witch’s weaponry
+Spawn with an M4A1-S and deagle 
+
+
+Hideous laughter
+2/4/6/8/10/12/14/15% chance on hit to prevent the enemy from moving or shooting for 3 seconds. They are still affected by gravity. They take 5 damage per second while they are laughing
+
+
+Otherworldly guise
+You are immune to extra damage and damage over time. You cannot be banished or rooted. Spawn with 5/10/15/20/25/30/35/40% increased movement speed and 15/20/25/30/35/40/45/50% reduced gravity. You spawn with 100 armor and helmet.
+
+
+Caustic Brew (ability)
+Lay six 50 radius wards in a line in front of you that last 1 minute. Any enemy that steps in a ward takes 2-8 damage per second for 3/4/5/6/7/9/8/10 seconds. 45 second cooldown. Each damage tick is rolled randomly.
+
+
+Mind whip
+1/2/4/5/6/8/9/10% chance on hit to remove all ammo from the enemy’s magazine.
+
+
+Demonomicon of Iggwilv (ultimate)
+When you activate this, choose an effect to turn on.
+Dolor: 1/1/1/2/2/3/4/5% chance on hit to move the enemy to your team for one round.
+Ensnarement: When you die, respawn yourself and 1/1/1/1/2/2/2/3 teammates at spawn. Once per round.
+Exaction: the first teammate that dies after you choose the effect is respawned near you. You and they share experience for kills this round.
+Implore: 1/2/3/4/5/6/7/8% chance on hit to instantly teleport the enemy back to their spawn.
+Imbrue: The next time you kill an enemy you gain 100 HP and you deal 5 extra damage on hit for the rest of the round. Procs once per round.
+Minimus Containment: 1/1/1/2/2/3/4/5% chance on hit to freeze an enemy for 10 seconds but they take no damage for that duration.
+Torment: 60/65/70/75/80/85/90/95/100% chance when hit to deal 100% mirror damage.
