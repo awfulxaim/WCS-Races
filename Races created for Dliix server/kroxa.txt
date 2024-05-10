@@ -1,0 +1,19 @@
+Kroxa, Titan of Death's Hunger
+
+Vigilance
+You spawn with 100/115/130/145/160/175/190/200 armor and helmet and 25/30/35/40/45/50/55/60 extra HP.
+
+Menace
+Your hits remove all armor from the enemy and you deal 15/20/25/30/35/40/45/50% of the damage you dealt to all enemies in a 200 unit radius of that enemy.
+
+Lifelink
+30/40/50/60/70/80/90/100% chance on hit to heal for 30/40/50/60/70/80/90/100% of the damage dealt to a max of 100.
+
+Kunoros
+Every time a player on your team (including you) dies you gain a Kunoros charge. when you reach 12/11/10/9/8/7/6/5 charges you lose all charges and respawn a random player on your team. these charges last for the entire map.
+
+Never-ending Hunger
+If you have respawned because of Kunoros this round, you have a 30/40/50/60/70/80/90/100% chance on hit to disarm the enemy. if the enemy only has a knife when you hit them they take 30 extra damage instead.
+
+Eat to Extinction
+30/40/50/60/70/80/90/100% chance on kill, that enemy cannot respawn this round and you gain 1 Kunoros charge.
