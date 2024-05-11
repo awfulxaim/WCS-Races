@@ -1,0 +1,16 @@
+blood mage
+
+Phoenix
+You have a 15/30/45/60/75/90% chance to respawn the first player on your team who dies.
+
+Banish
+You have a 30% chance when you hit an enemy to cause their FOV to change for 1/1.4/1.8/2.2/2.6/3 seconds.
+
+Siphon Mana
+You have a 30% chance when you hit an enemy to steal $20/50/80/110/140/170 from them.
+
+Flame Strike
+You have a 10/15/20/25/30/40% chance when you hit an enemy to set them on fire, dealing 5 damage every half second for 1/1.5/2/2.5/3/3.5 seconds. (in the original code there is a typo causing the final skill point to set the chance to 30% instead of 40% as the skill description lists.)
+
+Curing Ritual (ultimate)
+Lose $100 and gain 15/17/19/21/23/25 HP. 15 second cooldown.
