@@ -1,0 +1,18 @@
+NSC-CCP-01 Jester
+
+Dualies only
+
+Mechanical Prestidigitism
+2/4/6/8/10/12/14/16% chance on hit to add 7 ammo in the magazine.
+
+Mechanical Acrobatism
+Longjump. less height, much more distance.
+
+Bio-Enhanced Musculature System
+Spawn with 8/16/24/32/40/48/56/65% increased movement speed.
+
+NSC Bootboost MK.I
+Spawn with 7/14/21/28/35/42/49/55% reduced gravity.
+
+N.Mako Core Upgrade
+Spawn with 5/10/15/20/25/30/35/40 to 7/15/22/30/37/45/52/60 extra HP
