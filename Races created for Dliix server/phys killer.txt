@@ -1,0 +1,27 @@
+Phys Killer
+
+knife only. A bar at the bottom of your screen shows a number 0-1000 "energy". it starts at 1000 and decreases by an amount when you use Boost, Fling, or Throw. you gain 20 energy every .1 seconds.
+
+Poltergeist
+Spawn with 30/40/50/60/70/80/90/100% invisibility but your knife is visible.
+
+Velocity
+Spawn with 15/20/25/30/35/40/45/50% increased movement speed
+
+Crush
+You take no fall damage. when you land on an enemy they take damage equal to 10% of your energy + 1/1/1/2/2/3/4/5% of your speed.
+
+Boost (ability)
+Get pushed where you aim with a force of 500/600/700/800/900/1000/1100/1200. no cooldown, instead it costs 360/340/320/300/280/260/240/220 energy.
+
+Summon (ability2)
+create a physics enabled object 75 units in front of you. there is a 10/20/30/40/50/60/70/75% chance that object is a barrel. if it is not a barrel, it is a breakable wooden pallet. 15/14/13/12/11/10/9/8 second cooldown.
+
+Fling (ability3)
+Push all physics enabled objects within a 200 unit radius away from you with a force equal to 10/12/14/16/18/20/25x your current speed. costs 850/800/750/700/650/600/550/500 emergy
+
+Throw
+When you hit a physics enabled object with your knife it is pushed in the direction you are aiming with a force equal to 10/12/14/16/18/20/25x your current speed. this costs 250 energy to proc.
+
+Phys-X (ultimate)
+enemies hit by your physics enabled objects take damage equal to 15/20/25/30/35/40/45/50% of its speed. Killing an enemy with this damage plays the "humiliation" sound and gives you 500 banked exp.
