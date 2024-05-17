@@ -1,0 +1,15 @@
+beholder
+
+P250 only, no knife.
+
+Light Distortion
+75/80/85/90/95/100% invis not including your gun.
+
+Relocate
+weaker teleport from human.
+
+Command Aura
+You have a 30/40/50/60/70/80% chance on hit to deal 5 extra damage on leg and arm shots, 10 extra damage on chest and stomach shots, and 15 extra damage on head shots. There is no animation or vfx for this skill.
+
+Reveal All (ultimate)
+All enemies have their visibility set to 50/60/70/80/90/100%. 24 second cooldown.
