@@ -1,0 +1,24 @@
+NSC-MCU-01 Harlute
+
+knife only
+
+N.Mako Powered Stabilizators
+spawn with 30/35/40/45/50/55/60/65% increased movement speed.
+
+Force Shield
+15/18/21/24/27/30/33/36% chance to evade.
+
+Gravitational Modulator (ability)
+Pressing this toggles through these options: Set the enemy team to 45% gravity. Set the enemy team to normal gravity. Set the enemy team to 165% gravity.
+
+Gravity Distortion
+30/35/40/45/50/55/60/65% chance on hit to impale the enemy, knocking them into the air.
+
+NSC-D.Matter Hoverboots
+Spawn with 30/35/40/45/50/55/60/65% reduced gravity.
+
+Force Pulsar
+2/4/6/8/10/12/14/16% chance on hit to deal 100% extra damage.
+
+Zero Gravity (ultimate)
+impale all enemies in a 150/180/210/240/270/300/330/350 unit radius knocking them into the air, then stunning them at the highest point for 10 seconds. the height enemies are knocked into the air is based on what you have their gravity set with gravitational modulator. at 165% gravity the enemies are not knocked up and just stunned. at normal gravity they are knocked intot the air just above head height. at 45% gravity they are knocked up in to the air high enough that a low grav jump is required to hit them with the knife. 45 second cooldown.

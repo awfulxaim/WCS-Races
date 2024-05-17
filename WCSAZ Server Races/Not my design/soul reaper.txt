@@ -1,0 +1,24 @@
+soul reaper
+
+Death Scythe
+5/10/15/20/25% chance on hit to deal 5 extra damage
+
+Spirit Harvest
+You have a 60/70/80/90/100% chance on kill to gain a soul. If that enemy has killed someone this round you gain one additional soul.
+
+Soul Channel
+When you spawn gain 2/4/6/8/10 HP for each soul you have.
+
+Rebirth
+When you die, if you have at least 8/7/6/5/4 souls, lose that many souls and respawn at your spawn with the weapons and equipment you died with.
+
+Phantom Soul
+You spawn with .01/.02/.03/.04/.05 increased movement speed for each soul you have to a max of 1.75 and you spawn with 1/2/3/4/5% increased invisibility for each soul you have to a max of 75%.
+
+Soul Eater (ultimate)
+trade 8/7/6/5/4 souls to gain each of these benefits for 10 seconds:
+double the chance of death scythe to proc and it deals 10 extra damage instead.
+increase your movement speed and invisibility by 10%.
+reduce your gravity by 25%.
+increase your HP by 2/4/6/8/10 for each soul you have.
+long jump.
