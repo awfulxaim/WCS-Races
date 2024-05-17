@@ -1,0 +1,19 @@
+Gengar
+
+Lick
+4/8/12/16/20/24/28/32% chance on hit to blid the enemy with a 75% opacity blue screen.
+
+Hypnosis
+3/4/5/6/7/8/9/10% chance on hit to put the enemy to sleep for 3 seconds. preventing them from moving, turning, shooting or taking damage.
+
+Confuse Ray
+3/6/9/12/15/18/21/24% chance on hit to banish the target for 2.5s.
+
+Night Shade
+3/5/8/10/13/15/17/20% chance on hit to deal extra damage to the enemy equal to Gengar's level.
+
+Levitate
+Spawn with 5/10/15/20/25/30/35/40% reduced gravity.
+
+Dream Eater (ultimate)
+Deal 10/12/14/16/18/20/22/25 damage to all sleeping enemies. You heal for 50% of the total damage dealt. 28/26/24/22/20/18/16/14 second cooldown.
