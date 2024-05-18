@@ -1,0 +1,19 @@
+Al'Akir
+
+Chain Lightning
+5/10/15/20/25/30/35/40% chance on hit to deal 32 damage to all enemies in a 200/300/350/400/450/500/550/600 unit radius of the enemy you shot but not the enemy you hit.
+
+Thunderstorm
+3/6/9/12/15/18/21/24% chance on hit to deal 75% extra damage.
+
+Curse of the Sky
+Spawn with 6/12/18/24/30/36/42/48% increased movement speed.
+
+Windfury
+Spawn with 5/15/25/35/45/55/65/75% reduced gravity.
+
+Spirit of the Wind
+Spawn with 10/20/30/40/50/60/70/80 more HP.
+
+Winged Harbinger (ultimate)
+Begin flying. there is no limit to how long you can fly. while flying you heal for 0/2/4/6/8/10/12/14 HP per second to a max of 180 HP. press ultimate again to stop flying.

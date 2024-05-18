@@ -1,0 +1,21 @@
+Ragnaros
+
+pistols only
+
+Eruption
+6/8/10/12/14/16/18/20% chance on hit to impale the enemy and deal 5, 10, or 15 extra damage, rolled randomly.
+
+Melt Weapon
+3/4/5/6/7/8/9/10% chance on hit to delete the weapon in the enemy's hands.
+
+Elemental Fire
+spawn with 140/180/220/260/300/340/380/400 HP.
+
+Flame Cyclone
+6/8/10/12/14/16/18/20% chance on hit burn the enemy for 4 seconds (5dmg/0.5s) and slow them by 5/10/15/20/25/30/35/40%
+
+Pyrogenics
+5/10/15/20/25/30/35/40% chance when hit to deal 20% mirror damage.
+
+Wrath of Ragnaros
+When you die respawn at the location you died at with the weapons and equipment you had and 30/40/50/60/70/80/90/100 bonus HP.

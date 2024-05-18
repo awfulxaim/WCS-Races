@@ -1,0 +1,21 @@
+Therazane
+
+glock only
+
+Impale
+4/8/12/16/20/24/28/32% chance on hit to impale the enemy and deal 60% extra damage.
+
+Fists of Stone
+5/10/15/20/25/30/35/40% chance on hit to gain 5/10/15/20/25/30/35/40 HP. If you are in burst mode, if one shot procs, they all proc.
+
+Curse of the Earth
+6/8/10/12/14/16/18/20% chance on hit to slow the enemy by 44/46/48/50/54/56/58/60%.
+
+Thick Skin
+Spawn with 140/180/220/260/300/340/380/400 HP.
+
+Ground Tremor
+3/6/9/12/15/18/21/24% chance on hit to shake the enemy for 1/1/1/2/2/2/3/4 seconds.
+
+Seismic Wave
+100% chance when hit to increase your movement speed by .3/.35/.4/.45/.5/.55/.6/.65 for 4 seconds. 100% chance when hit to increase your movement speed by .01 for the rest of the round.
