@@ -1,0 +1,21 @@
+NSC-CCP-03 Predator
+
+AUG only
+
+6S T&P Ammunition
+100% chance on hit to deal 6/8/10/12/14/16/18/20% more damage. This damage does not count as extra damage for the purpose of extra damage blocking skills. There is no animation for this and no notification in chat.
+
+N.Mako Powered Cloaked Armor
+Spawn with 10/20/30/40/50/60/70/80% reduced visibility.
+
+E.V.A.R.S. Accuracy Add-on
+10/20/30/40/50/60/70/80% chance on hit to deal 15% extra damage. This can only proc on marked enemies. This adds 15% extra damage after the 20% more from the first skill is calculated.
+
+MT502 Device Autodestruction (ability)
+2/5/7/10/12/15/17/20% chance on hit remove the mark from an enemy and deal 25 damage to that enemy. Can only proc on marked enemies. If you activate the ability, remove the mark from all enemies and deal 50 damage to each of them. 35 second cooldown.
+
+NSC-P Bootboost MK. II
+Spawn with 4/8/12/16/20/24/28/30% increased movement speed, 4/8/12/16/20/24/28/30% reduced gravity, and long jump.
+
+S.A.R.T.E.S. Stalking Device (ultimate)
+1/1/1/2/2/3/4/5% chance on hit to mark and beacon the enemy. When you activate this manually, you mark and beacon the enemy you are aiming at. enemies will stay beaconed and marked for 10/11/12/13/14/15/17/20 seconds. 10 second cooldown. beacon means to give them a large white and red pulsing circle (pulses white then red every .25 seconds) around them that makes a very loud beeping noise you can hear across the map every second.
