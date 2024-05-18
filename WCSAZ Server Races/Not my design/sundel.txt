@@ -1,0 +1,29 @@
+NSC-MCU-03 Sundel
+
+MP9 Only
+
+N.Mako-Enhanced Nanobot System
+When you spawn, begin healing for 2/2/2/3/3/3/4/5 HP per second to no max.
+
+Rippling Convulsion
+Your movement speed is randomly set to one of the speeds below every 3-6 seconds, rolled randomly.
+Level 1: 1.0, 0.85
+Level 2: 1.15, 1.0, 0.85
+Level 3: 1.25, 1.15, 1.0, 0.85
+level 4: 1.35, 1.25, 1.15, 1.0, 0.85
+level 5: 1.45, 1.35, 1.25, 1.15, 1.0, 0.85
+level 6: 1.55, 1.45, 1.35, 1.25, 1.15, 1.0, 0.85
+level 7: 1.65, 1.55, 1.45, 1.35, 1.25, 1.15, 1.0, 0.85
+level 8: 1.65, 1.55, 1.45, 1.35, 1.25, 1.15, 1.0
+
+Spectral Ray
+4/8/12/16/20/24/28/30% chance on hit to deal 60% extra damage and blind the enemy with a yellowish white screen for 1.5 seconds.
+
+Phase Shift (ability)
+Instantly teleport to the location you are aiming at, 450/500/550/600/650/700/750/800 unit max range. 12/12/12/11/11/10/9/8 second cooldown.
+
+NSC-D.Matter Hoverboots
+Spawn with 15/20/25/30/35/40/45/50% reduced gravity.
+
+Ethereal Flare (ultimate)
+Heal yourself and teammates for 4/9/13/18/22/27/31/35 HP, healed players are 15% opacity blinded with a yellow screen for 1 second. 20 second cooldown.
