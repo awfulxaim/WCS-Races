@@ -1,0 +1,19 @@
+Neptulon
+
+Frost Storm
+20% chance on hit to slow the enemy and all enemies in a 200/300/350/400/450/500/550/600 unit radius of that enemy by 20/30/35/40/45/50/55/60% for 6 seconds.
+
+Chilling Touch
+3/6/9/12/15/28/25% chance on hit to slow the enemy by 5/10/15/20/25/30/35/40% for 4 seconds. this stacks with Frost Storm, reducing their movement speed to 0.
+
+Ice Block
+5/10/15/20/25/30/35/40% chance when hit to evade. when you evade you cannot move or shoot for 1 second. you are still effected by gravity while you cannot move or shoot.
+
+Tidal Wave
+Spawn with 4/8/12/16/20/24/28/32% increased movement speed.
+
+Water Shield
+Spawn with 30/40/50/60/70/80/90/100 more HP.
+
+Vortex
+20/30/40/50/60/70/80/90% chance when you die to lay a 150 unit radius ward blue ward. If an enemy steps in the radius the ward is destroyed and a black hole is spawned in that location. the black hole is a 400 unit radius ward that pulls all enemies on the map toward it with double the force of a void grenade every second for 8 seconds. enemies who enter the radius of the black hole are instakilled.
