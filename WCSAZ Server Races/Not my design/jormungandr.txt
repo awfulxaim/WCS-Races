@@ -1,0 +1,21 @@
+jormungandr
+
+knife only
+
+Devour Flesh
+Gain 5/10/15/20/25/30/35/40 HP when you kill an enemy.
+
+Constrict
+3/6/9/12/15/18/21/25% chance on hit to bash the enemy for 2 seconds.
+
+Terrestrial Dominion
+The height that the player can walk up is increased to 50/100/150/200/250/300/400 units.
+
+Lunge (ability)
+like human teleport but greatly increased force. can only be activated while you are on the ground. 13/12/11/10/9/8/7/6 second cooldown.
+
+Cloak of Shadows
+You spawn with 55/60/65/70/75/80/85/90% invisibility.
+
+Nightfall (ultimate)
+The enemy team is blinded with an 85% opacity black screen overlayed for 10/10/10/12/12/13/14/15 seconds. 45 second cooldown.
