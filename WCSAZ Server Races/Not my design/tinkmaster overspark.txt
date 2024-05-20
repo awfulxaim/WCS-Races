@@ -1,0 +1,27 @@
+Tinkmaster Overspark
+
+Nigh-Invulnerability Belt (ability)
+All damage you take is reduced by 91/92/93/94/95/96/97/98% for 3 seconds. If the damage you would take after the reduction is less than 2 you take no damage instead. 21/20/19/18/17/16/15/14 second cooldown.
+
+Gnomish Death Ray
+1/1/1/2/2/3/4/5% chance on hit to deal 750 to 1000% extra damage rolled randomly. If this kills the enemy they get vaporised like from the energy ball in hl2 or portal.
+
+Gnomish Net-o-Matic Projector
+3/4/5/6/7/8/9/10% chance on hit to bash the enemy for 3 seconds. if the enemy makes a knife attack while stunned, the stun wears off immediately.
+
+Alarm-o-Bot (ability2)
+Lay a 50 unit ward that detects enemies in a 200 unit radius. that ward deals 10 damage per second to any enemy that enters its area. a line is drawn from the center of the ward to the enemy when they take damage that lasts 1 second. the ward lasts 20 seconds. you can lay 1/1/1/1/2/2/2/3 wards at a time. 12 second cooldown.
+
+Gnomish Weapon Dispenser
+When you spawn drop one of each:
+level 1: pistol
+level 2: shotgun and pistol and zeus
+level 3: smg, shotgun, and pistol and zeus
+level 4: mid-tier, smg, shotgun, pistol and zeus
+level 5: famas and galil and scout, mid-tier, smg, shotgun, pistol and zeus
+level 6: M4A1-S, M4A4, AK47, Famas, galil, scout, mid-tier, smg, shotgun, pistol and zeus
+level 7: All weapons except AWP and autosnipers
+level 8: All weapons
+
+Gnomish Engineering (ultimate)
+Spawn a large metal wall where you aim. The wall has 250HP and can be destroyed if it takes that much damage. 25/23/21/19/17/15/13/11 second cooldown.

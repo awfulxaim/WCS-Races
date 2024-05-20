@@ -1,0 +1,21 @@
+Maiev Shadowsong
+
+knife only
+
+Shadow Strike
+5/10/15/20/25/30/35/40% chance on hit to deal 65% extra damage.
+
+Vanish (ability)
+become 100% invis until you are shot or you attack. 30/28/26/24/22/20/18/16 second cooldown.
+
+Cheap Shot
+3/6/9/12/15/18/21/25% chance on hit to bash the enemy for 2 seconds.
+
+Cloak of Shadows
+You spawn with 5/15/25/35/45/55/65/75% invisibility.
+
+Master of Subtlety
+You spawn with 20/25/30/35/40/45/50/55% increeased movement speed.
+
+Cheat Death
+3/6/9/12/15/18/21/25% chance when you would take lethal damage, evade that damage and become invulnerable for 1.5 seconds.

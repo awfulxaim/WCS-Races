@@ -1,0 +1,21 @@
+Sylvanas Windrunner II
+
+scout and knife only.
+
+Black Arrow
+4/8/12/16/20/24/28/32% chance on hit to deal 60% extra damage. If this kill the enemy they respawn on your team for the round.
+
+Fade
+spawn with 35/40/45/50/55/60/65/70% invisibility.
+
+Marksmanship
+100% chance on hit, if the enemy is below 15/20/25/30/35/40/45/50 extra damage. this can extra damage pierces invulnerability.
+
+Song of Sylvanas (ability)
+Increase your speed by .4/.45/.5/.55/.6/.65/.7/.75 and become 100% invis for 3 seconds, for that duration you can only use the knife. 8 second cooldown.
+
+Ghostly Strike
+85% chance on hit with the knife to deal 50/55/60/65/70/75/80/85% extra damage.
+
+Shriek of the Highborne (ultimate)
+Slow the enemy team by .05/.10/.15/.20/.25/.30/.35/.40 for 10 seconds. 25 second cooldown.
