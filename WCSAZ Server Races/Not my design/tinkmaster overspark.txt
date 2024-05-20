@@ -17,10 +17,10 @@ When you spawn drop one of each:
 level 1: pistol
 level 2: shotgun and pistol and zeus
 level 3: smg, shotgun, and pistol and zeus
-level 4: mid-tier, smg, shotgun, pistol and zeus
-level 5: famas and galil and scout, mid-tier, smg, shotgun, pistol and zeus
-level 6: M4A1-S, M4A4, AK47, Famas, galil, scout, mid-tier, smg, shotgun, pistol and zeus
-level 7: All weapons except AWP and autosnipers
+level 4: famas and galil and scout, smg, shotgun, pistol and zeus
+level 5: Negev, M249, famas, galil, scout, smg, shotgun, pistol and zeus
+level 6: All weapons except AWP and autosnipers
+level 7: All weapons except autosnipers
 level 8: All weapons
 
 Gnomish Engineering (ultimate)
