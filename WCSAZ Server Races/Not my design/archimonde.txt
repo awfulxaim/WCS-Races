@@ -1,0 +1,19 @@
+Archimonde
+
+Airburst
+6/8/10/12/14/16/18/20% chance on hit to impale the enemy really high into the air. enough that they take 5-10 fall damage when they land.
+
+Soul Charge
+You spawn with 5/10/15/20/25/30/35/40% increased movement speed.
+
+Grip of the Legion
+3/6/9/12/15/18/21/24% chance on hit to slow the enemy by 25/30/35/40/45/50/55/60% for 4 seconds. after the 4 seconds the enemy gets their movement speed back 5% at a time every second.
+
+Fear (ability)
+All enemies on the map are pushed away from you hard once every second for 6 seconds. 31/30/29/28/27/26/25/24 second cooldown.
+
+Finger of Death
+1% chance on hit to deal 25/50/75/100/125/150/175/200 extra damage.
+
+Doomfire (ultimate)
+for the next 6 seconds, any enemy that comes within 400 units of you takes 4/8/12/16/20/24/28/30 damage per second.

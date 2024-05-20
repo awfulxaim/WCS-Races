@@ -1,0 +1,22 @@
+Alleria Windrunner
+
+Searing Arrows
+5/10/15/20/25/30/35/40% chance on hit to set the enemy on fire for 3.5 seconds 5dmg/0.5seconds
+
+Aimed Shot
+30% chance on hit to deal 25/30/35/40/45/50/55/60% more damage.
+
+Windrunner
+Spawn with 4/8/12/16/20/24/28/32% more movement speed, 25/30/35/40/45/50/55/60 more HP, and longjump.
+
+Concussive Shot
+2/4/6/8/10/12/14/16% chance on hit to bash the enemy for .75 seconds.
+
+Piercing Wind
+3/6/9/12/15/18/21/24% chance on hit to deal 5/10/15/20/25/30/35/40% more damage.
+
+Kill Shot
+1/2/3/4/5/6/7/8% chance on hit to deal 240% more damage.
+
+Favor of the Wind Goddess (ultimate)
+Gain .25/.3/.35/.4/.45/.5/.55/.6 increased movement speed and 100% invisibility, but become knife only for 3 seconds. 8 second cooldown.
