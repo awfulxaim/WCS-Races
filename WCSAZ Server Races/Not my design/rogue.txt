@@ -1,0 +1,32 @@
+    65. Rogue ( 1000 ) K
+    Stealth, Camouflage, Hemorrhage, Kidney Shot, Backstab, Sprint, Lightning Reflexes, Shadowstep
+    100% invis until you attack or get hit, disguise as enemy team, +bleed, +stun, 600 damage on 
+    backstab, 175% speed for 2 seconds, evasion, instant teleport to enemy player.
+	
+Rogue
+
+knife only
+
+Stealth (ability)
+you spawn with 100% invisibility until you are shot or you attack. activating this ability re-applies this. 23/22/21/20/19/18/17/16 second cooldown.
+
+Camouflage
+30/40/50/60/70/80/90/100% chance to spawn with the enemy team's player model.
+
+Hemorrhage
+5/10/15/20/25/30/35/40% chance on hit to bleed the enemy for 6 seconds. enemies that are bleeding take 5 damage per second for the duration and are slowed by 60% of whatever their movement speed is for 1.5 seconds every time they take damage. (example: if their movement speed is 1.2 they would be slowed to .72 every time they take damage) there is a bleeding animation and a hurt sound each time a bleeding enemy takes damage.
+
+Kidney Shot
+4/8/12/16/20/24/28/32% chance on hit to bash the enemy for 2 seconds.
+
+Backstab
+30/40/50/60/70/80/90/100% chance when you stab an enemy in the back to deal 600 extra damage to them.
+
+Sprint (ability2)
+gain .1/.2/.3/.4/.5/.6/.7/.75% increased movement speed for 2 seconds. 10 second cooldown.
+
+Lightning Reflexes
+4/8/12/16/20/24/28/33% chance to evade. when you evade you do not lose stealth.
+
+Shadowstep (ultimate)
+Instantly teleport behind the player (enemy or teammate) you are aiming at. 25/24/24/23/22/21/19/18 second cooldown. Killing an enemy you have Shadowstepped to resets this cooldown.

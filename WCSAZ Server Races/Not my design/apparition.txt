@@ -1,0 +1,25 @@
+Apparition
+
+Phantasm
+50/60/70/80/90/100% chance to spawn with the enemy team's player model.
+
+Lunar Shade
+Spawn with 10/20/30/40/50/60% increased invisibility.
+
+Acceleration
+Spawn with 5/10/15/20/25/30% increased movement speed.
+
+Infiltrate
+40/55/70/80/90/100% chance on spawn to mole. a menu asks if you would like to mole or not.
+
+Avoidance Aura
+15/20/25/30/35/40% chance to evade.
+
+Time Paradox
+5/10/15/20/25/30% chance when you evade to instantly teleport back to spawn.
+
+Amaurosis
+5/10/15/20/25/30% chance on hit to deal 5 extra damage and blind the enemy with an 80% opacity dark blue screen for 5 seconds. While they are blind they are slowed by 15/20/25/30/35/40%.
+
+Warp (ultimate)
+Human Teleport.

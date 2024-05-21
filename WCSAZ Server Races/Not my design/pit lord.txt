@@ -1,0 +1,19 @@
+Pit Lord
+
+Firestorm
+3/6/9/12/15/18/24% chance on hit to burn the enemy and all enemies in a 200 unit radius of that enemy for 3.5 seconds. 5dmg/0.5s
+
+Pit of Malice
+3/6/9/12/15/18/24% chance on hit to deal 25% extra damage to that enemy and all enemies in a 200 unit radius of that enemy.
+
+Expulsion
+10% chance on hit to deal 15/20/25/30/35/40/45/50% of the enemies current HP in damage.
+
+Conflagrant Vigor
+spawn with 4/8/12/16/20/24/28/32% increased movement speed.
+
+Banish
+4/8/12/16/20/24/28/30% chance on hit to banish the enemy for 1/1.4/1.8/2.2/2.4/2.6/2.8/3 seconds.
+
+Dark Rift (ultimate)
+Lay a 200 unit radius ward that deals 10 damage per second and lasts 10 seconds. no cooldown. you can lay up to 2 wards per round.

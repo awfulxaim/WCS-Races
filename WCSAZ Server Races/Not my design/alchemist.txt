@@ -1,0 +1,21 @@
+Alchemist
+
+HE and knife only
+
+Rig Explosives
+100% chance to deal 500/550/600/650/700/750/800/850% extra damage with grenades
+
+Pitch Potion
+3/6/9/12/15/18/21/25% chance on hit to burn the enemy for 3 seconds. 5dmg/0.5s
+
+Chemical Rage
+Spawn with 25/30/35/40/45/50/55/60% increased movement speed.
+
+Create Explosives (ability)
+Lose $450/400/350/300/250/200/150/100, give yourself an HE grenade. if you have an HE grenade already, drop one on the ground instead. 4 second cooldown.
+
+Acid Spray
+3/6/9/12/15/18/21/25% chance on hit to poison the enemy for 3 seconds. 5dmg/sec
+
+Aviate (ultimate)
+begin flying, you can fly indefinitely, pressing ultimate again cancels flying. 8 second cooldown. 1 level.
