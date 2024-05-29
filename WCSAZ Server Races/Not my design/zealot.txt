@@ -1,0 +1,15 @@
+Zealot
+
+knife only
+
+Psionic Blade
+100% chance on hit to deal 5/10/15/20/25 extra damage.
+
+Plasma Shield
+30/35/40/45/50% chance to evade.
+
+Leg Enhancement
+Spawn with .3/.35/.4/.45/.5 increased movement speed.
+
+Rush (ultimate)
+Gain .3/.35/.4/.45/.5 increased movement speed for 4 seconds. 10 second cooldown.

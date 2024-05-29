@@ -1,0 +1,16 @@
+Diablos
+
+Gravija
+12/16/20/24/28/32% chance on hit to deal 75% extra damage.
+
+Poison
+2/4/6/8/10/12% chance on hit to poison the enemy for 5 seconds. they take 5 damage per second for that duration.
+
+Darkside
+8/16/24/32/40/48% chance on hit to blind the enemy with a 50% opacity black screen for 5 seconds.
+
+Osmose
+You spawn with 15/20/25/30/35/40 more HP and 4/8/12/16/20/24% increased movement speed.
+
+Dark Messenger
+50/60/70/80/90/100% chance when you die to create a black hole at the location you died at 2 seconds after you die. the black hole is an 800 unit radius thick black outlined ward with a white circle at the center of it that can be seen through walls. the black outlines are slowly rotating. The ward constantly pulls all enemies on the map towards it with a force that only allows the fastest races to not lose ground to it or a teleportation skill to escape it. if the black holes is off the ground enemies can be pulled off the ground up into it. the black hole makes a whooshing noise the entire time it is active. if any player, teammate or enemy steps into the ward area they are instantly killed. the black hole lasts 6 seconds.
