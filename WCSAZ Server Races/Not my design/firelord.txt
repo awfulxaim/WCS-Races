@@ -1,0 +1,13 @@
+Firelord
+
+Soul Born
+3/6/9/12/15/18/21/24% chance on hit to burn the enemy for 4 seconds. 5dmg/0.5sec
+
+Summon Lava Spawn (ability)
+Lay a 200 radius ward that lasts 10 seconds. enemies who step into the ward are burned for 2 seconds. 20 second cooldown.
+
+Incinerate
+2/4/6/8/10/12/14/16% chance on hit to burn the enemy for 6 seconds. 5 dmg/0.5sec
+
+Volcano (ultimate)
+Burn all enemies in a 250/300/350/400/450/500/550/600 unit radius for 5 seconds. 25 second cooldown.

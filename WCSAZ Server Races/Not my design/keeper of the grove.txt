@@ -1,0 +1,13 @@
+Keeper of the Grove
+
+Entangling Roots (ability)
+Root all enemies within 100/200/300/400/500/600 units for 2/2/3/4/5/6 seconds. 30 second cooldown.
+
+Force of Nature
+Add 10 ammo to your current mag. 10/9/8/7/6/5 second cooldown.
+
+Thorns Aura
+You have a 25/30/35/40/45/50% chance to deal 15/17/20/25/25/35% of the damage you take back to the enemy who hit you.
+
+Tranquility
+40/50/60/70/80/90% chance to spawn with ultimate immunity.

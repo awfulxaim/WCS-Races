@@ -1,0 +1,21 @@
+Drow Ranger
+
+scout and knife only
+
+Frost Arrows
+100% chance on hit to slow the enemy by 10/20/30/40/50/60% for 6 seconds.
+
+Trueshot Aura
+30% chance on hit to deal 10/20/30/40/50/60% extra damage.
+
+Meld
+spawn with 10/20/30/40/50/60% invisibility.
+
+Marksmanship
+50/60/70/80/90/100% chance on hit to deal 50 extra damage to enemies that have 50 or less HP. This damage cannot be evaded.
+
+Searing Arrows
+15/20/25/30/35/40% chance on hit to burn the enemy for 4 seconds. 5dmg/0.5sec
+
+Wind Walk (ultimate)
+become 100% invis and gain .15/.2/.25/.3/.35/.4 movement speed for 4 seconds but become knife only for the duration. 15 second cooldown.
