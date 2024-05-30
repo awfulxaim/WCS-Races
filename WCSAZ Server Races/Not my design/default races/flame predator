@@ -1,0 +1,19 @@
+Flame Predator
+
+Berserk
+spawn with 45/50/55/60% increased movement speed, 25/30/35/40 more HP.
+
+Cloak of Invisibility
+Spawn with 40/50/60/70% invisibility. (the original description says 69-81% but the code does not agree.)
+
+Levitation
+Spawn with your gravity set to 70/60/50/40%.
+
+Claw Attack
+30/33/36/40% chance on hit to make the enemy drop their weapon
+
+Burning Blade
+20/25/30/35% chance on hit to burn the enemy for 2/2.5/3/3.5 seconds. 5 damage per 0.5 seconds.
+
+Burning Inferno
+20/27/33/40% chance when you die to deal 110/120/120/130 damage to all enemies in a 170/180/190/200 unit radius. (the original description for this is 20-40% chance to do 100-180 damage in a 170-200 unit radius)
