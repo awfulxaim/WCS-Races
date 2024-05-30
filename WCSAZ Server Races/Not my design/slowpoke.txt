@@ -1,0 +1,16 @@
+Slowpoke
+
+Slow Reaction
+You don't take damage until 3/4/5/6/7/8 seconds after you are hit. this includes extra damage.
+
+Confusion
+You have a 30% chance when you hit an enemy to banish them for 1/1.4/1.8/2.2/2.6/3 seconds.
+
+Amnesia
+You have a 30% chance to deal 10/20/30/40/50/60% more damage to an enemy when you hit them.
+
+Disable
+3/6/9/12/15/20% chance on hit to make the enemy drop their weapon.
+
+Slack Off (ultimate)
+Slow yourself to 0.25 for 10 seconds, but gain 50/60/70/80/90/100 HP after that duration. 20 second cooldown.

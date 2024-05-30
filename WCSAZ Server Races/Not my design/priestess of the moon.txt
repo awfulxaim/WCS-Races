@@ -1,0 +1,13 @@
+Priestess of the Moon
+
+Trueshot Aura
+You have a 30% chance to deal 10/15/20/20/30/40/50/60% more damage to an enemy when you hit them.
+
+Elune's Arrows
+You have a 10/15/20/20/30/40/50/60% chance to deal 30% more damage to an enemy when you hit them.
+
+Leap
+Long jump
+
+Moonlight Shadow (ultimate)
+Your team spawns with 30/35/40/45/50/55/60/65 invisibility.

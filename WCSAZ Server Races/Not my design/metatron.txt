@@ -1,0 +1,21 @@
+NSC-MCU-04 Metatron
+
+Spawns with MP9 if CT and Nova if T. also spawns with a knife.
+
+NSC-M Burst Shell
+You have a 3/6/9/12/15/18/21/24% chance on hit to deal bonus damage based on the number of pellets that hit on that single shot. 1/1/1/1/2/2/2/3 extra damage with each pellet hit per pellet hit. Ex. Hitting with 6 pellets does 18 extra damage on each pellet for a total of 108 extra damage.
+
+N. Mako Core Upgrade
+Spawn with 10/20/30/40/50/60/70/80 more HP.
+
+MT-04 Claymore (ability)
+Roots you for 4 seconds then lays an invisible 50 unit radius ward. Stepping into the ward “arms” it. If that enemy leaves the ward area all enemies in a 150 unit radius take 15/20/25/30/35/40/45/50 damage. You can have up to 2 wards active at a time. Costs $500 to use. 15 second cooldown.
+
+Stasis Shock
+4/8/12/16/20/24/28/32% chance on hit to prevent the enemy from moving, shooting, or aiming for 1 second.
+
+NSC-D. Matter Hoverboots
+Spawn with 5/10/15/25/35/45/55/65% reduced gravity.
+
+Celestial Wrath (ultimate)
+Deal 25 damage to all enemies and blind them with a 25% opacity bleu screen for 1 second. 65/60/55/50/45/40/35/30 second cooldown.
