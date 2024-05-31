@@ -1,0 +1,18 @@
+Infernus
+
+CZ75 and knife only. CZ75 has 25 round magazines by default and can reload infinitely.
+
+Catalyst (ability)
+enemies in a 600 unit radius of the location you are aiming at take 5 damage and are slowed by 20/25/30/35/40% for 4 seconds. for the next 8 seconds anyone affected by catalyst, cannot heal, take 20/25/30/35/40% more damage from your hits or extra damage and you heal for 20% of all damage you deal to those enemies. you get a catalyst charge once every 24 seconds to a max of 2 charges. 6 second cooldown.
+
+Flame Dash (ability2)
+Increase your movement speed by 16/20/24/28/32% for 3 seconds. You drop molotov fire behind you for the next 4 seconds. You are immune to your own molotov damage. 30/25/20/15/10 seocnd cooldown.
+
+Afterburn
+100% chance on hit to burn the enemy for 3/3.25/3.5/3.75/4 seconds. If you would burn an enemy who is already burning, instead the burn timer is reset, the enemy takes 10/12/14/16/18% more damage and deal 30% less damage from all sources for 15 seconds.
+
+Vitality
+Spawn with 145/150/155/160/165 HP. that is your max HP
+
+Concussive Combustion (ultimate)
+after 3 seconds you deal 50/75/100/125/150 damage to all enemies in a 320/360/400/440/480 unit radius and stun (cannot move, shoot, or aim) them for .75/1/1.25/1.5/1.75 seconds. If this kills an enemy, set your HP to its maximum. 120/110/100/90/80 second cooldown.

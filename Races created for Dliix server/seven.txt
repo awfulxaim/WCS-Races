@@ -1,0 +1,21 @@
+Seven
+
+Famas and knife only
+
+Lightning Ball (ability)
+Lay a 120 unit ward that lasts 4 seconds. the ward constantly moves in the direction you were aiming when you activated this ability. if an enemy enters the ward area the ward stops moving and that enemy takes 5/10/15/20/25 damage per second and is slowed by 40% while they are in the ward area. you get a Lightning Ball charge every 22 seconds and get up to two Lightning Ball charges. 8 second cooldown
+
+Static Charge
+7/14/21/28/35% chance on hit to give the enemy static. Enemies with static will become stunned (cannot move, shoot, or aim) for 1.25/1.25/1.25/1.25/2.5 seconds and take 10 damage after 4 seconds. enemies in a 240 unit radius of that enemy are also stunned and take that damage.
+
+Power Charge (ability2)
+For the next 10 seconds, you have a 100% chance on hit to deal 10/12/15/17/20% extra damage. up to 2/3/4/5/6 enemies in a 300 unit radius of that enemy also take that extra damage. Enemies hit with this effect take 15% extra damage from all sources for the next 8 seconds. 45/41/37/33/29 second cooldown.
+
+Dash
+Long jump
+
+Vitality
+Spawn with 15/25/35/45/55 more HP.
+
+Storm Cloud (ultimate)
+Can only be activated while you are in the air. Root yourself for 7/9/11/13/15 seconds and set your color to ice blue. while you are rooted all enemies in line of sight of you that are in a 300/350/400/450/500 unit radius take 15/20/25/30/35 damage per second. this radius increases by 50 units per second for the duration. You take 10/15/20/25/30% less damage while this is active. 180/150/120/90/60 second cooldown. press ult again to cancel this effect completely. Enemies taking damage from this have an ice blue line drawn from them to you every second.
