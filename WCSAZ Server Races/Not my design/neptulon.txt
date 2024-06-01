@@ -7,7 +7,7 @@ Chilling Touch
 3/6/9/12/15/28/25% chance on hit to slow the enemy by 5/10/15/20/25/30/35/40% for 4 seconds. this stacks with Frost Storm, reducing their movement speed to 0.
 
 Ice Block
-5/10/15/20/25/30/35/40% chance when hit to evade. when you evade you cannot move or shoot for 1 second. you are still effected by gravity while you cannot move or shoot.
+5/10/15/20/25/30/35/40% chance when hit to evade. when you evade you cannot move or shoot for 1 second but you are invulnerable. you are still effected by gravity while you cannot move or shoot.
 
 Tidal Wave
 Spawn with 4/8/12/16/20/24/28/32% increased movement speed.
