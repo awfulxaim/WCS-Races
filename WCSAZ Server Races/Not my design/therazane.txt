@@ -9,7 +9,7 @@ Fists of Stone
 5/10/15/20/25/30/35/40% chance on hit to gain 5/10/15/20/25/30/35/40 HP. If you are in burst mode, if one shot procs, they all proc.
 
 Curse of the Earth
-6/8/10/12/14/16/18/20% chance on hit to slow the enemy by 44/46/48/50/54/56/58/60%.
+6/8/10/12/14/16/18/20% chance on hit to slow the enemy by 44/46/48/50/54/56/58/60% for 10 seconds.
 
 Thick Skin
 Spawn with 140/180/220/260/300/340/380/400 HP.
