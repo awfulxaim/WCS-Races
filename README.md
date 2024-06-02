@@ -1,6 +1,6 @@
 This is a list of races designed or re-designed by me for use on WCS servers. If you choose to code and use a race please credit me as the designer somewhere. You can either link this github page, or just attach my name in the race info, or even just in your forum post or announcement for when the race is added to your server if you do that kind of thing. Just so long as you don't pretend you made it.
 
-For races in folders labeled "not my design", obviously those races aren't my design, they may be rebalanced by me, but were taken wholly or mostly from other players or servers and are only stored here for posterity and completeness.
+For races in folders labeled "not my design", obviously those races aren't my design. They may be rebalanced by me, but were taken wholly or mostly from other players or servers and are only stored here for posterity and completeness.
 
 Many but not all of these races are untested and have never been balanced. some of the balanced and tested races are in the WCSAZ race folder, others are spread throughout the rest of the races and are not labeled in any way to differentiate them, sorry. Races that are balanced and tested may not be balanced and tested to work for your server, there are any number of balancing changes or races that you or your admin/server owner made that would completely change the balance.
 
