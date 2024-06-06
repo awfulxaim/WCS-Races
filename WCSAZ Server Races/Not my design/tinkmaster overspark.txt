@@ -7,7 +7,7 @@ Gnomish Death Ray
 1/1/1/2/2/3/4/5% chance on hit to deal 750 to 1000% extra damage rolled randomly. If this kills the enemy they get vaporised like from the energy ball in hl2 or portal.
 
 Gnomish Net-o-Matic Projector
-3/4/5/6/7/8/9/10% chance on hit to bash the enemy for 3 seconds. if the enemy makes a knife attack while stunned, the stun wears off immediately.
+3/4/5/6/7/8/9/10% chance on hit to bash the enemy for 3 seconds. if the enemy makes a knife attack while bashed, the bash wears off immediately.
 
 Alarm-o-Bot (ability2)
 Lay a 50 unit ward that detects enemies in a 200 unit radius. that ward deals 10 damage per second to any enemy that enters its area. a line is drawn from the center of the ward to the enemy when they take damage that lasts 1 second. the ward lasts 20 seconds. you can lay 1/1/1/1/2/2/2/3 wards at a time. 12 second cooldown.
