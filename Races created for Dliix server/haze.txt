@@ -3,7 +3,7 @@ Haze
 mp5 and knife only.
 
 Sand Woman
-Spawn with /.1/.2/.3/.4/.5 increased movement speed.
+Spawn with .1/.2/.3/.4/.5 increased movement speed.
 
 Sleep Dagger (ability)
 The enemy you are aiming at takes 10 damage and is put to sleep (they cannot move, shoot, or aim and are blinded while asleep, but any damage wakes them up) for up to 2/3/4/5/6 seconds. 35/30/25/20/15 second cooldown.
