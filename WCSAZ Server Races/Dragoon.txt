@@ -4,7 +4,7 @@ High Jump, Life Surge, Dragon Breath, White Wind, Ferocity, Dragon Dive
 
 High Jump:
 
-Impale yourself, 5 second CD
+Your next jump is a high jump, like being impaled, 5 second CD.
 
 Life Surge:
 
