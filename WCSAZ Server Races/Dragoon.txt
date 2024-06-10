@@ -24,6 +24,6 @@ Spawn with 160 HP and 140% speed.
 
 Dragon Dive:
 
-Become immune to fall damage, Push yourself to the ground, deal AoE damage in 400 unit radius cylinder, based on your height in the air.
+Become immune to fall damage, Push yourself to the ground, deal AoE damage in 600 unit radius cylinder, based on your height in the air.
 
 an activation from a normal jump off of cs_assault deals about 75 damage.
