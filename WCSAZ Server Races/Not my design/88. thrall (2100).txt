@@ -1,7 +1,3 @@
-    88. Thrall ( 2100 )
-    Purge, Horn of Snowsong, Shock, Lightning Shield, Healing Wave, Chain Lightning
-    reset enemies skill points, +speed, +damage, +HP, regen HP of nearby teammates, same as orc
-	
 Thrall
 
 Purge
