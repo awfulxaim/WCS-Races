@@ -12,7 +12,7 @@ MT-04 Claymore (ability)
 Roots you for 4 seconds then lays an invisible 50 unit radius ward. Stepping into the ward “arms” it. If that enemy leaves the ward area all enemies in a 150 unit radius take 15/20/25/30/35/40/45/50 damage. You can have up to 2 wards active at a time. Costs $500 to use. 15 second cooldown.
 
 Stasis Shock
-4/8/12/16/20/24/28/32% chance on hit to prevent the enemy from moving, shooting, or aiming for 1 second.
+3/4/5/6/7/8/9/10% chance on hit to prevent the enemy from moving, shooting, or aiming for 1 second.
 
 NSC-D. Matter Hoverboots
 Spawn with 5/10/15/25/35/45/55/65% reduced gravity.
