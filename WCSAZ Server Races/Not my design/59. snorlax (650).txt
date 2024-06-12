@@ -13,4 +13,4 @@ Thick Fat
 Spawn with 150/160/170/180/190/200 HP. this is your max HP.
 
 Rest (ultimate)
-fall asleep for 8 seconds. You instantly heal for 20 HP. While you are asleep you cannot shoot, turn, (unless you have Yawn) or move but take no damage. your screen is darkened by 50% while asleep. 25/23/21/19/17/15 second cooldown.
+fall asleep for 8 seconds. You instantly heal for 20 HP. While you are asleep you cannot shoot, aim, (unless you have Yawn) or move but take no damage. your screen is darkened by 50% while asleep. 25/23/21/19/17/15 second cooldown.
