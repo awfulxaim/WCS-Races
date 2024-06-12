@@ -15,7 +15,7 @@ Infinite Fury
 Spawn with 20/25/30/35/40/45/50/55% increased movement speed.
 
 Astral Spirit
-You spawn with long jump and 35/30/35/40/45/50/55/60% reduced gravity.
+You spawn with long jump (stronger push with levels) and 35/30/35/40/45/50/55/60% reduced gravity.
 
 Lunar Veil (ultimate)
 become 100% invisible for 1/1/2/2/3/4/5/6 seconds. 20 second cooldown.
