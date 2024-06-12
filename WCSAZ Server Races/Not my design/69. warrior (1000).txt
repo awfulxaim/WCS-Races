@@ -9,7 +9,7 @@ Hamstring
 15/20/25/30/35/40/45/50% chance on hit to slow the enemy by 50% for 10 seconds.
 
 Intercept (ability)
-Get pushed toward where you aim with a force of 200/400/600/800/1000/1200/1400/1600.
+Get pushed toward where you aim with a force of 200/400/600/800/1000/1200/1400/1600. 8 second cooldown.
 
 Disarm
 4/8/12/16/20/24/28/32% chance on hit to make the enemy drop their weapon.
@@ -24,4 +24,4 @@ Damage Shield
 3/6/9/12/15/18/21/25% chance to evade.
 
 Heroic Leap (ultimate)
-Get pushed toward where you aim with a force of 2250/2500/2750/3000/3250/3500/3750/4000. 12 second cooldown.
+Get pushed toward where you aim with a force of 2250/2500/2750/3000/3250/3500/3750/4000. 16 second cooldown.
