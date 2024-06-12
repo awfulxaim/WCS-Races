@@ -1,7 +1,7 @@
 Al'Akir
 
 Chain Lightning
-5/10/15/20/25/30/35/40% chance on hit to deal 32 damage to all enemies in a 200/300/350/400/450/500/550/600 unit radius of the enemy you shot but not the enemy you hit.
+2/4/6/8/10/12/14/16% chance on hit to deal 32 damage to all enemies in a 200/300/350/400/450/500/550/600 unit radius of the enemy you shot but not the enemy you hit.
 
 Thunderstorm
 3/6/9/12/15/18/21/24% chance on hit to deal 75% extra damage.
