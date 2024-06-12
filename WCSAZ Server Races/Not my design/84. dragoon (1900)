@@ -1,0 +1,21 @@
+Dragoon 
+
+High Jump (ability):
+Your next jump is a high jump, like being impaled, 10/9/8/7/6/5 second CD.
+
+Life Surge:
+Life leech, 10/15/20/25/30/35% chance to leech 50% of your damage back as HP
+
+Dragon Breath:
+6/9/12/15/18/20% chance on hit to slow by 20%, play the burning animation on the enemy's screen for 5 seconds, and deal 10-25 extra damage, rolled randomly.
+
+White Wind:
+6/9/12/15/18/20% chance on hit to heal yourself and one nearby teammate for 25 HP. nearby is 450 units.
+
+Ferocity:
+Spawn with 110/120/130/140/150/160 HP and 1.15/1.2/1.25/1.3/1.35/1.40 speed.
+
+Dragon Dive (ultimate)
+Become immune to fall damage, Push yourself to the ground, deal AoE damage in 650 unit radius cylinder, based on your height in the air. 15 second cooldown. 
+
+an activation from a normal jump off of cs_assault deals about 75 damage.
