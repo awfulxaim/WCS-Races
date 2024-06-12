@@ -7,7 +7,7 @@ Body Slam
 5/10/15/20/25/30% chance on hit to deal 30/35/40/50/60/70% extra damage and bash for 1.5 seconds.
 
 Yawn
-You heal 5/6/7/8/9/10 HP per second while you are asleep. You can turn while asleep.
+You heal 5/6/7/8/9/10 HP per second while you are asleep. You can aim while asleep.
 
 Thick Fat
 Spawn with 150/160/170/180/190/200 HP. this is your max HP.
