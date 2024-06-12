@@ -15,7 +15,7 @@ Cloak of Shadows
 You spawn with 5/15/25/35/45/55/65/75% invisibility.
 
 Master of Subtlety
-You spawn with 20/25/30/35/40/45/50/55% increeased movement speed.
+You spawn with 20/25/30/35/40/45/50/55% increased movement speed.
 
 Cheat Death
 3/6/9/12/15/18/21/25% chance when you would take lethal damage, evade that damage and become invulnerable for 1.5 seconds.
