@@ -12,13 +12,13 @@ NSC-M2 Angel Veil
 You have a 15/18/21/24/27/30/33/36% chance to evade, when you evade you become 100% invisible for 1 second. 
 
 Soul Extraction
-1/1/1/2/2/3/4/5% chance on hit to instantly kill the enemy and gain 75HP.
+1/1/1/2/2/3/4/5% chance on hit to instantly kill the enemy and gain 75HP and a soul charge.
 
 NSC-D.Matter Hoverboots
 Spawn with 30/35/40/45/50/55/60/65% reduced gravity.
 
 Terrestrial Coffin
-2/4/6/8/10/12/14/16% chance on hit to bury the enemy for 10 seconds. buried enemies only have their head and shoulders visible above the ground. you have a 30/40/50/60/70/80/90/100% chance when you kill someone with a soul extraction proc to gain a soul charge.
+2/4/6/8/10/12/14/16% chance on hit to bury the enemy for 10 seconds. buried enemies only have their head and shoulders visible above the ground.
 
 Soul Conversion
 If you have a soul charge when you die, respawn 12/11/10/9/8/7/6/5 seconds later at the location you died at.
