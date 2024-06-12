@@ -1,7 +1,7 @@
 Demon Hunter
 
 Mana Burn
-5/10/15/20/25% chance on hit to deal 1/2/3/4/5/6 extra damage for each $2000 an enemy has that enemy loses $2000 when this procs.
+5/10/15/20/25% chance on hit to deal 1/2/3/4/5/6 extra damage for each $2000 an enemy has. that enemy loses $2000 when this procs.
 
 Immolation
 You have a 10/15/20/25/30/40% chance when you hit an enemy to set them on fire, dealing 5 damage every half second for 1/1.5/2/2.5/3/3.5 seconds.
