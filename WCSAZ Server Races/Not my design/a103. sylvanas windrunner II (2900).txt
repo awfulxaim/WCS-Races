@@ -9,7 +9,7 @@ Fade
 spawn with 35/40/45/50/55/60/65/70% invisibility.
 
 Marksmanship
-100% chance on hit, if the enemy is below 15/20/25/30/35/40/45/50 extra damage. this can extra damage pierces invulnerability.
+100% chance on hit, if the enemy is below 15/20/25/30/35/40/45/50 extra damage. this extra damage pierces invulnerability.
 
 Song of Sylvanas (ability)
 Increase your speed by .4/.45/.5/.55/.6/.65/.7/.75 and become 100% invis for 3 seconds, for that duration you can only use the knife. 8 second cooldown.
