@@ -12,4 +12,4 @@ Time Lock
 4/8/12/16/20/24% chance on hit to prevent the enemy from shooting or moving for 1 second.
 
 Chronosphere (ultimate)
-Lay a 150/200/250/300/300/300 unit purple ward that lasts 6/8/9/10/11/12 seconds. any player, teammate or enemy, who isn't playing Faceless Void that enters the ward area cannot move, shoot, attack, aim, or activate abilities or ultimates. Faceless Void players are forced to use their knife while they are in the ward area. all players are immune to Deagle damage while they are in the ward area. 40 second cooldown.
+Lay a 150/200/250/300/300/300 unit purple ward that lasts 6/8/9/10/11/12 seconds. any player, teammate or enemy, who isn't playing Faceless Void that enters the ward area cannot move, shoot, attack, aim, or activate abilities or ultimates. Faceless Void players are forced to use their knife while they are in the ward area. all players are immune to Deagle damage while they are in the ward area. 40 second cooldown. this pierces ward immunity but not ultimate immunity.
