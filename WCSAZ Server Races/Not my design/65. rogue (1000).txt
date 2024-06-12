@@ -1,8 +1,3 @@
-    65. Rogue ( 1000 ) K
-    Stealth, Camouflage, Hemorrhage, Kidney Shot, Backstab, Sprint, Lightning Reflexes, Shadowstep
-    100% invis until you attack or get hit, disguise as enemy team, +bleed, +stun, 600 damage on 
-    backstab, 175% speed for 2 seconds, evasion, instant teleport to enemy player.
-	
 Rogue
 
 knife only
