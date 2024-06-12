@@ -4,7 +4,7 @@ Phase Punch
 20% chance on hit to impale the enemy and deal 3/6/9/12/15/18/21/25% of the enemies current HP in damage.
 
 Cosmic Smash (ability)
-Create a 150 unit radius ward centered on a random enemies current position. this ward deals 10 damage per second and lasts 8 seconds. 32/30/28/26/24/22/20/18 second cooldown.
+Create a 150 unit radius ward centered on a random enemy's current position. this ward deals 10 damage per second and lasts 8 seconds. 32/30/28/26/24/22/20/18 second cooldown.
 
 Collapsing Star
 HE grenades turn into black holes after they explode. black holes are 285 unit wards that pull all enemies on the map toward it once every second. the black holes last 3 seconds for 4 total pulses. .25 seconds after each pulse there is another grenade-like explosion which deals damage exactly like a grenade.
