@@ -6,7 +6,7 @@ Time Walk
 15/20/25/30/35/40% chance to evade.
 
 Backtrack (ability)
-save your current HP, after 1/1/2/2/3/4 second set your HP back to that value.
+save your current HP, after 1/1/2/2/3/4 seconds set your HP back to that value. this fails if you die.
 
 Time Lock
 4/8/12/16/20/24% chance on hit to prevent the enemy from shooting or moving for 1 second.
