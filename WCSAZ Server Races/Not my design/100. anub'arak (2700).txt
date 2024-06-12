@@ -13,7 +13,7 @@ Relentless Pursuit
 Spawn with 3/6/9/12/15/18/25% increased movement speed.
 
 Permafrost (ability)
-Root all enemies in a 100/200/300/350/400/500/550/600 for 4 seconds. 28 second cooldown.
+Root all enemies in a 100/200/300/350/400/500/550/600 unit radius for 4 seconds. 28 second cooldown.
 
 Leeching Swarm (ultimate)
 Deal 25 damage and remove 15/20/25/30/35/40/45/50 armor from a random enemy. you gain that armor and HP. 25 second cooldown.
