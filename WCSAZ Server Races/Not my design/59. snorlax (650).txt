@@ -4,7 +4,7 @@ Snore
 You have a 100% chance when hit while asleep to deal 15/17/19/21/23/25 damage to the enemy who attacked you.
 
 Body Slam
-5/10/15/20/25/30% chance on hit to deal 30/35/40/50/60/70% extra damage and bash for 1.5 seconds.
+4/8/12/16/20/24% chance on hit to deal 30/35/40/50/60/70% extra damage and bash for 1.5 seconds.
 
 Yawn
 You heal 5/6/7/8/9/10 HP per second while you are asleep. You can aim while asleep.
