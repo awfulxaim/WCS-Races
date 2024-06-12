@@ -1,0 +1,21 @@
+Sleep Paralysis
+
+USP-S only, resrticted to three per team. this race spawns with 5x the normal reserve ammo
+
+Atonia
+4/8/12/16/20% chance on hit to shake the enemy's screen and slow them by .6/.8/.10/.12/.15 for 1/1/2/2/3 seconds.
+
+REM Sleep
+3/6/9/12/15% chance to black out the enemies screen for .5/.9/1.2/1.6/2 seconds before fading back to normal.
+
+Recurring Nightmares
+10/12/14/16/18/20% to on hit to tag the enemy and "fear" the enemy. Enemies feared walk backwards for 0.75/1/1.25/1.5/1.75/2 seconds. If a tagged enemy damages you, they take 1/1/2/2/3/3 damage for 5 seconds. Tagging last 6/7/8/9/10 seconds. Enemies can only be tagged once every 15 seconds.
+
+Parasomnia (ability)
+Enemies within 220/240/260/280/300 units are slowed by .10/.11/.13/.14/.15 (does not stack with Atonia). activating this ability causes all enemies within that range to be slowed by .2/.22/.26/.28/.3 for 8 seconds and also causes all skills to have an additional 2/4/6/8/10% chance to proc for 4/5/6/7/8 seconds. Cooldown 10/10/9/9/8 seconds
+
+Hypnagogic
+you get an HE grenade 5 seconds after spawn and another one after you throw an HE. You can get up to 1/1/2/2/3/3/4 HE grenade per round. These grenades deal NO damage. Enemies hit by the grenades have their screen shook and have a 25/28/31/34/37/40% chance to force them to aim upwards.
+
+The Nightmare (Ultimate)
+Become 100% invisible and get an m4a1-s with a 20/20/20/23/23/25 round magazine that deals NO damage for 5/6/7/8/9/10 seconds. Enemies hit are given no indication they are hit. Only indication enemies receive shows in the chatbar that you have been tagged by "The Nightmare". On the first hit, that enemy becomes paralyzed for 0.1/0.3/0.45/0.6/0.75/.9 seconds. On the second hit, that enemy has their sound replaced with the flashbang ring noise for 1/1.5/2/2.5/2.75/3 seconds. On the third hit, that enemy takes 14/17/19/22/25 damage. Paralyze, damage and ringing occurs after the end of ultimate when bullets are used up, or time is up. Cooldown 50/46/42/38/34/30 seconds.(Note: Other skills do not proc with ultimate) If there are more than one per team, paralyze is reduced evenly like Grim Reaper skill Mourning (2 Sleep paralysis would cause a max of .45 second paralyze, 3 would cause a max of .3 second paralyze at max levels)
