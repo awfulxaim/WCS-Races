@@ -1,10 +1,10 @@
 Butcher
 
 Meat Hook
-5/10/15/20/25/30/35/40% chance on hit to pull the enemy to you.
+4/8/12/16/20/24/28/32% chance on hit to pull the enemy to you.
 
 Rot
-3/6/9/12/15/18/21/24% chance on hit to poison the enemy for 5 damage per second for 3 seconds.
+1/4/7/10/13/16/19/22% chance on hit to poison the enemy for 5 damage per second for 3 seconds.
 
 Disease Cloud
 3/6/9/12/15/18/21/24% chance when hit to poison all enemies in a 250 unit radius for 5 damage per second for 3 seconds.
@@ -16,4 +16,4 @@ Putrid Carapace
 Spawn with 30/40/50/60/70/80/90/100 more HP.
 
 Dismember
-2/4/6/8/10/12/14/16% chance on hit to disarm the enemy.
+5/6/7/8/9/10/11/12% chance on hit to disarm the enemy.
