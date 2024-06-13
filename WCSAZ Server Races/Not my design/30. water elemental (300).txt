@@ -9,7 +9,7 @@ Fluid Movement
 Spawn with .35/.40/.45/.50/.55 increased movement speed.
 
 Waveform
-20/25/30/35/40% evasion
+10/15/20/25/30% evasion
 
 Frost Pillar (ability)
 lay a blue ward with 200 radius, it slows enemies in it by 50% and deals 10 damage per second. this ward lasts 5 seconds. You can lay up to 2 at the same time. you can lay up to 2/3/4/5/6 per round. 2 second cooldown.
