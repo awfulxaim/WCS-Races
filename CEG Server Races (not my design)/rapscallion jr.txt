@@ -1,0 +1,15 @@
+Rapscallion Jr.
+
+knife only
+
+Quickness
+Spawn with 1.13/1.26/1.39/1.52 movement speed
+
+Dexterity
+5/10/15/20% chance to evade
+
+Strength
+30% chance on hit to deal 70/80/90/100% extra damage.
+
+Intelligence (ultimate)
+Become 100% invisible, after 1/1.5/2/2.5 seconds become rooted. After you have been rooted you can unroot and become visisble after 10 seconds by pressing ultimate again. 14 second cooldown.
