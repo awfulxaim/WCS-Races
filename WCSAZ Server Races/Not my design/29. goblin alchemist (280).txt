@@ -7,7 +7,7 @@ Chemical Rage
 spawn with 4/8/12/16/20/24/28/32% increased movement speed.
 
 Acid Bomb
-5% chance on hit to poison the enemy for 10 seconds, dealing 5 damage per second. 100% chance when an enemy takes damage from an exploding barrel to be poisoned.
+5% chance on hit to poison the enemy for 10 seconds, dealing 5 damage per second. 100% chance when an enemy takes damage from an exploding barrel or grenade to be poisoned.
 
 Transmute (ultimate)
 Spawn an explosive barrel. 15/14/13/12/11/10/9/8 second cooldown.
