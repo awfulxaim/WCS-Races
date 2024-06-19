@@ -1,7 +1,7 @@
 Gengar
 
 Lick
-4/8/12/16/20/24/28/32% chance on hit to blid the enemy with a 75% opacity blue screen.
+4/8/12/16/20/24/28/32% chance on hit to blind the enemy with a 75% opacity blue screen for 3 seconds.
 
 Hypnosis
 3/4/5/6/7/8/9/10% chance on hit to put the enemy to sleep for 3 seconds. preventing them from moving, turning, shooting or taking damage.
