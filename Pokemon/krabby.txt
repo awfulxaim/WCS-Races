@@ -1,6 +1,6 @@
 Krabby
 
-Knife and AK only
+Knife only until you evolve.
 
 Vice Grip
 5/10/15/20/25% chance on hit with the AK to deal 5-15 additional damage. 5/10/15/20/25% chance on hit with the knife to stun for 2 seconds.
@@ -21,4 +21,4 @@ Protect
 Reduces the next damage taken by 18/36/54/72/90, also purges debuffs. 10 second CD.
 
 Evolve (ultimate) 1 Level
-Grants Krabby an AK. 45 second initial CD.
+Get an AK. 45 second initial CD.
