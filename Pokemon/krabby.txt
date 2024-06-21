@@ -3,22 +3,22 @@ Krabby
 Knife and AK only
 
 Vice Grip
-25% chance on hit to deal 5-15 additional damage with the AK. 25% chance to stun for 2 seconds with the knife.
+5/10/15/20/25% chance on hit with the AK to deal 5-15 additional damage. 5/10/15/20/25% chance on hit with the knife to stun for 2 seconds.
 
 Guillotine
-30% chance on hit to deal 50 extra damage with the knife. If this procs while the enemy is effected by vice grip it instantly kills them.
+10/15/20/25/30% chance on hit with the knife to deal 10/20/30/40/50 extra damage. If this procs while the enemy is effected by vice grip it instantly kills them.
 
 Bubble Beam
-10% chance on hit to slow the enemy by .30 for 5 seconds with the AK.
+2/4/6/8/10% chance on hit with the AK to slow the enemy by .30 for 5 seconds.
 
 Crabhammer
-85% chance on hit to deal 50% extra damage. With the AK this will only proc if the enemy has been vice gripped in the past 2 seconds.
+17/34/51/68/85% chance on hit to deal 10/20/30/40/50% extra damage. With the AK this will only proc if the enemy has been vice gripped in the past 2 seconds.
 
 Harden
-Spawn with 100 extra HP.
+Spawn with 20/40/60/80/100 extra HP.
 
 Protect
-Reduces the next damage taken by 90, also purges debuffs. 10 second CD.
+Reduces the next damage taken by 18/36/54/72/90, also purges debuffs. 10 second CD.
 
-Evolve
+Evolve (ultimate) 1 Level
 Grants Krabby an AK. 45 second initial CD.
