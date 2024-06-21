@@ -1,7 +1,7 @@
 Meruna Siren
 
 Ebb and Flow (ability)
-weaker human dash but backwards. for 1.5 seconds after activating this ability you have 100% evade chance. 13/12/11/10/9/8/7/6 second cooldown.
+weaker human dash but backwards. for .5 seconds after activating this ability you have 100% evade chance. 13/12/11/10/9/8/7/6 second cooldown.
 
 Tsunami
 1/2/4/5/6/8/9/10% chance on hit to push the enemy and all enemies in 150 units of that enemy back 400 units and deal 6/8/10/12/14/16/18/20 extra damage to them.
