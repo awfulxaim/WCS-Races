@@ -4,7 +4,7 @@ Muscular Augments
 Spawn with .05/.10/.15/.2/.25/.3/.35 increased movement speed.
 
 Grooved Spines
-30/35/40/45/50/55/60% chance on hit to deal 5% extra damage for every 100 units away the enemy is to a max of 500/1000/1500/2000/2500/3000/3500 units. after that distance extra damage is applied as if the enemy was at the max distance.
+5/10/15/20/25/30/35% chance on hit to deal 5% extra damage for every 100 units away the enemy is to a max of 500/1000/1500/2000/2500/3000/3500 units. after that distance extra damage is applied as if the enemy was at the max distance.
 
 Slow Poison
 2/4/6/8/10/12/15% chance on hit to slow the enemy by a stacking .05 every second for 6 seconds. that enemy also takes 5 damage per second.
