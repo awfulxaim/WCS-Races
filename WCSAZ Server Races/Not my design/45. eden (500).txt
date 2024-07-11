@@ -6,8 +6,8 @@ Spawn with 12/16/20/24/28/32% increased movement speed.
 Mad Rush (ability)
 You gain 12/16/20/24/28/32% increased speed for 4 seconds. 6 second cooldown
 
-Spatial Warp
-human teleport with a 10 seocnd cooldown.
+Spatial Warp (ability2)
+human teleport with a 10 second cooldown.
 
 Time Compression
 When you spawn a random enemy is slowed by 6/9/12/15/18/21% for the entire round. you gain that much movement speed for the round.
