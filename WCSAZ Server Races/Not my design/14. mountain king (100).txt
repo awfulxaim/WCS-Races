@@ -1,7 +1,7 @@
 Mountain King
 
 Storm Bolt (ability)
-Deal 5/10/15/20/25 damage to the enemy you are aiming at and make them unable to shoot or move for 1 second. 12 second cooldown. if there is no enemy aimed at this ability does not activate and does not go on cooldown.
+Deal 5/10/15/20/25 damage to the enemy you are aiming at and make them unable to move for 1 second. 12 second cooldown. if there is no enemy aimed at this ability does not activate and does not go on cooldown.
 
 Thunder Clap
 5/10/15/20/25% chance when hit to deal 10 damage to all enemies in a 350 unit radius and slow them by 50% for 3 seconds.
