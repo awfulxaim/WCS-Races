@@ -3,7 +3,7 @@ Drow Ranger
 scout and knife only
 
 Frost Arrows
-100% chance on hit to slow the enemy by 10/20/30/40/50/60% for 6 seconds.
+50% chance on hit to slow the enemy by 10/20/30/40/50/60% for 6 seconds.
 
 Trueshot Aura
 30% chance on hit to deal 10/20/30/40/50/60% extra damage.
