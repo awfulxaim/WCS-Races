@@ -1,7 +1,7 @@
 Firelord
 
 Soul Burn
-3/6/9/12/15/18/21/24% chance on hit to burn the enemy for 4 seconds. 5dmg/0.5sec
+3/6/9/12/15/18/21/24% chance on hit to burn the enemy for 4 seconds, enemies who are burned lose an additional 5% of their current HP per second for the duration. 5dmg/0.5sec
 
 Summon Lava Spawn (ability)
 Lay a 200 radius ward that lasts 10 seconds. enemies who step into the ward are burned for 2 seconds. 20 second cooldown.
