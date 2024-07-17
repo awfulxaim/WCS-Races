@@ -7,7 +7,7 @@ Immolate
 6/7/8/9/10% chance on hit to burn the enemy for 5 seconds. 5dmg/0.5sec
 
 Magma Shackles
-Any enemy that is burning is slowed by 20/30/40/50/60%. you have a 5/10/15/20/25% chance on hit to slow the enemy by 20%.
+Any enemy that is burning is slowed by 20/30/40/50/60%. you have a 5/10/15/20/25% chance on hit to slow the enemy by 20% for 5 seconds.
 
 Essence of fire
 Spawn with 10/20/30/40/50 extra HP and .05/.1/.15/.2/.25 increased movement speed.
