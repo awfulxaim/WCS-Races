@@ -1,5 +1,7 @@
 Goblin Alchemist
 
+spawns with a grenade
+
 Healing Spray (ability)
 Heal the teammate you are aiming at for 15/20/25/30/35/40/45/50% of their current HP. if you are not aiming at anyone this heals you instead to a max of 150HP. 10 second cooldown.
 
