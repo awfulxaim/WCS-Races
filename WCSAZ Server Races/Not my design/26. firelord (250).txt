@@ -1,6 +1,6 @@
 Firelord
 
-Soul Born
+Soul Burn
 3/6/9/12/15/18/21/24% chance on hit to burn the enemy for 4 seconds. 5dmg/0.5sec
 
 Summon Lava Spawn (ability)
