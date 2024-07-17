@@ -4,7 +4,7 @@ Breath of Fire
 3/6/9/12/15/18/21/25% chance on hit to burn the enemy for 3 seconds. 5dmg/0.5s
 
 Drunken Haze
-Spawn with 10/20/30/40/50/60/70/85 extra HP.
+Spawn with 10/20/30/40/50/60/70/85 extra HP, you are drunk. (being drunk means that your screen slowly rotates left and right, and your aim moves in a sideways figure-8 pattern)
 
 Drunken Brawler
 5/10/15/20/25/30/35/40% chance on hit to deal 5 extra damage.
@@ -13,4 +13,4 @@ Storm
 30% chance on hit to deal 30/35/40/45/50/55/60/65% extra damage.
 
 Earth and Fire (ultimate)
-for 10 seconds you gain 100 HP, 100% chance to proc breath of fire and drunken brawler, and get .05/.1/.15/.2/.25/.3/.35/.4 increased movement speed. if you would have less than 1 HP after 10 seconds, you die. 40 second cooldown.
+Heal 100 HP to a max of 185, then for the next 10 seconds you have: 100% chance to proc breath of fire and drunken brawler, and get .05/.1/.15/.2/.25/.3/.35/.4 increased movement speed. 40 second cooldown.
