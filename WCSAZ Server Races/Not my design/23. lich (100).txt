@@ -10,4 +10,4 @@ Dark Ritual (ability2)
 Lose 10HP but gain $500/600/700/800. 5 second cooldown.
 
 Death and Decay (ultimate)
-Lay an 800 unit radius light blue ward that lasts 10 seconds. enemies that step in the ward area take 25 damage per second. If an enemy dies to this ward you gain 10/20/30/40 HP. 40 second cooldown.
+Lay a 500 unit radius light blue ward that lasts 10 seconds. enemies that step in the ward area take 25 damage per second. If an enemy dies to this ward, you heal 100 HP to max of 100. 40 second cooldown.
