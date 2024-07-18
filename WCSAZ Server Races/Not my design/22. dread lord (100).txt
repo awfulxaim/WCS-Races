@@ -4,7 +4,7 @@ Carrion Swarm
 4/8/12/16/20/24/28/32% chance on hit to deal 1/3/5/7/9/11/13/15 extra damage.
 
 Sleep
-3/6/9/12/15/18/21/24% chance on hit to put the enemy to sleep for 3 seconds. they cannot move, aim, or shoot, but also take no damage.
+3/6/9/12/15/18/21/24% chance on hit to put the enemy to sleep for 3 seconds. they cannot move, aim, or shoot, but also take no damage. they have a blue player model while asleep.
 
 Vampiric Aura
 60% chance on hit to gain 13/14/17/20/22/25/29/33% of the damage you do back as health.
