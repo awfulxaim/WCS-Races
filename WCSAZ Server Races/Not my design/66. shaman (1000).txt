@@ -4,7 +4,7 @@ Chain Heal
 Heal your entire team for 1/1/1/1/2/2/2/3 HP per second to a max of 100 HP.
 
 Earth Fire Wind Air (ability)
-Lay four 200 radius wards in a square 100 units around you. each ward deals 15 damage per second and last 10 seconds. once per round.
+Lay four 200 radius wards in a square 100 units around you. fire ward is red and burns the enemy for 1.5 seconds. earth ward is green and slows by 75% for 3 seconds. wind ward is blue and deals 15 damage per second. air ward is white and impales the enemy every second and deals 5 damage per second. each ward last 10 seconds. once per round.
 
 Nature's Guardian
 Spawn with 30/40/50/60/70/80/90/100 more HP and 30/40/50/60/70/80/90/100 armor and helmet.
