@@ -3,19 +3,19 @@ Ninja
 knife only
 
 Phantom Moon
-Spawn with 10/20/30/40/50/60/70/80% increased invisibility.
+Spawn with 30/40/50/60/70/80% increased invisibility.
 
 Rend
-5/10/15/20/25/30/35/40% chance on hit to bleed the enemy for 6 seconds. enemies that are bleeding take 5 damage per second for the duration and are slowed by 60% of whatever their movement speed is for 1.5 seconds every time they take damage. (example: if their movement speed is 1.2 they would be slowed to .72 every time they take damage) there is a bleeding animation and a hurt sound each time a bleeding enemy takes damage.
+15/20/25/30/35/40% chance on hit to bleed the enemy for 6 seconds. enemies that are bleeding take 5 damage per second for the duration and are slowed by 60% of whatever their movement speed is for 1.5 seconds every time they take damage. (example: if their movement speed is 1.2 they would be slowed to .72 every time they take damage) there is a bleeding animation and a hurt sound each time a bleeding enemy takes damage.
 
 Dragon's Breath
-4/8/12/16/20/24/28/32% chance on hit to poison the enemy for 5 damage per second for 5 seconds.
+12/16/20/24/28/32% chance on hit to poison the enemy for 5 damage per second for 5 seconds.
 
 Infinite Fury
-Spawn with 20/25/30/35/40/45/50/55% increased movement speed.
+Spawn with 30/35/40/45/50/55% increased movement speed.
 
 Astral Spirit
-You spawn with long jump (stronger push with levels) and 35/30/35/40/45/50/55/60% reduced gravity.
+You spawn with long jump (stronger push with levels) and 35/40/45/50/55/60% reduced gravity.
 
 Lunar Veil (ultimate)
-become 100% invisible for 1/1/2/2/3/4/5/6 seconds. 20 second cooldown.
+become 100% invisible for 1/2/3/4/5/6 seconds. 20 second cooldown.
