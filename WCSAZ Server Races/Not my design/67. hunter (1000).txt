@@ -15,7 +15,7 @@ Lightning Reflexes
 4/8/12/16/20/24/28/33% chance to evade.
 
 Multi-shot
-15/20/25/30/35/40/45/50% chance on hit to deal the damage you deal to all other enemies in a 400 unit radius of the enemy you hit.
+15/20/25/30/35/40/45/50% chance on hit to deal the damage you dealt to all other enemies in a 400 unit radius of the enemy you hit.
 
 Trueshot Aura
 30% chance on hit to deal 10/15/20/20/30/40/50/60% more damage.
