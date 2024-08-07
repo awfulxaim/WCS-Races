@@ -1,6 +1,6 @@
 NSC-MCU-04 Metatron
 
-Spawns with MP9 if CT and Nova if T. also spawns with a knife.
+nova and knife only
 
 NSC-M Burst Shell
 You have a 3/6/9/12/15/18/21/24% chance on hit to deal bonus damage based on the number of pellets that hit on that single shot. 1/1/1/1/2/2/2/3 extra damage with each pellet hit per pellet hit. Ex. Hitting with 6 pellets does 18 extra damage on each pellet for a total of 108 extra damage.
