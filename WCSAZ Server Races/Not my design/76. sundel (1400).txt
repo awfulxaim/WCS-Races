@@ -7,6 +7,7 @@ When you spawn, begin healing for 2/2/2/3/3/3/4/5 HP per second to no max.
 
 Rippling Convulsion
 Your movement speed is randomly set to one of the speeds below every 3-6 seconds, rolled randomly.
+Level 0: 0.9
 Level 1: 1.0, 0.85
 Level 2: 1.15, 1.0, 0.85
 Level 3: 1.25, 1.15, 1.0, 0.85
