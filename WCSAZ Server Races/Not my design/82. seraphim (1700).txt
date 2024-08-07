@@ -22,4 +22,4 @@ Excrucio
 You have a 15% chance on hit to deal 40/70/100/130/160/190/210/240% more damage.
 
 Agnus Dei (ultimate)
-kill yourself, respawn your entire team with all of the buffs you would normally give on spawn. Grants half the exp you would get for a kill (20xp here, I think) for each revived player. 60 second initial cooldown. 1 level.
+kill yourself, respawn your entire team with all of the buffs you would normally give on spawn. Grants half the exp you would get for a kill for each revived player. 60 second initial cooldown. 1 level.
