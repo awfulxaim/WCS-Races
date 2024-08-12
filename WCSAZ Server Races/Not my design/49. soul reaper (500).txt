@@ -4,7 +4,7 @@ Death Scythe
 5/10/15/20/25% chance on hit to deal 5 extra damage
 
 Spirit Harvest
-You have a 60/70/80/90/100% chance on kill to gain a soul. If that enemy has killed someone this round you gain one additional soul.
+You have a 60/70/80/90/100% chance on kill to gain a soul. If that enemy has killed someone this round you gain one additional soul. You do not gain souls from killing bots.
 
 Soul Channel
 When you spawn gain 2/4/6/8/10 HP for each soul you have, to no maxmimum.
