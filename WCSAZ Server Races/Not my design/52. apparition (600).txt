@@ -10,7 +10,7 @@ Acceleration
 Spawn with 5/10/15/20/25/30% increased movement speed.
 
 Infiltrate
-40/55/70/80/90/100% chance on spawn to mole. a menu asks if you would like to mole or not.
+40/55/70/80/90/100% chance on spawn to mole. a menu asks if you would like to mole or not. if you do not answer, it moles you after a 6 second delay. if you answer yes, it moles you after a 2 second delay. if you answer no, the mole is cancelled.
 
 Avoidance Aura
 15/20/25/30/35/40% chance to evade.
