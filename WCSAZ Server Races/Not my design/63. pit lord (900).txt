@@ -7,7 +7,7 @@ Pit of Malice
 3/6/9/12/15/18/24% chance on hit to deal 25% extra damage to that enemy and all enemies in a 200 unit radius of that enemy.
 
 Expulsion
-10% chance on hit to deal 15/20/25/30/35/40/45/50% of the enemies current HP in damage.
+10% chance on hit to deal 15/20/25/30/35/40/45/50% of the enemy's current HP in damage.
 
 Conflagrant Vigor
 spawn with 4/8/12/16/20/24/28/32% increased movement speed.
