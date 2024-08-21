@@ -3,10 +3,10 @@ Hunter
 scout only, no knife.
 
 Hunter's Mark
-When you spawn a random enemy is chosen and a chat notification tells you their name. the take 5/10/15/20/25/30/35/40% extra damage this round.
+When you spawn a random enemy is chosen and a chat notification tells you their name. they take 5/10/15/20/25/30/35/40% extra damage this round. that player gets a message that they have been marked and take extra damage this round.
 
 Flare (ability)
-set all enemies in a 250/300/350/400/450/500/550/600 unit radius to 100 visibility for 10 seconds. 20 second cooldown.
+lay a 250/300/350/400/450/500/550/600 unit radius ward where you are aiming. that ward sets enemies to 100% visibility for 10 seconds if they enter it and the ward lasts 5 seconds. 20 second cooldown.
 
 Serpent Sting
 3/6/9/12/15/18/21/25% chance on hit to poison the enemy for 5 damage per second for 7 seconds.
@@ -15,7 +15,7 @@ Lightning Reflexes
 4/8/12/16/20/24/28/33% chance to evade.
 
 Multi-shot
-15/20/25/30/35/40/45/50% chance on hit to deal the damage you dealt to all other enemies in a 400 unit radius of the enemy you hit.
+15/20/25/30/35/40/45/50% chance on hit to deal the damage you dealt to that enemy to all other enemies in a 400 unit radius of the enemy you hit.
 
 Trueshot Aura
 30% chance on hit to deal 10/15/20/20/30/40/50/60% more damage.
