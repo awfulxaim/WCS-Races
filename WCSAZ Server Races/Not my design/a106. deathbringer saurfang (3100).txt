@@ -4,7 +4,7 @@ Rune of Blood
 5/10/15/20/25/30/35/40% chance on hit to mark an enemy with a rune of blood and gain HP equal to 10% of the damage dealt. When this procs you steal 10% of the damage dealt as HP from all other enemies that have been marked with rune of blood this round.
 
 Blood Link
-10% chance on hit to leech 15/20/25/30/35/40/45/50% of the damage dealt as HP. 10/20/30/40/50/60/70/80% chance to gain HP equal to the damage dealt with abilities and ultimates.
+10% chance on hit to leech 15/20/25/30/35/40/45/50% of the damage dealt as HP. 10/20/30/40/50/60/70/80% chance to gain HP equal to the damage dealt with skills
 
 Blood Frenzy
 Spawn with 4/8/12/16/20/24/28/32% increased movement speed.
