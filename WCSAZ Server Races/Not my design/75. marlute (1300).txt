@@ -2,7 +2,7 @@ NSC-MCU-02 Marlute
 
 knife only
 
-N.Mako-Powered Stabilizators
+N.Mako Powered Stabilizators
 spawn with 30/35/40/45/50/55/60/65% increased movement speed.
 
 Mana Drain
