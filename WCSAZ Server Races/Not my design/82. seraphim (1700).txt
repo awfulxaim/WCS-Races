@@ -4,7 +4,7 @@ Divinus Vis
 15/20/25/30/35/40/45/50% chance on spawn to set enemies with invis greater than 50% to 50%.
 
 Kyrie Eleison
-On spawn set all teammates grav to 85/80/75/70/65/60/55/50%
+On spawn set all teammates with gravity higher than 85/80/75/70/65/60/55/50% to 85/80/75/70/65/60/55/50%.
 
 Divinum Flamen
 4/8/12/16/20/24/28/30% chance on hit to burn the enemy for 6 seconds. 5dmg/0.5s
