@@ -12,7 +12,7 @@ Blink (ability)
 Instantly teleport to the location you are aiming at. 200/400/600/800/1000/1200/1400/1600 unit max range. 4 second cooldown. if you try to aim too far away this fails and you will have to wait out the cooldown.
 
 Fluctuating Maelstrom
-3/6/9/12/15/18/21/25% chance on hit to impale the enemy
+3/6/9/12/15/18/21/25% chance on hit to impale the enemy and slow them by 50% for 3 seconds.
 
 Occult Essence
 Spawn with 10/15/20/25/30/35/40/45% increased movement speed.
