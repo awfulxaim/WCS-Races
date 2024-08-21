@@ -3,7 +3,7 @@ Sylvanas Windrunner II
 scout and knife only.
 
 Black Arrow
-4/8/12/16/20/24/28/32% chance on hit to deal 60% extra damage. If this kill the enemy they respawn on your team for the round.
+4/8/12/16/20/24/28/32% chance on hit to deal 60% extra damage. If this kills the enemy they respawn on your team for the round.
 
 Fade
 spawn with 35/40/45/50/55/60/65/70% invisibility.
