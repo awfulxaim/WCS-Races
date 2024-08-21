@@ -10,7 +10,7 @@ Spiked Carapace
 Spawn with 30/40/50/60/70/80/90/100 more HP and 100/120/130/150/160/180/190/200 armor and helmet. 20/23/26/29/31/34/37/40% chance when hit to deal 20% mirror damage.
 
 Relentless Pursuit
-Spawn with 3/6/9/12/15/18/25% increased movement speed.
+Spawn with 3/6/9/12/15/18/25% increased movement speed. your movement speed increases by 10% every 30 seconds for the entire round.
 
 Permafrost (ability)
 Root all enemies in a 100/200/300/350/400/500/550/600 unit radius for 4 seconds. 28 second cooldown.
