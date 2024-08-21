@@ -12,7 +12,7 @@ Uppercut
 30% chance on hit to impale the enemy and deal 10/18/25/32/40/47/55/60% more damage.
 
 Unbalancing Strike
-6/8/10/12/14/16/18/20% chance on hit to disarm the enemy and restrict them from picking up that gun for 2 seconds.
+6/8/10/12/14/16/18/20% chance on hit to disarm the enemy and restrict them from picking up that gun for 2 seconds. when this procs, force the enemy to look straight up.
 
 Vigilance
 Spawn with 25/30/35/40/45/50/55/60 more HP.
