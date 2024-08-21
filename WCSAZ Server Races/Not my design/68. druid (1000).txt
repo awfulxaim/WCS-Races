@@ -1,6 +1,6 @@
 Druid
 
-USP-S only, no knife.
+USP-S only, no knife. can heal itself to a maximum of 265HP.
 
 Mark of the Wild
 You and all teammates spawn with 3/6/9/12/15/18/21/25 more HP.
