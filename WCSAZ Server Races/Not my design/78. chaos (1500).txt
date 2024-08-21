@@ -9,7 +9,7 @@ NSC-SP01 Sleipnir
 Spawn with 5/15/25/35/45/55/65/75% invisibility.
 
 Blink (ability)
-Instantly teleport to the location you are aiming at. 200/400/600/800/1000/1200/1400/1600 unit max range. 4 second cooldown. if you try to aim too far away this fails and you still have to wait out the cooldown.
+Instantly teleport to the location you are aiming at. 200/400/600/800/1000/1200/1400/1600 unit max range. 4 second cooldown. if you try to aim too far away this fails and you will have to wait out the cooldown.
 
 Fluctuating Maelstrom
 3/6/9/12/15/18/21/25% chance on hit to impale the enemy
