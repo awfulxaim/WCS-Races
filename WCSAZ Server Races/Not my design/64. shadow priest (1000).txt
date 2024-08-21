@@ -13,7 +13,7 @@ Psychic Horror
 1/2/3/4/5/6/7/8% chance on hit to disarm the enemy and slow them by 60% for 6 seconds.
 
 Inner Fire
-Spawn with 8/12/16/20/24/28/32/36% increased movement speed.
+Spawn with 8/12/16/20/24/28/32/36% increased movement speed and 100 armor and helmet.
 
 Shadowform (ultimate)
 Your ability no longer heals and instead deals the damage it would heal to enemies you aim at, your poison's damage is doubled, and psychic horror roots for 2 seconds then slows them by 80% for 4 seconds. 60 second initial cooldown. can only be used once per round.
