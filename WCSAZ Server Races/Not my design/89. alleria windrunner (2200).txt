@@ -1,7 +1,7 @@
 Alleria Windrunner
 
 Searing Arrows
-3/6/9/12/15/18/21/24% chance on hit to set the enemy on fire for 2.5 seconds. 2dmg/0.5seconds. enemies burning from this skill have a burning vfx over their player model, partially blinding them and making them easier to see.
+3/6/9/12/15/18/21/24% chance on hit to set the enemy on fire for 2.5 seconds. 5dmg/0.5seconds. enemies burning from this skill have a burning vfx over their player model, partially blinding them and making them easier to see.
 
 Aimed Shot
 30% chance on hit to deal 25/30/35/40/45/50/55/60% more damage.
