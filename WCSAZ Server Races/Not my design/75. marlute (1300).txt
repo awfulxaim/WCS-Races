@@ -18,7 +18,7 @@ NSC-D.Matter Hoverboots
 Spawn with 30/35/40/45/50/55/60/65% reduced gravity.
 
 Terrestrial Coffin
-2/4/6/8/10/12/14/16% chance on hit to bury the enemy for 6 seconds. buried enemies only have their head and shoulders visible above the ground.
+2/4/6/8/10/12/14/16% chance on hit to bury the enemy for 6 seconds. buried enemies only have their head and shoulders visible above the ground. buried enemies always grant a soul charge when you kill them if you have any points in soul extraction.
 
 Soul Conversion
 If you have a soul charge when you die, respawn 12/11/10/9/8/7/6/5 seconds later at the location you died at.
