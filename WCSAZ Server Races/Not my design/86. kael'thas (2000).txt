@@ -10,7 +10,7 @@ Flame Strike
 You have a 5/10/15/20/25/30/35/40% chance when you hit an enemy to set them on fire, dealing 5 damage every half second for .5/1/1.5/2/2.5/3/3.5/4 seconds.
 
 Nether Beam
-8/12/16/20/24/28/32/36% chance on hit to deal 10 extra damage to each enemy in a 200 unit radius of another enemy for each enemy in that radius. NOTE: this does not only deal damage to enemies near the enemy you hit, but to all enemies near another enemy.
+4/8/12/16/20/24/28/32% chance on hit to deal 10 extra damage to each enemy in a 200 unit radius of another enemy for each enemy in that radius. NOTE: this does not only deal damage to enemies near the enemy you hit, but to all enemies near another enemy.
 
 Gravity Lapse
 You spawn with 5/10/15/20/25/30/35/40% decreased gravity. 5/10/15/20/25/30/35/40% chance on hit to set the enemies gravity to 25% for 2 seconds then set it to 200% for 2 seconds.
