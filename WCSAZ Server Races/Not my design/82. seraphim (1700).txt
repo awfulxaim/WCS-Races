@@ -13,7 +13,7 @@ Angelus Pennae
 Your team spawns with 5/10/15/20/25/30/35/40 more HP.
 
 Curatio (ability)
-Heals the teammate you aimed at for 25/30/35/40/45/50/55/60 HP over 5 seconds to a max of 200 HP. if no target selected (aimed at) it heals yourself. 20 second cooldown
+Heals the teammate you aimed at for 25/30/35/40/45/50/55/60 HP over 5 seconds to a max of 200 HP. you cannot heal yourself with this. 20 second cooldown
 
 Via Caelum (ability2)
 Heal yourself for 50 HP over 5 seconds, maxes at 200 HP. 60/55/50/45/40/35/30/25 second cooldown
