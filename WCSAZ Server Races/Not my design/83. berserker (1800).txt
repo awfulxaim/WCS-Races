@@ -2,6 +2,7 @@ Berserker
 
 knife only
 
+Berserk
 Spawn with 10/19/29/38/48/57/67/75% increased movement speed and 15/20/25/30/35/40/45/50 more HP.
 
 Furious Leap
