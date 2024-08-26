@@ -19,4 +19,4 @@ Meld
 spawn with 63/59/55/51/47/43/39/36% visibility.
 
 Holy Nova
-Deal 5 damage to all enemies in a 400 unit radius and heal yourself and all teammates for 5 HP in a 400 unit radius. 18/16/14/12/10/9/8/6 second cooldown.
+Deal 5 damage to all enemies in a 400 unit radius and heal yourself and all teammates for 5 HP in a 400 unit radius. 19/17/15/13/11/9/7/5 second cooldown.
