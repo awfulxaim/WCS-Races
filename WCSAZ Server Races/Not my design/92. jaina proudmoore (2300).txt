@@ -16,4 +16,4 @@ Polymorph
 2/4/6/8/10/12/14/16% chance on hit to remove all weapons from the enemy, set their speed to .5, and set their player model to a chicken for 6 seconds. after that time, their weapons, speed, and model is set back to what they were.
 
 Deep Freeze (ultimate)
-Root all enemies in a 225/250/275/300/325/350/375/400 unit radius for 10 seconds. 30 second cooldown.
+Root all enemies in a 225/250/275/300/325/350/375/400 unit radius for 10 seconds. 60 second cooldown.
