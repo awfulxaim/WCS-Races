@@ -16,4 +16,4 @@ Celestial Power (ability2)
 Deal 3/6/9/12/15/18/21/25 damage to all enemies. 30 second cooldown.
 
 Big Bang (ultimate)
-Root yourself and become unable to shoot for 15 seconds. After 15 seconds you deal 6000 damage to all enemies in a 300/400/500/600/700/800/900/1000 unit radius. There is an audio warning which plays when you activate this and makes a noise coming from you every 3 seconds. once per round cooldown. 35 second initial cooldown.
+Root yourself and become unable to shoot for 15 seconds. After 15 seconds you deal 6000 damage to all enemies in a 700/800/900/1000/1100/1200/1300/1400 unit radius. There is an audio warning which plays when you activate this and makes a noise coming from you every 3 seconds. once per round cooldown. 35 second initial cooldown.
