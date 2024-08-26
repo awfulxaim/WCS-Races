@@ -13,7 +13,7 @@ Fear (ability)
 All enemies on the map are pushed away from you hard once every second for 6 seconds. 31/30/29/28/27/26/25/24 second cooldown.
 
 Finger of Death
-1% chance on hit to deal 25/50/75/100/125/150/175/200 extra damage.
+2% chance on hit to deal 25/50/75/100/125/150/175/200 extra damage.
 
 Doomfire (ultimate)
 for the next 6 seconds, any enemy that comes within 400 units of you takes 4/8/12/16/20/24/28/30 damage per second.
