@@ -16,4 +16,4 @@ Pursuit of Justice
 Spawn with 4/8/12/16/20/24/28/32% increased movement speed.
 
 Divine Shield
-Become invulnerable to damage for 1/2/3/4/5/6/7/8 seconds. 60 second cooldown.
+Become invulnerable for 1/2/3/4/5/6/7/8 seconds, you cannot be affected by debuffs during this. 60 second cooldown.
