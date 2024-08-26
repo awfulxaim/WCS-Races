@@ -18,4 +18,4 @@ Master of Subtlety
 You spawn with 20/25/30/35/40/45/50/55% increased movement speed.
 
 Cheat Death
-3/6/9/12/15/18/21/25% chance when you would take lethal damage, evade that damage and become invulnerable for 1.5 seconds.
+4/8/12/16/20/24/28/33% chance when you would take lethal damage, evade that damage and become invulnerable for 1.5 seconds.
