@@ -7,7 +7,7 @@ Soul Charge
 You spawn with 5/10/15/20/25/30/35/40% increased movement speed.
 
 Grip of the Legion
-3/6/9/12/15/18/21/24% chance on hit to slow the enemy by 25/30/35/40/45/50/55/60% for 4 seconds. after the 4 seconds the enemy gets their movement speed back 5% at a time every second.
+3/6/9/12/15/18/21/24% chance on hit to slow the enemy by 25/30/35/40/45/50/55/60% for 4 seconds. after the 4 seconds the enemy gets their movement speed back 10% at a time every second.
 
 Fear (ability)
 All enemies on the map are pushed away from you hard once every second for 6 seconds. 31/30/29/28/27/26/25/24 second cooldown.
