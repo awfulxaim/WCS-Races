@@ -1,6 +1,6 @@
 Sylvanas Windrunner
 
-Restricted to Scout, TMP, M4, and USP. Spawns with USP. Can pick up bomb but not kit.
+Restricted to Scout, TMP, M4(A1-S), and USP. Spawns with USP. Can pick up bomb but not kit.
 
 Meld- Meld into the shadows.
 
