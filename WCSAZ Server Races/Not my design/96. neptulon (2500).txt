@@ -16,4 +16,4 @@ Water Shield
 Spawn with 30/40/50/60/70/80/90/100 more HP.
 
 Vortex
-20/30/40/50/60/70/80/90% chance when you die to lay a 150 unit radius blue ward. If an enemy steps in the radius the ward is destroyed and a black hole is spawned in that location. the black hole is a 400 unit radius ward that pulls all enemies on the map toward it with double the force of a void grenade every second for 8 seconds. enemies who enter the radius of the black hole are instakilled.
+20/30/40/50/60/70/80/90% chance when you die to lay a 150 unit radius blue ward. If an enemy steps in the radius the ward is destroyed and a black hole is spawned in that location. the black hole is the same as the black hole from Dark Messenger on Diablos but smaller.
