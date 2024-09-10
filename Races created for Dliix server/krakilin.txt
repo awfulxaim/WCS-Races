@@ -1,0 +1,24 @@
+Krakilin
+
+Has 1 HP by default.
+
+Parralax Wave
+When you kill an enemy, 10/20/30/40% of the HP the enemy had before your killing blow is added to your next spawn's HP.
+
+Flowstone Mutation
+Spawn with 100 armor and helmet. You reduce X% damage per hit, where X is 5/10/15/20% of your current armor value.
+
+Rathi Brutality
+You have a 20% chance on hit to deal 50/60/70/75% extra damage.
+
+Quadrupedal
+Spawn with 110/115/120/125% movement speed.
+
+Rapid Growth
+You gain 2/5/7/10 more HP each time you spawn, stacking. this does not activate on your first spawn each map.
+
+Illusion of Truth
+100% chance when you are hit for you and the enemy who hit you to become 100% invisible for 1/1.5/2/2.5 seconds. A line is drawn from a random spot within 250 units of you to the enemy who hit you when you both become visible. that line lasts 5 seconds.
+
+Regeneration
+If you take a hit that would kill you, instead you lose $5000/$4000/$3000/$2000 and evade that hit instead. if you do not have enough money this cannot proc. If this procs but the damage kills you anyway (through dodge ignore or other means), respawn 5 seconds later where you died with all the equipment you died with.

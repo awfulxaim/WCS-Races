@@ -1,0 +1,21 @@
+Tone Titan
+
+G3SG1 and knife only. You deal 65% reduced damage with the G3SG1.
+
+Tracker Cannon
+Hitting an enemy grants you 1 "lock-on" for that enemy. headshots grant 1/2/2/3 lock-ons. each enemy can grant you a max of 3 lock-ons at a time. you can have a max of 3/6/9/12 lock-ons total at any one time. each lock-on lasts 15 seconds and its duration is refreshed when you hit them.
+
+Tracking Rockets (ability)
+Deal 5 damage to each enemy you have 3 lock-ons from every .2 seconds 4/5/6/7 times. This costs 3 lock-ons for each enemy it affects. No cooldown.
+
+Sonar Lock (ability2)
+Create a 300 unit ward where you are aiming that lasts 2 seconds. enemies who enter the ward get an outline around them for 6/8/10/12 seconds. You get 1/1/2/2 lock-ons for each enemy affected by your Sonar Lock ward.
+
+Particle Wall (ability3)
+Create an unbreakable wall of glass in front of you. Your shot damage is not reduced while shooting through the glass. enemy's damage is reduced to 0 while shooting through the glass. the wall lasts 8/10/12/14 seconds and its duration is reduced by 1 seconds for every bullet it blocks. 30 second cooldown.
+
+Core Charge
+100% chance on hit to reduce the cooldown of your ultimate by 1/2/3/4 seconds.
+
+Salvo Core (ultimate)
+after a 2 second delay, for the next 5 seconds deal 5 damage every .2 seconds to the enemy you are aiming at. where you are aiming is checked every .2 seconds and if you are not aiming at an enemy you miss out on that damage tick. 55/50/45/40 second cooldown.

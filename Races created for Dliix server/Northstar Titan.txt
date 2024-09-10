@@ -1,0 +1,24 @@
+Northstar Titan
+
+Scout and knife only.
+
+Cluster Missile (ability)
+create a 100 unit radius ward where you are aiming that lasts 5/6/7/8/9 seconds. Enemies who enter the ward range take 2/4/6/8/10 damage per second. 10 second cooldown.
+
+VTOL Hover
+You have high jump. Pressing jump while in the air sets your gravity to 0% and your movement speed to 1.07/1.14/1.20/1.27/1.33 for 3 seconds.
+
+Tether Trap (ability2)
+create 2 150 unit radius invisible wards and 2 potted plants phys objects 200 units away from each other where you are aiming, up to 300/450/600/750/900 units away from you. Enemies who enter the wards radii cannot leave that area for 6 seconds. Enemies who are or who become invulnerable cannot be effected. Shooting the potted plant destroys the ward and ends the effect early but causes the potted plant to explode like a grenade dealing damage in the area like a grenade would. 15 second cooldown. you can have up to 4 tether traps laid at a time.
+
+Plasma Railgun
+While zoomed in with the scout your shots gain extra damage over time. the longer you are zoomed the more damage you add to a max of 30/35/40/45/50 damage. it takes 5/4.5/4/3.5/3 seconds to max charge. Charged shots that penetrate walls, objects, or players deal damage to enemies as though they were direct hits. You have perfect accuracy with the scout while you are in the air. While zoomed there is an outline around all enemies.
+
+Core Charge
+100% chance on hit to reduce the cooldown of your ultimate by 1/2/3/4/5 seconds.
+
+Electric Smoke (ability3)
+Drop a smoke cloud. Enemies who enter the cloud take 1/2/3/4 damage per .5 seconds. 20 second cooldown.
+
+Flight Core (ultimate)
+Can only be activated while using VTOL Hover. Set your movement speed to 1.33/1.4/1.46/1.53/1.6 and refresh the hover duration. While you are hovering you deal 25 damage per second to the nearest enemy in a 300/450/600/750/900 unit radius that is in line of sight. 50 second cooldown.

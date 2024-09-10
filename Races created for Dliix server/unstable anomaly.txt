@@ -1,0 +1,28 @@
+Unstable Anomaly
+
+Knife only.
+
+Temporal Ghost
+You spawn with 1/2/3/4 ghost charges, that number is your maximum number of ghost charges. When you would take a damage instead lose one ghost charge, until you have none. You gain 1 ghost charge every 5 seconds.
+
+Time Heals All Wounds
+If you have less than 100 HP, heal yourself to 100HP after 10/8/6/5 seconds. If you die, this fails.
+
+Glimpse the Multiverse
+20/40/60/80% chance on hit to instantly teleport to another random enemy immediately afterward. this cannot proc if you killed the enemy with that hit.
+
+Omniscience
+100/110/120/130% chance when you die to respawn somewhere you have been that round after 3 seconds. every kill you get lowers the proc chance of this skill by 25%, respawning reduces the proc chance by 10%.
+
+El. Psy. Kongroo.
+This skill is like a quest. if you complete all the steps correctly in a single map it activates and remains active for the rest of the map. when you complete a step all other players (not the unstable anomaly) get a message in chat that says "$playername: El. Psy. Kongroo."
+
+1. Get a kill on a player with a hit that would have procced glimpse the multiverse.
+2. Die to extra damage while you have 4 ghost charges and 100 HP.
+3. Buy Blessed Aim, and either a galil or cz75 in the same round.
+4. Try to drop your knife.
+5. Kill a player that is more than 90% invisible.
+6. Die more than 4 times in one round.
+7. Press ultimate 3 times, then type "El. Psy. Kongroo." in chat, in the same round.
+
+When complete you become invulnerable and your knife attacks kill in one hit for the rest of the map but you cannot buy any shopmenu items, you cannot pick up the bomb, you cannot defuse, you cannot pick up hostages, and your skills do not proc any more.

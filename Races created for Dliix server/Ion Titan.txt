@@ -1,0 +1,21 @@
+Ion Titan
+
+UMP and Knife only. You deal 50% less damage with headshots. Your UMP has 40 round magazines and 400 reserve ammo.
+
+Laser Shot (ability)
+Lose 28/24/20/16/12 ammo to deal 20 damage to the enemy you aiming at. 20% chance that this deals 45 damage instead. if you have no ammo you cannot active this ability. no cooldown.
+
+Vortex Shield (ability2)
+When pressing and holding ability2 become invulnerable but unable to knife attack or shoot. Every second you are invulnerable you lose 8 ammo. if you run out of ammo you lose your invulnerability. when your invulnerability runs out or you let go of ability2 you deal all the damage you would have taken increased by 15/20/25/30/35% to the enemy you are aiming at. if you are not aiming at an enemy, no damage is dealt. You become bright blue while this is active and an electrical animation is played on your player model. You have a light blue tinted screen while this is active. no cooldown.
+
+Tripwire (ability3)
+Lose 14/10/6/2/0 ammo to lay three 25 unit wards (one ward every second) that last 12 seconds. any enemy that enters a ward area takes 35 damage and you deal that damage to any enemy in a 300 unit radius of the enemy who enter the radius. all 3 wards are destroyed when an enemy trips any one of the three. 10 second cooldown.
+
+Entangled Energy
+You gain 2/4/6/8/10 ammo when you headshot an enemy.
+
+Core Charge
+100% chance on hit to reduce the cooldown of your ultimate by 1/2/3/4/5 seconds.
+
+Laser Core
+after a 1 second delay, reduce your movement speed by .25, for the next 3.5/4/4.5/5/5.5 seconds you deal 15 damage per .2 seconds to the enemy you are aiming at. Who you are aiming at is checked every .2 seconds. if you are not aiming at an enemy while this is active you miss out on those damage ticks. 40 second cooldown.

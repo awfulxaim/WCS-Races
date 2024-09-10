@@ -1,0 +1,22 @@
+Salamander
+
+Fireglass
+when you spawn, if you killed a player last round, you gain 4/8/12/16/20 HP. this stacks
+
+Flamecache
+When you spawn, lose 20 HP, and gain 900/1800/2700/3600/4500 money.
+
+Scaled Scorch
+When you spawn, your other teammates (not including you) deal 1/2/3/4/5% more damage and gain 1/2/3/4/5 HP for each enemy you killed last round. Other Salamander players on your team get double this effect.
+
+Claws for Hire (ability)
+Salamander players on your team (including you) have a 1/2/3/4/5% chance on hit to deal 1/2/3/4/5% extra damage. this stacks with other Salamander players, increasing the % chance and extra damage. When you activate this, lose 2250 money and double the passive effect for yourself for this round.
+
+Territorial (1 level)
+Enemy Salamanders stack Claws for Higher chance and damage for you, too.
+
+Scales of Shale (ability2)
+Costs $7875/6750/5625/4500/3375 to activate. This cost is reduced by $900 for each other Salamander player on your team. For the next 4 seconds, you have a 100% chance on hit to deal 20% extra damage and heal for 20% of the damage dealt and are invulnerable.
+
+Combustion
+When you die, deal 4/8/12/16/20 damage multiplied by the number of Salamander players on the server divided evenly among all enemies in a 300 unit radius.

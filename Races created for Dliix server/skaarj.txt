@@ -1,0 +1,41 @@
+Skaarj
+
+Spawns with glock, decoy, and knife. restricted to knife, glock, scout, negev, mag-7, scar-20, AWP, and decoy grenade.
+
+[Bunnyhop]
+Hold down space to bunnyhop. explosions from any source (others grenades, your grenades, your rockets) push you away from them
+
+[Advanced Technology]
+Right clicking with the glock makes it full auto instead of burst.
+-------
+Shooting a player with the scout knocks them back. Right clicking with the scout does not zoom, instead, it fires a slow moving rocket phys object. if the rocket collides with anything it explodes dealing 55 damage. if you shoot the rocket with your scout it explodes and deals 85 damage instead.
+-------
+The negev has all of its ammo in its first mag instead of having reserve ammo. right clicking with the negev fires 50% faster but you have the same accuracy as if you were moving.
+-------
+right clicking with the mag-7 fires an HE grenade that explodes on impact instead.
+-------
+the scar-20 has 50 ammo in its mag and no reserve ammo.
+-------
+left clicking with the awp does not shoot, instead it fires a fast moving rocket phys object that explodes when it collides with anything dealing 110 damage to any enemy in a 100 unit radius of the explosion. right clicking throws a grenade that deals 120 damage.
+-------
+When you throw a decoy you can right click with a decoy in your hand to teleport instantly to wherever the thrown decoy is. Decoys do not activate but instead sit wherever they stopped for up to 60 seconds. only 1 decoy can be sitting at a time. you get a decoy as soon as you throw the previous one.
+-------
+right click knife attacks deal no damage, instead holding down right click charges your knife up. when an enemy enters a 75 unit radius of you while you are holding down right click, they take damage equal to 33 * the number of seconds you have held down right click up to a max of 135 damage.
+-------
+While you have more than 100 armor you take 75% reduced damage. While you have 150 or more armor, you take damage to your armor instead of your health.
+
+[Mutators]
+When you kill a player you get one of the following bonuses chosen randomly.
+Gain 5-50 HP rolled randomly, to a max of 100.
+Gain 20 HP, to a max of 100.
+Gain 100 HP, to a maximum of 199.
+Gain 50 armor, to a max of 100.
+Gain 100 armor, to a max of 101.
+Gain 150 armor, to a max of 150.
+you deal 300% damage for 25 seconds.
+gain 75% invisibility for 25 seconds.
+gain long jump and 50% gravity for three jumps. you get a free cape of soft landing.
+You can activate Redeemer this life.
+
+[Redeemer] (ultimate)
+Ignore gravity and constantly be pushed at 1.25 speed in the direction you are aiming, if you collide with anything you die and deal 200 damage to all enemies in a 1000 unit radius of you. If you are killed without colliding into anything, you deal 200 damage to all enemies in a 750 unit radius of you, and the player that killed you gets 500XP. You play a sound effect while this is active. You must have gotten the redeemer from your mutator skill to activate this.

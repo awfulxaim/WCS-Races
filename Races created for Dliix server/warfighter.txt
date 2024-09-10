@@ -1,0 +1,24 @@
+Warfighter
+
+M4A4, P250, HE, Smoke, Flash, and knife only.
+
+Level IV Plates
+You spawn with 20/40/60/80/100 armor and helmet. You take reduced damage equal to your armor value on chest shots. Your maximum damage reduction is 85% and your minimum is 15% as long as you have armor.
+
+Suppression
+100% chance on hit to blind the enemy by 2/4/6/8/10% and reduce their volume by that same amount for 3 seconds. This stacks. Enemies blinded more than 20% by this effect have their accuracy reduced by 5/10/15/20/25%.
+
+Ricochet
+3/6/9/12/15% chance when headshot to take 90% reduced damage from that hit, while you have armor.
+
+Weapons Training
+Your accuracy is increased while moving by 20/40/60/80/100%, recoil is not changed by this skill.
+
+Individual First Aid (ability)
+Become rooted for 3.5 seconds. After that duration, remove all poison, bleed, and burn debuffs and heal for 10/20/30/40/50 HP to a max of 100HP. 10 second cooldown.
+
+M855A1 Ammunition
+Your damage cannot be reduced but can be blocked or evaded. You deal 10/15/20/25/30% more damage to enemies with armor.
+
+Danger Close
+If you would take a lethal hit, instead grant the enemy who hit you XP for killing you then become 100% invisible and invulnerable and set your movement speed to 200%. After 5 seconds, you die and explode dealing 100/150/200/250/300 damage to all enemies in a 200 unit radius of you.

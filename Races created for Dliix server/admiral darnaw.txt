@@ -1,0 +1,19 @@
+Admiral Darnaw
+
+Rage
+Your armor is your rage. you have 30 maximum rage, if you ever have more than your maximum rage, set your rage to its maximum instead. You lose 10 rage per second if you have not been hit or gained rage in the last .75/1/1.25/1.5/1.75/2 seconds. you gain 3 rage when you hit an enemy. you deal 1% more damage with hits for each point of rage you have. you do not lose armor when you are hit.
+
+Admiral's Arrogance
+10/12/14/16/18/20% chance that when you would gain rage from a hit that you gain your maximum rage instead.
+
+Vengeful Cry (ability)
+Cannot be used unless you have taken damage in the last 3/4/5/6/7/8 seconds. For the next 4.5 seconds, all teammates (not you) in a 450 unit radius take 50% reduced damage. for that duration you cannot lose rage, you gain 3 rage per enemy in that radius up to a maximum of 25 rage gained, and your max rage is increased to 55. 28/26/24/22/20/18 second cooldown.
+
+Warlord's Mark (ability2)
+Enemies in a 450 unit radius are marked. While marked, all hits against them grant 3% life steal. Marked enemies who are bashed have a 5/10/20/30/40/50% chance to be bashed for double the duration. Enemies who are bashed by you grant you 10 rage. 20/18/16/14/12/10 second cooldown.
+
+Exploit Weakness
+Enemies with damage reduction instead take that much increased damage from your hits. Example, if an enemy has 35% damage reduction they instead take 35% MORE damage from you. 4/8/12/16/20/25% chance on hit when you hit an enemy that is not burning, stunned, or shocked, to burn, stun, or shock them. If you burn them, they are burned for 3.5 seconds. if you stun them, bash them for 1 second. if you shock them, they take 10% additional damage from hits for 6 seconds.
+
+Berserk (Ultimate) 1 level
+while active you lose 5 rage per second. each second this is active you lose 1 more rage per second. while this is active you also deal 1% more damage with hits for each point of rage you have. (this stacks with the first skill) you lose 5 rage when you activate this ultimate and must have at least 5 to activate. you cannot turn this ultimate off, it can only turn off when you run out of rage. no cooldown. you cannot have negative rage, if you would set your rage to 0.

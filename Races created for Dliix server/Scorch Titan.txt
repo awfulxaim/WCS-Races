@@ -1,0 +1,24 @@
+Scorch Titan
+
+Incendiary Grenade, Smoke grenade, and knife only. Scorch Titan has .9 movement speed and 125 HP on spawn.
+
+Firewall (ability)
+Create a line of eight 25 unit radius wards in front of you towards the direction you are aiming. the wards last 3/4/5/6/7 seconds. An enemy who enters the ward area of any of these wards is burned for 2 seconds with 5dmg/0.5sec. 14/13/12/11/10 second cooldown.
+
+Incendiary Trap
+Spawn with and get a smoke grenade every 15 seconds. You can see through your smoke grenades and enemies see them as green in color. Your smoke lasts 12 seconds (they last 20 normally). Your incendiary grenades, Firewall wards, Thermal Shields, Flame Core, and burning players that enter the smoke area cause the smoke to be destroyed and turned into molotov fire on the ground that lasts 4/5/6/7/8 seconds.
+
+Thermal Shield (ability2)
+Pressing and holding ability2 makes you invulnerable to hits anywhere besides your legs after a .3 second delay. you can remain invulnerable for up to 3/4/5/6/7 seconds but cannot throw grenades or attack with the knife while invulnerable. While you are invulnerable you deal 20/25/30/35/40 damage per second to enemies you touch. 3 second cooldown. your player model is bright orange while this is active, a firey animation is played on your player model, and your screen is tinged orange.
+
+Thermite Launcher
+Spawn with an incendiary grenade. You get an incendiary grenade 2/1.9/1.8/1.7/1.6 seconds after you've thrown your last one. Your Incendiary grenades are thrown faster and farther. Hitting an enemy directly with an incendiary grenade deals 50 extra damage. Hitting an enemy directly with a smoke grenade deals 10 extra damage. You have a 100% chance on direct hit with an incendiary grenade to burn the enemy for 3 seconds (5dmg/0.5sec).
+
+Tempered Plating
+You take no damage from your own fires. You take 35/45/55/65/75% reduced damage from headshots and block all extra damage that would be dealt from skills when you are headshot.
+
+Core Charge
+When you burn an enemy (with a skill or with your ground fire) reduce the cooldown of your ultimate by 4/5/6/7/8 seconds. This can only proc once per second.
+
+Flame Core
+after a 2 second delay Create 3 wards in front of you towards the direction you are aiming, each ward is placed just on the edge of the last one. the first ward is a 50 unit ward, the second is a 100 unit ward, and the third is a 200 unit ward. when the wards are created an explosion occurs at each of their centers dealing 45 damage each. The wards last 2 seconds and burn any enemy who enters their area for 2 seconds (5dmg/0.5sec). the wards are then destroyed and replaced with molotov fire that lasts 12 seconds. 60 second cooldown.

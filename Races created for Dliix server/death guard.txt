@@ -1,0 +1,25 @@
+Death Guard
+
+spawns with and is restricted to deagle, ump45, smoke grenade, and knife.
+
+Armour of Pestilence
+Spawn with 25/50/75/100/125/150 more HP but your movement speed is reduced by .05/.1/.15/.2/.25/.3. You cannot be bashed, rooted, or buried.
+
+Sigil of Decay
+16/20/24/28/32/36% chance when hit to create a dark green smoke cloud that you can see through. 100% chance when you die to create a dark green smoke cloud. Enemies who enter your smoke clouds created by Sigil of Decay take 1/3/5/7/9/10 damage per second and make a choking and coughing noise.
+
+Dark Halo
+You spawn with 100 armor and helmet. You take reduced damage equal to 2/4/6/8/10/12% of your current armor.
+
+Manifest Disease (ability)
+Opens a menu where you can select a disease to imbue your smoke grenade with. Your smoke grenades make bright green smoke clouds.
+Diseases:
+Bonewrack- enemies who walk into your smoke are slowed by .2/.3/.4/.5/.6/.7 for 10 seconds. while they are slowed they take 2 damage per second. when this disease ends that enemy takes an additional 30 damage.
+Destroyer Plague- enemies who walk into your smoke take 5 damage per second for 5/6/7/8/9/10 seconds. If an enemy dies to this damage, a random player on your team is respawned.
+Ferric Blight- enemies who walk into your smoke lose 4/8/12/16/20/25 armor per second for 5 seconds. If they run out of armor they take 15 damage per second instead.
+Mortlock's Disease- enemies who walk into your smoke take 75/100/125/150/175/200% more damage from hits for the rest of the round.
+Doubtworm- enemies who walk into your smoke take 1/2/3/4/5/6 damage per second for 6 seconds. if another enemy enters a 200 unit radius of the afflicted enemy, they also get afflicted. this can spread to any number of enemies and can spread back to the original enemy if they are not currently affected.
+Torment- enemies who walk into your smoke take 5/10/15/20/25/30 damage. they do not take any additional damage unless they leave and re-enter the smoke.
+
+Nurgle's Rot (ultimate)
+A random enemy takes 2 damage per second for 50/90/130/170/210/250 seconds. if any other enemy enters a 200 unit radius of that enemy they become afflicted by Nurgle's Rot also. Enemies who die while under the effect of Nurgle's Rot create an invisible 75 unit ward that gives enemies who walk into it Nurgle's Rot. Enemies affected by Nurgle's Rot cannot heal. 20 second cooldown. you can only activate this once per round. this pierces ultimate immunity.

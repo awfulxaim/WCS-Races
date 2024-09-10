@@ -1,0 +1,21 @@
+Slugger
+
+Nova, 5-7, and knife only.
+
+Barrikada
+You have a 10/20/30/40/50/60% chance on hit with the nova to deal extra damage equal to 10% of the enemy's current velocity. This can only proc if the enemy's velocity is greater than 220. (note: normal movement speed with the AK is 215.)
+
+Light's Out
+100% chance on headshot with the 5-7 to deal 10/20/30/40/50/60% of that damage as extra damage. This extra damage cannot be evaded or blocked, even by invulnerability. This means that if you would hit someone with a helmet in the head and they evade when they would have taken 115 damage, instead they evade 46 of the damage, and take 69 extra damage through the evasion. An enemy who does not evade, block, or become invulnerable would not take any different damage than a normal headshot.
+
+Dystrophy
+100% chance on hit with the nova to reduce the damage that enemy deals to you by 50/60/70/80/90/100% for .15/.3/.45/.6/.75/.9 seconds. You gain armor equal to the damage you would take when hit by an enemy inflicted with Dystrophy. Hitting an enemy already inflicted with Dystrophy refreshes the timer.
+
+Paranoia (ability2)
+Add 25/23/21/19/17/15 damage to the next hit you take. If you live through that hit you are instantly teleported behind the enemy who hit you, facing their back. 5 second cooldown
+
+Ataxia (ability)
+You lay an invisible X unit radius ward that is invisible to enemy players and lasts 65 seconds. If an enemy enters the ward area they are rooted for 1 second, then all of their movement keys and mouse inputs are inverted and they are drugged for the next 5/6/7/8/9/10 seconds. You can lay up to 3 of these wards per round. 10 second cooldown.
+
+Palinopsia (ultimate)
+Become knife only. You get 1.45 movement speed and you are skating. while this is active you have a 30% chance to evade and you pop in and out of 100% invisibility every 1 second. Dystrophy effects your knife while this is active. You have a 10/20/30/40/50/60% chance on hit while this is active to insta-kill with the knife. You cannot turn this ultimate off once activated.

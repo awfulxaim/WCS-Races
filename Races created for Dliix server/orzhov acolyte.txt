@@ -1,0 +1,16 @@
+Orzhov Acolyte
+
+Dispatch
+3/6/9/12/15% chance on hit to bash the enemy for 1 second, when this procs for the 3rd time on the same enemy in a single round instantly kill that enemy instead.
+
+Midnight Charm
+2/4/6/8/10% chance on hit to remove all ammo from the enemy's mag. Add that much ammo to your mag. When this procs deal 10 extra damage to that enemy and you heal for 10 HP.
+
+Afflict
+4/8/12/16/20% chance on hit to deal 10 extra damage and reduce the damage that enemy deals by 10% for the rest of the round. this stacks.
+
+Altar's Light
+5/10/15/20/25% chance on hit to set the player's gravity, speed, and invisibility to default for 5 seconds. When this procs on an enemy they lose a random shopmenu item they have purchased. this can proc on shooting teammates, but only if they have lower than 1.0 speed or higher than 100% gravity.
+
+The Long Goodbye
+100% chance on hit to deal 30 extra damage to enemies with 10/20/30/40/50 or less HP. This damage cannot be evaded or reduced and can proc on invulnerable enemies, but can be blocked by ultimate immunity.

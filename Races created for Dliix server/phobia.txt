@@ -1,0 +1,22 @@
+Phobia
+
+Fear of Being Watched (ability)
+All players can be seen through walls unless they are standing still for the next 3/6/9/12/15 seconds. This does not affect you. 35 second cooldown.
+
+Fear of the Dark
+All players have a 20% chance on hit to blind the enemy by 2/4/6/8/10% for the rest of the round. This stacks. Being flashbanged removes this effect. This does not affect you.
+
+Fear of Failure
+When the enemy team loses the round, they spawn with 5/10/15/20/25 less HP the next round. If your team loses the round, they spawn with 5/10/15/20/25 more HP.
+
+Fear of Loneliness (ability2)
+All players are poisoned for 2 damage per second until they enter a 1000/800/600/400/200 unit radius of a teammate. This does not affect you. 40 second cooldown.
+
+Fear of Being Trapped (ability3)
+Lay a 300 unit radius ward that deals no damage and lasts for the entire round. Any player who enters the ward is rooted for 1/2/3/4/5 seconds; this affect can only proc when a player enters the ward and cannot proc again until the player leave and re-enters the ward radius. Players who have been affected by this ward are bashed for .5 seconds when they take damage for the rest of the round. you cannot be affected by this ward. 30 second cooldown.
+
+Fear of Lost Teeth
+All players have a 20% chance on hit to reduce the damage dealt by the player they hit by 2/4/6/8/10% for the rest of the round. This stacks. When a player gets a kill remove all debuffs from this skill on that player. You cannot have your damage reduced by this affect.
+
+Fear of Missing Out (ultimate)
+For the next 6 seconds, enemies who shoot lose 2/4/6/8/10HP per shot fired and teammates lose half that much for each shot they fire. You are unaffected by this. 30 second cooldown.

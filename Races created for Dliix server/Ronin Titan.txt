@@ -1,0 +1,24 @@
+Ronin Titan
+
+Xm1014 and Knife only. Right click deals no damage.
+
+Arc Wave (ability)
+Create a 75 unit ward that quickly moves away from you and lasts 2/3/4/5 seconds, any enemy caught in it is slowed by 75% for 3 seconds and takes 10 damage. This has two charges before cooldown starts. 12 second cooldown.
+
+Phase dash (ability2)
+You spawn with longjump. this does not get better with levels. Activate this ability to become 100% invisible and invulnerable for 3 seconds. You cannot attack while invulnerable. 12/10/8/6 second cooldown.
+
+Electric Smoke (ability3)
+Drop a smoke cloud. Enemies who enter the cloud take 1/2/3/4 damage per .5 seconds. 20 second cooldown.
+
+Sword Block
+You take 40/50/60/70% reduced damage from guns while your knife is out and you are holding right click.
+
+Ricochet rounds
+Shots from your shotgun bounce off walls up to 1 time.
+
+Core Charge
+100% chance on hit to reduce the cooldown of your ultimate by 1/2/3/4 seconds.
+
+Sword Core (ultimate)
+Become knife only for 12 seconds. Sword block reduces 73/77/81/85% instead of 70%. Arc wave does 12/13/14/15 damage instead of 10. Your knife attacks deal 150/200/250/300% damage. If you kill an enemy while this is active, increase the duration by 5/6/7/8 seconds up to a max of 12 seconds. 60 second cooldown.
