@@ -1,0 +1,18 @@
+MP9 Tactician
+
+Spawns with and is restricted to the MP9. requires total level 300.
+
+MP9 Rush!
+You spawn with 9/28/27/36% increased movement speed.
+
+Lift Off!
+6/12/18/24/30% chance to set the enemy's gravity to 40/30/20/10% for 10 seconds. This cannot proc on an enemy already affected by it.
+
+Supplies
+Your MP9 has 5/10/15/20 more rounds in its mag and has double the reserve ammo.
+
+Cybernetic Implant
+5/10/15/20% chance on hit to gain 20/30/40/50% of the damage dealt back as HP.
+
+Cyber CPR
+50/60/70/80% chance to respawn where you died, once per round.

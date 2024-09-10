@@ -1,0 +1,18 @@
+Ultimate Warrior
+
+Spawns with an M4A4. requires total level 260
+
+Ultimate God
+10/20/30/40/50% chance to block an ultimate when it would affect you.
+
+Ultimate Supplies
+Spawn with 60/70/80/90/100 armor and helmet and one of each grenade.
+
+Ultimate Dodge
+5/10/15/20/25% chance to evade gun damage.
+
+Ultimate Speed Boost
+Spawn with 5/10/15/20/25% increased movement speed
+
+Jetpack! (ultimate)
+press ultimate to begin flying. 9/8/7/6/5 second cooldown.

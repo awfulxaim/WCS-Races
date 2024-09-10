@@ -1,0 +1,18 @@
+Guerilla Gunman
+
+Restricted to the glock, p2000, and p250. requires total level 350
+
+Dirty Tactics
+Pick a gun. The glock has a 4/8/12/16/20/25% chance on hit to paralyze for .5 seconds. P250 has a 4/8/12/16/20/25% chance to leech 50% of the damage dealt. P2000 has a 4/8/12/16/20/25% chance to deal 75% extra damage.
+
+Ammunition Stockpile
+You gain 1 ammo in your mag every 6/5/4/3/2/1 second.
+
+Ambush Advantage
+You have a 15/30/45/60/75/90% chance when you hit someone while crouched to ignore their evasion. You have a 5/10/15/20/25/30% chance to evade while crouched.
+
+Strength Against Numbers
+Your proc chance for each skill increases by 1% for each teammate that dies. You can gain a maximum of 5/6/7/8/9/10% bonus proc chance.
+
+Yowie Suit (ultimate)
+Get a G3SG1 and 75% invisibility for 6/8/10/12/14/16 seconds. 60 second cooldown.
