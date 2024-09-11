@@ -6,7 +6,7 @@ Spiraling Gale
 3/5/9/12/15/18% chance on hit to make the enemy look directly away from you.
 
 Gust of Wind
-Your hit shots knock the enemy back, missed shots knock enemies away from the bullet impacts. the knockback increases with levels. grenades also knock enemies away from their center if enemies take damage from them.
+Missed shots knock enemies away from the bullet impacts. the knockback increases with levels. grenades also knock enemies away from their center if enemies take damage from them.
 
 Vortex Grenades
 Your grenades pull enemies in a 150/200/250/300/350/400 radius towards the grenade before they explode.
