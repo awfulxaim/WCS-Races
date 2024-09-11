@@ -1,0 +1,18 @@
+Water Spirit
+
+Spawns with a glock. Not restricted to any weapon.
+
+Water Up
+Spawn with 5/10/15/20/25/30% increased movement speed.
+
+Water Beam (ability)
+Your hits deal 5 extra damage on hit and push enemies away from you for 6 seconds. increased push with each level. 20/18/16/14/12/10 second cooldown.
+
+Water Grenades
+You HE grenades slow by 10/20/30/40/50/60% for 2/3/4/5/6/7 seconds.
+
+Thirsty! (ability2)
+You gain 1/2/3/4/5/6 charges every time you hit an enemy. Press ability2 to lose all your charges and heal for the amount of charges you lost.
+
+Gone Teleport (ultimate)
+Human teleport. If you hit a wall root yourself there and become 100% invis and glock only. While frozen you have standing accuracy. Your invisibility slowly decays while frozen. Landing on the ground resets all buffs/debuffs from this skill. 7/6/5/4/3/2 second cooldown.

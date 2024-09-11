@@ -1,0 +1,33 @@
+Link
+
+knife only. requires total level 1080.
+
+Master Sword
+Spawn with 10/20/30/40/50% increased movement speed and deal 3/6/9/12/15 extra damage with the knife.
+
+Lens of Truth
+You see the outline of enemies that are 70% or more invis and within 400/500/600/700/800/900 units of you.
+
+Magic Arrows (ability)
+You get a scout with 1 shot. 14/12/10/8/6 second cooldown. 50% chance on hit with the scout to burn the enemy for 2.5 seconds, blind the enemy for 1.5 seconds or paralyze the enemy for 1 second.
+
+Longshot (ability2)
+Pull yourself toward the location you are aiming. similar to spiderman. cooldown decreases with levels.
+
+Golden Gauntlets
+30/40/50/60/70% chance on kill to gain 5/10/15/20/25 HP.
+
+Fairy Magic (ultimate)
+Opens a menu, allowing you to select which magic to use. Those Magics are:
+
+Spin Attack
+Deal 11/22/33/44/55 damage to all enemies in a 200 unit radius. 10 second cooldown.
+
+Din's Fire
+Burn all enemies in a 400/450/500/550/600 unit radius for 3 seconds. 35 second cooldown.
+
+Farore's Wind
+Mark your current location and human teleport where you are aiming, activate ultimate again to instantly teleport back to your marked location. distance increases with levels, cooldown decreases with levels.
+
+Nayru's Love
+Become invulnerable for 2/2.5/3/3.5/4 seconds. You cannot activate your ultimate or abilities while invulnerable.
