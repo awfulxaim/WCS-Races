@@ -2,7 +2,7 @@ Trogdor The Burninator
 
 requires total level 680
 
-Wing-a-ling
+Tiny Wings
 spawn with 5/10/15/20/25/30% increased movement speed.
 
 Burninator Breath
