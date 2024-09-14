@@ -3,16 +3,16 @@ Trogdor The Burninator
 requires total level 680
 
 Tiny Wings
-spawn with 5/10/15/20/25/30% increased movement speed.
+spawn with 5/10/15/20/25/30% increased movement speed. (originally had 20/40/60/80% increased movement speed)
 
 Burninator Breath
-5/10/15/20/25/30% chance on hit to burn the enemy for 2.5 seconds.
+5/10/15/20/25/30% chance on hit to burn the enemy for 2.5 seconds. (originally a 15/25/30/30% chance to burn for 1.5/2.5/3/3.5 seconds at 5dmg/.5sec)
 
 Burnination Wards (ability)
-Lay a 200 unit radius ward that burns enemies who enter it for 3 seconds. lasts 15 seconds. 30 second cooldown.
+Lay a 200 unit radius ward that burns enemies who enter it for 3 seconds. lasts 15 seconds. 30 second cooldown. (originally allowed you to lay 1/2/3/5 wards that were 220/240/260/240 units in radius and dealt 10 damage per second)
 
 Failure to Flight
-Spawn with 35/40/45/50/55/60% reduced gravity.
+Spawn with 35/40/45/50/55/60% reduced gravity. (originally reduced gravity by 32/40/48/56%)
 
 Burninating the Countryside (ultimate)
-Burn a random enemy for 2.5 seconds. 40/35/30/25/20/15 second cooldown.
+Burn a random enemy for 2.5 seconds. 40/35/30/25/20/15 second cooldown. (originally burned all enemies for 3/4/5/6 seconds with a 35 second cooldown.)
