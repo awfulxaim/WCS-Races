@@ -12,7 +12,7 @@ Hide in Shadows
 spawn with 30/40/50/60/70% increased invisibility.
 
 Anthrax Bullets
-5/10/15/20/25% chance on hit to shake the enemy and impale them.
+5/10/15/20/25% chance on hit to shake the enemy for 2.5 seconds and impale them.
 
 Terrorist Radar
 A red line only you can see is drawn from you to enemies in a 200/250/300/350/400 unit radius every .25 seconds.
