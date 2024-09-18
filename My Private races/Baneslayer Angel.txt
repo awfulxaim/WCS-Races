@@ -21,14 +21,14 @@ Spawn with 95/90/85/80/75/65/55/45% gravity.
 
 First Strike:
 The first to attack is the first to be victorious.
-Spawn with 135% Speed.
+Spawn with 104/108/112/116/120/124/128/135% Speed.
 
 LifeLink:
 Baneslayer rends flesh but not souls.
-60% Chance on hit to gain 40% of the damage you deal back in HP.
+60% Chance on hit to gain 5/10/15/20/25/30/35/40% of the damage you deal back in HP.
 
 Smite:
 Smite the evil wherever it lurks.
-20% chance to deal 250% damage. If this proc kills the opponent deal 10 damage to the entire enemy team.
+20% chance to deal 30/60/90/120/150/180/210/250% damage. If this proc kills the opponent deal 10 damage to the entire enemy team.
 
 Max Skill Level: 8 
