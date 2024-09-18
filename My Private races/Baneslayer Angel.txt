@@ -13,7 +13,7 @@ Protection from unholy beings.
 
 Dragon Protection:
 Protection from the most savage of the flying beasts.
-30/40/50/60/70/80/90/100% chance to spawn with stun immunity, impale immunity, burn immunity.
+30/40/50/60/70/80/90/100% chance to spawn with stun immunity, push immunity (impale, knockback, and the like), and burn immunity.
 
 Flying:
 On the wings of angels.
@@ -21,7 +21,7 @@ Spawn with 95/90/85/80/75/65/55/45% gravity.
 
 First Strike:
 The first to attack is the first to be victorious.
-Spawn with 104/108/112/116/120/124/128/135% Speed.
+Spawn with 104/108/112/116/120/124/128/135% Speed. You deal 100% extra damage on hit if that enemy has not taken any damage yet this round.
 
 LifeLink:
 Baneslayer rends flesh but not souls.
