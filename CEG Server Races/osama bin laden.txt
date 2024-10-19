@@ -1,0 +1,18 @@
+Osama Bin Laden
+
+Spawns with and is restricted to AK, HE grenade, and knife. requires total level 680.
+
+Death to Infidels!
+5/10/15/20/25% chance on hit to gain 5 ammo.
+
+Allahu Akbar!
+10/20/30/40/50% chance when you throw a grenade to get a new one. 100% chance when you kill an enemy to get an HE grenade.
+
+Hide in Shadows
+spawn with 30/40/50/60/70% increased invisibility.
+
+Anthrax Bullets
+5/10/15/20/25% chance on hit to shake the enemy and impale them.
+
+Terrorist Radar
+A red line only you can see is drawn from you to enemies in a 200/250/300/350/400 unit radius every .25 seconds.

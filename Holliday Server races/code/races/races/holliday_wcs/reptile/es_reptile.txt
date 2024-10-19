@@ -1,0 +1,159 @@
+﻿block load
+{
+  es_xset entitycount 0
+  es_xset entitycount1 0
+	es_xset mysmokename ""
+	es_xset mysmokename1 "" 
+  es_xset reptile_user 0
+  es_xregclientcmd reptile holliday_wcs/reptile/ability "reptiles signature move"
+}
+
+block ability
+{
+  es_xgetcmduserid reptile_user
+  es_keygetvalue wcs_tmp wcsuserdata server_var(reptile_user) reptile
+  if (server_var(wcs_tmp) > 0) do
+  {
+    es_xmath wcs_tmp - 1
+    es wcs strip server_var(reptile_user)
+    es_keysetvalue wcsuserdata server_var(reptile_user) reptile 0
+    es_delayed server_var(wcs_time) es_keysetvalue wcsuserdata server_var(reptile_user) reptile server_var(wcs_tmp)
+    es_keygetvalue wcs_time wcsuserdata server_var(reptile_user) time
+    es_keygetvalue wcs_speed wcsuserdata server_var(reptile_user) speed
+    es playerset speed server_var(reptile_user) = 2.5 server_var(wcs_time)
+    es wcs_setfx gravity server_var(reptile_user) + 0.36 server_var(wcs_time)
+    es_playsound server_var(reptile_user) ambient\levels\citadel\extract_loop1.wav 1
+    es_delayed server_var(wcs_time) es_stopsound server_var(reptile_user) ambient\levels\citadel\extract_loop1.wav
+    es playerset color server_var(reptile_user) 255 255 255 0   
+    es_delayed server_var(wcs_time) es playerset color server_var(reptile_user) 255 255 255 255
+    es_delayed server_var(wcs_time) es_give server_var(reptile_user) weapon_knife
+		es_xformatv mysmokename "smoke_%1" entitycount
+		es_xformatv mysmokename1 "smoke_%1" entitycount1
+		es_give server_var(reptile_user) env_smokestack
+		es_setentityname server_var(eventscripts_lastgive) server_var(mysmokename)    
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "basespread 45"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "spreadspeed 25"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "speed 150"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "startsize 42"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "endsize 27"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "rate 90"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "jetlength 120"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "smokematerial effects/strider_bulge_dudv.vmt"
+		es_fire server_var(reptile_user) server_var(mysmokename) addoutput "rendercolor 255 255 255"
+		es_fire server_var(reptile_user) server_var(mysmokename) setparent !activator
+		es_fire server_var(reptile_user) server_var(mysmokename) turnon
+		es_delayed server_var(wcs_time) es_fire server_var(reptile_user) server_var(mysmokename) kill
+    es_give server_var(reptile_user) env_steam
+    es_setentityname server_var(eventscripts_lastgive) server_var(mysmokename1)        
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "spreadspeed 10"
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "speed 165"
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "startsize 11"
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "endsize 3"
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "rate 200"
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "rendercolor 0 255 0"
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "jetlength 300"
+    es_fire server_var(reptile_user) server_var(mysmokename1) addoutput "rollspeed 10"
+    es_fire server_var(reptile_user) server_var(mysmokename1) turnon
+    es_fire server_var(reptile_user) server_var(mysmokename1) setparent !activator
+    es_delayed 6 es_fire server_var(reptile_user) env_steam kill
+		es_xmath entitycount1 + 1
+		es_xusermsg create fader fade
+    es_xusermsg write short fader 1000
+    es_xusermsg write short fader 500
+    es_xusermsg write short fader 2
+    es_xusermsg write byte fader 0
+    es_xusermsg write byte fader 255
+    es_xusermsg write byte fader 0
+    es_xusermsg write byte fader 155
+    es_usermsg send fader server_var(reptile_user) 5
+  }
+  es_xelse do
+  {
+    es_tell server_var(reptile_user) #multi #lightgreen you have no additional ability points
+  }
+}
+
+block spawn
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) first_spawn
+  if (server_var(wcs_tmp) = 0) do
+  {
+    es playerset color event_var(userid) 0 255 0 255
+    es_playsound event_var(userid) npc\zombie\zombie_pain6.wav 1
+    es wcs_restrict event_var(userid) knife
+    es_give event_var(userid) env_steam 
+    es_fire event_var(userid) env_steam addoutput "spreadspeed 10"
+    es_fire event_var(userid) env_steam addoutput "speed 65"
+    es_fire event_var(userid) env_steam addoutput "startsize 15"
+    es_fire event_var(userid) env_steam addoutput "endsize 32"
+    es_fire event_var(userid) env_steam addoutput "rate 200"
+    es_fire event_var(userid) env_steam addoutput "rendercolor 0 255 0"
+    es_fire event_var(userid) env_steam addoutput "jetlength 200"
+    es_fire event_var(userid) env_steam addoutput "rollspeed 10"
+    es_fire event_var(userid) env_steam turnon
+    es_fire event_var(userid) env_steam setparent !activator
+    es_delayed 6 es_fire event_var(userid) env_steam kill
+  }  
+}
+
+block chameleon
+{                                                        
+  es_keysetvalue wcsuserdata event_var(userid) reptile server_var(wcs_points) 
+  es_keysetvalue wcsuserdata event_var(userid) time server_var(wcs_time)   
+}
+
+
+block agility
+{
+  es wcsgroup set longjump event_var(userid) server_var(wcs_multiplier)
+  es wcs_setfx speed event_var(userid) = server_var(wcs_speed) 0
+  es_keysetvalue wcsuserdata event_var(userid) speed server_var(wcs_speed)
+}
+
+block hiddenchop
+{
+  es playerget primary wcs_tmp event_var(userid)
+  if (server_var(wcs_tmp) != 0) do
+  {
+    es wcs drop event_var(userid) server_var(wcs_tmp)
+    es_tell event_var(attacker) #multi #lightgreen you have caused #green event_var(es_username) #lightgreen to drop their server_var(wcs_tmp)
+    es_tell event_var(userid) #multi #green event_var(es_attackername) #lightgreen has caused you to drop your #green server_var(wcs_tmp)
+    es_give event_var(userid) env_blood 
+    es_fire event_var(userid) env_blood addoutput "amount 90" 
+    es_fire event_var(userid) env_blood addoutput "spawnflags 52" 
+    es_fire event_var(userid) env_blood emitblood 
+    es_delayed 3 es_fire event_var(userid) env_blood kill
+    es_playsound event_var(userid) npc\manhack\grind_flesh1.wav 1
+  }
+}
+
+block reptile
+{
+  es_keysetvalue wcsuserdata server_var(wcs_userid) first_spawn 1
+  es_delayed 3 es_keysetvalue wcsuserdata server_var(wcs_userid) first_spawn 0
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+  es wcs damage server_var(wcs_userid) server_var(wcs_userid) 100
+  es score add server_var(wcs_userid) 1
+  es_delayed .1 wcs spawn server_var(wcs_userid)
+  es_delayed .1 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 
+  es_delayed .1 es playerset viewcoord server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_delayed .1 es playerset color server_var(wcs_userid) 255 255 255 0
+  es_delayed server_var(wcs_time) es playerset color server_var(wcs_userid) 255 255 255 255
+  es_give server_var(wcs_userid) env_blood
+  es_fire server_var(wcs_userid) env_blood addoutput "spawnflags 41" 
+  es_fire server_var(wcs_userid) env_blood emitblood 
+  es_delayed 3 es_fire server_var(wcs_userid) env_blood kill
+  es_xusermsg create fader fade
+  es_xusermsg write short fader 1000
+  es_xusermsg write short fader 500
+  es_xusermsg write short fader 2
+  es_xusermsg write byte fader 0
+  es_xusermsg write byte fader 255
+  es_xusermsg write byte fader 0
+  es_xusermsg write byte fader 155
+  es_usermsg send fader server_var(wcs_userid) 5
+  es_xusermsg delete fader
+  es_tell server_var(wcs_userid) #multi #lightgreen you have faked your death #green you are invisible for #default server_var(wcs_time) #lightgreen seconds
+}
+

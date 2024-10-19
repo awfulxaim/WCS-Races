@@ -1,0 +1,62 @@
+block load
+{
+  es_xset simon "coded by holliday"
+  es_xmakepublic simon
+}
+
+block spawn
+{
+  es es_cexec event_var(userid) r_screenoverlay effects/mh_blood1.vmt
+  es_delayed 0.1 es_cexec event_var(userid) r_screenoverlay effects/mh_blood2.vmt
+  es_delayed 0.2 es_cexec event_var(userid) r_screenoverlay effects/mh_blood3.vmt
+  es_delayed 0.3 es_cexec event_var(userid) r_screenoverlay effects/mh_blood1.vmt
+  es_delayed 0.4 es_cexec event_var(userid) r_screenoverlay effects/mh_blood2.vmt
+  es_delayed 0.5 es_cexec event_var(userid) r_screenoverlay effects/mh_blood3.vmt
+  es_delayed 0.6 es_cexec event_var(userid) r_screenoverlay effects/mh_blood1.vmt
+  es_delayed 0.5 es_cexec event_var(userid) r_screenoverlay effects/mh_blood2.vmt
+  es_delayed 0.8 es_cexec event_var(userid) r_screenoverlay effects/mh_blood3.vmt
+  es_delayed 0.9 es_cexec event_var(userid) r_screenoverlay effects/mh_blood1.vmt
+  es_delayed 1 es_cexec event_var(userid) r_screenoverlay effects/mh_blood2.vmt
+  es_delayed 1.1 es_cexec event_var(userid) r_screenoverlay 0
+  es_playsound event_var(userid) npc/ichthyosaur/attack_growl1.wav 1
+  es_delayed 1.5 es_playsound event_var(userid) npc/ichthyosaur/attack_growl2.wav 1
+  es_delayed 2 es_playsound event_var(userid) npc/ichthyosaur/attack_growl3.wav 1
+  es playerset color event_var(userid) 255 55 0 155
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_xmath wcs_z1 + 50
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 .2 100 100 0 255 55 0 255 10
+  es_delayed .2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 .2 100 100 0 25 255 0 255 10
+  es_delayed .4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 .2 100 100 0 55 55 255 255 10
+}
+
+
+block firearrows
+{   
+
+  es wcs damage event_var(userid) event_var(attacker) 3
+  es_delayed .1 es wcs damage event_var(userid) event_var(attacker) 2
+  es_delayed .3 es wcs damage event_var(userid) event_var(attacker) 2
+	es_playsound event_var(userid) ambient\fire\mtov_flame2.wav 1
+	es_playsound event_var(attacker) weapons/fx/nearmiss/bulletltor05.wav 1
+	es_delayed .1 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor03.wav 1
+	es_delayed .2 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor03.wav 1
+	es_delayed .3 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor04.wav 1
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+	es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_xmath wcs_z1 + 60
+	es_xmath wcs_z2 + 50
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector1) server_var(vector2) 10 .3 1 1 1 0 255 205 45 255 100
+	es est_effect 11 #a 0 sprites/fire1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .5 .5 255
+  es_xmath wcs_y2 + 80
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1);es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es_delayed 0.4 es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector1) server_var(vector2) 10 .3 1 1 1 0 255 205 45 255 100
+	es_delayed 0.4 es est_effect 11 #a 0 sprites/fire1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .5 .5 255
+  es_xmath wcs_y2 - 160
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1);es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es_delayed .5 es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector2) server_var(vector1) 100 .3 1 1 10 0 255 205 25 255 100
+ 	es_delayed .5 es est_effect 11 #a 0 sprites/fire1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .5 .5 255 
+}

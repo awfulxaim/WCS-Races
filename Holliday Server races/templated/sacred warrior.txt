@@ -1,0 +1,15 @@
+Sacred Warrior
+
+requires total level 440.
+
+Inner Vitality
+60% chance on hit to leech 22/25/29/33% of the damage you dealt as HP.
+
+Burning Spear
+27/30/31/33% chance on hit to deal 5 extra damage and burn the enemy for 1.5 seconds dealing 5dmg/.3seconds. this can stack.
+
+Berserker's Blood
+27/30/31/33% chance when hit to increase your speed by 10% for the rest of the round.
+
+Life Break (ultimate)
+instantly teleport to the enemy you are aiming at. Enemies within 100/150/200/300 units of you are hit by lightning every .5 seconds for 1.5/2/3/4 seconds. Each time an enemy is hit by a lightning bolt they take half of the damage they took from the previous lightning bolt. Lightning bolts deal 20/30/40/50 damage. 10 second cooldown. if you are not aiming at an enemy when you activate this, it fails.

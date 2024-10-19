@@ -1,0 +1,15 @@
+Shinigami
+
+requires total level 690. has crimson red player model.
+
+Blood for Health
+3/6/9/12/15% chance on hit to gain 12-20 HP rolled randomly
+
+Bloody Attack
+100% chance on hit to deal 3/5/6/7/8 extra damage.
+
+Blood Bath
+50% chance on death to deal 80/90/100/110/115 damage to all enemies in a 150/175/200/225/250 unit radius.
+
+Eternal Smoke (ultimate)
+Create a cloud of red smoke and become 100% invisible for 1/2/3/4/5 seconds. 20/18/17/16/15 second cooldown.

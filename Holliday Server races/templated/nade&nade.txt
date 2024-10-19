@@ -1,0 +1,18 @@
+Nade & Nade
+
+Grenades only, no knife. spawns with an he grenade, flashbang, and smoke.
+
+Movement Speed
+Spawn with 15/25/35/45/55% increased movement speed.
+
+Wide Explosion
+HE grenades deal 25/27/30/32/35 to 45/47/50/52/55 extra damage.
+
+Waves of Fire
+20/40/60/80/100% chance to burn enemies hit by your grenade. There is no duration listed. I'm going to assume 2.5 seconds.
+
+Metal Fragments
+2/4/6/8/10% chance to blind enemies hit by your grenades for 2 seconds. each enemy hit has their own chance for this to proc on them.
+
+Reload! (utlimate)
+You get 1/2/3/4/5 HE grenades, a smoke, and a flashbang. 20/17/15/13/10 second cooldown

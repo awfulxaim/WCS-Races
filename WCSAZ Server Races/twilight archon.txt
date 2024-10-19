@@ -1,0 +1,15 @@
+Twilight Archon
+
+Mag-7 only, no knife.
+
+Psionic Shockwave
+10/12/14/16/18/20% chance on hit to deal 200% more damage.
+
+Advanced Plasma Shield
+10/15/20/25/30/35% chance to evade
+
+Uraj Fragment
+Spawn with 15/20/25/30/35/40 more HP.
+
+Twilight (ultimate)
+Blind all enemies in a 450/500/550/600/650/700 unit radius with a 100% opacity dark blue screen for 4 seconds, after 4 seconds the blind loses 10% opacity per second until it reaches 50% opacity and is removed completely. 24 second cooldown.

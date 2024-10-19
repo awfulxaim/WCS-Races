@@ -1,0 +1,55 @@
+block spawn
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 10 50 1 100 0 25 255 3
+    es_give event_var(userid) weapon_hegrenade 
+    es playerset ammo event_var(userid) weapon_hegrenade 5
+}
+
+block powerslave
+{
+    es playerset freeze event_var(userid) 1
+    es_delayed server_var(wcs_freezetime) es playerset freeze event_var(userid) 0
+    es_tell event_var(userid) #multi lightgreengot Electrified by #green event_var(es_attackername)
+    es_tell event_var(attacker) #multi #lightgreenElectrified #green event_var(es_username)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/smoke.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 55 155 2 400 200 1 55 0 155 200 1
+}
+
+block Trooper
+{
+    es playerset speed event_var(userid) server_Var(wcs_speed)
+    es wcs_setfx gravity event_var(userid) = server_var(wcs_gravity) 0
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 1200 3 10 50 1 100 0 25 255 3
+}
+
+block livedeadone
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 500 5 600 500 0.8 255 000 000 255 1
+}
+
+block holysmoke
+{
+    if (event_var(weapon) in server_var(wcs_wpn_grenades)) then wcsx get isdead wcs_dead event_var(userid)
+    if (event_var(weapon) in server_var(wcs_wpn_grenades)) then es_xif (server_var(wcs_dead) = 0) do
+    {
+        es_set wcs_magnitude event_var(dmg_health)
+        es_xmath wcs_magnitude float
+        es_xmath wcs_magnitude * 3.0
+        es_math wcs_magnitude * server_var(wcs_multiplier)
+        es wcs_decimal wcs_magnitude server_var(wcs_magnitude)
+        es wcs explode event_var(attacker) event_var(userid) server_var(wcs_magnitude) 50
+        es wcs_xtell event_var(userid) r_crigrenade
+        es wcs_xtell event_var(attacker) r_crigrenade
+    }
+}
+
+
+
+
+

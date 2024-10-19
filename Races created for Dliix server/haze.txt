@@ -3,13 +3,13 @@ Haze
 mp5 and knife only.
 
 Sand Woman
-Spawn with .1/.2/.3/.4/.5 increased movement speed.
+Spawn with /.1/.2/.3/.4/.5 increased movement speed.
 
 Sleep Dagger (ability)
 The enemy you are aiming at takes 10 damage and is put to sleep (they cannot move, shoot, or aim and are blinded while asleep, but any damage wakes them up) for up to 2/3/4/5/6 seconds. 35/30/25/20/15 second cooldown.
 
 Smoke Bomb (ability2)
-Create a cloud of smoke when this is activated that lasts 1.5 seconds. You become 100% invisible over that 1.5 second duration. You can remain invisible for 6/7/8/9/10 seconds. You also gain .1/.2/.3/.4/.5 movement speed while you are invisible. If you attack or if an enemy enters line of sight in a 600 unit radius of you, you lose the invisibility and movement speed. Activating this ability removes all negative status effects on you. 30/25/20/15/10 second cooldown.
+Become 100% invisible over 1.5 seconds. you can remain invisible for 6/7/8/9/10 seconds. You also gain .1/.2/.3/.4/.5 movement speed for that duration. If you attack or if an enemy enters line of sight in a 600 unit radius of you, you lose the invisibility and movement speed. Activating this ability removes all negative status effects on you. 30/25/20/15/10 second cooldown.
 
 Fixation
 100% chance on hit to give the enemy a stack of fixation, or two stacks on a headshot. enemies take .5 extra damage from you per stack of fixation they have. a fixation stack lasts 6/7/9/10/12 seconds and is refreshed if the enemy takes damage from you. an enemy can have a max of 30/35/40/50/60 stacks of fixation. When an enemy reaches 20 stacks of fixation they are are slowed by .15 for 2 seconds and take 6 damage. When an enemy reaches 40 stacks of fixation they are slowed by .30 for 2 seconds and take 12 damage. When an enemy reaches 60 stacks of fixation they are slowed by .45 for 2 seconds and take 18 damage.

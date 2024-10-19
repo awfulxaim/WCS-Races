@@ -1,0 +1,15 @@
+Bane Elemental
+
+requires total level 390.
+
+Enfeeble
+12/18/22/33% chance on hit to cause the enemy to have greatly increased recoil and aim punch and constantly cause the enemy to aim slowly up and to the right. 20%/40/80/160% increased recoil and aim punch.
+
+Brain Sap
+18/22/28/33% chance on hit to heal 1-5/3-8/5-11/8-16 HP.
+
+Nightmare
+18/22/28/33% chance on hit to play a loud alarm sound for the enemy and cover their screen in an overlay of gman's face from HL2 for .5 seconds.
+
+Fiend's Grip (ultimate)
+If you are higher level than the enemy you are aiming at you cause them to have greatly increased recoil and aim punch and constantly cause that enemy to aim up and to the right hard. 800/1600/3200/5000% increased recoil and aim punch. this lasts for 2 seconds. that enemy also takes 16/22/35/50 damage when you activate this.

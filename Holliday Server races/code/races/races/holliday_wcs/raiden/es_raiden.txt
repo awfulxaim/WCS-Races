@@ -1,0 +1,84 @@
+/////////////////////////
+//Holliday V2 Race Pack//
+//Version 1.1.0A       //
+/////////////////////////
+
+block spawn
+{
+    es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 2 100 300 1.8 175 175 255 255 1
+	es wcsgroup set ability_count event_var(userid) 3
+}
+
+block onchange
+{
+	es wcsgroup set ability_count server_var(wcs_userid) 0
+}
+
+block thunder
+{
+    es_xrand wcs_dmg 5 12
+	es damage event_var(userid) server_var(wcs_dmg) 1 event_var(attacker)
+	es wcs_centertell event_var(attacker) Thunder dealt server_var(wcs_dmg) damage!
+	es wcs_centertell event_var(userid) Took server_var(wcs_dmg) damage from thunder!
+	es es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es_xmath wcs_z1 + 50
+	es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 1250 2 100 300 1.8 175 175 255 255 1
+}
+
+
+block thunderbolt
+{
+    es damage event_var(userid) server_var(wcs_dmg) 1 event_var(attacker)
+	es_tell event_var(attacker) #multi #greenThunderbolt #lightgreendid + #green server_var(wcs_dmg) #lightgreendamage!
+	es_tell event_var(userid) #multi #lightgreenTook + #green server_var(wcs_dmg) #lightgreendamage from #greenthunderbolt!
+	es es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+	es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 13 16 100 155 255 255
+}
+
+
+block staff
+{
+    es_xrand wcs_dmg 5 25
+	es damage event_var(userid) server_var(wcs_dmg) 1 event_var(attacker)
+	es_tell event_var(attacker) #multi #lightgreen Staff dealt + #green server_var(wcs_dmg) damage!
+	es_tell event_var(userid) #multi #lightgreen Recieved + #green server_var(wcs_dmg) damage from staff!		
+	es es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)		
+	es est_effect 3 #a 0 sprites/halo01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5 5 50 20 255 255
+}
+
+
+block thundergod
+{
+    es usermsg shake event_var(userid) 100 1
+	es_tell event_var(attacker) #multi #green [WCS]#lightgreen Thundergod shaked #green event_var(es_username)'s!
+	es_tell event_var(userid) #multi #green [WCS]#lightgreen You've been shaked by #green event_var(es_attackername)'s #lightgreen thunder god!
+}
+
+
+block ward
+{
+
+	es wcsgroup get ability_count wcs_count server_var(wcs_userid)
+	if (server_var(wcs_count) => 1) do
+	{
+		es_xmath wcs_count - 1
+		es wcsgroup set ability_count server_var(wcs_userid) server_var(wcs_count)
+		es_tell server_var(wcs_userid) #multi #green [WCS]#lightgreen Serpent Ward - You have server_var(wcs_count) wards left.
+		es_xset wcs_warden_x2 0
+		es_xset wcs_warden_y2 0
+		es_xset wcs_warden_z2 0
+		es_xset wcs_tmp16 0
+		es_xset wcs_tmp17 5
+		es_getplayerteam wcs_tmp16 server_var(wcs_userid)
+		es_math wcs_tmp17 - server_var(wcs_tmp16)
+		es_getplayerlocation wcs_warden_x2 wcs_warden_y2 wcs_warden_z2 server_var(wcs_userid)
+		es wcs_warden server_var(wcs_userid) server_var(wcs_duration) server_var(wcs_dmg) server_var(wcs_range) server_var(wcs_tmp17) 0 server_var(wcs_warden_x2) server_var(wcs_warden_y2) server_var(wcs_warden_z2) 0
+	}
+	else do
+	{
+		es_tell server_var(wcs_userid) #multi #green [WCS]#lightgreen Serpent Ward - You don't have any wards left.
+	}
+}

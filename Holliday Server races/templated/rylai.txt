@@ -1,0 +1,12 @@
+Rylai
+
+you spawn with 6 charges. requires total level 2070.
+
+Frost Nova
+10/16/22/33% chance on hit to deal 4/5/6/8 extra damage to all enemies in a 400 unit radius of the enemy you hit (including that enemy) and knocking them back from whichever direction they are facing by 15 units.
+
+Frost Bite (ability)
+Root the enemy you are aiming at for 1.6 seconds and mute their sound for 1 second. they have moving accuracy for the next 2 seconds. this costs a charge to activate 8/5/4/2 second cooldown.
+
+Freezing Field (ultimate)
+in a 5000 unit radius, crystals fall randomly from the sky from 900 units above you. you create 100 crystals per .1 second for 1 second. if a crystal hits an enemy that enemy takes 1 damage. crystals have 10 HP and are destroyed when they hit the ground. 10 second cooldown. crystals are randomly 10 or 20 unit radius crystal props.

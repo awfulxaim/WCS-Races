@@ -1,0 +1,18 @@
+Skin Walker
+
+knife only. requires total level 750
+
+Disguise
+15/20/28/33% chance when you spawn to set your model to the enemy team's model.
+
+All Fours
+Spawn with 80/100/140/160% increased movement speed.
+
+Clawing
+20/25/30/36% chance on hit to deal 10/15/18/20 extra damage.
+
+Infect
+20/25/30/36% chance on hit to poison the enemy for 2/3/4/5 damage per second for 5 seconds.
+
+Growl (ultimate)
+All enemies in an 400/500/600/800 unit radius are rooted for 2 seconds and can be seen through walls by you for that duration. 10 second cooldown.

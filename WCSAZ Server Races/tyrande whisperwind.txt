@@ -1,0 +1,22 @@
+Tyrande Whisperwind
+
+Trushot Aura
+30% chance on hit to deal 10/15/20/20/30/40/50/60% more damage.
+
+Prayer of Mending (ability)
+heal the teammate you are aiming at for 5/8/10/15/20/25/30/35 HP. if you are not aiming at a teammate you heal for that amount instead. 12 second cooldown.
+
+Lightwell (ability2)
+Lay a 200 unit radius yellow ward that does no damage to enemies. instead when you or a teammate steps in it they are healed for 10 HP per second. ward lasts 10 seconds. you can lay 1 ward at a time. 50/48/46/42/40/38/34/30 second cooldown.
+
+Spirit of Redemption
+25/30/35/40/45/50/55/60% chance when you die to set all teammates to the HP they should spawn with.
+
+Blessed Recovery
+100% chance when hit to heal for 1/3/4/5/6/8/9/10 every 2 seconds for 6 seconds.
+
+Meld
+spawn with 63/59/55/51/47/43/39/36% visibility.
+
+Holy Nova
+Deal 5 damage to all enemies in a 400 unit radius and heal yourself and all teammates for 5 HP in a 400 unit radius. 18/16/14/12/10/9/8/6 second cooldown.

@@ -1,0 +1,18 @@
+RPG
+
+Requires total level 100. limited to 2 per team. cannot buy long jump, mask of death, cloak of shadows, or HP.
+
+Greater Health
+Spawn with 5/10/15/20/25/30 more HP
+
+Longjump
+Long jump with 2.0/2.2/2.3/2.4/2.5/2.75 multiplier
+
+Vampire
+100% chance on hit to leech 10/12/14/16/18/20% of the damage you dealt up to 200HP. the amount you leech is halved when you have over 100 HP.
+
+Frost Pistol
+100% chance on hit with a pistol to slow the enemy by 8/11/14/16/18/20% for 5 seconds.
+
+Invisibility
+Spawn with 30/35/40/45/50/55% invisibility.

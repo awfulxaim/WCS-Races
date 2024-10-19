@@ -1,0 +1,45 @@
+//block spawn
+//{
+    //es playerset model event_var(userid) models/player/techknow/spiderman3/spiderman3.mdl
+    //if (event_var(es_userteam) = 2) then es playerset color event_var(userid) 0 0 0 255
+//}
+block spidersense
+{
+  es_set wcs_dmg event_var(dmg_health)
+  es wcs_setfx health event_var(userid) + server_var(wcs_dmg) 0
+  es_tell event_var(userid) #multi #lightgreenyour #greenspider sense #lightgreenhas allowed you to avoid a shot
+}
+
+block agility
+{
+  es wcs_setfx longjump event_var(userid) = server_var(wcs_jump) 0
+  es playerset speed event_var(userid) server_var(wcs_speed)
+  es_tell event_var(userid) #multi #greenagility #lightgreen jump further run faster
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 10 #a 0 models/police/pupil_r.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 101 0 1 50 100 0 255 100 100 255 10
+  es_keysetvalue wcsuserdata event_var(userid) falldamage 1  
+}
+
+block shooters
+{
+  es playerset freeze event_var(userid) 1
+  es_delayed 1 es playerset freeze event_var(userid) 0
+  es_tell event_var(userid) #multi #greenyou got cought in #lightgreen event_var(es_attackername) #greenweb
+  es_tell event_var(attacker) #multi #green you cought #lightgreen event_var(es_username) #green in your web
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 50
+  es_xmath wcs_z2 + 50
+  es est_effect 10 #a 0 models/police/pupil_r.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 101 0 1 50 100 0 255 100 100 255 10
+  es est_effect_06 #a 0 models/police/pupil_r.vmt server_var(vector2) server_var(vector1) 1 1 1 .3 1 0 255 255 255 255 50
+}
+
+block weblines
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+  es_delayed .1 es playerset push server_var(wcs_userid) server_var(wcs_push) 300 1
+  es_playsound server_var(wcs_userid) weapons/357/357_spin1.wav 1
+  es est_effect 3 #a 0 models/police/pupil_r.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 0.1 0.1 255 14 41 255
+  es_delayed .5 es est_effect 10 #a 0 models/police/pupil_r.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 20 1 20 100 0 255 100 100 255 10
+}

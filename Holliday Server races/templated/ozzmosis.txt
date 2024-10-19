@@ -1,0 +1,15 @@
+ozzmosis
+
+requires total level 330
+
+Mr. Jekyll doesn't hide
+18/22/28/33% chance on spawn to randomly either cause you to mole or cause an enemy to mole after 5 seconds.
+
+See you on the other side
+18/22/28/33% chance when hit to deal 5/8/10/15 damage to the enemy who hit you and force you to aim at that enemy.
+
+Thunder Underground
+33/44/55/66% chance on hit to insta-kill the enemy if they have 5/8/12/15 HP or less. this cannot be blocked or evaded.
+
+Osmosis (ultimate)
+Gain no clip for 2/3/4/5 seconds, then 3/4/5/6 seconds after no clipping, instantly teleport back to where you were when you activated no clip. 20 second cooldown.

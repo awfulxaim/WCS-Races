@@ -1,0 +1,15 @@
+Troll Mercenary
+
+requires total level 450
+
+Gravity Shot
+12/18/22/33% chance on hit to increase the enemy's gravity by 10/30/40/50% for 3 seconds.
+
+Invisibility Jump
+You spawn with long jump. 0/1.1/1.2/1.3x long jump multiplier. while you are in the air you have 61/79/94/98% invisibility.
+
+Multiple Grenades
+You spawn with an HE grenade. Whne you throw a HE, you instantly get a new one up to 3/4/5/6 times per spawn.
+
+Grenade Shot (ultimate)
+Your next 3/4/5/6 shots spawn an HE grenade explosion where they land. 20 second cooldown.

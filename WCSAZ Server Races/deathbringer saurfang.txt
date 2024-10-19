@@ -1,0 +1,19 @@
+Deathbringer Saurfang
+
+Rune of Blood
+5/10/15/20/25/30/35/40% chance on hit to mark an enemy with a rune of blood and gain HP equal to 10% of the damage dealt. When this procs you steal 10% of the damage dealt as HP from all other enemies that have been marked with rune of blood this round.
+
+Blood Link
+10% chance on hit to leech 15/20/25/30/35/40/45/50% of the damage dealt as HP. 10/20/30/40/50/60/70/80% chance to gain HP equal to the damage dealt with abilities and ultimates.
+
+Blood Frenzy
+Spawn with 4/8/12/16/20/24/28/32% increased movement speed.
+
+Mark of the Fallen Champion
+3/6/9/12/15/18/21/25% chance on hit to mark an enemy with the mark of the fallen champion. when an enemy with the mark of the fallen champion dies, you heal for 5/5/5/6/6/7/8/9/10% of your current HP. if this procs on an enemy that already has mark of the fallen champion, you steal 5% of their current life instead.
+
+Saronite Pauldrons
+You spawn with 5/10/15/20/25/30/35/40 extra HP. If you have less kills than deaths this map, this bonus is doubled.
+
+Boiling Blood Nova
+3/4/5/6/7/8/9/10% chance on hit to burn the enemy for 10 damage every 3 seconds for 24 seconds and all other enemies in a 250/300/350/400/450/500/550/600 unit radius of that enemy take 10 damage. each tick of the burn has a chance to heal you with blood link. if blood link procs on the area damage you heal from the total damage dealt to every enemy.

@@ -1,0 +1,21 @@
+NSC-SPU-04 Odin
+
+USP-S and knife only.
+
+Dimension Slip (ability)
+Instantly teleport to the location you are aiming at, 450/500/550/600/650/700/750/800 unit max range. 12/12/12/11/11/10/9/8 second cooldown.
+
+Hangman's Noose Threat Pacification
+2/4/6/8/10/12/14/16% chance on hit to impale the enemy then bash them in the air for 3 seconds. that enemy takes 5 damage per second while bashed.
+
+NSC-W Bootboost MK. IV
+Long Jump. You spawn with 3/6/9/12/15/18/21/25% increased movement speed.
+
+N.Mako-Enhanced Ferro Driver
+3/6/9/12/15/18/21/24% chance on hit to deal 25% more damage and instantly reload your gun.
+
+HU/MU-R2 Thought-Memory Implant (ability)
+Lay a 400 unit radius ward where you are aiming that lasts 20 seconds. enemies who enter the ward area have an outline drawn around them that you can see through your ult. you can lay up to 2 wards at a time. 10 second cooldown.
+
+Runic Sacrifice (ultimate)
+Blind yourself and gain 100% invisibility for 2/3/4/5/6/7/8/9 seconds. activate again to cancel this effect. 15 second cooldown.

@@ -1,0 +1,37 @@
+" "
+    {
+    "name"              "Kil'jaeden"
+    "author"            "Sol | Pikachu"
+    "shortdescription"  "KNIFE ONLY, Visable items disappear after 25ft."
+    "required_level"    "110"
+    "allow_only"        "0"
+    "maximum_level"     "0"
+    "teamlimit"         "0"
+    "preloadcmd"        "0"
+    "player_spawn_cmd"  "es est_RestrictAll server_var(wcs_userid);es es_xdelayed 1.0 est_unrestrict server_var(wcs_userid) knife;es es_xdelayed 1.0 est_unrestrict server_var(wcs_userid) c4;es es_xdelayed 1.2 es_Give server_var(wcs_userid) weapon_knife;es es_xdelayed 2.7 est_unrestrict server_var(wcs_userid) scout;es es_xdelayed 3.0 es_Give server_var(wcs_userid) weapon_scout;es es_xdelayed 3.1 est_restrict server_var(wcs_userid) scout;es es_xdelayed 3.0 es_Give server_var(wcs_userid) weapon_hegrenade;es est_setplayercolor server_var(wcs_userid) 255 255 255 0 1;es es_xdelayed 2.0 est_setplayercolor server_var(wcs_userid) 255 255 255 0 1"
+    "round_start_cmd"   "0"
+    "round_end_cmd"     "0"
+    "numberofskills"    "4"
+    "numberoflevels"    "4"
+    "skillnames"        "Blur|Levitation|Claw Attack|Boots of the Defiler"
+    "skilldescr"        "You weave magic around you to make yourself invisible.|Reduce your gravity to 20%|Chance to disarm enemy of his Primary and Secondary Weapons|You run faster"
+    "skillcfg"          "player_spawn|player_spawn|player_attacker|player_spawn"
+ 
+   "skill1_setting"    "es est_setplayercolor server_var(wcs_userid) 255 255 255 0 1"
+   "skill1_cmd"        "es es_xtell event_var(userid) #multi #lightgreen: #greenBlur #lightgreenactivated;es es_xtell event_var(userid) #multi #lightgreen Your #greenBLUR #lightgreenability will make your #greenSCOUT #lightgreenand #greenGRENADE VANISH #lightgreenfrom sight when #green25ft away #lightgreenfrom your enemy..."
+   "skill1_sfx"        "es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid);es_xmath wcs_z1 + 50;es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 50 3 10 0 0 0 20 25 255 0"
+
+   "skill2_setting"    "es_xsetinfo wcs_gravity 0.5|es_xsetinfo wcs_gravity 0.4|es_xsetinfo wcs_gravity 0.3|es_xsetinfo wcs_gravity 0.2"
+   "skill2_cmd"        "es es_xdelayed 2 est_SetGravity event_var(userid) server_var(wcs_gravity);es es_xkeysetvalue WCSuserdata event_var(userid) gravity server_var(wcs_gravity);es es_xtell event_var(userid) #multi #lightgreen: #greenLevitation #lightgreenactivated"
+   "skill2_sfx"        "es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid);es_xmath wcs_z1 + 50;es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 50 3 10 0 0 0 200 25 255 0"
+         
+   "skill3_setting"    "es_xrand wcs_rand 1 32|es_xrand wcs_rand 1 16|es_xrand wcs_rand 1 8|es_xrand wcs_rand 1 3"
+   "racealias_kjj4"     "es est_DropWeapon event_var(userid) 1;es est_DropWeapon event_var(userid) 2;es est_DropWeapon event_var(userid) 4;es es_xtell event_var(userid) #multi #lightgreen: #green event_var(es_attackername) #lightgreenforced you to #greendrop #lightgreenyour weapons;es es_xtell event_var(attacker) #multi #lightgreen: You forced #green event_var(es_username) #lightgreento #greendrop #lightgreenhis weapons"
+   "skill3_cmd"        "es est_playplayer event_var(userid) common/bass.wav;es es_xif (server_var(wcs_rand) < 4) then est_isalive wcs_alive event_var(userid);es es_xif (server_var(wcs_rand) < 4) then es_xif (server_var(wcs_alive) = 1) then racealias_kjj4"
+   "skill3_sfx"        "0"
+
+ "skill4_setting"    "es_xsetinfo wcs_speed 1.05|es_xsetinfo wcs_speed 1.10|es_xsetinfo wcs_speed 1.15|es_xsetinfo wcs_speed 1.20"
+ "skill4_cmd"        "es es_xkeygetvalue wcs_tmp WCSuserdata event_var(userid) speed;es es_xif (server_var(wcs_tmp) > server_var(wcs_speed)) then es_xsetinfo wcs_speed server_var(wcs_tmp);es es_xkeysetvalue WCSuserdata event_var(userid) speed server_var(wcs_speed);es est_Speed event_var(userid) server_var(wcs_speed);wcs_getlanguage wcs_lng wcs_lng_r_unholyact;es es_xtell event_var(userid) #multi server_var(wcs_lng)"
+ "skill4_sfx"        "es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid);es est_effect 10 #a 0 sprites/smoke.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 60 1 4 2 0 255 100 0 255 0"
+
+}

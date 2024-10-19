@@ -1,0 +1,168 @@
+block spawn
+{
+  es playerset color event_var(userid) 0 255 0 255
+  es_playsound event_var(userid) items/gift_drop.wav 1
+  es_delayed .2 es_playsound event_var(userid) items/gift_drop.wav 1
+  es_delayed .4 es_playsound event_var(userid) items/gift_drop.wav 1
+  es_delayed .6 es_playsound event_var(userid) items/gift_drop.wav 1
+  es_delayed .8 es_playsound event_var(userid) items/gift_drop.wav 1
+  es_delayed 1 es_playsound event_var(userid) items/gift_drop.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_xmath wcs_z1 + 10
+  es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 100 300 .3 400 40 0 0 200 0 255 10
+  es_xmath wcs_z1 + 20
+  es_delayed .2 es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 100 300 .3 400 40 0 0 200 0 255 10
+  es_xmath wcs_z1 + 30
+  es_delayed .4 es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 100 300 .3 400 40 0 0 200 0 255 10
+  es_xmath wcs_z1 + 40
+  es_delayed .6 es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 100 300 .3 400 40 0 0 200 0 255 10
+  es_xmath wcs_z1 + 50
+  es_delayed .8 es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 100 300 .3 400 40 0 0 200 0 255 10
+  es_xmath wcs_z1 + 100
+  es_delayed 1 es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 100 300 3 400 40 0 0 200 0 255 10
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 100
+  es_delayed 1 es est_effect 3 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 3 90 3 0 255 0 255
+}
+
+block gun
+{
+    es playerset viewcoord event_var(userid) 0 0 server_var(wcs_view)
+    es playerset freeze event_var(userid) 1
+    es_delayed server_var(wcs_time) es playerset freeze event_var(userid) 0
+    es_tell event_var(attacker) #multi #lightgreen you caused #green event_var(es_username) #lightgreen to look to the skys with your #greenAlien Gun
+    es_tell event_var(userid) #multi #green event_var(es_attackername) #lightgreenhit caused you to look to the skys with an #greenAlien Gun
+    es_cexec event_var(userid) r_screenoverlay effects/ar2_altfire1.vmt
+    es_delayed .2 es_cexec event_var(userid) r_screenoverlay models\props_lab\cornerunit_cloud.vmt
+    es_delayed .4 es_cexec event_var(userid) r_screenoverlay models\props_lab\warp_sheet.vmt
+    es_delayed .6 es_cexec event_var(userid) r_screenoverlay effects/ar2_altfire1.vmt
+    es_delayed 1 es_cexec event_var(userid) r_screenoverlay 0
+}
+
+block probe
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z2 + 40
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 200 3 10 30 1 0 255 0 255 1000
+    es est_effect 3 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 3 9 3 0 255 0 255
+    es playerset push event_var(userid) 0 500 1
+    es_playsound event_var(userid) ambient/machines/pneumatic_drill_3.wav 1
+    es_playsound event_var(attacker) ambient/machines/pneumatic_drill_3.wav 1
+    es_delayed .4 es_playsound event_var(userid) hostage/hpain/hpain1.wav 1
+    es_delayed .4 es_playsound event_var(attacker) hostage/hpain/hpain1.wav 1
+    es_tell event_var(userid) #multi #lightgreenYou have Been #Green Probed!
+    es_tell event_var(attacker) #multi #lightgreenYou have #Green Probed event_var(es_username)
+}
+
+block abduction
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xset wcs_team_target 0
+	es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+        es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+            es_xset wcs_counter 0
+            es wcs_nearcoord wcs_player server_var(wcs_team_targetn) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(wcs_range) "es_exists ex userid server_var(wcs_player);if (server_var(ex) = 1) then es_xif (server_var(wcs_counter) < 1) then es_xdoblock holliday_wcs/extraterrestrial/ufo"
+            if (server_var(wcs_counter) > 0) then es_tell server_var(wcs_userid) #multi #green Alien Abduction 
+  		    else es_xset wcs_ultinotexec 1
+		}
+		else do
+        {
+            es_xset wcs_ultinotexec 1
+        }
+    } 
+    if (server_var(wcs_ultinotexec) = 1) then wcs_cancelulti server_var(wcs_userid)   
+    if (server_var(wcs_ultinotexec) = 1) then es_tell server_var(wcs_userid) #multi #greenTarget a human
+}
+
+block ufo
+{
+    es_playsound server_var(wcs_userid) ambient/misc/equipment_stress3.wav 1
+    es_playsound server_var(wcs_player) ambient/misc/equipment_stress3.wav 1
+    es_delayed .1 es_playsound server_var(wcs_player) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 1
+    es_delayed 1.6 es_stopsound server_var(wcs_player) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 
+    es_xmath wcs_counter + 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_player)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_player)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es playerset freeze server_var(wcs_player)  1
+    es_xmath wcs_z1 + 10
+    es_delayed .1  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 + 20
+    es_delayed .2  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 + 30
+    es_delayed .3  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 + 40
+    es_delayed .4  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 + 50
+    es_delayed .4  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 + 60
+    es_delayed .4  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 + 70
+    es_delayed .4  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 + 80
+    es_delayed .5  playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed server_var(wcs_time) playerset location server_var(wcs_player) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_delayed server_var(wcs_time) es playerset freeze server_var(wcs_player)  0
+    es est_effect 10 #a 0 sprites/water_drop.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 100 300 2 40 40 0 155 155 155 255 10
+    es est_effect 3 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(wcs_time) 32 39 255 255 255 255
+    es_cexec server_var(wcs_player) r_screenoverlay effects/ar2_altfire1.vmt
+    es_delayed .2 es_cexec server_var(wcs_player) r_screenoverlay models\props_combine\masterinterface01c.vmt
+    es_delayed .4 es_cexec server_var(wcs_player) r_screenoverlay models\props_lab\cornerunit_cloud.vmt
+    es_delayed .6 es_cexec server_var(wcs_player) r_screenoverlay models\props_lab\warp_sheet.vmt
+    es_delayed .8 es_cexec server_var(wcs_player) r_screenoverlay effects/prisonmap_disp.vmt
+    es_delayed 1 es_cexec server_var(wcs_player) r_screenoverlay effects/breenscreen_static01_.vmt
+    es_delayed 1.2 es_cexec server_var(wcs_player) r_screenoverlay effects/alyxmonitor_talk.vmt
+    es_delayed 1.4 es_cexec server_var(wcs_player) r_screenoverlay effects/ar2_altfire1.vmt
+    es_delayed 1.6 es_cexec server_var(wcs_player) r_screenoverlay 0
+    es wcs damage server_var(wcs_player) server_var(wcs_userid) server_var(wcs_dmg)
+}
+
+block abilities
+{
+    es_keysetvalue wcsuserdata event_var(userid) extraterrestrial server_var(wcs_abilities)
+    es playerset speed event_Var(userid) server_var(wcs_speed)
+}
+
+
+event player_jump
+{
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) extraterrestrial
+    if (server_var(wcs_tmp) != 0) do
+    { 
+        es playerset push event_var(userid) server_var(wcs_abilities) 0 0
+        es playerset jetpack event_var(userid) 1
+        es_delayed .5 es playerset jetpack event_var(userid) 0
+        es wcs_setfx gravity event_var(userid) = 0.36 0
+        es_playsound event_var(userid) items/gift_drop.wav 1
+        es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+        es_xmath wcs_z1 + 10
+        es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1000 10 .5 400 10 1 0 200 0 255 10
+        es est_effect 10 #a 0 effects/blueblacklargebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 1000 .5 400 10 1 0 200 0 255 10
+    }
+}
+
+
+event player_death
+{
+    es_keysetvalue wcsuserdata event_var(userid) extraterrestrial 0
+}

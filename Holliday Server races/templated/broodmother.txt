@@ -1,0 +1,15 @@
+Broodmother
+
+requires total level 400. cannot buy amulet of the cat
+
+Spawn Spiderlings
+18/22/28/33% chance on hit to deal 5/8/12/15 extra damage.
+
+Spin Web
+Spawn with 20/30/40/50% increased movement speed and 22/41/61/71% invisibility.
+
+Incapacitating Bite
+18/22/28/33% chance on hit to deal 5/8/12/15 extra damage and draw a cylinder of beams around the player making them unable to see if they dont move out of the tube.
+
+Insatiable Hunger (ultimate)
+Set your speed to 180% for 5/7/10/12 seconds. for that duration you have a 100% chance on hit to heal for 5-15 HP rolled randomly. once per round.

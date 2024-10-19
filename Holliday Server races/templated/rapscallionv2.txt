@@ -1,0 +1,18 @@
+Rapscallion II
+
+knife only. requires total level 290
+
+Flickering Shadows
+10/22/34/40/55% chance on spawn to set your render effect to 13 "Fast Flicker (transparent 0.14 s, visible 0.2 s, repeat)"
+
+Adrenaline
+Spawn with 0/10/10/20/30% increased movement speed.
+
+Blades
+5/8/13/16/28% chance on hit to deal 100% extra damage
+
+Levitation
+Spawn with 40/50/50/60/70% decreased gravity.
+
+Complete Invisibility (ultimate)
+Root yourself and become 100% invisible. a crosshair sprite appears at your location every 1/2/3/5/10 seconds and lasts 1/.7/.6/.4/.2 seconds.

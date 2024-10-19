@@ -1,0 +1,15 @@
+Lord Voldemort
+
+requires total level 870. P2000 only.
+
+Avada Kedavra
+5/10/15/20% chance on hit to deal 200 extra damage. this has a green beam effect and causes the enemy to glow green.
+
+Crucio
+10/15/20/25% chance on hit to deal 4/9/14/19 damage per second to the enemy for 4 seconds.
+
+Reducto
+5/10/15/18% chance on spawn for your shots to cause HE grenade explosions where they hit for the round
+
+Teleport (ultimate)
+instantly teleport to a location you are aiming at up to 750/920/1000/2600 units away. no cooldown.

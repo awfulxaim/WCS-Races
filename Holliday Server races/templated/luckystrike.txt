@@ -1,0 +1,18 @@
+Lucky*Strike
+
+requires total level 890.
+
+Lucky Strike
+10/12/14/18/20% chance on hit to deal 4/6/8/8/10 extra damage.
+
+Wild Card
+10/12/15/18/20% chance to evade
+
+Strike Lucky
+30% chance on hit to gain 20/50/80/110/140 money.
+
+Joker
+50/55/60/65/70% chance on spawn to spawn with ultimate immunity.
+
+Freeze
+5/7/10/16/25% chance on hit to bash the enemy for 1 second.

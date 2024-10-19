@@ -1,0 +1,15 @@
+Dwarven Warrior
+
+requires total level 620.
+
+Push Back
+2/4/6/8/9/10% chance on hit to knock the enemy back.
+
+Quickness
+5/8/12/15/18/20% chance on spawn to be immune to headshots for this round.
+
+Shield of Finest Quality
+2/4/6/8/9/10% chance when hit to gain 40% chance to evade for 1 second.
+
+Ground Shake (ultimate)
+All enemies in a 400 unit radius have their speed set to .2 and have their screen shook for 3 seconds. 25/23/21/19/17/15 second cooldown.

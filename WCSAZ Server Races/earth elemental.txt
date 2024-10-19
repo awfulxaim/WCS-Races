@@ -1,0 +1,16 @@
+Earth Elemental
+
+Tremor
+25% chance on hit to shake the enemy's screen for 3/4/5/6/7/8 seconds.
+
+Corrosion
+5/10/15/20/25/30% chance on hit to deal extra damage equal to 25% of the enemy's armor.
+
+Noxious Fumes
+4/8/12/16/20/25% chance on hit and when hit to poison the enemy for 5 seconds. poison deals 5 damage per second. if an enemy is already poisoned when this procs, reset the poison timer.
+
+Ancient Might
+Spawn with 50/60/70/80/90/100 more HP.
+
+War Stomp (ultimate)
+enemies in a 100/150/200/250/300/350 unit radius are rooted and cannot shoot for 3 seconds. 15 second cooldown.

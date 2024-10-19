@@ -1,0 +1,17 @@
+Kirin-Tor Archmage
+
+requires total level 200. limited to 2 per team. cannot buy boots of speed, cloak of shadow, or long jump.
+
+Earthquake 4/8/12/16/20/25% chance on hit to shake the enemy for 2 seconds.
+
+Flamelash
+25% chance on hit to burn the enemy for 1/2/3/4/5 damage per second for 3/3/4/4/5/5 seconds.
+
+Invisibility
+Spawn with 20/25/30/35/40/45% invisibility.
+
+Haste
+Spawn with 5/10/15/20/25/30% increased movement speed.
+
+Takeoff (ultimate)
+begin flying. 6/5/4/3/2/1 second cooldown.

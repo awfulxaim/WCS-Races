@@ -1,0 +1,167 @@
+[Element]
+	required            = 690
+	maximum             = 0
+	restrictmap         = ""
+	restrictteam        = 0
+	restrictitem        = ""
+	teamlimit           = 0
+	author              = "holliday"
+	desc                = ""
+	spawncmd            = "es_xdoblock holliday_wcs/element/spawn"
+	deathcmd            = ""
+	roundstartcmd       = ""
+	roundendcmd         = ""
+	preloadcmd          = ""
+	preload             = ""
+	allowonly           = ""
+	onchange            = ""
+	numberofskills      = 3
+	numberoflevels      = 5
+	skillnames          = "Impulse Rifle|Times Element|Gravity Pull"
+	skilldescr          = "Do more Damage and Disentegrate the enemie|Go back to the exact moment before death|Pull the enemy player torward you"
+	skillcfg            = "player_attacker|player_death|player_ultimate"
+	skillneeded         = "0|0|8"
+
+	[[skill1]]
+		setting           = "es_xset wcs_chance 13;es_xset wcs_damage 2|es_xset wcs_chance 18;es_xset wcs_damage 2|es_xset wcs_chance 23;es_xset wcs_damage 3|es_xset wcs_chance 27;es_xset wcs_damage 3|es_xset wcs_chance 19;es_xset wcs_damage 4"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/element/impulse"
+		sfx               = ""
+
+	[[skill2]]
+		setting           = "es_xset wcs_chance 15|es_xset wcs_chance 18|es_xset wcs_chance 22|es_xset wcs_chance 30|es_xset wcs_chance 38"
+		cmd               = "es es_xif (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/element/death"
+		sfx               = ""
+
+	[[skill3]]
+		setting           = "es_xset wcs_gpull 1|es_xset wcs_gpull 2|es_xset  wcs_gpull 3|es_xset  wcs_gpull 4|es_xset wcs_gpull 5"
+		cmd               = "es_xdoblock holliday_wcs/element/pull"
+        sfx               = ""
+		cooldown          = "20"
+
+
+
+
+
+block spawn
+{
+    es_playsound event_var(userid) ambient/machines/machine1_hit1.wav 1
+    es_playsound event_var(userid) weapons/irifle/irifle_fire2.wav 1
+    es playerset color event_var(userid) 120 120 120 255
+}
+
+block impulse
+{
+    es playerget health wcs_tmp event_var(userid)
+    if (server_var(wcs_tmp) < 10) then es_xdoblock holliday_wcs/elementb
+    if (server_var(wcs_tmp) > 20) then es_xdoblock holliday_wcs/elementa
+    if (event_var(health) < 5) then es_xdoblock holliday_wcs/elementc
+}
+
+block elementa
+{
+    es_tell event_var(attacker) #multi #lightgreen you caused #green server_var(wcs_damage) #lightgreen extra damage
+    es_tell event_var(userid) #multi #lightgreen you got #green server_var(wcs_damage) #lightgreen additional damage
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 5 10 3 60 10 0 255 255 255 172 10
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z1 + 40
+    es_xmath wcs_z2 + 40
+    es est_effect 3 #a 0 sprites/purplelaser1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 0.5 0.5 255 255 255 255
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_xmath wcs_y1 + 40
+    es_xmath wcs_y2 + 40
+    es est_effect 3 #a 0 sprites/purplelaser1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 0.5 0.5 255 255 255 255
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z1 + 40
+    es_xmath wcs_z2 + 40
+    es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 2.5 2.5 255 255 255 255
+    es_xmath wcs_y1 + 40
+    es_xmath wcs_y2 + 40
+    es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 2.5 2.5 255 255 255 255
+}
+
+block elementb
+{
+    es_give event_var(userid) env_entity_dissolver
+    es_fire event_var(userid) env_entity_dissolver addoutput "target cs_ragdoll"
+    es_fire event_var(userid) env_entity_dissolver addoutput "magnitude 1"
+    es_fire event_var(userid) env_entity_dissolver addoutput "dissolvetype 3"
+    es_fire event_var(userid) env_entity_dissolver addoutput "dissolvetype 1"
+    es_fire event_var(userid) env_entity_dissolver dissolve
+    es_delayed 2 es_xremove env_entity_dissolver
+}
+
+block elementc
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z2 + 900
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es wcs pushto event_var(userid) server_var(vector2) server_var(vector1)
+    es_delayed 2.1 es_playerset freeze event_var(userid) 1
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+    es_playsound event_var(userid) ambient/levels/citadel/weapon_disintegrate3.wav 1
+    es_playsound event_var(attacker) ambient/levels/citadel/weapon_disintegrate3.wav 1
+}
+
+block death
+{
+    racealias_element4
+    es_playsound event_var(userid) weapons/physcannon/physcannon_drop.wav 1
+    es_playsound event_var(attacker) weapons/physcannon/physcannon_drop.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+    es_delayed 3 wcs spawn server_var(wcs_userid)
+    es es_delayed 3 wcs spawn event_var(attacker)
+    es_delayed 3 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed 3 es playerset location event_var(attacker) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_delayed 3 es_playsound event_var(userid) weapons/physcannon/superphys_launch2.wav 1
+    es_delayed 3 es_playsound event_var(attacker) weapons/physcannon/superphys_launch2.wav 1
+    es playerget viewcoord event_var(userid) wcs_x1 wcs_y1 wcs_z1
+    es playerget viewcoord event_var(attacker) wcs_x2 wcs_y2 wcs_z2
+    es_delayed 3.1 es playerset viewcoord event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed 3.1 es playerset viewcoord event_var(attacker) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_tell event_var(userid) #multi #LightgreenIn 3 seconds #greenTime's Element #lightgreenwill peice together your last Moment
+    es_tell event_var(attacker) #multi #lightgreen in 3 seconds you go back in time to this verry moment
+    es est_effect 11 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255
+}
+
+block pull
+{
+    es_xset wcs_player 0
+    es_xset wcs_exists 0
+    es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) then getrandplayer wcs_player #ct
+	if (server_var(wcs_team) = 3) then getrandplayer wcs_player #t
+	es_exists wcs_exists userid server_var(wcs_player)
+	if (server_var(wcs_exists) = 1) do
+	{
+        es_getplayername wcs_name server_var(wcs_player)
+        es_exists wcs_exists userid server_var(wcs_player)
+        if (server_var(wcs_exists) = 1) do
+        {
+            es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+            es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_player)
+            es_xmath wcs_z1 + 900
+            es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	        es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+            es playerset push server_var(wcs_player) server_var(vector1) server_var(vector2) 1
+            //es wcs push server_var(wcs_userid) server_var(vector1) server_var(vector1)
+            es_tell server_var(wcs_userid) #multi #green : You have pulled #lightgreen server_var(wcs_name) #greencloser to you
+            es_getplayername wcs_name server_var(wcs_userid)
+            es_tell server_var(wcs_player) #multi #green: You have been pulled torward #lightgreen server_var(wcs_name)
+            es_playsound server_var(wcs_userid) weapons/physcannon/physcannon_pickup.wav 1
+            es es_playsound server_var(wcs_player) weapons/physcannon/physcannon_pickup.wav 1
+            es es_playsound server_var(wcs_userid) weapons/physcannon/energy_bounce1.wav 1
+            es es_playsound server_var(wcs_player) weapons/physcannon/energy_bounce1.wav 1
+            es_delayed 1 es playerset jetpack server_var(wcs_player) 1
+            es_delayed 6 es playerset jetpack server_var(wcs_player) 0
+            es_delayed 1 es playerset speed server_var(wcs_player) 3
+            es_delayed 4 es playerset speed server_var(wcs_player) 1
+            es_delayed 4 wcs damage server_var(wcs_player) server_var(wcs_userid) 10
+        }
+    }
+}

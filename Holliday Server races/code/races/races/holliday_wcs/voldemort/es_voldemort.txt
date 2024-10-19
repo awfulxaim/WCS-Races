@@ -1,0 +1,100 @@
+block spawn
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_xmath wcs_z1 + 175
+  es est_effect 10 #a 0 sprites/water_drop.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 500 2 400 400 0 155 155 155 255 10
+  es_xmath wcs_z1 + 20
+  es est_effect 11 #a 0 sprites/physcannon_bluecore1b.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 2 3 255
+  es_playsound event_var(userid) ambient\explosions\explode_6.wav 1
+}
+
+block avada
+{
+    es_playsound event_var(userid) play ambient/levels/citadel/portal_beam_shoot6.wav 1
+    es wcs damage event_var(userid) event_var(attacker) 200
+    es_tell event_var(userid) #multi #green Instant Kill from #lightgreen event_var(es_attackername)
+    es_tell event_var(attacker) #multi #green Instant Kill to #lightgreen event_var(es_username)
+    es_playsound event_var(userid) ambient/levels/citadel/portal_beam_shoot6.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z1 + 20
+    es_xmath wcs_z2 + 20
+    es est_effect_06 #a 0 sprites/hydragutbeamcap.vmt server_var(vector1) server_var(vector2) 100 1 15 0 10 5 0 204 204 255 100
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 1350 2 900 200 0 0 204 204 155 2
+    es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 1350 2 900 200 0 155 155 155 255 2
+    es_delayed .1 es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 50 2 900 200 0 155 155 155 255 2
+    es_delayed .2 es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 50 2 900 200 0 155 155 155 255 2
+    es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 350 2 90 200 0 155 155 155 155 2
+    es est_effect 11 #a 0 sprites/glow04_noz.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 10 255
+    es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 350 2 90 200 0 155 155 155 155 2
+}
+
+block crucio
+{
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_tell event_var(attacker) #multi #lightgreen Curse inflicted intense, excruciating physical pain by #green server_var(wcs_dmg)
+    es_delayed 1 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 1 es_tell event_var(attacker) #multi #lightgreen Curse inflicted intense, excruciating physical pain by #green server_var(wcs_dmg)
+    es_delayed 2 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 2 es_tell event_var(attacker) #multi #lightgreen Curse inflicted intense, excruciating physical pain by #green server_var(wcs_dmg)
+    es_delayed 3 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 3 es_tell event_var(attacker) #multi #lightgreen Curse inflicted intense, excruciating physical pain by #green server_var(wcs_dmg)
+    es_delayed 4 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 4 es_tell event_var(attacker) #multi #lightgreen Curse inflicted intense, excruciating physical pain by #green server_var(wcs_dmg)
+    es est_effect 4 #a 0 sprites/scanner.vmt event_var(userid) 3 30 30 50 255 0 25 255
+}
+
+block reducto
+{
+  es_keysetvalue wcsuserdata event_var(userid) reducto 1
+  es_tell event_var(userid) #multi #green Reducto! #lightgreen You will Have exploding Damage!
+}
+
+block teleport
+{
+    es_playsound server_var(wcs_userid) ambient/levels/citadel/portal_beam_shoot1.wav 1
+    es_xdoblock wcs/tools/ultimates/default/wcs_ulti_teleport
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 100 100 0 255 55 0 255 10
+    es est_effect_14 #a 0 sprites/scanner.vmt server_var(vector1) server_var(vector1) 900 25 900
+    es est_effect_18 #a 0 server_var(vector1) 255 2 2 500 40 1 1
+}
+
+
+
+event bullet_impact
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) reducto
+  if (server_var(wcs_tmp) = 1) do
+  { 
+    es_xset owner 0
+    es_xset coords 0
+    es_getplayerhandle owner event_var(userid)
+    es_setindexprop server_var(eventscripts_lastgive) cbaseentity.m_hownerentity server_var(owner)
+  	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+	es_xmath wcs_z2 + 50
+	es est_effect 3 #a 0 sprites/scanner.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) event_var(x) event_var(y) event_var(z) 1 3 1 255 128 35 255
+    es_delayed .3 es est_effect 11 #a 0 sprites/scanner.vmt event_var(x) event_var(y) event_var(z) 2 3 255
+    es_delayed .1 es_keysetvalue wcsuserdata event_var(userid) grenadeshot 0
+  	es_give event_var(userid) env_explosion
+	es_fire event_var(userid) env_explosion addoutput "imagnitude 100"
+	es_fire event_var(userid) env_explosion addoutput "spawnflags 8"
+    es_format coords "origin %1 %2 %3" event_var(x) event_var(y) event_var(z)
+	es_fire event_var(userid) env_explosion addoutput server_var(coords)
+	es_fire event_var(userid) env_explosion explode
+    es_getplayerhandle owner event_var(userid)
+	es_setindexprop server_var(eventscripts_lastgive) cbaseentity.m_hownerentity server_var(owner)
+	es_playsound event_var(userid) weapons/shotgun/shotgun_dbl_fire.wav 1
+  }
+}
+
+event player_death
+{
+  es_keysetvalue wcsuserdata event_var(userid) reducto 0
+}

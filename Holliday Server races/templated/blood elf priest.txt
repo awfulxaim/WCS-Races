@@ -1,0 +1,15 @@
+Blood Elf Priest
+
+nova, deagle, and knife only. requires total level 570.
+
+Power Word: Shield
+10/15/20/25/30% chance when you take 10 or more damage to heal yourself and all teammates 5-10 HP rolled randomly.
+
+Holy Fire
+2/4/6/8/10% chance on hit to burn the enemy for 3 seconds.
+
+Divinity
+Gain 500/1000/1500/2000/2500 extra money on kill.
+
+Transfusion (ultimate)
+Spend 500/1000/1500/2000/2500 money to get 10/20/30/40/50 HP. 15/13/12/11/10 second cooldown.

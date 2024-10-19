@@ -1,0 +1,18 @@
+Agent of S.H.I.E.L.D.
+
+Pistols only. spawns with 100 armor and helmet.
+
+Explosive Rounds
+16% chance on hit to knock the enemy in a random direction (can be up or down too). the force of the push increases with each level. force 150/200/250/300/370
+
+Clip Shot
+14/16/20/25/33% chance on hit remove 5 rounds from the enemy's mag.
+
+Armor Piercing Rounds
+20/35/50/65/80% chance on hit to remove 15 armor from the enemy.
+
+Extended Clip
+Your gun has a 20/40/60/80/100% larger magazine.
+
+Showdown (ultimate)
+Up to 1/2/3/4/5 enemies in a 400/500/600/700/800 unit radius are disarmed. 30 second cooldown

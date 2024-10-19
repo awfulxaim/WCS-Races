@@ -1,0 +1,219 @@
+block load
+{
+    es_xexists ex clientcommand !spell
+    if (server_var(ex) = 0) then es_xregclientcmd !spell holliday_wcs/oblivion/ward "Command for special abilities"
+    es_xexists ex saycommand !spell
+    if (server_var(ex) = 0) then es_xregsaycmd !spell holliday_wcs/oblivion/ward "Command for special abilities"
+    es_xexists ex command Nether
+    if (server_var(ex) = 0) then es_xregcmd Nether holliday_wcs/oblivion/Nether "Nether Ward"
+    es_xset wcs_sward_invul 0
+    es_xset wcs_sward_resist 0
+    es_xset wcs_x3 0
+    es_xset wcs_y3 0
+    es_xset wcs_z3 0
+}
+
+block netherblast
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a .2 sprites/plasmaember.vmt server_var(vector2) server_var(vector1) 100 1 15 10 10 0 228 28 228 255 100 
+    es playerget viewcoord event_var(attacker) wcs_x1 wcs_y1 wcs_z1
+    es playerget viewcoord event_var(attacker) wcs_x2 wcs_y2 wcs_z2
+    es_xmath wcs_y1 + 50
+    es_xmath wcs_x1 + 50
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a .2 sprites/glow07.vmt server_var(vector2) server_var(vector1) 100 1 15 10 10 0 0 255 255 255 100
+    es_delayed 2.1 es est_effect_06 #a 0 sprites/glow07.vmt server_var(vector2) server_var(vector1) 100 .3 15 10 10 0 0 255 255 255 100
+    es_xmath wcs_y1 - 100
+    es_xmath wcs_x1 - 100
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a .2 sprites/glow07.vmt server_var(vector2) server_var(vector1) 100 1 15 10 10 0 0 255 255 255 100
+    es est_effect_18 #a .3 server_var(vector2) 255 10 255 40 300 13 420
+    es_delayed 1.5 es est_effect_18 #a .3 server_var(vector2) 255 10 255 40 300 13 420
+    es_delayed 2.1 es est_effect_18 #a .3 server_var(vector2) 255 10 255 40 300 13 420
+    es_delayed 2.5 es est_effect_18 #a .3 server_var(vector2) 255 10 255 40 300 13 420
+    es_delayed 1.5 es est_Effect_06 #a .2 sprites/glow07.vmt server_var(vector2) server_var(vector1) 100 .3 15 10 10 0 0 255 255 255 100
+    es_delayed 2.5 es est_Effect_06 #a .2 sprites/glow07.vmt server_var(vector2) server_var(vector1) 100 .3 15 10 10 0 0 255 255 255 100
+    es_playsound event_var(userid) ambient/levels/citadel/portal_beam_shoot4.wav 1
+    es_playsound event_var(attacker) ambient/levels/citadel/portal_beam_shoot4.wav 1
+    es wcs damage event_var(userid) event_var(attacker) 5
+    es_delayed 1.5 es wcs damage event_var(userid) event_var(attacker) 3
+    es_delayed 2.5 es wcs damage event_var(userid) event_var(attacker) 2
+    es_tell event_var(attacker) #multi #default [NetherBlast] #lightgreenYou Created a blast of exploding pulses from the Nether Plane
+}
+
+block decrepify
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid) 
+    es_xmath wcs_z1 + 500
+    es_xmath wcs_x1 + 500
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_delayed 0.2 es est_effect_06 #a 0 effects/hydragutbeamcap.vmt server_var(vector2) server_var(vector1) 100 1 15 10 10 0 0 255 255 255 100
+    es_playsound event_var(userid) ambient/levels/citadel/portal_beam_shoot5.wav 1
+    es_playsound event_var(attacker) ambient/levels/citadel/portal_beam_shoot5.wav 1
+    es est_effect_08 #a 0 effects/hydragutbeamcap.vmt server_var(vector2) 120 40 10 3 190 40 0 255 255 255 255 100 1
+    es wcsl_drug <event_var(userid) 1 1
+    es wcsl_flash event_var(userid) 1 1 144 191 211 111
+    es_tell event_var(attacker) #multi #default [Decrepify] #lightgreenYou hav cast a powerful #greenbanishing #lightgreenmagic on event_var(es_username)
+}
+
+block lfdrain
+{
+    repeat create drain "es_xdoblock holliday_wcs/oblivion/drain"
+    repeat start drain .1
+    es_delayed server_var(wctime) repeat stop drain
+}
+
+
+block drain
+{
+    es_xset groundrange 500
+    es wcs_nearcoord server_var(wcs_team_targetn) server_var(groundrange) server_var(wcs_userid) "es_xdoblock holliday_wcs/oblivion/Life"
+
+}
+
+
+block ward
+{
+  es_xset wcs_userid 0
+  es_xgetargv wcs_userid 1
+  es es_xexists wcs_exists userid server_var(wcs_userid)
+  if (server_var(wcs_exists) = 0) do
+  {
+    es_xgetcmduserid wcs_userid
+    es es_xexists wcs_exists userid server_var(wcs_userid)
+  }
+  es es_xgetplayerprop wcs_dead server_var(wcs_userid) "CCSPlayer.baseclass.pl.deadflag"
+  if (server_var(wcs_dead) = "1") then es_xset wcs_exists 0
+  es_xcopy wcs_ulti_allow wcs_gamestarted
+  if (server_var(wcs_ulti_allow) != "1") then es_xset wcs_exists 0
+  if (server_var(wcs_exists) = 1) do
+  {
+    es es_xexists wcs_exists key WCSuserdata server_var(wcs_userid)
+    if (server_var(wcs_exists) = 1) do
+    {
+      es es_xkeygetvalue wcs_tmp WCSuserdata server_var(wcs_userid) "ward"
+      if (server_var(wcs_tmp) in "Nether") do
+    {
+      es_xset wcs_ability_count 0
+      es es_xkeygetvalue wcs_ability_count WCSuserdata server_var(wcs_userid) ability_count
+      if (server_var(wcs_ability_count) > 0) do
+      {
+        if (server_var(wcs_tmp) = "Nether") do
+        {
+          es_xset wcs_params 0
+          es es_xkeygetvalue wcs_params WCSuserdata server_var(wcs_userid) "ability_parameter"
+          if (server_var(wcs_params) != "0") do
+	        {
+	          es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+	          es_xset wcs_duration 0
+	          es es_xtoken wcs_duration server_var(wcs_params) 1 "_"
+	          if (server_var(wcs_graphicfx) = 1) do
+	          {
+	            es_xcopy wcs_x2 wcs_x1
+		          es_xcopy wcs_y2 wcs_y1
+		          es_xcopy wcs_z2 wcs_z1
+		          es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+		          es_xset vector1 wcs_z1
+              es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+              es_xset entityCount 0
+              es_xset mySmokeName ""
+              es_xformatv mySmokeName "smoke_%1" entityCount 
+              es_give server_var(wcs_userid) env_Smokestack 
+              //es est_SetEntName server_var(eventscripts_lastgive) server_var(mySmokeName) 
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "basespread 45"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "spreadspeed 25"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "speed 20"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "startsize 12"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "endsize 17"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "rate 90"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "jetlength 120"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "twist 0"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "SmokeMaterial effects/strider_bulge_dudv.vmt"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "angles 0 0 0"
+              es_fire server_var(wcs_userid) server_var(mySmokeName) addoutput "rendercolor 255 255 255"
+              es_delayed server_var(wcs_duration) es_fire server_var(wcs_userid) server_var(mySmokeName) kill 
+              es_fire server_var(wcs_userid) server_var(mySmokeName) turnon
+              repeat create netherward "es est_effect_18 #a 0 server_var(vector1) 15 254 36 400 1 server_var(wcs_duration) 160"
+              repeat start netherward .1
+              es_delayed server_var(wcs_duration) repeat stop netherward
+              es_xmath entityCount + 1
+            }
+			          es es_xgetplayerteam wcs_team server_var(wcs_userid)
+	              if (server_var(wcs_team) = 2) do
+	  	          {
+			            es_xset wcs_team_target 3
+			            es_xset wcs_team_targetn "#ct"
+			          }
+			          if (server_var(wcs_team) = 3) do
+			          {
+			             es_xset wcs_team_target 2
+			             es_xset wcs_team_targetn "#t"
+		            }
+	              es es_xtoken wcs_dmg server_var(wcs_params) 2 "_"
+		            es es_xtoken wcs_radius server_var(wcs_params) 3 "_"
+	              es Nether server_var(wcs_userid) server_var(wcs_duration) server_var(wcs_dmg) server_var(wcs_radius) server_var(wcs_team_target) server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_roundcounter)
+	              es es_xtell server_var(wcs_userid) #multi #greenYou have Placed Nether Ward
+	              }
+          } 
+          es_xmath wcs_ability_count - 1
+          es es_xkeysetvalue WCSuserdata server_var(wcs_userid) ability_count server_var(wcs_ability_count)
+        }
+        es_xelse do
+        {
+          wcs_getlanguage "wcs_lng" "wcs_lng_noability"
+          es es_xtell server_var(wcs_userid) #multi server_var(wcs_lng)
+        }
+      }
+    }
+  }
+}
+
+block Nether
+{
+	es_xsetinfo wcs_uid 0
+	es_xsetinfo wcs_duration 0
+	es_xsetinfo wcs_dmg 0
+	es_xsetinfo wcs_radius 0
+	es_xsetinfo wcs_team_target 0
+	es_xsetinfo wcs_wardenround 0
+	es_xgetargv wcs_uid 1
+	es_xgetargv wcs_duration 2
+	es_xgetargv wcs_dmg 3
+	es_xgetargv wcs_radius 4
+	es_xgetargv wcs_team_target 5
+	es_xgetargv wcs_team_targetn 6
+	es_xgetargv wcs_x1 7
+	es_xgetargv wcs_y1 8
+	es_xgetargv wcs_z1 9
+	es_xgetargv wcs_wardenround 10
+  es es_xexists wcs_exists userid server_var(wcs_uid)
+  es es_xgetlivingplayercount wcs_alive server_var(wcs_team_target)
+  es es_xif (server_var(wcs_alive) < 1) then es_xsetinfo wcs_exists 0
+  es es_xif (server_var(wcs_wardenround) != server_var(wcs_roundcounter)) then es_xsetinfo wcs_duration 0
+	es es_xif (server_var(wcs_exists) = 1) do
+	{
+		es es_xif (server_var(wcs_duration) > 0) do
+		{
+			es es_xif (server_var(wcs_radius) != "0") do
+			{
+				es es_xif (server_var(wcs_team_targetn) != "0") do
+				{	
+				  es_xsetinfo wcs_wall "1"
+				  alias wcs_run_Nether  "es es_xgetplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_targetid);es est_getwallbetween wcs_wall server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2);es_keygetvalue wcs_sward_invul WCSuserdata server_var(wcs_targetid) swardinvul;es_keygetvalue wcs_sward_resist WCSuserdata server_var(wcs_targetid) swardresist;if (server_var(wcs_sward_invul) = 1) then shopalias_asw1_off;if (server_var(wcs_wall) = 0) then es_xif (server_var(wcs_sward_invul) = 0) then wcs_run_Nether2"
+				  alias wcs_run_Nether2 "es est_speed server_var(wcs_targetid) 0.3;es_delayed .5 es est_speed server_var(wcs_targetid) 1;es es_xtell server_var(wcs_targetid) #multi #greenYou have been hit by a Nether Ward!"
+				  es nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) server_var(wcs_radius) server_var(wcs_radius) "es es_xgetplayerprop wcs_dead server_var(wcs_targetid) CCSPlayer.baseclass.pl.deadflag;es es_xif (server_var(wcs_dead) = 0) then wcs_run_Nether"
+				  es_xmath wcs_duration - 1
+				  es es_xdelayed 1 Nether server_var(wcs_uid) server_var(wcs_duration) server_var(wcs_dmg) server_var(wcs_radius) server_var(wcs_team_target) server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_wardenround)
+			  }
+			}
+		}
+	}
+}

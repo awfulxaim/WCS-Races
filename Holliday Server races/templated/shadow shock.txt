@@ -1,0 +1,15 @@
+Shadow Shock
+
+requires total level 660. has a black player model and has 14% invisibility by default.
+
+Shadow Shock
+6/11/22/33% chance on hit to lift the enemy 410 units into the air, then after .7 seconds move them to the left 200 units then after another .6 seconds move them to the right 200 units.
+
+Reflect
+10/18/25/33% chance when hit to deal 6-21 damage to that enemy rolled randomly
+
+Fading Cloak of Shadows
+25/50/75/90% chance on spawn to spawn with renderfx 13 (13: Fast Flicker (transparent 0.14 s, visible 0.2 s, repeat))
+
+Weapon Swap (ultimate)
+You get a scout for 3/5/8/10 seconds. press ultimate again while you have a scout to get your old weapon back. 3/5/8/10 second cooldown.

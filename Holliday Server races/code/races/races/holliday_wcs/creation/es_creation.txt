@@ -1,0 +1,20 @@
+block hp
+{
+    es playerset health event_var(userid) server_var(wcs_hp)
+    es_tell event_var(userid) #multi #default server_var(wcs_hp) HP
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_tell event_var(userid) #multi #default server_var(wcs_hp) Speed
+}
+
+block invis
+{
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_alpha)
+    es_tell event_var(userid) server_var(wcs_alpha) Invisible!
+}
+
+block derop
+{
+    es wcs drop event_var(userid) server_var(wcs_tmp)
+    es_tell event_var(attacker) #multi #lightgreen you have caused #green event_var(es_username) #lightgreen to drop their server_var(wcs_tmp)
+    es_tell event_var(userid) #multi #green event_var(es_attackername) #lightgreen has caused you to drop your #green server_var(wcs_tmp)
+}

@@ -1,0 +1,123 @@
+block spawn
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_playsound event_var(userid) ambient\levels\citadel\portal_beam_shoot2.wav 1
+  es_keysetvalue wcsuserdata event_var(userid) points1 0
+  es_keysetvalue wcsuserdata event_var(userid) points2 0
+  es_keysetvalue wcsuserdata event_var(userid) points3 0
+  es_keysetvalue wcsuserdata event_var(userid) gravity_ 0
+  es_keysetvalue wcsuserdata event_var(userid) longjump_ 0
+  es_xset wcs_counter 0
+  repeat create hb "es_xdoblock holliday_wcs/huckelberry/spawneffect"
+  repeat start hb .1
+}
+
+block spawneffect
+{  
+  es_xmath wcs_z1 + 10
+  es_xmath wcs_counter + 1
+  es est_effect 10 #a 0 effects/blueblackflash.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 130 50 2 7 11 0 255 25 25 255 8
+  if (server_var(wcs_counter) >= 10) then es_xmath wcs_z1 - 15   
+  if (server_var(wcs_counter) >= 30) then repeat stop ha
+}
+
+block firstskill
+{
+ es_tell event_var(userid) #greenNo SKILL YET  
+} 
+
+block deathskill1
+{
+  es usermsg centermsg event_var(userid) "dual in the sky!"
+  es usermsg centermsg event_var(attacker) "dual in the sky!"
+  es_tell event_var(userid) #multi #lightgreen you have challanged #green event_var(es_attackername) #lightgreen to a dual in the sky
+  es_tell event_var(attacker) #multi #green event_var(es_username) #lightgreen has challanged you to a dual in the sky 
+  es_playsound event_var(userid) ambient\machines\wall_move3.wav 1
+  es_playsound event_var(attacker) ambient\machines\wall_move3.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_delayed 3 es wcs spawn event_var(userid) 1
+  es_delayed 3 playerset location event_var(attacker) 0 0 900
+  es_delayed 3 playerset location event_var(userid) 0 300 900
+  es_delayed 3.1 playerset freeze event_var(userid) 1
+  es_delayed 3.1 playerset freeze event_var(attacker) 1
+  es_delayed 3.1 playerset viewplayer event_var(userid) event_var(attacker)
+  es_delayed 3.1 playerset viewplayer event_var(attacker) event_var(userid)
+  es_delayed 3 es wcs strip event_var(userid)
+  es_delayed 3 es wcs strip event_var(attacker)
+  es_delayed 6 es_give event_var(userid) weapon_deagle
+  es_delayed 6 es_give event_var(attacker) weapon_deagle
+  es_delayed 3 es usermsg centermsg event_var(userid) 3
+  es_delayed 4 es usermsg centermsg event_var(userid) 2
+  es_delayed 5 es usermsg centermsg event_var(userid) 1
+  es_delayed 6 es usermsg centermsg event_var(userid) draw!
+  es_delayed 3 es usermsg centermsg event_var(attacker) 3
+  es_delayed 4 es usermsg centermsg event_var(attacker) 2
+  es_delayed 5 es usermsg centermsg event_var(attacker) 1
+  es_delayed 6 es usermsg centermsg event_var(attacker) draw!
+  es_xmath wcs_z1 + 20
+  es est_effect 10 #a 6 sprites/lgtning.vmt 0 0 900 200 5000 8 400 400 0 255 5 5 255 10
+  es est_effect 10 #a 6 cs_italy/irongate01.vmt 0 0 900 200 5000 8 400 400 0 255 5 5 255 10  
+  es_delayed 10 playerset location event_var(attacker) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_delayed 10 playerset freeze event_var(attacker) 0
+  es playerget isdead wcs_alive event_var(attacker)
+  if (server_var(wcs_alive) = 0) then es_delayed 3 es wcs spawn event_var(attacker) 1
+  es playerget isdead wcs_dead event_var(userid)
+  if (server_var(wcs_dead) = 0) do
+  {
+    es wcs damage event_var(userid) event_var(userid) 100
+    es score add event_var(userid) 1
+  }  
+}
+
+block sky
+{
+    es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) then getrandplayer wcs_player #ct
+	if (server_var(wcs_team) = 3) then getrandplayer wcs_player #t
+	es_exists wcs_exists userid server_var(wcs_player)
+	if (server_var(wcs_exists) = 1) do
+	{
+  es_getplayername wcs_tmp server_var(wcs_player)
+  es usermsg centermsg server_var(wcs_userid) "dual in the sky!"
+  es usermsg centermsg server_var(wcs_player) "dual in the sky!"
+  es_tell server_var(wcs_userid) #multi #lightgreen you have challanged #green server_var(wcs_tmp) #lightgreen to a dual in the sky
+  es_tell server_var(wcs_player) #multi #green event_var(es_username) #lightgreen has challanged you to a dual in the sky 
+  es_playsound server_var(wcs_userid) ambient\machines\wall_move3.wav 1
+  es_playsound server_var(wcs_player) ambient\machines\wall_move3.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_player)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_userid)
+  es_delayed 3 es wcs spawn server_var(wcs_userid) 1
+  es_delayed 3 playerset location server_var(wcs_tmp) 0 0 900
+  es_delayed 3 playerset location server_var(wcs_userid) 0 300 900
+  es_delayed 3.1 playerset freeze server_var(wcs_userid) 1
+  es_delayed 3.1 playerset freeze server_var(wcs_userid) 1
+  es_delayed 3.1 playerset viewplayer server_var(wcs_userid) server_var(wcs_player)
+  es_delayed 3.1 playerset viewplayer server_var(wcs_userid) server_var(wcs_userid)
+  es_delayed 3 es wcs strip server_var(wcs_userid)
+  es_delayed 3 es wcs strip server_var(wcs_player)
+  es_delayed 6 es_give server_var(wcs_userid) weapon_deagle
+  es_delayed 6 es_give event_var(attacker) weapon_deagle
+  es_delayed 3 es usermsg centermsg server_var(wcs_userid) 3
+  es_delayed 4 es usermsg centermsg server_var(wcs_userid) 2
+  es_delayed 5 es usermsg centermsg server_var(wcs_userid) 1
+  es_delayed 6 es usermsg centermsg server_var(wcs_userid) draw!
+  es_delayed 3 es usermsg centermsg server_var(wcs_userid) 3
+  es_delayed 4 es usermsg centermsg server_var(wcs_userid) 2
+  es_delayed 5 es usermsg centermsg server_var(wcs_userid) 1
+  es_delayed 6 es usermsg centermsg server_var(wcs_userid) draw!
+  es_xmath wcs_z1 + 20
+  es est_effect 10 #a 6 sprites/lgtning.vmt 0 0 900 200 5000 8 400 400 0 255 5 5 255 10
+  es est_effect 10 #a 6 cs_italy/irongate01.vmt 0 0 900 200 5000 8 400 400 0 255 5 5 255 10  
+  es_delayed 10 playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_delayed 10 playerset freeze server_var(wcs_player) 0
+  es playerget isdead wcs_alive server_var(wcs_player)
+  if (server_var(wcs_alive) = 0) then es_delayed 3 es wcs spawn server_var(wcs_player) 1
+  es playerget isdead wcs_dead server_var(wcs_userid)
+  if (server_var(wcs_dead) = 0) do
+  {
+    es wcs damage server_var(wcs_userid) server_var(wcs_player) 100
+    es score add server_var(wcs_userid) 1
+  }  
+	}
+}

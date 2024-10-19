@@ -1,0 +1,18 @@
+Trinity
+
+requires total level 350. limited to 2 per team. cannot buy Boots of Speed, Mask of Death, or Sock of the Feather.
+
+Healing Font (Ability)
+The enemy you are aiming at grants you 100% chance on hit to leech 6/12/18/24/30% of the damage you deal to them for 4/5/6/7/8 seconds. 20 second cooldown.
+
+Surgical Knife
+When you deal damage to an enemy with your knife you store 14/18/22/26/30% of the damage you dealt. when you right click knife a teammate they are healed for the amount of damage you have stored to a max of 200 HP.
+
+Runic Blade
+Left clicking a teammate gives them 5/10/15/20/25% increased movement speed for 3/3.5/4/4.5/6 seconds.
+
+Power of the Tenno
+You spawn with 5/11/17/23/30 more HP and 4/8/12/16/20% increased movement speed and 4/8/12/16/20% reduced gravity.
+
+Lifelink (Ultimate)
+When activated a random enemy takes 4/8/12/16/20% of all damage you take for the next 4/5/6/7/8 seconds. 30 second cooldown.

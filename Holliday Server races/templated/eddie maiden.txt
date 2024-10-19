@@ -1,0 +1,16 @@
+Eddie Maiden
+
+You spawn with an HE grenade, you get a new one as soon as you throw the old one 5 times per round. requires total level 920.
+
+Powerslave
+100% chance on hit to bash the enemy for .1/.2/.4/.5/.6 seconds.
+
+Trooper
+Spawn with 57/49/41/32/25% invisibility, 32/40/48/56/64% reduced gravity, and 20/28/32/36/40% increased movement speed.
+
+A Real Live Dead One
+33/32/31/30/30% chance on death to to deal 110/120/120/250/350 damage to all enemies in a 170/170/180/300/350 unit radius.
+
+Holy Smoke
+Increase the size of grenade explosions by 3.9/4.8/5.7/6.3/10.2 times the size.
+

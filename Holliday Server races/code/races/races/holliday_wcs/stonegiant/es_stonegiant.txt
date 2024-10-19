@@ -1,0 +1,93 @@
+//event player_connect
+//{
+  //downloadable sound\holliday\stonegiant.wav
+  //downloadable sound\holliday\grow.wav
+  //downloadable sound\holliday\toss.wav
+//}
+
+block spawn
+{
+  es_playsound event_var(userid) physics\concrete\rock_scrape_rough_loop1.wav 1
+  es_delayed 2.4 es es_stopsound event_var(userid) physics\concrete\rock_scrape_rough_loop1.wav
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es est_effect_14 #a 0 models/props_wasteland/rockgranite02b.mdl server_var(vector1) server_var(vector1) 300 10 90
+  es est_effect_08 #a 0 sprites/lgtning.vmt server_var(vector1) 20 400 1 1 90 400 3 128 64 12 255 10 1
+}
+
+block avalanche
+{
+  es_playsound event_var(userid) physics\concrete\boulder_impact_hard1.wav 1
+  es_playsound event_var(attacker) physics\concrete\boulder_impact_hard1.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_14 #a 0 models\props_wasteland\rockgranite02b.mdl server_var(vector2) server_var(vector2) 300 10 90
+  es est_effect_08 #a 0 sprites/lgtning.vmt server_var(vector2) 20 400 1 1 90 400 3 128 64 12 255 10 1
+  es_delayed .2 es est_effect_06 #a 0 sprites/lgtning.vmt server_var(vector2) server_var(vector1) 100 1 15 10 10 10 128 64 12 255 100
+  es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+  es_keygetvalue wcs_tmp wcsuserdata event_var(attacker) grow
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_xmath wcs_damage * 2
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+    es_tell event_var(attacker) #multi #green double damage!
+    es_playsound event_var(attacker) holliday\stonegiant.wav 1
+  }
+}
+
+block toss
+{
+  es_format wcs_format "5,5,%1" server_var(wcs_punch)
+  es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+  es_cexec event_var(userid) r_screenoverlay effects/red.vmt
+  es_delayed 0.3 es_cexec event_var(userid) r_screenoverlay 0
+  es wcs push event_var(userid) 0 0 500
+  es_playsound event_var(userid) holliday/toss.wav 1
+  es_playsound event_var(attacker) holliday/toss.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es est_effect_14 #a 0 models/props_wasteland\rockgranite01b.mdl server_var(vector1) server_var(vector1) 150 10 900
+  es_tell event_var(attacker) #multi #lightgreen you have tossed #green event_var(es_username) #lightgreen into the air
+}
+
+block grow
+{
+  es playerset healthadd server_var(wcs_userid) server_var(wcs_hp)
+  es_keysetvalue wcsuserdata server_var(wcs_userid) grow 1
+  es_delayed server_var(wcs_time) es_keysetvalue wcsuserdata server_var(wcs_userid) grow 0
+  es playerset speedadd server_var(wcs_userid) server_var(wcs_speed)
+  es_delayed server_var(wcs_time) es playerset speed server_var(wcs_userid) 1
+  es_tell server_var(wcs_userid) #multi #lightgreenyour power has increased for #green server_var(wcs_time) seconds #default: + server_var(wcs_hp)
+  es_playsound server_var(wcs_userid) holliday\stonegiant.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es est_effect_14 #a 0 models\props_wasteland\rockgranite03b.mdl server_var(vector1) server_var(vector1) 300 30 200
+  es est_effect_08 #a 0 sprites/lgtning.vmt server_var(vector1) 20 80 1 2 100 400 3 128 64 12 255 10 1
+  es_set sg_user server_var(wcs_userid)
+  es_delayed server_var(wcs_time) es_xdoblock holliday_wcs/stonegiant/effect
+}
+
+block effect
+{
+  es_playsound server_var(sg_user) holliday\grow.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(sg_user)
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es est_effect_14 #a 0 models\props_wasteland\rockgranite03b.mdl server_var(vector1) server_var(vector1) 200 30 900
+  es est_effect_08 #a 0 sprites/lgtning.vmt server_var(vector1) 20 80 1 2 100 400 3 128 64 12 255 10 1
+}
+
+event bullet_impact
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) grow
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 event_var(x) event_var(y) event_var(z)
+    es est_effect_06 #a .2 sprites/lgtning.vmt server_var(vector2) server_var(vector1) 100 1 15 10 10 1 128 64 12 255 100
+    es est_effect_08 #a 0 sprites/lgtning.vmt server_var(vector2) 20 40 1 1 90 400 3 128 64 12 255 10 1
+    es est_effect_32 #a 0 server_var(vector2) 600 500 server_var(vector2)
+  }
+}

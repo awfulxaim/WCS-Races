@@ -1,0 +1,18 @@
+Wind Elemental
+
+knife only
+
+Tempest
+5/10/15/20/25% chance on hit to deal 50% extra damage and weakly knock the enemy up.
+
+Sandstorm
+20/25/30/35/40% chance on hit to blind enemies in a 750 unit radius with a 100% opacity dark brown screen for 1/2/3/4/5 seconds.
+
+Gust
+Spawn with .25/.3/.35/.4/.45 increased movement speed.
+
+Squall
+spawn with long jump
+
+Tornado (ultimate)
+Enemies in a 600 unit radius are knocked high up and pushed in a random direction once per second for 1/2/3/4/5 seconds. 20 second cooldown.

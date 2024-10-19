@@ -1,0 +1,23 @@
+block ultimate
+{
+    es playerset speed server_var(wcs_userid) 6
+    es playerset color server_var(wcs_userid) 0 102 255 255 
+    es_give server_var(wcs_userid) env_Smokestack 
+    es_fire server_var(wcs_userid) env_Smokestack addoutput "classname smokey"
+    es_fire server_var(wcs_userid) smokey addoutput "basespread 22"
+    es_fire server_var(wcs_userid) smokey addoutput "spreadspeed 10"
+    es_fire server_var(wcs_userid) smokey addoutput "speed 20"
+    es_fire server_var(wcs_userid) smokey addoutput "startsize 19"
+    es_fire server_var(wcs_userid) smokey addoutput "endsize 7"
+    es_fire server_var(wcs_userid) smokey addoutput "rate 75"
+    es_fire server_var(wcs_userid) smokey addoutput "jetlength 300"
+    es_fire server_var(wcs_userid) smokey addoutput "twist 0"
+    es_fire server_var(wcs_userid) smokey addoutput "SmokeMaterial effects/bluespark.vmt"
+    es_fire server_var(wcs_userid) smokey addoutput "angles 0 90 0"
+    es_fire server_var(wcs_userid) smokey addoutput "rendermode 18"
+    es_fire server_var(wcs_userid) smokey addoutput "renderamt 1000"
+    es_fire server_var(wcs_userid) smokey addoutput "rendercolor 0 102 255"
+    es_fire server_var(wcs_userid) smokey setparent !activator
+    es_fire server_var(wcs_userid) smokey turnon  
+    }
+}

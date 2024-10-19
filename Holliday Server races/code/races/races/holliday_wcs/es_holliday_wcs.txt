@@ -1,0 +1,33 @@
+block load
+{
+  es_xset script_var 0
+  es_xset script_val 0
+  es_xset script_format 0 
+  es_keygroupload holliday_wcs |holliday_wcs
+  es_foreachval script_var in holliday_wcs scripts "es_keygetvalue script_val holliday_wcs scripts server_var(script_var);if (server_var(script_val) = 1) then es_xdoblock holliday_wcs/script_load"
+  es_xset vector1 0
+  es_xset vector2 0
+  es_xset holliday_wcs "races coded by holliday" 
+  es_xmakepublic holliday_wcs
+}
+
+block unload
+{       
+  es_foreachval script_var in holliday_wcs scripts "es_keygetvalue script_val holliday_wcs scripts server_var(script_var);if (server_var(script_val) = 1) then es_xdoblock holliday_wcs/script_unload"           
+  es_keygroupdelete holliday_wcs |holliday_wcs
+}
+
+block script_load
+{
+ es_format script_format "holliday_wcs/%1" server_var(script_var)
+ es_load server_var(script_format)
+ es echo server_var(script_var) loaded"
+}
+
+block script_unload
+{
+ es_format script_format "holliday_wcs/%1" server_var(script_var)
+ es_unload server_var(script_format)
+ es echo server_var(script_var) server_var(script_val)"
+}
+

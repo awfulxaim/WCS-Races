@@ -1,0 +1,18 @@
+Vagalion
+
+Knife only. requires total level 250.
+
+Flickering Shadows
+30/32/34/42% chance on spawn to set your render effect to 13 "13: Fast Flicker (transparent 0.14 s, visible 0.2 s, repeat)"
+
+Adrenaline
+spawn with 20/24/28/42/86% increased movement speed.
+
+Blade
+You deal 13/28/44/50/60 extra damage with the knife.
+
+Levitation
+Spawn with 32/40/48/56/73% reduced gravity
+
+Complete Invisibility
+Become 100% invisible and restricted from all weapons. ignore gravity and push yourself constantly in the direction you are aiming. the max distance you can travel during this is 620/750/920/1000/1600 units. after that distance become rooted 1 second later. press ultimate again to cancel all of these effects. no cooldown.

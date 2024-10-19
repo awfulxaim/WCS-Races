@@ -1,0 +1,13 @@
+Paladin
+
+Holy Light (ability)
+Heal the teammate you are aiming at for 3/6/9/12/15 HP. if you are not aiming at a teammate you are healed instead. 15 second cooldown.
+
+Devotion Aura
+Spawn with 10/20/30/40/50 more HP.
+
+Hand of Freedom
+Spawn with 15/20/25/30/35% more speed.
+
+Divine Shield
+Become invulnerable for 1/2/3/4/5 seconds. 30 second cooldown.

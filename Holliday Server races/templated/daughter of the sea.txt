@@ -1,0 +1,15 @@
+Daughter of the Sea
+
+Spawns with 100 armor and helmet. requires total level 980
+
+Deep Chill
+10/12/22/33% chance on hit to deal 10 extra damage.
+
+Frost Bolt
+33% chance on hit to set the enemy to .8/.7/.6/.4 speed for .5/.8/1/1.5 seconds.
+
+Frost Armor
+33% chance when hit to gain 50/65/80/100 armor and 10/20/30/40 HP after a 4.5 second delay.
+
+Blizzard (ultimate)
+1/1/1/5 enemies in a 600/650/700/750 unit radius of you take 25 damage immediately then take 5 damage/.5 seconds for 1 second. 18/15/12/8 second cooldown. 10 second cooldown.

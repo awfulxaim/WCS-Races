@@ -1,0 +1,27 @@
+Lich King
+
+requires total level 3500.
+
+Defile (ability2)
+Lay a 200 unit radius purple ward that lasts 10/15/20/25/30 seconds and deals 10 damage per second. each time an enemy is dealt damage by this ward its radius increases by 50 units. 30 second cooldown.
+
+Harvest Soul
+5/10/15/20/25% chance on kill to gain 100 HP.
+
+Necrotic Plague
+5/10/15/20/25% chance on hit to poison the enemy for 15 seconds. while poisoned they take 2 dmg/sec. if the enemy dies while this is active on them it will jump to the nearest enemy and double its damage. this does not stack.
+
+Raise Dead
+20/25/30/35/40% chance on kill to respawn a random teammate.
+
+Ice Lock (ability)
+The enemy you are aiming at becomes paralyzed but invulnerable for 2/4/6/8/10 seconds. if the enemy blocks the paralyze effect the invulnerability is lost. 30 second cooldown. enemies affected by this ability have an ice sfx on them.
+
+Raging Spirits
+5/10/15/20/25% chance when hit to deal 75% mirror damage.
+
+Infest
+5/10/15/20/25% chance on hit to poison the enemy for 7 seconds. this deals 1 damage per second. each second the damage this deals is doubled. if an enemy affected by this skill is healed this effect falls off. this cannot stack
+
+Frostmourne and Shadowmourne (ultimate)
+10/20/30/40/50% chance on hit to slow the enemy by 20% for 4 seconds. this stacks with itself. activating this slows all enemies in a 400/450/500/550/600 unit radius by the amount the slowest enemy in that area is slowed by and deals 10 damage to each of them. 30 second cooldown. When you proc a slow on hit it says in the chat "[Frostmourne] you have been slowed by 20% for 4 seconds." When you activate the ultimate it says in chat "[Shadowmourne] You have been slowed by X% for 4 seconds and you took 10 damage."

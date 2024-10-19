@@ -1,0 +1,15 @@
+Fire Harpy
+
+requires total level 680. has a bright red player model.
+
+Finish Him
+2/4/6/8/10% chance on kill to respawn the enemy where they died after a 1 second delay, with HP equal to the last damage you dealt to them. when they respawn they are rooted for 1 second.
+
+Flickering Flames
+2/4/6/8/10% chance when hit to become 100% invisible for 1 second.
+
+Fire Blast
+2/4/6/8/10% chance on hit to deal 11-16 extra damage rolled randomly.
+
+Curse of the Fire Harpy (ultimate)
+You deal 10/15/20/25/30 damage to a random enemy. 25/22/19/17/15 second cooldown.

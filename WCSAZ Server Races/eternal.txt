@@ -1,0 +1,21 @@
+NSC-CCP-02 Eternal
+
+Max HP is 400HP.
+
+N.Mako Enhanced Nanobot System
+Begin healing HP when you spawn. 1/1/1/2/2/2/3/4 or 2/2/2/3/3/3/4/5 HP per second to your max HP.
+
+Alien Component Recycling Process
+Heal 5/10/15/20/25/30/35/40 HP when you kill an enemy.
+
+N.Mako Enhanced Shells
+35% chance on hit to deal 15/20/25/30/35/40/45/50% extra damage.
+
+Autonomous Evolution System
+Each time you spawn, spawn with 6/8/10/12/14/16/18/20 more HP for each time you have spawned before until you reach your max HP. for example the first time you spawn, you spawn at 100HP, but the 4th time you spawn, you spawn with 160HP, and the 15th time you spawn, you spawn with 400HP which is the max. this skill resets each map.
+
+NSC Bootboost MK. II
+Spawn with 8/15/23/30/38/45/53/60% reduced gravity.
+
+Bio-Mechanical Restoration
+You have an 15/25/35/45/55/65/75/80% chance when you die to respawn after 4-6.5 seconds at the location you died at with all of the guns and equipment you had when you died, once per round

@@ -1,0 +1,15 @@
+Athena
+
+requires total level 370
+
+Athena's Spear
+10/22/34/40% chance on hit to deal 4/5/6/8 extra damage
+
+Golden Helmet
+10/20/30/40% chance to take no damage from non-lethal headshots. this blocks the damage, not evade.
+
+Bright Eyed (ability)
+8/13/25/33% chance when you spawn to be able to hold ability to show the outline of enemies through walls.
+
+Athena's Shield
+The enemy you are aiming at and all enemies in an 400/500/600/800 unit radius of the enemy you aimed at are blinded and rooted for 2 seconds. 15 second cooldown.

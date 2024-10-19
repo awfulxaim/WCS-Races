@@ -1,0 +1,15 @@
+Death Dealer
+
+restricted to AK, Deagle, and knife.
+
+Speed
+Spawn with 40/50/70/120% increased movement speed
+
+Long jump
+long jump. 1.4/1.5/1.6/2.2x multiplier
+
+Push
+8/11/22/33% chance on hit to push the enemy right 50/75/90/110 units and up 1 unit.
+
+Weapon Swap (ultimate)
+Lose your weapons. after a 3.2/2.2/1.2/.2 second delay you swap your AK and deagle for an AWP and glock. Pressing ultimate again will swap them back with the same delay. no cooldown.

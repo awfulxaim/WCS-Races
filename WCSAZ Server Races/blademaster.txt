@@ -1,0 +1,18 @@
+Blademaster
+
+knife only
+
+Fortify Body
+spawn with 5/15/25/35/45/55 more HP.
+
+Fortify Soul
+spawn with .05/.15/.25/.35/.45/.55 increased movement speed.
+
+Mirror Image
+5/10/15/20/25/30% chance to evade. when you evade, 2 copies of your player model that move with you appear on each side of you for 3 seconds.
+
+Critical Strike
+You have a 15% chance on hit to deal 100/130/160/190/210/240% more damage.
+
+Wind Walk
+become 100% invisible and gain .05/.1/.15/.2/.25/.3 movement speed for 4 seconds. 16 second cooldown. your mirror images are lost when you activate this but if you evade while this is active they still appear.

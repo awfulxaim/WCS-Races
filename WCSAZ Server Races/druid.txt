@@ -1,0 +1,27 @@
+Druid
+
+USP-S only, no knife.
+
+Mark of the Wild
+You and all teammates spawn with 3/6/9/12/15/18/21/25 more HP.
+
+Wrath
+3/6/9/12/15/18/21/24% chance on hit to deal 100% extra damage.
+
+Rejuvenation (ability)
+Heal the teammate you are aiming at for 5 HP per second for 3/4/5/6/7/8/9/10 seconds. if you are not aiming at a teammate you heal yourself instead. 10 second cooldown.
+
+Lifebloom (ability2)
+Heal the teammate you are aiming at for 2 HP per second for 15 seconds. if you are not aiming at a teammate you heal yourself instead. 15/14/13/12/11/10/9/8 second cooldown.
+
+Moonfire
+2/4/6/8/10/12/14/16% chance on hit to poison the enemy for 5 damage per second for 6 seconds.
+
+Entangling Roots (ability3)
+Root all enemies in a 250/300/350/400/450/500/550/600 unit radius for 3/4/5/6/7/8/9/10 seconds. 30 second cooldown. If there are no enemies in the area, this ability fails and its cooldown is refreshed.
+
+Thorns Aura
+You have a 15/20/25/30/35/40/45/50% chance to deal 10/13/14/17/20/25/25/33% of the damage you take back to the enemy who hit you.
+
+Shapeshift (ultimate)
+become knife only. gain .15/.2/.25/.3/.35/.4/.45/.5 movement speed, gain 75 HP, and get longjump. once per round.

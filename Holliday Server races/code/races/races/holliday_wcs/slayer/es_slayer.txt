@@ -1,0 +1,98 @@
+block spawn
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 - 5
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 3 30 300 1.5 255 0 128 255 1
+}
+
+block rise
+{
+    es playerset freeze event_var(userid) 1
+    es_delayed .2 es playerset freeze event_var(userid) 0
+    es wcs_getlanguage wcs_lng wcs_lng_r_gotfrozenby
+    es es_xformat wcs_lng server_var(wcs_lng) event_var(es_attackername)
+    es_tell event_var(userid) server_var(wcs_lng)
+    wcs_getlanguage wcs_lng wcs_lng_r_froze
+    es es_xformat wcs_lng server_var(wcs_lng) event_var(es_username)
+    es_tell event_var(attacker) server_var(wcs_lng)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z1 + 1620
+    es_xmath wcs_z2 + 20
+    es est_effect 3 #a 0 sprites/tp_beam001.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 20 30 25 25 25 255
+}
+
+block fall
+{
+    es wcs damage event_var(userid) event_var(attacker) 200
+    es_tell event_var(attacker) +200 Damage
+    es_tell event_var(userid) +200 Damage
+    es_playsound event_var(userid) ambient/levels/citadel/portal_beam_shoot1.wav 1
+    es_playsound event_var(userid) ambient/levels/citadel/portal_beam_shoot1.wav 2
+}
+
+block element
+{
+    es_playsound event_var(attacker) npc/ichthyosaur/attack_growl3.wav 1
+    es_playsound event_var(userid) npc/ichthyosaur/attack_growl3.wav 1
+    es_xusermsg create fade fade
+    es_xusermsg write short fade 1000
+    es_xusermsg write short fade 5
+    es_xusermsg write short fade 0
+    es_xusermsg write byte fade 0
+    es_xusermsg write byte fade 0
+    es_xusermsg write byte fade 0
+    es_xusermsg write byte fade 255
+    es_usermsg send fade event_var(userid) 0.3
+    es_xusermsg delete fade
+    es wcs_setfx burn event_var(userid) .5
+    es_tell event_var(attacker) you have burned and blinded your enemy
+    es_tell event_var(userid) you have been burned and blinded
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 11 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 100 100 10 100 100 100 255 10
+    es est_effect 11 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255
+}
+
+block dominate
+{
+    es_keysetvalue WCSuserdata event_var(userid) longjump server_var(wcs_multiplier)
+    es est_setgravity event_var(userid) server_var(wcs_speed)
+    es wcs_getlanguage wcs_lng wcs_lng_r_longjump
+    es_tell event_var(userid) #multi server_var(wcs_lng)
+    es wcs_setfx gravity event_var(userid) = server_var(wcs_gravity) 0
+    es wcs_xtell event_var(userid) r_levitation
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es_toptext event_var(userid) 1 #cyan Effects by HOLLIDAY
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 600 70 3 30 100 0 255 100 100 255 10
+}
+
+block shadow
+{
+    es playerset color event_var(userid) 25 25 25 server_var(wcs_alpha)
+    es_tell event_var(userid) #multi #green Invisibility #lightgreenSet 
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 - 5
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 3 30 300 1.5 255 0 128 255 1
+}
+
+block slayer
+{
+    es playerset color event_var(userid) 255 0 15 0 
+    es_delayed 0.5 playerset color event_var(userid) 255 0 15 10 
+    es_delayed 1 playerset color event_var(userid) 255 0 15 25 
+    es_delayed 1.5 playerset color event_var(userid) 255 15 55 35 
+    es_delayed 2 playerset color event_var(userid) 255 25 55 60 
+    es_delayed 2.5 playerset color event_var(userid) 255 55 55 80 
+    es_delayed 3 playerset color server_var(wcs_userid) 255 100 100 15 
+    es_delayed 3.5 playerset color server_var(wcs_userid) 255 155 155 35 
+    es_delayed 4 playerset color server_var(wcs_userid) 255 200 255 65 
+    es_delayed 4.5 playerset color server_var(wcs_userid) 255 225 255 85 
+    es_delayed 5 playerset color server_var(wcs_userid) 255 225 255 100 
+    es_delayed 5.5 playerset color server_var(wcs_userid) 255 255 255 120 
+    es_delayed 6 playerset color server_var(wcs_userid) 255 255 255 150 
+    es est_effect 4 #a 0 sprites/tp_beam001.vmt server_var(wcs_userid) 3 3 3 50 255 0 25 150
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es_xmath wcs_z1 + 340
+    es est_effect 10 #a 0 models/effects/splodecard2_sheet.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 550 100 5 750 200 0 155 115 100 200 30
+}

@@ -1,0 +1,18 @@
+Karen
+
+Requires total level 700
+
+Karen's Strong Arm
+15/18/22/38% chance on hit to deal 8/14/18/22 extra damage.
+
+Karen's Determination
+15/18/22/38% chacne on spawn to get 10/20/30/45 more HP.
+
+Karen's Excitement
+15/18/22/38% chance when hit to set your speed to 1.4/1.8/2/2.5 for 1.4/1.8/2/2.5 seconds and banish yourself for 1 second. when this procs the enemy that hit you is blinded and cannot hear sounds for 1 second.
+
+Karen's Predjudice
+15/18/22/38% chance on hit to increase the enemy's recoil by 20x for 1 second.
+
+Karen's Will
+Set your speed to 1.4/1.8/2/3 for 1.4/1.8/2/3 seconds. for that duration you deal 10 extra damage on hit and block that enemy's ability to hear sounds for 1 second. If you die while this is active the enemy who killed you cannot hear sound for 1 second. 10 second cooldown

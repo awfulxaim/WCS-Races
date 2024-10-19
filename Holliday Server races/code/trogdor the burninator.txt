@@ -1,0 +1,40 @@
+ ""
+  {
+    "name"              "Trogdor the Burninator"
+    "author"            "[يσтд]קּнæитөм"
+    "required_level"    "0"
+    "maximum_level"     "0"
+    "allow_only"        "0"
+    "teamlimit"         "0"
+    "preloadcmd"        "0"
+    "player_spawn_cmd"  "es est_setplayercolor event_var(userid) 100 0 0 255 1"
+    "round_start_cmd"   "0"
+    "round_end_cmd"     "0"
+    "numberofskills"    "5"
+    "numberoflevels"    "4"
+    "skillnames"        "Tiny Wings|Burninator Breath|Burnination Wards|Failure to Flight|Burninating the Country Side"
+    "skilldescr"        "Too Heavy To Fly, but provide a Nice speed Boost|Set your foes ablaze|Place Wards To Burninate your foes,Bind a key to ability|Allows you to get small amounts of lift from your tiny wings|Set all of your opponents on Fire"
+    "skillcfg"          "player_spawn|player_attacker|player_spawn|player_spawn|player_ultimate"
+   
+    "skill1_setting"    "es_xsetinfo wcs_speed 1.2|es_xsetinfo wcs_speed 1.4|es_xsetinfo wcs_speed 1.6|es_xsetinfo wcs_speed 1.8"
+    "skill1_cmd"        "es es_xkeygetvalue wcs_tmp WCSuserdata event_var(userid) speed;es es_xif (server_var(wcs_tmp) > server_var(wcs_speed)) then es_xsetinfo wcs_speed server_var(wcs_tmp);es es_xkeysetvalue WCSuserdata event_var(userid) speed server_var(wcs_speed);es est_Speed event_var(userid) server_var(wcs_speed)"
+    "skill1_sfx"        "es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid);es est_effect 10 #a 0 sprites/strider_bluebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 500 3 500 500 0 148 148 141 255 10;es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid);es est_effect 11 #a 0 sprites/strider_bluebeam.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255"
+   
+    "skill2_setting"    "es_xsetinfo wcs_chance 15;es_xsetinfo wcs_time 1.5|es_xsetinfo wcs_chance 25;es_xsetinfo wcs_time 2.5|es_xsetinfo wcs_chance 30;es_xsetinfo wcs_time 3|es_xsetinfo wcs_chance 30;es_xsetinfo wcs_time 3.5"
+    "racealias_bm4"     "es est_gethealth wcs_health event_var(userid);es es_xsetinfo wcs_damage server_var(wcs_time);es_xmath wcs_damage * 5;es es_xif (server_var(wcs_health) > server_var(wcs_damage)) then est_burn event_var(userid) server_var(wcs_time);es wcs_dealdamage event_var(attacker) event_var(userid) server_var(wcs_damage);wcs_getlanguage wcs_lng wcs_lng_r_flamestrike;es es_xformat wcs_lng server_var(wcs_lng) event_var(es_attackername) event_var(es_username);es es_xtell event_var(userid) #multi server_var(wcs_lng);es es_xtell event_var(attacker) #multi server_var(wcs_lng)"
+    "skill2_cmd"        "es es_xif (server_var(wcs_dice) <= server_var(wcs_chance)) then est_isalive wcs_alive event_var(userid);es es_xif (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xif (server_var(wcs_alive) = 1) then racealias_bm4"
+    "skill2_sfx"        "es es_xif (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker);es es_xif (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xgetplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid);es es_xmath wcs_z1 + 10;es es_xmath wcs_z2 + 10;es es_xif (server_var(wcs_dice) <= server_var(wcs_chance)) then est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 30 30 255 0 0 150"
+     
+    "skill3_setting"    "es_xsetinfo wcs_count 1;es_xsetinfo wcs_params 12_14_220|es_xsetinfo wcs_count 2;es_xsetinfo wcs_params 14_16_240|es_xsetinfo wcs_count 3;es_xsetinfo wcs_params 14_18_260|es_xsetinfo wcs_count 5;es_xsetinfo wcs_params 14_10_240"
+    "skill3_cmd"        "es es_xkeysetvalue WCSuserdata event_var(userid) ability strider;es es_xkeysetvalue WCSuserdata event_var(userid) ability_count server_var(wcs_count);es es_xkeysetvalue WCSuserdata event_var(userid) ability_parameter server_var(wcs_params)"
+    "skill3_sfx"        "0"
+   
+    "skill4_setting"    "es_xsetinfo wcs_gravity 0.68|es_xsetinfo wcs_gravity 0.6|es_xsetinfo wcs_gravity 0.52|es_xsetinfo wcs_gravity 0.44"
+    "skill4_cmd"        "es es_xdelayed 2 est_SetGravity event_var(userid) server_var(wcs_gravity);es es_xkeysetvalue WCSuserdata event_var(userid) gravity server_var(wcs_gravity);wcs_getlanguage wcs_lng wcs_lng_r_levitation;es es_xtell event_var(userid) #multi server_var(wcs_lng)"
+    "skill4_sfx"        "es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid);es_xmath wcs_z1 + 40;es est_effect 10 #a 0 sprites/crosshairs.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 250 190 3 150 100 0 155 115 100 200 1"
+
+    "skill5_setting" "es_xsetinfo wcs_burn 3|es_xsetinfo wcs_burn 4|es_xsetinfo wcs_burn 5|es_xsetinfo wcs_burn 6"
+    "skill5_cmd" "es es_xif (server_var(wcs_team) = 2) then est_burn #c server_var(wcs_burn);es es_xif (server_var(wcs_team) = 3) then est_burn #t server_var(wcs_burn)"
+    "skill5_sfx"        ""
+    "ultimate_cooldown" "35"
+    }

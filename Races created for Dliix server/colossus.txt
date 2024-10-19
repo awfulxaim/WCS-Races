@@ -1,0 +1,16 @@
+Colossus
+
+Thermal Lance
+100% chance on hit to deal 10/20/30/40/50% of the damage you dealt to all other enemies in a 200 unit radius of that enemy.
+
+Lance Extension
+Thermal Lance deals 10/20/30/40/50% more damage and its radius is increased by 50/75/100/125/150.
+
+Terrain Traversal
+You can walk up heights of 100/150/200/300/350 units.
+
+Fire Beam
+15/16/17/18/20% chance when you miss a shot to create a ward the same radius as your thermal lance radius. These wards burn enemies that enter them for 1.5 seconds.
+
+Phase Shields
+You spawn with 150 armor and helmet. All damage you take is removed from armor first. You gain 2/3/4/5/6/7 armor per second to a max of 150.

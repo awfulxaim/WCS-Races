@@ -1,0 +1,15 @@
+Crucified Taco
+
+requires total level 880.
+
+Taco Launcher
+5/10/15/20/36% chance on hit to impale the enemy. while they are in the air, they are pushed in a random direction every .5 seconds for 1 second.
+
+Taco Tuesday
+10/15/20/25/30% chance on hit to deal 4/9/14/19/25 damage per second for 4 seconds.
+
+Wet Fart Wednesday
+8/12/16/20/25% chance on hit to shake the enemy for 1 second
+
+Flying Taco (ultimate)
+Instantly teleport where you aim, up to 750/920/1000/2000/2600 units away.

@@ -1,0 +1,15 @@
+Spiderman
+
+Spider Sense
+2/4/6/8/10% chance to evade.
+
+Agility
+Spawn with longjump with 110/115/120/125/130% increased distance, 5/12/19/26/30% increased movement speed, and 5/10/15/20/25% reduced gravity.
+
+Web-shooters
+2/4/6/8/10% chance on hit to bash the enemy for .5 seconds.
+
+Weblines (ultimate)
+move to the location you are aiming at without gravity to a max of 900/950/1000/1050/1100 units traveled. 10/8/6/4/3 second cooldown.
+
+NOTE: Weblines moves you toward the location you are aiming at when you activate it. once activated until you reach the location you aimed at or reach the max travel you cannot stop moving in that direction even if you turn.

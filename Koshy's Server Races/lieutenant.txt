@@ -1,0 +1,18 @@
+Lieutenant
+
+Five-seveN and knife only
+
+Hollow Point
+10/20/30/40/50% chance on hit to deal 5-20 extra damage, rolled randomly.
+
+Flare Shot
+5/10/15/20/25% chance on hit to blind the enemy for 1 second.
+
+Explosive Bullets
+5/10/15/20/25% chance on hit to deal 50% of the damage you dealt to the enemy to other enemies in a 200 unit radius.
+
+Bionic Vest
+Spawn with 20/40/60/80/100 armor and helmet. While you have armor you have a 5/10/15/20/25% chance to evade.
+
+Expert Marksman (ultimate)
+Press ultimate to zoom in. zoom gets more usable with levels.

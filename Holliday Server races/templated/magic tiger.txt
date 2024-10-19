@@ -1,0 +1,15 @@
+Magic Tiger
+
+requires total level 500
+
+Hit HP
+10/15/25/30/36% chance when hit to heal for 10/14/25/30/36 HP.
+
+Agility
+Spawn with 32/40/48/56/60% reduced gravity and 10/15/24/27/31% increased movement speed.
+
+Claw Attack
+24% chance on hit to deal 100/115/130/150/180% more damage.
+
+Aim Black Hole (ultimate)
+50/60/70/80/99% chance on activation to create a growing black hole where you are aiming after 2 seconds. the black hole starts at 50 unit radius and grows 20 units per second. the black hole lasts 1/2/3/4/5 seconds. 40 second cooldown. black holes have a gravity of 500. if creating a black hole succeeds during the 2 seconds delay every player gets a warning in chat that says "RUN BLACK HOLE"

@@ -1,0 +1,591 @@
+block cojones
+{
+    es playerset health event_var(userid) server_var(wcs_hp)
+    es_tell event_var(userid) #multi #lightgreen Your Cojones give you #green server_var(wcs_hp) Health!
+    es wcs_setfx longjump event_var(userid) = server_var(wcs_jump) 0
+    es_tell event_var(userid) #multi #green invisibility jump set
+    es_keysetvalue wcsuserdata event_var(userid) tanukijump server_var(wcs_invis)
+    es wcs_setfx gravity event_var(userid) = server_var(wcs_gravity) 0
+    es wcs_xtell event_var(userid) r_levitation
+}
+
+event player_jump
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) tanukijump
+  if (server_var(wcs_tmp) != 0) do
+  {
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_tmp)
+    es_delayed .6 es playerset color event_var(userid) 255 255 255 255
+    es wcs_setfx gravity event_var(userid) - .8 .5
+    es_playsound event_var(userid) npc/headcrab_fast/idle2.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z1 + 2000
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 20 5 300 100 0.8 0 51 0 255 1
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 20 5 30 100 0.8 255 153 0 255 1
+  }
+}
+
+block shape
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z1 + 2000
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 350 5 300 100 0.8 0 51 0 255 1
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 350 5 300 100 0.8 255 105 0 255 1
+    es est_effect 10 #a .2 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 40 380 3 300 100 0.8 0 51 0  255 1
+    es est_effect_06 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(vector2) server_var(vector1) 100 3 105 1 10 10 0 51 0  255 100
+    es est_effect_06 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(vector2) server_var(vector1) 100 3 105 1 10 10 255 153 0  255 100
+    es_playsound event_var(userid) npc/headcrab_fast/idle3.wav 1 100
+    if (server_var(wcs_dice) = 1) do
+    {
+        es playerset model event_var(userid) props/cs_militia/toilet.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Toilet!
+    }
+    if (server_var(wcs_dice) = 2) do
+    {
+        es playerset model event_var(userid) props/cs_havana/gazebo.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Gazebo!
+    }
+    if (server_var(wcs_dice) = 3) do
+    {
+        es playerset model event_var(userid) props/cs_militia/mailbox01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Mailbox01!
+    }
+    if (server_var(wcs_dice) = 4) do
+    {
+        es playerset model event_var(userid) props_c17/oildrum001_explosive.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Barrell!
+    }
+    if (server_var(wcs_dice) = 5) do
+    {
+        es playerset model event_var(userid) props_junk/watermelon01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Watermelon01!
+    }
+    if (server_var(wcs_dice) = 6) do
+    {
+        es playerset model event_var(userid) props/cs_italy/orange.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Orange!
+    }
+    if (server_var(wcs_dice) = 7) do
+    {
+        es playerset model event_var(userid) props/de_tides/Vending_turtle.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Turtle!
+    }
+    if (server_var(wcs_dice) = 8) do
+    {
+        es playerset model event_var(userid) items/item_item_crate.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Crate!
+    }
+    if (server_var(wcs_dice) = 9) do
+    {
+        es playerset model event_var(userid) props_interiors/vendingmachinesoda01a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Vending Machine!
+    }
+    if (server_var(wcs_dice) = 10) do
+    {
+        es playerset model event_var(userid) props/de_inferno/flower_barrel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Flower Barrel!
+    }
+    if (server_var(wcs_dice) = 11) do
+    {
+        es playerset model event_var(userid) props/cs_assault/ticketmachine.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Ticket Machine!
+    }
+    if (server_var(wcs_dice) = 12) do
+    {
+        es playerset model event_var(userid) props_c17/FurnitureFridge001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Fridge!
+    }
+    if (server_var(wcs_dice) = 13) do
+    {
+        es playerset model event_var(userid) props_junk/wood_crate001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Crate!
+    }
+    if (server_var(wcs_dice) = 14) do
+    {
+        es playerset model event_var(userid) props/cs_assault/dryer_box.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green dryer_box!
+    }
+    if (server_var(wcs_dice) = 15) do
+    {
+        es playerset model event_var(userid) props/cs_militia/dryer.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Dryer!
+    }
+    if (server_var(wcs_dice) = 16) do
+    {
+        es playerset model event_var(userid) props/cs_office/fire_extinguisher.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green fire extinguisher !
+    }
+    if (server_var(wcs_dice) = 17) do
+    {
+        es playerset model event_var(userid) props/de_inferno/chairantique.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Chair!
+    }
+    if (server_var(wcs_dice) = 18) do
+    {
+        es playerset model event_var(userid) props/cs_militia/barstool01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Bar Stool!
+    }
+    if (server_var(wcs_dice) = 19) do
+    {
+        es playerset model event_var(userid) props/cs_office/plant01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Plant!
+    }
+    if (server_var(wcs_dice) = 20) do
+    {
+        es playerset model event_var(userid) props/de_train/utility_truck.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Truck!
+    }
+    if (server_var(wcs_dice) = 21) do
+    {
+        es playerset model event_var(userid) props/cs_assault/forklift.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Forklift!
+    }
+    if (server_var(wcs_dice) = 22) do
+    {
+        es playerset model event_var(userid) props/cs_assault/handtruck.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Handtruck!
+    }
+    if (server_var(wcs_dice) = 23) do
+    {
+        es playerset model event_var(userid) props_junk/TrafficCone001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Traffic Cone!
+    }
+    if (server_var(wcs_dice) = 24) do
+    {
+        es playerset model event_var(userid) props/cs_militia/paintbucket01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green paint bucket!
+    }
+    if (server_var(wcs_dice) = 25) do
+    {
+        es playerset model event_var(userid) props/cs_militia/ropeladder01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green ropeladder!
+    }
+    if (server_var(wcs_dice) = 26) do
+    {
+        es playerset model event_var(userid) props_c17/metalladder001.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Ladder!
+    }
+    if (server_var(wcs_dice) = 27) do
+    {
+        es playerset model event_var(userid) props/de_tides/Vending_hat.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Hat!
+    }
+    if (server_var(wcs_dice) = 28) do
+    {
+        es playerset model event_var(userid) props/cs_militia/mailbox01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Mail Box!
+    }
+    if (server_var(wcs_dice) = 29) do
+    {
+        es playerset model event_var(userid) props/cs_militia/caseofbeer01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Case of Beer!
+    }
+    if (server_var(wcs_dice) = 3) do
+    {
+        es playerset model event_var(userid) props/de_inferno/cart_wheel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Wheel!
+    }
+    if (server_var(wcs_dice) = 31) do
+    {
+        es playerset model event_var(userid) props/cs_militia/haybale_target_03.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green haybale!
+    }
+    if (server_var(wcs_dice) = 32) do
+    {
+        es playerset model event_var(userid) props_borealis/bluebarrel001.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Blue Barrel!
+    }
+    if (server_var(wcs_dice) = 33) do
+    {
+        es playerset model event_var(userid) props/de_inferno/wine_barrel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Wine Barrel!
+    }
+    if (server_var(wcs_dice) = 34) do
+    {
+        es playerset model event_var(userid) props/cs_assault/ticketmachine.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green ticketmachine!
+    }
+    if (server_var(wcs_dice) = 35) do
+    {
+        es playerset model event_var(userid) props_c17/gravestone004a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Grave Stone!
+    }
+    
+    if (server_var(wcs_dice) = 36) do
+    {
+        es playerset model event_var(userid) props/cs_militia/toilet.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Toilet!
+    }
+    if (server_var(wcs_dice) = 37) do
+    {
+        es playerset model event_var(userid) props/cs_havana/gazebo.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Gazebo!
+    }
+    if (server_var(wcs_dice) = 38) do
+    {
+        es playerset model event_var(userid) props/cs_militia/mailbox01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Mailbox01!
+    }
+    if (server_var(wcs_dice) = 39) do
+    {
+        es playerset model event_var(userid) props_c17/oildrum001_explosive.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Barrell!
+    }
+    if (server_var(wcs_dice) = 40) do
+    {
+        es playerset model event_var(userid) props_junk/watermelon01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Watermelon01!
+    }
+    if (server_var(wcs_dice) = 41) do
+    {
+        es playerset model event_var(userid) props/cs_italy/orange.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Orange!
+    }
+    if (server_var(wcs_dice) = 42) do
+    {
+        es playerset model event_var(userid) props/de_tides/Vending_turtle.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Turtle!
+    }
+    if (server_var(wcs_dice) = 43) do
+    {
+        es playerset model event_var(userid) items/item_item_crate.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Crate!
+    }
+    if (server_var(wcs_dice) = 44) do
+    {
+        es playerset model event_var(userid) props_interiors/vendingmachinesoda01a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Vending Machine!
+    }
+    if (server_var(wcs_dice) = 45) do
+    {
+        es playerset model event_var(userid) props/de_inferno/flower_barrel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Flower Barrel!
+    }
+    if (server_var(wcs_dice) = 46) do
+    {
+        es playerset model event_var(userid) props/cs_assault/ticketmachine.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Ticket Machine!
+    }
+    if (server_var(wcs_dice) = 47) do
+    {
+        es playerset model event_var(userid) props_c17/FurnitureFridge001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Fridge!
+    }
+    if (server_var(wcs_dice) = 48) do
+    {
+        es playerset model event_var(userid) props_junk/wood_crate001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Crate!
+    }
+    if (server_var(wcs_dice) = 49) do
+    {
+        es playerset model event_var(userid) props/cs_assault/dryer_box.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green dryer_box!
+    }
+    if (server_var(wcs_dice) = 50) do
+    {
+        es playerset model event_var(userid) props/cs_militia/dryer.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Dryer!
+    }
+    if (server_var(wcs_dice) = 51) do
+    {
+        es playerset model event_var(userid) props/cs_office/fire_extinguisher.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green fire extinguisher !
+    }
+    if (server_var(wcs_dice) = 52) do
+    {
+        es playerset model event_var(userid) props/de_inferno/chairantique.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Chair!
+    }
+    if (server_var(wcs_dice) = 53) do
+    {
+        es playerset model event_var(userid) props/cs_militia/barstool01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Bar Stool!
+    }
+    if (server_var(wcs_dice) = 54) do
+    {
+        es playerset model event_var(userid) props/cs_office/plant01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Plant!
+    }
+    if (server_var(wcs_dice) = 55) do
+    {
+        es playerset model event_var(userid) props/de_train/utility_truck.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Truck!
+    }
+    if (server_var(wcs_dice) = 56) do
+    {
+        es playerset model event_var(userid) props/cs_assault/forklift.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Forklift!
+    }
+    if (server_var(wcs_dice) = 57) do
+    {
+        es playerset model event_var(userid) props/cs_assault/handtruck.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Handtruck!
+    }
+    if (server_var(wcs_dice) = 58) do
+    {
+        es playerset model event_var(userid) props_junk/TrafficCone001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Traffic Cone!
+    }
+    if (server_var(wcs_dice) = 59) do
+    {
+        es playerset model event_var(userid) props/cs_militia/paintbucket01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green paint bucket!
+    }
+    if (server_var(wcs_dice) = 60) do
+    {
+        es playerset model event_var(userid) props/cs_militia/ropeladder01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green ropeladder!
+    }
+    if (server_var(wcs_dice) = 61) do
+    {
+        es playerset model event_var(userid) props_c17/metalladder001.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Ladder!
+    }
+    if (server_var(wcs_dice) = 62) do
+    {
+        es playerset model event_var(userid) props/de_tides/Vending_hat.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Hat!
+    }
+    if (server_var(wcs_dice) = 63) do
+    {
+        es playerset model event_var(userid) props/cs_militia/mailbox01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Mail Box!
+    }
+    if (server_var(wcs_dice) = 64) do
+    {
+        es playerset model event_var(userid) props/cs_militia/caseofbeer01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Case of Beer!
+    }
+    if (server_var(wcs_dice) = 65) do
+    {
+        es playerset model event_var(userid) props/de_inferno/cart_wheel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Wheel!
+    }
+    if (server_var(wcs_dice) = 66) do
+    {
+        es playerset model event_var(userid) props/cs_militia/haybale_target_03.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green haybale!
+    }
+    if (server_var(wcs_dice) = 67) do
+    {
+        es playerset model event_var(userid) props_borealis/bluebarrel001.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Blue Barrel!
+    }
+    if (server_var(wcs_dice) = 68) do
+    {
+        es playerset model event_var(userid) props/de_inferno/wine_barrel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Wine Barrel!
+    }
+    if (server_var(wcs_dice) = 69) do
+    {
+        es playerset model event_var(userid) props/cs_assault/ticketmachine.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green ticketmachine!
+    }
+    if (server_var(wcs_dice) = 70) do
+    {
+        es playerset model event_var(userid) props_c17/gravestone004a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Grave Stone!
+    }
+    
+    if (server_var(wcs_dice) = 71) do
+    {
+        es playerset model event_var(userid) props/cs_militia/toilet.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Toilet!
+    }
+    if (server_var(wcs_dice) = 72) do
+    {
+        es playerset model event_var(userid) props/cs_havana/gazebo.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Gazebo!
+    }
+    if (server_var(wcs_dice) = 73) do
+    {
+        es playerset model event_var(userid) props/cs_militia/mailbox01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Mailbox01!
+    }
+    if (server_var(wcs_dice) = 74) do
+    {
+        es playerset model event_var(userid) props_c17/oildrum001_explosive.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Barrell!
+    }
+    if (server_var(wcs_dice) = 75) do
+    {
+        es playerset model event_var(userid) props_junk/watermelon01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Watermelon01!
+    }
+    if (server_var(wcs_dice) = 76) do
+    {
+        es playerset model event_var(userid) props/cs_italy/orange.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Orange!
+    }
+    if (server_var(wcs_dice) = 77) do
+    {
+        es playerset model event_var(userid) props/de_tides/Vending_turtle.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Turtle!
+    }
+    if (server_var(wcs_dice) = 78) do
+    {
+        es playerset model event_var(userid) items/item_item_crate.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Crate!
+    }
+    if (server_var(wcs_dice) = 79) do
+    {
+        es playerset model event_var(userid) props_interiors/vendingmachinesoda01a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Vending Machine!
+    }
+    if (server_var(wcs_dice) = 80) do
+    {
+        es playerset model event_var(userid) props/de_inferno/flower_barrel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Flower Barrel!
+    }
+    if (server_var(wcs_dice) = 81) do
+    {
+        es playerset model event_var(userid) props/cs_assault/ticketmachine.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Ticket Machine!
+    }
+    if (server_var(wcs_dice) = 82) do
+    {
+        es playerset model event_var(userid) props_c17/FurnitureFridge001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Fridge!
+    }
+    if (server_var(wcs_dice) = 83) do
+    {
+        es playerset model event_var(userid) props_junk/wood_crate001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Crate!
+    }
+    if (server_var(wcs_dice) = 84) do
+    {
+        es playerset model event_var(userid) props/cs_assault/dryer_box.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green dryer_box!
+    }
+    if (server_var(wcs_dice) = 85) do
+    {
+        es playerset model event_var(userid) props/cs_militia/dryer.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Dryer!
+    }
+    if (server_var(wcs_dice) = 86) do
+    {
+        es playerset model event_var(userid) props/cs_office/fire_extinguisher.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green fire extinguisher !
+    }
+    if (server_var(wcs_dice) = 87) do
+    {
+        es playerset model event_var(userid) props/de_inferno/chairantique.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Chair!
+    }
+    if (server_var(wcs_dice) = 88) do
+    {
+        es playerset model event_var(userid) props/cs_militia/barstool01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Bar Stool!
+    }
+    if (server_var(wcs_dice) = 89) do
+    {
+        es playerset model event_var(userid) props/cs_office/plant01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Plant!
+    }
+    if (server_var(wcs_dice) = 90) do
+    {
+        es playerset model event_var(userid) props/de_train/utility_truck.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Truck!
+    }
+    if (server_var(wcs_dice) = 91) do
+    {
+        es playerset model event_var(userid) props/cs_assault/forklift.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Forklift!
+    }
+    if (server_var(wcs_dice) = 92) do
+    {
+        es playerset model event_var(userid) props/cs_assault/handtruck.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Handtruck!
+    }
+    if (server_var(wcs_dice) = 93) do
+    {
+        es playerset model event_var(userid) props_junk/TrafficCone001a.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Traffic Cone!
+    }
+    if (server_var(wcs_dice) = 94) do
+    {
+        es playerset model event_var(userid) props/cs_militia/paintbucket01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green paint bucket!
+    }
+    if (server_var(wcs_dice) = 95) do
+    {
+        es playerset model event_var(userid) props/cs_militia/ropeladder01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green ropeladder!
+    }
+    if (server_var(wcs_dice) = 96) do
+    {
+        es playerset model event_var(userid) props_c17/metalladder001.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Ladder!
+    }
+    if (server_var(wcs_dice) = 97) do
+    {
+        es playerset model event_var(userid) props/de_tides/Vending_hat.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Hat!
+    }
+    if (server_var(wcs_dice) = 98) do
+    {
+        es playerset model event_var(userid) props/cs_militia/mailbox01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Mail Box!
+    }
+    if (server_var(wcs_dice) = 99) do
+    {
+        es playerset model event_var(userid) props/cs_militia/caseofbeer01.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Case of Beer!
+    }
+    if (server_var(wcs_dice) = 100) do
+    {
+        es playerset model event_var(userid) props/de_inferno/cart_wheel.mdl
+        es_tell event_var(userid) #multi #lightgreen You have Shapeshifted into a #green Wheel!
+    }
+}
+
+block sake
+{
+    es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" 500,1000,2000
+    es_delayed .5 es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" 0,0,0
+    es wcs drunk event_var(userid) 1
+    es_tell event_var(userid) #mulyi #lightgreen You are drink from #greenSake!
+    es_tell event_var(attacker) #multi #green event_var(es_username) #lightgreen is Drunk from #greenSake!
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 350 5 300 100 0.8 0 51 0 255 1
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 350 5 300 100 0.8 255 105 0 255 1
+    es est_effect 10 #a .2 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 40 380 3 300 100 0.8 0 51 0  255 1
+    es est_effect_06 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(vector2) server_var(vector1) 100 3 105 1 10 10 0 51 0  255 100
+    es est_effect_06 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(vector2) server_var(vector1) 100 3 105 1 10 10 255 153 0  255 100
+    es_playsound event_var(userid) npc/headcrab_fast/idle3.wav 1 100
+}
+
+block ultimate
+{
+    es_getplayerteam wcs_team server_var(wcs_userid)
+    if (server_var(wcs_team) = 3) then es_xset usermodel VGUI\gfx\VGUI\gsg9.vmt
+    if (server_var(wcs_team) = 2) then es_xset usermodel VGUI\gfx\VGUI\arctic.vmt
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es est_effect 11 #a 0 server_var(usermodel) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_time) 1 255
+    es_xmath wcs_y1 + 100
+    es est_effect 11 #a .2 server_var(usermodel) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_time) 1 255
+    es_xmath wcs_x1 - 200
+    es est_effect 11 #a .4 server_var(usermodel) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_time) 1 255
+    es_xmath wcs_y1 - 200
+    es est_effect 11 #a .6 server_var(usermodel) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_time) 1 255
+}
+
+
+event player_death
+{
+    es_keysetvalue wcsuserdata event_var(userid) tanukijump 0
+}
+
+
+
+

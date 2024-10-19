@@ -1,0 +1,15 @@
+Master of War
+
+AK and knife only. requires total level 333. cannot buy knight's armaments
+
+Weapon of War
+You have a 25/50/75/100% chance to ignore disarm and you deal 7.5/15/22/30% more damage with the AK. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Loadout
+You spawn with 30/60/90/120 armor and helmet. 4/8/12/16% of the damage you take is taken from armor first. You spawn with 1 HE grenade, 2 flashbangs, and a smoke. HE grenades bash enemies for 1 second. Your team are immune to flashbangs.
+
+Ammo
+Add 1 ammo to your mag every 1.6/1.2/.8/.4 seconds.
+
+Killing Spree (ultimate)
+you gain 4/6/8/10% damage reduction and movement speed for each 1 more K/D your team has over the other team. team K/D is calculated by taking all kills for that team and dividing it by all of their deaths. The duration is your team's K/D. 20 second cooldown.

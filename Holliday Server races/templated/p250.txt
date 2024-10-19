@@ -1,0 +1,15 @@
+Jad P250 MasterRace
+
+p250 and knife only. requires total level 1010.
+
+Strike
+44% chance on hit to deal 60/90/100/140% more damage. this is not considered extra damage for the purposes of blocking extra damage.
+
+Poison
+18/20/28/33% chance on hit to poison the enemy for 3/5/7/10 damage per second for 3 seconds then 1 damage per .5 seconds for 3 seconds.
+
+Leech HP
+33% chance on hit to heal for 29/29/30/33% of the damage you dealt.
+
+Speed and Invisibility
+Spawn with 30/60/90/120% increased movement speed and 22/42/61/71% invisibility.

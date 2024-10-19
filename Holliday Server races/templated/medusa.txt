@@ -1,0 +1,15 @@
+Medusa The Gorgon
+
+requires total level 410
+
+Split Shot
+8/16/24/33% chance on hit to deal 2/3/4/5 damage per 3 seconds for 9 seconds.
+
+Chain Lightning
+8/16/24/33% chance on hit to deal 8 damage to up to 3/3/4/4 enemies in a 600/650/700/2050 unit radius.
+
+Mana Shield
+12/18/22/38% chance when hit to reduce the damage you take by 1-20 damage rolled randomly.
+
+Purge (ultimate)
+Set up to 3/3/4/4 enemies in a 600/650/700/750 unit radius to 0.2 movement speed for 2 seconds. 10 second cooldown.

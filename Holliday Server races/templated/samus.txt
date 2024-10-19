@@ -1,0 +1,23 @@
+Samus Aran
+
+Beam Cannon
+6/15/23/37% chance on hit to do one of the following randomly:
+Deal 18-28 extra damage rolled randomly,
+Shake the enemy for 1 second and deal 7 extra damage.
+Blind the enemy for 1 second.
+Burn the enemy for 2 seconds.
+Set the enemy's speed to .5 for 2 seconds.
+If the enemy is already slowed by this effect, they take 6-15 extra damage and the effect is rerolled.
+
+
+Phazon Suit
+You spawn with long jump (multiplier 1.5/1.7/2.1/2.6), an HE grenade, get an HE grenade .1 seconds after throwing one, and heal 5/10/15/20/25 HP every 5-15 seconds, rolled randomly at spawn, to a maximum of 175.
+
+Bounty Hunter
+6/15/23/37% chance when hit to halve the fire rate of the enemy who hit you.
+
+Grapple Beam
+When you hit an enemy within a 300 unit radius of you, root yourself and that enemy for 2 seconds. you heal for 30/40/60/75 HP one second after being rooted. if you die while this is active you explode dealing 100 damage to all enemies in a 300 unit radius. enemies with ultimate immunity are unaffected by this skill.
+
+Phazon Energy Tank (ultimate)
+Set the ammo in your mag to 200, remove all reserve ammo, and gain 30/50/70/90% increased movement speed, but you lose 3-4 HP per second, rolled randomly each second. If you run out of ammo or press ultimate again, these effects are cancelled and you get your ammo returned to the amount you had before you activated the ultimate. your playermodel color is set to black while this is active.

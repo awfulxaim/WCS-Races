@@ -1,0 +1,18 @@
+Disruptor
+
+glock only
+
+Disraptor
+spawn with 8/16/24/32% increased movement speed.
+
+Glimpse (ability)
+after a 1.8 second delay teleport the enemy to the location they were at 4 seconds ago. when you activate this, for the 1.8 second delay a blue line is drawn from where the enemy is to where they will be when the delay ends. enemies who are affected by Glimpse take 3 damage for every 280/200/155/125 units away the enemy is sent back to, to a max of 1400 units worth of damage. 12/10/8/6 second cooldown.
+
+Thunder Strike (ability2)
+Lay a 240 unit radius ward where you are aiming, up to 800 units away. this ward lasts 7 seconds on the ground. enemies who step into the ward area "pick the ward up", set its duration to 6 seconds, and then will continue to take damage and deal it to their teammates in the ward area around them. Enemies who are "carrying" the ward are visible to all players through walls, CTs have a blue outline and Ts have a red outline. this ward deals 3/6/9/12 damage per second and paralyzes enemies in its area for .4 seconds when they take that damage. if the enemy carrying the ward is inside of a kinetic field ward, the kinetic field ward will take on Thunder Strike's effect. 18/15/12/9 second cooldown.
+
+Kinetic Field (ability3)
+when activated, after a 1 second delay a 350 unit radius ward is created where you were aiming when you activated the ability, up to 900 units away. this ward deals no damage on its own but any enemy who is caught inside the ward cannot leave it, and enemies outside the ward cannot enter it. the ward lasts 4.6/5.2/5.8/6.4 seconds. 17/14/11/8 second cooldown.
+
+Static Storm (ultimate)
+create a 750 unit radius ward that lasts 7.5 seconds, where you are aiming up to 800 units away. enemies who stand in the ward area take 4/6/8/11 damage per .3 seconds they are in the ward area and cannot active abilities or ultimates, and their items are lost while in the ward area. 90/80/70/60 second cooldown.

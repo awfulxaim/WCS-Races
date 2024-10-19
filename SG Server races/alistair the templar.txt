@@ -1,0 +1,18 @@
+Alistair the Templar
+
+requires total level 250. limited to 1 per team. cannot buy ultimate immunity, ring of armor, or HP.
+
+Templar
+25/40/55/70/85/100% chance when you spawn to be immune to abilities and ultimates for this life.
+
+Warrior
+Spawn with 20/40/60/80/100/120 armor and 10/20/30/35/40/50 more HP.
+
+Grey Warden
+100% chance on hit to deal 3/4/5/6/7/8% more damage. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Master Guardian
+You and Teammates in a 250 unit radius take 5/6/7/8/9/10% less damage from all sources.
+
+Cleanse (ultimate)
+All enemies cannot activate abilities and ultimates for the next 3/4/5/6/7/8 seconds. 25 second cooldown.

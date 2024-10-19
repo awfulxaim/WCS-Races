@@ -1,0 +1,15 @@
+Kinkaid
+
+requires total level 1050.
+
+HP
+Spawn with 15/20/25/30/35/43/50 more HP.
+
+Damage
+15/20/28/33% chance on hit to deal 5-10 extra damage.
+
+Stones
+12/18/22/33% chance on hit to deal 7/9/11/14 extra damage.
+
+Force Field (ultimate)
+become rooted and invulnerable for 2/3/4/4.5 seconds. 20 second cooldown.

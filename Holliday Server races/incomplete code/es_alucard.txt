@@ -1,0 +1,82 @@
+block load
+{
+	es_xset wcs_x3 0
+	es_xset wcs_y3 0
+	es_xset wcs_z3 0
+	es_xset fast 0
+	es_xset bast 0
+	es_xset vash 0
+	es_xset fast_rocket 0
+	es_xgetcmduserid fast
+	es_xgetcmduserid bast
+	es_xdoblock corelib/noisy_on
+	es_xset +skill 0
+	es_xset newvash 0
+    es_xset vash 0
+    es_xset hell_team 0
+	es repeat create blast_loop "es_xdoblock holliday_wcs/alucard/blast_loop"
+	es repeat create repeat_fastloop "es_xdoblock holliday_wcs/alucard/fastloop"
+	es_xregclientcmd +skill holliday_wcs/alucard/skill "Command for special skills"
+	es_xregclientcmd -skill holliday_wcs/alucard/skillx "Command for special skills"
+	repeat create bhells "es_xdoblock holliday_wcs/alucard/bells"
+}
+
+
+
+
+
+
+block bells
+{
+	es est_playplayer server_var(hellg) ambient/levels/citadel/field_loop1.wav
+	es_delayed server_var(hell_time) es_stopsound server_var(hellg) ambient/levels/citadel/field_loop1.wav
+	es_getplayerteam hell_team server_var(hellg)
+    es es wcs_nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) "es_exists ex userid server_var(wcs_targetid);if (server_var(ex) = 1) then es_xdoblock holliday_wcs/alucard/target"
+		
+	//if (server_var(hell_team) = 3) then es est_Near wcs_targetid #t server_var(hell_radius) server_var(hellg) "es_xdoblock animer/target"
+	//if (server_var(hell_team) = 2) then es est_Near wcs_targetid #c server_var(hell_radius) server_var(hellg) "es_xdoblock animer/target"
+}
+
+block target
+{
+	es est_isalive wcs_tmp1 server_var(hellg)
+	if (server_var(wcs_tmp1) = 1) do
+	{
+		es est_isalive wcs_tmp server_var(wcs_targetid)
+		if (server_var(wcs_tmp) = 1) do
+		{
+			es_delayed 1 est_playplayer server_var(hellg) npc/fast_zombie/leap1.wav  //weapons/stunstick/spark2.wav
+			es_xset vector1 wcs_z1
+			es_xset vector2 wcs_z2
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(hellg)
+			es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_targetid)
+			es_xmath wcs_z1 + 40
+			es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+			es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+			es est_effect_19 #a 0 server_var(vector2) server_var(vector1) 100
+			es est_Effect_06 #a 0 sprites/scanner_bottom.vmt server_var(vector1) server_var(vector2) 100 .3 15 90 10 10 228 228 228 255 100
+			es est_getname wcs_tmp server_var(wcs_targetid)
+			//es est_physpush server_var(wcs_targetid) 0 0 100
+			es_delayed 1 est_pushto server_var(wcs_targetid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) -3
+			es est_shake server_var(wcs_targetid) 2 5 2
+			es_tell server_var(hellg) #multi #lightgreenyou have Leeched #green1 hp #lightgreenfrom #green server_var(wcs_tmp)
+			es est_healthadd server_var(hellg) 1
+			es wcs_dealdamage server_var(hellg) server_var(wcs_targetid) 1
+			es_xset vector1 wcs_z1
+			es_xset vector2 wcs_z2
+			es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+			es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+			es est_Effect_06 #a 0 sprites/scanner_bottom.vmt server_var(vector2) server_var(vector1) 100 .3 17 11 10 10 228 228 228 255 100
+			es est_effect_08 #a 0 sprites/fire.vmt server_var(vector2) 50 40 1 .5 90 400 0 255 25 25 255 10 1
+			es est_effect_08 #a 0 sprites/fire.vmt server_var(vector2) 40 50 1 .5 90 400 0 255 25 25 255 10 1
+			es_xset vector1 wcs_z1
+			es_xset vector2 wcs_z2
+			es_xcreatevectorstring vector1 0 0 900
+			es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+			//es est_Effect_06 #a 0 sprites/scanner_bottom.vmt server_var(vector2) server_var(vector1) 100 .3 17 11 10 10 228 228 228 255 100
+			es est_effect_08 #a 0 sprites/fire.vmt server_var(vector1) 5000 40 1 .5 90 400 0 255 25 25 255 10 1
+			es est_effect_08 #a 0 sprites/fire.vmt server_var(vector1) 40 5000 1 .5 90 400 0 255 25 25 255 10 1
+		}
+	}
+}
+

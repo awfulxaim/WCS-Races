@@ -1,0 +1,13 @@
+Faerie Dragon
+
+Reinforced Hide
+you spawn with 5/10/15/20/25/30/35/40 more HP
+
+Mana Flare
+4/8/12/16/20/24/28/32% chance when hit to blind the enemy for 4 seconds with a 100% opacity light yellow screen.
+
+Phase Shift
+4/8/12/16/20/24/28/32% to evade, when you evade become 100% invisible for .5 seconds.
+
+Dream Rift (ultimate)
+become 100% invisible and fly for 9/10/11/12/13/14/15/16 seconds. your flying and invisibility ends when you are shot, even if you evade. 25 second cooldown.

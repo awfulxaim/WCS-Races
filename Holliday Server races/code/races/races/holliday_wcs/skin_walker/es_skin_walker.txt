@@ -1,0 +1,111 @@
+block ultimate
+{
+	es_xset wcs_team_target 0
+	es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+			es usermsg fade server_var(wcs_userid) 2 2 2 255 5 13 1
+			es_xset wcs_wall 1
+            es_xset wcs_counter 0
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+			es wcs_nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) "es_exists ex userid server_var(wcs_targetid);if (server_var(ex) = 1) then es_xdoblock holliday_wcs/skin_walker/ultimate1"
+			else es_xset wcs_ultinotexec 1
+		}
+		else do
+		{
+			es_xset wcs_ultinotexec 1
+		}
+	}
+	if (server_var(wcs_ultinotexec) = 1) then wcs_xtell server_var(wcs_userid) Ultimate failed
+	if (server_var(wcs_ultinotexec) = 1) then wcs_cancelulti server_var(wcs_userid)
+}
+
+block ultimate1
+{
+  es_xmath wcs_counter + 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_targetid)
+  es_xmath wcs_z2 + 60
+    es_xmath wcs_z2 + 50
+    es est_effect 3 #a 0 sprites/glow01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 3 9 108 230 218 155
+    es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 2 155
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 60 59 2 50 3 0 175 115 255 55 1
+  es playerset freeze server_var(wcs_targetid) 1
+  es_delayed 2 es playerset freeze server_var(wcs_targetid) 0
+  es playerset color server_var(wcs_targetid) 105 105 105 255 
+  es_delayed 1 es playerset color server_var(wcs_targetid) 255 255 255 255
+  es_emitsound player server_var(wcs_userid) ambient/materials/metal4.wav 1
+  es_playsound server_var(wcs_userid) npc/ichthyosaur/attack_growl3.wav 1
+  es_tell server_var(wcs_userid) #multi #green Growl Caused #lightgreen server_var(wcs_counter) players to Freeze!
+}
+
+
+
+
+block spawn
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 120
+    es est_effect 10 #a 0 sprites/physcannon_bluecore2b.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 30 .5 30 20 .6 255 255 255 255 10
+    es_playsound evcent_var(userid) ambient/levels/citadel/citadel_hit1_adpcm.wav 1
+}
+
+block disquise
+{
+    if (event_var(es_userteam) = 2) then es playerset model event_var(userid) models/player/ct_urban.mdl
+    if (event_var(es_userteam) = 3) then es playerset model event_var(userid) models/player/t_guerilla.mdl
+    es_tell event_var(userid) #multi #lightgreenYou have been Disquised as an #greenEneny!
+}
+
+block fours
+{
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_tell event_var(userid) #multi #lightgreenYour Speed is #green server_var(wcs_speed)
+}
+
+block clawing
+{
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_tell event_var(attacker) #multi #lightgreenYou have caused #green Server_var(wcs_dmg) #lightgreen extra damage to #green event_var(es_username)
+    es_tell event_var(userid) #multi #lightgreenYou took #green Server_var(wcs_dmg) #lightgreen extra damage from #green event_var(es_attackername)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z1 + 40
+    es_xmath wcs_z2 + 40
+    es est_effect 10 #a 0 sprites/smoke.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 16 3 400 200 0 150 10 10 255 0
+    es_xmath wcs_z1 + 40
+    es est_effect 10 #a 0 sprites/smoke.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 99 50 2 3 11 0 255 25 25 255 9
+    es_xmath wcs_z1 + 10
+    es est_effect 10 #a 0.2 sprites/smoke.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 99 50 2 3 11 0 0 25 255 255 9
+    es_xmath wcs_z1 + 10
+    es est_effect 10 #a 0.4 sprites/smoke.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 99 50 2 3 11 0 255 25 25 255 9
+    es_xmath wcs_z1 + 10
+    es est_effect 10 #a 0.6 sprites/smoke.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 99 50 2 3 11 0 10 25 255 255 9
+}
+
+block infect
+{
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 1 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 2 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 3 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 4 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 5 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_tell event_var(userid) #multi #lightgreen You have been #GreenCursed! 
+    es_tell event_var(attacker) #multi #lightgreen You have #greenCursed #lightgreen event_var(es_username)
+    es est_effect 4 #a 0 sprites/tp_beam001.vmt event_var(userid) 3 3 3 50 20 255 25 255
+}

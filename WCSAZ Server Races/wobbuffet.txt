@@ -1,0 +1,18 @@
+wobbuffet
+
+no weapons
+
+Counter
+15/20/25/30/35/40/45/50% chance when hit to deal 200% of the damage you take back to the enemy. Cannot proc when you evade.
+
+Safe Guard
+You have a 50/55/60/65/70/75/80/85% chance to block incoming status effects when they are applied, this should include all status effects. examples include: stun, root, bash, sleep, bury, banish, blind, shake, drug, silence, mute, mark, beacon, impale, lag, gravity changes, reveal, slow, poison, burn. 5/10/15/20/25/30/35/40% chance to evade.
+
+Endurance
+Spawn with 180/190/200/210/220/230/240/250 HP.
+
+Shadow Tag
+Enemies who hit you take 1/1/1/2/2/3/4/5 damage. This procs even if you evade.
+
+Destiny Bond
+When you die you have a 20/30/40/50/60/70/80/90% chance to deal 500 damage to the enemy that killed you.

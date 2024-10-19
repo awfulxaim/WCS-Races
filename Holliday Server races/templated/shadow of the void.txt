@@ -1,0 +1,18 @@
+Shadow of the Void
+
+requires total level 900.
+
+Ultimate Immunity
+55/60/65/70% chance on spawn to be immune to ultimates.
+
+Death's Shadow
+13/18/22/33% chance on hit to deal 3/7/9/13 extra damage on hit
+
+Fading Black
+18/22/28/33% chance on hit to blind the enemy by 22/39/78/100% for .3/.5/.7/1 second.
+
+Into the Void
+20/25/28/33% chance on death to create a black hole (200 unit radius) that lasts 2/2/3/4 seconds but deals no damage.
+
+Black Hole (ultimate)
+create a black hole where you are aiming that lasts 2/2/3/4 seconds and deals 10/15/18/20 damage per second to enemies who enter its radius (200 unit radius).

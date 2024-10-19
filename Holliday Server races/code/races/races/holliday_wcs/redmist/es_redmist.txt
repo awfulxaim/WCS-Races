@@ -1,0 +1,100 @@
+block spawn
+{
+    es_give event_var(userid) env_steam 
+    es_fire event_var(userid) env_steam addoutput "SpreadSpeed 10"
+    es_fire event_var(userid) env_steam addoutput "Speed 65"
+    es_fire event_var(userid) env_steam addoutput "StartSize 15"
+    es_fire event_var(userid) env_steam addoutput "EndSize 102"
+    es_fire event_var(userid) env_steam addoutput "Rate 100"
+    es_fire event_var(userid) env_steam addoutput "rendercolor 255 25 0"
+    es_fire event_var(userid) env_steam addoutput "JetLength 100"
+    es_fire event_var(userid) env_steam addoutput "rollspeed 10"
+    es_fire event_var(userid) env_steam TurnOn
+    es_fire event_var(userid) env_steam setparent !activator 
+    es_delayed 3 es_fire event_var(userid) env_steam kill
+    es_cexec event_var(userid) r_screenoverlay effects/red.vmt
+    es_delayed 1 es_cexec event_var(userid) r_screenoverlay 0
+    es_give event_var(userid) env_sun 
+    es_fire event_var(userid) env_sun addoutput "rendercolor 255 0 0" 
+    es_fire event_var(userid) env_sun TurnOn
+    es_playsound event_var(userid) ambient/machines/steam_release_2.wav 1
+    es_tell event_var(userid) #multi #lightgreen the #greenSun #lightgreen and the #greenShadows #lightgreenhave turned #green Red!
+    es_fire event_var(userid) shadow* color "255 0 0"
+}
+
+block spawn2
+{
+    es playerset color event_var(userid) 255 0 0 175
+}
+
+block redvictim
+{
+    es_give event_var(userid) env_steam 
+    es_fire event_var(userid) env_steam addoutput "SpreadSpeed 10"
+    es_fire event_var(userid) env_steam addoutput "Speed 65"
+    es_fire event_var(userid) env_steam addoutput "StartSize 15"
+    es_fire event_var(userid) env_steam addoutput "EndSize 102"
+    es_fire event_var(userid) env_steam addoutput "Rate 100"
+    es_fire event_var(userid) env_steam addoutput "rendercolor 255 25 0"
+    es_fire event_var(userid) env_steam addoutput "JetLength 100"
+    es_fire event_var(userid) env_steam addoutput "rollspeed 10"
+    es_fire event_var(userid) env_steam TurnOn
+    es_fire event_var(userid) env_steam setparent !activator 
+    es_delayed 3 es_fire event_var(userid) env_steam kill
+    es_cexec event_var(userid) r_screenoverlay effects/red.vmt
+    es_delayed 1 es_cexec event_var(userid) r_screenoverlay 0
+    es_playsound event_var(userid) ambient/machines/steam_release_2.wav 1
+    es_tell event_var(userid) #multi #lightgreen Gained Speed to get away
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_delayed server_var(wcs_time) es playerset speed event_var(userid) 1
+}
+
+block redultimate
+{
+    es playerset speed server_var(wcs_userid) server_var(wcs_speed)
+    es_delayed server_var(wcs_time) es playerset speed server_var(wcs_userid) 1
+    es_setplayerprop server_var(wcs_userid) CBasePlayer.m_fFlags 4
+    es_give server_var(wcs_userid) env_steam 
+    es_fire server_var(wcs_userid) env_steam addoutput "SpreadSpeed 11"
+    es_fire server_var(wcs_userid) env_steam addoutput "Speed 16"
+    es_fire server_var(wcs_userid) env_steam addoutput "StartSize 11"
+    es_fire server_var(wcs_userid) env_steam addoutput "EndSize 14"
+    es_fire server_var(wcs_userid) env_steam addoutput "Rate 20"
+    es_fire server_var(wcs_userid) env_steam addoutput "rendercolor 255 25 0"
+    es_fire server_var(wcs_userid) env_steam addoutput "JetLength 16"
+    es_fire server_var(wcs_userid) env_steam addoutput "rollspeed 12"
+    es_fire server_var(wcs_userid) env_steam TurnOn
+    es_fire server_var(wcs_userid) env_steam setparent !activator 
+    es_delayed server_var(wcs_time) es_fire server_var(wcs_userid) env_steam kill
+    es_fire event_var(userid) !self addoutput "renderfx 16"
+    es_delayed server_var(wcs_time) es_fire event_var(userid) !self addoutput "renderfx 0"
+    es_tell server_var(wcs_userid) #multi #default [Slient Footsteps] #green Active! #lightgreen Jumping will disable
+}
+
+
+block attack
+{
+    es_setplayerprop event_var(userid) "CCSPlayer.baseclass.localdata.m_Local.m_vecPunchAngle" 5,5,500
+    es_cexec event_var(userid) r_screenoverlay effects/red.vmt
+    es_delayed server_var(wcs_time) es_cexec event_var(userid) r_screenoverlay 0
+    es playerset color event_var(userid) 255 0 0 175
+    es_give event_var(attacker) env_steam 
+    es_fire event_var(attacker) env_steam addoutput "SpreadSpeed 10"
+    es_fire event_var(attacker) env_steam addoutput "Speed 65"
+    es_fire event_var(attacker) env_steam addoutput "StartSize 50"
+    es_fire event_var(attacker) env_steam addoutput "EndSize 30"
+    es_fire event_var(attacker) env_steam addoutput "Rate 200"
+    es_fire event_var(attacker) env_steam addoutput "rendercolor 255 25 0"
+    es_fire event_var(attacker) env_steam addoutput "JetLength 300"
+    es_fire event_var(attacker) env_steam addoutput "rollspeed 10"
+    es_fire event_var(attacker) env_steam TurnOn
+    es_fire event_var(attacker) env_steam setparent !activator 
+    es_delayed server_var(wcs_time) es_fire event_var(attacker) env_steam kill
+    es_setplayerprop event_var(userid) "CCSPlayer.baseclass.localdata.m_Local.m_vecPunchAngle" 5,5,500
+    es_cexec event_var(userid) r_screenoverlay effects/red.vmt
+    es_delayed 0.3 es_cexec event_var(userid) r_screenoverlay 0
+    es_tell event_var(attacker) #multi #lightgreen you have spun your enemies vision
+    es_playsound event_var(userid) hl1/ambience/steamburst1.wav 1
+    es_playsound event_var(attacker) hl1/ambience/steamburst1.wav 1
+}
+

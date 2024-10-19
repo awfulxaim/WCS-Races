@@ -1,0 +1,15 @@
+Taryn
+
+You gain 10 XP when you spawn as this race. requires total level 1070.
+
+Let's Dance
+Spawn with 10/15/20/30% increased movement speed.
+
+Blades
+5/8/13/16/28% chance on hit to deal 100% extra damage.
+
+View Flip
+18/23/27/33% chance on hit to flip the enemy's screen upside down for .1 second.
+
+Beautiful and Bad (ultimate)
+root all enemies in a 450/500/550/600 unit radius for 7/8/9/10 seconds. 20 second cooldown.

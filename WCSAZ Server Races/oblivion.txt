@@ -1,0 +1,21 @@
+Oblivion
+
+AWP, USP-S, and knife only.
+
+Impetus
+100% chance on hit to knock the enemy up (higher, based on distance) and deal 10% more damage for each 200 range away an enemy is when you hit them. cannot proc on enemies less than 1600/1400/1200/1000/800/600/400/200 range away.
+
+Fel Blaze
+spawn with 5/10/15/20/25/30/35/40% increased movement speed.
+
+Adamantine Skin
+4/8/12/16/20/24/28/32% chance to evade.
+
+Life Drain
+30/40/50/60/70/80/90/100% chance to heal for 10% of the damage you deal, this includes extra damage. To a max of 250 HP.
+
+Vile Essence
+long jump
+
+Netherstep (ultimate)
+Instantly Teleport to the location you are aiming at. 200/400/600/800/1000/1200/1400/1600 unit max range. 5 second cooldown.

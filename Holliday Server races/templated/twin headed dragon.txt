@@ -1,0 +1,15 @@
+Twin Headed Dragon
+
+requires total leveel 320.
+
+Dual Breath
+8/15/22/33% chance on hit to bash the enemy for 1.5 seconds and burn them for 2 seconds.
+
+Ice Path (ability)
+Draw a cylindrical path with light blue lines, that has a radius of 50/70/88/100 units, from you to half the distance of the location you are aiming at. after a .2 second delay enemies who enter a 30 unit radius of that cylinder are rooted for 1.5/2/2.5/3 seconds. that cylinder remains for 2 seconds. you can use this 3 times per round.
+
+Auto Fire
+8/15/22/33% chance on hit to burn the enemy for 3 seconds.
+
+Macropyre (ultimate)
+The enemy you are aiming at takes 10 damage and is burned for 3 seconds. all enemies in a 88/100/120/150 unit radius cylinder path from you to that enemy and all enemies in a 160 unit radius of that enemy also take 10 damage and are burned for 3 seconds. no cooldown.

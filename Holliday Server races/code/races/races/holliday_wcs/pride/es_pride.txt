@@ -1,0 +1,74 @@
+block load
+{
+    es_xset hell_hp 0
+    es_xset hell_damage 0
+    es_xset vector1 0
+}
+
+block spawn
+{
+    es playerset color event_var(userid) 21 21 21 255 
+    es_emitsound player event_var(userid) ambient/atmosphere/cave_hit1.wav 1
+}
+
+block pride
+{
+    es playerset healthadd event_var(userid) server_var(hell_hp)
+    es playerset speed event_var(userid) server_var(hell_speed)
+    es_tell event_var(userid) #multi #lightgreen You have Gained #green server_var(hell_hp) HP
+    es_tell event_var(userid) #multi #lightgreen and #green server_var(hell_speed) Speed
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 350 5 90 200 0 155 155 155 155 2
+}
+
+block sickle
+{
+    es wcs damage event_var(userid) event_var(attacker) server_var(hell_damage)
+    es_tell event_var(attacker) #multi #lightgreenyour Sickle Caused #green server_var(hell_damage) Extra Damage
+    es_tell event_var(userid) #multi #lightgreenyou got #green server_var(hell_damage) Extra Damage
+    es_emitsound player event_var(userid) npc/barnacle/barnacle_bark1.wav 1
+    es_emitsound player event_var(attacker) npc/barnacle/barnacle_bark1.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 350 1 90 200 0 155 155 155 155 20
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es est_effect_20 #a 0 sprites/lgtning.vmt server_var(vector1) 990 10 10 50 100 100 100
+}
+
+block strike
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es est_effect_14 #a 0 models/effects/splodeglass.mdl server_var(vector1) server_var(vector2) 100 100 1000
+    es_emitsound player event_var(userid) npc/barnacle/barnacle_bark2.wav 1
+    es est_effect_20 #a 0 sprites/lgtning.vmt server_var(vector1) 990 10 10 50 100 100 100
+    es wcs damage event_var(attacker) event_var(userid) server_var(wcs_dmg)
+    es_tell event_var(attacker) #multi #lightgreen you got #green server_var(wcs_dmg) damage
+    es_tell event_var(userid) #multi #lightgreen you have done server_var(wcs_dmg) Damage to event_var(es_attackername)
+}
+
+block darkness
+{
+    es playerset color server_var(wcs_userid) 21 21 21 0 
+    es_delayed server_var(hell_see) es playerset color server_var(wcs_userid) 21 21 21 255 
+    es usermsg fade server_var(wcs_userid) 1 2500 300 1 0 0 225
+    es_emitsound player server_var(wcs_userid) npc/antlion/attack_single1.wav
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_14 #a 0 sprites/scanner.vmt server_var(vector1) server_var(vector1) 90 25 90
+    es est_effect_18 #a 0 server_var(vector1) 255 2 2 500 400 1 10
+    es_give server_var(wcs_userid) env_steam 
+    es_fire server_var(wcs_userid) env_steam addoutput "spreadspeed 100"
+    es_fire server_var(wcs_userid) env_steam addoutput "speed 40"
+    es_fire server_var(wcs_userid) env_steam addoutput "startsize 305"
+    es_fire server_var(wcs_userid) env_steam addoutput "endsize 400"
+    es_fire server_var(wcs_userid) env_steam addoutput "rate 200"
+    es_fire server_var(wcs_userid) env_steam addoutput "jetlength 200"
+    es_fire server_var(wcs_userid) env_steam addoutput "rendercolor 21 21 21"
+    es_fire server_var(wcs_userid) env_steam addoutput "rollspeed 10"
+    es_fire server_var(wcs_userid) env_steam setparent !activator
+    es_fire server_var(wcs_userid) env_steam turnon
+    es_delayed 3 es_fire server_var(wcs_userid) env_steam kill
+}

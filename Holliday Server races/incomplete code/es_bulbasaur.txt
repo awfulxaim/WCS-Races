@@ -1,0 +1,83 @@
+block spawn
+{
+    es est_setplayercolor event_var(userid) 171 255 107 255 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/plasma1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 350 2 90 200 0 155 155 155 155 2
+}
+
+block tackle
+{
+    es est_shake event_var(userid) 2 7 6
+    es est_shake event_var(attacker) 2 7 3
+    es est_speed event_var(attacker) 2
+    es es_delayed 2 est_speed event_var(attacker) 1
+    es_tell event_var(userid) #multi #lightgreen:you have been #greenCharged #lightgreenby a #greenfull body tackle
+    es_tell event_var(attacker)  #multi #lightgreen:you have #greenCharged #lightgreenthe foe with a #greenfull body tackle
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 350 2 90 200 0 171 255 107 255 2
+}
+
+block growl
+{
+    es est_playplayer event_var(userid) npc/ichthyosaur/attack_growl2.wav
+    es_xset wcs_dmg event_var(dmg_health)
+    es_tell event_var?(userid) #multi #greenYou have eveaded a shot!
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 11 #a 0 sprites/greenspit1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 2.5 2.5 255
+}
+
+block leech
+{
+    es_set wcs_dmg event_var(dmg_health)
+    es_xmath wcs_dmg float
+    es_math wcs_dmg / server_var(wcs_divider)
+    es wcs_decimal wcs_dmg server_var(wcs_dmg)
+    es wcs_setfx health event_var(attacker) + server_var(wcs_dmg) 0
+    es wcs_xcentertell event_var(attacker) c_leeched_a dmg server_var(wcs_dmg)
+    es wcs_xcentertell event_var(userid) c_leeched_v dmg server_var(wcs_dmg)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+    es est_effect 11 #a 0 sprites/greenspit1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 2.5 0.5 255
+}
+
+block wcs_ulti_chain
+{
+	es_xset wcs_team_target 0
+	es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+			es usermsg fade server_var(wcs_userid) 0 2 1 240 240 240 100
+			//es est_Fade server_var(wcs_userid) 0 2 1 240 240 240 100
+			es_xset wcs_wall 1
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+			wcs_xalias wcs_run_ulti_chain1 "es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_targetid);es_xmath wcs_z1 + 50;es_xmath wcs_z2 + 50;wcs_xalias spec_checkwall;if (server_var(wcs_wall) = 0) then wcs_xalias wcs_run_ulti_chain2"
+			wcs_xalias wcs_run_ulti_chain2 "es_set wcs_target server_var(wcs_targetid);wcs_xalias ulti_immunity1;if (server_var(wcs_ok) == 1) then wcs_xalias wcs_run_ulti_chain3;if (server_var(wcs_ok) == 0) then wcs_xalias ulti_failed"
+			wcs_xalias wcs_run_ulti_chain3 "es_xmath wcs_counter + 1;es wcs damage server_var(wcs_targetid) server_var(wcs_userid) 32"
+			es_xset wcs_counter 0
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+			es wcs_nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) "es_exists ex userid server_var(wcs_targetid);if (server_var(ex) = 1) then es_xif (server_var(wcs_counter) < server_var(wcs_maxtargets)) then wcs_xalias wcs_run_ulti_chain1"
+			if (server_var(wcs_counter) > 0) then wcs_xcentertell server_var(wcs_userid) c_u_chainglightning count server_var(wcs_counter)
+			else es_xset wcs_ultinotexec 1
+		}
+		else do
+		{
+			es_xset wcs_ultinotexec 1
+		}
+	}
+	if (server_var(wcs_ultinotexec) = 1) then wcs_xtell server_var(wcs_userid) u_chain_failed
+	if (server_var(wcs_ultinotexec) = 1) then wcs_cancelulti server_var(wcs_userid)
+}

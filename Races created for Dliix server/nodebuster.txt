@@ -1,0 +1,24 @@
+Nodebuster
+
+Tazer and HE grenades only. Immune to DDOS effect.
+
+Session Attack (4 levels)
+Every 2/1/.75/.5 seconds you deal 2/5/7/10 damage to all enemies in a 100/200/300/400 unit radius.
+
+Chain Lightning (4 levels)
+Your tazer deals 10/15/20/25 damage. this damage bounces to each enemy within a 1000 unit radius of the enemy hit or bounced to. each enemy can only have chain lightning bounce to them once per tazer shot. the bouncing damage cannot be increased by Critical Strike.
+
+Exploder Nodes (4 levels)
+You spawn with an HE grenade, when you throw a grenade you get a new HE grenade 4-7/3-6/2-5/1-4 seconds later rolled randomly with each throw. Your thrownHE grenades have a 1/1.25/1.5/1.75x bigger explosion radius.
+
+Critical Strike (10 levels)
+10/20/30/40/50/60/70/80/90/100% chance on hit with the Tazer, HE grenade, or Session Attack to deal 110/120/130/140/150/160/170/180/190/200% extra damage.
+
+Drone Nodes (5 levels)
+You have 1/2/3/4/5 wards each with a 200 unit radius that move in a circle around you at varying speeds and alternating clockwise and counter clockwise. These wards deal your Session Attack damage at the interval set by your Session Attack. 5/10/15/20/25% chance when an a ward deals damage to an enemy for it to spawn a live grenade at its center. these grenades are not buffed by Exploder Nodes
+
+Explosive Hacking (4 levels)
+10/15/20/25% chance on kill to cause that enemy to explode dealing 25 damage to all enemies in a 200 unit radius of where they died. When they explode they also release 1/2/3/4 live grenades in a circle around them. These grenades are not buffed by Exploder Nodes.
+
+God Virus (ultimate) (1 level)
+Each time you kill an enemy you get a God Virus charge, which persist through rounds and maps. When you reach 1000 charges, activating ultimate slays the entire enemy team.

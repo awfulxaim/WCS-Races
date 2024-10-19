@@ -1,0 +1,91 @@
+block load
+{
+  es_xset ex 0
+}
+
+block spawn
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 10 #a 0 effects/tp_eyefx/tpeye3.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 9 0 2 66 1 0 255 255 255 255 1
+  es_emitsound player event_var(userid) ambient/materials/metal4.wav 1
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 100 100 0 255 105 155 255 50
+}
+
+block spear
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z2 + 20
+  es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 0.5 20 20 200 0 255 255
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 500 3 100 100 0 255 105 155 255 50
+  es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+  es_tell event_var(userid) #multi #lightgreenyou have been hit by #greenathena's spear
+  es_tell event_var(attacker) #multi #lightgreenyou hit event_var(es_username) with #greenathena's spear causing #green server_var(wcs_damage) extra damage
+}
+
+block goldenhelmet
+{
+  es playerset healthadd event_var(userid) event_var(dmg_health)
+  es_tell event_var(userid) #multi #green golden helmet prevented #default event_var(dmg_health) damage
+  es est_effect 4 #a 0 sprites/lgtning.vmt server_var(wcs_userid) 1 1 1 10 115 0 255 205
+}
+
+block athena
+{
+  es_keysetvalue golddata event_var(es_steamid) +ability wallhack
+  es_tell event_var(userid) #multi #lightgreen bind #green +ability #lightgreen to see through walls
+}
+
+block shield
+{
+	es_xset wcs_team_target 0
+	es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+			es usermsg fade server_var(wcs_userid) 1 1 1 255 0 153 100
+			es_xset wcs_wall 1
+            es_xset wcs_counter 0
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+			es wcs_nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) "es_exists ex userid server_var(wcs_targetid);if (server_var(ex) = 1) then es_xdoblock holliday_wcs/athena/ultimate"
+			else es_xset wcs_ultinotexec 1
+		}
+		else do
+		{
+			es_xset wcs_ultinotexec 1
+		}
+	}
+	if (server_var(wcs_ultinotexec) = 1) then wcs_xtell server_var(wcs_userid) athena's shield failed
+	if (server_var(wcs_ultinotexec) = 1) then wcs_cancelulti server_var(wcs_userid)
+}
+
+block ultimate
+{
+  es_xmath wcs_counter + 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_targetid)
+  es_xmath wcs_z2 + 60
+  es est_effect 10 #a 0 effects/tp_eyefx/tpeye3.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 59 10 2 66 1 0 255 255 255 255 1
+  es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .5 5 5 200 0 255 255
+  es est_effect 3 #a 0 effects/tp_eyefx/tpeye3.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 7 3 25 25 25 255
+  es playerset freeze server_var(wcs_targetid) 1
+  es_delayed 2 es playerset freeze server_var(wcs_targetid) 0
+  es playerset color server_var(wcs_targetid) 105 105 105 255 
+  es_delayed 1 es playerset color server_var(wcs_targetid) 255 255 255 255
+  es_emitsound player server_var(wcs_userid) ambient/materials/metal4.wav 1
+  es_tell server_var(wcs_userid) #multi #green medusa's gaze turned #lightgreen server_var(wcs_counter) players to stone!
+}

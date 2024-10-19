@@ -1,0 +1,92 @@
+block spawn
+{
+    es wcs strip event_var(userid)
+    es wcs_restrict event_var(userid) galil,ak47,sg552,awp,g3sg1,famas,m4a1,aug,sg550,elite,fiveseven,m3,xm1014,mac10,tmp,mp5navy,ump45,p90,m249,glock,scout,p228,deagle,usp,knife
+    es wcs_restrict event_var(userid) addallow weapon_c4
+    es wcs_restrict allow event_var(userid) hegrenade
+    es_delayed .1 es_give event_var(userid) weapon_hegrenade
+    es_playsound event_var(userid) weapons/flashbang/flashbang_explode1.wav 1
+    es_delayed .1 es_playsound event_var(userid) weapons/flashbang/flashbang_explode2.wav 1
+    es_delayed .2 es_playsound event_var(userid) weapons/flashbang/grenade_hit1.wav 1
+    es_keysetvalue wcsuserdata event_var(userid) hegrenade 1
+    es_tell event_var(userid) [Grenades]
+    es_playsound event_var(userid) npc/metropolice/vo/thatsagrenade.wav 1
+}
+
+block ducking
+{
+    es_keysetvalue wcsuserdata event_var(userid) duckvis 1
+    es_tell event_var(userid) #multi #default [Take Cover!] #green Duck #lightgreen to gain #green Invisibility!
+}
+
+block damage
+{
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+    es_tell event_var(attacker) -Grenade Damage- + server_var(wcs_damage)
+}
+
+block ultimate
+{
+   es_prop_physics_create server_var(wcs_userid) props_c17/oildrum001_explosive.mdl 
+   //es_entcreate server_var(wcs_userid) env_fire 
+   //es_fire server_var(wcs_userid) env_fire addoutput "firesize 200" 
+   //es_fire server_var(wcs_userid) env_fire addoutput "health 5" 
+   //es_fire server_var(wcs_userid) env_fire addoutput "fireattack 0" 
+   //es_fire server_var(wcs_userid) env_fire addoutput "firetype Natural" 
+   //es_fire server_var(wcs_userid) env_fire addoutput "spawnflags 128 8" 
+   //es_fire server_var(wcs_userid) env_fire addoutput "damagescale 0" 
+   //es_fire server_var(wcs_userid) env_fire StartFire 
+   //es_delayed 5 es_fire server_var(wcs_userid) env_fire kill
+}
+
+block ability
+{
+    es_entcreate server_var(wcs_userid) env_fire 
+    es_fire server_var(wcs_userid) env_fire addoutput "firesize 200" 
+    es_fire server_var(wcs_userid) env_fire addoutput "health 5" 
+    es_fire server_var(wcs_userid) env_fire addoutput "fireattack 5" 
+    es_fire server_var(wcs_userid) env_fire addoutput "firetype Natural" 
+    es_fire server_var(wcs_userid) env_fire addoutput "spawnflags 128 8" 
+    es_fire server_var(wcs_userid) env_fire addoutput "damagescale 5" 
+    es_fire server_var(wcs_userid) env_fire StartFire 
+    es_delayed 5 es_fire server_var(wcs_userid) env_fire kill
+}
+
+event player_duck
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) duckvis
+  if (server_var(wcs_tmp) != 0) do
+  {
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_tmp)
+    es_playsound event_var(userid) npc/metropolice/vo/takecover.wav 1
+    es playerset freeze event_var(userid) 1
+  }
+}
+
+event player_unduck
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) duckvis
+  if (server_var(wcs_tmp) != 0) do
+  {
+    es playerset color event_var(userid) 255 255 255 255
+    es_playsound event_var(userid) npc/metropolice/vo/allunitsmovein.wav 1
+    es playerset freeze event_var(userid) 0
+  }
+}
+
+event weapon_fire
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) hegrenade
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_delayed .1 es_stopsound event_var(userid) radio/ct_fireinhole.wav
+    es_give event_var(userid) weapon_hegrenade
+    es_playsound event_var(userid) npc/metropolice/vo/grenade.wav 1
+  }
+}
+
+event player_death
+{
+    es_keysetvalue wcsuserdata event_var(userid) hegrenade 0
+    es_keysetvalue wcsuserdata event_var(userid) duckvis 0
+}

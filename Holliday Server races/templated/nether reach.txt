@@ -1,0 +1,13 @@
+Nether Reach
+
+Nether Blast
+8/11/22/33% chance on hit to deal 5 extra damage, then 3 extra damage 1.5 seconds later, then 2 extra damage 2.5 seconds later.
+
+Decrepify
+8/11/22/33% chance on hit to drug the enemy for 1 second and flash bang them.
+
+Nether Ward (ability)
+Lay 1 ward at a time. that ward lasts 10 seconds, and has a radius of 180/200/220/240. enemies who enter the ward radius have their speed set to .5 while they are in that area and take 10 damage per .5 seconds.
+
+Life Drain (ultimate)
+Deal 5 damage every .5 seconds to the closest enemy within a 500 unit radius for 3/4/5/6 seconds. 20 second cooldown.

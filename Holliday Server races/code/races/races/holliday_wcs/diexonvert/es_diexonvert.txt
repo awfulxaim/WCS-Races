@@ -1,0 +1,67 @@
+block freeze
+{
+  es playerset freeze event_var(userid) 1
+  es_delayed 1 es playerset freeze event_var(userid) 0
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 1620
+  es_xmath wcs_z2 + 20
+  es est_effect 3 #a 0 sprites/tp_beam001.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 20 30 255 10 25 255
+  es_tell event_var(attacker) #multi #lightgreen you have frozen #green event_var(es_username) #lightgreen by fear
+  es_tell event_var(userid) #multi #lightgreen you have been frozen with fear by #green event_var(es_attackername)
+}
+
+block blood
+{
+  es_set wcs_dmg event_var(dmg_health)
+  es_xmath wcs_dmg float
+  es_math wcs_dmg / server_var(wcs_divider)
+  es wcs_decimal wcs_dmg server_var(wcs_dmg)
+  es wcs_setfx health event_var(attacker) + server_var(wcs_dmg) 0
+  es wcs_xcentertell event_var(attacker) c_leeched_a dmg server_var(wcs_dmg)
+  es wcs_xcentertell event_var(userid) c_leeched_v dmg server_var(wcs_dmg)
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z2 + 20
+  es est_effect 3 #a 0 sprites/tp_beam001.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 20 30 255 10 25 255
+}
+
+block ritual
+{
+  es playerset healthadd event_var(userid) server_var(wcs_addhealth)
+  es_tell event_var (userid) #multi #lightgreen #default: #green + server_var(wcs_addhealth) hp  #lightgreenritual activated.
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_xmath wcs_z1 + 40
+  es est_effect 10 #a 0 models/effects/splodecard2_sheet.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 250 190 3 150 100 1 155 115 100 200 3
+  es_xmath wcs_z1 + 50
+  es est_effect 11 #a 0 models/effects/splodecard2_sheet.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 2 2 255
+  es_emitsound player event_var(userid) ambient\explosions\explode_7.wav 1
+}
+
+block zeal
+{
+  es_emitsound player server_var(wcs_userid) ambient\explosions\explode_7.wav 1
+  es_tell server_var(wcs_userid) #multi #lightgreen : got a #green speed boost #lightgreen for #green server_var(wcs_duration) seconds.
+  es playerset speedadd server_var(wcs_userid) 2
+  es_delayed server_var(wcs_duration) es playerset speedadd server_var(wcs_userid) -2
+  es_xmath wcs_duration - 1
+  es_delayed server_var(wcs_duration) es_tell server_var(wcs_userid) #multi #lightgreen : becoming #green slow #lightgreen again ...
+  es playerset color server_var(wcs_userid) 255 0 15 0
+  es_delayed 0.5 es playerset color server_var(wcs_userid) 255 0 15 10
+  es_delayed 1 es playerset color server_var(wcs_userid) 255 0 15 25
+  es_delayed 1.5 es playerset color server_var(wcs_userid) 255 15 55 35
+  es_delayed 2 es playerset color server_var(wcs_userid) 255 25 55 60
+  es_delayed 2.5 es playerset color server_var(wcs_userid) 255 55 55 80
+  es_delayed 3 es playerset color server_var(wcs_userid) 255 100 100 115
+  es_delayed 3.5 es playerset color server_var(wcs_userid) 255 155 155 135
+  es_delayed 4 es playerset color server_var(wcs_userid) 255 200 255 165
+  es_delayed 4.5 es playerset color server_var(wcs_userid) 255 225 255 185
+  es_delayed 5 es playerset color server_var(wcs_userid) 255 225 255 200
+  es_delayed 5.5 es playerset color server_var(wcs_userid) 255 255 255 220
+  es_delayed 6 es playerset color server_var(wcs_userid) 255 255 255 225
+  es est_effect 4 #a 0 sprites/tp_beam001.vmt server_var(wcs_userid) 3 3 3 50 255 0 25 255
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es_xmath wcs_z1 + 340
+  es est_effect 10 #a 0 models/effects/splodecard2_sheet.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 550 100 5 750 200 0 155 115 100 200 30
+}

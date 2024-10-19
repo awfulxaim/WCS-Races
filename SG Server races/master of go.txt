@@ -1,0 +1,15 @@
+Master of GO
+
+requires total level 333. cannot buy long jump, boots of speed, or HP.
+
+Stealth
+You spawn with a disguise and 10/20/30/40/50% invisibility.
+
+Motivation
+You and teammates in a 750 unit radius have 5/10/15/20/25% increased movement speed.
+
+Bhop Master
+When you jump you gain 1/2/3/4/5 HP and holding space allows you to bunny hop.
+
+You Take the Point (ultimate)
+the description for this skill is missing. it has the flavor text "will you take the point?"

@@ -1,0 +1,12 @@
+Kil'Jaeden
+
+Knife only. This race always has a scout on its back. This race's player model is always 100% invisible, however it's scout is affected by the fading feature instead. This race fades in and out of visibility for each player based on their distance from this race. The scout is colored red if the player is T or blue if the player is CT. Players playing this race can see enemy Kil'Jaedens as though they had no invisibility if that enemy is in the air. This race deals 50% damage to enemies that are not knife races that have have dealt or taken damage to/from a player besides you in the past 3 seconds. requires total level 350
+
+Levitation
+Spawn with 10/20/30/40/50/60/70% reduced gravity
+
+Claw Attack
+5/10/15/20/25/30/35% chance on hit to disarm.
+
+Reach of the Defiler
+You spawn with 3/5/7/9/11/13/15% increased movement speed and long jump.

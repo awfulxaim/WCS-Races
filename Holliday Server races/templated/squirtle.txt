@@ -1,0 +1,15 @@
+Squirtle
+
+requires total level 580.
+
+Tackle
+5/7/9/10/12/13/14/15% chance on hit to shake the yourself and the enemy for 3 seconds, deal 9-12 extra damage rolled randomly, and set your movement speed to 1.75 for 1.5 seconds.
+
+Tail Whip
+5/8/10/12/14/16/18/20% chance when hit to slow the enemy who hit you to 75% movement speed for 2 seconds.
+
+Bubble
+5/7/9/10/12/13/14/15% chance on hit to bash the enemy for 1 second and cause bubbles to emit from their feet for 2 seconds.
+
+Withdraw (ultimate)
+Become paralyzed for 2 seconds but become immune to ALL damage, skills, abilities, and ultimates for the duration. this cannot be pierced.

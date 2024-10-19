@@ -1,0 +1,15 @@
+Hell Sloth
+
+SG553, five-seven, and knife only. Has .5 speed. requires total level 740.
+
+Paralyze
+15/18/22/38% chance on hit to paralyze the enemy for 1 second. cbaseplayer.m_fflags 66
+
+Struck
+15/18/22/38% chance on hit to deal 6 extra damage.
+
+From Hell
+15/18/22/38% chance on death to deal 10 damage to the enemy who killed you.
+
+Teleporter
+Human teleport, when activated set your speed to 1.0/1.1/1.4/1.7, lose your weapons, and become 100% invisible until you land. You get your reduced speed, weapons, and normal visibility back .3 seconds after you land. has a force of 250/320/400/500. 3 second cooldown.

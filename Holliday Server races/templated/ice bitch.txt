@@ -1,0 +1,15 @@
+Ice Bitch
+
+requires total level 470. has a light blue player model.
+
+Block of Ice
+8/11/15/33% chance on hit to bash the enemy for 1/1.2/1.6/2 seconds and deal 5/10/12/15 extra damage to them. enemies affected by this skill have standing accuracy while bashed.
+
+Life is a Bitch
+8/11/15/33% chance on death to bash the enemy for the duration set by Block of Ice, and deal 5/8/10/15 damage to them.
+
+Blur
+8/11/15/44% chance when hit to become 22/61/71/80% invisible for 1.5/2/2.5/3 seconds and create a cloud of smoke where you were hit and leave behind a cloud of smoke when you move. set your speed to 150/200/250/300% for that duration.
+
+Translucence of Ice
+For the next 2/4/5/7 seconds: reduce your movement speed by 80%. set your invis to 22/31/61/78%. your hits cannot be evaded. hitting an enemy blurs their screen for 1 second. your bullet impacts deal damage to enemies in a 20 unit radius of the impact location. you have no recoil. 15 second cooldown.

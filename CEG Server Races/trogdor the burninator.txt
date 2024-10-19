@@ -1,0 +1,18 @@
+Trogdor The Burninator
+
+requires total level 680
+
+Wing-a-ling
+spawn with 5/10/15/20/25/30% increased movement speed.
+
+Burninator Breath
+5/10/15/20/25/30% chance on hit to burn the enemy for 2.5 seconds.
+
+Burnination Wards (ability)
+Lay a 200 unit radius ward that burns enemies who enter it for 3 seconds. lasts 15 seconds. 30 second cooldown.
+
+Failure to Flight
+Spawn with 35/40/45/50/55/60% reduced gravity.
+
+Burninating the Countryside (ultimate)
+Burn a random enemy for 2.5 seconds. 40/35/30/25/20/15 second cooldown.

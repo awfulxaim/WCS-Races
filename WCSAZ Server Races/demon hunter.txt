@@ -1,0 +1,13 @@
+Demon Hunter
+
+Mana Burn
+5/10/15/20/25% chance on hit to deal 1/2/3/4/5/6 extra damage for each $2000 an enemy has that enemy loses $2000 when this procs.
+
+Immolation
+You have a 10/15/20/25/30/40% chance when you hit an enemy to set them on fire, dealing 5 damage every half second for 1/1.5/2/2.5/3/3.5 seconds.
+
+Evasion
+5/10/15/20/25/30% chance to evade.
+
+Metamorphosis (ultimate)
+Gain 35/40/50/60/70/80 HP and long jump for 10 seconds. 35 second cooldown. if you would have less than 1 HP after the duration set your HP to 1 instead.

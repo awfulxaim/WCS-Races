@@ -1,0 +1,21 @@
+Mummy
+
+knife only. requires total level 400
+
+Death Book
+100% chance on kill to gain 10/12/14/16/18/20 HP.
+
+Flesh Steal
+60% chance on hit to leech 24/29/33/40/50/67% of the damage you dealt back as HP and deal 1-20 extra damage rolled randomly.
+
+Bandage Wrap
+65/70/75/80/85/90% chance when hit with a grenade to reduce the damage taken by up to 20 damage.
+
+Embalmed Skin
+65/70/75/80/85/90% chance when hit with a knife to reduce the damage taken by up to 20 damage.
+
+Mummy's Breath
+5/8/11/14/17/20% chance when hit to blind the enemy for 2 seconds that slowly decays over 3 seconds.
+
+Swarm of Scarabs (ultimate)
+Steal 5/10/15/20/25/30 Armor and HP from a random enemy up to a maximum of 250 armor and HP. 20 second cooldown.

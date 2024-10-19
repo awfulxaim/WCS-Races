@@ -1,0 +1,21 @@
+NSC-SPU-02 Loki
+
+M4A1-S and knife only.
+
+N.Mako Enhanced Acceleration System
+Spawn with 10/15/20/25/30/35/40/45% increased movement speed.
+
+NSC-P Diffusion Plates
+Spawn with 35/40/45/50/55/60/65/70% invisibility.
+
+Refraction Slave (ability)
+Create a copy of your player model that moves forward at a constant rate for 5 seconds then disappears. If you activate this again within 4 seconds, you instantly teleport to the location of the copy. 15/14/13/12/11/10/9/8 second cooldown.
+
+Divine Knot
+3/5/8/10/13/15/18/20% chance on hit to force the enemy to look in a random direction and deal 15% extra damage.
+
+Lock-Key Autonomous Limb Operation (ability2)
+Set your rounds in the mag to 35. Gain .01 move speed for each round difference between the rounds in mag before and after activating this ability for .5/1/1.5/2/2.5/3/3.5/4 seconds. 36/33/30/27/24/21/18/15 second cooldown.
+
+Hypnotic Tangle (ultimate)
+Become USP-S only for 6 seconds. All enemies in a 250/300/350/400/450/500/550/600 unit radius are blinded for 1 seconds, then banished for 6 seconds. 8 copies of your player model surround you for the next 12 seconds. These copies can be destroyed by being shot. 45 second cooldown.

@@ -1,0 +1,21 @@
+vek'nilash
+
+1 per team.
+
+Heal Brother (ability)
+Heal a vek'lor teammate for 3/6/9/12/15/18/21/25 HP. 15 second cooldown.
+
+Twin Teleport (ability2)
+Teleport a vek'lor teammate to you after 1 second. 30/28/26/24/22/20/18/15 second cooldown.
+
+Uppercut
+30% chance on hit to impale the enemy and deal 10/18/25/32/40/47/55/60% more damage.
+
+Unbalancing Strike
+6/8/10/12/14/16/18/20% chance on hit to disarm the enemy and restrict them from picking up that gun for 2 seconds.
+
+Vigilance
+Spawn with 25/30/35/40/45/50/55/60 more HP.
+
+Shattering Throw (ultimate)
+For the next 6 seconds any of your damage cannot be evaded or blocked, including by invulnerability.

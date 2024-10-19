@@ -1,0 +1,16 @@
+Beast
+
+Rage
+5/10/15/20% chance on hit to deal 10 extra damage.
+
+Wrath
+25/50/75/100% chance to spawn with AK or M4A1-S, HE grenade, and 100 armor and helmet. Your grenades deal 25 extra damage.
+
+Resurrect
+25/50/75/100% chance when you die to respawn at the corpse of the last teammate who died after 5 seconds.
+
+Burning Blind
+5/10/15/20% chance on hit to burn the enemy for 5dmg/0.5sec for 3 seconds, and blind them with a dark orange screen for that duration
+
+Teleport (ultimate)
+Human teleport with a 5 second cooldown.

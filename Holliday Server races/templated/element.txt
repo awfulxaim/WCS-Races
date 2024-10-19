@@ -1,0 +1,13 @@
+Element
+
+Impulse Rifle
+13/18/23/27/19% chance on hit to deal 2/2/3/3/4 extra damage. 
+if this procs on an enemy with less than 10HP, that player is slain and their ragdoll and equipment are deleted.
+if this procs on an enemy with greater than 20HP, that enemies outline becomes visible to all players for 2.5 seconds.
+if this procs on an enemy with less than 5 HP, that enemy becomes invulnerable and impaled way up into the air then rooted there for 2.1 seconds. Lightning strikes them from 6 different angles and they are vaporized.
+
+Times Element
+15/18/22/30/38% chance when you die to teleport the enemy that killed you and respawn you where you were 3 seconds before you died, with both of you aiming at each other. this respawn and teleport is delayed by 3 seconds after you die. this can proc any number of times.
+
+Gravity Pull (ultimate)
+Impale a random enemy high into the air, make them fly, set their speed to 300% and pull them towards you with a force of 900/1800/2700/3600/4500 for the next 4 seconds. if they survive this their flying ends after 6 seconds. that enemy takes 10 damage when this affects them.

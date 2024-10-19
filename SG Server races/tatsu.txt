@@ -1,0 +1,18 @@
+Tatsu, Ice Dragon
+
+requires total level 300. limited to 2 per team. cannot buy cloak of shadow.
+
+Blind
+15/20/25/30/35% chance on hit to blind the enemy for 1 second.
+
+Deep Freeze
+10/14/18/22/25% chance on hit to bash for 1.1 seconds.
+
+Clear Ice
+Spawn with 10/20/30/40/50% invisibility
+
+Clarity of Ice
+100% chance when hit to become 100% invisible, you lose 12/11/10/9/8% invisibility every .5 seconds down to the visibility set by Clear Ice.
+
+Ice Flight
+Begin to fly, a white line trails from your feet while you are flying. you can fly up to 2/3/4/5/6 seconds. 5 second cooldown.

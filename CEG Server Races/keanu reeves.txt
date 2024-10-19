@@ -1,0 +1,18 @@
+Keanu Reeves
+
+requires total level 1500
+
+Bullet Dodge
+5/10/15/20/25/30% chance to evade and become invulnerable for .75 seconds when you are shot from the front.
+
+The Black Shakes (4 levels)
+5/10/15/20% chance when hit to shake and fade the enemy's screen for 4 seconds.
+
+Sad with a Sandwich (ability)
+Get a free Sandvich. can be used up to 1/1/2/2/3/3 times. 12/10/10/8/8/6 second cooldown.
+
+Seeing the Code
+40/50/60/70/80/90% chance to ignore enemy's evade.
+
+Under 55
+You gain 5/6/7/8/9/10% increased speed every 3 seconds you are moving. If you stop moving for 3 seconds or longer your speed is reset. If you have 155% or more movement speed when you die, explode and deal damage equal to the bonus movement speed you have to all enemies in a 250 unit radius.

@@ -1,0 +1,18 @@
+Ork King
+
+requires total level 720
+
+Ork's Wrath
+10/20/30/40% chance on hit to deal 10 to 100% extra damage rolled randomly.
+
+Ork's Feet
+Spawn with 40/60/100/200% increased movement speed.
+
+Ork is Hungry
+40% chance on hit to leech 22/25/33/50% of the damage you dealt as HP.
+
+Ork Not Die
+5/10/25/36% chance on death to respawn where you died 2.5 seconds later. this can proc any number of times.
+
+Ork's Thunder (ultimate)
+you deal 32 damage to up to 3/3/4/5 enemies in a 600/750/900/1150 unit radius. 10 second cooldown.

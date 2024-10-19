@@ -1,0 +1,18 @@
+Vagabond
+
+Knife and Scout only. requires total level 300
+
+Flickering Shadows
+10/22/34/40/55% chance when you spawn to set your render effect to 13 "Fast Flicker (transparent 0.14 s, visible 0.2 s, repeat)"
+
+Adrenaline
+Spawn with 10/10/20/30/40% increased movement speed.
+
+Scout
+5/8/13/16/44% chance on hit to deal 5/10/13/16/25 extra damage with the scout.
+
+Levitation
+Spawn with 40/50/50/60/70% decreased gravity.
+
+Invisible Teleport Freeze (ultimate)
+Become 100% invisible and restricted from all weapons. Ignore gravity and push yourself constantly in the direction you are aiming. the max distance you can travel during this is 720/820/920/1000/1080 units. after that distance is reached become rooted 1 second later. press ultimate again to cancel all of these effects. no cooldown.

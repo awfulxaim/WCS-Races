@@ -1,0 +1,13 @@
+Far Seer
+
+Far Sight
+10/20/30/40% chance on hit to deal 50% extra damage.
+
+Feral Spirit
+spawn with 20/30/40/50 extra HP.
+
+Earthquake
+25% chance on hit to shake the enemy's screen for 3/3/4/5/5/6 seconds.
+
+Chain Lightning (ultimate)
+Deal 32 damage to up to 4 enemies in a 400/450/500/550/600/650/700/750 unit radius. 30 second cooldown. If there are no enemies in the area, this ability fails and its cooldown is refreshed.

@@ -1,0 +1,15 @@
+Grenadier Police
+
+HE grenades only, no knife. Spawns with an HE grenade. gets an HE grenade immediately after throwing one. requires total level 2020.
+
+Take Cover
+While crouched you have 51/61/71/81% invisibility.
+
+Grenade Damage
+your HE grenades deal 50/60/75/200 extra damage on hit.
+
+Create Fire (ability)
+Give yourself a molotov (not an incendiary). 5/4/3/1 second cooldown.
+
+Explosive Barrel (ultimate)
+Create an explosive barrel where you are aiming up to 920/920/1000/1080 units away. that barrel lasts 4/4/5/7 seconds. 5/4/3/0 second cooldown.

@@ -1,0 +1,18 @@
+CS2 PRO
+
+requires total level 200.
+
+Spawning (50 levels)
+Gain 2 XP per level in this skill when you spawn.
+
+Dealing Damage (50 levels)
+Gain 2 XP per level in this skill when you deal damage.
+
+Receiving Damage (50 levels)
+Gain 2 XP per level in this skill when you take damage.
+
+Ability (50 levels)
+Gain 2 XP per level in this skill when you press ability. 10 second cooldown.
+
+Ultimate (50 levels)
+Gain 2 XP per level in this skill when you press ultimate. 20 second cooldown.

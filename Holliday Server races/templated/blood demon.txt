@@ -1,0 +1,15 @@
+Blood Demon
+
+P90, pistols, and knife only. requires total level 240.
+
+P90 Ammo
+22/33/55/66% chance when you spawn to spawn with a p90 with 60/90/120/200 rounds in the clip.
+
+Upgrade
+when you get a kill with a P90, unrestrict the AK until you die and get an AK with a 60/90/120/200 ammo clip. when you get a kill with the AK, unrestrict the M4A1-S until you die and get an M4A1-S with a 60/90/120/200 ammo clip. When you get a kill with the M4A1-S, you get either 15/20/30/40 HP or increase your movement speed by 20/31/40/50% for the rest of the round.
+
+Impostor
+8/10/15/18% chance on spawn to get a disguise and a fake overhead playername and health value.
+
+Reset (ultimate)
+20/30/40/80% chance to respawn. 45 second cooldown. you can activate this while dead.

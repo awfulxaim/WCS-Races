@@ -1,0 +1,169 @@
+[Robocop]
+	required           = 710
+	maximum            = 0
+	restrictmap        = ""
+	restrictteam       = 0
+	restrictitem       = ""
+	teamlimit          = 0
+	author             = "holliday"
+	desc               = ""
+	spawncmd           = "es_xdoblock holliday_wcs/robocop/spawn"
+	deathcmd           = ""
+	roundstartcmd      = ""
+	roundendcmd        = ""
+	preloadcmd         = ""
+	allowonly          = ""
+	onchange           = ""
+	numberofskills     = 4
+	numberoflevels     = 4
+	skillnames         = "Machine Pistol|Metal Armor|Anit Peircing Armor|Scan"
+	skilldescr         = "Your Desert Eagle Becomes A Machine Pictol|Extra Armor|Chance to not take Damage|See Enemies Through Walls"
+	skillcfg           = "player_spawn|player_spawn|player_victim|player_ultimate"
+	skillneeded        = "0|0|0|4"
+
+	[[skill1]]
+		setting           = "es_xset wcs_robo 30;es_xset wcs_ammo 50|es_xset wcs_robo 40;es_xset wcs_ammo 100|es_xset wcs_robo 60;es_xset wcs_ammo 500|es_xset wcs_robo 100;es_xset wcs_ammo 800"
+		cmd               = "es_xdoblock holliday_wcs/robocop/deagle"
+		sfx               = ""
+
+	[[skill2]]
+		setting           = "es_xset wcs_armor 25|es_xset wcs_armor 50|es_xset wcs_armor 80|es_xset wcs_armor 100"
+		cmd               = "es_xdoblock holliday_wcs/robocop/armor"
+		sfx               = ""
+
+	[[skill3]]
+		setting          = "es_xset wcs_chance 5|es_xset wcs_chance 10|es_xset wcs_chance 25|es_xset wcs_chance 36"
+	    cmd              = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/robocop/anti"
+		sfx              = ""
+
+	[[skill4]]
+		setting          = "es_xset wcs_time 5|es_xset wcs_time 7|es_xset wcs_time 8|es_xset wcs_time 10"
+	    cmd              = "es_xdoblock holliday_wcs/robocop/scan"
+		sfx              = ""
+		cooldown         = "25"   
+
+
+
+
+
+
+block spawn
+{
+    es wcs_restrict event_var(userid) galil,ak47,sg552,awp,g3sg1,famas,m4a1,aug,sg550,glock,usp,elite,fiveseven,m3,xm1014,mac10,tmp,mp5navy,ump45,p90,m249,flashbang,smokegrenade,hegrenade,scout
+    es_keysetvalue wcsuserdata event_var(userid) robocop 1
+    es_delayed 1 es_give event_var(userid) weapon_deagle
+    es_xrand wcs_rand 1 6
+    es_format wcs_format "ambient/levels/canals/headcrab_canister_ambient%1.wav" server_var(wcs_rand)
+    es_emitsound player event_var(userid) server_var(wcs_format) 1
+    //es playerset model event_var(userid) models/player/techknow/robocop/robocop.mdl
+}
+
+block deagle
+{
+    es_keysetvalue wcsuserdata event_var(userid) machinepistol server_var(wcs_robo)
+    es playerset ammo event_var(userid) 2 server_var(wcs_ammo)
+}
+
+block armor
+{
+    es playerset armor event_var(userid) server_var(wcs_armor)
+    es_tell event_var(userid) #multi #green ROBOCOP: ARMOR!
+}
+
+block anti
+{
+    es_set wcs_dmg event_var(dmg_health)
+    es wcs_setfx health event_var(userid) + server_var(wcs_dmg) 0
+    es_tell event_var(userid) #green ROBOCOP Prevented Damage!
+}
+
+block scan
+{
+    es_xdoblock holliday_wcs/robocop/wallhacka
+    es_delayed server_var(wcs_time) es_xdoblock holliday_wcs/robocop/wallhackb
+	es_playsound server_var(wcs_userid) items/nvg_on.wav 1
+	es_cexec server_var(wcs_userid) r_screenoverlay effects/combine_binocoverlay.vmt
+	es_set targetid server_var(wcs_userid)
+    es repeat create server_var(wcs_userid) "es_xdoblock holliday_wcs/robocop/wallhackon"
+	es repeat start server_var(wcs_userid) .1
+}
+
+//block scan
+//{
+//  es_keysetvalue golddata server_var(gold_steam) +ability wallhack
+//  es_tell server_var(wcs_userid) #multi #lightgreen Bind #green +ability #lightgreen to activate Wall Hack
+//}
+
+block wallhackon
+{
+    es foreach player targetid #t "es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(targetid);es_xmath wcs_z1 + 40;if (server_var(targetid) != server_var(wcs_userid)) then es est_effect 11 server_var(wcs_userid) 0 VGUI\gfx\VGUI\arctic.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .2 .3 255"
+    es foreach player targetid #ct "es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(targetid);es_xmath wcs_z1 + 40;if (server_var(targetid) != server_var(wcs_userid)) then es est_effect 11 server_var(wcs_userid) 0 VGUI\gfx\VGUI\gign.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .2 .3 255"
+    es_delayed server_var(wcs_time) es_doblock holliday_wcs/robocop/wallhackb
+}
+
+block wallhacka
+{
+	es_playsound server_var(wcs_userid) items/nvg_on.wav 1
+	es_cexec server_var(wcs_userid) r_screenoverlay effects/combine_binocoverlay.vmt
+	es_set gold_iduser server_var(wcs_userid)
+    es repeat create server_var(wcs_userid) "es_xdoblock holliday_wcs/robocop/wallhackon"
+	es repeat start server_var(wcs_userid) .1
+}
+
+block wallhackb
+{
+  es repeat stop server_var(wcs_userid)
+  es repeat delete server_var(wcs_userid)
+  es_playsound server_var(wcs_userid) items/nvg_off.wav 1
+  es_cexec server_var(wcs_userid) r_screenoverlay 0
+}
+
+event weapon_fire
+{
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) machinepistol
+    if (server_var(wcs_tmp) >= 1) do
+    { 
+        if (event_var(weapon) = deagle) do
+        {
+            es playerset clip event_var(userid) 2 server_var(wcs_robo)
+            es_delayed .3 es playerset clip event_var(userid) 2 0
+            es_xset turbofire 0
+	        es_xset gunname 0
+            es_format gunname "weapon_%1" event_var(weapon)
+	        es playerget weaponindex turbofire event_var(userid) server_var(gunname)
+	        es_setindexprop server_var(turbofire) "cbasecombatweapon.localactiveweapondata.m_flnextprimaryattack" 0
+	        es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" 0.000000,0.000000,0.000000
+	        es_setplayerprop event_var(userid) "ccsplayer.baseclass.baseclass.bcc_localdata.m_flnextattack" 1
+	        es_setplayerprop event_var(userid) "ccsplayer.cslocaldata.m_ishotsfired" 0
+	        es_playsound event_var(userid) weapons/deagle/deagle-1.wav 1
+        }
+    }
+}
+
+event player_footstep
+{
+	es_keygetvalue wcs_tmp2 wcsuserdata event_var(userid) robocop
+    if (server_var(wcs_tmp2) = 1) do
+	{
+        es_xrand wcs_rand 1 8
+        es_format wcs_format "npc\dog\dog_footstep_run%1.wav" server_var(wcs_rand)
+        es_emitsound player event_var(userid) server_var(wcs_format) 1
+  }
+}
+
+event player_death
+{
+    es_delayed 1 es_keysetvalue wcsuserdata event_var(userid) robocop 0
+    es_keysetvalue wcsuserdata event_var(userid) machinepistol 0
+    es_keysetvalue golddata server_var(gold_steam) +ability 0
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) robocop
+    if (server_var(wcs_tmp) >= 1) do
+    { 
+        es_xrand wcs_rand 1 4
+        es_format wcs_format "npc/metropolice/die%1.wav" server_var(wcs_rand)
+        es_emitsound player event_var(userid) server_var(wcs_format) 1
+        es_setplayerprop event_var(userid) "CCSPlayer.baseclass.localdata.m_Local.m_vecPunchAngle" 5,5,500 
+        es_cexec event_var(userid) r_screenoverlay effects/red.vmt
+        es_delayed 0.9 es_cexec event_var(userid) r_screenoverlay 0
+    }
+}

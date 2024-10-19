@@ -24,4 +24,4 @@ Wearer of Faces
 3/6/9/12/15/18/21/25% chance on hit to gain $1000. if this procs on the hit that kills the enemy, you get all the shopmenu items that player had.
 
 Corpseshift
-You have a 30/40/50/60/70/80/90/100% chance when you kill an enemy to instantly teleport to the location they were at when you killed them, refill your ammo, and become invulnerable for 1 second.
+You have a 30/40/50/60/70/80/90/100% chance when you kill an enemy to instantly teleport to the location they were at when you killed them, refill your ammo, and become invulnerable for 1.5 seconds.

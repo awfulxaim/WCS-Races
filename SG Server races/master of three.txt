@@ -1,0 +1,15 @@
+Master of Three
+
+MP9 and knife only. requires total level 333. cannot buy mask of death or HP.
+
+Power of Health (3 levels)
+Spawn with 3^(Skill level + 1) more HP.
+
+Bullets
+You spawn with 30/60/90 more ammo in your mag. your shots deal 1/2/3 extra damage.
+
+Unload (3 levels)
+Your fire rate is increased by the modulus of the log 3 of 3 times your levels in this skill factorial times 3. (Log3(3*skill level)!)*3)%%
+
+Burst (ultimate)
+you gain .3%/3.33%/33.3% increased movement speed for 3 seconds. 3.3 second cooldown.

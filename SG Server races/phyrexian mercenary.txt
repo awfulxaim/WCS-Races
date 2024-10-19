@@ -1,0 +1,18 @@
+Phyrexian Mercenary
+
+MP9, Five-seveN, and knife only. requires 200 total level. limit of 2 per team.
+
+Enchanted MP9
+100% chance on hit to deal 2/3/5/7/8 extra damage with the MP9.
+
+AP Five-seveN
+100% chance on hit to deal 2/4/6/8/10 extra damage and remove 4/8/12/16/20 armor from the enemy with the Five-Seven.
+
+Swift
+Spawn with 6/12/18/24/30% increased movement speed.
+
+Stall
+33% chance on hit to slow the enemy by 30% for 1/1.5/2/2.5/3 seconds.
+
+Skirmisher Gear
+You take 10/20/30/40/50% less damage from extra damage and explosions.

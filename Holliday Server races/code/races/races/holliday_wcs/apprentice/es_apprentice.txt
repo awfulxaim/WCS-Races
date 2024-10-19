@@ -1,0 +1,800 @@
+block load
+{
+  es_xset wcs_c4 0
+  es_xset wcs_x3 0
+  es_xset wcs_y3 0
+  es_xset wcs_z3 0
+  es_xset wcs_x4 0
+  es_xset wcs_y4 0
+  es_xset wcs_z4 0
+  es_xset wcs_sk 0
+  es_xset wcs_tmp1 0
+  es_xset wcs_tmp2 0
+  es_xset wcs_tmp3 0
+  es_xset wcs_dead 0
+  es_xset wcs_format 0
+  es_xset wcs_format1 0
+  es_xset wcs_alive 0
+  es_xset wcs_rand 0
+  es_xset wcs_player 0
+  es_xset wcs_points 0
+  es_xset wcs_points1 0
+  es_xset wcs_points2 0
+  es_xset wcs_points3 0
+  es_xset wcs_points4 0
+  es_xset wcs_longjump 0
+  es_xset wcs_cur_weapon 0
+  es_xset wcs_spawn_level 0
+  es_xset wcs_skill_level 0
+  es_xset wcs_apprentice_level 0
+  es_xset "holliday's apprentice" "coded by holliday"
+  es_xmakepublic "holliday's apprentice"
+}
+
+block doit
+{
+  es_keysetvalue wcsuserdata event_var(userid) points server_var(wcs_points)
+  es_keysetvalue wcsuserdata event_var(userid) sk server_var(wcs_sk)
+  es_xdoblock holloday_wcs/apprentice/+skill1-
+}
+
+block spawn
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_playsound event_var(userid) ambient\levels\citadel\portal_beam_shoot2.wav 1
+  es_keysetvalue wcsuserdata event_var(userid) points1 0
+  es_keysetvalue wcsuserdata event_var(userid) points2 0
+  es_keysetvalue wcsuserdata event_var(userid) points3 0
+  es_keysetvalue wcsuserdata event_var(userid) gravity_ 0
+  es_keysetvalue wcsuserdata event_var(userid) longjump_ 0
+  es_xset wcs_counter 0
+  repeat create ha "es_xdoblock holliday_wcs/apprentice/spawneffect"
+  repeat start ha .1
+}
+
+block spawneffect
+{  
+  es_xmath wcs_z1 + 10
+  es_xmath wcs_counter + 1
+  es est_effect 10 #a 0 effects/blueblackflash.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 130 50 2 7 11 0 255 255 255 255 8
+  if (server_var(wcs_counter) >= 10) then es_xmath wcs_z1 - 15   
+  if (server_var(wcs_counter) >= 30) then repeat stop ha
+}
+
+block weaponskills
+{
+  es_keysetvalue wcsuserdata event_var(userid) apprentice_level server_var(wcs_skill_level)
+  es_tell event_var(userid) #multi #lightgreenyou have skills for#green server_var(wcs_skill_level) #lightgreenweapons #green say levelinfo for a list of weapons and descriptions
+} 
+
+block weaponchange
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata server_var(wcs_userid) wcs_cur_weapon
+  es playerget c4 wcs_c4 server_var(wcs_userid)
+  es_xmath wcs_cur_weapon + 1
+  if (server_var(wcs_cur_weapon) > server_var(wcs_gun_level)) then es_xset wcs_cur_weapon 1
+  if (server_var(wcs_cur_weapon) <= server_var(wcs_gun_level)) do
+  {          
+    if (server_var(wcs_cur_weapon) = 1) then es_xset wcs_gn weapon_p90
+    if (server_var(wcs_cur_weapon) = 2) then es_xset wcs_gn weapon_mp5navy
+    if (server_var(wcs_cur_weapon) = 3) then es_xset wcs_gn weapon_sg552
+    if (server_var(wcs_cur_weapon) = 4) then es_xset wcs_gn weapon_deagle          
+    if (server_var(wcs_cur_weapon) = 5) then es_xset wcs_gn weapon_scout
+    if (server_var(wcs_cur_weapon) = 6) then es_xset wcs_gn weapon_aug
+    if (server_var(wcs_cur_weapon) = 7) then es_xset wcs_gn weapon_elite    
+    if (server_var(wcs_cur_weapon) = 8) then es_xset wcs_gn weapon_m3
+    es wcs strip server_var(wcs_userid) 
+    //es wcs removeweapon server_var(wcs_userid) 2
+    //es wcs removeweapon server_var(wcs_userid) 4
+    //es wcs removeweapon server_var(wcs_userid) 5
+    //es wcs removeweapon server_var(wcs_userid) weapon_knife 
+    es_delayed .1 es_give server_var(wcs_userid) server_var(wcs_gn)
+    es_tell server_var(wcs_userid) #multi #green server_var(wcs_gn) 
+    if (server_var(wcs_c4) = 1) then es_delayed .1 es_give server_var(wcs_userid) weapon_c4 
+  } 
+}
+
+block say
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(userid) apprentice_level
+  es popup create server_var(wcs_tmp)
+  es popup addline server_var(wcs_tmp) "holliday's apprentice"
+  if (server_var(wcs_apprentice_level) >= 1) then es popup addline server_var(wcs_tmp) "->you are skilled with the following weapon"
+  es popup addline server_var(wcs_tmp) "---------------------"
+  if (server_var(wcs_apprentice_level) >= 1) then es popup addline server_var(wcs_tmp) "->1.weapon p90"
+  if (server_var(wcs_apprentice_level) >= 1) then es popup addline server_var(wcs_tmp) "->drug your enemy"
+  if (server_var(wcs_apprentice_level) >= 2) then es popup addline server_var(wcs_tmp) "->2.weapon mp5navy"
+  if (server_var(wcs_apprentice_level) >= 2) then es popup addline server_var(wcs_tmp) "->push your enemy upwards"
+  if (server_var(wcs_apprentice_level) >= 3) then es popup addline server_var(wcs_tmp) "->3.weapon sg552"
+  if (server_var(wcs_apprentice_level) >= 3) then es popup addline server_var(wcs_tmp) "->confuse your enemy"
+  if (server_var(wcs_apprentice_level) >= 4) then es popup addline server_var(wcs_tmp) "->4.weapon deagle"
+  if (server_var(wcs_apprentice_level) >= 4) then es popup addline server_var(wcs_tmp) "->spin your enemies view"
+  if (server_var(wcs_apprentice_level) >= 5) then es popup addline server_var(wcs_tmp) "->5.weapon scout"
+  if (server_var(wcs_apprentice_level) >= 5) then es popup addline server_var(wcs_tmp) "->stretch your enemies view "
+  if (server_var(wcs_apprentice_level) >= 6) then es popup addline server_var(wcs_tmp) "->6.weapon aug"
+  if (server_var(wcs_apprentice_level) >= 6) then es popup addline server_var(wcs_tmp) "->cause your enemy extra damage"
+  if (server_var(wcs_apprentice_level) >= 7) then es popup addline server_var(wcs_tmp) "->7.weapon elite"
+  if (server_var(wcs_apprentice_level) >= 7) then es popup addline server_var(wcs_tmp) "->pull your enemy closer to you"
+  if (server_var(wcs_apprentice_level) >= 8) then es popup addline server_var(wcs_tmp) "->8.weapon m3"
+  if (server_var(wcs_apprentice_level) >= 8) then es popup addline server_var(wcs_tmp) "->scare your enemy"
+  if (server_var(wcs_apprentice_level) >= 1) then es popup addline server_var(wcs_tmp) "->"
+  if (server_var(wcs_apprentice_level) >= 1) then es popup addline server_var(wcs_tmp) "->---------------------"
+  if (server_var(wcs_apprentice_level) != 0) then if (server_var(wcs_apprentice_level) != 1) then es popup addlinef server_var(wcs_tmp) "->you have %1 weapons with skills" wcs_apprentice_level
+  if (server_var(wcs_apprentice_level) = 1) then es popup addlinef server_var(wcs_tmp) "->you have %1 weapon with a skill" wcs_apprentice_level
+  if (server_var(wcs_apprentice_level) != 0) then es popup addlinef server_var(wcs_tmp) "->" wcs_apprentice_level
+
+  
+  es popup menuselect server_var(wcs_tmp) holliday_wcs/apprentice/levelinfo
+  es popup send server_var(wcs_tmp) event_var(userid)
+  es_delayed 3 es popup delete server_var(wcs_tmp)
+}
+
+block levelinfo
+{
+  if (server_var(_popup_choice) <= 8) do
+  {
+    es_xdoblock holliday_wcs/apprentice/say
+  }
+  if (server_var(_popup_choice) == 1) do
+  {
+    if (server_var(wcs_apprentice_level) >= 1) then es wcs drug server_var(_popup_userid) 1
+  }
+  if (server_var(_popup_choice) == 2) do
+  {
+    if (server_var(wcs_apprentice_level) >= 2) then es playerset push server_var(_popup_userid) 1 300 1
+  }
+  if (server_var(_popup_choice) == 3) do
+  { 
+    if (server_var(wcs_apprentice_level) >= 3) do
+    {
+      es_xset wcs_rand 0
+      es_xset wcs_format 0
+      es_xrand wcs_rand 1 10
+      es_format wcs_format "ambient\levels\citadel\strange_talk%1.wav" server_var(wcs_rand)
+      es_playsound server_var(_popup_userid) server_var(wcs_format) 1
+      es_delayed 2 es_stopsound server_var(_popup_userid) server_var(wcs_format)
+      es_playsound server_var(_popup_userid) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 1
+      es_delayed 2 es_stopsound server_var(_popup_userid) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 
+      es_delayed 2 es_stopsound server_var(_popup_userid) ambient\levels\citadel\citadel_drone_loop5.wav
+      es_cexec server_var(_popup_userid) r_screenoverlay effects/ar2_altfire1.vmt
+      es_delayed .3 es_cexec server_var(_popup_userid) r_screenoverlay models\props_combine\masterinterface01c.vmt
+      es_delayed .6 es_cexec server_var(_popup_userid) r_screenoverlay models\props_lab\cornerunit_cloud.vmt
+      es_delayed .9 es_cexec server_var(_popup_userid) r_screenoverlay models\props_lab\warp_sheet.vmt
+      es_delayed 1.3 es_cexec server_var(_popup_userid) r_screenoverlay effects/prisonmap_disp.vmt
+      es_delayed 1.6 es_cexec server_var(_popup_userid) r_screenoverlay effects/breenscreen_static01_.vmt
+      es_delayed 1.9 es_cexec server_var(_popup_userid) r_screenoverlay effects/alyxmonitor_talk.vmt
+      es_delayed 1.9 es_cexec server_var(_popup_userid) r_screenoverlay effects/ar2_altfire1.vmt
+      es_delayed 2 es_cexec server_var(_popup_userid) r_screenoverlay 0  
+    }
+  }
+  if (server_var(_popup_choice) == 4) do
+  {
+    if (server_var(wcs_apprentice_level) >= 4) do
+    {
+      es_playsound server_var(_popup_userid) holliday\flip.wav 1
+      es_format wcs_format "5,5,%1" 5000
+      es_setplayerprop server_var(_popup_userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+      es_delayed .5 es_setplayerprop server_var(_popup_userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" "0,0,0"
+      es_setplayerprop server_var(_popup_userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+      es_delayed .5 es_setplayerprop server_var(_popup_userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" "0,0,0"    
+    }
+  }
+  if (server_var(_popup_choice) == 5) do
+  {
+    if (server_var(wcs_apprentice_level) >= 5) do
+    {
+      es_playsound server_var(_popup_userid) holliday\flip.wav 1
+      es_setplayerprop server_var(_popup_userid) cbaseplayer.m_fflags 32.0
+      es_delayed .1 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 110
+      es_delayed .2 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 120
+      es_delayed .3 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 130
+      es_delayed .4 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 140
+      es_delayed .5 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 150
+      es_delayed .6 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 160
+      es_delayed .7 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 170
+      es_delayed .8 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 180
+      es_delayed .9 es_setplayerprop server_var(_popup_userid) cbaseplayer.m_ifov 0
+    }
+  }
+  if (server_var(_popup_choice) == 8) do
+  {
+    if (server_var(wcs_apprentice_level) >= 8) do
+    {
+      es_delayed 0 es_cexec event_var(userid) r_screenoverlay models\gman\gman_face_map3.vmt
+      es_delayed 1 es_cexec event_var(userid) r_screenoverlay 0
+      es_playsound event_var(userid) npc/stalker/go_alert2a.wav 1
+    }
+  }
+}
+ 
+block p90 
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 1) do
+  {
+    es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector2) server_var(vector1) 100 1 5 15 10 0 255 255 255 255 50
+    es est_effect 11 #a 0 models\effects\combineball.mdl server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 1 255
+    es est_effect 11 #a 0 sprites\orangeflare1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 1 255
+    es wcs drug event_var(userid) 1
+    es_tell event_var(attacker) #multi #lightgreen you have druged #green event_var(es_username)
+  }
+}  
+
+block mp5navy
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 2) do
+  {
+    es est_effect_06 #a 0 sprites/redglow2.vmt server_var(vector2) server_var(vector1) 100 .7 5 15 10 0 255 255 255 255 50  
+    es est_effect_18 #a 0 server_var(vector2) 25 0 0 50 50 30 150   
+    es est_effect_08 #a 0 sprites/redglow2.vmt server_var(vector2) 100 300 10 .3 190 400 .3 255 255 255 255 100 1
+    es playerset push event_var(userid) 1 300 1
+    es_tell event_var(attacker) #multi #lightgreen you have pushed #green event_var(es_username) #lightgreen upwards
+  } 
+}   
+
+block sg552
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 3) do
+  {
+    es est_effect_06 #a 0 sprites/combineball_trail_blue_1.vmt server_var(vector2) server_var(vector1) 100 .7 5 15 10 10 255 255 255 255 50
+    es est_effect_06 #a 0 sprites/combineball_trail_blue_1.vmt server_var(vector2) server_var(vector1) 100 .7 5 15 10 10 255 255 255 255 50
+    es est_effect_06 #a 0 sprites/combineball_trail_blue_1.vmt server_var(vector2) server_var(vector1) 100 .7 5 15 10 10 255 255 255 255 50
+    es est_effect_08 #a 0 sprites/bluelight1.vmt server_var(vector2) 100 900 10 .3 190 400 2 255 255 255 255 100 1
+    es_xset wcs_rand 0
+    es_xset wcs_format 0
+    es_xrand wcs_rand 1 10
+    es_format wcs_format "ambient\levels\citadel\strange_talk%1.wav" server_var(wcs_rand)
+    es_playsound event_var(userid) server_var(wcs_format) 1
+    es_delayed 2 es_stopsound event_var(userid) server_var(wcs_format)
+    es_playsound event_var(userid) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 1
+    es_delayed 2 es_stopsound event_var(userid) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 
+    es_delayed 2 es_stopsound event_var(userid) ambient\levels\citadel\citadel_drone_loop5.wav
+    es_cexec event_var(userid) r_screenoverlay effects/ar2_altfire1.vmt
+    es_delayed .3 es_cexec event_var(userid) r_screenoverlay models\props_combine\masterinterface01c.vmt
+    es_delayed .6 es_cexec event_var(userid) r_screenoverlay models\props_lab\cornerunit_cloud.vmt
+    es_delayed .9 es_cexec event_var(userid) r_screenoverlay models\props_lab\warp_sheet.vmt
+    es_delayed 1.3 es_cexec event_var(userid) r_screenoverlay effects/prisonmap_disp.vmt
+    es_delayed 1.6 es_cexec event_var(userid) r_screenoverlay effects/breenscreen_static01_.vmt
+    es_delayed 1.9 es_cexec event_var(userid) r_screenoverlay effects/alyxmonitor_talk.vmt
+    es_delayed 1.9 es_cexec event_var(userid) r_screenoverlay effects/ar2_altfire1.vmt
+    es_delayed 2 es_cexec event_var(userid) r_screenoverlay 0   
+    es_tell event_var(attacker) #multi #lightgreen you have confused #green event_var(es_username)
+  }
+}
+
+block deagle
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 4) do
+  {
+    es_playsound event_var(userid) holliday\flip.wav 1
+    es est_effect_06 #a 0 sprites/plasmabeam.vmt server_var(vector2) server_var(vector1) 100 1 5 15 5 0 255 255 255 255 50
+    es est_effect_08 #a 0 sprites/plasmabeam.vmt server_var(vector2) 100 300 10 1 190 400 .3 255 255 255 255 50 1
+    es_format wcs_format "5,5,%1" 5000
+    es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+    es_delayed .5 es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" "0,0,0"
+    es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+    es_delayed .5 es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" "0,0,0"
+    es_tell event_var(attacker) #multi #lightgreen you have spun #green event_var(es_username) 's #lightgreen screen  
+  }
+}
+
+block scout
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 5) do
+  {
+    es_playsound event_var(userid) holliday\flip.wav 1
+    es est_effect_06 #a 0 sprites\bluelight1.vmt server_var(vector2) server_var(vector1) 100 1 5 15 5 0 255 25 25 255 50
+    es est_effect 11 #a 0 sprites/player_red_dead.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 3 1 55
+    es_setplayerprop event_var(userid) cbaseplayer.m_fflags 32.0
+    es_delayed .1 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 110
+    es_delayed .2 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 120
+    es_delayed .3 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 130
+    es_delayed .4 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 140
+    es_delayed .5 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 150
+    es_delayed .6 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 160
+    es_delayed .7 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 170
+    es_delayed .8 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 180
+    es_delayed .9 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 0
+    es_tell event_var(attacker) #multi #lightgreen you have stretched #green event_var(es_username) 's #lightgreen screen
+  }
+}
+
+block aug
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 6) do
+  {
+    es est_effect_06 #a 0 effects\bluespark.vmt server_var(vector2) server_var(vector1) 100 1 5 15 5 0 255 255 255 255 50
+    es est_effect_08 #a 0 effects/bluemuzzle.vmt server_var(vector2) 100 300 10 1 190 400 .3 255 255 255 255 50 1
+    es wcs damage event_var(userid) event_var(attacker) 6
+    es_tell event_var(attacker) #multi #lightgreen you have caused #green 6 #lightgreen extra damage to #green event_var(es_username)
+  }
+}
+
+block elite
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 8) do
+  {
+    es_xmath wcs_y1 + 5
+    es_xmath wcs_y2 + 5
+    es_xmath wcs_x1 + 5
+    es_xmath wcs_x2 + 5
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/combineball_trail_blue_1.vmt server_var(vector1) server_var(vector2) 100 1 5 5 10 1 255 255 255 255 100
+    es_xmath wcs_y1 - 10
+    es_xmath wcs_y2 - 10
+    es_xmath wcs_x1 - 10
+    es_xmath wcs_x2 - 10
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/combineball_trail_blue_1..vmt server_var(vector2) server_var(vector1) 100 1 5 5 10 1 255 255 255 255 100
+    es_xmath wcs_z1 + 150
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es wcs pushto event_var(userid) server_var(vector1) 1
+    es_delayed .1 es wcs pushto event_var(userid) server_var(vector1) 1
+    es_tell event_var(attacker) #multi #lightgreen you have pulled #green event_var(es_username) #lightgreen closer to you
+  }
+}
+
+block m3
+{
+  es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+  if (server_var(wcs_apprentice_level) >= 8) do
+  {
+    es est_effect_06 #a 0 models/effects\comball_tape.vmt server_var(vector2) server_var(vector1) 100 1 5 5 10 0 255 255 255 255 50
+    es est_effect 11 #a 0  models/effects\comball_sphere.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 1 255
+    es est_effect_08 #a 0 models/effects\comball_tape.vmt server_var(vector2) 100 300 10 1 190 400 .3 255 255 255 255 50 1
+    es_delayed 0 es_cexec event_var(userid) r_screenoverlay models\gman\gman_face_map3.vmt
+    es_delayed 1 es_cexec event_var(userid) r_screenoverlay 0
+    es_playsound event_var(userid) npc/stalker/go_alert2a.wav 1
+    es_tell event_var(attacker) #multi #lightgreen you have scared #green event_var(es_username)  
+  }
+}
+
+block deathabilities
+{                          
+  es_rand wcs_rand 1 server_var(wcs_chances) 
+  es_format wcs_format "holliday_wcs/apprentice/death_%1" server_var(wcs_rand)
+  es_doblock server_var(wcs_format) 
+}
+
+block death_1
+{
+  es playerget location event_var(userid) wcs_x1 wcs_y1 wcs_z1
+  es playerget location event_var(attacker) wcs_x2 wcs_y2 wcs_z2
+  es playerget viewcoord event_var(userid) wcs_x3 wcs_y3 wcs_z3
+  es playerget viewcoord event_var(attacker) wcs_x4 wcs_y4 wcs_z4
+  es_tell event_var(attacker) #multi #green event_var(es_username) #lightgreen will re-spawn before you in three seconds
+  es_tell event_var(userid) #multi #lightgreen will re-spawn before #green event_var(es_username) #lightgreen in three seconds 
+  es_delayed 3 es wcs spawn event_var(attacker) 1
+  es_delayed 3 es wcs spawn event_var(userid) 1
+  es_delayed 3 es playerset location event_var(attacker) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 
+  es_delayed 3 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 
+  es_delayed 3 es playerset viewcoord event_var(attacker) server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 
+  es_delayed 3 es playerset viewcoord event_var(userid) server_var(wcs_x4) server_var(wcs_y4) server_var(wcs_z4) 
+  es_delayed 3 es_playsound event_var(userid) weapons/physcannon/superphys_launch2.wav 1
+  es_delayed 3 es_playsound event_var(attacker) weapons/physcannon/superphys_launch2.wav 1
+  es est_effect 4 #a 0 sprites/redglow3.vmt event_var(attacker) 1 5 5 30 244 244 244 255  
+}
+
+block death_2
+{
+  es_xrand wcs_tmp 1 2
+  es_tell event_var(userid) #multi #lightgreen you will attemtp to re-spawn before event_var(es_attackername)
+  es usermsg centermsg event_var(userid) "attempting to re-spawn"
+  es_tell event_var(attacker) #multi #green event_var(es_username) #lightgreen is attempting to re-spawn for a second chance
+  es usermsg centermsg event_var(attacker) "the apprentice is attempting to re-spawn for a second chance"
+  es_playsound event_var(userid) ambient/machines/wall_ambient1.wav 1
+  es_playsound event_var(attacker) ambient/machines/wall_ambient1.wav 1
+  es_cexec event_var(userid) r_screenoverlay holliday\holliday.vmt
+  es_delayed 3 es_cexec event_var(userid) r_screenoverlay 0
+  es_cexec event_var(attacker) r_screenoverlay holliday\holliday.vmt
+  es_delayed 3 es_cexec event_var(attacker) r_screenoverlay 0
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_delayed 3 es_playsound event_var(userid) ambient/machines/wall_move1.wav 1
+    es_delayed 3 es_playsound event_var(attacker) ambient/machines/wall_move1.wav 1
+    es_delayed 3 es_tell event_var(userid) #multi #lightgreen your attempt to re-spawn has #green succeded #lightgreen you will spawn before event_var(es_attackername) in #green 3 seconds
+    es_delayed 3 es usermsg centermsg event_var(userid) "you will re-spawn in 3 seconds"
+    es_delayed 3 es_tell event_var(attacker) #multi #green event_var(es_username) #lightgreen will spawn before you in #green 3 seconds
+    es_delayed 3 es usermsg centermsg event_var(attacker) "the apprentice will re-spawn before you in 3 seconds"
+    es_delayed 6 es wcs spawn event_var(userid) 1
+    es_delayed 6 es_playsound event_var(userid) ambient/machines/floodgate_stop1.wav 1
+    es_delayed 6 es_playsound event_var(attacker) ambient/machines/floodgate_stop1.wav 1
+    es_delayed 6.1 es playerset moveto event_var(userid) event_var(attacker)
+    es_delayed 6.1 es playerset viewplayer event_var(userid) event_var(attacker)
+    es_delayed 6.3 es playerset viewplayer event_var(attacker) event_var(userid)
+    es_delayed 6.3 es_fire event_var(userid) !self dispatcheffect watersurfaceexplosion
+    es_delayed 6.3 es_fire event_var(attacker) !self dispatcheffect watersurfaceexplosion
+  }
+  if (server_var(wcs_tmp) = 2) do
+  {
+    es_delayed 3 es_tell event_var(userid) #multi #green event_var(es_attackername) has escaped you
+    es_delayed 3 es_tell event_var(attacker) #multi #lightgreen you have escaped #green event_var(es_username)
+  }
+}
+
+block death_3
+{
+  es playerget location event_var(userid) wcs_x1 wcs_y1 wcs_z1
+  es playerget viewcoord event_var(userid) wcs_x2 wcs_y2 wcs_z2
+  if (event_var(es_userteam) = 2) do
+  {  
+   es bot_add t minh   
+   es_getuserid wcs_player "minh" 
+   es wcs spawn server_var(wcs_player) 1
+   es_give server_var(wcs_player) weapon_ak47
+   es_delayed .1 es playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+   es_delayed .1 es playerset viewcoord server_var(wcs_player) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+   es_delayed .1 es playerset color server_var(wcs_player) 29 29 29 255   
+   es_delayed 5 bot_kick minh
+  }
+  if (event_var(es_userteam) = 3) do
+  {
+    es bot_add ct crusher
+    es_getuserid wcs_player "crusher" 
+    es wcs spawn server_var(wcs_player) 1  
+    es_give server_var(wcs_player) weapon_aug
+    es_delayed .1 es playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed .1 es playerset viewcoord server_var(wcs_player) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_delayed .1 es playerset color server_var(wcs_player) 29 29 29 255
+    es_delayed 5 bot_kick crusher
+  }
+  es_delayed 1 es_playsound event_var(userid) vo/trainyard/ba_backup.wav 1
+  es_delayed 1 es_playsound event_var(attacker) vo/trainyard/ba_backup.wav 1
+  es est_effect 10 #a 0 sprites/640hud9.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 190 .3 150 100 0 155 115 100 200 1 
+  es usermsg centermsg event_var(userid) "shadow of death"
+  es_tell event_var(userid) #multi #lightgreenyour shadow remains in combat #greeneven after your death
+}
+
+block death_4
+{
+  es usermsg centermsg event_var(userid) "dual in the sky!"
+  es usermsg centermsg event_var(attacker) "dual in the sky!"
+  es_tell event_var(userid) #multi #lightgreen you have challanged #green event_var(es_attackername) #lightgreen to a dual in the sky
+  es_tell event_var(attacker) #multi #green event_var(es_username) #lightgreen has challanged you to a dual in the sky 
+  es_playsound event_var(userid) ambient\machines\wall_move3.wav 1
+  es_playsound event_var(attacker) ambient\machines\wall_move3.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_delayed 3 es wcs spawn event_var(userid) 1
+  es_delayed 3 playerset location event_var(attacker) 300 0 900
+  es_delayed 3 playerset location event_var(userid) 0 300 900
+  es_delayed 3.1 playerset freeze event_var(userid) 1
+  es_delayed 3.1 playerset freeze event_var(attacker) 1
+  es_delayed 3.1 playerset viewplayer event_var(userid) event_var(attacker)
+  es_delayed 3.1 playerset viewplayer event_var(attacker) event_var(userid)
+  es_delayed 3 es wcs strip event_var(userid)
+  es_delayed 3 es wcs strip event_var(attacker)
+  es_delayed 6 es_give event_var(userid) weapon_deagle
+  es_delayed 6 es_give event_var(attacker) weapon_deagle
+  es_delayed 3 es usermsg centermsg event_var(userid) 3
+  es_delayed 4 es usermsg centermsg event_var(userid) 2
+  es_delayed 5 es usermsg centermsg event_var(userid) 1
+  es_delayed 6 es usermsg centermsg event_var(userid) draw!
+  es_delayed 3 es usermsg centermsg event_var(attacker) 3
+  es_delayed 4 es usermsg centermsg event_var(attacker) 2
+  es_delayed 5 es usermsg centermsg event_var(attacker) 1
+  es_delayed 6 es usermsg centermsg event_var(attacker) draw!
+  es_xmath wcs_z1 + 20
+  es est_effect 10 #a 6 sprites/lgtning.vmt 0 0 900 200 5000 8 400 400 0 255 5 5 255 10
+  es est_effect 10 #a 6 cs_italy/irongate01.vmt 0 0 900 200 5000 8 400 400 0 255 5 5 255 10  
+  es_delayed 10 playerset location event_var(attacker) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_delayed 10 playerset freeze event_var(attacker) 0
+  es playerget isdead wcs_alive event_var(attacker)
+  if (server_var(wcs_alive) = 0) then es_delayed 3 es wcs spawn event_var(attacker) 1
+  es playerget isdead wcs_dead event_var(userid)
+  if (server_var(wcs_dead) = 0) do
+  {
+    es wcs damage event_var(userid) event_var(userid) 100
+    es score add event_var(userid) 1
+  }  
+}
+
+
+
+block +skill1-
+{   
+ es popup send points server_var(_popup_userid)
+    es_keygetvalue wcs_points wcsuserdata server_var(_popup_userid) points
+    es_keygetvalue wcs_sk wcsuserdata server_var(_popup_userid) sk  
+    es_keygetvalue wcs_points1 wcsuserdata server_var(_popup_userid) points1
+    es_keygetvalue wcs_points2 wcsuserdata server_var(_popup_userid) points2
+    es_keygetvalue wcs_points3 wcsuserdata server_var(_popup_userid) points3
+    if (server_var(wcs_points1) == 0) then es_xset wcs_lp1 "[________]"
+    if (server_var(wcs_points1) == 1) then es_xset wcs_lp1 "[|_______]"
+    if (server_var(wcs_points1) == 2) then es_xset wcs_lp1 "[_|______]"
+    if (server_var(wcs_points1) == 3) then es_xset wcs_lp1 "[__|_____]"
+    if (server_var(wcs_points1) == 4) then es_xset wcs_lp1 "[___|____]"
+    if (server_var(wcs_points1) == 5) then es_xset wcs_lp1 "[____|___]"
+    if (server_var(wcs_points1) == 6) then es_xset wcs_lp1 "[_____|__]"
+    if (server_var(wcs_points1) == 7) then es_xset wcs_lp1 "[______|_]"
+    if (server_var(wcs_points1) == 8) then es_xset wcs_lp1 "[_______|]"
+    if (server_var(wcs_points1) == 0) then es_xset wcs_lp2 "[________]"
+    if (server_var(wcs_points2) == 1) then es_xset wcs_lp2 "[|_______]"
+    if (server_var(wcs_points2) == 2) then es_xset wcs_lp2 "[_|______]"
+    if (server_var(wcs_points2) == 3) then es_xset wcs_lp2 "[__|_____]"
+    if (server_var(wcs_points2) == 4) then es_xset wcs_lp2 "[___|____]"
+    if (server_var(wcs_points2) == 5) then es_xset wcs_lp2 "[____|___]"
+    if (server_var(wcs_points2) == 6) then es_xset wcs_lp2 "[_____|__]"
+    if (server_var(wcs_points2) == 7) then es_xset wcs_lp2 "[______|_]"
+    if (server_var(wcs_points2) == 8) then es_xset wcs_lp2 "[_______|]"
+    if (server_var(wcs_points3) == 0) then es_xset wcs_lp3 "[________]"
+    if (server_var(wcs_points3) == 1) then es_xset wcs_lp3 "[|_______]"
+    if (server_var(wcs_points3) == 2) then es_xset wcs_lp3 "[_|______]"
+    if (server_var(wcs_points3) == 3) then es_xset wcs_lp3 "[__|_____]"
+    if (server_var(wcs_points3) == 4) then es_xset wcs_lp3 "[___|____]"
+    if (server_var(wcs_points3) == 5) then es_xset wcs_lp3 "[____|___]"
+    if (server_var(wcs_points3) == 6) then es_xset wcs_lp3 "[_____|__]"
+    if (server_var(wcs_points3) == 7) then es_xset wcs_lp3 "[______|_]"
+    if (server_var(wcs_points3) == 8) then es_xset wcs_lp3 "[_______|]" 
+    popup create points
+    es popup addlinef points "points %1" wcs_points
+    es popup addline points "---------------"
+    es popup addline points "long jump"
+    es popup addlinef points "%1" wcs_lp1
+    es popup addline points "->1.         +" 
+    es popup addline points "->2.         -"
+    if (server_var(wcs_sk) >= 2) do
+    {
+        es popup addline points "low gravity"
+        es popup addlinef points "%1" wcs_lp2
+        es popup addline points "->3.  +" 
+        es popup addline points "->4.   -"
+    }
+        if (server_var(wcs_sk) >= 3) do
+        {
+            es popup addline points "speed"
+            es popup addlinef points "%1" wcs_lp3
+            es popup addline points "->5.  +" 
+            es popup addline points "->6.   -"
+        }
+            popup menuselect points holliday_wcs/apprentice/pointchange
+            es popup send points server_var(_popup_userid)
+    }
+}
+
+
+block pointchange
+{     
+  es_keygetvalue wcs_points1 wcsuserdata server_var(_popup_userid) points1
+  es_keygetvalue wcs_points2 wcsuserdata server_var(_popup_userid) points2
+  es_keygetvalue wcs_points3 wcsuserdata server_var(_popup_userid) points3
+  if (server_var(_popup_choice) == 1) do
+  {
+    if (server_var(wcs_points) != 0) do
+    {  
+      es_playsound server_var(_popup_userid) ambient\machines\keyboard3_clicks.wav 1
+      es_keygetvalue wcs_longjump wcsuserdata server_var(_popup_userid) longjump_  
+      es_xmath wcs_points - 1
+      es_xmath wcs_points1 + 1
+      es_xmathparse wcs_longjump "wcs_longjump + .5"
+      es_keysetvalue wcsuserdata server_var(_popup_userid) points server_var(wcs_points)
+      es_keysetvalue wcsuserdata server_var(_popup_userid) points1 server_var(wcs_points1)
+      es_keysetvalue wcsuserdata server_var(_popup_userid) longjump_ server_var(wcs_longjump)
+    }
+  }
+  if (server_var(_popup_choice) == 2) do
+  {
+    if (server_var(wcs_points1) > 0) do
+    {   
+      es_playsound server_var(_popup_userid) ambient\machines\keyboard4_clicks.wav 1
+      es_keygetvalue wcs_longjump wcsuserdata server_var(_popup_userid) longjump_  
+      es_xmath wcs_points + 1
+      es_xmath wcs_points1 - 1
+      es_xmathparse wcs_longjump "wcs_longjump - .5"
+      es_keysetvalue wcsuserdata server_var(_popup_userid) points server_var(wcs_points) 
+      es_keysetvalue wcsuserdata server_var(_popup_userid) points1 server_var(wcs_points1) 
+      es_keysetvalue wcsuserdata server_var(_popup_userid) longjump_ server_var(wcs_gravity) 
+      es_keysetvalue wcsuserdata server_var(_popup_userid) longjump_ server_var(wcs_longjump) 
+    }
+  }
+  if (server_var(_popup_choice) == 3) do
+  {
+    if (server_var(wcs_points) != 0) do
+    { 
+      if (server_var(wcs_sk) >= 2) do
+      {   
+        es_playsound server_var(_popup_userid) ambient\machines\keyboard3_clicks.wav 1
+        es_keygetvalue wcs_gravity wcsuserdata server_var(_popup_userid) gravity_
+        es_xmath wcs_points - 1
+        es_xmath wcs_points2 + 1
+        es_xmath wcs_gravity + 15
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points server_var(wcs_points)
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points2 server_var(wcs_points2)         
+        es_keysetvalue wcsuserdata server_var(_popup_userid) gravity_ server_var(wcs_gravity)  
+      }
+    }
+  }
+  if (server_var(_popup_choice) == 4) do
+  {
+    if (server_var(wcs_points2) > 0) do
+    { 
+      if (server_var(wcs_sk) >= 2) do
+      {   
+        es_playsound server_var(_popup_userid) ambient\machines\keyboard4_clicks.wav 1
+        es_keygetvalue wcs_gravity wcsuserdata server_var(_popup_userid) gravity_ 
+        es_xmath wcs_points + 1
+        es_xmath wcs_points2 - 1
+        es_xmath wcs_gravity - 15
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points server_var(wcs_points) 
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points2 server_var(wcs_points2)
+        es_keysetvalue wcsuserdata server_var(_popup_userid) gravity_ server_var(wcs_gravity)       
+      }
+    }
+  }  
+  if (server_var(_popup_choice) == 5) do
+  {
+    if (server_var(wcs_points) != 0) do
+    { 
+      if (server_var(wcs_sk) >= 3) do
+      {     
+        es_playsound server_var(_popup_userid) ambient\machines\keyboard3_clicks.wav 1 
+        es_xmath wcs_points - 1
+        es_xmath wcs_points3 + 1
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points server_var(wcs_points)
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points3 server_var(wcs_points3) 
+        es playerset speedadd server_var(_popup_userid) 0.1                 
+        if (server_var(wcs_points3) = 8) do
+        { 
+          es_playsound server_var(_popup_userid) ambient\explosions\exp2.wav 1
+          es_xset mysmokename ""
+          es_xformatv mysmokename "smoke_%1" entitycount
+	        es_format wcs_format "classname %1" server_var(mysmokename)
+	        es_give server_var(_popup_userid) env_smokestack
+	        es_fire server_var(_popup_userid) env_smokestack addoutput server_var(wcs_format)
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "basespread 1"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "spreadspeed 8"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "speed 18"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "startsize 13"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "endsize 5"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "rate 200"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "jetlength 20"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "twist 0"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "smokematerial effects/bluespark.vmt"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) addoutput "rendercolor 255 255 255"
+	        es_fire server_var(_popup_userid) server_var(mysmokename) setparent !activator
+	        es_fire server_var(_popup_userid) server_var(mysmokename) turnon
+	        es_delayed 15 es_fire server_var(_popup_userid) server_var(mysmokename) kill
+          es_xmath entitycount + 1      
+        }
+      }
+    }
+  }
+  if (server_var(_popup_choice) == 6) do
+  {
+    es_xmath entitycount - 1       
+    es_fire server_var(_popup_userid) env_smokestack kill
+    if (server_var(wcs_points3) > 0) do
+    { 
+      if (server_var(wcs_sk) >= 2) do
+      {     
+        es_playsound server_var(_popup_userid) ambient\machines\keyboard4_clicks.wav 1 
+        es_xmath wcs_points + 1
+        es_xmath wcs_points3 - 1
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points server_var(wcs_points) 
+        es_keysetvalue wcsuserdata server_var(_popup_userid) points3 server_var(wcs_points3)
+        es playerset speedadd server_var(_popup_userid) -0.1               
+      }
+    } 
+  } 
+  if (server_var(_popup_choice) <= 7) do
+  {
+    es_xdoblock holliday_wcs/apprentice/+skill1-
+  }
+}
+
+event player_connect
+{
+ downloadable materials/holliday/holliday.vmt
+ downloadable materials/holliday/holliday.vtf
+ downloadable sound\holliday\flip.wav
+}
+
+event player_say 
+{
+  if (event_var(text) = levelinfo) do
+  {
+    es wcs_getinfo event_var(userid) wcs_tmp name race
+    if (server_var(wcs_tmp) = "hollidays apprentice") do
+    {
+      es_xdoblock holliday_wcs/apprentice/say
+    }
+  }
+} 
+
+event player_hurt
+{
+  es wcs_getinfo event_var(attacker) wcs_tmp name race
+  if (server_var(wcs_tmp) = "hollidays apprentice") do
+  {
+    es_xrand wcs_dice 0 100
+    if (server_var(wcs_dice) <= 33) do
+    {
+      es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+      es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+      es_xmath wcs_z1 + 40
+      es_xmath wcs_z2 + 20
+	    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+      es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+      es_keygetvalue wcs_apprentice_level wcsuserdata event_var(attacker) apprentice_level
+      if (event_var(es_attackerweapon) = weapon_p90) do
+      {
+        es_xdoblock holliday_wcs/apprentice/p90 
+      }
+      if (event_var(es_attackerweapon) = weapon_mp5navy) do
+      {
+        es_xdoblock holliday_wcs/apprentice/mp5navy  
+      }
+      if (event_var(es_attackerweapon) = weapon_sg552) do
+      {
+        es_xdoblock holliday_wcs/apprentice/sg552 
+      }
+      if (event_var(es_attackerweapon) = weapon_deagle) do
+      {
+        es_xdoblock holliday_wcs/apprentice/deagle  
+      }
+      if (event_var(es_attackerweapon) = weapon_scout) do
+      {
+        es_xdoblock holliday_wcs/apprentice/scout 
+      }
+      if (event_var(es_attackerweapon) = weapon_aug) do
+      {
+        es_xdoblock holliday_wcs/apprentice/aug  
+      }
+      if (event_var(es_attackerweapon) = weapon_elite) do
+      {
+        es_xdoblock holliday_wcs/apprentice/elite 
+      }
+      if (event_var(es_attackerweapon) = weapon_m3) do
+      {
+        es_xdoblock holliday_wcs/apprentice/m3  
+      }
+    }
+  }
+}
+
+event player_jump
+{
+  es_keygetvalue wcs_gravity wcsuserdata event_var(userid) gravity_
+  ifx true(wcs_gravity) do
+  {  
+    es_playsound event_var(userid) npc\strider\strider_legstretch3.wav .4
+    es_getplayerprop wcs_tmp event_var(userid) ccsplayer.baseclass.localdata.m_vecvelocity[0]
+    es_getplayerprop wcs_tmp1 event_var(userid) ccsplayer.baseclass.localdata.m_vecvelocity[1]
+    es_math wcs_gravity + server_var(wcs_gravity)  
+    es_format wcs_tmp "0,0,%1" server_var(wcs_gravity)  
+    es_setplayerprop event_var(userid) cbaseplayer.localdata.m_vecbasevelocity server_var(wcs_tmp)
+  }
+  es_keygetvalue wcs_longjump wcsuserdata event_var(userid) longjump_      
+  ifx true(wcs_longjump) do
+  {
+    es_playsound event_var(userid) player\suit_sprint.wav 1
+    es_getplayerprop wcs_tmp2 event_var(userid) ccsplayer.baseclass.localdata.m_vecvelocity[0]
+    es_math wcs_tmp2 * server_var(wcs_longjump)
+    es_getplayerprop wcs_tmp3 event_var(userid) ccsplayer.baseclass.localdata.m_vecvelocity[1]
+    es_math wcs_tmp3 * server_var(wcs_longjump)
+    es_format wcs_tmp2 "%1,%2,0" server_var(wcs_tmp2) server_var(wcs_tmp3)
+    es_setplayerprop event_var(userid) cbaseplayer.localdata.m_vecbasevelocity server_var(wcs_tmp2)
+  }
+}
+
+event player_death
+{    
+  //es wcs_getinfo event_var(attacker) wcs_tmp name race
+  //if (server_var(wcs_tmp) = "hollidays apprentice") do
+  //{
+    es_give event_var(userid) env_entity_dissolver
+    es_fire event_var(userid) env_entity_dissolver addoutput "target cs_ragdoll"
+    es_fire event_var(userid) env_entity_dissolver addoutput "magnitude 1"
+    es_fire event_var(userid) env_entity_dissolver addoutput "dissolvetype 3"
+    es_fire event_var(userid) env_entity_dissolver addoutput "dissolvetype 1"
+    es_fire event_var(userid) env_entity_dissolver dissolve            
+  //}
+}

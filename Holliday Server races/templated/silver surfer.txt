@@ -1,0 +1,15 @@
+Silver Surfer
+
+1 per team, requires total level 500. has a white player model
+
+Cosmic Energy
+20/30/40/50/75% chance on hit to shake for 3 seconds and fade the enemy's screen by 80% for 6 seconds.
+
+Cosmic Speed
+Spawn with 20/30/40/50/60% increased movement speed
+
+Cosmic Distortion
+50/60/70/80/90% chance after taking damage to become invulnerable for 2/2.4/2.8/2.9/3 seconds.
+
+Destroyer of Worlds
+kill yourself. create a black hole that instantly kills any player that enters it. it sucks in all players constantly with a force of 100/110/120/130/140. it has a 150/170/180/190/200 unit radius. 30 second initial cooldown.

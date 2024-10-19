@@ -1,0 +1,17 @@
+block spawn
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 5 200 100 0 255 0 0 255 10
+}
+
+block speed
+{
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_tell event_var(userid) #multi #lightgreen Speed increased by #green server_var(wcs_speed)
+}
+
+block invisibility
+{
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_alpha)
+    es_tell event_var(userid) #multi #lightgreen Invisibility increased by #green server_var(wcs_alpha)
+}

@@ -1,0 +1,15 @@
+Corrupted Disciple
+
+requires total level 200. limited to 2 per teammates
+
+Electric Tide (ability)
+3 rings of lightning expand from you outward to a radius of 450 units. enemies hit with a ring take 18/36/54/70 damage. an enemy can only be affected by 1 ring. 30 second cooldown.
+
+Corrupted Conduit
+100% chance when hit, that enemy deals 1/2/3/4 less damage for each hit to a maximum of 4/6/8/10 damage reduced. this lasts 15 seconds.
+
+Static Discharge
+50% chance when hit to heal yourself and all teammates in an 800 unit radius for 15/30/45/60% of the damage you took.
+
+Overload (ultimate)
+The enemy with the lowest HP in a 350 unit radius takes 3/5/7/10 damage per second for 6 seconds. While this is active you have a 100% chance on hit to deal extra damage equal to the damage you have dealt with this since you activated it.

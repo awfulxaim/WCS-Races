@@ -1,0 +1,12 @@
+norin the wary
+
+Spawns with 10 HP.
+
+Panic
+When you are aimed at by an enemy you become rooted, 100% invisible, and lose all your weapons. this effect ends 4/3.5/3/2.5/2/1.5/1 second after you are no longer aimed at.
+
+Wariness
+While standing still you have 93/94/95/96/97/98/99% chance to evade.
+
+Run Home (utlimate)
+instantly teleport back to your spawn. 7/6/5/4/3/2/1 second cooldown.

@@ -1,0 +1,286 @@
+[Magic Mole] 
+	required           = 790
+	maximum            = 0
+	restrictmap        = ""
+	restrictteam       = 0
+	restrictitem       = ""
+	teamlimit          = 0
+	author             = "holliday"
+	desc               = ""
+	spawncmd           = "es_xdoblock holliday_wcs/mole/spawn"
+	deathcmd           = ""
+	roundstartcmd      = ""
+	roundendcmd        = ""
+	preloadcmd         = ""
+	allowonly          = ""
+	onchange           = ""
+	numberofskills     = 4
+	numberoflevels     = 4
+	skillnames         = "Mole|Steam|Burrow|Mole"
+	skilldescr         = "Cause one enemy to spawn on your side or mole to enemy spawn|Cause a burt of Steam when hit to hide|Pull your enemy underground to your location|Burrow under the ground and rise where you are looking"
+	skillcfg           = "player_spawn|player_victim|player_attacker|player_ultimate"
+	skillneeded        = "0|0|0|4"
+
+	[[skill1]]
+		setting           = "es_xset wcs_chance 15|es_xset wcs_chance 20|es_xset wcs_chance 28|es_xset wcs_chance 33"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/mole/disquise"
+		sfx               = ""
+
+	[[skill2]]
+		setting           = "es_xset wcs_speed 1.8|es_xset wcs_speed 2|es_xset wcs_speed 2.4|es_xset wcs_speed 2.6"
+		cmd               = "if (server_var(wcs_dice) <= 30) then es_xdoblock holliday_wcs/mole/victim"
+		sfx               = ""
+
+	[[skill3]]
+		setting           = "es_xset wcs_chance 20;es_xset wcs_dmg 10|es_xset wcs_chance 25;es_xset wcs_dmg 15|es_xset wcs_chance 30;es_xset wcs_dmg 18|es_xset wcs_chance 36;es_xset wcs_dmg 20"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/mole/attack"
+		sfx               = ""
+        
+	[[skill4]]
+		setting           = "es_xset wcs_radius 400|es_xset wcs_radius 500|es_xset wcs_radius 600|es_xset wcs_radius 800"
+		cmd               = "es_xdoblock holliday_wcs/mole/ultimate"
+        sfx               = ""
+		cooldown          = "5"
+   
+   
+
+
+
+
+
+
+block spawn
+{
+    es_playsound event_var(userid) ambient/levels/labs/teleport_preblast_suckin1.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z2 + 100
+    es est_effect 11 #a 0 sprites/orangecore2.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 1 255
+    es est_effect 3 #a 0 sprites/orangelight1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 4 4 175 175 255 255
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .1 est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .5 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 900 0 255 153 0 255 1
+    es_delayed .6 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .7 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .8 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+    es_delayed .9 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 255 153 0 255 1
+}
+
+block attack
+{
+    es playerset freeze event_var(userid) 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation  wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+    es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 1 255
+    es est_effect 3 #a 0 sprites/bluelight1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 4 4 175 175 255 255
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .1 est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .5 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 900 0 75 75 255 255 1
+    es_delayed .6 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .7 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .8 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .9 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1 est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.1 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 900 0 75 75 255 255 1
+    es_elayed 1.5 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.6 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.7 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.8 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_xmath wcs_z1 - 10
+    es_delayed .1 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .2 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .3 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .4 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .5 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .6 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .7 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .8 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .9 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed 1 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_xmath wcs_x2 + 30
+    es_xmath wcs_y2 + 30
+    es_delayed 1.2 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.3 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.4 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.5 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.6 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.7 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.8 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.9 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 2 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 2.1 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_delayed 2.3 es playerset freeze event_var(userid) 0
+}
+
+block victim
+{
+    es playerset color event_var(userid) 153 0 153 255
+    es_delayed server_Var(wcs_time) es playerset color event_var(userid) 255 255 255 255
+    es_playsound event_var(userid) npc\zombie\zombie_pain6.wav 1
+    es wcs_restrict event_var(userid) knife
+    es_give event_var(userid) env_steam 
+    es_fire event_var(userid) env_steam addoutput "spreadspeed 60"
+    es_fire event_var(userid) env_steam addoutput "speed 65"
+    es_fire event_var(userid) env_steam addoutput "startsize 115"
+    es_fire event_var(userid) env_steam addoutput "endsize 32"
+    es_fire event_var(userid) env_steam addoutput "rate 100"
+    es_fire event_var(userid) env_steam addoutput "rendercolor 153 0 153"
+    es_fire event_var(userid) env_steam addoutput "jetlength 20"
+    es_fire event_var(userid) env_steam addoutput "rollspeed 10"
+    es_fire event_var(userid) env_steam turnon
+    //es_fire event_var(userid) env_steam setparent !activator
+    es_delayed 2 es_fire event_var(userid) env_steam kill
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z2 + 100
+    es est_effect 11 #a 0 sprites/animglow01.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 1 155
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 5 2 20 60 .1 204 0 80 255 1
+    es est_effect 3 #a 0 sprites/tp_beam001.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 4 4 204 0 80 255
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .1 est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .5 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 900 0 204 0 80 255 1
+    es_delayed .6 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .7 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .8 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .9 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_tell event_var(userid) #multi #lightgreen YOU HAVE BEEN HIT!! #green Hiding in STeam!
+}
+
+block disquise
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z2 + 100
+    es est_effect 11 #a 0 sprites/animglow01.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 1 155
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 5 2 20 60 .1 204 0 80 255 1
+    es est_effect 3 #a 0 sprites/tp_beam001.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 4 4 204 0 80 255
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .1 est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .5 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 900 0 204 0 80 255 1
+    es_delayed .6 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .7 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .8 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_delayed .9 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 204 0 80 255 1
+    es_xset wcs_rand 0
+    es_xrand wcs_rand 1 2
+    if (server_var(wcs_rand) = 1) then es wcs_mole_activate event_var(userid)
+    if (server_var(wcs_rand) = 2) do
+    {
+        es_xset wcs_player 0
+        if (event_var(es_userteam) = 2) then getrandplayer wcs_player #ct
+	   if (event_var(es_userteam) = 3) then getrandplayer wcs_player #t
+	   es_xexists wcs_exists userid server_var(wcs_player)
+	   es_getplayername wcs_name server_var(wcs_player)
+        es_delayed 5 wcs_mole_activate server_var(wcs_player)
+        es_tell event_var(userid) #multi #lightgreenin #green5 seconds #default server_var(wcs_name) #lightgreen will spawn to your side
+        es_tell server_var(wcs_player) #multi #lightgreenin #green5 seconds #default event_var(es_username) #lightgreen will spawn you to your enemies side
+    }
+}
+
+block ultimate
+{
+    es playerset freeze server_var(wcs_userid) 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+    es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 1 255
+    es est_effect 3 #a 0 sprites/bluelight1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 4 4 175 175 255 255
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .1 est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .5 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 900 0 75 75 255 255 1
+    es_delayed .6 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .7 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .8 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed .9 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1 est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.1 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.4 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 900 0 75 75 255 255 1
+    es_delayed 1.5 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.6 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.7 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_delayed 1.8 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 500 2 10 300 0 75 75 255 255 1
+    es_xmath wcs_z1 - 10
+    es_delayed .1 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .2 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .3 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .4 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .5 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .6 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .7 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .8 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_xmath wcs_z1 - 10
+    es_delayed .9 es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed 1 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_xmath wcs_x2 + 30
+    es_xmath wcs_y2 + 30
+    es_delayed 1.2 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.3 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.4 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.5 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.6 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.7 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.8 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 1.9 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 2 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_xmath wcs_z2 + 10
+    es_delayed 2.1 es playerset location server_var(wcs_userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_delayed 2.3 es playerset freeze server_var(wcs_userid) 0
+    es_playsound server_var(wcs_userid) npc/scanner/combat_scan_loop2.wav 1
+    es_delayed 1 es_stopsound server_var(wcs_userid) npc/scanner/combat_scan_loop2.wav
+    
+    es_delayed 1 es_playsound server_var(wcs_userid) npc/scanner/combat_scan_loop1.wav 1
+    es_delayed 2 es_stopsound server_var(wcs_userid) npc/scanner/combat_scan_loop1.wav
+}

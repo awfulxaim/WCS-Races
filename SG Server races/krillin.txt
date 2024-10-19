@@ -1,0 +1,18 @@
+Krillin
+
+Requires total level 100. limited to 2 per team. cannot buy long jump or HP.
+
+Defense Aura
+You spawn with 105/110/115/120 armor and helmet
+
+Aura of the Master
+You spawn with 4/8/12/16% reduced movement speed and 15/30/45/60 more HP.
+
+Helm of Resistance
+You take 20/40/50/80% less damage from headshots
+
+Aura of Money
+5/10/15/20% chance on hit to steal 250/500/750/1000 money.
+
+Solar Flare (ultimate)
+Blind all enemies in a 150/300/450/600 unit radius for 2/2.5/3/3.5 seconds. 20 second cooldown.

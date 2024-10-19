@@ -1,0 +1,13 @@
+Mountain King
+
+Storm Bolt (ability)
+Deal 5/10/15/20/25 damage to the enemy you are aiming at and make them unable to shoot or move for 1 second. 12 second cooldown. if there is no enemy aimed at this ability does not activate and does not go on cooldown.
+
+Thunder Clap
+5/10/15/20/25% chance when hit to deal 10 damage to all enemies in a 350 unit radius and slow them by 50% for 3 seconds.
+
+Bash
+5/10/15/20/25% chance on hit to root the enemy for 1 second. after 1 second they are slowed by 50% for an additional second.
+
+Avatar (ultimate)
+Gain 25/50/100/150/200 HP and gain 10/20/30/40/50% increased movement speed for 10 seconds. 55 second cooldown.

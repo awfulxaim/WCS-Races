@@ -1,0 +1,16 @@
+Psionic Commando
+
+Gravity Destabilization
+Every 10 seconds, all enemies in a 500 unit radius of you have their gravity set to 25/20/15/10/5% for 5 seconds
+
+Psionic Aim
+5/10/15/20/25% chance on hit to deal 50% more damage.
+
+Psionic Speed Leech
+5/10/15/20/25% chance on hit to set the enemy to 90% movement speed for 5 seconds and gain the movement speed the enemy lost for that duration
+
+Psionic Repulse (ability)
+knock all enemies in a 400 unit radius back and slightly up. 10 second cooldown.
+
+Telekinesis
+3/6/9/12/15% chance on hit to make the enemy fly for 5 seconds. this cannot proc on an enemy that is already flying

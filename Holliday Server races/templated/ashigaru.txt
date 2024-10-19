@@ -1,0 +1,241 @@
+Ashigaru
+
+default pistol and knife only. requires total level 260
+
+Smoke Ball
+left clicking with the knife shoots a smoke ball out of you. the smoke ball has increased size, throw speed, density, trail, and duration with each level. you can have one smoke ball at a time, you cannt make a new one until the old one's duartion has ran out.
+
+block smokey5
+{
+	es_xset spreadspeed "spreadspeed 45"
+	es_xset smokespeed "speed 15"
+	es_xset startsize "startsize 22"
+	es_xset endsize "endsize 28"
+	es_xset smokerate "rate 90"
+	es_xset jetlength "jetlength 130"
+	es_xset smokeballtime 13
+}
+
+block smokey6
+{
+	es_xset spreadspeed "spreadspeed 50"
+	es_xset smokespeed "speed 25"
+	es_xset startsize "startsize 30"
+	es_xset endsize "endsize 35"
+	es_xset smokerate "rate 100"
+	es_xset jetlength "jetlength 140"
+	es_xset smokeballtime 15
+}
+
+block smokey7
+{
+	es_xset spreadspeed "spreadspeed 70"
+	es_xset smokespeed "speed 30"
+	es_xset startsize "startsize 32"
+	es_xset endsize "endsize 35"
+	es_xset smokerate "rate 150"
+	es_xset jetlength "jetlength 180"
+	es_xset smokeballtime 19
+}
+
+block smokey8
+{
+	es_xset spreadspeed "spreadspeed 100"
+	es_xset smokespeed "speed 40"
+	es_xset startsize "startsize 35"
+	es_xset endsize "endsize 40"
+	es_xset smokerate "rate 200"
+	es_xset jetlength "jetlength 200"
+	es_xset smokeballtime 22
+}
+
+Fukiya
+10/15/18/22% chance on hit to poison the enemy, dealing 2/3/4/5 damage per second for 3 seconds and blinding the enemy with green smoke in their face. a green smokey line is drawn from you to the enemy when this procs.
+
+Anti Fall Damage
+11/15/24/28% chance when you spawn to take no fall damage.
+
+Kaginawa (ultimate)
+fire a hook and line where you are aiming that pulls you in that direction and allows you to swing on it in an arc. distance the hook can be thrown is increased with levels. while you have a hook active you can walk up 40/50/60/80 unit walls. no cooldown.
+
+block ultimate
+{
+  es_xset wcs_hook 0
+  es_keygetvalue wcs_hook wcsuserdata server_var(wcs_userid) hook
+  if (server_var(wcs_hook) = 0) do
+  {
+    es_xdoblock holliday_wcs/ashigaru/hook
+    es_keysetvalue wcsuserdata server_var(wcs_userid) hook 1
+    es_tell server_var(wcs_userid) #multi #green [kaginawa]: #lightgreenpress ultimate again to disable
+  }
+  if (server_var(wcs_hook) = 1) do
+  {
+    es_xdoblock holliday_wcs/ashigaru/unhook
+    es_keysetvalue wcsuserdata server_var(wcs_userid) hook 0  
+  }
+}
+
+block hook
+{
+	es_xset hook_temp 0
+	es_xgetcmduserid hook_temp 0
+	if (server_var(hook_enable) equalto "1") do
+	{
+		es_xset hook_dead 0
+		es_keygetvalue hook_dead hook_list server_var(hook_temp) dead
+		if (server_var(hook_dead) equalto "0") do
+		{
+			es_xset hook_on 0
+			es_keygetvalue hook_on hook_list server_var(hook_temp) hook
+			if (server_var(hook_on) equalto "0") do
+			{
+				es_keysetvalue hook_list server_var(hook_temp) hook 1
+				es_setinfo hook_userid server_var(hook_temp)
+				es_xdoblock holliday_wcs/ashigaru/hookcalc
+			}
+		}
+	}
+}
+
+block unhook
+{
+	es_xset hook_temp 0
+	es_xgetcmduserid hook_temp 0
+	es_keysetvalue hook_list server_var(hook_temp) hook 0
+}
+
+block hookcalc
+{
+	es_xset hook_x 0
+	es_xset hook_y 0
+	es_xset hook_z 0
+	es_xset hook_x2 0
+	es_xset hook_y2 0
+	es_xset hook_z2 0
+	es_xset hook_team 0
+	es_xset hook_distance 0
+	es_getplayerteam hook_team server_var(hook_temp)
+	es_getplayerlocation hook_x hook_y hook_z server_var(hook_userid)
+	es playerget viewcoord server_var(hook_userid) hook_x2 hook_y2 hook_z2
+	es_setinfo hook_x3 server_var(hook_x2)
+	es_setinfo hook_y3 server_var(hook_y2)
+	es_setinfo hook_z3 server_var(hook_z2)
+	es_math hook_x3 - server_var(hook_x)
+	es_math hook_y3 - server_var(hook_y)
+	es_math hook_z3 - server_var(hook_z)
+	es_setinfo hook_x4 server_var(hook_x3)
+	es_setinfo hook_y4 server_var(hook_y3)
+	es_setinfo hook_z4 server_var(hook_z3)
+	es_xmath hook_x4 power 2
+	es_xmath hook_y4 power 2
+	es_xmath hook_z4 power 2
+	es_math hook_distance + server_var(hook_x4)
+	es_math hook_distance + server_var(hook_y4)
+	es_math hook_distance + server_var(hook_z4)
+	es_xmath hook_distance root 2
+	es_math hook_x3 / server_var(hook_distance)
+	es_math hook_y3 / server_var(hook_distance)
+	es_math hook_z3 / server_var(hook_distance)
+	es_math hook_x3 * server_var(hook_stepsize)
+	es_math hook_y3 * server_var(hook_stepsize)
+	es_math hook_z3 * server_var(hook_stepsize)
+	es_math hook_distance / server_var(hook_stepsize)
+	es_keysetvalue hook_list server_var(hook_userid) num 0
+	es_keysetvalue hook_list server_var(hook_userid) reps server_var(hook_distance)
+	es_keysetvalue hook_list server_var(hook_userid) x server_var(hook_x)
+	es_keysetvalue hook_list server_var(hook_userid) y server_var(hook_y)
+	es_keysetvalue hook_list server_var(hook_userid) z server_var(hook_z)
+	es_keysetvalue hook_list server_var(hook_userid) x2 server_var(hook_x2)
+	es_keysetvalue hook_list server_var(hook_userid) y2 server_var(hook_y2)
+	es_keysetvalue hook_list server_var(hook_userid) z2 server_var(hook_z2)
+	es_keysetvalue hook_list server_var(hook_userid) x3 server_var(hook_x3)
+	es_keysetvalue hook_list server_var(hook_userid) y3 server_var(hook_y3)
+	es_keysetvalue hook_list server_var(hook_userid) z3 server_var(hook_z3)
+	es_keysetvalue hook_list server_var(hook_userid) team server_var(hook_team)
+	es_xdoblock holliday_wcs/ashigaru/hookaction
+}
+
+block hookaction
+{
+	es_xset hook_on 0
+	es_xset hook_x 0
+	es_xset hook_y 0
+	es_xset hook_z 0
+	es_xset hook_x2 0
+	es_xset hook_y2 0
+	es_xset hook_z2 0
+	es_xset hook_x3 0
+	es_xset hook_y3 0
+	es_xset hook_z3 0
+	es_xset hook_team 0
+	es_xset hook_num 0
+	es_xset hook_reps 0
+	es_keygetvalue hook_on hook_list server_var(hook_userid) hook
+	es_keygetvalue hook_x hook_list server_var(hook_userid) x
+	es_keygetvalue hook_y hook_list server_var(hook_userid) y
+	es_keygetvalue hook_z hook_list server_var(hook_userid) z
+	es_keygetvalue hook_x2 hook_list server_var(hook_userid) x2
+	es_keygetvalue hook_y2 hook_list server_var(hook_userid) y2
+	es_keygetvalue hook_z2 hook_list server_var(hook_userid) z2
+	es_keygetvalue hook_x3 hook_list server_var(hook_userid) x3
+	es_keygetvalue hook_y3 hook_list server_var(hook_userid) y3
+	es_keygetvalue hook_z3 hook_list server_var(hook_userid) z3
+	es_keygetvalue hook_team hook_list server_var(hook_userid) team
+	es_keygetvalue hook_num hook_list server_var(hook_userid) num
+	es_keygetvalue hook_reps hook_list server_var(hook_userid) reps
+	if (server_var(hook_speed) notgreaterthan "0") then es_xset hook_speed 1
+	if (server_var(hook_speed) greaterthan "2") then es_xset hook_speed 2
+	if (server_var(hook_width) lessthan "0") then es_xset hook_width 35
+	if (server_var(hook_width) greaterthan "380") then es_xset hook_width 380
+	if (server_var(hook_color) greaterthan "1") then es_xset hook_color 1
+	es_math hook_x + server_var(hook_x3)
+	es_math hook_y + server_var(hook_y3)
+	es_math hook_z + server_var(hook_z3)
+	es_xmath hook_num + 1
+	es_math hook_reps + server_var(hook_maxup)
+	if (server_var(hook_color) equalto "1") do
+	{
+		if (server_var(hook_team) equalto "2") do
+		{
+			es_xset hook_red 255
+			es_xset hook_green 25
+			es_xset hook_blue 19
+		}
+		if (server_var(hook_team) equalto "3") do
+		{
+			es_xset hook_red 100
+			es_xset hook_green 100
+			es_xset hook_blue 220
+		}
+	}
+	if (server_var(hook_color) equalto "0") do
+	{
+		es_xset hook_red 255
+		es_xset hook_green 255
+		es_xset hook_blue 255
+	}
+	if (server_var(hook_enable) equalto "1") do
+	{
+		if (server_var(hook_on) equalto "1") do
+		{
+			if (server_var(hook_num) notgreaterthan server_var(hook_reps)) do
+			{
+				es_keysetvalue hook_list server_var(hook_userid) num server_var(hook_num)
+				es_keysetvalue hook_list server_var(hook_userid) x server_var(hook_x)
+				es_keysetvalue hook_list server_var(hook_userid) y server_var(hook_y)
+				es_keysetvalue hook_list server_var(hook_userid) z server_var(hook_z)
+			}
+			es_createvectorstring vector1 server_var(hook_x) server_var(hook_y) server_var(hook_z)
+			es wcs pushto server_var(hook_userid) server_var(vector1) server_var(hook_speed)
+			es_delayed 0.1 es_xset hook_userid server_var(hook_userid)
+			es_xdelayed 0.1 es_xdoblock holliday_wcs/ashigaru/hookaction
+			es_cexec server_var(hook_userid) playgamesound physics\surfaces\sand_impact_bullet1.wav
+		}
+		es_xset vector1 hook_z
+		es_xset vector2 hook_z2
+		es_createvectorstring vector1 server_var(hook_x) server_var(hook_y) server_var(hook_z)
+		es_createvectorstring vector2 server_var(hook_x2) server_var(hook_y2) server_var(hook_z2)
+		es est_effect_06 #a 0 cable/rope.vmt server_var(vector1) server_var(vector2) 10 1 server_var(hook_width) server_var(hook_width) 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+		es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector1) server_var(vector2) 10 server_var(hookglow) server_var(hook_width1) server_var(hook_width1) 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	}
+}

@@ -1,0 +1,15 @@
+Magician
+
+Spawns with and is restricted to nova, dualies, and knife. requires total level 800
+
+Levitation
+2/4/6/8% chance on hit to impale the enemy, freeze them in the air for .25 seconds, push them left then right, freeze them again, then let them fall back to the ground.
+
+Disappearing Dash
+6/12/18/24% chance when hit to become 100% invisible for 1 second and get pushed 100 units away in a random direction.
+
+Revive
+20/30/40/50% chance to respawn at your body.
+
+Up in Smoke (ultimate)
+Instantly create a smoke cloud and becomes 100% invisible for 3 seconds. 35/30/25/20 second cooldown.

@@ -1,0 +1,21 @@
+Judge of Altana
+
+UMP and knife only. requires total level 400. cannot buy Long Jump, Claws of Attack, or HP.
+
+Judge's Hammer
+Your UMP has a 35/40/45/50/55/60 round mag.
+
+Judge's Wrath
+100% chance on hit to deal 1/2/3/4/5/6 extra damage.
+
+Judge's Immunity (8 levels)
+You take 30/40/50/60/70/80/90/100% reduced damage from knives. Backstabs have their damage capped at 80% damage reduction.
+
+Recovery (8 levels)
+You heal for 9/10/11/12/13/14/15/16% of the damage you take.
+
+Gift of Altana
+You spawn with 5/10/15/20/25/30 more HP and 100/105/110/115/120/125 armor and helmet.
+
+Final Ruling (ultimate)
+You paralyze all enemies in a 400/440/480/520/560/600 unit radius for 1.5/1.6/1.7/1.8/1.9/2 seconds.

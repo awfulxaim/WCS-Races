@@ -1,0 +1,11 @@
+block spawn
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 10 #a 0 sprites/smoke.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 99 50 2 3 11 .1 204 0 0 255 9
+  es_xmath wcs_z1 + 10
+  es est_effect 10 #a 0.2 sprites/smoke.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 99 50 2 3 11 .1 0 102 0 255 9
+  es_xmath wcs_z1 + 10
+  es est_effect 10 #a 0.4 sprites/smoke.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 99 50 2 3 11 .1 204 0 0 255 9
+  es_xmath wcs_z1 + 10
+  es est_effect 10 #a 0.6 sprites/smoke.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 99 50 2 3 11 0 .1 102 0 255 9
+}

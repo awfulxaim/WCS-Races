@@ -1,0 +1,22 @@
+NSC-CCP-04 Timeshifter
+
+Bio-Mechanical Decelerator
+5/10/15/20/25/30/35/40% chance on hit to reduce the enemy's movement speed by 10% for 5 seconds. this stacks.
+
+TS-V2 G.Point Swap (ability)
+For you and a random enemy a 5 second count down begins. after the count down ends, you and that enemy swap locations. If the enemy dies in the next 1/2/4/6/8/10/12/14 seconds you get exp as if you killed them. 15 second initial cooldown. 20 second cooldown.
+
+Enhanced Automated Velocity
+Spawn with 5/10/15/20/25/30/35/40% increased movement speed.
+
+N.Mako Vitality Core
+Spawn with 80/90/100/110/120/130/140/150 more HP.
+
+TS-1A Chrono Shift (ability2)
+The next time you are hit, evade that shot and instantly teleport back to your spawn. 55/50/45/40/35/30/25/20 second cooldown.
+
+NSC-T Bootboost MK. I
+Spawn with 15/25/35/45/55/65/75/85% reduced gravity.
+
+Alpha Convergence (ultimate)
+instantly teleport back to spawn. 45/40/35/30/25/20/15/10 second cooldown.

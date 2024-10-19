@@ -1,0 +1,137 @@
+
+block spawn
+{
+  es_emitsound player event_var(userid) music/hl1_song19.mp3 1 1
+	es_delayed 4.5 es_stopsound event_var(userid) music/hl1_song19.mp3
+	es_delayed 4.5 es_emitsound player event_var(userid) weapons\explode4.wav 1 1
+	es est_playplayer event_var(userid) ambient\atmosphere\hole_hit2.wav
+	es_give event_var(userid) env_smokestack
+	es_fire event_var(userid) env_smokestack addoutput "basespread 15"
+	es_fire event_var(userid) env_smokestack addoutput "spreadspeed 100"
+	es_fire event_var(userid) env_smokestack addoutput "speed 5"
+	es_fire event_var(userid) env_smokestack addoutput "startsize 15"
+	es_fire event_var(userid) env_smokestack addoutput "endsize 25"
+	es_fire event_var(userid) env_smokestack addoutput "rate 200"
+	es_fire event_var(userid) env_smokestack addoutput "jetlength 900"
+	es_fire event_var(userid) env_smokestack addoutput "twist 15"
+	es_fire event_var(userid) env_smokestack addoutput "smokematerial particle\fire.vmt"
+	es_fire event_var(userid) env_smokestack addoutput "angles 90 90 90"
+	es_fire event_var(userid) env_smokestack addoutput "rendercolor 128 0 255"
+	es_fire event_var(userid) env_smokestack turnon
+	es_delayed 4.5 es_fire event_var(userid) env_smokestack kill
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 80 300 4.5 130 10 0 128 0 255 255 20
+
+}
+
+block maser
+{
+    es_xrand wcs_rand 5 10
+    es wcs damage event_var(attacker) event_var(userid) server_var(wcs_rand)
+    es_playsound event_var(userid) weapons\underwater_explode3.wav 1
+    es_delayed .8 es_playsound event_var(userid) weapons\explode3.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+	  es_xmath wcs_z1 + 10
+	  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_14 #a 0 effects/muzzleflashx.vmt server_var(vector2) server_var(vector2) 250 25 205
+    es est_effect_08 #a 0 effects/muzzleflashx.vmt server_var(vector2) 20 400 1 1 90 400 0 128 64 12 255 10 1
+    es est_effect_06 #a 0 effects/muzzleflashx.vmt server_var(vector1) server_var(vector2) 10 1 5 5 10 0 176 176 255 255 30
+    es est_effect_06 #a 0 effects/muzzleflashx.vmt server_var(vector2) server_var(vector1) 10 1 5 5 10 0 100 100 200 255 30
+    es est_effect 10 #a 0 effects/muzzleflashx.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 101 1 50 40 0 255 255 255 255 10
+    es est_effect 10 #a 0 effects/muzzleflashx.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 100 101 1 50 40 1 100 100 200 255 10
+    es_tell event_var(attacker) #multi #lightgreen caused #green server_var(wcs_rand) extra damage to #default event_var(es_username)
+    es_tell event_var(userid) #multi #lightgreen got #green server_var(wcs_rand) extra damage from #default event_var(es_attackername)
+}
+
+block protostar
+{
+  es wcsgroup get phoenix wcs_phoenix event_var(userid) event_var(es_userteam)
+  es_xmath wcs_phoenix + 1
+  es wcsgroup set phoenix event_var(userid) server_var(wcs_phoenix) event_var(es_userteam)
+  es wcs_xtell event_var(userid) r_phoenix 
+  es_xsetinfo wcs_x3 0
+  es_xsetinfo wcs_y3 0
+  es_xsetinfo wcs_z3 0
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_getplayerlocation wcs_x3 wcs_y3 wcs_z3 event_var(userid)
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z2 + 20
+  es_xmath wcs_z2 + 75
+  es_xmath wcs_y2 - 30
+  es est_effect 3 #a 0 effects/strider_bulge_dudv_dx60.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 1 1 155 155 155 255
+  es_xmath wcs_y2 + 60
+  es est_effect 3 #a 0 effects/strider_bulge_dudv_dx60.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 1 1 155 155 155 255
+  es_xmath wcs_y1 - 30
+  es_xmath wcs_z1 + 20
+  es est_effect 3 #a 0 effects/strider_bulge_dudv_dx60.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 1 1 155 155 155 255
+  es_xmath wcs_z2 - 55
+  es est_effect 3 #a 0 effects/strider_bulge_dudv_dx60.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 1 1 155 155 155 255
+  es_xmath wcs_z1 + 55
+  es est_effect 3 #a 0 effects/strider_bulge_dudv_dx60.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 1 1 155 155 155 255
+}
+
+block messier
+{
+  es_xset wcs_rand 0
+  es_xset wcs_format 0
+  es_xrand wcs_rand 1 10
+  es_format wcs_format "ambient\levels\citadel\strange_talk%1.wav" server_var(wcs_rand)
+  es_playsound event_var(userid) server_var(wcs_format) 1
+  es_delayed 2 es_stopsound event_var(userid) server_var(wcs_format)
+  es_playsound event_var(userid) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 1
+  es_delayed 2 es_stopsound event_var(userid) ambient\levels\citadel\citadel_ambient_scream_loop1.wav 
+  es_delayed 2 es_stopsound event_var(userid) ambient\levels\citadel\citadel_drone_loop5.wav
+  es_cexec event_var(userid) r_screenoverlay effects/ar2_altfire1.vmt
+  es_delayed .3 es_cexec event_var(userid) r_screenoverlay models\props_combine\masterinterface01c.vmt
+  es_delayed .6 es_cexec event_var(userid) r_screenoverlay models\props_lab\cornerunit_cloud.vmt
+  es_delayed .9 es_cexec event_var(userid) r_screenoverlay models\props_lab\warp_sheet.vmt
+  es_delayed 1.3 es_cexec event_var(userid) r_screenoverlay effects/prisonmap_disp.vmt
+  es_delayed 1.6 es_cexec event_var(userid) r_screenoverlay effects/breenscreen_static01_.vmt
+  es_delayed 1.9 es_cexec event_var(userid) r_screenoverlay effects/alyxmonitor_talk.vmt
+  es_delayed 1.9 es_cexec event_var(userid) r_screenoverlay effects/ar2_altfire1.vmt
+  es_delayed 2 es_cexec event_var(userid) r_screenoverlay 0
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 10
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_06 #a 0 sprites/orangeflare1.vmt server_var(vector1) server_var(vector2) 100 1 10 10 10 0 255 255 255 255 100
+  es est_effect_18 #a 0 server_var(vector2) 255 128 55 50 150 30 75    
+  es est_effect 10 #a 0 sprites/orangeflare1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 199 1.5 35 25 0 255 255 255 255 10
+  es_tell event_var(attacker) #multi #lightgreen you have masked #green event_var(es_username) 's #lightgreen vision
+
+}
+
+block nebula
+{
+  es_give server_var(wcs_userid) env_steam 
+  es_fire server_var(wcs_userid) env_steam addoutput "spreadspeed 100"
+  es_fire server_var(wcs_userid) env_steam addoutput "speed 40"
+  es_fire server_var(wcs_userid) env_steam addoutput "startsize 35"
+  es_fire server_var(wcs_userid) env_steam addoutput "endsize 40"
+  es_fire server_var(wcs_userid) env_steam addoutput "rate 200"
+  es_fire server_var(wcs_userid) env_steam addoutput "jetlength 200"
+  es_fire server_var(wcs_userid) env_steam addoutput "rendercolor 100 100 200"
+  es_fire server_var(wcs_userid) env_steam addoutput "rollspeed 10"
+  es_fire server_var(wcs_userid) env_steam setparent !activator
+  es_fire server_var(wcs_userid) env_steam turnon
+  es_delayed server_var(wcs_duration) es_fire server_var(wcs_userid) env_steam kill
+  es playerset color server_var(wcs_userid) 51 0 102 server_var(wcs_alpha)
+  es_delayed server_var(wcs_duration) es playerset color server_var(wcs_userid) 151 65 102 255
+  es_tell server_var(wcs_userid) #multi #lightgreen you have disappeared into a #greendark cloud 
+  es_xmath wcs_duration - 2
+  es_delayed server_var(wcs_duration) es_tell server_var(wcs_userid) #multi #lightgreen becoming visible in #green server_var(wcs_duration) seconds
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,93 @@
+block load
+{
+  es_xset wcs_team1 0
+}
+
+//event player_connect
+//{
+  //downloadable sound/holliday/bane.wav
+  //downloadable sound/holliday/breath.wav
+  //downloadable sound/holliday/flip.wav
+//}
+
+block enfeeble
+{
+  es_playsound event_var(userid) holliday/bane.wav 1
+  es_playsound event_var(attacker) holliday/bane.wav 1
+  es_format wcs_format "5,5,%1" server_var(wcs_punch)
+  es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 40
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_14 #a 0 effects/muzzleflashx.vmt server_var(vector2) server_var(vector2) 250 25 195
+  es est_effect_08 #a 0 effects/muzzleflashx.vmt server_var(vector2) 20 400 1 1 90 400 0 128 64 12 255 10 1
+  es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector2) server_var(vector1) 100 1 1 10 10 0 255 255 255 255 50
+  es_tell event_var(attacker) #multi #lightgreen you have greatly reduced #green event_var(es_username) 's #lightgreen ability to participate in combat
+  es_tell event_var(userid) #multi #lightgreen your ability to participate in combat has been greatly reduced by #green event_var(es_attackername) 's attack
+}
+
+block brain_sap
+{
+  es wcs_setfx health event_var(attacker) + server_var(wcs_rand)
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 40
+  es_xmath wcs_z2 + 20
+  es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 8 8 255 0 0 255
+  es est_effect 3 #a 0 sprites/scanner_bottom.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5 10 255 255 255 255
+  es_xmath wcs_y1 + 10
+  es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 8 8 255 0 0 255
+  es est_effect 3 #a 0 sprites/scanner_bottom.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5 5 255 255 255 255
+  es est_effect 10 #a .3 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 160 40 1 400 50 1 255 25 25 255 10
+  es_playsound event_var(userid) holliday/breath.wav 1
+  es_playsound event_var(attacker) holliday/breath.wav 1
+}
+
+block nightmare
+{
+  es_delayed .8 es_cexec event_var(userid) r_screenoverlay models\gman\gman_face_map3.vmt
+  es_delayed 1.3 es_cexec event_var(userid) r_screenoverlay 0
+  es_delayed .8 es_playsound event_var(userid) npc/stalker/go_alert2a.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z2 + 60
+  es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 240 200 1.5 30 50 0 255 255 255 255 10
+  es_xmath wcs_z2 - 20
+  es est_effect 10 #a .3 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 140 1.5 30 50 0 255 255 255 255 10
+  es_tell event_var(attacker) #multi #lightgreen you have put #green event_var(es_username) #lightgreen into a fitful slumber, filled with  #greenhorrifying nightmares
+}
+
+block fiends_grip
+{
+  es wcs getviewplayer server_var(wcs_userid) wcs_player
+  es_exists ex userid server_var(wcs_player)
+  if (server_var(ex) = 1) do
+  {
+    es_getplayerteam wcs_team server_var(wcs_userid)
+    es_getplayerteam wcs_team1 server_var(wcs_player)
+    es_getplayername wcs_name server_var(wcs_player)
+    if (server_var(wcs_level) < server_var(wcs_level1)) then es_tell server_var(wcs_userid) #multi #lightgreen [sanity's eclipse] #green failed ! #lightgreen -to unleashes #greenpsionic storm#lightgreenyour level must be greater than your enemies
+    if (server_var(wcs_team) != server_var(wcs_team1)) do
+    {
+      es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+      es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_player)
+      es_format wcs_format "5,5,%1" server_var(wcs_punch)
+      es_setplayerprop server_var(wcs_player) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+      es_delayed .5 es_setplayerprop server_var(wcs_player) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" "0,0,0"
+      es_setplayerprop server_var(wcs_userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" server_var(wcs_format)
+      es_delayed .5 es_setplayerprop server_var(wcs_userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" "0,0,0"
+      es_playsound server_var(wcs_player) holliday\flip.wav 1
+      es_playsound server_var(wcs_userid) holliday\flip.wav 1
+      es wcs damage server_var(wcs_player) server_var(wcs_userid) server_var(wcs_damage)
+      es_tell server_var(wcs_userid) #multi #lightgreen you have used dark magic to grip #green server_var(wcs_name) #lightgreen causing #green server_var(wcs_damage) damage
+      }
+    }
+    es_xelse do
+    {
+      es_xset wcs_ultinotexec 1
+    }
+    if (server_var(wcs_ultinotexec) = 1) then es_tell server_var(wcs_userid) #multi #green fiend's grip #lightgreen failed. you must target an enemy!
+  }
+}

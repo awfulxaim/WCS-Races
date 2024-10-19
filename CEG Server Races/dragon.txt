@@ -1,0 +1,18 @@
+Dragon
+
+Requires total level 940.
+
+Fireball (ability)
+Deal 3/6/9/12/15/18/21/24 damage to all enemies in a 250 unit radius of the location you are aiming at.
+
+Fortitude
+Spawn with 5/10/15/20/25/30/35/40 more HP.
+
+Tail Whip
+100% chance on hit against enemies within 100/125/150/175/200/225/250/275 units to bash and banish those enemies for 1 second.
+
+Flight
+Jump while you are in the air to jump again. you can do this up to 1/2/3/4/5/6/7/8 times.
+
+Air Wave (ultimate)
+Push all enemies on your screen away from you hard. distance pushed is based on level. 25/24/23/22/21/20/19/18 second cooldown.

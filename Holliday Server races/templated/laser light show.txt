@@ -1,0 +1,19 @@
+Laser Light Show
+
+Laser Shot
+1/2/3/4/5% chance on hit to deal 15 extra damage.
+
+Laser Launcher
+5/8/11/13/15% chance on hit to launch the enemy high into the air
+
+Laser Shock
+5/6/7/8/10% chance on hit to prevent the enemy from moving, aiming, or shooting for 1 second.
+
+Laser Fast
+Spawn with 10/20/30/35/40% increased movement speed and 10/20/30/35/40% reduced gravity.
+
+Laser Bullet
+5/8/11/13/15% chance on hit to deal 1/2/3/5/6 extra damage.
+
+Laser Shield (ultimate)
+Gain 35% chance to evade for 1/1.25/1.5/1.75/2 seconds. 35/32/29/27/25 second cooldown

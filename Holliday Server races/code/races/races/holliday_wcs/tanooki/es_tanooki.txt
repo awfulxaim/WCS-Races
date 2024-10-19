@@ -1,0 +1,155 @@
+block load
+{
+    es_xset mario_fly 0
+    es_xset mario_playsound 0
+    es_xset mario_tmp1 0
+    es_xset mario_tmp2 0
+    es_xregclientcmd +statue holliday_wcs/tanooki/+statue "command to start flying"
+	es_xregclientcmd -statue holliday_wcs/tanooki/-statue "command to stop flying"
+}
+
+block spawn
+{
+
+    es_playsound event_var(userid) holliday/smb3_enter_level.wav 1
+    es_keysetvalue wcsuserdata event_var(userid) tanooki 1
+    es_keysetvalue wcsuserdata event_var(userid) mario_fly 1
+    es_keysetvalue wcsuserdata event_var(userid) mario_tail 0
+    es_keysetvalue wcsuserdata event_var(userid) mario_playsound 0
+    es_keysetvalue wcsuserdata event_var(userid) smb3jump 1
+}
+
+block statue
+{
+    es_keysetvalue wcsuserdata event_var(userid) statue 1
+    es_tell event_var(userid) #multi #default [Statue] #lightgreen bind a key to #green+statue #lightgreen to become a statue
+}
+
+block +statue
+{
+    es_xgetcmduserid wcs_userid
+    es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) statue
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es playerget primary mario_tmp1 server_var(wcs_userid)  
+        es playerget secondary mario_tmp2 server_var(wcs_userid)  
+        es playerset model server_var(wcs_userid) props_wasteland\rockcliff01e.mdl
+        es playerset color server_var(wcs_userid) 132 132 132 255
+        es playerset freeze server_var(wcs_userid) 1
+        es wcs strip server_var(wcs_userid)
+        es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+        es_xmath wcs_z1 + 50
+        es est_effect 11 #a 0 sprites/steam1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1.5 6 255
+        es est_god server_var(wcs_userid) 1
+        es_playsound server_var(wcs_userid) holliday/smb3_raccoon_transform.wav 1
+    }
+}
+
+block -statue
+{
+    es_xgetcmduserid wcs_userid
+    es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) statue
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es est_getteam wcs_team server_var(wcs_userid) 
+        if (server_var(wcs_team) = 3) then es_xset usermodel models/player/ct_urban.mdl
+        if (server_var(wcs_team) = 2) then es_xset usermodel models/player/t_guerilla.mdl
+        es playerset model server_var(wcs_userid) server_var(usermodel)
+        es playerset freeze server_var(wcs_userid) 0
+        es_give server_var(wcs_userid) server_var(mario_tmp1)
+        es_give server_var(wcs_userid) server_var(mario_tmp2)
+        es_give server_var(wcs_userid) weapon_knife
+        es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+        es_xmath wcs_z1 + 50
+        es est_effect 11 #a 0 sprites/steam1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1.5 6 255
+        es est_god server_var(wcs_userid) 0
+        es_playsound server_var(wcs_userid) holliday/smb3_raccoon_transform.wav 1
+    }
+}
+
+block spin
+{
+    if (event_var(es_attackerweapon) = weapon_knife) do
+    {
+        es_tell event_var(attacker) #multi #default [Tail Spin] #lightgreenknocked #green event_var(es_username) #lightgreenand caused #green server_var(wcs_damage) extra damage. 
+        es playerset push event_var(userid) server_var(wcs_forward) server_var(wcs_up) 1
+        es_delayed 1 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+        es_setplayerprop event_var(attacker) "CCSPlayer.baseclass.localdata.m_Local.m_vecPunchAngle" 5,5000,0
+        es_delayed .2 es_setplayerprop event_var(attacker) "CCSPlayer.baseclass.localdata.m_Local.m_vecPunchAngle" 0,0,0
+        es_playsound event_var(attacker) holliday/smb3_kick.wav 1
+    }
+}
+
+event player_death
+{
+    es_keysetvalue wcsuserdata event_var(userid) statue 0
+    es_keysetvalue wcsuserdata event_var(userid) mario_tail 0
+    es_keysetvalue wcsuserdata event_var(userid) mario_playsound 0
+    es_keysetvalue wcsuserdata event_var(userid) smb3jump 0
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) tanooki
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es_playsound event_var(userid) holliday/smb3_player_down.wav 1
+        es_keysetvalue wcsuserdata event_var(userid) tanooki 0
+    }
+}
+
+event player_jump
+{
+    es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) smb3jump
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es_playsound event_var(userid) holliday/smb3_jump.wav 1
+    }
+}
+
+event player_footstep
+{
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) tanooki
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es_keygetvalue mario_fly wcsuserdata event_var(userid) mario_fly
+        if (server_var(mario_fly) >= 1) do
+        {
+            es_xmath mario_fly + 1
+            //es_msg server_var(mario_fly)
+            es_keysetvalue wcsuserdata event_var(userid) mario_fly server_var(mario_fly)
+            es_keygetvalue mario_playsound wcsuserdata event_var(userid) mario_playsound
+            if (server_var(mario_fly) >= 10) then if (server_var(mario_playsound) = 0) then es playerset speed event_var(userid) 2
+            if (server_var(mario_fly) >= 10) then if (server_var(mario_playsound) = 0) then es_delayed 1 es playerset speed event_var(userid) 1
+            if (server_var(mario_fly) >= 10) then if (server_var(mario_playsound) = 0) then es_playsound event_var(userid) holliday/smb3_pmeter.wav 1
+            if (server_var(mario_fly) >= 10) then if (server_var(mario_playsound) = 0) then es_tell event_var(userid) #multi #default [Tanooki Tail] #green Press Ultimate to Fly!
+            if (server_var(mario_fly) >= 10) then es_keysetvalue wcsuserdata event_var(userid) mario_tail 1
+            if (server_var(mario_fly) >= 10) then es_keysetvalue wcsuserdata event_var(userid) mario_fly 1
+            if (server_var(mario_fly) >= 10) then es_keysetvalue wcsuserdata event_var(userid) mario_playsound 1
+        }
+    }
+}
+
+//event player_land
+//{
+//    es_keysetvalue wcsuserdata event_var(userid) mario_tail 0
+//    es_keysetvalue wcsuserdata event_var(userid) mario_playsound 0
+//}
+
+block ultimate
+{
+    es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) mario_tail
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es playerset push server_var(wcs_userid) server_var(wcs_forward) server_var(wcs_up) 1
+        es_playsound server_var(wcs_userid) holliday/smb3_tail.wav 1
+    }
+    if (server_var(wcs_tmp) = 0) do
+    {
+        es_tell server_var(wcs_userid) #multi #default [Tanooki Tail] #lightgreenrun for #green10 #lightgreenseconds to fly
+    }
+}
+
+
+
+
+
+
+
+

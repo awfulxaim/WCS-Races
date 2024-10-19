@@ -1,0 +1,15 @@
+Zergling
+
+knife only
+
+Metabolic Boost
+Spawn with 30/40/50/60/70/80/90/100% increased movement speed.
+
+Adrenal Glands
+40% chance on hit to deal 15/20/25/30/35/40/45/50% extra damage.
+
+Carapace
+Spawn with 80/90/100/110/120/130/140/150 armor and helmet.
+
+Burrow (ultimate)
+Bury yourself, deep enough you cannot be seen or shot. press ultimate again to unburrow. 15/14/13/12/11/10/9/8 second cooldown.

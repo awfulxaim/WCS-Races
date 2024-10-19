@@ -1,0 +1,136 @@
+block load
+{
+  es_xset forsound 0
+  repeat create crystal "es_xdoblock holliday_wcs/crystal_maiden/drop"
+}
+
+block spawn
+{
+  //es est_playplayer event_var(userid) wcs/azeroth/siphonmana.wav
+  es_give event_var(userid) env_smokestack 
+  es_fire event_var(userid) env_smokestack addoutput "targetname super"
+  es_fire event_var(userid) super addoutput "basespread 15"
+  es_fire event_var(userid) super addoutput "spreadspeed 100"
+  es_fire event_var(userid) super addoutput "speed 50"
+  es_fire event_var(userid) super addoutput "startsize 15"
+  es_fire event_var(userid) super addoutput "endsize 25"
+  es_fire event_var(userid) super addoutput "rate 200"
+  es_fire event_var(userid) super addoutput "jetlength 100"
+  es_fire event_var(userid) super addoutput "twist 5"
+  es_fire event_var(userid) super addoutput "smokematerial particle\fire.vmt"
+  es_fire event_var(userid) super addoutput "angles 90 90 90"
+  es_fire event_var(userid) super addoutput "rendercolor 25 75 255"
+  es_fire event_var(userid) super turnon
+  es_delayed 3 es_fire event_var(userid) super kill
+}
+
+block frost_nova
+{
+		if (event_var(es_userteam) = 2) do
+    {
+    es est_near targeten #t 400 event_var(userid) "if (server_var(targeten) != event_var(userid)) then es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid);if (server_var(targeten) != event_var(userid)) then es est_pushto server_var(targeten) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) -15;if (server_var(targeten) != event_var(userid)) then es wcs_dealdamage event_var(attacker) server_var(targeten) server_var(targetdamage);if (server_var(targeten) != event_var(userid)) then es est_playplayer server_var(targeten) wcs/azeroth/frostnovatarget1.wav;if (server_var(targeten) != event_var(userid)) then es est_playplayer event_var(attacker) wcs/azeroth/frostnova.wav"
+    es est_near targeten #t 400 event_var(userid) "if (server_var(targeten) != event_var(userid)) then es_xdoblock dota_heroes/crystal_maiden/fznova"
+    }
+    if (event_var(es_userteam) = 3) do
+    {
+    es est_near targeten #c 400 event_var(userid) "if (server_var(targeten) != event_var(userid)) then es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid);if (server_var(targeten) != event_var(userid)) then es est_pushto server_var(targeten) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) -15;if (server_var(targeten) != event_var(userid)) then es wcs_dealdamage event_var(attacker) server_var(targeten) server_var(targetdamage);if (server_var(targeten) != event_var(userid)) then es est_playplayer server_var(targeten) wcs/azeroth/frostnovatarget1.wav;if (server_var(targeten) != event_var(userid)) then es est_playplayer event_var(attacker) wcs/azeroth/frostnova.wav"
+    es est_near targeten #c 400 event_var(userid) "if (server_var(targeten) != event_var(userid)) then es_xdoblock dota_heroes/crystal_maiden/fznova"
+    }
+}
+
+block fznova
+{
+  es es_xtell event_var(attacker) #multi #default [frost nova] #lightgreenyou sent a #greenwave of frost #lightgreendamaging enemy targets around #green event_var(es_username)
+  es est_effect 10 #a 0 sprites/bluelight1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 400 .5 400 300 0 85 155 255 255 100
+  es_xmath wcs_z1 + 30
+  es est_effect 10 #a .2 sprites/bluelight1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 600 .5 400 300 0 85 155 255 255 100
+  es_xmath wcs_z1 + 30
+  es est_effect 10 #a .4 sprites/bluelight1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 800 .5 400 300 0 85 155 255 255 100
+}
+
+
+block frost_bite
+{
+    es_xset target 0
+	  es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es es_xgetplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+	  es_xmath wcs_z2 + 50
+	  es_xmath wcs_z1 + 50
+	  es_xset vector1 wcs_z1
+	  es_xset vector2 wcs_z2
+	  es_xmath wcs_z1 + 10
+	  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	  es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector2) server_var(vector1) 10 1 1 2 10 0 85 155 255 255 100
+	  es_xmath wcs_z2 + 20
+    es est_effect 10 #a .3 sprites/bluelight1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 16 1.3 60 200 0 85 155 255 255 100
+    es_delayed 1.3 est_effect 10 #a .3 sprites/bluelight1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5009 .3 100 200 2 85 155 255 255 100
+    es_delayed .3 es est_setplayercolor event_var(userid) 85 155 255 255 1
+    es_delayed 2 es est_setplayercolor event_var(userid) 85 155 255 255 1
+    es est_freeze event_var(userid) 1
+    es_delayed 1.6 est_freeze event_var(userid) 0 
+    es_delayed .3 est_pushto event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) -3
+    es est_deafen event_var(userid) 1.3 90 .3 1
+}
+
+
+block freezing_field
+{
+  es_xset wcs_player 0
+  es_xset loop_counter 1000
+  es_xsetinfo wcs_player 0
+  es est_playplayer server_var(wcs_userid) wcs/azeroth/deathcoilspecialart1.wav
+  es est_getteam wcs_team server_var(wcs_userid)
+  if (server_var(wcs_team) = 2) then est_randplayer wcs_player #c!d
+  if (server_var(wcs_team) = 3) then est_randplayer wcs_player #t!d
+  es es_xexists wcs_exists userid server_var(wcs_player)
+  if (server_var(wcs_exists) = 1) do
+  {
+    es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_player)
+    es_xmath wcs_z1 + 900
+    repeat start crystal .1
+    es_delayed 1 repeat start crystal .1
+  }
+}
+
+block drop
+{ 
+  es_xmathparse loop_counter "loop_counter - 100" 
+  es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_player)
+  es est_effect 11 #a 0 effects\ar2_altfire1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(loop_counter) .2 .5 255
+  es est_effect 11 #a 0 effects\blueflare1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(loop_counter) .2 2 255
+  es_xset coords 0
+  es_give server_var(wcs_player) env_smokestack 
+  es_fire server_var(wcs_player) env_smokestack addoutput "targetname spawning"
+  es_fire server_var(wcs_player) spawning addoutput "basespread 40"
+  es_fire server_var(wcs_player) spawning addoutput "spreadspeed 60"
+  es_fire server_var(wcs_player) spawning addoutput "speed 90"
+  es_fire server_var(wcs_player) spawning addoutput "rate 600"
+  es_fire server_var(wcs_player) spawning addoutput "startsize 13"
+  es_fire server_var(wcs_player) spawning addoutput "endsize 5"
+  es_fire server_var(wcs_player) spawning addoutput "twist 2000"
+  es_fire server_var(wcs_player) spawning addoutput "jetlength 19"
+  es_fire server_var(wcs_player) spawning addoutput "angles 90 90 90"
+  es_fire server_var(wcs_player) spawning addoutput "rendercolor 25 75 255"
+  es_fire server_var(wcs_player) spawning addoutput "smokematerial sprites\blueflare1.vmt"
+  es_fire server_var(wcs_player) spawning turnon
+  es_format coords "origin %1 %2 %3" server_var(wcs_x1) server_var(wcs_y1) server_var(loop_counter)
+  es_fire server_var(wcs_player) spawning addoutput server_var(coords)
+  if (server_var(loop_counter) =< server_var(wcs_z1)) do
+  {
+    es est_playplayer server_var(wcs_userid) wcs/azeroth/incinerate1.wav
+    es_xset coords2 0
+    es es_xgetplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_player)
+    es_format coords2 "origin %1 %2 %3" server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es est_shake #a 3 5 3
+    es_fire server_var(wcs_player) spawning addoutput "spreadspeed 100"
+    es_delayed 1 repeat stop crystal
+    es est_effect 10 #a 0 sprites/blueflare1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 5 100 300 .3 25 75 255 255 100
+    es est_effect 10 #a 0 sprites/blueflare1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 5 100 300 0 25 75 255 255 100
+    es_fire server_var(wcs_player) spawning kill
+    es wcs_dealdamage server_var(wcs_userid) server_var(wcs_player) server_var(crystal_damage)
+ 
+  }
+}
+
+

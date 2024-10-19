@@ -1,0 +1,18 @@
+Human General
+
+requires total level 400. limited to 3 per team. cannot buy cloak of shadows or HP.
+
+Devotion to your country
+You spawn with 15/20/25/30/35/40/45/50 more HP.
+
+Master Bash
+8/10/12/14/16/18/20/22% chance on hit to paralyze the enemy for 1 second.
+
+Pacifism
+10/15/20/25/30/35/40/45% chance on hit to remove 3 rounds from the enemy's mag.
+
+Warlord's Booty
+30% chance on hit to take 40/70/100/130/160/190/220/250 money from the enemy.
+
+Teleport (ultimate)
+human teleport.

@@ -1,0 +1,15 @@
+Jack
+
+AK, deagle, and knife only. requires total level 130.
+
+Extra Damage
+33% chance on hit to deal 2 to 4/5/7/10 extra damage rolled randomly
+
+Long Jump
+Long jump, very strong. 1.5/1.6/1.7/2.6x jump multiplier.
+
+Phys Push
+18/23/27/33% chance on hit to push the enemy away from you with a force of 100/200/250/300.
+
+AK to AWP (ultimate)
+Lose your primary weapon and refill your deagle clip and reserve ammo. after a 3.2/2.2/1.2/.2 second delay you swap your AK for an AWP. Pressing ultimate again will swap your AWP for an AK with the same delay. no cooldown.

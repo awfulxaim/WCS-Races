@@ -1,0 +1,242 @@
+block load
+{
+	popup create weapon_menu
+	popup addline weapon_menu "-weapon menu-"
+	popup addline weapon_menu "->1.pistols"
+	popup addline weapon_menu "->2.smg"
+	popup addline weapon_menu "->3.machine/shotguns"
+	popup addline weapon_menu "->4.rifles"
+	popup addline weapon_menu "->5.items"
+	popup addline weapon_menu "->0.exit"
+	popup submenu weapon_menu 1 pistols
+	popup submenu weapon_menu 2 smg
+	popup submenu weapon_menu 3 ms
+	popup submenu weapon_menu 4 rifles
+	popup submenu weapon_menu 5 items
+	popup create pistols
+	popup addline pistols "  -pistols-"
+	popup addline pistols "->1.glock"
+	popup addline pistols "->2.usp"
+	popup addline pistols "->3.elite"
+	popup addline pistols "->4.five seven"
+	popup addline pistols "->5.p228"
+	popup addline pistols "->6.deagle"
+	popup addline pistols "->8.back"
+	popup addline pistols "->0.exit"
+  popup submenu pistols 8 weapon_menu
+	popup menuvalue pistols wcs_weapon 1 weapon_glock
+	popup menuvalue pistols wcs_weapon 2 weapon_usp
+	popup menuvalue pistols wcs_weapon 3 weapon_elite
+	popup menuvalue pistols wcs_weapon 4 weapon_fiveseven
+	popup menuvalue pistols wcs_weapon 5 weapon_p228
+	popup menuvalue pistols wcs_weapon 6 weapon_deagle
+	popup menuselect pistols holliday_wcs/dragonfly/pistols
+	popup create smg
+	popup addline smg "  -smg-"
+	popup addline smg "->1.p90"
+	popup addline smg "->2.aug"
+	popup addline smg "->3.tmp"
+	popup addline smg "->4.mac10"
+	popup addline smg "->5.mp5navy"
+	popup addline smg "->6.ump45"
+	popup addline smg "->8.back"
+	popup addline smg "->0.exit"
+  popup submenu smg 8 weapon_menu
+	popup menuvalue smg wcs_weapon 1 weapon_p90
+	popup menuvalue smg wcs_weapon 2 weapon_aug
+	popup menuvalue smg wcs_weapon 3 weapon_tmp
+	popup menuvalue smg wcs_weapon 4 weapon_mac10
+	popup menuvalue smg wcs_weapon 5 weapon_mp5navy
+	popup menuvalue smg wcs_weapon 6 weapon_ump45
+	popup menuselect smg holliday_wcs/dragonfly/wcs_weapon
+	popup create ms
+	popup addline ms "-machine/shot guns-"
+	popup addline ms "->1.m3"
+	popup addline ms "->2.xm1014"
+	popup addline ms "->3.m249"
+	popup addline ms "->8.back"
+	popup addline ms "->0.exit"
+  popup submenu ms 8 weapon_menu
+	popup menuvalue ms wcs_weapon 1 weapon_m3
+	popup menuvalue ms wcs_weapon 2 weapon_xm1014
+	popup menuvalue ms wcs_weapon 3 weapon_m249
+	popup menuselect ms holliday_wcs/dragonfly/wcs_weapon
+	popup create rifles
+	popup addline rifles "-rifles-"
+	popup addline rifles "->1.famas"
+	popup addline rifles "->2.galil"
+	popup addline rifles "->3.scout"
+	popup addline rifles "->4.sg552"
+	popup addline rifles "->5.ak47"
+	popup addline rifles "->6.m4a1"
+	popup addline rifles "->7.awp"
+	popup addline rifles "->8.back"
+	popup addline rifles "->0.exit"
+  popup submenu rifles 8 weapon_menu
+	popup menuvalue rifles wcs_weapon 1 weapon_famas
+	popup menuvalue rifles wcs_weapon 2 weapon_galil
+	popup menuvalue rifles wcs_weapon 3 weapon_scout
+	popup menuvalue rifles wcs_weapon 4 weapon_sg552
+	popup menuvalue rifles wcs_weapon 5 weapon_ak47
+	popup menuvalue rifles wcs_weapon 6 weapon_m4a1
+	popup menuvalue rifles wcs_weapon 7 weapon_awp
+	popup menuselect rifles holliday_wcs/dragonfly/wcs_weapon
+	popup create items
+	popup addline items "  -items-"
+	popup addline items "->1.hegrenade"
+	popup addline items "->2.smokegrenade"
+	popup addline items "->3.flashbang"
+	popup addline items "->4.c4"
+	popup addline items "->5.night vision"
+	popup addline items "->6.defuser"
+	popup addline items "->8.back"
+	popup addline items "->0.exit"
+  popup submenu items 8 weapon_menu
+	popup menuvalue items wcs_weapon 1 weapon_hegrenade
+	popup menuvalue items wcs_weapon 2 weapon_smokegrenade
+	popup menuvalue items wcs_weapon 3 weapon_flashbang
+	popup menuvalue items wcs_weapon 4 weapon_c4
+	popup menuvalue items wcs_weapon 5 item_nvgs
+	popup menuvalue items wcs_weapon 6 item_defuser
+	popup menuselect items holliday_wcs/dragonfly/wcs_weapon
+}
+
+//event player_connect
+//{
+//  downloadable sound/hollidaywcs/dragonfly.wav
+//}
+
+block spawn
+{
+    if (server_var(dan_isday) equalto 0) do
+    {
+        popup exists weapon_menu menucheck
+	      es popup isqueued weapon_menu menucheck event_var(userid)
+        if (server_var(menucheck) = 0) then es popup send weapon_menu event_var(userid)
+        if (server_var(menucheck) = 0) then es_tell event_var(userid) DM mod Free Guns!
+    }
+}
+
+block shredding_mandibles
+{
+  es_xrand wcs_damage 5 10
+  es_playsound event_var(userid) npc\headcrab_poison\ph_poisonbite1.wav 1
+  es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+  es_tell event_var(userid) #multi #lightgreen you got #green server_var(wcs_damage) #lightgreen extra damage
+  es_tell event_var(attacker) #multi #lightgreen you caused #green server_var(wcs_damage) #lightgreen extra damage
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 500 3 100 100 0 255 55 0 255 10
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z2 + 20
+  es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 0.5 20 60 255 50 0 255
+  es_xmath wcs_z2 + 40
+  es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 2 3 255 0 0 255
+  es est_effect 3 #a 0 effects/black.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 1 1 255 0 0 255
+  es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 1 10 10 0 255 0 0 255 2
+  es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 1 5 10 0 255 0 0 255 2
+}
+
+block death_sparks
+{
+  es_playsound event_var(userid) npc\antlion\digup1.wav 1
+  es_playsound event_var(attacker) npc\antlion\digup1.wav 1
+  es_give event_var(attacker) point_hurt
+  es_delayed 3 es_fire event_var(attacker) point_hurt turnon
+  es_give event_var(attacker) env_spark
+  es_delayed 3 es_fire event_var(attacker) env_spark startspark
+  es_delayed 8 es_fire event_var(attacker) point_hurt turnoff
+  es es_delayed 15 es_fire event_var(attacker) env_spark stopspark
+}
+
+block pistols
+{
+	es wcs strip server_var(_popup_userid) 
+	es_delayed .1 es_give server_var(_popup_userid) server_var(wcs_weapon)
+	es popup send weapon_menu server_var(_popup_userid)
+}
+
+block wcs_weapon
+{
+	es wcs strip server_var(_popup_userid) 
+	es_delayed .1 es_give server_var(_popup_userid) server_var(wcs_weapon)
+	es popup send weapon_menu server_var(_popup_userid)
+}
+
+
+block dragonfly
+{
+  es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) dragonfly
+  if (server_var(wcs_tmp) = 0) do
+  {
+        es_xset wcs_primary 0
+        es_xset wcs_secondary 0
+		es playerset jetpack server_var(wcs_userid) 1
+		es playerset speed server_var(wcs_userid) server_var(wcs_speed)
+		es playerset color server_var(wcs_userid) 220 100 110 125
+		es playerget primary wcs_primary server_var(wcs_userid)
+		es playerget secondary wcs_secondary server_var(wcs_userid)
+        es_keysetvalue wcsuserdata server_var(wcs_userid) dragonfly 1
+		es_keysetvalue wcsuserdata server_var(wcs_userid) primary server_var(wcs_primary)
+		es_keysetvalue wcsuserdata server_var(wcs_userid) secondary server_var(wcs_secondary)
+        es_playsound server_var(wcs_userid) hollidaywcs/dragonfly.wav 1
+        es wcs strip server_var(wcs_userid) 
+		//es wcs removeweapon server_var(wcs_userid) 2
+		es_xset mysmokename ""
+		es_xformatv mysmokename "smoke_%1" entitycount
+		es_format wcs_format "targetname %1" server_var(mysmokename)
+		es_give server_var(wcs_userid) env_smokestack
+		es_fire server_var(wcs_userid) env_smokestack addoutput server_var(wcs_format)
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "basespread 80"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "spreadspeed 12"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "speed 90"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "startsize 15"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "endsize 16"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "rate 200"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "jetlength 10"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "twist 40"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "smokematerial particle\fire.vmt"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "angles 90 90 90"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "rendermode 18"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "renderamt 100"
+		es_fire server_var(wcs_userid) server_var(mysmokename) addoutput "rendercolor 220 100 110"
+		es_fire server_var(wcs_userid) server_var(mysmokename) turnon
+		es_fire server_var(wcs_userid) server_var(mysmokename) setparent !activator
+		es_xmath entitycount + 1
+        es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_userid)
+        es_xmath wcs_z2 + 20
+        es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 1190 1 20 10 0 255 0 0 255 1
+        es_delayed .2 es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 1190 1 35 10 0 255 0 0 255 1
+        es_xmath wcs_z2 + 20
+        es_delayed .4 es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 1190 1 20 10 0 255 0 0 255 1
+        es_delayed .6 es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 1190 1 35 10 0 255 0 0 255 1
+        es_xmath wcs_z2 + 20
+        es_delayed .9 es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 1190 1 20 10 0 255 0 0 255 1
+        es_delayed 1 es est_effect 10 #a 0 sprites/scanner.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 1190 1 35 10 0 255 0 0 255 1
+    }
+    if (server_var(wcs_tmp) = 1) do
+    {
+  	    es playerset jetpack server_var(wcs_userid) 0
+		es playerset speed server_var(wcs_userid) 1
+		es playerset color server_var(wcs_userid) 255 255 255 255
+    es_keysetvalue wcsuserdata server_var(wcs_userid) dragonfly 0
+    es_keygetvalue wcs_primary wcsuserdata server_var(wcs_userid) primary
+    es_keygetvalue wcs_secondary wcsuserdata server_var(wcs_userid) secondary
+    ifx true(wcs_primary) do
+    {
+      es_give server_var(wcs_userid) server_var(wcs_primary)
+    }
+    ifx true(wcs_secondary) do
+    {
+      es_give server_var(wcs_userid) server_var(wcs_secondary)
+    }
+		es_stopsound server_var(wcs_userid) hollidaywcs/dragonfly.wav
+		es_delayed .5 es_fire server_var(wcs_userid) server_var(mysmokename) kill
+  }
+}
+
+event player_death
+{
+  es_keysetvalue wcsuserdata server_var(wcs_userid) dragonfly 0
+  es_stopsound server_var(wcs_userid) hollidaywcs/dragonfly.wav
+}

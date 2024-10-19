@@ -1,0 +1,177 @@
+block load
+{
+  eventscripts_noisy 1
+  es_xset wcs_ammo1 0
+  es_xset wcs_ammo 0
+}
+
+block spawn
+{
+  es wcs_restrict event_var(userid) galil,ak47,sg552,awp,g3sg1,famas,m4a1,aug,sg550,glock,usp,fiveseven,m3,xm1014,mac10,tmp,mp5navy,ump45,p90,m249,scout,
+  es wcs strip event_var(userid)
+  es_delayed .1 es_give event_var(userid) weapon_elite
+  es_playsound event_var(userid) ambient\atmosphere\hole_hit2.wav 1
+  es_give event_var(userid) env_smokestack 
+  es_fire event_var(userid) env_smokestack addoutput "basespread 15"
+  es_fire event_var(userid) env_smokestack addoutput "spreadspeed 100"
+  es_fire event_var(userid) env_smokestack addoutput "speed 50"
+  es_fire event_var(userid) env_smokestack addoutput "startsize 15"
+  es_fire event_var(userid) env_smokestack addoutput "endsize 25"
+  es_fire event_var(userid) env_smokestack addoutput "rate 200"
+  es_fire event_var(userid) env_smokestack addoutput "jetlength 500"
+  es_fire event_var(userid) env_smokestack addoutput "twist 5"
+  es_fire event_var(userid) env_smokestack addoutput "smokematerial particle\fire.vmt"
+  es_fire event_var(userid) env_smokestack addoutput "angles 90 90 90"
+  es_fire event_var(userid) env_smokestack addoutput "rendercolor 220 100 110"
+  es_fire event_var(userid) env_smokestack turnon
+  es_delayed 6 es_fire event_var(userid) env_smokestack kill
+  es_give event_var(userid) point_tesla 
+  es_fire event_var(userid) point_tesla addoutput "m_soundname ambient/atmosphere/city_skypass1.wav" 
+  es_fire event_var(userid) point_tesla addoutput "m_color 255 25 25" 
+  es_fire event_var(userid) point_tesla addoutput "m_flradius 75"  
+  es_fire event_var(userid) point_tesla addoutput "beamcount_min 30"
+  es_fire event_var(userid) point_tesla addoutput "beamcount_max 60"  
+  es_fire event_var(userid) point_tesla addoutput "thick_min 5"
+  es_fire event_var(userid) point_tesla addoutput "thick_max 30"  
+  es_fire event_var(userid) point_tesla addoutput "lifetime_min 1"
+  es_fire event_var(userid) point_tesla addoutput "lifetime_max 2"
+  es_fire event_var(userid) point_tesla addoutput "interval_min 15"
+  es_fire event_var(userid) point_tesla addoutput "interval_max 30"
+  es_fire event_var(userid) point_tesla turnon  
+  es_fire event_var(userid) point_tesla dospark  
+  es est_effect 11 #a 0 models/props_combine/portalskydome.mdl 0 0 900 5 1 255
+}
+
+block firearrows
+{   
+
+  es wcs damage event_var(userid) event_var(attacker) 3
+  es_delayed .1 es wcs damage event_var(userid) event_var(attacker) 2
+  es_delayed .3 es wcs damage event_var(userid) event_var(attacker) 2
+	es_playsound event_var(userid) ambient\fire\mtov_flame2.wav 1
+	es_playsound event_var(attacker) weapons/fx/nearmiss/bulletltor05.wav 1
+	es_delayed .1 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor03.wav 1
+	es_delayed .2 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor03.wav 1
+	es_delayed .3 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor04.wav 1
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+	es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_xmath wcs_z1 + 60
+	es_xmath wcs_z2 + 50
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector1) server_var(vector2) 10 .3 1 1 1 0 255 205 45 255 100
+	es est_effect 11 #a 0 sprites/fire1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .5 .5 255
+  es_xmath wcs_y2 + 80
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1);es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es_delayed 0.4 es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector1) server_var(vector2) 10 .3 1 1 1 0 255 205 45 255 100
+	es_delayed 0.4 es est_effect 11 #a 0 sprites/fire1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .5 .5 255
+  es_xmath wcs_y2 - 160
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1);es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es_delayed .5 es est_effect_06 #a 0 sprites/orangelight1.vmt server_var(vector2) server_var(vector1) 100 .3 1 1 10 0 255 205 25 255 100
+ 	es_delayed .5 es est_effect 11 #a 0 sprites/fire1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .5 .5 255 
+}
+
+block teleflashbangs
+{
+  es_keysetvalue wcsuserdata event_var(userid) teleflashbangs server_var(wcs_ammo)  
+  es_delayed 1 es_give event_var(userid) weapon_flashbang
+  es_tell event_var(userid) #multi #green server_var(wcs_ammo) flashbangs
+}
+
+block antifalldamage
+{
+  es_keysetvalue wcsuserdata event_var(userid) antifalldamage 1
+  es_tell event_var(userid) #multi #green you have protection against fall damage
+}
+
+block dualrapidfire
+{
+  es playerset clip server_var(wcs_userid) 2 999999999
+  //es playerget clip wcs_ammo server_var(wcs_userid) 2
+  es_keysetvalue wcsuserdata server_var(wcs_userid) dualrapidfire 1
+
+  es_delayed server_var(wcs_time) es_keysetvalue wcsuserdata server_var(wcs_userid) dualrapidfire 0
+  es_delayed server_var(wcs_time) es playerset clip server_var(wcs_userid) 2 server_var(wcs_ammo)
+  es usermsg centermsg server_var(wcs_userid) "dual rapid fire"
+  es_delayed server_var(wcs_time) es usermsg centermsg server_var(wcs_userid) "no more rapid fire"
+}
+
+event flashbang_detonate
+{
+	es_keygetvalue wcs_tmp wcsuserdata event_var(userid) teleflashbangs
+	if (server_var(wcs_tmp) != 0) do
+	{
+		es_xset coords 0
+		es_format coords "origin %1 %2 %3" event_var(x) event_var(y) event_var(z)
+    es_give event_var(userid) env_spark
+    es_fire event_var(userid) env_spark addoutput "magnitude 3" 
+    es_fire event_var(userid) env_spark addoutput "traillength 8"  
+    es_fire event_var(userid) env_spark addoutput "spawnflags 128" 
+    es_fire event_var(userid) env_spark startspark 
+    es_fire event_var(userid) env_spark addoutput server_var(coords)
+    es_delayed 12 es_fire event_var(userid) env_spark kill
+    es playerset location event_var(userid) event_var(x) event_var(y) event_var(z)
+	}
+}
+
+event player_falldamage
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) antifalldamage
+  if (server_var(wcs_tmp) = 1) do
+  { 
+    es_setinfo falldamag event_var(damage)
+    es_xmath falldamag / server_var(falldmg)
+	  es playerset healthadd event_var(userid) server_var(falldamag)
+	  if (event_var(damage) <= 100) then es_tell event_var(userid) #multi #default [anti fall damage] #lightgreen prevented #green server_var(falldamag) #lightgreen damage 
+  }
+}
+
+event weapon_fire
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) dualrapidfire
+  if (server_var(wcs_tmp) = 1) do
+  { 
+    if (event_var(weapon) = elite) do
+    {
+    es_xset turbofire 0
+	  es_xset gunname 0
+    es_format gunname "weapon_%1" event_var(weapon)
+	  es playerget weaponindex turbofire event_var(userid) server_var(gunname)
+	  es_setindexprop server_var(turbofire) "cbasecombatweapon.localactiveweapondata.m_flnextprimaryattack" 0
+	  es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" 0.000000,0.000000,0.000000
+	  es_setplayerprop event_var(userid) "ccsplayer.baseclass.baseclass.bcc_localdata.m_flnextattack" 1
+	  es_setplayerprop event_var(userid) "ccsplayer.cslocaldata.m_ishotsfired" 0
+	  if (event_var(weapon) = elite) then es_playsound event_var(userid) weapons/elite/elite-1.wav 1
+    }
+  }
+  es_keygetvalue wcs_ammo1 wcsuserdata event_var(userid) teleflashbangs
+  if (server_var(wcs_ammo1) > 1) do
+  {
+    if (event_var(weapon) = flashbang) do
+    {     
+      es_xmath wcs_ammo1 - 1
+      es_keysetvalue wcsuserdata event_var(userid) teleflashbangs server_var(wcs_ammo1) 
+      es_give event_var(userid) weapon_flashbang
+      es_tell event_var(userid) #multi #green server_var(wcs_ammo1) more flash bangs
+    }
+  }
+}
+  
+event bullet_impact
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) dualrapidfire
+  if (server_var(wcs_tmp) = 1) do
+  { 
+    es est_effect 11 #a 0 sprites/fire1.vmt event_var(x) event_var(y) event_var(z) .5 .5 255
+
+  }
+}
+
+event player_death
+{
+  es_keysetvalue wcsuserdata event_var(userid) teleflashbangs 0
+  es_keysetvalue wcsuserdata event_var(userid) antifalldamage 0
+  es_keysetvalue wcsuserdata event_var(userid) dualrapidfire 0
+}

@@ -1,0 +1,18 @@
+Rapscallion
+
+knife only. requires total level 190.
+
+Flickering Shadows
+30/32/34/42% chance on spawn to set your render effect to 13 "13: Fast Flicker (transparent 0.14 s, visible 0.2 s, repeat)"
+
+Adrenaline
+Spawn with 20/24/28/42/66% increased movement speed.
+
+Blade
+13/28/44/60/75% chance on hit to deal 100% extra damage.
+
+Levitation
+Spawn with 32/40/48/56/74% reduced gravity.
+
+Complete Invisibility (ultimate)
+30/32/34/99% chance when activated to become rooted but 100% invisible. If you are rooted, pressing ultimate will remove the root and your invisibility. 0 second cooldown.

@@ -1,0 +1,27 @@
+Hakan
+
+Knife only. has a red player model.
+
+Yagli Gures
+Spawn with 5/10/15/20/25% increased movement speed and 10/20/30/40/50 more HP.
+
+Hearty
+Movement speed reducing effect durations are reduced by 35/45/55/65/75%. this includes roots, bashes, paralyzes, sleeps, and slows.
+
+Oil Shower (ability)
+Become rooted for 1/2/3/4/5 seconds, then for the next 3/6/8/12/15 seconds you get a brown player model. For that duration, you get 10/20/30/40/50% increased movment speed, you take 5/10/15/20/25% reduced damage, double the length of Oil Slide, and you can activate Focus Attack while sliding. 20 second cooldown.
+
+Oil Slide
+While crouched you gain 100% increased movement speed for up to 100/200/300/400/500 units of distance. you have 10/20/30/40/50% chance to evade while you are sliding. you cannot activate Focus Attack during this unless you have Showered in Oil. 10/9/8/7/6 second cooldown.
+
+Focus Attack (ability2)
+For the next 1/2/3/4/5 seconds the damage you take is delayed but you cannot attack, slide, or activate abilities or ultimates. After this duration you take all the damage you would have taken. Your next attack after this duration ends deals 50% extra damage and bashes for 2 seconds. 30 second cooldown.
+
+Oil Rocket
+50% chance on hit to paralyze the enemy for 1 second then impale them when the paralyze ends. height the enemy is impaled increases with levels. this cannot proc while sliding.
+
+Body Press
+50% chance on hit while sliding to deal 50% extra damage, bash the enemy for 1 second, and reset your slide distance.
+
+Flying Oil Spin (ultimate)
+Human Teleport. You are invulnerable while you are in the air. Body Press is guaranteed to proc if you land in a slide. 20 second cooldown.

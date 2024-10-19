@@ -1,0 +1,19 @@
+Operative
+
+knife only. has a black player model.
+
+Skull Suit
+When you spawn gain renderfx 16. When you jump you fly for as long as you have your jump key held down. pressing jump while in the air pushes you forward like a long jump in the direction you have your movement keys pressed. 1.1/1.3/1.5/1.7/1.9 multiplier. you can fly for a maximum of 3/4/5/6/8 seconds, this timer is reset when you land. You can dash in the air 1/1/2/2/3 times.
+
+16: Hologram (Distort + "distance fade")/(in all games since l4d) Fade In (instant; not very useful outside of code)
+
+Wrist-Mounted Blades
+Every second hit on the same enemy with the knife in a 1 second span triggers an automatic right click attack.
+
+Disguise Kit Camouflage (ability)
+Activating this ability swaps your team and player model for 2/3/4/5/6 seconds but turns on friendly fire (both incoming and outgoing) for you and prevents you from damaging your old team for the duration. 20 second cooldown. A tube of black circles are drawn up and back down your player model and blue sparks come out of you for .5 seconds when you activate this.
+
+NOTE: I think you will lose money for killing "teammates" during this and thats okay. its a downside to activating this ability. but I don't want that to happen when your "teammates" kill you. so maybe this should also give a bonus to money earned when someone kills you while this is active to counteract that.
+
+Beam Laser Cannon (ultimate)
+Get a negev, 70% increased movement speed and lose your knife. You cannot stop shooting while you have the negev. You have standing accuracy at all times while this is active. when you run out of ammo in your mag, get your knife back and lose the negev and your bonus movement speed. 30 second cooldown.

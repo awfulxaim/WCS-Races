@@ -1,0 +1,15 @@
+Ghostly Undead
+
+requires total level 100. limited to 2 per team. cannot buy mask of death, cloak of shadows, or sock of the feather
+
+Spook
+Spawn with 15/25/35/45/55/65% invisibility.
+
+Absorption
+100% chance on hit to leech 12/14/16/18/20/22% of the damage you dealt.
+
+Chills
+10/12/14/16/18/20% chance on hit to bash the enemy for .2/.4/.6/.6/.8/1 second.
+
+Shake
+5/10/15/20/25/30% chance on hit to shake the enemy for .5/1/1.5/2/2.5/3 seconds.

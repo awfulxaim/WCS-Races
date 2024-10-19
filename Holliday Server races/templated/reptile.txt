@@ -1,0 +1,15 @@
+Reptile
+
+knife only. requires total level 250. has a green player model with green steam coming out of it at all times.
+
+Chameleon (ability)
+create a cloud of smoke and become 100% invisible for 2/4/5/6 seconds. you can activate this 1/2/2/3 times per round.
+
+Agility
+Spawn with 10/20/20/30% increased movement speed and long jump. 1.5/2.5/2.8/3x jump multiplier.
+
+Hidden Chop
+18/22/28/33% chance on hit to disarm.
+
+Reptile (ultimate)
+for 3 seconds, if you die respawn at the location you died at, at the end of that 3 second timer. When you respawn you are 100% invisible for 1/2/2.5/3 seconds. if you have not died at the end of the 3 second timer, you die anyway and are respawned as if you had been killed. 20 second cooldown.

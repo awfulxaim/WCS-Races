@@ -1,0 +1,18 @@
+Cannibal
+
+knife only. requires total level 200. limited to 2 per team. cannot buy knight's armaments, flaming gloves of warmth, long jump, mask of death, or ammo resupply.
+
+Pounce
+Long jump
+
+Stealth
+Spawn with 65/67/69/71/75% invisibility.
+
+Vanish
+100% chance when hit to become 100% invisible for .5/1/1.5/2/2.5 seconds. this cannot proc while this skill is active.
+
+Gobble
+100% chance on hit to gain 4/8/12/16/20 HP to a max of 200 HP.
+
+Ravage (ultimate)
+For the next 4/5/6/7/8 seconds you deal 10/15/20/25/30 extra damage on hit. 25 second cooldown.

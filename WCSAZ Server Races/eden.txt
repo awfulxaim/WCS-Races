@@ -1,0 +1,16 @@
+Eden
+
+Boost
+Spawn with 12/16/20/24/28/32% increased movement speed.
+
+Mad Rush (ability)
+You gain 12/16/20/24/28/32% increased speed for 4 seconds. 6 second cooldown
+
+Spatial Warp
+human teleport with a 10 seocnd cooldown.
+
+Time Compression
+When you spawn a random enemy is slowed by 6/9/12/15/18/21% for the entire round. you gain that much movement speed for the round.
+
+Eternal Breath
+You have a 15/25/35/45/55/65/75/80% chance when you die to respawn after 4-6.5 seconds at the location you died at with all of the guns and equipment you had when you died, once per round.

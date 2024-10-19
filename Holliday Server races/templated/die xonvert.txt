@@ -1,0 +1,13 @@
+Die Xonvert
+
+Freeze by Fear
+5/7/10/16/25/28/33% chance on hit to bash for 1 second.
+
+Blood Lust
+5/7/10/16/25/28/33% chance on hit to leech 13/14/17/20/22/25/29% of the damage dealt back as HP.
+
+Ritual
+Spawn with 15/20/25/30/35/43/50 more HP.
+
+Zeal (ultimate)
+Get 200% speed for 2/3/4/5/6/6.5/7 seconds. 15 second cooldown.

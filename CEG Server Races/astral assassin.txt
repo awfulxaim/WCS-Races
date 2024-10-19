@@ -1,0 +1,21 @@
+Astral Assassin
+
+Spawns with and is restricted to p90, deagle, and knife. requires total level 620.
+
+Astral Armor
+spawn with 25/50/75/100 armor, but no helmet and 8/16/24/32% increased movement speed.
+
+Stop Time
+4/6/8/10% chance on hit to paralyze the enemy for 1 second.
+
+Hex
+5/10/15/20% chance on hit to slow the enemy by 30% for 3 seconds.
+
+Healing Aura
+Every 5 seconds heal all teammates and yourself for 1/3/5/7 HP.
+
+Boost Aura
+Spawn with 5/10/15/20 more HP and 16/32/48/64% reduced gravity.
+
+Phoenix
+5/10/15/20% chance on kill to revive the first teammate who died and is still dead.

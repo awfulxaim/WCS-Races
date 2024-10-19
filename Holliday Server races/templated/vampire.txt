@@ -1,0 +1,15 @@
+Vampire
+
+requires total level 730
+
+Speed
+Spawn with 20/50/100/220% increased movement speed.
+
+Invisibility
+Spawn with 22/29/61/80% invisibility.
+
+Steal Health
+40% chance on hit to leech 22/25/33/50% of the damage you dealt as HP.
+
+See Through Walls (ultimate)
+Set your vision to have a green overlay. a sprite you can see through walls appears at the location of each enemy and updates every .1 second for 5/7/8/10 seconds. 25 second cooldown.

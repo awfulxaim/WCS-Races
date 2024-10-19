@@ -1,0 +1,18 @@
+Superman
+
+Knife and grenades only.
+
+Smash Through Walls
+13/28/44/50/65/75% chance on hit with the knife to deal 1-20 extra damage rolled randomly. this cannot proc until you have dodged a bullet.
+
+Dodge Bullets
+12/24/36/48/60/75% chance to evade
+
+Summon Strength
+80% chance on hit with the knife to leech 50/54/58/65/71/80% of the damage you dealt.
+
+Super Speed
+spawn with 45/50/55/60/70/80% increased movement speed
+
+Super Jump
+Spawn with 10/20/30/40/50/60% reduced gravity

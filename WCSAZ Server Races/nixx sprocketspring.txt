@@ -1,0 +1,19 @@
+Nixx Sprocketspring
+
+Goblin Rocket Launcher
+3/6/9/12/15/18/21/25% chance on hit to deal 150/175/185/200/215/235/255% extra damage.
+
+The Bigger One
+100% chance for grenades to deal 175/185/200/215/230/250/300% extra damage.
+
+Goblin Bomb Dispenser
+spwn with and give yourself an HE grenade every 12/11/10/9/8/7/6/5 seconds. if you already have an HE grenade you drop an HE grenade on the ground instead.
+
+Goblin Rocket Boots (ability)
+human teleport.
+
+The Mortar: Reloaded (ability2)
+Drop 1/1/1/2/2/3/4/5 HE grenades. 10 second cooldown.
+
+Goblin Engineering (ultimate)
+Spawn an explosive barrel where you are aiming. 19/18/17/16/15/14/13/12 second cooldown.

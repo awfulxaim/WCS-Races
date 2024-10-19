@@ -1,0 +1,18 @@
+Raiden
+
+requires total level 500.
+
+Fighting Thunder
+5/9/11/13/15% chance on hit to deal 5-12 extra damage rolled randomly.
+
+Thunderbolt
+8% chance on hit to deal 5/7/10/13/15 extra damage
+
+Staff
+10/15/20/23/25% chance on hit to deal 5-25 extra damage rolled randomly
+
+Thunder God
+2/4/6/8/10% chance on hit to shake the enemy's screen for 1 second.
+
+Raiden's Realm (ultimate)
+Lay up to three 150/155/160/165/175 unit radius wards per round that last 10/12/13/14/15 seconds and deal 10/13/16/18/20 damage per second. 6/5/4/3/2 second cooldown.

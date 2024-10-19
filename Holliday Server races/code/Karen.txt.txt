@@ -1,0 +1,249 @@
+[Karen]
+	required            = 700
+	maximum             = 0
+	restrictmap         = ""
+	restrictteam        = 0
+	restrictitem        = ""
+	teamlimit           = 0
+	author              = "holliday"
+	desc                = ""
+	spawncmd            = "es_xdoblock holliday_wcs/karen/spawn"
+	deathcmd            = ""
+	roundstartcmd       = ""
+	roundendcmd         = ""
+	preloadcmd          = ""
+	preload             = ""
+	allowonly           = ""
+	onchange            = ""
+	numberofskills      = 5
+	numberoflevels      = 4
+	skillnames          = "Karen's strong arm |Karen's determination |Karen's excitement|Karen's prejudice|Karen's will"
+	skilldescr          = "Extra Damage|More Health|Increased Speed when Hit|Headache|Energy Pulse"
+	skillcfg            = "player_attacker|player_spawn|player_victim|player_attacker|player_ultimate"
+	skillneeded         = "0|0|0|0|8"
+
+	[[skill1]]
+		setting           = "es_xset wcs_chance 15;es_xset wcs_dmg 8|es_xset wcs_chance 18;es_xset wcs_dmg 14|es_xset wcs_chance 22;es_xset wcs_dmg 18|es_xset wcs_chance 38;es_xset wcs_dmg 22"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/karen/arm"
+		sfx               = ""
+
+	[[skill2]]
+		setting           = "es_xset wcs_chance 15;es_xset wcs_hp 10|es_xset wcs_chance 18;es_xset wcs_hp 20|es_xset wcs_chance 22;es_xset wcs_hp 30|es_xset wcs_chance 38;es_xset wcs_hp 45"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/karen/determination"
+		sfx               = ""
+
+	[[skill3]]
+		setting           = "es_xset wcs_chance 15;es_xset wcs_speed 1.4;es_xset wcs_time 1.4|es_xset wcs_chance 18;es_xset wcs_speed 1.8;es_xset wcs_time 1.8|es_xset wcs_chance 22;es_xset wcs_speed 2;es_xset wcs_time 2|es_xset wcs_chance 38;es_xset wcs_speed 2.5;es_xset wcs_time 2.5"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/karen/excitement"
+		sfx               = ""
+        
+	[[skill4]]
+		setting           = "es_xset wcs_chance 15|es_xset wcs_chance 18|es_xset wcs_chance 22|es_xset wcs_chance 38"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/karen/prejudice"
+		sfx               = ""
+
+	[[skill5]]
+		setting           = "es_xset wcs_speed 1.4;es_xset wcs_time 1.4|es_xset wcs_speed 1.8;es_xset wcs_time 1.8|es_xset wcs_speed 2;es_xset wcs_time 2|es_xset wcs_speed 3;es_xset wcs_time 3"
+		cmd               = "es_xdoblock holliday_wcs/karen/will"
+        sfx               = ""
+		cooldown          = "10"     
+
+
+
+
+
+block spawn
+{
+  //es playerset model event_var(userid) models/player/slow/punkgirl/punkgirl.mdl
+  es_give event_var(userid) env_Smokestack 
+  es_fire event_var(userid) env_smokestack addoutput "targetname spawning"
+  es_fire event_var(userid) spawning addoutput "basespread 180"
+  es_fire event_var(userid) spawning addoutput "spreadspeed 0"
+  es_fire event_var(userid) spawning addoutput "speed 500"
+  es_fire event_var(userid) spawning addoutput "rate 800"
+  es_fire event_var(userid) spawning addoutput "startsize 11"
+  es_fire event_var(userid) spawning addoutput "endsize 3"
+  es_fire event_var(userid) spawning addoutput "twist 80"
+  es_fire event_var(userid) spawning addoutput "jetlength 166"
+  es_fire event_var(userid) spawning addoutput "angles 90 90 90"
+  es_fire event_var(userid) spawning addoutput "rendercolor 255 0 204"
+  es_fire event_var(userid) spawning addoutput "SmokeMaterial sun\overlay.vmt"
+  es_fire event_var(userid) spawning setparent !activator
+  es_fire event_var(userid) spawning turnon
+  es_delayed 5 es_fire event_var(userid) spawning kill
+  es_delayed 2 es_playsound event_var(userid) ambient/voices/f_scream1.wav 1
+  es_keysetvalue wcsuserdata event_var(userid)  karen 1
+}
+
+block arm
+{
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_tell event_var(userid) #multi #lightgreenYou Took #green server_var(wcs_dmg) #lightgreenExtra Damage from Karen's #greenStrong Arm!
+    es_tell event_var(attacker) #multi #lightgreenYou caused #green server_var(wcs_dmg) #lightgreenExtra Damage from Karen's #greenStrong Arm!
+    es_playsound event_var(userid) npc/strider/fire.wav 1
+    es es_xgetplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 1 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 + 40
+    es_delayed .2 es est_effect 10 #a 0.2 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 1 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 + 40
+    es_delayed .4 es est_effect 10 #a 0.4 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 1 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 - 50
+    es_delayed .6 es est_effect 10 #a 0.6 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 1 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 - 40
+    es_delayed .8 es est_effect 10 #a 0.8 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 1 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 - 40
+    es_delayed 1 es est_effect 10 #a 1 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 1 20 300 1.8 255 0 128 255 10
+}
+
+block determination
+{
+    es playerset health event_var(userid) server_var(wcs_hp)
+    es_playsound event_var(userid) ambient/levels/citadel/portal_beam_shoot6.wav 1
+    es_tell event_var(userid) #multi #greenKaren's determination #lightgreen gives you #green server_var(wcs_hp) #lightgreenExtra HP
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 2 100 300 1.8 255 0 153 255 1
+    es_xmath wcs_z1 + 30
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 2 100 300 1.8 255 0 153 255 1
+    es_xmath wcs_z1 + 30
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 2 100 300 1.8 255 0 153 255 1
+    es_xmath wcs_z1 + 30
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 2 100 300 1.8 255 0 153 255 1
+    es_xmath wcs_z1 + 30
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 5000 2 100 300 1.8 255 0 153 255 1
+    es_delayed 2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 5000 20 2 100 300 1.8 255 0 153 255 1
+    es_xmath wcs_z1 + 30
+    es_delayed 2.1 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 5000 20 2 100 300 1.8 255 0 153 255 1
+    es_xmath wcs_z1 - 60
+    es_delayed 2.2 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 5000 20 2 100 300 1.8 255 0 153 255 1
+}
+
+block excitement
+{
+    es_tell event_var(userid) #multi #lightgreen Gained #green server_var(wcs_speed) #lightgreen for #green server_var(wcs_time) #lightgreen Seconds
+    es_playsound event_var(userid) holliday\flip.wav 1
+    es_setplayerprop event_var(userid) cbaseplayer.m_fflags 32.0
+    es_delayed .1 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 110
+    es_delayed .2 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 120
+    es_delayed .3 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 130
+    es_delayed .4 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 140
+    es_delayed .5 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 150
+    es_delayed .6 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 160
+    es_delayed .7 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 170
+    es_delayed .8 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 180
+    es_delayed .9 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 0
+    es_playsound event_var(userid) ambient/creatures/town_scared_sob2.wav 1
+    es_playsound event_var(attacker) ambient/creatures/town_scared_sob2.wav 1
+    es_delayed 1 es_playsound event_var(userid) npc/stalker/go_alert2a.wav 1
+    es_delayed 1 es_playsound event_var(attacker) npc/stalker/go_alert2a.wav 1
+    es_delayed 0 es_cexec event_var(attacker) r_screenoverlay models\gman\gman_face_map3.vmt
+    es_delayed 1 es_cexec event_var(attacker) r_screenoverlay 0
+    es_playsound event_var(attacker) npc/stalker/go_alert2a.wav 1
+    es_playsound event_var(userid) ambient/voices/f_scream1.wav 1
+    es_tell event_var(userid) #multi #lightgreen you have Screamed at #green event_var(es_attackername)  
+    es_give event_var(userid) env_Smokestack 
+    es_fire event_var(userid) env_Smokestack addoutput "classname smokey"
+    es_fire event_var(userid) smokey addoutput "basespread 22"
+    es_fire event_var(userid) smokey addoutput "spreadspeed 10"
+    es_fire event_var(userid) smokey addoutput "speed 200"
+    es_fire event_var(userid) smokey addoutput "startsize 19"
+    es_fire event_var(userid) smokey addoutput "endsize 7"
+    es_fire event_var(userid) smokey addoutput "rate 75"
+    es_fire event_var(userid) smokey addoutput "jetlength 300"
+    es_fire event_var(userid) smokey addoutput "twist 0"
+    es_fire event_var(userid) smokey addoutput "SmokeMaterial effects/bluespark.vmt"
+    es_fire event_var(userid) smokey addoutput "angles 0 90 0"
+    es_fire event_var(userid) smokey addoutput "rendermode 18"
+    es_fire event_var(userid) smokey addoutput "renderamt 1000"
+    es_fire event_var(userid) smokey addoutput "rendercolor 255 0 204"
+    es_fire event_var(userid) smokey setparent !activator
+    es_fire event_var(userid) smokey turnon  
+    es_delayed 2 es_fire event_var(userid) smokey kill
+}
+
+block prejudice
+{
+    es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" -2000,2000,2000
+    es_delayed 1 es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" 0,0,0
+    es_tell event_var(attacker) #multi #lightgreenYou have given #green event_var(es_username) a #headache!
+    es_tell event_var(userid) #multi #green Karen has Given you a #headache!
+    es_delayed 1 es_playsound event_var(userid) npc/stalker/go_alert2a.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 90
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 30 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 + 95
+    es_delayed .1 es est_effect 10 #a .1 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 + 90
+    es_delayed .2 es est_effect 10 #a .2 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 30 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 + 95
+    es_delayed .3 es est_effect 10 #a .3 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 + 90
+    es_delayed .4 es est_effect 10 #a .4 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 30 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 + 95
+    es_delayed .5 es est_effect 10 #a .5 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 - 90
+    es_delayed .6 es est_effect 10 #a .6 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 30 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 - 95
+    es_delayed .7 es est_effect 10 #a .7 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 - 90
+    es_delayed .8 es est_effect 10 #a .8 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 30 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 - 95
+    es_delayed .9 es est_effect 10 #a .9 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 - 90
+    es_delayed 1 es est_effect 10 #a 1 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 30 .3 76 10 .5 215 10 20 255 50
+    es_xmath wcs_z1 - 95
+    es_delayed 1.1 es est_effect 10 #a 1.1 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 .3 76 10 .5 215 10 20 255 50
+}
+
+block will
+{
+    es_keysetvalue wcsuserdata server_var(wcs_userid) rage 1
+    es_playsound server_var(wcs_userid) ambient/levels/citadel/portal_beam_shoot6.wav 1
+    es playerset speed server_var(wcs_userid) server_var(wcs_speed)
+    es_delayed server_var(wcs_time) es playerset speed server_var(wcs_userid) 1
+    es_tell server_var(wcs_userid) #multi #lightgreenGained #green server_var(wcs_speed) Speed for server_var(wcs_time) #lightgreen seconds
+    es_give server_var(wcs_userid) env_smokestack 
+    es_fire server_var(wcs_userid) env_smokestack addoutput "classname karen"
+    es_fire server_var(wcs_userid) karen addoutput "basespread 108"
+    es_fire server_var(wcs_userid) karen addoutput "spreadspeed 500"
+    es_fire server_var(wcs_userid) karen addoutput "initial 0"
+    es_fire server_var(wcs_userid) karen addoutput "speed 300"
+    es_fire server_var(wcs_userid) karen addoutput "startsize 15"
+    es_fire server_var(wcs_userid) karen addoutput "endsize 16"
+    es_fire server_var(wcs_userid) karen addoutput "rate 200"
+    es_fire server_var(wcs_userid) karen addoutput "jetlength 20"
+    es_fire server_var(wcs_userid) karen addoutput "twist 100"
+    es_fire server_var(wcs_userid) karen addoutput "SmokeMaterial sun\overlay.vmt"
+    es_fire server_var(wcs_userid) karen addoutput "angles 90 90 90"
+    es_fire server_var(wcs_userid) karen addoutput "rendermode 18"
+    es_fire server_var(wcs_userid) karen addoutput "renderamt 100"
+    es_fire server_var(wcs_userid) karen addoutput "rendercolor 255 0 204"
+    es_fire server_var(wcs_userid) karen addoutput "twist 80"
+    es_fire server_var(wcs_userid) karen setparent !activator
+    es_fire server_var(wcs_userid) karen turnon
+    es_delayed server_var(wcs_time) es_fire server_var(wcs_userid) karen kill
+    es_delayed server_var(wcs_time) es_keysetvalue wcsuserdata server_var(wcs_userid) rage 0
+}
+
+event player_hurt
+{
+  es_keygetvalue wcs_tmp1 wcsuserdata event_var(attacker) rage
+  if (server_var(wcs_tmp1) = 1) do
+  { 
+   es_playsound event_var(attacker) ambient/creatures/town_child_scream1.wav 1
+   es_playsound event_var(userid) ambient/creatures/town_child_scream1.wav 1
+   es wcs damage event_var(userid) event_var(attacker) 10
+   es_tell event_var(attacker) #multi #green you Caused 10 extra damage
+   es_tell event_var(userid) #multi #green Karen Caused you 10 extra damage
+  }
+}
+
+event player_death
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) karen
+  if (server_var(wcs_tmp) >= 1) do
+  { 
+   es_playsound event_var(userid) ambient/creatures/town_child_scream1.wav 1
+   es_keysetvalue wcsuserdata event_var(userid) karen 0
+  }
+}

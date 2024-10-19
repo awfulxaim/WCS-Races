@@ -1,0 +1,15 @@
+Unforgiven
+
+Requires total level 1090
+
+Stamina
+You spawn with 125/150/175/200 HP, Long jump of 1.3/1.5/1.8/2.0, and 8/28/63/74% reduced gravity. while in the air you have 45/75/85/99% invisibility.
+
+Ice Block
+8/11/15/33% chance on hit to bash the enemy for 1/1.2/1.6/2 seconds and deal 5/10/12/15 extra damage to them. enemies affected by this skill have standing accuracy while bashed.
+
+Grenades
+You spawn with an HE grenade. When you throw a HE, you instantly get a new one up to 3/4/5/6 times per spawn.
+
+God Mode (ultimate)
+instantly teleport to the location you are aiming at up to 750/920/1000/2600 units away and become invulnerable for 1/1.1/1.4/1.5 seconds. 15 second cooldown

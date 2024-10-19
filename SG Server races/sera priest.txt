@@ -1,0 +1,21 @@
+Sera Priest
+
+requires total level 150. limited to 1 per team.
+
+Aspersio
+30% chance on hit to deal 30/35/40/45/50/55/60% extra damage.
+
+Kyrie Eleison
+8/10/12/14/16/18/20% chance to evade.
+
+Lex Divina
+14/28/42/56/70/84/100% chance to spawn with ultimate immunity.
+
+Resurrection
+10/20/30/40/50/60/70% chance to respawn the first 1/1/1/1/1/1/2 teammates to die.
+
+Magnus Exorcismus
+2/3/4/5/6/7/8% chance when you die to instantly kill your killer.
+
+Sanctuary (ultimate)
+You regen 2/3/4/5/6/7/8 HP per second for 15 seconds. 40 second cooldown.

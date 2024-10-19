@@ -1,0 +1,21 @@
+vek'lor
+
+1 per team
+
+Heal Brother (ability)
+Heal a vek'nilash teammate for 3/6/9/12/15/18/21/25 HP. 15 second cooldown.
+
+Twin Teleport (ability2)
+Teleport a vek'nilash teammate to you after 1 second. 30/28/26/24/22/20/18/15 second cooldown.
+
+Shadow Bolt
+15% chance on hit to deal 30/40/50/60/70/80/90/100% more damage.
+
+Frost Bolt
+20% chance on hit to slow the enemy by 15/20/25/30/35/40/45/50% for 6 seconds. If the enemy has greater than 150% movement speed, set their speed to 1.00 instead.
+
+Nether Protection
+10/13/16/19/22/25/28/30% chance to evade damage greater than or equal to 15. You have a 15/20/25/30/35/40/45/50% chance if you would take damage greater than 50, to take 50 damage instead.
+
+Arcane Burst
+You deal 10 damage to all enemies in a 200/300/350/400/450/500/550/600 unit radius every 5 seconds.

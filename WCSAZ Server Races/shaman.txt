@@ -1,0 +1,19 @@
+Shaman
+
+Chain Heal
+Heal your entire team for 1/1/1/1/2/2/2/3 HP per second to a max of 100 HP.
+
+Earth Fire Wind Air (ability)
+Lay four 200 radius wards in a square 100 units around you. each ward deals 15 damage per second and last 10 seconds. once per round.
+
+Nature's Guardian
+Spawn with 30/40/50/60/70/80/90/100 more HP and 30/40/50/60/70/80/90/100 armor and helmet.
+
+Reincarnation
+You have a 15/25/35/45/55/65/75/80% chance when you die to respawn after 4-6.5 seconds (rolled randomly) at the location you died at with all of the guns and equipment you had when you died, once per round.
+
+Earth Shield
+4/8/12/16/20/25% chance to evade.
+
+Bloodlust (ultimate)
+You entire team gets 3/4/5/6/7/8/9/10 extra damage and 3/6/9/12/15/18/21/24% increased movement speed for 10 seconds. 45 second cooldown.

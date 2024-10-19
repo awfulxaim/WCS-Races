@@ -1,0 +1,15 @@
+Headcrab
+
+knife only, has a headcrab model.
+
+Four Legs
+Spawn with 10/15/20/25/30/35/40/45% increased movement speed.
+
+Pounce
+Spawn with 8/16/24/32/40/48/56/65% decreased gravity.
+
+Crab Attack
+Spawn with longjump. your jump distance is increased by 35/50/65/78/90/100/110/120%.
+
+Crab Claw (ultimate)
+Begin to fly. You gain 5/9/12/15/18/20/22/25 HP while flying and lose that HP when you stop flying. If you would have less than 1 HP when you stop flying, you die. 6/5/4/3/3/2/2/1 second cooldown.

@@ -1,0 +1,15 @@
+Recon Scout
+
+requires total level 100. max of 2 per team.
+
+Vanish (ability)
+Become 100% invisible for 5/6/7/8 seconds. you cannot shoot while invis and for 1 second after leaving invis. press ability again to cancel this effect early.
+
+True Sight
+Enemies within a 400/550/700/800 unit radius of you lose all of their invisibility while they are in that area.
+
+Disarm
+6/9/12/15% chance on hit to disarm the enemy
+
+Marksman Shot
+Standing still for 1 second causes your shots to deal up to 150/200/225/250% more damage. each 100 units away the enemy is increases the damage by 15/20/22.5/25%. if you move, you can keep this effect for 1 second.

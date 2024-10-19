@@ -1,0 +1,18 @@
+High Elf Archer
+
+requires total level 670.
+
+Quiver
+Your primary has 5/10/15/20 more ammo in its clip. your secondary has 4/6/8/10 more ammo in its clip.
+
+Enchanted Arrows
+100% chance on hit to deal 3-7/4-8/5-9/6-10 extra damage rolled randomly. If your ult is active this also sets the enemy to .75 movement speed for 1/1.4/1.75/2 seconds.
+
+Precision Shot
+8/11/22/33% chance on hit to cause the enemy to drop either their primary or secondary weapon rolled randomly.
+
+Evasion
+5/10/15/33% chance to evade.
+
+Icy Arrows (ultimate)
+For the next 2/3/4/5 seconds your Enchanted Arrows also slow enemies. 15/12/10/8 second cooldown.

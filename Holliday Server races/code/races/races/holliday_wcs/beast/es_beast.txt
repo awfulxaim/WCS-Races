@@ -1,0 +1,70 @@
+block load
+{
+  es_xset beast "coded by holliday"
+  es_xmakepublic beast
+}
+
+block spawn
+{
+  es_playsound event_var(userid) npc/ichthyosaur/attack_growl1.wav 1
+  es_delayed 1.5 es_playsound event_var(userid) npc/ichthyosaur/attack_growl3.wav 1
+  es playerset color event_var(userid) 255 55 0 255
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 100 100 0 255 55 0 255 10
+}
+
+block rage
+{
+  es_xrand wcs_damage 5 10
+  es_playsound event_var(userid) ambient/levels/prison/inside_battle_antlion3.wav 1
+  es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+  es_tell event_var(userid) #multi #lightgreen you got #green server_var(wcs_damage) #lightgreen extra damage
+  es_tell event_var(attacker) #multi #lightgreen you caused #green server_var(wcs_damage) #lightgreen extra damage
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 100 100 0 255 55 0 255 10
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z2 + 20
+  es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 0.5 20 60 255 50 0 255
+}
+
+block resurrection
+{
+  es_playsound event_var(userid) npc/antlion/attack_single4.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 11 #a 0 sprites/fire2.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 1 255
+  es_delayed 3 wcs spawn event_var(userid) 1
+  es_delayed 3.5 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_delayed 3 es_tell event_var(userid) : you have been resurrected.
+}
+
+block burning_blind
+{
+  es_playsound event_var(attacker) npc/ichthyosaur/attack_growl3.wav 1
+  es_playsound event_var(userid) npc/ichthyosaur/attack_growl3.wav 1
+  es_xusermsg create fade fade
+  es_xusermsg write short fade 1000
+  es_xusermsg write short fade 5
+  es_xusermsg write short fade 0
+  es_xusermsg write byte fade 0
+  es_xusermsg write byte fade 0
+  es_xusermsg write byte fade 0
+  es_xusermsg write byte fade 255
+  es_usermsg send fade event_var(userid) 0.3
+  es_xusermsg delete fade
+  es wcs_setfx burn event_var(userid) .5
+  es_tell event_var(attacker) you have burned and blinded your enemy
+  es_tell event_var(userid) you have been burned and blinded
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 11 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 100 100 0 255 55 0 255 10
+}
+
+block teleport
+{
+  es_playsound server_var(wcs_userid) npc/ichthyosaur/attack_growl3.wav 1
+  es_xdoblock wcs/tools/ultimates/default/wcs_ulti_teleport
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 500 3 100 100 0 255 55 0 255 10
+
+}

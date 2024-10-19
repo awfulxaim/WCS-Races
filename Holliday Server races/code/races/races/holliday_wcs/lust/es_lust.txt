@@ -1,0 +1,171 @@
+block load
+{
+    es_xset usermodel 0
+    es_xset lust 0
+}
+
+event player_death
+{
+    es_keysetvalue wcsuserdata event_var(userid) lust 0
+    es_keysetvalue wcsuserdata event_var(userid) orbs 0
+}
+
+block spawn
+{
+    if (event_var(es_userteam) = 3) then es playerset model event_var(userid) models/player/ct_urban.mdl
+    if (event_var(es_userteam) = 2) then es playerset model event_var(userid) models/player/t_phoenix.mdl
+}
+
+block multit
+{
+    es_getplayerteam wcs_team event_var(userid)
+    if (server_var(wcs_team) = 2) then es_set usermodel models/player/t_phoenix.mdl
+    if (server_var(wcs_team) = 3) then es_set usermodel models/player/ct_urban.mdl
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_y2 + 10
+    es est_effect 11 #a 0 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 255
+    es_xmath wcs_y2 + 30
+    es est_effect 11 #a 0.1 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 100
+    es_xmath wcs_y2 + 30
+    es est_effect 11 #a 0.2 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 200
+    es_xmath wcs_y2 - 30
+    es est_effect 11 #a 0 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 55
+    es_xmath wcs_y2 - 30
+    es est_effect 11 #a 0.1 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 100
+    es_xmath wcs_y2 - 30
+    es est_effect 11 #a 0.2 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 200
+    es_xmath wcs_y2 + 50
+    es_xmath wcs_x2 + 30
+    es est_effect 11 #a 0.1 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 55
+    es_xmath wcs_x2 + 30
+    es est_effect 11 #a 0.2 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 200
+    es_xmath wcs_x2 + 30
+    es_xmath wcs_x2 - 120
+    es est_effect 11 #a 0.1 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 55
+    es_xmath wcs_x2 - 30
+    es est_effect 11 #a 0.2 server_var(usermodel) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(multitime) 1 200
+    es playerset color event_var(userid) 255 255 255 0 
+    es_delayed server_var(multitime) es playerset color event_var(userid) 255 255 255 255
+    es wcs pushto event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 2.5
+    es est_effect 10 #a 0 effects/redflare.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 350 1 90 200 0 155 155 155 155 2
+}
+
+block dash
+{
+    es_keysetvalue wcsuserdata event_var(userid) lust 1
+    es_tell event_var(userid) #multi #lightgreen use your #greendagger #lightgreento perform an extremely fast #greendash attack
+}
+
+block orbs
+{
+    es_keysetvalue wcsuserdata event_var(userid) orbs 1
+    es_tell event_var(userid) #multi #lightgreen gain health from the #greenorbs #lightgreenhidden inside #greenbreakable items
+    es_fire event_var(userid) prop_physics_multiplayer dispatcheffect smoke
+    es_tell event_var(userid) #multi #lightgreen a colored smoke has been called to aid you
+}
+
+block lustfire
+{   
+    es_xset wcs_team_target 0
+	es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+			es usermsg fade server_var(wcs_userid) 1 1 1 255 0 153 100
+			es_xset wcs_wall 1
+            es_xset wcs_counter 0
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+			es wcs_nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) "es_xdoblock holliday_wcs/lust/ultimate"
+			else es_xset wcs_ultinotexec 1
+		}
+		else do
+		{
+			es_xset wcs_ultinotexec 1
+		}
+	}
+	if (server_var(wcs_ultinotexec) = 1) then wcs_cancelulti server_var(wcs_userid)
+    if (server_var(wcs_ultinotexec) = 1) then es_tell server_var(wcs_userid) #multi #lightgreenNot close enough to an #greenEnemy Target
+}
+
+
+block ultimate
+{
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_targetid)
+    es_xmath wcs_z1 + 50
+    es_xmath wcs_z2 + 50
+    es_xmath wcs_counter + 1
+    es_playsound server_var(wcs_userid) ambient/fire/gascan_ignite1.wav 1
+    es_delayed .4 es wcs burn server_var(wcs_targetid) 1
+    es wcs damage server_var(wcs_targetid) server_var(wcs_userid) 25
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/fireburst.vmt server_var(vector2) server_var(vector1) 100 .3 17 11 10 10 228 228 228 255 100
+    es est_effect_08 #a 0 sprites/fire.vmt server_var(vector2) 50 40 1 .5 90 400 0 255 255 255 255 10 1
+    es est_effect_08 #a 0 sprites/fire.vmt server_var(vector2) 40 50 1 .5 90 400 0 255 255 255 255 10 1
+    es_createvectorstring vector1 0 0 900
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/fireburst.vmt server_var(vector2) server_var(vector1) 100 .3 17 11 10 10 228 228 228 255 100
+    es est_effect_08 #a 0 sprites/fire.vmt server_var(vector1) 5000 40 1 .5 90 400 0 255 255 255 255 10 1
+    es est_effect_08 #a 0 sprites/fire.vmt server_var(vector1) 40 5000 1 .5 90 400 0 255 255 255 255 10 1
+}
+
+event weapon_fire
+{
+    es_keygetvalue lust wcsuserdata event_var(userid) lust
+    if (server_var(lust) != 0) do   
+    {
+        if (event_var(weapon) = knife) do
+        {
+            es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+            es playerget viewcoord event_var(userid) wcs_x2 wcs_y2 wcs_z2
+            es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+            es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+            es_delayed .1 es wcs pushto event_var(userid) server_var(vector2) 40
+            es_xmath wcs_y1 + 50
+            es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+            es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+            es est_effect_06 #a .2 sprites/plasmabeam.vmt server_var(vector1) server_var(vector2) 100 .3 5 5 10 .3 228 108 108 255 20
+            es_xmath wcs_y1 - 100
+            es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+            es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+            es est_effect_06 #a .2 sprites/plasmabeam.vmt server_var(vector1) server_var(vector2) 100 .3 5 5 10 .3 228 108 108 255 20
+            es_keysetvalue wcsuserdata event_var(userid) lust 0
+            es_delayed 4 es_keysetvalue wcsuserdata event_var(userid) lust 1
+            es_tell event_var(userid) #multi #lightgreendagger dash ! cooldown time is #green1 seconds
+        }
+    }
+}
+
+event break_prop 
+{
+  es_keygetvalue orbs wcsuserdata event_var(userid) orbs
+  if (server_var(orbs) = 1) do   
+  {
+    es_xset orb 0
+    es_xrand orb 2 8
+    es_tell event_var(userid) #multi #lightgreenyou have gained #green server_var(orb) hp #lightgreen from the #greenred orb
+    es playerset healthadd event_var(userid) server_var(orb)
+    es_xset vector1 z1
+    es_xset vector2 z2
+    es est_getviewcoord event_var(userid) wcs_x1 wcs_y1 wcs_z1
+    es est_getviewcoord event_var(userid) wcs_x2 wcs_y2 wcs_z2
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_14 #a 0 effects/redflare.vmt server_var(vector2) server_var(vector2) 300 5 10
+  }
+}

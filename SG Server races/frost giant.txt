@@ -1,0 +1,15 @@
+Frost Giant
+
+Nova and knife only. requires total level 350. limited to 2 per team.
+
+Frost Shards
+5/8/11/14/17/20% chance on hit to deal 10/14/18/20/22/24 extra damage.
+
+Deep Freeze
+5/8/11/14/17/20% chance on hit to bash the enemy for 2 seconds.
+
+Ice Armor
+Spawn with 25/50/75/100/125/150 armor. your armor takes 20/25/30/35/40/45/50% of the damage you take.
+
+Frost Stomp (ultimate)
+Paralyze all enemies in a 250 unit radius for 1/1.5/1.75/2/2.25/2.5 seconds. after that duration impale those enemies and deal 4/8/12/16/20/24 damage to those enemies.

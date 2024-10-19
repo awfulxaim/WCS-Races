@@ -1,0 +1,15 @@
+Blackout
+
+has .5 movement speed. your screen shakes for .5 seconds when you take a step and you make a really loud stomping noise when you take a step. requires total level 990. has a combine helicopter model from hl2.
+
+High Jump
+Add 100/300/350/400 units to your jump height. you take no fall damage
+
+Maximum Strength
+Spawn with 15/30/50/77 more HP and 20/30/50/100 armor and helmet.
+
+Rotor Weapon
+15/18/22/38% chance when you spawn to increase your fire rate with the knife 100x
+
+Transform (ultimate)
+Become a helicopter. (you get the combine helicopter model from HL2) you get an m249 with 200 rounds in the mag. you are pushed 500 units into the air and begin to fly. your bullets deal damage in a 10 unit radius of where they land. you have no recoil. When you run out of ammo or you press ultimate again, you turn back into your normal player model and get your gun back.

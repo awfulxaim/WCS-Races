@@ -1,0 +1,123 @@
+block spawn
+{
+    es wcs_restrict event_var(userid) galil,ak47,sg552,awp,g3sg1,famas,m4a1,aug,sg550,glock,usp,elite,fiveseven,m3,xm1014,mac10,tmp,mp5navy,ump45,p90,m249,scout
+    es wcs_restrict event_var(userid) addallow weapon_p228
+    es wcs_restrict event_var(userid) addallow weapon_knife
+    es wcs_restrict event_var(userid) addallow weapon_c4
+    es wcs_restrict allow event_var(userid) knife
+    es wcs strip event_var(userid)
+    es_delayed .1 es_give event_var(userid) weapon_knife
+    es_delayed .1 es_give event_var(userid) weapon_p228
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es est_effect 10 #a 0 sprites/water_drop.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 5000 .5 40 400 3 155 155 155 255 10
+    es est_effect 10 #a 0 sprites/water_drop.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 5000 10 .5 40 400 3 155 155 155 255 10
+    es_playsound event_var(userid) weapons/p228/p228-1.wav
+    es_delayed .1 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .2 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .3 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .4 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .5 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .6 es_playsound event_var(userid) weapons/p228/p228_clipin.wav 1
+    es_delayed .7 es_playsound event_var(userid) weapons/p228/p228_clipout.wav 1
+    es_delayed .8 es_playsound event_var(userid) weapons/p228/p228_slidepull.wav 1
+    es_delayed .9 es_playsound event_var(userid) weapons/p228/p228_sliderelease.wav 1
+    es_delayed 2 es playerset ammo event_var(userid) 2 200
+}
+
+block strike
+{
+    es_set wcs_dmg event_var(dmg_health)
+    es_xmath wcs_dmg float
+    es_math wcs_dmg * server_var(wcs_multiplier)
+    es wcs_decimal wcs_dmg server_var(wcs_dmg)
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es wcs_xcentertell event_var(attacker) c_damage dmg server_var(wcs_dmg)
+    es wcs_xcentertell event_var(userid) c_damage dmg server_var(wcs_dmg)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es_xmath wcs_z1 + 40
+    es_xmath wcs_z2 + 40
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 1 13 16 255 75 25 255
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 5000 .5 100 300 1.8 175 175 255 255 1
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 500 20 .5 100 300 3.8 255 75 25 255 5
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 500 10 .5 50 100 2 255 75 25 255 2
+    es_playsound event_var(userid) weapons/hegrenade/explode4.wav 1
+    es_playsound event_var(attacker) weapons/hegrenade/explode4.wav 1
+    es_delayed .1 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .2 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .3 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .4 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .5 es_playsound event_var(userid) weapons/p228/p228-1.wav 1
+    es_delayed .1 es_playsound event_var(attacker) weapons/p228/p228-1.wav 1
+    es_delayed .2 es_playsound event_var(attacker) weapons/p228/p228-1.wav 1
+    es_delayed .3 es_playsound event_var(attacker) weapons/p228/p228-1.wav 1
+    es_delayed .4 es_playsound event_var(attacker) weapons/p228/p228-1.wav 1
+    es_delayed .5 es_playsound event_var(attacker) weapons/p228/p228-1.wav 1
+}
+
+block poison
+{
+    es_delayed 1 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 2 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 3 es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+    es_delayed 1 es_tell event_var(attacker) #multi #lightgreen Caused #green server_var(wcs_dmg) #lightgreen to event_var(es_username)
+    es_delayed 2 es_tell event_var(attacker) #multi #lightgreen Caused #green server_var(wcs_dmg) #lightgreen to event_var(es_username)
+    es_delayed 3 es_tell event_var(attacker) #multi #lightgreen Caused #green server_var(wcs_dmg) #lightgreen to event_var(es_username)
+    es_delayed 1 es_tell event_var(userid) #multi #green event_var(es_attackername) #lightgreen caused you #green server_var(wcs_dmg) extra damage
+    es_delayed 2 es_tell event_var(userid) #multi #green event_var(es_attackername) #lightgreen caused you #green server_var(wcs_dmg) extra damage
+    es_delayed 3 es_tell event_var(userid) #multi #green event_var(es_attackername) #lightgreen caused you #green server_var(wcs_dmg) extra damage
+    es_delayed 1 es wcs_setfx burn event_var(userid) 1 1 .5
+    es_delayed 2 es wcs_setfx burn event_var(userid) 1 1 .5
+    es_delayed 3 es wcs_setfx burn event_var(userid) 1 1 .5
+}
+
+block leech
+{
+    es_set wcs_dmg event_var(dmg_health)
+    es_xmath wcs_dmg float
+    es_math wcs_dmg / server_var(wcs_divider)
+    es wcs_decimal wcs_dmg server_var(wcs_dmg)
+    es wcs_setfx health event_var(attacker) + server_var(wcs_dmg) 0
+    es wcs_xcentertell event_var(attacker) c_leeched_a dmg server_var(wcs_dmg)
+    es wcs_xcentertell event_var(userid) c_leeched_v dmg server_var(wcs_dmg)
+    es_playsound event_var(userid) npc/headcrab_poison/ph_poisonbite3.wav 1
+    es_playsound event_var(attacker) npc/headcrab_poison/ph_poisonbite3.wav 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 90 .6 60 20 0 255 0 0 255 1
+    es est_effect 10 #a 0 particle\particle_noisesphere.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 .6 5 10 0 255 0 0 255 1
+    es_xmath wcs_z2 + 20
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 90 .6 60 20 0 255 0 0 255 1
+    es est_effect 10 #a 0 particle\particle_noisesphere.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 .6 5 10 0 255 0 0 255 1
+    es_xmath wcs_z2 + 20
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 90 .6 60 20 0 255 0 0 255 1
+    es est_effect 10 #a 0 particle\particle_noisesphere.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 .6 5 10 0 255 0 0 255 1
+    es_xmath wcs_z2 + 20
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 90 .6 60 20 0 255 0 0 255 1
+    es est_effect 10 #a 0 particle\particle_noisesphere.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 .6 5 10 0 255 0 0 255 1
+    es_xmath wcs_z2 + 20
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 90 .6 60 20 0 255 0 0 255 1
+    es est_effect 10 #a 0 particle\particle_noisesphere.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 .6 5 10 0 255 0 0 255 1
+    es_xmath wcs_z2 + 20
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 200 90 .6 60 20 0 255 0 0 255 1
+    es est_effect 10 #a 0 particle\particle_noisesphere.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 80 90 .6 5 10 0 255 0 0 255 1
+    es_xmath wcs_y1 + 50
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a .2 sprites/glow04_noz.vmt server_var(vector2) server_var(vector1) 100 1 15 10 10 0 228 0 0 255 100
+    es_xmath wcs_y1 - 100
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a .2 sprites/glow04_noz.vmt server_var(vector1) server_var(vector2) 100 1 15 10 10 0 228 0 0 255 100
+}
+
+block speed
+{
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_tell event_var(userid) #multi #lightgreen Gained #green server_var(wcs_speed) Speed!
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_alpha)
+    es_fire event_var(userid) !self addoutput "renderfx 2"
+    es_tell event_var(userid) #multi #greenFading Invisibility #lightgreen activated
+}

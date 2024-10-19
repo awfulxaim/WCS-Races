@@ -1,0 +1,15 @@
+James Bond
+
+USP-S and knife only. you have 200 rounds per clip. requires total level 2010.
+
+Head Shot
+40/60/80/100% chance on headshot to deal 50/70/80/150 extra damage.
+
+Speed
+spawn with 50/80/100/150% increased movement speed.
+
+Invisibility
+Spawn with 32/61/71/78% invisibility.
+
+Teleport (ultimate)
+Become 100% invisible and lose your weapons. Ignore gravity and push yourself constantly in the direction you are aiming. the max distance you can travel during this is 820/920/1000/1080 units or 3/4/5/7 second. press ultimate again to cancel all of these effects. no cooldown.

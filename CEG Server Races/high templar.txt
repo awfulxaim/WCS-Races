@@ -1,0 +1,18 @@
+High Templar
+
+requires total level 620
+
+Khaydarin Amulet
+Spawn with 5/10/15/20/25/30 more HP
+
+Plasma Shield
+Reduce the damage you take by 5/10/15/20/25/30%.
+
+Psi Storm (ability)
+Lay a 150 unit radius ward that deals 10 damage per second to enemies who enter its radius. this ward lasts 10 seconds. 20 second cooldown.
+
+Phase Shift (ability2)
+Become 100% invisible and invulnerable for 5 seconds. you cannot shoot while this is active. 20 second cooldown.
+
+Protoss Armor (ultimate)
+For the next 1/2/3/4/5 seconds when you would take lethal damage to evade that damage and instantly teleport back to spawn. 25 second cooldown.

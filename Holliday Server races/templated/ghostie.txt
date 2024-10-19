@@ -1,0 +1,18 @@
+Ghostie
+
+requires total level 600
+
+Ghost
+2/4/6/8/10% chance when hit to become 100% invisible for 2 seconds and instantly teleport where you are aiming up to 1500 units away.
+
+Ghost Beam
+2/4/6/8/10% chance on hit to deal 8-10 extra damage
+
+Illusive
+10/15/20/24/25% chance when hit to evade and become invulnerable for 1 second.
+
+Swift
+Spawn with 10/20/30/40/50% decreased gravity and 10/20/30/35/40% increased movement speed
+
+Fly (utlimate)
+Begin flying and gain 5/10/15/20/25 HP while flying. 4/3/2/1/0 second cooldown.

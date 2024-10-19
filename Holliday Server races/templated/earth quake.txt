@@ -1,0 +1,15 @@
+Earth Quake
+
+requires total level 550. has a brown player model
+
+Earth Shake
+2/4/6/8/33% chance on hit to shake the enemy for 1 second.
+
+Quake Shake
+2/4/6/8/33% chance when hit to shake the enemy for 1 second.
+
+After Shock
+10/20/30/40/50% chance on death to deal 35 damage to the enemy and shake them for 1 second.
+
+Earth Quake (ultimate)
+Enemies in a 375 unit radius are shook for 3 seconds, during the shake they are bounced around in random directions for 1.5 seconds, then bashed for 1 second. enemies affected by this take 5/10/15/20/25 damage. 18 second cooldown.

@@ -1,0 +1,16 @@
+Pancake Man
+
+Maple Syrup
+10/15/20/22/25% chance on hit to bash the enemy for 1 second.
+
+Buttery
+Spawn with 10/30/50/70/80% increased movement speed
+
+Fork and Knife
+15% chance on hit to deal 100/120/140/160/180% increased damage.
+
+Hearty Meal
+Spawn with 5/10/15/20/25 more HP.
+
+Pancake POWER (ultimate)
+heal for 25 HP and become invulnerable for 1.5/2/2.1/2.2/2.5 seconds. 30 second cooldown.

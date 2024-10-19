@@ -1,0 +1,15 @@
+Static
+
+requires total level 510. has a light blue player model.
+
+Static Flash
+20/40/60/80/95% chance on spawn to set your playermodel to render effect 11 (11: Faster Strobe (transparent 0.09 s, visible 0.09 s, repeat))
+
+Static Shock
+10/12/18/33% chance on hit to deal 3-6/6-9/9-12/12-15/15-18 damage, rolled randomly. when this procs a beam of lightning connects you and your enemy's player model for 10 seconds.
+
+Static Wave
+2/6/10/25/40% chance when hit to deal 10-12 damage rolled randomly to the enemy who hit you. when this procs a sparking effect appears on that enemy.
+
+Static Charge (utlimate)
+All enemies in a 175/250/300/350/400 unit radius swap places with another random enemy.

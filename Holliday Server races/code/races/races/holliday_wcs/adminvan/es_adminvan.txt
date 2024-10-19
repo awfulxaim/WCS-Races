@@ -1,0 +1,115 @@
+block spawn
+{
+    es_keysetvalue wcsuserdata event_var(userid) hegrenadev 1
+    es_delayed .1 es_give event_var(userid) weapon_hegrenade
+    es playerset health event_var(userid) 1
+    es wcs strip event_var(userid)
+    es wcs_restrict event_var(userid) galil,ak47,sg552,awp,g3sg1,famas,m4a1,aug,sg550,elite,fiveseven,m3,xm1014,mac10,tmp,mp5navy,ump45,p90,m249,glock,scout,p228,deagle,usp
+    es wcs_restrict event_var(userid) addallow weapon_knife
+    es wcs_restrict event_var(userid) addallow weapon_c4
+    es wcs_restrict allow event_var(userid) knife
+    es_delayed .1 es_give event_var(userid) weapon_knife
+    es_playsound event_var(userid) weapons/knife/knife_deploy1.wav 1
+    es_delayed .1 es_playsound event_var(userid) weapons/knife/knife_hit1.wav 1
+    es_delayed .2 es_playsound event_var(userid) weapons/knife/knife_hit2.wav.wav 1
+    es_delayed .3 es_playsound event_var(userid) weapons/knife/knife_hit3.wav 1
+    es_delayed .4 es_playsound event_var(userid) weapons/knife/knife_hit4.wav 1
+    es_delayed .5 es_playsound event_var(userid) weapons/knife/knife_hitwall1.wav 1
+    es_delayed .6 es_playsound event_var(userid) weapons/knife/knife_slash1.wav 1
+    es_delayed .7 es_playsound event_var(userid) weapons/knife/knife_slash2.wav 1
+    es_delayed .8 es_playsound event_var(userid) weapons/knife/knife_stab.wav 1
+    es_entcreate event_var(userid) point_tesla 
+    es_fire event_var(userid) point_tesla addoutput "m_SoundName weapons/knife/knife_hit1.wav" 
+    es_fire event_var(userid) point_tesla addoutput "m_Color 255 204 0" 
+    es_fire event_var(userid) point_tesla addoutput "m_flRadius 180"  
+    es_fire event_var(userid) point_tesla addoutput "beamcount_min 30"
+    es_fire event_var(userid) point_tesla addoutput "beamcount_max 60"  
+    es_fire event_var(userid) point_tesla addoutput "thick_min 10"
+    es_fire event_var(userid) point_tesla addoutput "thick_max 60"  
+    es_fire event_var(userid) point_tesla addoutput "lifetime_min 1"
+    es_fire event_var(userid) point_tesla addoutput "lifetime_max 1"
+    es_fire event_var(userid) point_tesla addoutput "interval_min .3"
+    es_fire event_var(userid) point_tesla addoutput "interval_max 6"
+    es_fire event_var(userid) point_tesla TurnOn  
+    es_fire event_var(userid) point_tesla DoSpark    
+    es_fire event_var(userid) point_tesla setparent !activator
+    es_delayed 1 es_fire event_var(userid) point_tesla kill
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+    es est_effect 10 #a 0.1 sprites/glow.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 100 1 10 10 0 255 255 255 255 50
+    es_xmath wcs_z2 + 40
+    es est_effect 10 #a 0.1 sprites/glow.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 1000 1 10 10 0 255 255 255 255 50
+}
+
+event weapon_fire
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) hegrenadev
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_give event_var(userid) weapon_hegrenade
+  }
+}
+
+
+block alpha
+{
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_alpha)
+    es_tell event_var(userid) [Invisibility]
+}
+
+block levitation
+{
+    es wcs_setfx gravity event_var(userid) = server_var(wcs_gravity) 0
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_tell event_var(userid) [Speed]
+    es_tell event_var(userid) [Levitation]
+}
+
+block knife
+{
+    es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+    es_tell event_var(attacker) -Knife Damage- + server_var(wcs_damage)
+    es_entcreate event_var(attacker) point_tesla 
+    es_fire event_var(attacker) point_tesla addoutput "m_SoundName weapons/knife/knife_hit1.wav" 
+    es_fire event_var(attacker) point_tesla addoutput "m_Color 255 204 0" 
+    es_fire event_var(attacker) point_tesla addoutput "m_flRadius 80"  
+    es_fire event_var(attacker) point_tesla addoutput "beamcount_min 16"
+    es_fire event_var(attacker) point_tesla addoutput "beamcount_max 50"  
+    es_fire event_var(attacker) point_tesla addoutput "thick_min 10"
+    es_fire event_var(attacker) point_tesla addoutput "thick_max 60"  
+    es_fire event_var(attacker) point_tesla addoutput "lifetime_min 1"
+    es_fire event_var(attacker) point_tesla addoutput "lifetime_max 1"
+    es_fire event_var(attacker) point_tesla addoutput "interval_min .3"
+    es_fire event_var(attacker) point_tesla addoutput "interval_max 6"
+    es_fire event_var(attacker) point_tesla TurnOn  
+    es_fire event_var(attacker) point_tesla DoSpark    
+    es_delayed 1 es_fire event_var(attacker) point_tesla kill
+}
+
+block ultimate
+{
+    es_xdoblock wcs/tools/ultimates/default/wcs_ulti_teleport
+    es_keysetvalue wcsuserdata server_var(wcs_userid) van 1
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_userid)
+    es est_effect 10 #a 0.1 sprites/glow.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 50 1 100 60 0 255 255 255 255 50
+}
+
+event player_death
+{
+    es_keysetvalue wcsuserdata server_var(wcs_userid) van 0
+}
+
+//event player_land
+//{
+//  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) van
+//  if (server_var(wcs_tmp) = 1) do
+//  {
+//    es_keysetvalue wcsuserdata event_var(userid) van 0
+//    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+//    es_xmath wcs_z2 + 40
+//    es est_effect 10 #a 0.1 sprites/glow.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 50 1000 1 10 10 0 255 255 255 255 50
+//    es_playsound event_var(userid) tools/ifm/beep.wav 1
+//    es_delayed .2 es_playsound event_var(userid) tools/ifm/beep.wav 1
+//    es_delayed .4 es_playsound event_var(userid) tools/ifm/beep.wav 1
+//    es_delayed .6 es_playsound event_var(userid) tools/ifm/beep.wav 1
+//  }
+//}

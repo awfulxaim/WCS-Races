@@ -1,0 +1,15 @@
+Gmork
+
+requires total level 610. has a light gray player model.
+
+Gmork's Leap
+spawn with long jump. .3/.5/.7/.9/1.1 multiplier.
+
+Black Cloud Camouflage
+1/2/3/4/5% chance when hit to become 100% invisible for .5 seconds
+
+Poisonous Fatal Bite
+1/2/3/4/5% chance on hit to poison the enemy for 2-7 damage per second for 3 seconds. that damage is rolled randomly.
+
+Adrenaline Rush (ultimate)
+Set your speed to 250% for 2/3/4/5/6 seconds. 15 second cooldown.

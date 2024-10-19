@@ -1,0 +1,23 @@
+    88. Thrall ( 2100 )
+    Purge, Horn of Snowsong, Shock, Lightning Shield, Healing Wave, Chain Lightning
+    reset enemies skill points, +speed, +damage, +HP, regen HP of nearby teammates, same as orc
+	
+Thrall
+
+Purge
+1/1/1/2/2/3/4/5% chance on hit to set the enemy's movement speed to 1.0, invis to 0%, and gravity to 100%. if they have more than 100 HP their HP is set to 100. all of their skill's proc chances are set to 0% and they cannot activate their abilities or ultimates for the rest of the round. their skill points are all reset. there is a message in chat that tells you and that enemy that their skills have been purged and that they need to spendskills.
+
+Horn of Snowsong
+spawn with 15/20/25/30/35/40/45/50% increased movement speed.
+
+Shock
+4/8/12/16/20/24/28/32% chance on hit to deal 50% more damage.
+
+Lightning Shield
+Spawn with 25/30/35/40/45/50/55/60 more HP. 100% chance when hit to deal 10% mirror damage to all enemies in a 75 unit radius around you.
+
+Healing Wave
+Heal yourself and all teammates in a 120/140/160/180/200/220/240/250 unit radius for 2/3/5/7/9/11/13/15 HP every 15 seconds, -1 second for each tick. This can tick up to 7/8/9/10/12/14/12/12 times.
+
+Chain Lightning (ultimate)
+Deal 32 damage to up to 4 enemies in a 400/450/500/550/600/650/700/750 unit radius. 30 second cooldown. If there are no enemies in the area, this ability fails and its cooldown is refreshed.

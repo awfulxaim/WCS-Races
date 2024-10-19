@@ -1,0 +1,15 @@
+Doppelganger
+
+requires total level 230. 
+
+Shadow of Death
+12/18/22/33% chance on death to spawn a bot on your team at your death location as soon as you die, that is aiming directly at the enemy who killed you. that bot lasts 2/3/4/5 seconds.
+
+Doppelganger
+12/18/22/33% chance when hit to spawn up to 1 bot at a time on your team at the location you were shot at, that is aiming directly at the enemy who shot you. that bot lasts 2/3/4/5 seconds.
+
+Doppelwalk (ability)
+become 100% invisible for 1/2/3/4 seconds, for that duration 4 copies of your player model move together in a square pattern 40 to 80 units in front of you. 15 second cooldown.
+
+Duplicate (ultimate)
+spawn a bot on your team at your location aiming where you are aiming. that bot is using your primary weapon. that bot lasts 1/2/3/4 seconds. 15 second cooldown.

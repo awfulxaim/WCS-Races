@@ -1,0 +1,15 @@
+Pistoleer
+
+restricted to pistols only. requires total level 300. limited to 2 per team. cannot buy cloak of shadows or sock of the feather.
+
+Damage
+100% chance on hit to deal 1/2/3/5/6/7/10/12% extra damage.
+
+Evade Aura
+4/7/10/14/17/21/23/25% chance to evade.
+
+Cunning
+Spawn with 35/40/45/50/55/60/65/70% invisibility.
+
+Teleport
+human teleport.

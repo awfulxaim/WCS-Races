@@ -1,0 +1,18 @@
+Judge of Dynamis
+
+UMP and knife only. requires total level 400. limited to 2 per team. cannot buy Boots of Speed, ring of armor, or HP.
+
+Judge's Hammer
+Your UMP has 5/10/15/20/25/30/35/40 extra rounds in the mag.
+
+Judge's Hardiness
+You take 11/13/15/17/19/21/23/25% less damage from all sources.
+
+Judge's Agility
+You spawn with 2/6/10/14/18/22/26/30% increased movement speed and 6/8/10/12/14/16/18/20% reduced gravity.
+
+Blessing of Dynamis
+6/8/10/12/14/16/18/20% chance to evade
+
+Unending Resolve
+30/40/50/60/70/80/90/100% chance to instantly reload your UMP45 when you kill someone.

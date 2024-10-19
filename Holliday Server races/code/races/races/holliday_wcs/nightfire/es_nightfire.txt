@@ -1,0 +1,453 @@
+block load
+{
+  es_xset wc_userid 0
+  es_xset rocket_user 0
+  es_xset wcs_format 0
+  es_xset wcs_count 0
+  es_xset wcs_secondary 0
+  es_xset wcs_primary 0
+  es_xset wcs_tmp1 0
+  es_xset wcs_xa 0 
+  es_xset wcs_ya 0
+  es_xset wcs_za 0
+  es_xset wcs_xb 0 
+  es_xset wcs_yb 0
+  es_xset wcs_zb 0
+  es_xset wcs_xc 0 
+  es_xset wcs_yc 0
+  es_xset wcs_zc 0
+  es_xset wcs_xd 0 
+  es_xset wcs_yd 0
+  es_xset wcs_zd 0
+  es_xset fa 0 
+  es_xset fb 0 
+  es_xset fc 0 
+  es_xset nfv1 0
+  es_xset nfv2 0
+  es_xset nfrc 0
+  eventscripts_noisy 1
+  popup create holliday
+  popup addline holliday "  |-nightfire-|"
+  popup addline holliday "coded by"
+  popup addline holliday "->1.  holliday"
+  popup menuselect holliday holliday_wcs/nightfire/holliday
+  es_regclientcmd +rocket holliday_wcs/nightfire/+rocket "charges rocket launcher"
+  es_regclientcmd -rocket holliday_wcs/nightfire/-rocket "stops charging rocket launcher"
+  alias addstele "alias showsportal es_delayed .3 es_xdoblock holliday_wcs/nightfire/portal_scycle;es_getplayerlocation wcs_xa wcs_ya wcs_za server_var(wc_userid);es_xmath wcs_za + 15;es_xdoblock holliday_wcs/nightfire/portal_scycle"
+	alias addetele "alias showeportal es_delayed .3 es_xdoblock holliday_wcs/nightfire/portal_ecycle;es_getplayerlocation wcs_xb wcs_yb wcs_zb server_var(wc_userid);es_xmath wcs_zb + 15;es_xset dotele 1;es_xdoblock holliday_wcs/nightfire/tele;es_xdoblock holliday_wcs/nightfire/portal_ecycle"	
+  alias deltele "es_xset dotele 0;alias showsportal 0;alias showeportal 0"
+}
+
+block +rocket
+{
+  es_getcmduserid rocket_user
+  es_keygetvalue wcs_tmp wcsuserdata server_var(rocket_user) nightfire_rocket
+  if (server_var(wcs_tmp) > 0) do
+  {
+
+    es_xset rocket_- 0
+    repeat create - "es_xdoblock holliday_wcs/nightfire/-"
+    repeat start - .2
+    es_playsound server_var(rocket_user) npc/scanner/scanner_scan_loop1.wav 1
+    es_delayed 2.4 es_stopsound server_var(rocket_user) npc/scanner/scanner_scan_loop1.wav
+    es playerset freeze server_var(rocket_user) 1
+    es playerget primary wcs_primary server_var(rocket_user)
+    if (server_var(wcs_primary) = 0) do
+    {     
+     es_give server_var(rocket_user) weapon_m249
+    }
+    es playerset clip server_var(rocket_user) 1 1
+    es playerset ammo server_var(rocket_user) 1 1
+   }
+   es_xelse do
+   {
+    es_tell server_var(rocket_user) #green you have no more rockets
+   }  
+}
+
+block -rocket
+{       
+  es_getcmduserid rocket_user
+  es playerset freeze server_var(rocket_user) 0
+  es_keysetvalue wcsuserdata server_var(rocket_user) rocket 0
+  es playerset clip server_var(rocket_user) 1 100
+  es_keygetvalue wcs_tmp wcsuserdata server_var(rocket_user) nightfire_rocket
+  if (server_var(wcs_tmp) > 0) do
+  {
+    repeat stop -
+    repeat create -- "es_xdoblock holliday_wcs/nightfire/--"
+    repeat start -- .2
+    es_stopsound server_var(rocket_user) npc/scanner/scanner_scan_loop1.wav
+    es_playsound server_var(rocket_user) npc/scanner/scanner_alert1.wav 1
+  } 
+}
+
+block -
+{
+  es_xmath nfrc + 1
+  if (server_var(nfrc) = 1) then es usermsg hudhint server_var(rocket_user) \
+  if (server_var(nfrc) = 2) then es usermsg hudhint server_var(rocket_user) |
+  if (server_var(nfrc) = 3) then es usermsg hudhint server_var(rocket_user) /
+  if (server_var(nfrc) = 4) then es usermsg hudhint server_var(rocket_user) --
+  if (server_var(nfrc) = 5) then es usermsg hudhint server_var(rocket_user) \
+  if (server_var(nfrc) = 6) then es usermsg hudhint server_var(rocket_user) |
+  if (server_var(nfrc) = 7) then es usermsg hudhint server_var(rocket_user) /
+  if (server_var(nfrc) = 8) then es usermsg hudhint server_var(rocket_user) "(-)"
+  if (server_var(nfrc) = 8) then repeat stop -
+  if (server_var(nfrc) >= 8) do
+  {
+    es_keysetvalue wcsuserdata server_var(rocket_user) rocket 1
+    es_playsound server_var(rocket_user) npc/scanner/combat_scan5.wav 1
+  }
+}
+
+block --
+{
+  es_keysetvalue wcsuserdata server_var(rocket_user) rocket 0
+  es_xmath nfrc - 1
+  if (server_var(nfrc) = 8) then es usermsg hudhint server_var(rocket_user) \
+  if (server_var(nfrc) = 7) then es usermsg hudhint server_var(rocket_user) |
+  if (server_var(nfrc) = 6) then es usermsg hudhint server_var(rocket_user) /
+  if (server_var(nfrc) = 5) then es usermsg hudhint server_var(rocket_user) --
+  if (server_var(nfrc) = 4) then es usermsg hudhint server_var(rocket_user) \
+  if (server_var(nfrc) = 3) then es usermsg hudhint server_var(rocket_user) |
+  if (server_var(nfrc) = 2) then es usermsg hudhint server_var(rocket_user) /
+  if (server_var(nfrc) = 1) then es usermsg hudhint server_var(rocket_user) "(-)"
+  if (server_var(nfrc) <= 0) then repeat stop --
+}
+
+block spawn
+{
+  es_keysetvalue wcsuserdata event_var(userid) nightfire 1
+  es_delayed 1 es_playsound event_var(userid) music/hl1_song19.mp3 1
+	es_delayed 9 es_stopsound event_var(userid) music/hl1_song19.mp3
+	es_delayed 9 es_playsound event_var(userid) weapons\explode4.wav 1
+	es_playsound event_var(userid) ambient\atmosphere\hole_hit2.wav 1
+	es_give event_var(userid) env_smokestack
+	es_fire event_var(userid) env_smokestack addoutput "targetname nightfire"
+	es_fire event_var(userid) nightfire addoutput "basespread 15"
+	es_fire event_var(userid) nightfire addoutput "spreadspeed 100"
+	es_fire event_var(userid) nightfire addoutput "speed 15"
+	es_fire event_var(userid) nightfire addoutput "startsize 15"
+	es_fire event_var(userid) nightfire addoutput "endsize 25"
+	es_fire event_var(userid) nightfire addoutput "rate 100"
+	es_fire event_var(userid) nightfire addoutput "jetlength 50"
+	es_fire event_var(userid) nightfire addoutput "twist 75"
+	es_fire event_var(userid) nightfire addoutput "smokematerial particle\fire.vmt"
+	es_fire event_var(userid) nightfire addoutput "angles 90 90 90"
+	es_fire event_var(userid) nightfire addoutput "rendercolor 128 0 255"
+	es_delayed 1 es_fire event_var(userid) nightfire turnon
+	es_delayed 9 es_fire event_var(userid) nightfire kill
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es est_effect 10 #a 0 particle\fire.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 8 200 8.9 130 10 0 128 0 255 255 0
+}
+
+block hookshot
+{
+   es_keysetvalue wcsuserdata event_var(userid) nightfire_shot server_var(wcs_force)
+   es_tell event_var(userid) #multi #green[hookshot] #lightgreenshoot your default pistol to pull your self around the map
+}
+
+block flashbang
+{
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_flash server_var(wcs_flash) 
+  es_give event_var(userid) weapon_flashbang
+  es playerset ammo event_var(userid) weapon_flashbang server_var(wcs_flash) 
+  es_tell event_var(userid) #multi #green[stun flash bangs]#lightgreen you have #green server_var(wcs_flash) #lightgreenflashbangs  
+}
+
+block m3rocket
+{
+  es_tell event_var(userid) #multi #green[m3rocket] #lightgreen bind a key to #green +rocket #lightgreen and hold key to charge the rocket launcher
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_rocket server_var(wcs_count)
+}
+
+block portal_scycle
+{
+  showsportal
+	es est_effect 11 #a 0 models\props_combine\breentp_rings.mdl server_var(wcs_xa) server_var(wcs_ya) server_var(wcs_za) 3 1 125	  
+}
+
+block portal_ecycle
+{
+	showeportal
+	es est_effect 11 #a 0 models\props_combine\breentp_rings.mdl server_var(wcs_xb) server_var(wcs_yb) server_var(wcs_zb) 3 1 225
+}
+
+block tele
+{
+	if (server_var(dotele) = 1) do
+	{
+	  es wcs_nearcoord wcs_tmp #all server_var(wcs_xa) server_var(wcs_ya) server_var(wcs_za) 35 "es playerset location server_var(wc_userid) server_var(wcs_xb) server_var(wcs_yb) server_var(wcs_zb);es_xdoblock holliday_wcs/nightfire/view"
+    es_delayed .2 es_xdoblock holliday_wcs/nightfire/tele
+	}
+}
+
+block view
+{
+	es_playsound server_var(wc_userid) ambient/levels/citadel/portal_beam_shoot3.wav 1
+	es_cexec server_var(wc_userid) r_screenoverlay effects/tp_eyefx/tpeye3.vmt
+	es_delayed 2 es_cexec server_var(wc_userid) r_screenoverlay 0
+	es playerset color server_var(wc_userid) 255 255 255 0 
+	es_delayed 2 es playerset color server_var(wc_userid) 255 255 255 255
+	es wcs_setfx god server_var(wc_userid) = 1 2
+  es_xusermsg create fade fade
+  es_xusermsg write short fade 1000
+  es_xusermsg write short fade 5
+  es_xusermsg write short fade 0
+  es_xusermsg write byte fade 0
+  es_xusermsg write byte fade 0
+  es_xusermsg write byte fade 0
+  es_xusermsg write byte fade 255
+  es_usermsg send fade server_var(wc_userid) 5
+  es_xusermsg delete fade
+}
+
+block ultimate
+{
+  es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) nightfire_portal
+  es_format wcs_format "%1_portal" server_var(wcs_userid)
+  es popup create server_var(wcs_format) 
+  es popup addline server_var(wcs_format) "  |-portal menu-|"
+  es popup addline server_var(wcs_format) "   __________"
+  es popup addline server_var(wcs_format) "->1.create portal [a]"
+  if (server_var(wcs_tmp) != 1) then es popup addline server_var(wcs_format) "2.create portal [b]"
+  if (server_var(wcs_tmp) = 1) then es popup addline server_var(wcs_format) "->2.create portal [b]"
+  if (server_var(wcs_tmp) != 2) then es popup addline server_var(wcs_format) "3.delete portals"
+  if (server_var(wcs_tmp) = 2) then es popup addline server_var(wcs_format) "->3.delete portals"
+  es popup addline server_var(wcs_format) "       "
+  es popup addline server_var(wcs_format) "   __________"
+  es popup addline server_var(wcs_format) "->8. |-nightfire-|"
+  es popup submenu server_var(wcs_format) 8 holliday
+  es popup addline server_var(wcs_format) "->0.close"
+  es popup menuselect server_var(wcs_format) holliday_wcs/nightfire/portalfire
+  es popup close server_var(wcs_format) server_var(wcs_userid)
+  es popup send server_var(wcs_format) server_var(wcs_userid)
+}
+
+block portalfire
+{
+  if (server_var(_popup_choice) <= 7) do
+  {
+    es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) nightfire_portal
+    if (server_var(_popup_choice) == 1) do
+    {
+      es_set wc_userid server_var(wcs_userid)
+		  addstele
+		  es_xset dotele 0
+		  es_tell server_var(wcs_userid) #multi #green [a]: created!
+      es_keysetvalue wcsuserdata server_var(wcs_userid) nightfire_portal 1
+    }
+    if (server_var(_popup_choice) == 2) do
+    {
+      if (server_var(wcs_tmp) = 1) do
+      {
+		    addetele
+		    es_tell server_var(wcs_userid) #multi #green [b]: created!
+        es_keysetvalue wcsuserdata server_var(wcs_userid) nightfire_portal 2
+      }
+    }
+    if (server_var(_popup_choice) == 3) do
+    {
+      if (server_var(wcs_tmp) = 2) do
+      {
+		    deltele
+		    es_tell server_var(wcs_userid) #multi #green [a] and [b]: deleted!
+        es_keysetvalue wcsuserdata server_var(wcs_userid) nightfire_portal 0
+      }
+    }
+    if (server_var(_popup_choice) == 8) do
+    {
+      es popup modline server_var(wcs_format) 7 "holliday"
+    }
+  es_xdoblock holliday_wcs/nightfire/ultimate
+  }
+}
+
+block holliday
+{
+  es_xdoblock holliday_wcs/nightfire/ultimate
+}
+
+block pull
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es playerget viewcoord event_var(userid) wcs_x2 wcs_y2 wcs_z2
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_delayed .1 es wcs pushto event_var(userid) server_var(vector2) server_var(wcs_tmp)
+	es_delayed .1 es est_effect_06 #a 0 cable/rope.vmt server_var(vector1) server_var(vector2) 10 .2 1 1 10 0 0 0 51 255 100
+	es_delayed .1 es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector1) server_var(vector2) 10 .2 1 1 10 0 0 0 51 255 100    
+}
+
+event weapon_fire
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) nightfire_shot
+  if (server_var(wcs_tmp) >= 1) do
+  {
+    es playerget secondary wcs_secondary event_var(userid)
+    if (event_var(weapon) = glock) do
+    {
+      es_xdoblock holliday_wcs/nightfire/pull  
+    }
+    if (event_var(weapon) = usp) do
+    {
+      es_xdoblock holliday_wcs/nightfire/pull  
+    }
+  }
+  es_keygetvalue wcs_tmp1 wcsuserdata event_var(userid) rocket
+  if (server_var(wcs_tmp1) >= 1) do
+  {
+    es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" -35,0,0	
+    es_playsound event_var(userid) ambient/explosions/explode_1.wav 1   
+  }
+}
+
+event bullet_impact
+{ 
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) rocket
+  if (server_var(wcs_tmp) >= 1) do
+  {
+    es_xset w_rg_o 0
+    es_xset w_rg_magnitude 100
+    es_xset w_rg_radius 100
+    es_xgetuserid wcs_userid
+    es_fire server_var(wcs_userid) env_explosion kill
+    es_xset wcs_primary event_var(es_userweapon)
+    es_xstring wcs_primary replace weapon_
+    es_format wcs_primary "%1;" server_var(wcs_primary)
+    es_trick entity env_explosion
+    es_format wcs_userid "origin %1 %2 %3" event_var(x) event_var(y) event_var(z)
+    es_fire event_var(userid) env_explosion addoutput server_var(wcs_userid)
+    es_format wcs_userid "imagnitude %1" server_var(w_rg_magnitude)
+    es_fire event_var(userid) env_explosion addoutput server_var(wcs_userid)
+    es_fire event_var(userid) env_explosion addoutput "rendermode 4"
+    es_format wcs_userid "iradiusoverride %1" server_var(w_rg_radius)
+    es_fire event_var(userid) env_explosion addoutput server_var(wcs_userid)
+    es_getplayerhandle w_rg_o event_var(userid)
+    es_xset w_rg_t 0
+    es_xcreateentitylist rocketguns env_explosion
+    es_xforeachkey w_rg_t in rocketguns "es es_xsetindexprop server_var(w_rg_t) cbaseentity.m_hownerentity server_var(w_rg_o)"
+    es_xkeygroupdelete rocketguns
+    es_fire event_var(userid) env_explosion explode
+	  es_fire event_var(userid) env_explosion kill
+	  es playerset clip event_var(userid) 1 0
+    es playerset ammo event_var(userid) 1 1
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 event_var(x) event_var(y) event_var(z)
+    es est_effect_14 #a 0 effects/fire_cloud2.vmt server_var(vector2) server_var(vector2) 100 10 100
+    es_delayed .1 es est_effect_14 #a 0 effects/fire_cloud2.vmt server_var(vector2) server_var(vector2) 100 10 200
+    es_delayed .2 es est_effect_14 #a 0 effects/fire_cloud2.vmt server_var(vector2) server_var(vector2) 100 10 300
+    es_delayed .3 es est_effect_14 #a 0 effects/fire_cloud2.vmt server_var(vector2) server_var(vector2) 100 10 400
+    es est_effect 11 #a 0 sprites/sprite_fire01.vmt event_var(x) event_var(y) event_var(z) 3 1 255
+    es_xmath wcs_count - 1
+    es_delayed 1 es_keysetvalue wcsuserdata event_var(userid) nightfire_rocket server_var(wcs_count)
+  } 
+}
+
+event player_falldamage
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) nightfire_shot
+  if (server_var(wcs_tmp) >= 1) do
+  {
+    es_setinfo falldamag event_var(damage)
+    es_xmath falldamag / server_var(falldmg)
+	  es playerset healthadd event_var(userid) server_var(falldamag)
+  }
+}
+
+event player_connect
+{
+  es_keycreate wcsuserdata event_var(userid)
+}
+
+event player_footstep
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) nightfire
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_give event_var(userid) env_spark 
+    es_fire event_var(userid) env_spark addoutput "magnitude 1"
+    es_fire event_var(userid) env_spark addoutput "traillength 1"
+    es_fire event_var(userid) env_spark addoutput "spawnflags 256"
+    es_fire event_var(userid) env_spark startspark 
+    es_delayed .1 es_fire event_var(userid) env_spark kill 
+  }
+}
+
+event bomb_planted
+{ 
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) nightfire
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_getplayerlocation wcs_xc wcs_yc wcs_zc event_var(userid)
+    es_getplayerlocation wcs_xd wcs_yd wcs_zd event_var(userid)
+    es_xmath wcs_zd + 500
+    es_createvectorstring nfv1 event_var(posx) event_var(posy) server_var(wcs_zc)
+    es_createvectorstring nfv2 server_var(wcs_xd) server_var(wcs_yd) server_var(wcs_zd)
+    es_delayed server_var(mp_c4timer) es_xset wcs_zc 0
+  }
+}
+
+event bomb_beep
+{ 
+  if (server_var(wcs_zc) != 0) do
+  {
+    es est_effect_14 #a 0 effects/strider_bulge_dudv_dx60.vmt server_var(nfv1) server_var(nfv1) 300 200 75
+    es est_effect 10 #a 0 effects/strider_bulge_dudv_dx60.vmt server_var(wcs_xd) server_var(wcs_yd) server_var(wcs_zd) 60 959 2 50 3 0 175 115 255 55 1
+    es_xmath wcs_zc + 10
+    es est_effect 10 #a 0.3 effects/strider_bulge_dudv_dx60.vmt server_var(wcs_xc) server_var(wcs_yc) server_var(wcs_zc) 100 300 2 30 300 0 25 25 25 255 1
+  }
+}
+
+event flashbang_detonate
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) nightfire_flash
+  if (server_var(wcs_tmp) != 0) do
+  {
+    es_xset nfire_flash 1
+    es_delayed 20 es_xset nfire_flash 0
+  }
+}
+
+event player_blind
+{
+  if (server_var(nfire_flash) = 1) do
+  {
+    es_cexec event_var(userid) r_screenoverlay console/background01.vmt
+    es_delayed 3 es_cexec event_var(userid) r_screenoverlay 0
+    es_playsound event_var(userid) music\radio1.mp3 1
+    es_delayed 3 es_stopsound event_var(userid) music\radio1.mp3
+    es playerset freeze event_var(userid) 1
+    es_delayed 2 es playerset freeze event_var(userid) 0
+  }
+}
+
+event player_death
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(attacker) nightfire
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_give event_var(userid) env_entity_dissolver
+    es_fire event_var(userid) env_entity_dissolver addoutput "target cs_ragdoll"
+    es_fire event_var(userid) env_entity_dissolver addoutput "magnitude 1"
+    es_fire event_var(userid) env_entity_dissolver addoutput "dissolvetype 3"
+    es_fire event_var(userid) env_entity_dissolver addoutput "dissolvetype 1"
+    es_fire event_var(userid) env_entity_dissolver dissolve
+    es_delayed 2 es_xremove env_entity_dissolver
+  }
+  es_delayed 1 es_keysetvalue wcsuserdata event_var(userid) nightfire 0
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_shot 0
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_portal 0
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_flash 0
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_rocket 0
+}
+
+
+event player_spawn
+{
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_shot 0
+  es_keysetvalue wcsuserdata event_var(userid) nightfire_rocket 0
+}

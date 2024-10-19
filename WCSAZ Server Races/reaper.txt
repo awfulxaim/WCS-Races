@@ -1,0 +1,15 @@
+Reaper
+
+dualies and knife only
+
+Stim Pack
+Spawn with 10/15/20/25/30/35% increased movement speed.
+
+Jet Pack
+long jump
+
+D-8 Charge
+Grenades always deal 40/70/100/130/160/190/210/240% more damage.
+
+Jet Boost (ultimate)
+Get pushed in the direction you aim with a force of 600/660/720/780/840/920/1000/1080. 10 second cooldown

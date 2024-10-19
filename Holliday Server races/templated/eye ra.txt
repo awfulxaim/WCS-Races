@@ -1,0 +1,15 @@
+Eye Ra
+
+requires total level 100.
+
+Resurrect
+5/15/30/60% chance when the first and second teammates die to respawn them with all their weapons and equipment
+
+Blink of an Eye
+21/25/27/33% chance when hit to evade and set your renderFX to 13 for 4 seconds.
+
+Lens of Truth
+5/10/25/36% chance on hit to remove the enemy's visibility and set their player model color to red for T and blue for CT for the entire round. if the enemy has any items that grant disguise/mole/invis, destroy those items.
+
+Summon (ultimate)
+after a 9/8/7/6 second delay, instantly teleport a random enemy 80 units in front of you. 25 second cooldown.

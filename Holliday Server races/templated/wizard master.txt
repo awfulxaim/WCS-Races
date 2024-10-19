@@ -1,0 +1,15 @@
+The Wizard Master
+
+Requires total level 1060.
+
+Teleportation
+18/22/28/33% chance on spawn to randomly either cause you to mole or cause an enemy to mole after 5 seconds.
+
+Magic Bird
+15/20/22/28% chance when you die to respawn as a crow model with 1 HP and a five seven with 1 shot that deals 100 damage. After 1/2/3/5 seconds of being a bird you die.
+
+Transparency
+5/10/25/36% chance on hit to remove the enemy's invisibility and set their player model color to red for T and blue for CT for the entire round. if the enemy has any items that grant disguise/mole/invis, destroy those items.
+
+Wizard Master (ultimate)
+deal 32 damage to up to 3/3/4/4 enemies in a 600/650/700/750 unit radius. 20 second cooldown.

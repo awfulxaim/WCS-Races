@@ -1,0 +1,13 @@
+Lich
+
+Frost Nova
+5/10/15/20% chance on hit to slow the enemy and all enemies in a 200 unit radius of that enemy by 50% for 4 seconds.
+
+Frost Armor (ability)
+Gain 10/15/20/25 armor. 5 second cooldown.
+
+Dark Ritual (ability2)
+Lose 10HP but gain $500/600/700/800. 5 second cooldown.
+
+Death and Decay (ultimate)
+Lay an 800 unit radius light blue ward that lasts 10 seconds. enemies that step in the ward area take 25 damage per second. If an enemy dies to this ward you gain 10/20/30/40 HP. 40 second cooldown.

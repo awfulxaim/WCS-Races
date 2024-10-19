@@ -1,0 +1,16 @@
+Magician
+
+Spawns with nova and dualies. requiures total level 35.
+
+Levitation
+15/30/45/60% chance on hit with the dualies to impale then freeze the enemy .5 seconds later for 0.7 seconds. then push them to the left and freeze them 1 second later for 1.3 seconds, then push them up and freeze them 1.5 seconds later for 1.7 seconds. then let them frop for .2 seconds. then push them right and freeze them 2.1 seconds later for 2.3 seconds.
+15/30/45/60% chance on hit with the nova to impale then freeze the enemy .5 seconds later for 0.7 seconds. then push them to the left and freeze them 1 second later for 1.3 seconds, then push them right and freeze them 1.5 seconds later for 1.7 seconds.
+
+Disappearing Dash
+15/22/38/47% chance when hit to become 100% invisible for 2.5/3/3.5/4 seconds and create a smoke cloud. when this procs you are impaled with a force of 300 then human teleported either left or right with a force of 900.
+
+The Crow
+11/15/24/33% chance when you die to respawn as a crow model with 1 HP and a five seven with 1 shot that deals 100 damage.
+
+Up in Smoke (ultimate)
+create a smoke cloud then impale yourself and freeze yourself .5 seconds later for 0.7 seconds. then create another smoke cloud then push yourself to the left and freeze yourself 1 second later for 1.3 seconds, then create antoher smoke cloud then push yourself right and freeze yourself 1.5 seconds later for 1.7 seconds the create another smoke cloud. then become 100% invisible for 2.5/3/5/7 seconds. smoke clouds last 10 seconds. 5 second cooldown.

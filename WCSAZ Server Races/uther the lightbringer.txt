@@ -1,0 +1,19 @@
+Uther the Lightbringer
+
+Devotion Aura
+You spawn with 30/40/50/60/70/80/90/100 extra HP.
+
+Hammer of Justice
+4/8/12/16/20/24/28/32% chance on hit to bash for 1 second.
+
+Seal of the Martyr
+15/20/25/30/35/40/45/50% chance when hit to deal 5/10/15/20/25/30/35/40% of damage you take back to the enemy.
+
+Judgement of Light
+4/8/12/16/20/24/28/32% chance on hit to deal 25/30/35/40/45/50/55/60% more damage.
+
+Pursuit of Justice
+Spawn with 4/8/12/16/20/24/28/32% increased movement speed.
+
+Divine Shield
+Become invulnerable to damage for 1/2/3/4/5/6/7/8 seconds. 60 second cooldown.

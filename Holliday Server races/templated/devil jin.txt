@@ -1,0 +1,18 @@
+Devil Jin
+
+requires total level 590.
+
+Influence Power
+Spawn with 5/10/15/20/25/30/35/40 more HP and 5/10/15/20/25/30/35/40% increased movement speed.
+
+Spiver Kick
+2/4/5/6/7/8/9/10% chance on hit to deal 10-15 extra damage rolled randomly
+
+Inlutrim Vision
+5/8/10/11/12/13/14/15% chance when hit to swap places with the enemy who hit you.
+
+Jin's Layers
+20/30/40/45/50/55/60/70% chance on death to explode dealing 15/25/35/45/50/55/60/70 damage to all enemies in a 120/120/140/160/170/170/180/180 unit radius.
+
+Flying Monster (ultimate)
+Begin flying. while flying you gain 5/8/10/12/14/16/18/20 HP. no cooldown.

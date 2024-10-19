@@ -1,0 +1,37 @@
+HOLLIDAY
+
+requires 40 total level.
+
+Capture
+18/22/28/33% chance on spawn to teleport a random enemy in front of you facing directly up after a 3 second delay.
+
+Pistol Skills
+18/22/28/33% chance on hit to:
+deal 10 extra damage with the dualies
+bash for 2 seconds with the usp-s
+deal 10 extra damage and put a black sphere around the enemy hiding the enemy and preventing them from seeing out of it with the glock
+to heal for 1-20 HP rolled randomly with the p250.
+to instantly teleport the enemy in front of you aiming at the ground with the five seven.
+impale the enemy with the deagle.
+
+Rifle Skills
+18/22/28/33% chance on hit to:
+impale the enemy then freeze them after .5 seconds, unfreeze and push them left and then freeze them for .7, then unfreeze them and push them right then freeze them for .7. then repeat with 1.3 second long freeze, then repeat again with a 2.1 second long freeze with the xm1014
+deal 100% extra damage with the m249.
+burn the enemy for 3 seconds with the AK.
+knock the enemy in random directions every .7 seconds for 3 seconds with the p90
+impale the enemy with the mac10
+remove the enemy's invisibility for the rest of the round with the G3SG1
+shake the enemy for 20 seconds with the m4.
+
+Quick Switch (ultimate)
+When you activate this ultimate you get a new set of weapons after a 3/2/.5/.1 second delay. no cooldown.
+
+Cycles through these weapons:
+XM1014 and dualies
+M249 and USP-S
+AK and glock
+p90 and p250
+mac10 and five seven
+g3sg1 and glock
+m4a1 and deagle

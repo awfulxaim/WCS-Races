@@ -1,0 +1,15 @@
+Land Shark
+
+knife only. uses the Ichthyosaur model from half life 2 but smaller.
+
+Burrow (ability)
+become 100% invisible and invulnerable but lose your knife. press ability again to cancel this. 10/8/6/4 second cooldown. this cooldown applies when entering or leaving burrow.
+
+Land Speed
+Spawn with 25/50/75/100% increased movement speed. Increase your gravity by 25/50/75/100%.
+
+Devour
+100% chance on kill to gain 10/20/30/40 HP.
+
+Burst from the Earth
+when you leave burrow set your gravity to 100/85/70/55% for 2 seconds. you take no fall damage. enemies within 200 units of you when you leave burrow have their screen faded by 80% with a brown screen for 1/2/3/4 seconds. enemies within 85 units of you when you land after jumping take 5/10/15/20 extra damage. this can only proc once every 4 seconds. this damage should not proc if you did not jump out of burrow, such as just jumping with high gravity.

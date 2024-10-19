@@ -1,0 +1,171 @@
+
+block spawn
+{
+    es_playsound event_var(userid) ^weapons\hegrenade\explode4.wav 1
+    es_give event_var(userid) env_steam 
+    es_fire event_var(userid) env_steam addoutput "spreadspeed 50"
+    es_fire event_var(userid) env_steam addoutput "speed 30"
+    es_fire event_var(userid) env_steam addoutput "startsize 11"
+    es_fire event_var(userid) env_steam addoutput "endsize 60"
+    es_fire event_var(userid) env_steam addoutput "rate 20"
+    es_fire event_var(userid) env_steam addoutput "jetlength 100"
+    es_fire event_var(userid) env_steam addoutput "rollspeed 10"
+    es_fire event_var(userid) env_steam addoutput "rendercolor 0 0 0"
+    es_fire event_var(userid) env_steam turnon
+    es_delayed 4 es_fire event_var(userid) env_steam kill
+    es wcs strip event_var(userid)
+    //es wcs_restrict event_var(userid) galil,ak47,awp,g3sg1,famas,m4a1,aug,sg550,usp,xm1014,mac10,tmp,mp5navy,ump45,p90,m249,flashbang,smokegrenade,hegrenade,scout
+    es_delayed 1 es_give event_var(userid) weapon_m3
+    es_delayed 1 es_give event_var(userid) weapon_elite
+}
+
+block weapons
+{
+  es playerget location event_var(attacker) wcs_x1 wcs_y1 wcs_z1
+  es playerget location event_var(userid) wcs_x2 wcs_y2 wcs_z2
+  if (event_var(es_attackerweapon) = weapon_elite) do
+  {
+    es_xmath wcs_z1 + 55
+    es_xmath wcs_z2 + 55
+    es_xmath wcs_y1 + 10
+    es_xmath wcs_y2 + 10
+    es_xmath wcs_x1 + 10
+    es_xmath wcs_x2 + 10
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector1) server_var(vector2) 100 2 2 1 10 0 0 0 255 255 100
+    es_xmath wcs_y1 - 20
+    es_xmath wcs_y2 - 20
+    es_xmath wcs_x1 - 20
+    es_xmath wcs_x2 - 20
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector2) server_var(vector1) 100 2 2 1 10 0 255 0 0 255 10
+    es playerset push event_var(userid) 1 300 1
+    es_delayed .2 es playerset push event_var(userid) 1 200 1
+    es_delayed .4 es playerset push event_var(userid) 200 1 1
+    es_delayed .4 es playerset location event_var(userid) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_tell event_var(attacker) #multi #green magic elite: #lightgreen levitated your enemy
+  }        
+  if (event_var(es_attackerweapon) = weapon_m3) do
+  {
+    es est_effect 10 #a 0 sprites/purplelaser1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 90 150 2 80 60 0 250 150 170 255 30
+    es_xmath wcs_z1 + 1620
+    es_xmath wcs_z2 + 20
+    es est_effect 3 #a 0 sprites/tp_beam001.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 10 20 255 55 55 255
+    es_xmath wcs_z2 + 80
+    es est_effect 10 #a 0 sprites/purplelaser1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 90 150 2 80 60 0 250 150 170 200 30
+    es playerget location event_var(userid) wcs_x1 wcs_y1 wcs_z1
+    es playerget viewcoord event_var(userid) wcs_x2 wcs_y2 wcs_z2
+    es wcs_setfx gravity event_var(userid) + 0.2 1
+    es_xmath wcs_z1 + 75
+    es playerset push event_var(userid) 1 300 1 
+    es_tell event_var(attacker) #multi #greenmagic m3: #lightgreenreduced #default event_var(es_username) 's #lightgreen gravity
+  }
+}
+
+block shapeshifting
+{
+  es_delayed .3 es_playsound event_var(userid) npc\crow\flap2.wav 1
+  es_delayed server_var(wcs_duration) es_stopsound event_var(userid) npc\crow\flap2.wav
+  es_playsound event_var(userid) weapons\explode3.wav 1
+  es_playsound event_var(userid) npc\crow\pain1.wav 1
+  es_delayed 1 es_playsound event_var(userid) npc\crow\pain2.wav 1
+  es_playsound event_var(attacker) npc\crow\pain1.wav 1
+  es playerget location event_var(userid) wcs_x1 wcs_y1 wcs_z1
+  es_xmath wcs_z1 + 50
+  es playerset speedadd event_var(userid) crow.mdl 1
+  es_delayed server_var(wcs_duration) playerset speed event_var(userid) 1
+  es playerset model event_var(userid) crow.mdl
+  es playerset jetpack event_var(userid) 1
+  if (event_var(es_userteam) = 2) then es_delayed server_var(wcs_duration) playerset model event_var(userid) player/t_arctic.mdl
+  if (event_var(es_userteam) = 3) then es_delayed server_var(wcs_duration) playerset model event_var(userid) player/ct_urban.mdl
+  es_delayed server_var(wcs_duration) playerset jetpack event_var(userid) 0
+  es playerset push event_var(userid) 1 30 1
+  es_give event_var(userid) env_steam 
+  es_fire event_var(userid) env_steam addoutput "spreadspeed 50"
+  es_fire event_var(userid) env_steam addoutput "speed 30"
+  es_fire event_var(userid) env_steam addoutput "startsize 11"
+  es_fire event_var(userid) env_steam addoutput "endsize 9"
+  es_fire event_var(userid) env_steam addoutput "rate 6"
+  es_fire event_var(userid) env_steam addoutput "jetlength 600"
+  es_fire event_var(userid) env_steam addoutput "rollspeed 100"
+  es_fire event_var(userid) env_steam addoutput "rendercolor 0 0 0"
+  es_fire event_var(userid) env_steam turnon
+  es_fire event_var(userid) env_steam setparent !activator
+  es_delayed 4 es_fire event_var(userid) env_steam kill
+}
+
+block the_crow
+{
+    es_playsound event_var(userid) npc\crow\flap2.wav 1
+    es_playsound event_var(userid) npc\crow\alert1.wav 1
+    es_tell event_var(userid) #multi #lightgreen you will respawn as a #greencrow #lightgreenin 3 seconds
+    es_delayed 3 wcs spawn event_var(userid) 1
+    es_delayed 3 es playerset model event_var(userid) crow.mdl
+    es_delayed 3 es playerset color event_var(userid) 0 0 0 0 1
+    es_delayed 3.1 es playerset color event_var(userid) 255 255 255 255 0
+    es_delayed 3.1 playerset jetpack event_var(userid) 1
+    es_delayed 3.1 es playerset speedadd event_var(userid) crow.mdl 1.5
+    es wcs strip event_var(userid)
+    es_give event_var(userid) weapon_fiveseven
+    es playerset health event_var(userid) 1
+    es_keysetvalue wcsuserdata event_var(userid) the_crow 1
+    es_delayed 3.3 es_playsound event_var(userid) npc\crow\alert3.wav 1
+}
+
+block smoke
+{
+  es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) the_crow
+  if (server_var(wcs_tmp) = 0) do
+  {
+    es_getplayerteam wcs_team server_var(wcs_userid)
+    es_playsound server_var(wcs_userid) npc\crow\flap2.wav 1
+    es_delayed server_var(wcs_duration) es es_stopsound server_var(wcs_userid) npc\crow\flap2.wav
+    es_playsound server_var(wcs_userid) weapons\explode3.wav 1
+    es_delayed server_var(wcs_duration) es_playsound server_var(wcs_userid) weapons\explode3.wav 1
+    es_playsound server_var(wcs_userid) npc\crow\alert2.wav 1
+    es playerset model server_var(wcs_userid) crow.mdl
+    es playerset color server_var(wcs_userid) 0 0 0 0 1
+    es playerset color server_var(wcs_userid) 255 255 255 255 0
+    es playerset jetpack server_var(wcs_userid) 1
+    es playerset speedadd server_var(wcs_userid) crow.mdl 2
+    es playerset push server_var(_popup_userid) 1 300 1
+    es_keysetvalue wcsuserdata server_var(wcs_userid) the_crow 1
+    if (server_var(wcs_team) = 2) then es_delayed server_var(wcs_duration) es playerset model server_var(wcs_userid) player/t_arctic.mdl
+    if (server_var(wcs_team) = 3) then es_delayed server_var(wcs_duration) es playerset model server_var(wcs_userid) player/ct_urban.mdl
+    es_delayed server_var(wcs_duration) playerset jetpack server_var(wcs_userid) 0
+    es_delayed server_var(wcs_duration) playerset speed server_var(wcs_userid) 1
+    es_delayed server_var(wcs_duration) es_keysetvalue wcsuserdata server_var(wcs_userid) the_crow 0
+    es_give server_var(wcs_userid) env_steam 
+    es_fire server_var(wcs_userid) env_steam addoutput "spreadspeed 15"
+    es_fire server_var(wcs_userid) env_steam addoutput "speed 30"
+    es_fire server_var(wcs_userid) env_steam addoutput "startsize 1"
+    es_fire server_var(wcs_userid) env_steam addoutput "endsize 6"
+    es_fire server_var(wcs_userid) env_steam addoutput "rate 20"
+    es_fire server_var(wcs_userid) env_steam addoutput "jetlength 20"
+    es_fire server_var(wcs_userid) env_steam addoutput "rollspeed 10"
+    es_fire server_var(wcs_userid) env_steam addoutput "rendercolor 0 0 0"
+    es_fire server_var(wcs_userid) env_steam turnon
+    es_delayed server_var(wcs_duration) es_fire server_var(wcs_userid) env_steam kill
+    es wcs strip server_var(wcs_userid)
+    es_delayed server_var(wcs_duration) es_give server_var(wcs_userid) weapon_elite
+    es_delayed server_var(wcs_duration) es_give server_var(wcs_userid) weapon_m3 
+    es playerget health wcs_health server_var(wcs_userid)
+    es playerset health server_var(wcs_userid) 5
+    es_delayed server_var(wcs_duration) es playerset health server_var(wcs_userid) server_var(wcs_health) 
+    es wcs_gravity server_var(wcs_userid) .2
+    es_xmath wcs_duration + 3
+    es_delayed server_var(wcs_duration) es wcs_gravity server_var(wcs_userid) 1
+  }
+  es_xelse do
+  {
+    es_tell server_var(wcs_userid) you cannot use your ultimate if your a crow!
+  }
+}
+
+event player_death
+{
+   es_keysetvalue wcsuserdata event_var(userid) the_crow 0
+}
+  

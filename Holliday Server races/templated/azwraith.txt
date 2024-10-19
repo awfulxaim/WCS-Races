@@ -1,0 +1,16 @@
+Azwraith
+
+Spawns with 6 charges. requires total level 960
+
+Spirit Lance
+11/15/22/33% chance on hit to deal 4/8/12/16 extra damage and set the enemy to 75% movement speed for 3 seconds.
+
+Doppelwalk (ability)
+Become 100% invisible for 1.5/2/2.5/3 seconds. You create a copy of your player model where you were when you activated this that lasts for that duration. costs 1 charge to activate.
+
+Juxtapose
+11/15/22/99% chance when hit to spawn up to 1 bot at a time on your team at the location you were shot at, that is aiming directly at the enemy who shot you. that bot lasts 1/2/4/6 seconds.
+
+Phantom Edge (ultimate)
+For the next 3 seconds you can create any number of bots with juxtapose and those bots last 4/8/10/12 seconds instead. 10 second cooldown.
+

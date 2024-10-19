@@ -1,0 +1,24 @@
+Sonic the Hedgehog
+
+designed by Novakiller DK, redesigned by several designers, re-redesigned by me combining features of several designs.
+
+Speed Sneakers
+spawn with 10/20/30/40/50/60% increased movement speed
+
+Spin Attack
+5/10/15/20/25/30% chance on hit to deal extra damage equal to 5/6/7/8/9/10% of your movement speed.
+
+Spin Dash (ability)
+Become rooted for 5 seconds. After the root ends you gain 340/50/60/70/80/90% increased movement speed for 5/6/7/8/9/10 seconds. After that duration ends, you lose 10% movement speed per second to your speed set by Speed Sneakers. 25 second cooldown.
+
+Homing Attack
+50/60/70/80/90/100% chance on hit to block evasion and invulnerability while in the air.
+
+Spring Jump
+You have high jump that increases with levels. 10/9/8/7/6/5 second cooldown. Your Spin Attack has a 3/7/9/13/16/20% increased chance to proc while you are in the air.
+
+Slide
+15/25/35/40/45/50% chance to evade while you are crouching and on the ground.
+
+Super Sonic (ultimate)
+Set your playermodel color to metallic gold. Blue sparks are emitted from you while this is active. Gain an additional 50/60/70/80/90/100% increased movement speed and 50/65/80/95/110/125 HP for 3/4/5/6/7/8 seconds. For that duration you can hold space to fly and your Spin Attack is called "Light Speed Attack" when it procs. After that duration you lose all bonuses and heal your team for 10/20/30/40/50/60 HP unless you died before the duration ends. 45 second cooldown.

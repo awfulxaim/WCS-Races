@@ -1,0 +1,15 @@
+Scorpion
+
+requires total level 120. constantly has a fire burning on its head. and has a yellow player model.
+
+Bloody Spear
+15/18/22/20% chance on hit to force the enemy to long jump towards you. long jump force is 1.5/2/2.5/3
+
+Hellfire Punch
+10/15/18/22% chance on hit to instantly teleport behind the enemy facing their back, switch your weapon to your knife, and left click with it.
+
+Hellfire
+11/15/24/28% chance on death to burn the enemy for .3/.5/.8/1 second dealing 5 dmg per .25 seconds.
+
+Scorpion Sting (ultimate)
+After a 1 second delay, create a fire effect where you were, instantly teleport behind the enemy you were aiming at when you activated this facing their back, and switch to your knife. you are invisible for the first .3/.5/.8/1 second of the delay. The enemy must be within 100/150/200/300 units of you. 10 second cooldown.

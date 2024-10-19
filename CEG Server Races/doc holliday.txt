@@ -1,0 +1,15 @@
+Doc Holliday
+
+spawns with and is restricted to dualies and knife. requires total level 560
+
+In My Prime
+Spawn with 10/20/30/40 more HP.
+
+Reckoning
+Spawn with 10/20/30/40% increased movement speed.
+
+Forgive Me If I Don't Shake Hands
+5/10/15/20% chance on hit to steal $1000 from the enemy.
+
+I'm Your Huckleberry (ultimate)
+Increase your movement speed by 5/10/15/20% for 1/2/3/4 seconds. 15 second cooldown.

@@ -1,0 +1,197 @@
+
+
+
+
+
+block splitshot
+{
+  if (event_var(es_userteam) = 2) do
+  {
+    es_xset hook_red 100
+    es_xset hook_green 100
+    es_xset hook_blue 220
+  }
+  if (event_var(es_userteam) = 3) do
+  {
+    es_xset hook_red 255
+    es_xset hook_green 25
+    es_xset hook_blue 19
+  }
+	es_give event_var(userid) env_smokestack
+	es_fire event_var(userid) env_smokestack addoutput "basespread 12"
+	es_fire event_var(userid) env_smokestack addoutput "spreadspeed 5"
+	es_fire event_var(userid) env_smokestack addoutput "speed 20"
+	es_fire event_var(userid) env_smokestack addoutput "startsize 5"
+	es_fire event_var(userid) env_smokestack addoutput "endsize 1"
+	es_fire event_var(userid) env_smokestack addoutput "rate 200"
+	es_fire event_var(userid) env_smokestack addoutput "jetlength 100"
+	es_fire event_var(userid) env_smokestack addoutput "twist 5"
+	es_fire event_var(userid) env_smokestack addoutput "smokematerial particle\fire.vmt"
+	es_fire event_var(userid) env_smokestack addoutput "angles 0 0 0"
+	es_fire event_var(userid) env_smokestack addoutput "rendermode 11"
+	es_fire event_var(userid) env_smokestack addoutput "renderamt 1"
+	es_fire event_var(userid) env_smokestack addoutput "rendercolor 20 20 20"
+	es_fire event_var(userid) env_smokestack turnon
+	es_delayed 11 es_fire event_var(userid) env_smokestack kill
+	es_fire event_var(userid) env_smokestack setparent !activator
+	es_delayed 1 wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+	es_delayed 6 wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+	es_delayed 9 wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+	es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+	es_xmath wcs_z1 + 60
+	es_xmath wcs_z2 + 50
+	es_xmath wcs_y2 + 28
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect_06 #a 0 effects/bluemuzzle.vmt server_var(vector2) server_var(vector1) 100 .3 5 1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector2) server_var(vector1) 100 .3 1 .1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es_xmath wcs_y2 + 30
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect_06 #a 0 effects/bluemuzzle.vmt server_var(vector2) server_var(vector1) 100 .3 5 1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector2) server_var(vector1) 100 .3 1 .1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es_xmath wcs_y2 - 60
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect_06 #a 0 effects/bluemuzzle.vmt server_var(vector2) server_var(vector1) 100 .3 5 1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector2) server_var(vector1) 100 .3 1 .1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es_xmath wcs_y2 - 40
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect_06 #a 0 effects/bluemuzzle.vmt server_var(vector2) server_var(vector1) 100 .3 5 1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es est_effect_06 #a 0 sprites/bluelight1.vmt server_var(vector2) server_var(vector1) 100 .3 1 .1 10 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue) 255 100
+	es_playsound event_var(attacker) weapons/fx/nearmiss/bulletltor06.wav 1
+	es_delayed .2 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor05.wav 1
+	es_delayed .2 es_playsound event_var(attacker) weapons/fx/nearmiss/bulletltor04.wav 1
+	es_delayed .4 es_playsound event_var(userid) weapons/fx/nearmiss/bulletltor06.wav 1
+	es_delayed .4 es_playsound event_var(attacker) weapons/fx/nearmiss/bulletltor03.wav 1
+	es_tell event_var(userid) #multi #lightgreen you have been hit with a #green shotmagically split your shot into four arrows #lightgreen by #default event_var(es_attackername)
+	es_tell event_var(attacker) #multi #default [split shot] #lightgreenyou have magically split your shot into four arrows
+}
+
+
+block chill
+{
+	es_xset wcs_team_target 0
+	es_getplayerteam wcs_team event_var(attacker)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+			es usermsg fade event_var(attacker) 0 2 1 240 240 240 100
+			es_xset wcs_wall 1
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+      es_xset wcs_counter 0
+			es wcs_nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) "es_exists ex userid server_var(wcs_targetid);if (server_var(ex) = 1) then es_xif (server_var(wcs_counter) < server_var(wcs_maxtargets)) then es_xdoblock holliday_wcs/medusa/ulti_chain"
+			if (server_var(wcs_counter) > 0) then wcs_xcentertell server_var(wcs_userid) c_u_chainglightning count server_var(wcs_counter)
+		}
+	}
+}
+
+block ulti_chain
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_targetid)
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_xmath wcs_z1 + 50
+  es_xmath wcs_z2 + 50
+  es wcs damage server_var(wcs_targetid) event_var(attacker) 8
+	es est_effect_06 #a 0 sprites/lgtning_noz.vmt server_var(vector2) server_var(vector1) 10 1 1 7 10 10 server_var(hook_red) server_var(hook_green) server_var(hook_blue)  255 172
+	es est_effect_08 #a 0 sprites/lgtning_noz.vmt server_var(vector2) 5000 2 10 .3 30 400 0 server_var(hook_red) server_var(hook_green) server_var(hook_blue)  255 10 1
+}
+
+block manashield
+{
+	es_set wcs_dmg event_var(dmg_health)
+	es_xrand wcs_dmg 1 20
+	es playerset health event_var(userid) event_var(dmg_health)
+	es_tell event_var(userid) #multi #green evaded a shot
+}
+
+block purge
+{
+	es_give server_var(wcs_userid) env_smokestack
+	es_fire server_var(wcs_userid) env_smokestack addoutput "basespread 35"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "spreadspeed 10"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "initial 0"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "speed 50"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "startsize 15"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "endsize 5"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "rate 200"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "jetlength 100"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "twist 500"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "smokematerial particle\fire.vmt"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "angles 0 0 0"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "rendermode 18"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "renderamt 100"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "rendermode 1"
+	es_fire server_var(wcs_userid) env_smokestack addoutput "rendercolor 34 103 47"
+	es_fire server_var(wcs_userid) env_smokestack turnon
+	es_fire server_var(wcs_userid) env_smokestack setparent !activator
+	es_delayed 5 es_fire server_var(wcs_userid) env_smokestack turnoff
+	es_xset wcs_team_target 0
+	es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+			es usermsg fade server_var(wcs_userid) 0 2 1 240 240 240 100
+			es est_fade server_var(wcs_userid) 0 2 1 240 240 240 100
+			es_xset wcs_wall 1
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+      es_xset wcs_counter 0
+			es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+			es wcs_nearcoord wcs_targetid server_var(wcs_team_targetn) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_radius) "es_exists ex userid server_var(wcs_targetid);if (server_var(ex) = 1) then es_xif (server_var(wcs_counter) < server_var(wcs_maxtargets)) then es_xdoblock holliday_wcs/medusa/ultimate"
+			if (server_var(wcs_counter) > 0) then es_tell server_var(wcs_userid) #multi #green purge hit server_var(wcs_counter) players
+			else es_xset wcs_ultinotexec 1
+		}
+		else do
+		{
+			es_xset wcs_ultinotexec 1
+		}
+	}
+	if (server_var(wcs_ultinotexec) = 1) then wcs_xtell server_var(wcs_userid) u_chain_failed
+	if (server_var(wcs_ultinotexec) = 1) then wcs_cancelulti server_var(wcs_userid)
+}
+
+block ultimate
+{
+  es_xmath wcs_z1 + 50
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 server_var(wcs_radius) 1 20 100 1 34 103 47 255 10
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 30 50 3 50 100 0 34 103 47 255 0
+  es_xmath wcs_z2 + 150
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 20 server_var(wcs_radius) 1 20 50 1 34 103 47 255 10
+  es_xmath wcs_counter + 1
+  es playerset speed server_var(wcs_targetid) 0.2
+  es_delayed 2 es playerset speed server_var(wcs_targetid) 1
+  es playerset color server_var(wcs_targetid) 15 34 103 47
+  es es_delayed 2 playerset color server_var(wcs_targetid) 255 255 255 255
+  es_playsound server_var(wcs_userid) ambient/fire/mtov_flame2.wav 1
+
+}

@@ -1,0 +1,15 @@
+Dragonfly
+
+requires total level 340.
+
+Shredding Mandibles
+18/22/28/33% chance on hit to deal 5/5-8/5-12/5-15 damage, rolled randomly. that roll is made once every 10 seconds. you get a message in chat that says "Shredding Mandibles will deal X damage" where X is the damage it rolled for that 10 second period.
+
+Death Sparks
+18/22/28/33% chance on death to cause the enemy who killed you to spark for 15 seconds. For that duration, that enemy takes 5 damage per 3 seconds.
+
+Weapon Menu
+33/44/55/66% chance on spawn to make the next primary and pistol you buy from the shop this round cost nothing.
+
+Dragonfly Wings (ultimate)
+Set your speed to 350/400/500/600%. after a 1 second delay you begin flying. you leave a smoke trail behind you while flying. press ultimate again to stop flying and lose your speed. 2 second cooldown.

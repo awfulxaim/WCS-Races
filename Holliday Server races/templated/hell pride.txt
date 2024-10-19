@@ -1,0 +1,15 @@
+Hell Pride
+
+requires total level 710. has a dark gray player model
+
+Pride
+Spawn with 10/20/40/60% increased movement speed and 10-20/10-30/10-40/10-70 extra HP rolled randomly.
+
+Sickle
+33% chance on hit to deal 1-3/3-5/5-9/9-15 extra damage rolled randomly.
+
+Last Strike
+33% chance on death to deal 5-9/5-11/7-15/10-20 damage to the enemy who killed you, rolled randomly.
+
+Darkness
+Become 100% invisible for .5/.7/.8/1 second and 90% fade the screen of all enemies in a 250/260/300/350 unit radius of you for 1 second. 10 second cooldown.

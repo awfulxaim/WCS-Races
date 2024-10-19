@@ -1,0 +1,15 @@
+Red Mist
+
+requires total level 520. You have a red overlay on your screen. your playermodel has red mist coming from it at all times. the sky and player shadows are red while there is a player playing this race.
+
+Red Mist
+8/11/15/99% chance on spawn to set your player model to red and get 4/22/28/42% invisibility.
+
+Red View
+8/11/15/99% chance on hit to rotate the enemy's screen 500 degrees, give their screen a red overlay, set their player model to red, set their invisibility to 42% and cause red mist to come from them for 1/2/3/4 seconds.
+
+Red Victim
+8/11/22/33% chance when hit to release a cloud of red mist and set your speed to 2.0/2.4/2.8/3.0 for .5/.8/1/1.5 seconds. the enemy who hits you gets a red scrren overlay for 1 second.
+
+Red Steps (ultimate)
+Set your speed to 1.4/1.8/2/2.5 and render effect to 16 (16: Hologram (Distort + "distance fade")/(in all games since ) Fade In (instant; not very useful outside of code)) for 2/3/4/5 seconds. for that duration you leave a trail of red mist behind you and make no footstep sounds (es_setplayerprop server_var(wcs_userid) CBasePlayer.m_fFlags 4). Jumping cancels this effect early. 15 second cooldown.

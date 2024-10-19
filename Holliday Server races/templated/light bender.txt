@@ -1,0 +1,18 @@
+Light Bender
+
+beams appear when shooting if that shot would have proced even if it didnt hit an enemy.
+
+Red Laser: Burn
+5/10/15/20/25% chance on hit to burn an enemy for 5 seconds.
+
+Blue Laser: Freeze
+5/10/15/20/25% chance on hit to bash the enemy for 3 seconds.
+
+Green Laser: Shake
+5/10/15/20/25% chance on hit to shake the enemy for 3.3 seconds and push them in a random direction.
+
+Phase Shift
+Spawn with 32/40/48/56/64% reduced gravity and 24/28/32/36/40% increased movement speed
+
+Disco Ball (ultimate)
+after a 3 second delay a random enemy is teleported above your head and rooted there for 5 seconds. red green and blue beams shoot randomly out of the enemy when a skill procs on them. 60/55/50/45/40 second cooldown.

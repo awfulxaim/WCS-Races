@@ -1,0 +1,82 @@
+block load
+{
+  es_xset wcs_x3 0
+  es_xset wcs_y3 0
+  es_xset wcs_z3 0
+  es_xset wcs_x4 0
+  es_xset wcs_y4 0
+  es_xset wcs_z4 0
+}
+
+block spawn
+{
+  es_emitsound player event_var(userid) ambient/atmosphere/cave_hit1.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 11 #a 0 models\effects\portalfunnel.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 5 255
+}
+
+block wallclimb
+{
+   es_setplayerprop event_var(userid) ccsplayer.baseclass.localdata.m_local.m_flstepsize server_var(wcs_cwall)
+   es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+   es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+   es_tell event_var(userid) #multi #green [wall climb] #lightgreenyou can walk over tall objects and walls by walking into them
+}
+
+block flipview
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es est_effect 11 #a 0 models\effects\portalfunnel.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 5 255
+  es_setplayerprop event_var(userid) cbaseplayer.m_ifov 500
+  es_delayed .1 es_setplayerprop event_var(userid) cbaseplayer.m_ifov 0
+  es_emitsound player event_var(userid) ambient/wind/wind_snippet2.wav 1
+  es_emitsound player event_var(attacker) ambient/wind/wind_snippet2.wav 1
+}
+
+block rematch
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+  es playerget viewcoord event_var(userid) wcs_x3 wcs_y3 wcs_z3
+  es playerget viewcoord  event_var(attacker) wcs_x4 wcs_y4 wcs_z4
+  es_delayed server_var(wcs_time) wcs spawn event_var(userid) 1
+  es_delayed server_var(wcs_time) wcs spawn event_var(attacker) 1
+  es_delayed server_var(wcs_time) es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_delayed server_var(wcs_time) es playerset location event_var(attacker) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_delayed server_var(wcs_time) es_emitsound player event_var(userid) weapons/physcannon/superphys_launch2.wav 1
+  es_delayed server_var(wcs_time) es_emitsound player event_var(attacker) weapons/physcannon/superphys_launch2.wav 1
+  es_delayed server_var(wcs_time) playerset viewcoord event_var(userid) server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3)
+  es_delayed server_var(wcs_time) playerset viewcoord event_var(attacker) server_var(wcs_x4) server_var(wcs_y4) server_var(wcs_z4)
+  es_tell event_var(userid) #multi #lightgreenin server_var(wcs_time) seconds you will re-live your last moment
+  es_tell event_var(attacker) #multi #lightgreen in server_var(wcs_time) seconds you go back in time to this verry moment
+}
+
+block zoom
+{
+  es_emitsound player server_var(wcs_userid) weapons\zoom.wav 1
+  es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) zoom
+  if (server_var(wcs_tmp) = 0) do
+  {
+    es_keysetvalue wcsuserdata server_var(wcs_userid) zoom 1
+    es_setplayerprop server_var(wcs_userid) cbaseplayer.m_ifov server_var(wcs_zoom)
+    es_cexec server_var(wcs_userid) r_screenoverlay sprites/reticle.vmt
+    es_emitsound player server_var(wcs_userid) items\nvg_on.wav 1
+  }
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_keysetvalue wcsuserdata server_var(wcs_userid) zoom 0
+    es_setplayerprop server_var(wcs_userid) cbaseplayer.m_ifov 0
+    es_cexec server_var(wcs_userid) r_screenoverlay 0
+    es_emitsound player server_var(wcs_userid) items\nvg_off.wav 1
+  }
+}
+
+event player_death
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) zoom
+  if (server_var(wcs_tmp) = 1) do
+  {
+    es_cexec event_var(userid) r_screenoverlay 0
+    es_keysetvalue wcsuserdata event_var(userid) zoom 0
+  }
+}

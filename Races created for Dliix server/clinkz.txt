@@ -1,0 +1,18 @@
+Clinkz
+
+scout and knife only.
+
+Strafe (ability)
+You shoot 10/50/90/130% faster for 3.5 seconds. 30/25/20/15 second cooldown.
+
+Tar Bomb
+50% chance on hit to lay a 325 unit radius ward at feet of the enemy you hit and deal 4/6/8/10 extra damage to them. The ward lasts 5 seconds and slows enemies in its area by 16/19/22/25% for 2.5 seconds. Enemies who are shot by you or hit by your wards while slowed this way take 3/4/5/6 extra damage.
+
+Death Pact
+When you kill an enemy you lay a 600 unit radius ward and you heal for 18/25/33/40 to 53/60/68/75 rolled randomly. that ward deals 5 damage per second. You can only have one death pact ward active at a time. If a new one is made, the old one is removed. this ward lasts 45 seconds.
+
+Burning Barrage (ability2)
+Get an autosniper for 3 seconds. your shots with the autosniper have a 100% chance to proc Tar Bomb.
+
+Skeleton Walk (ultimate)
+Gain 100% invisibility and 25/40/55/70% increased movement speed for 30/40/45/50 seconds or until you attack. when you attack from invisibility lay a death pact ward. 24/21/18/14 second cooldown.

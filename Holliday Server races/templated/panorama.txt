@@ -1,0 +1,15 @@
+Panorama
+
+requires total level 200
+
+Wall Climb
+you can walk up walls up to 45/55/100/200 units tall. (ccsplayer.baseclass.localdata.m_local.m_flstepsize)
+
+Flip View
+18/23/27/33% chance on hit to flip the enemy's screen upside down for .1 second.
+
+Rematch
+25/27/28/46% chance on death to respawn and instantly teleport the enemy back to where you were when you died, both of you aiming at each other. if the enemy that killed you is dead, this respawns them too. this respawn is delayed by 3/5/7/8 seconds.
+
+Zoom (utlimate)
+This lets you zoom in with any gun. the amount of zoom is reduced but becomes more usable with each level. the zoom numbers it gives are a multiplier of your FOV. 44x/33x/22x/8x

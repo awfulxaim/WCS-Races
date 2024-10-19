@@ -1,0 +1,15 @@
+Robocop
+
+deagle and knife only. has no recoil. footstep sound is replaced with a loud robot walking noise that can be heard basically across the map. (this originally used the run sound for dog from hl2) requires total level 790
+
+Machine Pistol
+You have a full auto deagle. Set your deagle ammo in clip to 30/40/60/100 and reserve ammo to 50/100/500/800. When you stop firing you automatically start reloading, which sets your clip back to the amount for your level.
+
+Metal Armor
+Spawn with 25/50/80/100 armor and helmet
+
+Anti Piercing Armor
+5/10/25/36% chance to evade.
+
+Scan (ultimate)
+Set your vision to have a green overlay. a sprite you can see through walls appears at the location of each enemy and updates every .1 second for 5/7/8/10 seconds. 25 second cooldown.

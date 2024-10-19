@@ -1,0 +1,15 @@
+Hell Wrath
+
+requires total level 730. constantly has a cloud of fire around it.
+
+Wrath
+25% chance on hit to deal 4-15 extra damage rolled randomly. if this damage puts the enemy below 40/45/50/55/60/65/70/75 HP, they take an additional 10 damage after 1 second.
+
+Explosive Bomb
+100% chance when hit when you are below 40/45/50/55/60/65/70/75 HP to deal 75-150 damage rolled randomly to enemies in a 175/185/195/205/215/225/250/275 unit radius.
+
+Dismembering
+20/25/30/35/40/45/50/55% chance when hit to deal 20-25/18-23/16-21/14-20/13-18/12-17/11-16/10-15 damage to the enemy who hit you rolled randomly. for 1.5 seconds that enemy is slowed by 60% of whatever their movement speed is (example: if their movement speed is 1.2 they would be slowed to .72)
+
+Hell's Wrath (ultimate)
+Suicide, deal 100-200 damage rolled randomly to all enemies in a 150/175/200/220/240/260/280/300 unit radius. no cooldown.

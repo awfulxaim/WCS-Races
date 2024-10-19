@@ -1,0 +1,18 @@
+Master Sniper
+
+Scout, five seven, and knife only. requires total level 300. limited to 2 per team. cannot buy long jump, cloak of shadows, or HP.
+
+Supplies
+50/65/75/85/100% chance to spawn with a scout and five seven.
+
+Travel Lightly
+long jump.
+
+Camouflage
+When you aren't shooting you fade to 60% invisibility over 10/8/7/6/5 seconds.
+
+Precision
+55/60/65/70/75% chance on hit to deal 50% more damage. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+First Aid
+Every 25 seconds you heal for 9/12/16/20/25 HP.

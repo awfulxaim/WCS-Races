@@ -1,0 +1,15 @@
+Nightfire
+
+m249, p2000/usp/glock, and knife only. requires total level 220. takes no fall damage. makes huge spark particles each time it steps. a line is drawn into the when the bomb is planted. 
+
+Hookshot
+shots with your pistol pull you around the map. 22/28/33/36% chance on spawn. like spiderman but with your gun.
+
+Stun Flashbangs
+You spawn with 1/1/1/2 flashbangs. flashbangs blind for an additional 3 seconds of full blind in addition to the amount it would blind and roots blinded enemies for 2 seconds.
+
+Rockets (ability)
+holding ability for 2.6 seconds sets your m249 to 1 round in the clip and none in reserve. letting go of ability sets your m249 back to full ammo and reserves after a 2.8 second delay. if you fire your single round while holding ability your shot causes a 100 unit radius explosion that kills in one hit and leaves a smoke trail from the explosion to you. you can activate this up to 1/1/2/3 times. no cooldown.
+
+Portal (ability2/ultimate)
+press ultimate to create a portal where you are. pressing it again at another location opens a new portal. any player that enters into one portal teleports to the other. pressing ability2 deletes the portals you created. You may only have 2 portals open at a time. you can use ultimate to create a portal up to 2/2/4/6 times. no cooldown. portals are 15 unit radius wards with rings that grow and shrink in a 125 to 225 unit radius around them.

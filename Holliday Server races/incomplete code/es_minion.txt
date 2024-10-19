@@ -1,0 +1,155 @@
+block load
+{
+es_xset midmg 0
+es_xset mialive 0
+es_xset myname 0
+es_xset yourname 0
+es_xset dead 0
+repeat create minion_loop "es_xdoblock holliday_wcs/minion/minion_loop" 
+}
+
+event player_spawn
+{
+    es_keysetvalue WCSuserdata event_var(userid) deadmi 0
+    es_xset minion 0
+    es_keygetvalue minion WCSuserdata event_var(userid) minion
+    if (server_var(minion) = 1) do
+    {
+        es es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+        es_xmath wcs_z1 + 75
+        es est_effect 11 #a 0 models/Barnacle.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 5 5 255
+        es_xmath wcs_z1 + 30
+        es est_effect 11 #a 0 fire.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 5 .5 255
+        es es_playsound event_var(userid) ambient/atmosphere/cave_hit1.wav 1
+   }
+}
+
+block spawn
+{
+    es es_keysetvalue wcsuserdata event_var(userid) minion 1
+}
+
+event player_death
+{
+    es es_keysetvalue WCSuserdata event_var(userid) minion 0
+    es_delayed 1 es_keysetvalue WCSuserdata event_var(userid) minion 0
+    es_xset minion 0
+    es_keygetvalue minion WCSuserdata event_var(userid) minion
+    if (server_var(minion) = 1) do
+    {
+    //nothing atm
+    }
+    es_xset deadmi 0
+    es es_xkeygetvalue deadmi WCSuserdata event_var(userid) deadmi
+    if (server_var(deadmi) = 1) do
+    {
+        es_tell event_var(attacker) #multi #lightgreenYou have Killed #default event_var(es_username) #lightgreen and the #greenDark Minion has went a stray
+        es_tell event_var(userid) #multi #lightgreenYou have been #defaultKilled #lightgreenyour #greenMinion #lightgreen have gone a stray
+        es repeat stop minion_loop
+    }
+}
+
+
+block blood
+{
+    es wcs damage event_var(userid) event_var(attacker) 10
+    es_tell event_var(attacker) #multi #lightgreenyou have caused Extra Damage, Extra Blood
+    es_give event_var(userid) env_blood 
+    es_fire event_var(userid) env_blood addoutput "color 0" 
+    es_fire event_var(userid) env_blood addoutput "amount 50" 
+    es_fire event_var(userid) env_blood addoutput "spawnflags 29" 
+    es_fire event_var(userid) env_blood emitblood 
+}
+
+block pulsation
+{
+    es wcs push event_var(userid) 0 0 300
+    es usermsg fade event_var(userid) 0 2 2 255 128 155 155
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+    es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 .3 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 + 40
+    es est_effect 10 #a 0.2 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 .3 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 + 40
+    es est_effect 10 #a 0.4 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 .3 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 - 50
+    es est_effect 10 #a 0.6 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 .3 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 - 40
+    es est_effect 10 #a 0.8 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 .3 20 300 1.8 255 0 128 255 10
+    es_xmath wcs_z1 - 40
+    es est_effect 10 #a 1 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 50 120 .3 20 300 1.8 255 0 128 255 10
+}
+
+block taunt
+{
+    es playerset color event_var(userid) 0 0 0 0 
+    es_delayed .2 es playerset color event_var(userid) 255 255 255 255 
+    es_delayed .4 playerset color event_var(userid) 0 0 0 0 
+    es_delayed .6 es playerset color event_var(userid) 255 255 255 255 
+    es_delayed .8 es playerset color event_var(userid) 0 0 0 0 
+    es_delayed 1 es playerset color event_var(userid) 255 255 255 255 
+    es_delayed 1.2 es playerset color event_var(userid) 0 0 0 0 
+    es_delayed 1.4 es playerset color event_var(userid) 255 255 255 255 
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_tell event_var(userid) #multi #lightgreenYou have Gained Blinking Invisibility
+    es_xmath wcs_z1 + 10
+    es est_effect 11 #a 0 models/vortigaunt.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .1 10 255
+    es est_effect 11 #a .3 models/vortigaunt.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .1 10 255
+    es est_effect 11 #a .5 models/vortigaunt.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .1 10 255
+    es est_effect 11 #a .7 models/vortigaunt.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .1 10 255
+    es est_effect 11 #a .9 models/vortigaunt.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .1 10 255
+}
+
+block minion
+{
+    es_xsetinfo minion 0
+    es_exists wcs_exists userid server_var(minion)
+    es_getcmduserid minion
+    es_xdoblock holliday_wcs/minion1
+    repeat start minion_loop .1
+}
+
+block minion1
+{
+    es_xset minion 0
+    es_exists wcs_exists userid server_var(minion)
+    es_getcmduserid minion
+    es_xset wcs_player 0
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(minion)
+    es_xmath wcs_z1 + 50
+    es_xset loop_counter 900
+    es_xset wcs_player 0
+    if (server_var(wcs_team) = 2) then getrandplayer wcs_player #c!d
+    if (server_var(wcs_team) = 3) then getrandplayer wcs_player #t!d
+    es_exists wcs_exists userid server_var(wcs_player)
+    if (server_var(wcs_exists) = 1) do
+    {
+        repeat start minion_loop .1
+        es_getplayername yourname server_var(wcs_player)
+        es_tell server_var(minion) #multi #lightgreen: You have Summoned a #greenMinion #lightgreento Target And Destroy #green server_var(yourname) , 
+        es_getplayername myname server_var(minion)
+        es_tell server_var(wcs_player) #multi #lightgreen You have been Targeted by #green server_var(myname) 's Minion, #lightgreen as long as #green server_var(myname) #lightgreen is alive, they will #green track #lightgreen You!!
+        es_delayed 3 es_tell server_var(wcs_player) You Must Kill server_var(myname) ! ! 
+        es_keysetvalue WCSuserdata server_var(minion) deadmi 1
+    }
+}
+
+block minion_loop
+{ 
+    es_xmathparse loop_counter "loop_counter - 10" 
+    es_xmath wcs_z1 + 150
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(dead)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_player)
+    es est_effect 11 #a 0 models/MortarSynth.mdl server_var(wcs_x1) server_var(wcs_y1) server_var(loop_counter) .2 5 255
+    if (server_var(loop_counter) =< server_var(wcs_z1)) do
+    {
+        es_keysetvalue wcsuserdata server_var(minion) deadmi 0
+        es est_effect 7 #a 0 sprites/smoke.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10000 10
+        es wcs damage server_var(wcs_player) server_var(minion) 1000
+        es_tell server_var(minion) #multi #lightgreen Your #greenminion #lightgreenhas done server_var(midmg) damage to server_var(yourname)
+        es_tell server_var(wcs_player) #multi #lightgreen You got #green server_var(midmg) damage #lightgreen from server_var(myname) 's minion
+        es es_playsound server_var(minion) npc/antlion/attack_single1.wav 1
+        es es_playsound server_var(wcs_player) npc/antlion/attack_single2.wav 1
+        es repeat stop minion_loop
+    }
+}

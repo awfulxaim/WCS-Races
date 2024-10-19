@@ -1,0 +1,15 @@
+Aiushtha
+
+requires total level 970.
+
+Impetus
+27/30/31/33% chance on hit to deal 10% more damage for each 200 range away an enemy is when you hit them. cannot proc on enemies less than 1600/1400/1200/1000/800/600/400/200 range away.
+
+Enchant
+27/30/31/33% chance on hit to set the enemy to 50% movement speed for 3 seconds.
+
+Untouchable
+27/30/31/33% chance when hit to slow the enemy's fire rate by 40%.
+
+Nature's Attendants (ultimate)
+Heal yourself and all teammates in a 115/225/340/550 unit radius for 15HP per second for 3 seconds. 15 second cooldown.

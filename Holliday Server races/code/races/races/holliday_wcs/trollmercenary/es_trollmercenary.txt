@@ -1,0 +1,187 @@
+block load
+{
+  eventscripts_noisy 1
+  es_xset gshot1 0
+  es_xset wcs_x3 0
+  es_xset wcs_y3 0
+  es_xset wcs_z3 0
+  es_xset wcs_x4 0
+  es_xset wcs_y4 0
+  es_xset wcs_z4 0
+  es_xset count 0
+  es_xset wcs_ammo 0
+  repeat create dsone "es_xdoblock holliday_wcs/trollmercenary/one"
+  repeat create dstwo "es_xdoblock holliday_wcs/trollmercenary/two"
+  repeat create dsthree "es_xdoblock holliday_wcs/trollmercenary/three"
+}
+
+
+block spawn
+{
+  es_xset count 0
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_getplayerlocation wcs_x3 wcs_y3 wcs_z3 event_var(userid)
+  es_xmath wcs_z2 + 100                                                                                                
+  es_xmath wcs_x2 + 50
+  es_delayed 2.7 es est_effect 3 #a 0 sprites/glow01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 3 9 255 128 0 155
+  es_delayed 3.3 es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 .5 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 30 31 5 40 3 0 255 128 0 55 10
+  es_xmath wcs_x2 - 100
+  es_delayed 2.7 es est_effect 3 #a 0 sprites/glow01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 3 9 255 128 0 155
+  es_delayed 3.3 es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 .5 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 30 31 5 40 3 0 255 128 0 55 10
+  es_playsound event_var(userid) music\hl1_song15.mp3 1
+  es_delayed 4.8 es_stopsound event_var(userid) music\hl1_song15.mp3
+  es_delayed 4.83 es_playsound event_var(userid) music\hl1_song15.mp3 1
+  es_delayed 4.89 es_stopsound event_var(userid) music\hl1_song15.mp3
+  repeat start dsone .1
+}
+
+block one
+{
+  es_xmath count + 1
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z3 + 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .8 .4 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 30 29 2 30 3 0 255 128 0 55 10
+  if (server_var(count) >= 13) do
+  {
+    repeat stop dsone
+    repeat start dstwo .2
+  }
+}
+
+block two
+{
+  es_xmath wcs_x1 + 20
+  es_xmath count + 1
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1.5 .4 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 30 29 .6 30 3 0 255 128 0 55 1
+  es_xmath wcs_x3 - 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 1.5 .4 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 30 29 .6 30 3 0 255 128 0 55 1
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1.5 .4 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 30 29 .6 30 3 0 255 128 0 55 1
+  if (server_var(count) >= 18) do
+  {
+    repeat stop dstwo
+    repeat start dsthree .1
+  }
+}
+
+block three
+{
+  es_xmath wcs_z1 - 20
+  es_xmath wcs_x1 - 20
+  es_xmath count + 1
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .8 .4 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 30 29 .6 20 3 0 255 128 0 55 1
+  es_xmath wcs_z3 - 20
+  es_xmath wcs_x3 + 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) .8 .4 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 30 29 .6 20 3 0 255 128 0 55 1
+  if (server_var(count) >= 25) do
+  {
+    repeat stop dsthree
+  }
+}
+
+block gravityshot
+{
+  es wcs_setfx gravity event_var(userid) + server_var(wcs_gravity) 3
+  es_tell event_var(userid) #multi #green event_var(es_attackername) #lightgreen has added #green server_var(wcs_gravity) #lightgreen to your gravity
+  es_tell event_var(attacker) #multi #lightgreenyou have added #green server_var(wcs_gravity) #lightgreento #green event_var(es_username) 's #lightgreengravity
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid) 
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z2 + 50
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect 11 #a 0 sprites/orangecore2.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) .6 1 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 60 59 .6 50 3 0 255 128 0 155 15
+	es est_effect_06 #a 0 sprites/orangecore2.vmt server_var(vector2) server_var(vector1) 100 .3 5 10 10 0 255 255 133 255 90
+  es_playsound event_var(userid) items\medshotno1.wav 1
+  es_playsound event_var(attacker) weapons\explode3.wav 1
+}
+
+block invisibilityjump
+{
+  es wcs_setfx longjump event_var(userid) = server_var(wcs_jump) 0
+  es_tell event_var(userid) #multi #green invisibility jump set
+  es_keysetvalue wcsuserdata event_var(userid) invisibilityjump server_var(wcs_invis)
+}
+
+block multiplegrenades
+{
+  es_keysetvalue wcsuserdata event_var(userid) multiplegrenades server_var(wcs_ammo)  
+  es_give event_var(userid) weapon_hegrenade
+  es_tell event_var(userid) #multi #green server_var(wcs_ammo) grenades
+}
+
+block grenadeshot
+{
+  es_keysetvalue wcsuserdata server_var(wcs_userid) grenadeshot 1
+  es_tell server_var(wcs_userid) #multi #lightgreenthe next shot you fire will explode
+}
+
+event weapon_fire
+{
+  es_keygetvalue wcs_ammo wcsuserdata event_var(userid) multiplegrenades
+  if (server_var(wcs_ammo) > 1) do
+  {
+    if (event_var(weapon) = hegrenade) do
+    {     
+      es_xmath wcs_ammo - 1
+      es_keysetvalue wcsuserdata event_var(userid) multiplegrenades server_var(wcs_ammo) 
+      es_give event_var(userid) weapon_hegrenade
+      es_tell event_var(userid) #multi #green server_var(wcs_ammo) more grenades left 
+    }
+  }
+}
+
+event player_jump
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) invisibilityjump
+  if (server_var(wcs_tmp) != 0) do
+  {
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_tmp)
+    es_delayed .6 es playerset color event_var(userid) 255 255 255 255
+    es wcs_setfx gravity event_var(userid) - .8 .5
+    es_playsound event_var(userid) player\suit_sprint.wav 1
+  }
+}
+
+event bullet_impact
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) grenadeshot
+  if (server_var(wcs_tmp) = 1) do
+  { 
+    es_xset owner 0
+    es_xset coords 0
+    es_getplayerhandle owner event_var(userid)
+    es_setindexprop server_var(eventscripts_lastgive) cbaseentity.m_hownerentity server_var(owner)
+  	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 + 50
+		es_xmath wcs_z2 + 50
+		es est_effect 3 #a 0 sprites/tp_beam001.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) event_var(x) event_var(y) event_var(z) 1 3 1 255 128 35 255
+    es_delayed .3 es est_effect 11 #a 0 sprites/floorfire4_.vmt event_var(x) event_var(y) event_var(z) 2 3 255
+    es_delayed .1 es_keysetvalue wcsuserdata event_var(userid) grenadeshot 0
+  	es_give event_var(userid) env_explosion
+		es_fire event_var(userid) env_explosion addoutput "imagnitude 100"
+		es_fire event_var(userid) env_explosion addoutput "spawnflags 8"
+    es_format coords "origin %1 %2 %3" event_var(x) event_var(y) event_var(z)
+		es_fire event_var(userid) env_explosion addoutput server_var(coords)
+		es_fire event_var(userid) env_explosion explode
+    es_getplayerhandle owner event_var(userid)
+		es_setindexprop server_var(eventscripts_lastgive) cbaseentity.m_hownerentity server_var(owner)
+		es_playsound event_var(userid) weapons/shotgun/shotgun_dbl_fire.wav 1
+  }
+}
+
+event player_death
+{
+  es_keysetvalue wcsuserdata event_var(userid) invisibilityjump 0 
+  es_keysetvalue wcsuserdata event_var(userid) multiplegrenades 0
+  es_keysetvalue wcsuserdata event_var(userid) grenadeshot 0
+}

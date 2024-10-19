@@ -1,0 +1,15 @@
+Hell Hunter
+
+Dualies, flashbang, and knife only. requires total level 270.
+
+Searing Fire Arrows
+22/28/33/36% chance on hit to cause a raining fire effect on the enemy. that enemy takes 3 damage per .25 seconds for 1 second.
+
+Teleport Flash Bangs
+Spawn with a flash bang. When you throw a flashbang you get a new one 1 second later, up to 0/1/2/3 times per round. When a flashbang detonates you instantly teleport to the location of that detonation.
+
+Anti Fall Damage
+22/28/33/36% chance when you spawn to take no fall damage.
+
+Dual Rapid Fire (ultimate)
+Get infinite ammo and full auto dualies with no recoil or spread for 3/4/5/6 seconds. while this is active your dualies shoot tiny little fireballs. after that duration your dualies get set to the normal full ammo amount. 20 second cooldown.

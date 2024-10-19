@@ -1,0 +1,200 @@
+block load
+{
+    es_xset wcs_explode_damage 0
+    es_xset blackout "coded by holliday"
+    es_xmakepublic blackout
+    es_xset wcs_tmp1 0
+    es_xset coords 0
+    es_xset wcs_format 0
+    eventscripts_noisy 1
+}
+
+event player_death
+{
+
+  es_keysetvalue wcsuserdata event_var(userid) heli 0
+  es_keysetvalue wcsuserdata event_var(userid) blackout 0
+  es_keysetvalue wcsuserdata event_var(userid) blackoutjump 0
+  es_keysetvalue wcsuserdata event_var(userid) rotor 0
+  es_keysetvalue wcsuserdata event_var(userid) heli_gun 0
+  es_stopsound event_var(userid) ambient/machines/heli_pass_quick1.wav
+  es_stopsound event_var(userid) ambient/machines/heli_pass_quick1.wav
+  es_delayed 1 es_stopsound event_var(userid) npc/attack_helicopter/aheli_rotor_loop1.wav
+}
+
+block spawn
+{
+    es_keysetvalue wcsuserdata event_var(userid) blackout 1
+    es_keysetvalue wcsuserdata event_var(userid) heli 0
+    es playerset speed event_var(userid) .5
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es est_effect_14 #a 0 models/combine_helicopter.mdl server_var(vector1) server_var(vector1) 1150 2 195
+    es_stopsound event_var(userid) ambient/machines/heli_pass_quick1.wav
+    es_delayed 1 es_stopsound event_var(userid) npc/attack_helicopter/aheli_rotor_loop1.wav
+    
+}
+
+block jump
+{
+    es_keysetvalue wcsuserdata event_var(userid) blackoutjump server_var(wcs_jump)
+    es_keysetvalue wcsuserdata event_var(userid) delay server_var(wcs_delay)
+}
+
+block maximum
+{
+    es playerset healthadd event_var(userid) server_var(wcs_health)
+    es playerset armoradd event_var(userid) server_var(wcs_armor)
+    es_tell event_var(userid) #multi #green + server_var(wcs_health) hp + server_var(wcs_armor) armor
+}
+
+block rotor
+{
+    es_keysetvalue wcsuserdata event_var(userid) rotor 1
+    es_tell event_var(userid) #multi #lightgreen rotor
+}
+
+block ultimate
+{
+ 
+    es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) heli
+    if (server_var(wcs_tmp) = 0) do
+    {
+        es_tell server_var(wcs_userid) #multi #lightgreen You are a #greenHelicopter!!!!!!!!   
+        es_keysetvalue wcsuserdata server_var(wcs_userid) heli 1
+        es_keysetvalue wcsuserdata server_var(wcs_userid) heli_gun server_var(wcs_explode_damage)
+	    es playerget primary wcs_primary server_var(wcs_userid)
+        es_keysetvalue wcsuserdata server_var(wcs_userid) primary server_var(wcs_primary)
+        es wcs removeweapon server_var(wcs_userid) 1
+	    es_delayed .2 es_give server_var(wcs_userid) weapon_m249
+	    es_delayed .2 playerset ammo server_var(wcs_userid) 1 200
+        es_delayed .2 es_emitsound player server_var(wcs_userid) npc/attack_helicopter/aheli_rotor_loop1.wav 1
+	    //es playerset model server_var(wcs_userid) combine_helicopter 
+	    es_delayed 1 es playerset push server_var(wcs_userid) 0 500 1
+	    es_delayed 1 es playerset jetpack server_var(wcs_userid) 1
+	    es_emitsound player server_var(wcs_userid) ambient/machines/heli_pass_quick1.wav 1
+  }
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es_tell server_var(wcs_userid) #multi #lightgreen no longer a #greenHelicopter!!!!!!!!   
+        es_keygetvalue wcs_primary wcsuserdata server_var(wcs_userid) primary
+	    es_playsound server_var(wcs_userid) ambient/machines/spindown.wav 1
+	    es_stopsound server_var(wcs_userid) ambient/machines/heli_pass_quick1.wav
+	    es_delayed 1 es_stopsound server_var(wcs_userid) npc/attack_helicopter/aheli_rotor_loop1.wav
+	    es wcs removeweapon server_var(wcs_userid) 1
+	    es_delayed .2 es_give server_var(wcs_userid) server_var(wcs_primary)
+	    es_delayed 1 es playerset jetpack server_var(wcs_userid) 0
+	    es_delayed 3 es_stopsound server_var(wcs_userid) npc/attack_helico pter/aheli_rotor_loop1.wav
+	    es_getplayerteam wcs_team server_var(wcs_userid)
+        //if (server_var(wcs_team) = 2) then es playerset model server_var(wcs_userid) player/t_phoenix
+	    //if (server_var(wcs_team) = 3) then es playerset model server_var(wcs_userid) player/ct_urban
+	    es_keysetvalue wcsuserdata server_var(wcs_userid) heli 0
+        es_keysetvalue wcsuserdata server_var(wcs_userid) heli_gun 0
+    }
+}
+
+event weapon_fire
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) rotor
+  if (server_var(wcs_tmp) = 1) do
+  { 
+    if (event_var(weapon) = knife) do
+    {
+        es_xset turbofire 0
+	    es_xset gunname 0
+        es_format gunname "weapon_%1" event_var(weapon)
+	    es playerget weaponindex turbofire event_var(userid) server_var(gunname)
+	    es_setindexprop server_var(turbofire) "cbasecombatweapon.localactiveweapondata.m_flnextprimaryattack" 0
+	    es_setplayerprop event_var(userid) "ccsplayer.baseclass.localdata.m_local.m_vecpunchangle" 0.000000,0.000000,0.000000
+	    es_setplayerprop event_var(userid) "ccsplayer.baseclass.baseclass.bcc_localdata.m_flnextattack" 1
+	    es_setplayerprop event_var(userid) "ccsplayer.cslocaldata.m_ishotsfired" 0
+	    if (event_var(weapon) = knife) then es_playsound event_var(userid) ambient/machines/slicer1.wav 1
+        es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+        es est_effect_18 #a 0 server_var(vector1) 25 255 155 50 4 1 1
+    }
+  }
+}
+
+event bullet_impact
+{
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) heli
+    if (server_var(wcs_tmp) = 1) do
+	{
+        es_keygetvalue wcs_explode_damage wcsuserdata event_var(userid) heli_gun
+		es_playsound event_var(userid) weapons/mortar/mortar_explode2.wav 1
+		es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+        es playerget viewcoord wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+		es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	    es_createvectorstring vector2 event_var(x) event_var(y) event_var(z)	
+        es_xmath wcs_z1 + 20
+		es_xmath wcs_z2 + 20
+        es est_effect_06 #a 0 sprites/tp_beam001.vmt server_var(vector2) server_var(vector1) 100 .3 15 9 10 0 255 128 35 255 30
+        es est_effect_06 #a 0 sprites/xfireball3.vmt server_var(vector2) server_var(vector1) 100 .3 15 9 10 0 255 255 255 255 30
+        es est_effect 11 #a 0 sprites/xfireball3.vmt event_var(x) event_var(y) event_var(z) 3 5 255
+	    //es_format wcs_format "imagnitude %1" server_var(wcs_explode_damage)
+  	    //es_give event_var(userid) env_explosion
+		//es_fire event_var(userid) env_explosion addoutput server_var(wcs_format)
+		//es_fire event_var(userid) env_explosion addoutput "radius 10"
+		//es_format coords "origin %1 %2 %3" event_var(x) event_var(y) event_var(z)
+		//es_fire event_var(userid) env_explosion addoutput server_var(coords)
+		//es_fire event_var(userid) env_explosion explode
+		//es_getplayerhandle owner event_var(userid)
+		//es_setindexprop server_var(eventscripts_lastgive) cbaseentity.m_hownerentity server_var(owner)
+        es_give event_var(userid) env_explosion
+        es_fire event_var(userid) env_explosion addoutput "imagnitude 40"
+        es_xset coords 0
+        es_format coords "origin %1 %2 %3" event_var(x) event_var(y) event_var(z)
+        es_fire event_var(userid) env_explosion addoutput server_var(coords)
+        es_xset owner 0
+        es_getplayerhandle owner event_var(userid)
+        es_setindexprop server_var(eventscripts_lastgive) CBaseEntity.m_hOwnerEntity server_var(owner)
+        es_fire event_var(userid) env_explosion explode
+	}
+}
+
+event player_footstep
+{
+	es_keygetvalue wcs_tmp wcsuserdata event_var(userid) blackout
+  if (server_var(wcs_tmp) != 0) do
+	{
+    es_xrand wcs_rand 1 8
+    es_format wcs_format "npc\dog\dog_footstep_run%1.wav" server_var(wcs_rand)
+    es_emitsound player event_var(userid) server_var(wcs_format) 1
+    es usermsg shake event_var(userid) 3 .5
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1);es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	  es est_effect_08 #a 0 effects/muzzleflashx.vmt server_var(vector1) 2 100 .2 .5 2 400 10 255 255 255 255 10 1
+  }
+}
+
+event player_jump
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) blackoutjump
+  if (server_var(wcs_tmp) != 0) do
+	{
+    es_keygetvalue wcs_tmp1 wcsuserdata event_var(userid) heli
+    if (server_var(wcs_tmp1) = 0) do
+    {
+      es playerset push event_var(userid) 0 server_var(wcs_tmp) 1
+      es_delayed 3 es playerset jetpack event_var(userid) 1
+      es_delayed 3.4 es playerset jetpack event_var(userid) 0
+    }
+  }
+}
+
+event player_falldamage
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) blackoutjump
+  if (server_var(wcs_tmp) != 0) do
+ { 
+    es_setinfo falldamag event_var(damage)
+    es_xmath falldamag / server_var(falldmg)
+	  es playerset healthadd event_var(userid) server_var(falldamag)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1);es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	  es est_effect_08 #a 0 effects/muzzleflashx.vmt server_var(vector1) 2 990 2 1 40 400 10 255 255 255 255 10 1
+    es usermsg shake event_var(userid) 20 1
+  }
+}
+

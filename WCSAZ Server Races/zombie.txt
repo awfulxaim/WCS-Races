@@ -1,0 +1,18 @@
+Zombie
+
+knife only. uses headcrab zombie combine model from hl2.
+
+Plague
+Spawn with 500/1000/1500/2000/2500/3000/3500/4000 HP. reduce your movement speed by .15/.2/.25/.3/.35/.4/.45/.5
+
+Consume
+Gain 60/80/100/120/140/160/180/200 HP on kill.
+
+Infection
+15/20/25/30/35/40/45/50% chance when hit to deal 2 damage if you were shot in the body or 10 damage if you were shot in the head or 4 damage if you were hit with a knife attack.
+
+Carnivorous Impulse (ability)
+human teleport
+
+Septic Swarm (ultimate)
+Deal 20 damage to all enemies in a 400/450/500/550/600/650/700/750 unit radius and slow them by .15/.2/.25/.3/.35/.4/.45/.5 for 10 seconds. 30 second cooldown.

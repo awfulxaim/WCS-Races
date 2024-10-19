@@ -1,0 +1,18 @@
+Sewn Horror
+
+nova and knife only.
+
+Splice Appendages
+When you kill an enemy increase your movement speed by 2/4/6/8/10% for the rest of the round. this caps at 60% increased speed. When you kill an enemy increase your damage dealt by .1/.2/.3/.4/.5 for the rest of the map.
+
+Leaping Pounce
+when you jump with the knife out you have long jump, 1.5/1.8/2.1/2.4/2.7 multiplier, and begin flying for .5 seconds. Killing an enemy while you are in the air heals you for 5/10/15/20/25 HP to a max of 175 and grants you 100 extra XP.
+
+Crunch
+When you headshot an enemy, that enemy and enemies in a 400 unit radius of that enemy are blinded for .5/.75/1/1.25/1.5 seconds. knifing an enemy bashes them for .5/.75/1/1.25/1.5 seconds.
+
+Smell Fear
+when you kill an enemy while you are not moving, you can see the outline of all other enemies on the map for 1/2/3/4/5 seconds. when you knife an enemy in the back, they cannot evade or block your damage for the next 1/2/3/4/5 seconds.
+
+Remake (ultimate)
+Respawn where you died with 10 more HP for each enemy you've killed this round and 50 less HP for each time you've activated this ability this round. 15 second cooldown. this can be activated while you are dead.

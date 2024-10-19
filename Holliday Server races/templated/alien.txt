@@ -1,0 +1,15 @@
+Alien
+
+requires total level 940. cannot buy sock of feather. has a bright green player model.
+
+Alien Abilities
+Spawn with 120/130/140/150% increased movement speed. You have Long jump and fly when you jump for .5 seconds then you get 36% gravity. longjump force is 5/10/15/20.
+
+Alien Gun
+21/25/27/33% chance on hit to make the enemy look up, flash them for .6 seconds, and bash them for .2/.3/.4/.5 seconds. the amount this forces you to look up increases with levels.
+
+Alien Probe
+5/10/25/36% chance on hit to impale the enemy and knock them back slightly.
+
+Alien Abduction
+You must be aiming at an enemy within 700/800/900/1000 units to activate this. Root that enemy and lift them into the air over .5 seconds then they remain there for 1/1.5/2/2.5 seconds. they are blinded for 1.6 seconds longer than the total duration of the root. They take 8/12/20/25 damage when you activate this. 15 seocnd cooldown.

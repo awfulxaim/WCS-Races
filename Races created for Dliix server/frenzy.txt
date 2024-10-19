@@ -1,0 +1,21 @@
+NSC-SPU-03 Frenzy
+
+MP5 and knife only.
+
+NSC-SP02 Baldr
+you have a 1/2/3/5/6/7/9/10% chance to evade for each enemy in an 800 unit radius of you.
+
+NSC-F1 Hringhorni Skirmish Suit
+Spawn with 3/6/9/12/15/28/21/24% increased movement speed. Gain 3/4/5/6/7/8/9/10% increased movement speed for each 100 units away the closest enemy is to a max of 160% movement speed.
+
+N.Mako-Enhanced Fusion Bolter
+5/10/15/20/25/30/35/40% chance on hit to deal 5 extra damage and set the enemy's movement speed to 0% for .25 seconds then increase their movement speed by 10% per .1 second until they are at 100%.
+
+Brilliant Corona
+4/8/12/16/20/24/28/32% chance when hit to flash the enemy for 1.9 seconds then fade over the next 4.9 seconds. you gain 10HP when this procs. this can proc when you evade, but cannot proc on an enemy during the 1.9 seconds they are full flashed.
+
+Heavenly Sunder (ability)
+Root all enemies in a 250/300/350/400/450/500/550/600 unit radius for 1 second for each enemy that was in that radius. 30 second cooldown.
+
+AC-03 Combat Stimulant (ultimate)
+Gain 3/6/9/12/15/18/21/25% increased movement speed and 15/20/25/30/35/40/45/50% increased fire rate for 6 seconds. 15 second cooldown.

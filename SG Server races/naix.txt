@@ -1,0 +1,15 @@
+Naix
+
+requires total level 350. limited to 2 per team. cannot by long jump, mask of death, or HP.
+
+Infest
+You gain 5/10/15/20 HP when you kill an enemy. You instantly teleport to the location they were at when you killed them if you were crouched when you killed them.
+
+Blood Bath
+Add 10/20/30/40 HP to the HP gained from your other skills.
+
+Feast
+You heal for 4/6/8/10% of the enemy's HP on hit.
+
+Rage (ultimate)
+Your fire rate is increased by 15/25/35/40% for 3/4/5/6 seconds. 20 second cooldown.

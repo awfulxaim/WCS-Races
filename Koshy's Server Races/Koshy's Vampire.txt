@@ -1,0 +1,21 @@
+Koshy's Vampire
+
+knife only
+
+Vampiric Existence
+Spawn with 20/40/60/80/100 more HP and 18/36/54/72/90% increased movement speed.
+
+Feed
+gain 20/40/60/80/100HP on kill. If you have not killed a player for 5 seconds you take 5 damage per second.
+
+Soulless
+You spawn with 5/15/25/35/45% reduced gravity and 14/28/42/56/70 armor and helmet.
+
+Charm (ability)
+paralyze each enemy in a 200 unit radius around you for 2.5 seconds. The enemies paralyzed by this skill get a white player model. 20 second cooldown.
+
+Mist
+3/6/9/12/15% chance when hit to create a smoke cloud and become 100% invisible for 4 seconds. You do not see your own smoke cloud, instead a circle on the ground shows you where the smoke cloud is.
+
+Transform (ultimate)
+get a bat player model and begin flying but lose your knife. 5/4/3/2/1 second cooldown.

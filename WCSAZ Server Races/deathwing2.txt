@@ -1,0 +1,25 @@
+Deathwing
+
+Shadow Flames
+Spawn with 120/140/155/175/195/210/230/250 HP
+
+Death Pulse
+6/8/10/12/14/16/18/20% chance on kill to turn that enemy into a blackhole. When an enemy steps into the black hole they are instantly killed, and enemies who are sucked in become blackholes too. blackholes are 285 unit wards that pull all enemies on the map toward it constantly. each blackhole lasts about 2 seconds.
+
+Tail Lash
+100% chance to block evade knife attacks. When hit with a knife you deal 20/30/40/50/60/70/80/90% of the damage you would have taken to the enemy who hit you.
+
+Infernal Eruption (ability)
+Lay a 200 unit radius ward that lasts 20 seconds and deals 25 damage per second to enemies who enter the area, when they leave the area play a burning vfx animation on their player model and their screen and they take 5dmg/.5 seconds for 4 seconds, they are slowed by 40% while in the ward area and while burning. 10 second cooldown
+
+Immolation
+3/6/9/12/15/18/21/24% chance on hit to burn the enemy for 5dmg/0.5seconds for 5 seconds and impale them.
+
+Death Aspect
+spawn with 15/20/25/30/35/40/45/50% increased movement speed.
+
+Shadowburn
+6/8/10/12/14/16/18/20% chance on hit to burn the enemy dealing 4 damage per second for 5 seconds, this damage also spreads to all enemies who enter a 200 unit radius of the effected player, this effect deals 2x damage if the player is near one of his teammates, 3x if he is near 2 teammates, 4x if he is near 3 teammates, etc.
+
+Cataclysm (ultimate)
+Knock the entire enemy team into the air high enough to take fall damage, this happens once every 2 seconds and happens up to 5 times, deal 5/10/15/20/25/30/35/40 damage instantly to each enemy when cast, and set them on fire for an additional 20 damage 5dmg/0.5sec during the knock up. 60 second cooldown.

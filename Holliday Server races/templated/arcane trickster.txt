@@ -1,0 +1,15 @@
+Arcane Trickster
+
+Scout and knife only. has 200 rounds per clip. requires total level 2040.
+
+Long Jump
+spawn with long jump 1.5/1.6/1.7/2.6x multipler.
+
+Soulsteal
+33% chance on hit to heal for 29/29/30/33% of the damage you dealt.
+
+Trickster's Mark
+40% chance on hit with the scout to deal 60/90/100/400% more damage. this damage doesn't count as extra damage for the purposes of blocking damage.
+
+Sneak Attack
+90% chance when you hit an an enemy with the knife to deal 50/75/100/500 extra damage, gain 30/60/90/120% increased movement speed for 4 seconds, and become 100% invisible for that duration. If you have no points in this, backstabbing an enemy gives you 100% increased movement speed and 100% invisibility for 4 seconds. this can only proc once every 15 seconds.

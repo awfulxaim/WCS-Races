@@ -1,0 +1,91 @@
+block spawn
+{
+    es_give event_var(userid) env_steam 
+    es_fire event_var(userid) env_steam addoutput "targetname dig"
+    es_fire event_var(userid) dig addoutput "SpreadSpeed 50"
+    es_fire event_var(userid) dig addoutput "Speed 30"
+    es_fire event_var(userid) dig addoutput "StartSize 11"
+    es_fire event_var(userid) dig addoutput "EndSize 60"
+    es_fire event_var(userid) dig addoutput "Rate 20"
+    es_fire event_var(userid) dig addoutput "JetLength 100"
+    es_fire event_var(userid) dig addoutput "rollspeed 100"
+    es_fire event_var(userid) dig TurnOn
+    es_fire event_var(userid) dig setparent !activator
+    es_delayed 4 es_fire event_var(userid) dig kill
+}
+
+block force
+{
+    es playerset armor event_var(userid) server_var(wcs_armor)
+    es_tell event_var(userid) #multi #lightgreen Gained #green server_var(wcs_armor) armor
+}
+
+block hair
+{
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_delayed server_var(wcs_time) es playerset speed event_var(userid) 1
+    es_tell event_var(userid) #multi #lightgreen You got Slowed down by #greenDiglett!!
+    es_tell event_var(attacker) #multi #greenDiglett!! #lightgreen Slowed down #green event_var(es_username) 
+}
+
+block veil
+{
+    es playerset healthadd event_var(userid) server_var(wcs_hp)
+    es_tell event_var(userid) #multi #green You are hiding because you were hit #green and gain server_var(wcs_hp) HP
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_xmath wcs_z1 - 100
+    es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es playerset freeze event_var(userid) 1
+    es_xmath wcs_z1 + 120
+    es_delayed server_var(wcs_time) es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed server_var(wcs_time) es playerset freeze event_var(userid) 0
+    es_give event_var(userid) env_steam 
+    es_fire event_var(userid) env_steam addoutput "targetname dig"
+    es_fire event_var(userid) dig addoutput "SpreadSpeed 50"
+    es_fire event_var(userid) dig addoutput "Speed 30"
+    es_fire event_var(userid) dig addoutput "StartSize 11"
+    es_fire event_var(userid) dig addoutput "EndSize 60"
+    es_fire event_var(userid) dig addoutput "Rate 20"
+    es_fire event_var(userid) dig addoutput "JetLength 100"
+    es_fire event_var(userid) dig addoutput "rollspeed 10"
+    es_fire event_var(userid) dig TurnOn
+    es_fire event_var(userid) dig setparent !activator
+    es_delayed server_var(wcs_time) es_fire event_var(userid) dig kill
+    es_playplayer event_var(userid) weapons/fx/nearmiss/bulletltor12.wav 1
+}
+
+block dig
+{
+    es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_userid) dig
+    if (server_var(wcs_tmp) = 0) do
+    {
+        es_keysetvalue wcsuserdata server_var(wcs_userid) dig 1
+        es_tell server_var(wcs_userid) #multi #green You are hiding! #lightgreen Press Ultimate to unhide! 
+        es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+        es_xmath wcs_z1 - 100
+        es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+        es playerset freeze server_var(wcs_userid) 1
+        es_give server_var(wcs_userid) env_steam 
+        es_fire server_var(wcs_userid) env_steam addoutput "targetname dig"
+        es_fire server_var(wcs_userid) dig addoutput "SpreadSpeed 100"
+        es_fire server_var(wcs_userid) dig addoutput "Speed 300"
+        es_fire server_var(wcs_userid) dig addoutput "StartSize 111"
+        es_fire server_var(wcs_userid) dig addoutput "EndSize 600"
+        es_fire server_var(wcs_userid) dig addoutput "Rate 20"
+        es_fire server_var(wcs_userid) dig addoutput "JetLength 100"
+        es_fire server_var(wcs_userid) dig addoutput "rollspeed 10"
+        es_fire server_var(wcs_userid) dig TurnOn
+        es_fire server_var(wcs_userid) dig setparent !activator
+        es_delayed server_var(wcs_time) es_fire server_var(wcs_userid) dig kill
+        es_playsound server_var(wcs_userid) ambient/machines/sputter1.wav 1
+    }
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es_keysetvalue wcsuserdata server_var(wcs_userid) dig 0
+        es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+        es_xmath wcs_z1 + 100
+        es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+        es playerset freeze server_var(wcs_userid) 0
+        es_playsound server_var(wcs_userid) ambient/machines/sputter1.wav 1
+  }
+}

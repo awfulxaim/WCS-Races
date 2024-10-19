@@ -1,0 +1,15 @@
+Flash Freeze
+
+requires total level 650.
+
+Frost Bite
+5/10/14/18/20% chance on death to respawn where the enemy who killed you stood when they killed you after a 3 second delay.
+
+Blind
+5/10/15/20/33% chance on hit to blind the enemy with a black screen for 2 seconds.
+
+Flash
+5/8/13/24/33% chance when hit to become 100% invisible. you become 5% more visible every .5 seconds.
+
+Flash Freeze (ultimate)
+Paralyze all enemies in a 225/250/275/300/325 unit radius for .75 seconds then root them for an additional 2 seconds. 20/18/15/12/10 second cooldown.

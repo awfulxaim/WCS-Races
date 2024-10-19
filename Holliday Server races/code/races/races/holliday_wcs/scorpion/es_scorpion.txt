@@ -1,0 +1,252 @@
+event player_connect
+{
+  downloadable sound/holliday/getoverhere.wav
+  downloadable sound/holliday/scorpion.wav
+}
+
+block spawn
+{
+    es_xset wcs_count 0
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    repeat create fire "es_xdoblock holliday_wcs/scorpion/fire"
+    repeat create fire2 "es_xdoblock holliday_wcs/scorpion/fire2"
+    repeat start fire .1
+    es_playsound event_var(userid) holliday/scorpion.wav 1 
+    es_playsound event_var(userid) ambient\explosions\exp4.wav 1
+    es_keycreate wcsuserdata event_var(userid)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_give event_var(userid) env_fire
+    es_fire event_var(userid) env_fire addoutput "firesize 599"
+	es_fire event_var(userid) env_fire addoutput "health 5"
+	es_fire event_var(userid) env_fire addoutput "fireattack 1"
+	es_fire event_var(userid) env_fire addoutput "firetype normal"
+	es_fire event_var(userid) env_fire addoutput "spawnflags 8"
+	es_fire event_var(userid) env_fire addoutput "damagescale -1"
+	es_fire event_var(userid) env_fire startfire
+	es_delayed 6 es_fire event_var(userid) env_fire kill
+    es playerset color event_var(userid) 255 205 0 255
+}
+
+block bloodyspear
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+  es_xmath wcs_z1 + 50
+  es_xmath wcs_z2 + 50
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es wcs pushto event_var(userid) server_var(vector2) server_var(wcs_force)
+	es_delayed .1 es wcs pushto event_var(userid) server_var(vector2) server_var(wcs_force)
+	es_delayed .2 es wcs pushto event_var(userid) server_var(vector2) server_var(wcs_force)	  
+	es_delayed .3 es wcs pushto event_var(userid) server_var(vector2) server_var(wcs_force)
+	es_delayed .4 es wcs pushto event_var(userid) server_var(vector2) server_var(wcs_force)	  
+    es est_effect_06 #a 0 sprites/lgtning.vmt server_var(vector2) server_var(vector1) 100 .8 5 5 1 0 228 128 0 255 50
+    es est_effect_06 #a 0 sprites/flatflame.vmt server_var(vector2) server_var(vector1) 100 .8 1 1 8 0 228 28 28 255 50
+    es est_effect_06 #a 0 cable/rope.vmt server_var(vector2) server_var(vector1) 100 .8 3 3 1 .8 228 128 0 255 50
+    es_delayed .1 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 10 20 .6 60 200 .3 228 128 0 255 60
+    es_playsound event_var(attacker) holliday/getoverhere.wav 0.6 
+    es_playsound event_var(userid) holliday/getoverhere.wav 0.2
+}
+
+block hellfirepunch
+{
+  es_delayed .3 es_sexec event_var(userid) use weapon_knife 
+  es_keysetvalue wcsuserdata event_var(userid) punch knife
+  es_delayed 4 es_keysetvalue wcsuserdata event_var(userid) punch 0
+  es_delayed 1 es playerset moveto event_var(userid) event_var(attacker) 
+  es_delayed 1 es playerset viewplayer event_var(userid) event_var(attacker)    
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+  es_delayed 4 es playerset location event_var(userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es est_effect_18 #a 0 server_var(vector1) 255 204 0 40 50 4 200 
+}
+
+block fire
+{
+  es_xmath wcs_count + 5
+  es_xmath wcs_z1 + 15
+  es est_effect 10 #a 0 sprites/fire1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 300 1 20 10 0 255 255 255 255 10
+  if (server_var(wcs_count) >= 50) do
+  {
+    repeat stop fire
+    repeat start fire2 .1
+  }
+}
+
+block fire2
+{
+  es_xmath wcs_z1 - 15
+  es_xmath wcs_count - 5  
+  es est_effect 10 #a 0 sprites/fire1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 300 1 20 10 0 255 255 255 255 10
+  if (server_var(wcs_count) <= 0) do
+  {
+    es_fire event_var(userid) env_fire kill
+    repeat stop fire2
+  }
+}
+
+
+block hellfire
+{
+  es_delayed 3 es wcs_setfx burn event_var(attacker) 1 1 server_var(wcs_time)
+  es_playsound event_var(userid) weapons/mortar/mortar_explode2.wav 1
+  es_playsound event_var(attacker) weapons/mortar/mortar_explode2.wav 1
+  es_give event_var(userid) env_fire
+	es_fire event_var(userid) env_fire addoutput "firesize 599"
+	es_fire event_var(userid) env_fire addoutput "health 5"
+	es_fire event_var(userid) env_fire addoutput "fireattack 1"
+	es_fire event_var(userid) env_fire addoutput "firetype normal"
+	es_fire event_var(userid) env_fire addoutput "spawnflags 8"
+	es_fire event_var(userid) env_fire addoutput "damagescale -1"
+	es_fire event_var(userid) env_fire startfire
+	es_fire event_var(userid) env_fire setparent !activator
+  es_give event_var(attacker) env_smokestack 
+  es_fire event_var(attacker) env_smokestack addoutput "basespread 21"
+  es_fire event_var(attacker) env_smokestack addoutput "spreadspeed 117"
+  es_fire event_var(attacker) env_smokestack addoutput "speed 125"
+  es_fire event_var(attacker) env_smokestack addoutput "startsize 29"
+  es_fire event_var(attacker) env_smokestack addoutput "endsize 31"
+  es_fire event_var(attacker) env_smokestack addoutput "rate 100"
+  es_fire event_var(attacker) env_smokestack addoutput "jetlength 85"
+  es_fire event_var(attacker) env_smokestack addoutput "twist 9"
+  es_fire event_var(attacker) env_smokestack addoutput "smokematerial particle\fire.vmt"
+  es_fire event_var(attacker) env_smokestack addoutput "rendercolor 255 28 0"
+  es_fire event_var(attacker) env_smokestack setparent !activator
+  es_fire event_var(attacker) env_smokestack turnon
+  es_delayed server_var(wcs_time) es_fire event_var(attacker) env_smokestack kill 
+  es_delayed server_var(wcs_time) es_fire event_var(userid) env_fire kill 
+  es_delayed 2 es_tell event_var(userid) #multi #default[hellfire] #lightgreen you have summoned the fires of hell to burn #green event_var(es_attackername) #lightgreenfrom underneath
+  es_delayed 2 es_tell event_var(attacker) #multi #default[hellfire] #lightgreen you have been burned by #green event_var(es_username) #lightgreenfrom underneath
+}
+
+
+block x-ray
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_xset wcs_team_target 0
+	es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) do
+	{
+		es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+	if (server_var(wcs_team) = 3) do
+	{
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+	if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+		if (server_var(wcs_pcount) > 0) do
+		{
+		  es_xset wcs_counter 0
+      es wcs_nearcoord wcs_player server_var(wcs_team_targetn) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(wcs_range) "es_exists ex userid server_var(wcs_player);if (server_var(ex) = 1) then es_xif (server_var(wcs_counter) < 1) then es_xdoblock holliday_wcs/scorpion/scorpionsting"
+      if (server_var(wcs_counter) > 0) then es_tell server_var(wcs_userid) #multi #default [x-ray move] #green teleported  
+  		else es_xset wcs_ultinotexec 1
+		}
+		else do
+    {
+      es_xset wcs_ultinotexec 1
+	  }
+  } 
+  if (server_var(wcs_ultinotexec) = 1) then wcs_cancelulti server_var(wcs_userid)   
+  if (server_var(wcs_ultinotexec) = 1) then es_tell server_var(wcs_userid) Target an enemy
+}
+  
+
+
+
+block scorpionsting
+{ 
+  es_xmath wcs_counter + 1
+  es_xusermsg create fader fade
+  es_xusermsg write short fader 100
+  es_xusermsg write short fader 500
+  es_xusermsg write short fader .2
+  es_xusermsg write byte fader 125
+  es_xusermsg write byte fader 0
+  es_xusermsg write byte fader 0
+  es_xusermsg write byte fader 155
+  es_usermsg send fader server_var(wcs_userid) .2
+  es_xusermsg delete fader
+  es_delayed 1 es playerset viewplayer server_var(wcs_userid) server_var(wcs_player)   
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es wcs pushto server_var(wcs_userid) server_var(vector2) server_var(wcs_range)
+  es playerset color server_var(wcs_userid) 255 255 255 0
+  es_delayed server_var(wcs_time) es playerset color server_var(wcs_userid) 255 205 0 255
+  es_give server_var(wcs_userid) env_fire
+	es_fire server_var(wcs_userid) env_fire addoutput "firesize 3999"
+	es_fire server_var(wcs_userid) env_fire addoutput "health 6"
+	es_fire server_var(wcs_userid) env_fire addoutput "fireattack 1"
+	es_fire server_var(wcs_userid) env_fire addoutput "firetype normal"
+	es_fire server_var(wcs_userid) env_fire addoutput "spawnflags 8"
+	es_fire server_var(wcs_userid) env_fire addoutput "damagescale -1"
+	es_fire server_var(wcs_userid) env_fire startfire
+	es_fire server_var(wcs_userid) env_fire setparent !activator
+  es_delayed server_var(wcs_time) es_fire server_var(wcs_userid) env_fire kill
+  es repeat create server_var(wcs_userid) es est_effect_18 #a 0 server_var(vector1) 255 10 255 40 50 4 2000
+  es_playsound server_var(wcs_userid) weapons/mortar/mortar_explode2.wav 1
+  es_playsound server_var(wcs_player) weapons/mortar/mortar_explode2.wav 1
+  es_cexec server_var(wcs_userid) r_screenoverlay sprites/fire1.vmt
+  es_delayed .1 es_cexec server_var(wcs_userid) r_screenoverlay 0
+  
+}
+
+
+block scorpionsting1
+{
+  es_delayed .3 es_sexec server_var(wcs_userid) use weapon_knife 
+  es_delayed 1 es playerset moveto server_var(wcs_userid) server_var(wcs_player) 
+  es_delayed 1 es playerset viewplayer server_var(wcs_userid) server_var(wcs_player)    
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_player)
+  es_delayed server_var(wcs_time) es playerset location server_var(wcs_userid) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es est_effect_18 #a 0 server_var(vector1) 255 10 255 40 50 4 200
+  es_playsound server_var(wcs_userid) weapons/mortar/mortar_explode2.wav 1
+  es_playsound server_var(wcs_player) weapons/mortar/mortar_explode2.wav 1
+  es_give server_var(wcs_userid) env_smokestack 
+  es_fire server_var(wcs_userid) env_smokestack addoutput "basespread 21"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "spreadspeed 117"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "speed 125"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "startsize 29"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "endsize 31"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "rate 100"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "jetlength 85"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "twist 9"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "smokematerial particle\fire.vmt"
+  es_fire server_var(wcs_userid) env_smokestack addoutput "rendercolor 255 28 0"
+  es_fire server_var(wcs_userid) env_smokestack setparent !activator
+  es_fire server_var(wcs_userid) env_smokestack turnon
+  es_delayed server_var(wcs_time) es_fire server_var(wcs_userid) env_smokestack kill 
+}
+
+event player_hurt
+{          
+  es_keygetvalue wcs_tmp2 wcsuserdata event_var(attacker) punch
+  if (server_var(wcs_tmp2) = knife) do
+  {
+    if (event_var(es_attackerweapon) = weapon_knife) do
+    {
+      es_keysetvalue wcsuserdata event_var(attacker) punch 0
+      es_set wcs_dmg event_var(dmg_health)
+      es wcs damage event_var(userid) event_var(attacker) server_var(wcs_dmg)
+      es_tell event_var(attacker) #multi #green [hellfire punch] #lightgreenconnected #green causing double knife damage!
+      es_give event_var(attacker) env_spark 
+      es_fire event_var(attacker) env_spark addoutput "magnitude 20"
+      es_fire event_var(attacker) env_spark addoutput "traillength 30"
+      es_fire event_var(attacker) env_spark addoutput "spawnflags 256"
+      es_fire event_var(attacker) env_spark startspark 
+      es_delayed 2 es_fire event_var(attacker) env_spark kill 
+    }
+  }
+}

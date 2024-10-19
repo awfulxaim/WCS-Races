@@ -1,0 +1,15 @@
+King HeadCrab
+
+requires total level 1000
+
+Invisibility
+spawn with 57/61/69/71% invisibility.
+
+Poisonous Bite
+18/20/28/33% chance on hit to drug your enemy for .5/1/1.5/2 seconds.
+
+Life Leeching
+33% chance on hit to heal for 29/29/30/33% of the damage you dealt.
+
+King Crab (ultimate)
+become knife only, set your player model to a poison headcrab from hl2 and set your speed to 1.5/1.7/1.8/2 for 3/5/7/10 seconds. 15 second cooldown.

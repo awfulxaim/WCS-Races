@@ -1,0 +1,15 @@
+Tweeking Critter
+
+Knife only. your screen shakes for 1 second when you spawn. requires total level 480
+
+Critter Spawn
+8/11/15/99% chance on spawn to spawn with 40/60/100/190% increased movement speed, your screen shakes with a multiplier of 2/5/8/10 for 1 second when you take a step, When you jump you begin to fly for 1 second, your player model gets renderfx 11 (11: Faster Strobe (transparent 0.09 s, visible 0.09 s, repeat))
+
+Critter Strike
+8/11/15/80% chance on hit to deal 15/20/25/80 extra damage.
+
+Critter Tweek
+8/11/15/33% chance on hit to move the enemy's screen by -1000,2000,1000 for .5/1/1.5/2 seconds.  (ccsplayer.baseclass.localdata.m_local.m_vecpunchangle) I'm not sure what the -1000,2000 is but the last 1000 is rotation in degrees.
+
+Tumbling Teleport (ultimate)
+Become restricted from all weapons, shake and rotate your screen -2200 degrees for 1 second. Ignore gravity and push yourself constantly in the direction you are aiming. After 1 second become 100% invisible. the max distance you can travel during this is 720/820/920/1000/20000 units. after that distance is reached become rooted. press ultimate again to cancel all of these effects. no cooldown.

@@ -1,0 +1,393 @@
+block load
+{
+  es_xset wcs_x3 0
+  es_xset wcs_y3 0
+  es_xset wcs_z3 0
+  es_xset wcs_x4 0
+  es_xset wcs_y4 0
+  es_xset wcs_z4 0
+  es_xset wcs_cx 0
+  es_xset wcs_cy 0
+  es_xset wcs_cz 0
+  es_xset count 0
+  es_xset vector1 0
+  es_xset vector2 0
+  es_xset target 0
+  es_xset twin_head_dragon "coded by holliday"
+  es_xmakepublic twin_head_dragon
+  repeat create done "es_xdoblock holliday_wcs/dragon/one"
+  repeat create dtwo "es_xdoblock holliday_wcs/dragon/two"
+  repeat create dthree "es_xdoblock holliday_wcs/dragon/three"
+  repeat create dfour "es_xdoblock holliday_wcs/dragon/four"
+  repeat create dfive "es_xdoblock holliday_wcs/dragon/five"
+  repeat create dsix "es_xdoblock holliday_wcs/dragon/six"
+}
+
+event player_connect
+{
+  downloadable sound/holliday/fear.wav
+  //downloadable sound/holliday/tinkermissilelaunch1.wav
+}
+
+
+block spawn
+{
+  es_xset wcs_x3 0
+  es_xset wcs_y3 0
+  es_xset wcs_z3 0
+  es_xset wcs_x4 0
+  es_xset wcs_y4 0
+  es_xset wcs_z4 0
+  es_xset count 0
+  es_xset ice_path 3
+  es_keysetvalue wcsuserdata event_var(userid) ice_path server_var(phantomtime)
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_getplayerlocation wcs_x3 wcs_y3 wcs_z3 event_var(userid)
+  es_xmath wcs_z2 + 300
+  es_xmath wcs_x2 + 100
+  es est_effect 3 #a 0 sprites/glow01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 3 9 108 130 218 155
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 60 59 5 50 3 0 175 115 255 55 1
+  es_xmath wcs_x2 - 200
+  es est_effect 3 #a 0 sprites/glow01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 3 9 108 130 218 155
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 5 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 60 59 5 50 3 0 175 115 255 55 1
+  es_playsound event_var(userid) music\hl1_song14.mp3 1
+  es_delayed 10.7 es_stopsound event_var(userid) music\hl1_song14.mp3
+  es_delayed 10.73 es_playsound event_var(userid) music\hl1_song14.mp3 1
+  es_delayed 10.79 es_stopsound event_var(userid) music\hl1_song14.mp3
+  repeat start done .1
+}
+
+block one
+{
+  es_xmath count + 1
+  es_xmath wcs_z1 + 20
+  es_xmath wcs_z3 + 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 60 59 2 50 3 0 175 115 255 55 1
+  if (server_var(count) == 20) do
+  {
+    repeat stop done
+    repeat start dtwo .1
+  }
+}
+
+block two
+{
+  es_xmath wcs_x1 + 20
+  es_xmath count + 1
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1.5 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 60 59 .6 50 3 0 175 115 255 55 1
+  es_xmath wcs_x3 - 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 1.5 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 60 59 .6 50 3 0 175 115 255 55 1
+  if (server_var(count) == 30) do
+  {
+    repeat stop dtwo
+    repeat start dthree .1
+  }
+}
+
+block three
+{
+  es_xmath wcs_z1 - 20
+  es_xmath wcs_x1 - 20
+  es_xmath count + 1
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 60 59 .6 50 3 0 175 115 255 55 1
+  es_xmath wcs_z3 - 20
+  es_xmath wcs_x3 + 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 60 59 .6 50 3 0 175 115 255 55 1
+  if (server_var(count) == 40) do
+  {
+    repeat stop dthree
+    repeat start dfour .1
+  }
+}
+
+block four
+{
+  es_xmath wcs_x1 + 20
+  es_xmath wcs_z1 - 20
+  es_xmath wcs_z3 - 20
+  es_xmath count + 1
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 60 59 .6 50 3 0 175 115 255 55 1
+  es_xmath wcs_x3 - 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 60 59 .6 50 3 0 175 115 255 55 1
+  if (server_var(count) == 45) do
+  {
+    repeat stop dfour
+    repeat start dfive .1
+  }
+}
+
+block five
+{
+  es_xmath wcs_z1 + 20
+  es_xmath count + 1
+  es_xmath wcs_x1 + 20
+  es_xmath wcs_x3 - 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 60 59 .6 50 3 0 175 115 255 55 1
+  es_xmath wcs_z3 + 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 60 59 .6 50 3 0 175 115 255 55 1
+  if (server_var(count) == 50) do
+  {
+    repeat stop dfive
+    repeat start dsix .1
+  }
+}
+
+block six
+{
+  es_xmath wcs_x1 - 20
+  es_xmath count + 1
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 60 59 .6 50 3 0 175 115 255 55 1
+  es_xmath wcs_x3 + 20
+  es est_effect 11 #a 0 sprites/glow1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) .8 2 155
+  es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 60 59 .6 50 3 0 175 115 255 55 1
+  if (server_var(count) == 60) do
+  {
+    repeat stop dsix
+  }
+}
+
+
+block dual_breath
+{
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(attacker)
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es_xmath wcs_z2 + 50
+	es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect_06 #a 0 sprites/glow_test02.vmt server_var(vector1) server_var(vector2) 100 1.5 8 5 0 0 128 128 255 255 100
+  es_delayed 1.3 es est_effect_06 #a 0 sprites/crystal_beam1.vmt server_var(vector2) server_var(vector1) 100 1.5 8 5 0 0 228 128 28 255 100
+	es_xmath wcs_y2 + 50
+	es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+	es_delayed 1.6 es est_effect_06 #a 0.1 sprites/crystal_beam1.vmt server_var(vector2) server_var(vector1) 100 1.5 8 5 0 0 228 128 28 255 100
+	es est_effect_06 #a 0.1 sprites/glow_test02.vmt server_var(vector1) server_var(vector2) 100 1.5 8 5 0 0 128 128 255 255 100
+  es_xmath wcs_y2 - 100
+	es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+	es_delayed 1.3 es est_effect_06 #a 0.2 sprites/crystal_beam1.vmt server_var(vector2) server_var(vector1) 100 1.5 8 5 0 0 228 128 28 255 100
+	es_delayed 1.3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 200 1.5 60 100 0 228 128 28 255 1
+	es_delayed 1.3 es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 1.5 60 100 0 228 128 28 255 1
+	es est_effect_06 #a 0.2 sprites/glow_test02.vmt server_var(vector1) server_var(vector2) 100 1.5 8 5 0 0 128 128 255 255 100
+	es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 20 200 1.5 60 100 0 55 55 157 255 1
+	es est_effect 10 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 200 20 1.5 60 100 0 55 55 157 255 1
+  es est_effect 11 #a 0 sprites/blueglow1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1.5 2 155
+  es_delayed 1.3 es est_effect 11 #a 0 sprites/fire2.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 1.5 5 155
+  es_delayed .3 es playerset freeze event_var(userid) 1
+  es_delayed 1.5 es playerset freeze event_var(userid) 0
+  es_delayed 2 es wcs_setfx burn event_var(userid) 2
+  es_tell event_var(attacker) #multi #default[dual breath] #greenjakiro's #lightgreentwin heads let loose an #greenicy blast #lightgreenfollowed closely by a #greenwave of fire
+}
+
+block ice_path
+{
+  es_keygetvalue wcs_tmp wcsuserdata event_var(userid) ice_path
+  if (server_var(wcs_tmp) <= 0) then es_tell event_var(userid) #multi #lightgreenyou have no additional #green ability points
+  if (server_var(wcs_tmp) >= 0) do
+  {
+    es_xmath wcs_tmp - 1
+	  es_playsound event_var(userid) holliday/fear.wav 1
+    es_keysetvalue wcsuserdata event_var(userid) ice_path server_var(wcs_tmp)
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es playerget viewcoord event_var(userid) wcs_x2 wcs_y2 wcs_z2
+    es_format coords3 "origin %1 %2 %3" server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_mathparse wcs_cx "(wcs_x1 + wcs_x2) / 2"
+    es_mathparse wcs_cy "(wcs_y1 + wcs_y2) / 2"
+    es_mathparse wcs_cz "(wcs_z1 + wcs_z2) / 2"
+    es_format coords2 "origin %1 %2 %3" server_var(wcs_cx) server_var(wcs_cy) server_var(wcs_cz)
+    es_entcreate event_var(userid) env_explosion
+    es_fire event_var(userid) env_explosion addoutput "targetname icepath"
+    es_fire event_var(userid) icepath addoutput "imagnitude 30"
+    es_fire event_var(userid) icepath addoutput "iradiusoverride 30"
+    es_fire event_var(userid) icepath addoutput server_var(coords2)
+    es_delayed 2 es_fire event_var(userid) icepath explode
+    es_delayed 2.4 es_fire event_var(userid) icepath addoutput server_var(coords3)
+    es_delayed 2.4 es_fire event_var(userid) icepath explode
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/lgtning.vmt server_var(vector2) server_var(vector1) 100 .4 18 15 100 0 100 155 255 255 10
+    es_delayed .3 es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 18 16 100 155 255 255
+    es est_effect 3 #a 0 sprites/halo01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5 5 50 20 255 255
+    es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5 5 0 0 255 255
+    es est_effect_06 #a 0 sprites/glow.vmt server_var(vector2) server_var(vector1) 100 .4 18 15 100 0 100 0 0 255 10
+    es_delayed 2 est_effect_06 #a 0 sprites/glow.vmt server_var(vector2) server_var(vector1) 100 .4 18 15 100 0 100 0 0 255 20
+    es_xmath wcs_y1 + 25
+    es_xmath wcs_y2 + 25
+    es_xmath wcs_x1 + 25
+    es_xmath wcs_x2 + 25
+    es est_effect 3 #a 0 sprites/halo01.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5 5 50 20 255 255
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/glow.vmt server_var(vector2) server_var(vector1) 100 .4 18 15 100 0 100 0 0 255 10
+    es_delayed 1.5 est_effect_06 #a 0 sprites/glow.vmt server_var(vector2) server_var(vector1) 100 .4 18 15 100 0 100 0 0 255 90
+    es_xmath wcs_y1 - 50
+    es_xmath wcs_y2 - 50
+    es_xmath wcs_x1 - 50
+    es_xmath wcs_x2 - 50
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect_06 #a 0 sprites/glow.vmt server_var(vector2) server_var(vector1) 100 .4 18 15 100 0 100 0 0 255 10
+    es_delayed 1.5 est_effect_06 #a 0 sprites/glow.vmt server_var(vector2) server_var(vector1) 100 .4 18 15 100 0 100 0 0 255 90
+    es est_effect 3 #a 0 sprites/glow.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 5 5 0 0 255 255
+    es_xset wcs_team_target 0
+    if (event_var(es_userteam) = 2) do
+    {
+      es_xset wcs_team_target 3
+		  es_xset wcs_team_targetn "#ct,#alive"
+	  }
+    if (event_var(es_userteam) = 3) do
+    {
+		  es_xset wcs_team_target 2
+		  es_xset wcs_team_targetn "#t,#alive"
+	  }
+    if (server_var(wcs_team_target) != "0") do
+	  {
+		  es_xset wcs_pcount 0
+		  es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+	    if (server_var(wcs_pcount) > 0) do
+	    {
+		    es wcs_nearcoord target server_var(wcs_team_targetn) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(wcs_radius) "es_xdoblock holliday_wcs/dragon/freeze"
+      }
+    }
+  }
+}
+
+block freeze
+{
+  es_getplayerlocation wcs_x3 wcs_y3 wcs_z3 server_var(target)
+  es_delayed .3 es playerset freeze server_var(target) 1
+  es_delayed .3 es playerset color server_var(target) 0 0 255 255
+  es_delayed .6 es playerset freeze server_var(target) 0
+  es_delayed .6 es playerset color server_var(target) 255 255 255 255
+  es_delayed .3 es est_effect 10 #a 0 sprites/smoke.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 40 50 1.5 100 100 0 55 55 255 255 1
+  es_delayed 2 es est_effect_14 #a 0 models/effects/splodeglass.mdl server_var(vector2) server_var(vector2) 100 100 1000
+}
+
+block fire
+{
+  es_playsound event_var(attacker) holliday\tinkermissilelaunch1.wav 1
+  es_playsound event_var(userid) holliday\tinkermissilelaunch1.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+  es_xmath wcs_z1 + 40
+  es_xmath wcs_y1 + 40
+  es_xmath wcs_x1 + 40
+  es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_06 #a 0 sprites/flatflame.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 255 255 255 255 160
+  es_xmath wcs_y1 - 80
+  es_xmath wcs_x1 - 80
+  es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_06 #a 0 sprites/flatflame.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 255 255 255 255 160
+  es_xmath wcs_y1 + 40
+  es_xmath wcs_x1 + 40
+  es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_06 #a 0 sprites/flatflame.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 255 255 255 255 160
+  es_xmath wcs_y1 + 40
+  es_xmath wcs_x1 + 40
+  es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_06 #a 0 sprites/flatflame.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 255 255 255 255 160
+  es_xmath wcs_y1 - 80
+  es_xmath wcs_x1 - 80
+  es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_06 #a 0 sprites/flatflame.vmt server_var(vector2) server_var(vector1) 100 .2 2 2 100 0 255 255 255 255 160
+  es_xmath wcs_y1 + 40
+  es_xmath wcs_x1 + 40
+  es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2)  server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect_06 #a 0 sprites/flatflame.vmt server_var(vector2) server_var(vector1) 100 .2 2 2 100 0 255 255 255 255 160
+  es wcs_setfx burn event_var(userid) 3
+  es_tell event_var(attacker) #multi #default[auto fire] #lightgreenspit a fireball at #green event_var(es_username)
+
+  }
+}
+
+block ultimate
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+  es_getplayerteam wcs_team server_var(wcs_userid)
+  es_xset wcs_team_target 0
+  if (server_var(wcs_team) = 2) do
+  {
+    es_xset wcs_team_target 3
+		es_xset wcs_team_targetn "#ct,#alive"
+	}
+  if (server_var(wcs_team) = 3) do
+  {
+		es_xset wcs_team_target 2
+		es_xset wcs_team_targetn "#t,#alive"
+	}
+  if (server_var(wcs_team_target) != "0") do
+	{
+		es_xset wcs_pcount 0
+		es_getlivingplayercount wcs_pcount server_var(wcs_team_target)
+	  if (server_var(wcs_pcount) > 0) do
+	  {
+        es wcs_nearcoord target server_var(wcs_team_targetn) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) server_var(wcs_radius) "es_xdoblock holliday_wcs/dragon/flame"
+      }
+    }
+  if (server_var(target) = 0) then es_tell server_var(wcs_userid) #multi #lightgreen no target
+}
+
+block flame
+{
+  if (server_var(target) != 0) do
+  {
+    es wcs damage server_var(target) server_var(wcs_userid) 10
+    es_getplayerlocation wcs_x3 wcs_y3 wcs_z3 server_var(target)
+    es_xmath wcs_z1 + 40
+    es_xmath wcs_y1 + 40
+    es_xmath wcs_x1 + 40
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x3)  server_var(wcs_y3) server_var(wcs_z3)
+    es est_effect_06 #a 0 sprites/floorflame2.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 175 115 255 255 160
+    es_xmath wcs_y1 - 80
+    es_xmath wcs_x1 - 80
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x3)  server_var(wcs_y3) server_var(wcs_z3)
+    es est_effect_06 #a 0 sprites/floorflame2.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 175 115 255 255 160
+    es_xmath wcs_y1 + 40
+    es_xmath wcs_x1 + 40
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x3)  server_var(wcs_y3) server_var(wcs_z3)
+    es est_effect_06 #a 0 sprites/floorflame2.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 175 115 255 255 160
+    es_xmath wcs_z1 + 40
+    es_xmath wcs_y1 + 40
+    es_xmath wcs_x1 + 40
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x3)  server_var(wcs_y3) server_var(wcs_z3)
+    es est_effect_06 #a 0 sprites/floorflame2.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 175 115 255 255 160
+    es_xmath wcs_y1 - 80
+    es_xmath wcs_x1 - 80
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x3)  server_var(wcs_y3) server_var(wcs_z3)
+    es est_effect_06 #a 0 sprites/floorflame2.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 175 115 255 255 160
+    es_xmath wcs_y1 + 40
+    es_xmath wcs_x1 + 40
+    es_createvectorstring vector1 server_var(wcs_x1)  server_var(wcs_y1) server_var(wcs_z1)
+	  es_createvectorstring vector2 server_var(wcs_x3)  server_var(wcs_y3) server_var(wcs_z3)
+    es est_effect_06 #a 0 sprites/floorflame2.vmt server_var(vector2) server_var(vector1) 100 1 2 2 100 0 175 115 255 255 160
+    es wcs_setfx burn server_var(target) + 3
+    es est_effect 11 #a 0 sprites/fire1.vmt server_var(wcs_x3) server_var(wcs_y3) server_var(wcs_z3) 2 2 155
+    es_playsound server_var(wcs_userid) ambient/fire/ignite.wav 1
+    es_delayed .1 es_xset target 0
+    
+  }
+}

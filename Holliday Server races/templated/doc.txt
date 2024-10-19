@@ -1,0 +1,18 @@
+Doc
+
+requires total level 640
+
+Adrenaline
+Spawn with 10/20/30/40/50 more HP and 10/20/30/40/50% increased movement speed.
+
+Levitate
+spawn with 10/15/30/40/50% reduced gravity
+
+Dagger
+8% chance on hit to poison the enemy dealing 3/5/7/9/10 damage per second for 3 seconds.
+
+Suicide Bomber
+45/50/55/60/100% chance on death to deal 100 damage to all enemies in a 160/170/170/180/580 unit radius.
+
+Fly (ultimate)
+Being Flying. gain 5/10/15/20/25 HP while flying. 4/3/2/1/0 second cooldown.

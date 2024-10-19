@@ -1,0 +1,18 @@
+Vagalion II
+
+knife only. requires total level 360
+
+Distant Shadows
+10/22/34/40/55% chance on spawn to set your render effect to 16. "16: Hologram (Distort + "distance fade")/(in all games since ) Fade In (instant; not very useful outside of code)"
+
+Adrenaline
+Spawn with 10/20/40/60/80% increased movement speed
+
+Blades
+5/8/13/25/33% chance on hit to deal 100% extra damage.
+
+Levitation
+Spawn with 40/50/60/70/80% reduced gravity.
+
+Teleport Invisibility
+Become 100% invisible and restricted from all weapons. ignore gravity and push yourself constantly in the direction you are aiming. the max distance you can travel during this is 720/820/920/1000/1080 units. after that distance become rooted 1 second later. press ultimate again to cancel all of these effects. no cooldown.

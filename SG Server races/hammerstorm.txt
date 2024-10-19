@@ -1,0 +1,15 @@
+Hammerstorm
+
+requires total level 350. limited to 2 per team.
+
+Storm Bolt (ability)
+all enemies in a 200/233/266/300 unit radius are rooted for .6 seconds and take 5/10/15/20 damage. 15 second cooldown.
+
+Great Cleave
+100% chance on hit to deal 10/25/35/50% of the damage you dealt to all enemies within 250 units of the enemy you hit, to a max of 60 damage per proc.
+
+Warcry
+You spawn with 9/16/23/30% increased movement speed and damage reduction.
+
+God's Strength (ultimate)
+You deal 10/25/35/50% more damage for 5 seconds. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches) 30 second cooldown.

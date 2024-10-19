@@ -1,0 +1,15 @@
+Magic Mole
+
+Requires total level 790
+
+Mole
+15/20/28/33% chance on spawn that a random player (could be you) will get the opposite team's player model and appear in the other team's spawn after 5 seconds.
+
+Steam
+30% chance when hit to set your speed 1.8/2/2.4/2.6 for 2 seconds and create a white smoke cloud around you every .1 second.
+
+Burrow
+20/25/30/36% chance on hit to gradually bury the enemy over 1 second then have them gradually come up out of the ground 100 units in front of you over an additional second. they take 10/15/18/20 damage when this procs.
+
+Magic Mole (ultimate)
+Gradually bury yourself over 1 second then gradually come out of the ground where you wer aiming when you activated this over 1 second. max distance you can travel is 400/500/600/800 units. 5 second cooldown.

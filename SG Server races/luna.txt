@@ -1,0 +1,15 @@
+Luna Moonfang, The Moon Rider
+
+Requires total level 300. limited to 2 per team.
+
+Lucent Beam
+Every 2 seconds you deal 5-11/8-15/11-19/14-23 extra damage rolled randomly to an enemy within 500 units.
+
+Moon Glaive
+100% chance on hit to deal 25% of the damage you dealt to 1/2/3/4 other random enemies.
+
+Lunar Blessing
+You and teammates in a 250 unit radius deal 2/4/5/6 extra damage.
+
+Eclipse (ultimate)
+You cast 4/7/10/12 Lucent Beams over the next 2/4/5/6 seconds. 30 second cooldown.

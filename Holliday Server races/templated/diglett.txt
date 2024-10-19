@@ -1,0 +1,15 @@
+Diglett
+
+requires total level 820. constantly has a churning dirt and rocks effects at its feet.
+
+Sand Force
+Spawn with 25/50/75/100 armor, no helmet.
+
+Tangling Hair
+30% chance on hit to set the enemy's speed to .8/.6/.4/.2 for 1/1.2/1.4/1.8 seconds.
+
+Sand Veil
+10/15/18/20% chance when hit to bury yourself completely underground for .1/.3/.4/.5 seconds and gain 20/40/60/65 HP.
+
+Dig (ultimate)
+bury yourself completely underground for 1/2/3/4 seconds or until you press ultimate again. no cooldown. while underground you have a churning dirt and rocks effect where you went underground.

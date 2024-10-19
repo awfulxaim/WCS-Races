@@ -1,0 +1,18 @@
+Duke Nukem
+
+Deagle and knife only. Has no recoil. requires total level 880.
+
+Hail to the King
+15/20/28/33% chance on hit to deal 8/15/20/30 extra damage.
+
+Desert Eagle
+Your Deagle has a 40/50/100/200 round clip.
+
+Piece of Cake
+60% chance on hit to leech 13/14/17/20/22/25/29/33% of the damage you dealt.
+
+Balls of Steel
+15/20/28/33% chance to spawn with 15/20/50/100 extra HP.
+
+Kick Ass and Chew Bubblegum (ultimate)
+Set your deagle ammo in clip to 30/40/60/100 and reserve ammo to 50/100/500/800. For 3/5/8/10 seconds you have a full auto deagle. When you stop firing you automatically start reloading, which sets your clip back to the amount for your level. 20 second cooldown.

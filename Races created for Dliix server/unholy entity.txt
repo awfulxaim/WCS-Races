@@ -1,0 +1,15 @@
+Unholy Entity
+
+requires total level 460
+
+Aura of the Unholy
+Spawn with 16/23/29/38/46% increased movement speed.
+
+Grave Struck
+13/15/17/19/22% chance on hit to bury the enemy.
+
+Call of the Dead (ability)
+21/34/47/53/86% chance when activated to respawn a teammate in spawn with all of their weapons and equipment. 50/45/40/35/30 second cooldown.
+
+Ultimate Darkness (ultimate)
+20/40/60/80/100% chance when activated to instantly swap places with a random enemy. 60/50/40/30/20 second cooldown.

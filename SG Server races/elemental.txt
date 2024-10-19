@@ -1,0 +1,15 @@
+Elemental
+
+requires total level 100. limited to 2 per team. cannot buy boots of speed, ring of regen, or cloak of shadows.
+
+Earth
+Spawn with 15/30/45/50% invisibility.
+
+Wind
+Spawn with 7/14/21/28% increased movement speed.
+
+Water
+You gain .5/1/1.5/2 HP per second.
+
+Fiery Gaze (ultimate)
+Burn the enemy you are aiming at for 2.5/3/3.5/4 seconds. 15 second cooldown.

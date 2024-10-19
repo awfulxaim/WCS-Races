@@ -1,0 +1,13 @@
+Tanooki Mario
+
+requires total level 2000. makes a mario jump sound when you jump. makes a mario coin sound when you kill an enemy. plays the mario die sound when you die. plays the mario spin sound when you proc tail spin.
+
+Tail Spin
+44/55/55/66% chance on hit with the knife to push the enemy forward 15/20/25/30 units and up 700/800/900/1000 units, cause them to spin rapidly around for .2 seconds, then deal 20/40/80/100 extra damage after a 1 second delay.
+
+Stone (ability) (1 level)
+Hold ability to become a big rock, root yourself, and become invulnerable. when you let go turn back to normal.
+
+Tanooki Tail (ultimate)
+If you have been running (not walking or crouch moving) for 10 seconds, set your speed to 200%. while at 200% move speed you can hold ultimate to get pushed 75 units forward and 250 units up constantly while you are holding to a max of 5/7/9/11 seconds. you take no fall damage. if you stop moving you lose the movement speed and the timer restarts.
+

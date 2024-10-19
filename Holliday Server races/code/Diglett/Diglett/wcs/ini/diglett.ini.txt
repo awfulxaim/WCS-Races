@@ -1,0 +1,44 @@
+[Diglett]
+	required           = 740
+	maximum            = 0
+	restrictmap        = ""
+	restrictteam       = 0
+	restrictitem       = ""
+	teamlimit          = 0
+	author             = "holliday"
+	desc               = ""
+	spawncmd           = "es_xdoblock holliday_wcs/diglett/spawn"
+	deathcmd           = ""
+	roundstartcmd      = ""
+	roundendcmd        = ""
+	preloadcmd         = ""
+	allowonly          = ""
+	onchange           = ""
+	numberofskills     = 4
+	numberoflevels     = 4
+	skillnames         = "Sand Force|Tangling Hair|Sand Veil|Dig"
+	skilldescr         = "Armor|Slow down opponent on hit|Chance to evade bullets|Stay hidden for a while"
+	skillcfg           = "player_spawn|player_attacker|player_victim|player_ultimate"
+	skillneeded        = "0|0|0|4"
+
+	[[skill1]]
+		setting           = "es_xset wcs_armor 25|es_xset wcs_armor 50|es_xset wcs_armor 75|es_xset wcs_armor 100"
+		cmd               = "es_xdoblock holliday_wcs/diglett/force"
+		sfx               = ""
+
+	[[skill2]]
+		setting           = "es_xset wcs_speed 0.8;es_xset wcs_time 1|es_xset wcs_speed 0.6;es_xset wcs_time 1.2|es_xset wcs_speed 0.4;es_xset wcs_time 1.4|es_xset wcs_speed 0.2;es_xset wcs_time 1.8"
+		cmd               = "if (server_var(wcs_dice) <= 30) then es_xdoblock holliday_wcs/diglett/hair"
+		sfx               = ""
+
+	[[skill3]]
+		setting           = "es_xset wcs_chance 10;es_xset wcs_time .1;es_xset wcs_hp 20|es_xset wcs_chance 15;es_xset wcs_time .3;es_xset wcs_hp 40|es_xset wcs_chance 18;es_xset wcs_time .4;es_xset wcs_hp 60|es_xset wcs_chance 20;es_xset wcs_time .5;es_xset wcs_hp 65"
+		cmd               = "if (server_var(wcs_dice) <= server_var(wcs_chance)) then es_xdoblock holliday_wcs/diglett/veil"
+		sfx               = ""
+
+	[[skill4]]
+		setting          = "es_xset wcs_time 1|es_xset wcs_time 2|es_xset wcs_time 3|es_xset wcs_time 4"
+	    cmd              = "es_xdoblock holliday_wcs/diglett/dig"
+		sfx              = ""
+		cooldown         = "0"
+ 

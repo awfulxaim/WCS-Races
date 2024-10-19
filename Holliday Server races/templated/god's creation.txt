@@ -1,0 +1,24 @@
+God's Creation
+
+requires total level 2050.
+
+HP and Speed
+Spawn with 40/60/80/100/140% increased movement speed and 150/200/300/400/500 HP.
+
+Steal HP
+60% chance on hit to leech 25/29/33/40/67% of the damage you dealt back as HP.
+
+Freeze
+10/16/25/28/33% chance on hit to bash for 1 second.
+
+Poison and Disarm
+10/20/30/40/50% chance on hit to disarm the enemy and poison them for 2-7 damage per second for 3 seconds. that damage is rolled randomly.
+
+Evasion
+27/31/35/37/40% chance to evade
+
+Long Jump and Invisibility
+Spawn with longjump, 1.5/1.6/1.7/2.6x jump multiplier, and 22/31/61/71/81% invisibility
+
+Teleport (ultimate)
+Instantly teleport to the location you are aiming at, up to 750/920/1000/2600/3600 units away.

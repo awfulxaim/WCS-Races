@@ -1,0 +1,21 @@
+Wolverine
+
+knife only. requires total level 400.
+
+Healing Factor
+You heal for 3/7/9/13/16 HP every .5 seconds to a max of 160 HP.
+
+Adamantium Claws
+5/10/15/20/25% chance on hit to disarm the enemy.
+
+Inhuman Strength
+10/20/30/40/50% chance on hit to deal 50% extra damage.
+
+Inhuman Stamina
+Spawn with long jump and 10/20/30/40/50% increased movement speed.
+
+Adamantium Skeleton
+Spawn with 50/100/150/200/250 armor and helmet.
+
+Acute Senses
+A light blue lightning bolt line only you can see is drawn from you to all enemies in a 100/200/300/400/500 unit radius every .25 seconds.

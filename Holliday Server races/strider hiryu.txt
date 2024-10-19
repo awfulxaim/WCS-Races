@@ -1,0 +1,15 @@
+Strider Hiryu
+
+requires total level 310. has a purple player model and leaves a red trail.
+
+Flying Dragon (ability)
+hold ability to fly, when you let go you lose flying. you have 10/20/30/40% increased movement speed while flying
+
+Advanced High Jump
+you spawn with 20% reduced gravity. when you kill an enemy your gravity is reduced by 20% for the rest of the round to a minimum of 66/45/26/6% gravity.
+
+Kayakujutsu (ability2)
+create a dead body prop and an invisible ward that lasts 12/14/14/20 seconds and has a radius of 220/240/260/300 units. When an enemy walks into the ward area it explodes and deals 14/16/18/20 damage to all enemies in a 320/340/360/400 unit radius. you can lay up to 1/1/2/2 wards per round. no cooldown
+
+Portal (ultimate)
+mark the location you are currently at. When you press ultimate again you are teleported back to that location after a 5/4/3/2 second delay. 1 second cooldown.

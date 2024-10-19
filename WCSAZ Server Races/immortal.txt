@@ -1,0 +1,13 @@
+Immortal
+
+Twin Phase Disruptor
+5/5/5/10/10/15/20/25% chance on hit to bash the enemy for 1 second, then after the bash ends .5 seconds later bash again for 1 second.
+
+Energy Shield
+Block any damage you take more than 150/140/130/120/100/90/80/75.
+
+Advanced Technology
+Spawn with 25/30/35/40/45/50/55/60 more HP and .05/.1/.15/.2/.25/.3/.35/.4 increased speed.
+
+Immortality
+You have a 15/25/35/45/55/65/75/80% chance when you die to respawn after 4-6.5 seconds at the location you died at with all of the guns and equipment you had when you died. no max number of respawns.

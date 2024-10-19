@@ -1,0 +1,21 @@
+Freddy Krueger
+
+Knife only
+
+Razor Claw
+10/20/30/40/50% chance on hit to deal 5/10/15/20/25 extra damage. This extra damage can hurt a sleeping player
+
+Efialtiskinesis (ability)
+Puts a random enemy to sleep for 1/2/3/4/5 seconds. 20 second cooldown.
+
+Oneiricpotence (ability2)
+Gain noclip for 1/1/2/2/3 seconds. 15 second cooldown.
+
+Seek Nightmares
+When a player is asleep you gain vision of them through walls and you get 5/10/15/20/25% increased movement speed.
+
+Sadism
+Killing a sleeping enemy grants you 10/20/30/40/50 HP.
+
+Dream Demon (ultimate)
+When a teammate dies you have 3 seconds to press ultimate to instantly teleport to the location they died at. You are 100% invisible for 1 second and you gain 50 HP. If you are dead, once per round, you can activate this to respawn at that location with 50HP. 15 second cooldown.

@@ -1,0 +1,15 @@
+Vanquish
+
+requires total level 1080
+
+Agility
+Spawn with longjump with 110/115/120/125/130% increased distance, 5/12/19/26/30% increased movement speed, and 5/10/15/20/25% reduced gravity.
+
+Impale
+15/18/22/20% chance on hit to force the enemy to long jump towards you. long jump force is 1.5/2/2.5/3
+
+Re-Match
+25/27/28/46% chance on death to respawn and instantly teleport you and the enemy back to where each of you were when you died, both of you aiming at each other. if the enemy that killed you is dead, this respawns them too. this respawn is delayed by 3/5/7/8 seconds.
+
+God Mode (ultimate)
+You become immune to everything for 2.4/2.8/2.9/3 seconds. 20 second cooldown.

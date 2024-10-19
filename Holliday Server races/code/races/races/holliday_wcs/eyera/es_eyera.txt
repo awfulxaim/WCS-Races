@@ -1,0 +1,92 @@
+block load
+{
+	es_xset wcs_name 0
+	es_xset wcs_name1 0
+  es_xset eyera "coded by holliday"
+  es_xmakepublic eyera
+}
+
+event player_connect
+{
+  downloadable materials/holliday/eye.vmt
+  downloadable materials/holliday/eye.vtf
+}
+
+block spawn
+{
+	es_playsound event_var(userid) ambient\machines\wall_move5.wav 1
+  es wcsgroup get phoenix wcs_phoenix event_var(userid) event_var(es_userteam)
+  es_xmath wcs_phoenix + 1
+  es wcsgroup set phoenix event_var(userid) server_var(wcs_phoenix) event_var(es_userteam)
+  es wcs_xtell event_var(userid) r_phoenix
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es_xmath wcs_z1 + 15
+	es est_effect 11 #a 0 holliday/eye.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255
+}
+
+block blink
+{
+
+	es_set wcs_dmg event_var(dmg_health)
+  es wcs_setfx health event_var(userid) + server_var(wcs_dmg) 0
+  es wcs_xtell event_var(userid) r_evasion
+  es_playsound event_var(userid) weapons\fx\nearmiss\bulletltor13.wav 1
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+  es_fire event_var(userid) !self addoutput "renderfx 13"
+	es_delayed 4 es_fire event_var(userid) !self addoutput "renderfx 0"
+	es_xmath wcs_z1 + 15
+	es_xmath wcs_y1 + 30
+	es_xmath wcs_x1 + 30
+	es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+  es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+	es est_effect 11 #a 0 holliday/eye.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255
+  es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 20 10 55 155 255 150
+  es est_effect_06 #a 0 sprites/lgtning.vmt server_var(vector2) server_var(vector1) 10 1 20 10 10 0 55 155 255 255 90
+  es_xmath wcs_y1 - 60
+  es_xmath wcs_x1 - 60
+  es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+	es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 20 10 255 255 0 150
+  es est_effect_06 #a 0 sprites/lgtning.vmt server_var(vector2) server_var(vector1) 10 1 20 10 10 0 255 255 0 255 9
+}
+
+block truth
+{
+	es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(attacker)
+	es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 event_var(userid)
+	es_xmath wcs_z1 + 40
+	es_xmath wcs_z2 + 40
+  es est_effect 3 #a 0 sprites/orangelight1.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 3 6 12 155 155 155 255
+	es est_effect 11 #a 0 holliday/eye.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 3 2 155
+	es est_effect 3 #a 0 sprites/lgtning.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 2 20 10 55 155 255 150
+  es wcs_getcolor event_var(userid) wcs_red wcs_green wcs_blue wcs_alpha
+  if (event_var(es_userteam) = 2) then es_delayed .1 playerset color event_var(userid) 255 0 0 255
+  if (event_var(es_userteam) = 3) then es_delayed .1 playerset color event_var(userid) 0 255 0 255
+  es_delayed 2 playerset color event_var(userid) server_var(wcs_red) server_var(wcs_green) server_var(wcs_blue) server_var(wcs_alpha)
+}
+
+block summon
+{
+    es_getplayerteam wcs_team server_var(wcs_userid)
+	if (server_var(wcs_team) = 2) then getrandplayer wcs_player #ct
+	if (server_var(wcs_team) = 3) then getrandplayer wcs_player #t
+	es_exists wcs_exists userid server_var(wcs_player)
+	if (server_var(wcs_exists) = 1) do
+	{
+		es_getplayername wcs_name server_var(wcs_player)
+		es_delayed server_var(wcs_time) es playerset moveto server_var(wcs_player) server_var(wcs_userid)
+		es_xmath wcs_time + .2
+		es_tell server_var(wcs_userid) : you have summoned server_var(wcs_name) to battle
+		es_getplayername wcs_name1 server_var(wcs_userid)
+		es_tell server_var(wcs_player) : you have been summoned by server_var(wcs_name1) and will spawn before him in 3 seconds
+		es_playsound server_var(wcs_userid) ambient\machines\wall_move5.wav 1
+		es_playsound server_var(wcs_player) ambient\machines\wall_move5.wav 1
+		es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+		es_xmath wcs_z1 + 40
+		es est_effect 10 #a 0 holliday/eye.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 950 190 3 150 100 0 155 115 100 200 1
+		es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 server_var(wcs_player)
+		es_xmath wcs_z2 + 40
+		es_delayed .1 est_effect 10 #a 0 holliday/eye.vmt server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2) 950 190 3 150 100 0 155 115 100 200 1
+	}
+}

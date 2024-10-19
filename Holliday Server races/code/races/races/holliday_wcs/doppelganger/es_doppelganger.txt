@@ -1,0 +1,126 @@
+block load
+{
+  es_regsaycmd doppelganger holliday_wcs/doppelganger/doppelwalk doppelwalk
+}
+
+block spawn
+{
+  if (event_var(es_userteam) = 2) then es playerset model event_var(userid) models/player/t_guerilla.mdl
+  if (event_var(es_userteam) = 3) then es playerset model event_var(userid) models/player/ct_urban.mdl
+  es playerset color event_var(userid) 0 0 0 255
+}
+
+block shadow
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es playerget viewcoord event_var(userid) wcs_x2 wcs_y2 wcs_z2
+  if (event_var(es_userteam) = 2) do
+  {
+   es bot_add t minh
+   es_getuserid wcs_player "minh"
+   es wcs spawn server_var(wcs_player) 1
+   es_delayed .1 playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+   es_delayed .1 es playerset viewcoord server_var(wcs_player) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+   es_delayed .1 es playerset color server_var(wcs_player) 29 29 29 229
+   es_delayed server_var(wcs_bott) es bot_kick minh
+  }
+  if (event_var(es_userteam) = 3) do
+  {
+    es bot_add ct crusher
+    es_getuserid wcs_player "crusher"
+    es wcs spawn server_var(wcs_player) 1
+    es_delayed .1 es playerset location server_var(wcs_player) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_delayed .1 es playerset viewcoord server_var(wcs_player) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es_delayed .1 es playerset color server_var(wcs_player) 29 29 29 229
+    es_delayed server_var(wcs_bott) es bot_kick crusher
+  }
+}
+
+block doppelwalking
+{
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+  es_keysetvalue wcsuserdata event_var(userid) doppelwalk server_var(wcs_count)
+  es_xmath wcs_z1 + 40
+  es est_effect 10 #a 0 sprites/640hud9.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 950 190 3 150 100 0 155 115 100 200 3
+}
+
+block doppelwalk
+{
+  es_getcmduserid wcs_player
+  es_keygetvalue wcs_tmp wcsuserdata server_var(wcs_player) doppelwalk
+  ifx parse("wcs_tmp >= 0") do
+  {
+	  es_xmath wcs_tmp - 1
+	  //es_playsound server_var(wcs_player) holliday\shadow.wav 1
+    es_keysetvalue wcsuserdata server_var(wcs_player) doppelwalk server_var(wcs_tmp)
+    if (event_var(es_userteam) = 3) then es_xset usermodel vgui\gfx\vgui\urban.vmt
+    if (event_var(es_userteam) = 2) then es_xset usermodel vgui\gfx\vgui\guerilla.vmt
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_player)
+    es_xmath wcs_x1 + 40
+    es_xmath wcs_y1 + 40
+    es est_effect 11 #a 0 server_var(usermodel) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(phantomtime) .6 255
+    es_xmath wcs_x1 - 80
+    es_xmath wcs_y1 - 80
+    es est_effect 11 #a 0 server_var(usermodel) server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) server_var(phantomtime) .6 255
+    es playerset color server_var(wcs_player) 255 255 255 0
+    es_delayed server_var(wcs_count) es playerset color server_var(wcs_player) 255 255 255 255
+    es_tell server_var(wcs_player) #multi #default [dopplewalk] #lightgreenyou have become #greeninvisible #lightgreen for #green server_var(wcs_count) seconds #lightgreenleaving behind duplicates of yourself to confuse enemies.
+    es_xset entitycount 0
+    es_xset mysmokename ""
+		es_xformatv mysmokename "smoke_%1" entitycount
+		es_format wcs_format "targetname %1" server_var(mysmokename)
+		es_give server_var(wcs_player) env_smokestack
+		es_fire server_var(wcs_player) env_smokestack addoutput server_var(wcs_format)
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "basespread 45"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "spreadspeed 25"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "speed 200"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "startsize 42"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "endsize 27"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "rate 90"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "jetlength 120"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "twist 0"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "smokematerial effects/strider_bulge_dudv.vmt"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "angles 0 0 0"
+		es_fire server_var(wcs_player) server_var(mysmokename) addoutput "rendercolor 255 255 255"
+		es_fire server_var(wcs_player) server_var(mysmokename) setparent !activator
+		es_fire server_var(wcs_player) server_var(mysmokename) turnon
+		es_delayed 5 es_fire server_var(wcs_player) server_var(mysmokename) kill
+		es_xmath entitycount + 1
+   }
+  	else do
+	 {
+    es_tell server_var(wcs_player) #multi #lightgreen you have no additional #default ability points
+	}
+}
+
+block backup
+{
+  es_getplayerteam wcs_team server_var(wcs_userid)
+  es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 server_var(wcs_userid)
+  es playerget viewcoord server_var(wcs_userid) wcs_x2 wcs_y2 wcs_z2
+  es playerget primary wcs_tmp server_var(wcs_userid)
+  if (server_var(wcs_team) = 2) do
+  {
+   es bot_add t wolf
+   es_getuserid wcs_player "wolf"
+   es wcs spawn server_var(wcs_player) 1
+   es_delayed server_var(wcs_bott) es bot_kick wolf
+  }
+  if (server_var(wcs_team) = 3) do
+  {
+    es bot_add ct stone
+    es_getuserid wcs_player "stone"
+    es wcs spawn server_var(wcs_player) 1
+    es_delayed server_var(wcs_bott) es bot_kick stone
+  }
+  es_delayed .1 es_give server_var(wcs_player) server_var(wcs_tmp)
+  es_delayed .1 es playerset model server_var(wcs_player) models/player/ct_urban.mdl
+  es_delayed .1 es playerset moveto server_var(wcs_player) server_var(wcs_userid)
+  es_delayed .1 es playerset viewcoord server_var(wcs_player) server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+  es_delayed .1 es playerset color server_var(wcs_player) 29 29 29 229
+  es_tell server_var(wcs_userid) #multi #greenyou have called for backup
+  es_playsound server_var(wcs_userid) radio/ct_backup.wav 1
+  es_delayed server_var(wcs_bott) es_playsound server_var(wcs_userid) vo/trainyard/ba_backup.wav 1
+  es_xmath wcs_z1 + 40
+  es est_effect 10 #a 0 sprites/640hud9.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 950 190 3 150 100 0 155 115 100 200 1
+}

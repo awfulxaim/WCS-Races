@@ -1,0 +1,21 @@
+Thor, God of Thunder
+
+Zeus only. requires total level 350. limited to 2 per team. cannot buy knight's armaments, long jump, boots of speed, or ammo resupply.
+
+Godly Power
+Your Zeus recharges every 4/3.5/3/2/1 seconds. if it is already charged you gain 1 ammo instead.
+
+Power Draw
+15/18/20/23/25% chance on hit to recharge your Zeus. if it is already charged you gain 1 ammo instead. when you kill an enemy you gain 5% movement speed for the rest of the round.
+
+Godly Speed
+You spawn with 20/25/30/35/40% increased movement speed.
+
+Godly Fortitude
+You spawn with 10/20/30/40/50 more HP.
+
+Godly Strength
+Your Zeus does 35/40/44/47/50% of normal damage, but has 20/28/36/43/50 maximum ammo.
+
+Thundering Blow (ultimate)
+Deal 32 damage to the nearest enemy and charge your Zeus. if it is already charged you gain 1 ammo instead. 10 second cooldown.

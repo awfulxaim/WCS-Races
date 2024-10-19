@@ -1,0 +1,15 @@
+BLU Scout
+
+Shotguns, pistols, and knife only. requires total level 100. limited to 2 per team.
+
+Double Jump
+You can jump a second time in the air. This jump has 40/55/70/85/100% of the power of the a normal jump. You spawn with 90/80/70/65/60% of normal gravity.
+
+Sprint
+You spawn with 10/20/30/40/50% increased movement speed.
+
+Pretty Boy's Pocket Pistol
+You spawn with 9/13/17/21/25 more HP and 20/40/60/80/100% fall damage resistance.
+
+Bonk! Atomic Punch (ultimate)
+Gain 30% additional increased movement speed and 87/90/93/96/97% evasion for 5/6/7/8/9 seconds. you cannot attack for this duration. 20 second cooldown.

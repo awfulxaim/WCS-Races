@@ -1,0 +1,15 @@
+Death Reaper
+
+requires total level 300. limited to 1 per team.
+
+Judgement (ability)
+Deal 10 damage to all enemies in a 750 unit radius and heal yourself and all teammates in a 750 unit radius for 10 HP. 25/20/15/10 second cooldown.
+
+Withering Presence
+Every second all enemies in a 250 unit radius of you take 2/4/6/8 damage.
+
+Inhuman Nature
+When a player dies within 750 units of you, you heal for 5/10/15/20 HP.
+
+Demonic Execution (ultimate)
+All enemies in a 700 unit radius take damage equal to the HP they have less than 100. 25 second cooldown.

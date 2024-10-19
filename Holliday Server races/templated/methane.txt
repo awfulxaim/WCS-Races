@@ -1,0 +1,16 @@
+Methane Man
+
+Speed
+Spawn with 5/10/15/20% increased movement speed.
+
+Density
+Spawn with 30/40/50/60% reduced gravity and 15/30/45/60% invisibility.
+
+Osmosis
+10/15/20/25% chance to evade. when you evade you gain a bullet in your mag.
+
+Gas form
+become 100% invisible and restricted to pistols only for 5 seconds. 45/40/35/30 second cooldown
+
+Diffusion
+Gain no-clip and 1.8 speed. while in no-clip you have no weapons. press ult again to turn this skill off. when you turn this skill off you get back only your pistol for 2 seconds then get your primary weapon back. 26/22/18/14 second cooldown after turning off.

@@ -1,0 +1,19 @@
+Jaina Proudmoore
+
+Blizzard
+3/6/9/12/15/18/21/25% chance on hit to slow the enemy and all enemies in a 200 unit radius of that enemy by 50% for 5 seconds.
+
+Blink (ability)
+instantly teleport to the location you are aiming at. 250/300/350/400/500/600/700/800 unit max range. 5 second cooldown.
+
+Living Bomb
+5/10/15/20/25/30/35/40% chance on hit to make the enemy a living bomb. when a living bomb dies all enemies in a 200 unit radius of that enemy take 50 damage.
+
+Ice Armor
+Spawn with 100 armor and helmet and 5/10/15/20/25/30/35/40 more HP.
+
+Polymorph
+2/4/6/8/10/12/14/16% chance on hit to remove all weapons from the enemy, set their speed to .5, and set their player model to a chicken for 6 seconds. after that time, their weapons, speed, and model is set back to what they were.
+
+Deep Freeze (ultimate)
+Root all enemies in a 225/250/275/300/325/350/375/400 unit radius for 10 seconds. 30 second cooldown.

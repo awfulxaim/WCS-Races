@@ -1,0 +1,16 @@
+Mudkip
+
+Mud-Slap
+3/6/9/12/15/18/21/24% chance on hit to blind the enemy for 3 seconds. blind is brown in color and after 3 seconds it slowly decays until visibility is completely returned.
+
+Take Down
+2/4/6/8/10/12/14/16% chance on hit to deal extra damage equal to half your current HP, then lose HP equal to 25% of that damage.
+
+Protect
+Spawn with 100 Armor and helmet. You have a 25% chance when hit to reduce the damage taken by 3/6/9/12/15/18/21/25% and a 25% chance when you take damage from a damaging ultimate, skill, or ability to reduce the damage by 5/15/25/35/45/55/65/75%.
+
+Endeavor
+4/8/12/16/20/24/28/32% chance on hit to deal extra damage equal to the enemy's HP minus your own HP.
+
+Whirlpool
+10/20/30/40/50/60/70/80% chance when you die to create a 400 unit black and blue ward that pulls all enemies on the map toward its center once per second for 3 seconds for 4 total pulses. enemies who enter the 400 unit radius take 25/27/29/31/33/35/37/40 damage per second. the pull force should be double the force of a void grenade.

@@ -1,0 +1,30 @@
+block save
+{
+    es_keysetvalue wcsuserdata event_var(userid) weapon_save 1
+}
+
+
+event weapon_fire
+{
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) weapon_save
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es playerget primary wcs_primary event_var(userid)
+        es playerget secondary wcs_secondary event_var(userid)
+        es_keysetvalue wcsuserdata event_var(userid) primary server_var(wcs_primary)
+        es_keysetvalue wcsuserdata event_var(userid) secondary server_var(wcs_secondary)
+    }
+}
+
+event player_spawn
+{
+    es_keygetvalue wcs_tmp wcsuserdata event_var(userid) weapon_save
+    if (server_var(wcs_tmp) = 1) do
+    {
+        es_keygetvalue wcs_primary wcsuserdata event_var(userid) primary
+        es_keygetvalue wcs_secondary wcsuserdata event_var(userid) secondary
+        es wcs strip event_var(userid)
+        es_delayed 1 es_give event_var(userid) server_var(wcs_primary)
+        es_delayed 1 es_give event_var(userid) server_var(wcs_secondary)
+    }
+}

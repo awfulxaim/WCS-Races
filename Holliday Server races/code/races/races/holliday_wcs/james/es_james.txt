@@ -1,0 +1,73 @@
+block spawn
+{
+    es wcs strip event_var(userid)
+    es wcs_restrict event_var(userid) galil,ak47,sg552,awp,g3sg1,famas,m4a1,aug,sg550,elite,fiveseven,m3,xm1014,mac10,tmp,mp5navy,ump45,p90,m249,glock,scout,p228,deagle
+    es wcs_restrict event_var(userid) addallow weapon_usp
+    es wcs_restrict event_var(userid) addallow weapon_knife
+    es wcs_restrict event_var(userid) addallow weapon_c4
+    es wcs_restrict allow event_var(userid) usp
+    es_delayed .1 es_give event_var(userid) weapon_knife
+    es_delayed .1 es_give event_var(userid) weapon_usp
+    es_getplayerlocation wcs_x1 wcs_y1 wcs_z1 event_var(userid)
+    es_getplayerlocation wcs_x2 wcs_y2 wcs_z2 sevent_var(userid)
+    es_xmath wcs_z2 + 20
+    es_createvectorstring vector1 server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1)
+    es_createvectorstring vector2 server_var(wcs_x2) server_var(wcs_y2) server_var(wcs_z2)
+    es est_effect 11 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 3 3 255
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 10 500 1 40 400 0 255 255 255 255 10
+    es est_effect 10 #a 0 vgui/gfx/vgui/cs_logo.vmt server_var(wcs_x1) server_var(wcs_y1) server_var(wcs_z1) 500 10 1 40 400 0 0 0 0 255 10
+    es_playsound event_var(userid) weapons/scout/scout_fire-1.wav
+    es_delayed .1 es_playsound event_var(userid) weapons/usp/usp1.wav 1
+    es_delayed .2 es_playsound event_var(userid) weapons/usp/usp1.wav 1
+    es_delayed .3 es_playsound event_var(userid) weapons/usp/usp1.wav 1
+    es_delayed .4 es_playsound event_var(userid) weapons/usp/usp1.wav 1
+    es_delayed .5 es_playsound event_var(userid) weapons/usp/usp1.wav 1
+    es_delayed .6 es_playsound event_var(userid) weapons/usp/usp1.wav 1
+    es_delayed .7 es_playsound event_var(userid) weapons/usp/usp_clipin.wav 1
+    es_delayed .8 es_playsound event_var(userid) weapons/usp/usp_clipout.wav 1
+    es_delayed .9 es_playsound event_var(userid) weapons/usp/usp_silencer_on.wav 1
+    es_delayed 1 es_playsound event_var(userid) weapons/usp/usp_slideback.wav 1
+    es_delayed 1.1 es_playsound event_var(userid) weapons/usp/usp_slideback2.wav 1
+    es_delayed 1.2 es_playsound event_var(userid) weapons/usp/usp_sliderelease.wav 1
+    es_delayed 1.3 es_playsound event_var(userid) weapons/usp/usp_unsil-1.wav 1
+    es_delayed 1.4 es playerset ammo event_var(userid) 1 200
+}
+
+block headshot
+{
+    if (event_var(hitgroup) == 1) do 
+    { 
+        es wcs damage event_var(userid) event_var(attacker) server_var(wcs_damage)
+        es_tell event_var(userid) #multi #default [Headshot] #lightgreenCaused #green server_var(wcs_damage) Damage!
+    }
+}
+
+block speed
+{
+    es playerset speed event_var(userid) server_var(wcs_speed)
+    es_tell event_var(userid) #multi #default [Speed] #green server_Var(wcs_speed) Speed!!!
+}
+
+block invis
+{
+    es playerset color event_var(userid) 255 255 255 server_var(wcs_alpha)
+    es_tell event_var(userid) #multi #default [Invisibility] #green server_Var(wcs_alpha) Invisibility!!!
+}
+
+block tele
+{
+    es_xdoblock wcs/tools/ultimates/default/wcs_ulti_teleport
+    es_give server_var(wcs_userid) env_steam 
+    es_fire server_var(wcs_userid) env_steam addoutput "spreadspeed 50"
+    es_fire server_var(wcs_userid) env_steam addoutput "speed 30"
+    es_fire server_var(wcs_userid) env_steam addoutput "startsize 111"
+    es_fire server_var(wcs_userid) env_steam addoutput "endsize 601"
+    es_fire server_var(wcs_userid) env_steam addoutput "rate 201"
+    es_fire server_var(wcs_userid) env_steam addoutput "jetlength 100"
+    es_fire server_var(wcs_userid) env_steam addoutput "rollspeed 10"
+    es_fire server_var(wcs_userid) env_steam addoutput "rendercolor 0 0 0"
+    es_fire server_var(wcs_userid) env_steam turnon
+    es_delayed 4 es_fire server_var(wcs_userid) env_steam kill
+    es playerset color server_var(wcs_userid) 0 0 102 0
+    es_delayed server_var(wcs_duration) es playerset color server_var(wcs_userid) 255 255 255 55
+}

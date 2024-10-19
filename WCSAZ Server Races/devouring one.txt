@@ -1,0 +1,21 @@
+Devouring One
+
+knife only
+
+Metabolic Boost
+Spawn with 55/65/75/85/95/105/115/125% increased movement speed.
+
+Adrenal Glands
+40% chance on hit to deal 15/20/25/30/35/40/45/50% extra damage.
+
+Advanced Carapace
+Spawn with 25/50/75/100/125/150/175/200 armor and helmet, and 15/20/25/30/35/40/45/50 more HP.
+
+Feral Sphere (ability)
+Respawn all teammates playing zergling. 65/60/55/50/45/40/35/30 second cooldown.
+
+Call Zerglings (ability2)
+Instantly teleport all teammates playing zergling to you. 50/45/40/35/30/25/20/15 second cooldown.
+
+Burrow (ultimate)
+Bury yourself, deep enough you cannot be seen or shot. press ultimate again to unburrow. 15/14/13/12/11/10/9/8 second cooldown. Press ultimate again to unburrow. While underground you and zerglings nearby are healed for 0/0/0/1/2/5/10/15 HP every 3 seconds up to the HP you spawned with.
