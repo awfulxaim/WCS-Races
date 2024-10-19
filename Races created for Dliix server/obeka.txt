@@ -1,0 +1,19 @@
+Obeka
+
+Shatter
+10% chance on hit to deal 100/125/150/175/200% extra damage. This damage cannot be evaded and pierces invulnerability. Killing an enemy with this damage grants you a Time Shard.
+
+Split Second
+5/10/15/20/25% chance to evade. Become 100% invisible for .5 seconds when this procs.
+
+Brute Chronology (ability)
+When activated, teammates in a 250/300/350/400/450 unit radius have their cooldowns refreshed. Enemies in that same area have their cooldowns restarted as if they just activated all of their abilities and ultimates. 30 second cooldown.
+
+Time Sieve (ability2)
+Add 5 seconds to the cooldown of enemies who activate an ability or ultimate within a 250/300/350/400/450 unit radius of you. When this procs, you gain a Time Shard. When you activate this ability, gain 20/30/40/50/60% increased movement speed for 1/2/3/4/5 seconds. Costs 1 Time Shard to activate. 10 second cooldown.
+
+Borrowed Time
+50% chance when hit with lethal damage you did not evade to delay that damage for 1/1.5/2/2.5/3 seconds.
+
+Skip Ahead (ultimate)
+Cancel all delayed damage you would take. Respawn and teleport every player to their spawn. Each player loses all buffs and debuffs and reapplies their on spawn skills. Each player is rooted for 6 seconds. Each player gains $1050. You gain 30 XP per player on the server. 120/110/100/90/80 second cooldown. This can be activated while dead.

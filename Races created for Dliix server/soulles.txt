@@ -1,0 +1,19 @@
+Soulless
+
+Extreme violence
+Killing an enemy causes them to explode dealing 25/30/35/40/45/50 damage to all enemies in a 200 unit radius.
+
+Detonate Dead (ability)
+Deal 4/8/12/16/20/25 damage to all enemies in a 300 unit radius of a location that any player died at this round. Once a corpse has been detonated it cannot be detonated again. In cases where you have already used this ability once this round, you must wait until another player has died to cast this again. 35 second cooldown.
+
+Death’s Clutches
+50/60/70/80/90/100% chance when you kill an enemy to prevent them from respawning this round.
+
+Soul Capture
+You gain 1/2/4/6/8/10 HP when a player dies. When you kill an enemy, the next time they spawn they spawn with 1/2/4/6/8/10 less HP.
+
+Savor the Slaughter
+When a player dies you gain 1/2/4/6/8/10% increased movement speed and 1/2/4/6/8/10% increased damage for 1/2/3/4/5/6 seconds.
+
+Explosive Rebirth (ultimate)
+While dead, after a 3 second wait/cooldown, pressing ultimate respawns you where you died with the weapons and equipment you had. Enemies within a 350 unit radius of you when you respawn take 40/50/60/70/80/90 damage. No initial cooldown. 75 second cooldown.

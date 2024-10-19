@@ -1,0 +1,21 @@
+Coyote
+
+Spawns with a P250.
+
+Scavenge
+When an enemy dies, you gain 1/2/3/4/5 HP, 200/250/300/350 money, 1/2/3/4/5 ammo in mag, and 3/6/9/12/15 ammo in reserve.
+
+Cornered
+When below 15/25/35/45/55 HP, add 10 extra damage to your hits.
+
+Pack Tactics
+When you hit an enemy that is within 350 units of one of your teammates you deal 60/70/80/90/100% extra damage.
+
+Sneak Attack
+When you have been out of combat for 18/16/14/12/10 seconds, your next shot deals 20-50 extra damage rolled randomly.
+
+Hidden in Plain Sight
+Spawn with a disguise and 5/10/15/20/25% increased movement speed.
+
+Last Lash
+When you take lethal damage, deal 25/50/75/100% of the damage you took from that hit back to that enemy.

@@ -1,0 +1,19 @@
+Hyena
+
+Leg Muscles
+Spawn with 6/12/18/24/32% increased movement speed. You have a 3.0 multiplier long jump with a cooldown of 10/9/8/7/6 seconds.
+
+Joker’s Wild
+4/8/12/16/20% chance on spawn to get a random one of the following: Orb of Frost, Boots of Speed, Sock of the Feather, Ankh of Reincarnation, Water Tunic, Book of XP.
+
+Skin From Bone
+You deal 5/10/15/20/25 extra damage to enemies with 10/20/30/40/50 or less HP and enemies who have already died once this round. When you kill an enemy, they cannot respawn and you gain 5/10/15/20/25 HP.
+
+Last Laugh
+When you die, you respawn 1 second later at the location you died at with the guns and equipment you died with. This life lasts 5.5/6/6.5/7/7.5 seconds. After that duration, if you haven’t died again, you are slain. When you die again (or are slain), you explode dealing 25/50/75/100/125 damage to all enemies in a 250 unit radius of you.
+
+Call to the Hunt (ability)
+Become knife only and gain 10/20/30/40/50% (additional) increased movement speed for 5 seconds. You can see enemy silhouettes through walls, colored based on the remaining HP the enemy has for that duration. Green for >=100, Green-yellow for 99-75, yellow for 74-50, orange for 49-25, red for <=24. 40/35/30/25/20 second cooldown.
+
+Opportune Predator
+You deal extra damage equal to 2/4/6/8/10% of your HP.
