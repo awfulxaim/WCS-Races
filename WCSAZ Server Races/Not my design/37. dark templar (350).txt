@@ -6,7 +6,7 @@ Permanent Cloaking
 Spawn with 60/65/70/75/80/85/90/98% invisibility.
 
 Dark Void
-1% chance when you spawn to become immune to abilities and ultimates. If this procs, enemies who would affect you with an abiity or ultimate are put to sleep for 10 seconds.
+2/4/6/8/10/12/14/16% chance on hit to blind the enemy with a red screen for 4 seconds.
 
 Backstab
 10/20/30/40/50/60/70/80% chance when you hit an enemy from behind to deal 75/150/225/300/375/450/525/600 extra damage.
