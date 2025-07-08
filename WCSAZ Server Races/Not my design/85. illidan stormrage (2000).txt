@@ -8,10 +8,10 @@ Flames of Azzinoth
 Skull of Gul'dan
 Spawn with 5/10/15/20/25/30/35/40% increased movement speed.
 
-Draw Soul
-3/6/9/12/15/18/21/24% chance on hit to deal 25% extra damage and heal for that much damage.
+Draw Soul (ability)
+Lay up to two 200 unit radius wards that deal 3/4/5/6/7/8/9/10 damage per .5 seconds. You heal for the damage dealt by these wards. no cooldown.
 
-Shadowfury (ability)
+Shadowfury (ability2)
 Deal 4/8/12/16/20/24/28/32 damage to all enemies in a 300 unit radius of you and bash them for 1 second. 15 second cooldown.
 
 Berserk
