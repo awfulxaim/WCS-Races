@@ -1,0 +1,15 @@
+Lina Inverse
+
+requires total level 4100. limited to 2 per team
+
+Dragon Slave
+Every 10/8/6/4/2 seconds, a ring expands out from you to a radius of 500 units. enemies who are hit by the ring take 25 damage.
+
+Light Strike Array
+Every 20/18/16/14/10 seconds, create a 150 unit radius ward on top of a random enemy. after 1.5 seconds that ward is destroyed and any enemy in that ward area takes 10/20/30/40/50 damage and paralyzed for 2 seconds. A sound plays for the enemy this ward is created on.
+
+Bloodlust (ability)
+You deal 100% more damage with hits and extra damage for 2.5/3.5/4/4.5/5 seconds.
+
+Laguna Blade (ultimate)
+Deal 75 damage to the enemy you are aiming at. 30 second cooldown.

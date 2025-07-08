@@ -1,0 +1,27 @@
+Spymaster
+
+requires total level 1700. limited to 2 per team.
+
+Disguise Kit 
+20/40/60/80/100% chance to spawn with the other team's player model. If you are disguised, you do not appear on the minimap/radar.
+
+Intelligence (1 level)
+You get a notification sound when a player begins planting, defusing, or rescuing a hostage and you get chat messages telling you the percent complete when a player is planting, defusing, or picking up a hostage.
+
+Intelligence II
+20/40/60/80/100% chance when you spawn for enemies that are within 500 units of you to be shown on the minimap/radar for your entire team.
+
+Intelligence III (ability) (1 level)
+You can see all bullet impacts through walls for .1 seconds after they hit. ability toggles this on or off.
+
+Dead Ringer
+5/10/15/20/25% chance when hit to become 85% invisible for 3 seconds.
+
+Tracer Bullets
+30/35/40/45/50% chance on hit to make the enemy visible on minimap/radar for the next 5/6/7/8/9 seconds.
+
+Hidden Budget
+You gain 100-600/200-700/300-800/400-900/500-1000 money, rolled randomly, each round start.
+
+Wolf Among Sheep (ultimate) (1 level)
+Press ultimate to mole into the enemy team's spawn 15-30 seconds after round start, rolled randomly. If you moled last round, this timer is between 25-30 seconds.

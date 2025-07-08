@@ -1,0 +1,15 @@
+Emperor Don
+
+requires total level 6250. limited to 2 per team.
+
+Security
+When an enemy enters a 300 unit radius of you they are rooted for 1 second and take 5/10/15/20 damage. 20 second cooldown.
+
+Unstoppable
+25/50/75/100% chance when you would be bashed to ignore it and bash that enemy instead.
+
+Royal Robes
+10/15/20/25% chance to evade damage. this includes extra damage.
+
+Barricade (ultimate)
+Create a wall. That wall has 100/200/300/400 HP. your teammates deal 4x damage to your walls. 30 second cooldown.

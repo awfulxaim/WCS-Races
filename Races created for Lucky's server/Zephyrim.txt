@@ -1,0 +1,24 @@
+Zephyrim
+
+Knife, P250, and HE grenade only.
+
+Adepta Sororitas Power Armor
+Spawn with 10/20/30/40/50 more HP and 5/10/15/20/25% increased movement speed.
+
+Rosarius
+You have 10/20/30/40/50% spell immunity.
+
+Plasma Pistol
+Your P250 charges while you are holding it, dealing 10/20/30/40/50% extra damage after charging for 1 second. firing or putting the gun away restarts the timer.
+
+Krak Grenade
+Your HE grenades deal 10/20/30/40/50% extra damage and remove all armor from enemies that are damage by it.
+
+Laud Hailer (Ability1)
+You heal teammates (not yourself) in a 600 unit radius of you for 5/10/15/20/25 HP. you and healed teammates gain 15% increased movement speed for the next 10 seconds.
+
+Power Sword
+You deal 100/125/150/175/200% extra damage with your knife. This damage cannot be evaded, blocked, or reduced.
+
+Zephyrim Pattern Jump Pack (Ultimate)
+Gain 10/20/30/40/50% increased movement speed and begin flying. You have no accuracy penalty while flying. 3 second cooldown.

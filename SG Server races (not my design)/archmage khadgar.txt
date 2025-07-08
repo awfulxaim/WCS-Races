@@ -1,0 +1,42 @@
+Archmage Khadgar
+
+requires total level 4400. limited to 2 per team. cannot buy boots of speed, thorns, or HP.
+
+Prepared Spells (1 level)
+When you spawn you must pick 2 passives, an ability, and an ultimate. 3 of these 4 must be a single element. your ultimate must be one of the 3 that are the same element. Ultimates can be leveled starting at level 5 in this race.
+
+[Arcane Passive] Invisibility
+When you have not shot for 6/5.75/5.5/5.25/5/4.75/4.5/4.25/4 seconds you gain 60/63/66/69(nice)/72/75/77/79/80% invisibility.
+
+[Arcane Passive] Mage Armor 
+20/30/40/50/60/70/80/90/100% chance to spawn with ultimate immunity. You take 40/45/50/55/60/65/70/75/80% less damage from extra damage sources.
+
+[Arcane Ability] Arcane Blast (ability)
+Create a 750 unit radius ward where you are aiming. that ward deals 1/1/2/3/4/5/6/7/8 damage per second and lasts 1/2/3/4/5/6/7/8/8 seconds. 25 second cooldown.
+
+[Arcane Ultimate] Evocation (ultimate)
+Paralyze yourself and heal 5/7/9/11/13/15/17/19/20 HP per second. when you reach 100 HP this effect ends .5 seconds later. 45 second cooldown.
+
+[Fire Passive] Blazing Speed
+Spawn with 15/17/19/21/23/25/27/29/30% increased movement speed.
+
+[Fire Passive] Molten Armor
+5/7/9/11/13/15/17/19/20% chance on hit to deal 50% extra damage. You take 10/12/14/16/18/20/22/24/25% less damage from all sources. this double dips on extra damage.
+
+[Fire Ability] Flame Strike (ability)
+Burn all enemies in a 350 unit radius for 5 damage per .5 seconds for 1/1.5/2/2.5/3/3.5/4/4.5/5 seconds. (50 damage over 5 seconds at max.) 25 second cooldown.
+
+[Fire Ultimate] Critical Mass (ultimate)
+For the next 4/4.5/5/5.5/6/6.5/7/7.5/8 seconds all hits deal 50% extra damage. CD 35 Sec.
+
+[Frost Passive] Frost Armor
+100% chance when hit to slow the enemy that hit you by 35/40/45/50/55/60/65/70/75% for 1.5 seconds.
+
+[Frost Passive] Ice Block 
+60/65/70/75/80/85/90/95/100% when you would take lethal damage to block that damage and become paralyzed and invulnerable for 1 second instead. 18 second cooldown.
+
+[Frost Ability] Deep Freeze
+For the next 4/4.5/5/5.5/6/6.5/7/7.5/8 seconds you have a 50% chance on hit to paralyze the enemy for .5/.5/.5/.75/.75/.75/1/1/1 second. 100% chance when you hit a paralyzed enemy to deal 7/8/9/10/11/12/13/14/15 extra damage. 25 second cooldown.
+
+[Frost Ultimate] Frost Nova (ultimate)
+All enemies in an 800 unit radius are slowed by 50% and silenced (can't activate abilities or ultimates) for 1/1.25/1.5/1.75/2/2.25/2.5/2.75/3 seconds. 30 second cooldown.

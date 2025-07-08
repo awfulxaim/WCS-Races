@@ -1,0 +1,21 @@
+Succubus Hunter [MISC]
+
+requires Level 150+.
+used slow hunter model.
+maximum of 20 skulls.
+
+Demonic Knife
+Knife attacks deal 50/60/70/80/90% bonus damage, plus 2 × your skull count.
+
+Head Hunter
+20% chance on hit to deal an additional 10/10/20/20/20% damage, plus ½ your skull count in bonus damage.
+Grants 20–24 / 20–28 / 20–32 / 20–36 / 20–40 XP plus your skull count in bonus XP.
+
+Collect Skull
+80/85/90/95/100% chance to collect 1 skull per kill.
+
+Totem Incantation
+Spawn with 5–12 / 5–14 / 5–16 / 5–18 / 5–20 bonus health and armor, plus ½ your skull count.
+
+Demonic Transformation (Ultimate)
+Spend 2 skulls to gain 10/10/15/20/25 bonus health, 20% increased speed, 20/30/40/50/60% reduced gravity, and 20/30/40/50/60% increased jump force. 5 second cooldown.

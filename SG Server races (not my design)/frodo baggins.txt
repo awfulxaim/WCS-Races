@@ -1,0 +1,15 @@
+Frodo Baggins
+
+knife only. requires total level 1500. limited to 2 per team. cannot buy long jump, boots of speed, cloak of shadows, or HP.
+
+Mithril Armor
+Spawn with 15/20/25/30/35/40/45/50 more HP and 100/120/140/160/180/200/220/250 armor. Your armor absorbs 30/35/40/45/50/55/60/65% of the damage you take.
+
+Nimble
+You spawn with 5/10/15/20/25/30/35/40% increased movement speed.
+
+Elvish Blade
+30/35/40/45/50/55/60/65% chance on hit to deal 30-80 damage, rolled randomly.
+
+One Ring (ultimate)
+Become 100% invisible for 2.5/2.75/3/3.25/3.5/3.75/4/4.25 seconds. 20 second cooldown.

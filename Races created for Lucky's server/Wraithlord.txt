@@ -1,0 +1,21 @@
+Wraithlord
+
+Shotgun and knife only.
+
+Wraithsight
+While you are not within a 450 unit radius of a teammate your vision decays by 10% every second until you are blind. When you enter the radius of a teammate you are completely unblinded and the decay resets. You spawn with 100/200/300/400/500 extra HP. Your size is increased by 25%.
+
+Spirit Stone
+When you die if you are within 100/200/300/400/500 units of a teammate you will respawn back at spawn after 6 seconds.
+
+Ghostglaive
+You deal 20/40/60/80/100% extra damage with the knife. Enemies killed by your knife cannot respawn or be summoned.
+
+Scatter Laser
+While you are carrying a shotgun your gun charges, reducing your ammo in mag by 1 every 3 seconds down to 1 ammo remaining. When you fire you deal 20/30/40/50/60% extra damage for each ammo charged.
+
+Bright Lance (Ability1) 1 level
+You get an AWP, activate this again to get your shotgun back. Your damage with the AWP is not reduced when penetrating surfaces or players. 1 second cooldown.
+
+Flamer Cannon
+Your shots with the shotgun leave 25 radius wards where they land. These wards last 4/5/6/7/8 seconds and deal 4 damage per second. Enemies standing in multiple wards take damage from each.

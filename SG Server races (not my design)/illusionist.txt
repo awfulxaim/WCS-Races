@@ -1,0 +1,21 @@
+Illusionist
+
+Requires total level 9750. limited to 1 per team. cannot buy cloak of shadows, XP, or HP.
+
+Dazzle
+Spawn with 20/30/40/50/60% invisibility.
+
+Perplex
+20% chance on hit to unbind two random movement keys for that enemy (left, right, forward, or backward) for 1/1.5/2/2.5/3 seconds.
+
+Confuse
+50% chance on hit to make the enemy's HP, armor, money, and ammo numbers change randomly every .5 seconds for 1/2/3/4/5 seconds. this doesn't actually change these values, but the numbers on the HUD change.
+
+Confound
+25% chance on hit to banish the enemy with an extremely high FOV for .2/.4/.6/.8/1 second.
+
+Telekinesis (ability)
+Pick up a gun on the ground you are aiming at or swap ammunition with an enemy you are aiming at, if that enemy has 5 or less round in their magazine they drop their gun instead. 150/200/250/300/350 unit range. 5 second cooldown.
+
+Blood
+Every time you proc a skill or activate an ability you heal for 4/7/10/13/16 HP. 5 second cooldown.

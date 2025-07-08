@@ -1,0 +1,21 @@
+Magnus the Summoner
+
+requires total level 6000. limited to 1 per team. cannot buy claws of attack, mask of death, scroll of respawning, or HP.
+
+Hellish Beacon
+Lay a 500 unit radius ward. Teammates inside the ward area deal 1/2/3/4/5 extra damage on hit, heal .5/1/1.5/2/2.5 HP per second, and take 2/4/6/8/10% less damage from all sources. This ward lasts until you die or or your Doppelganger skill procs. 10 second cooldown. you can have 1 Hellish Beacon active at a time. if you activate this while you already have one active, you remove the old one.
+
+Body Guards
+You have 1/2/3/4/5 150 unit radius wards in a pentagonal shape 350 units around you. these wards are only visible to you. when an enemy enters the ward area the ward deals 1/2/3/4/5 damage per second to them. After 6 seconds of dealing damage to an enemy that ward becomes inactive and cannot deal damage again until a 2 second cooldown has ended.
+
+Attack Bugs
+You deal 2/4/6/8/10 extra damage on hit.
+
+Scouter Owls
+All enemies that enter a 500 unit radius of you lose their invisibility and show up on the radar for 1/2/3/4/5 seconds.
+
+Doppelganger
+15/30/45/60/80% chance when hit for 50 or more damage in a single hit to instantly teleport back to spawn. once per round.
+
+Backup Soldiers (ultimate)
+Respawn yourself or if you are alive, a teammate. 10/15/20/25/30% chance to respawn another random teammate. If you did respawn another random teammate you have a 1/2/3/4/5% chance to respawn yet another teammate. If you respawned that teammate, you have a 1% chance to respawn one last teammate. once per round.

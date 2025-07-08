@@ -1,0 +1,18 @@
+Plaguebearer
+
+knife only. requires total level 2000. limited to 2 per team. cannot buy mole, long jump, boots of speed, orb of venom, or ammo resupply.
+
+Rotting Pile (ability)
+Lay a 200 unit radius ward. enemies who enter the ward radius are poisoned, dealing 1/2/3/4/5 damage per second for 3 seconds. ward lasts 10 seconds. 5 second cooldown. (15 damage over 3 seconds)
+
+Rabid Bite
+10/20/30/40/50% chance on hit to poison the enemy, dealing 6 damage per second for 1/2/3/4/5 seconds. (30 damage over 5 seconds)
+
+Hunger Lust
+Spawn with 10/20/30/40/50% increased movement speed.
+
+Decayed Flesh
+10/20/30/40/50% chance to evade
+
+Black Death
+100% chance on death to deal 12/24/36/48/60 damage to all enemies in a 300 unit radius and poison them with your current level of Rabid Bite.

@@ -1,0 +1,18 @@
+Stalker - SC-Protoss
+Passive effects:
+None
+
+Phase Disruptors - Attack - 0/8
+On hit, 5%/level chance to deal an additional 10 damage as magical. This damage is doubled against enemies that are in the air (either flying or jumping).
+
+Blink - Ability1 - 0/8
+Blink where you are aiming up to 100 + 50/level units away. If you aim out of range this goes on cooldown for a shortened cooldown.
+Cooldown 10 seconds
+
+Phase Reactor - Special - 0/8
+After blinking, you have a 8%/level chance to become 100% invisible (including your guns) for 1.5 seconds. You instantly start your shield regeneration at triple the rate for 3 seconds when this procs.
+
+Plasma Shields - Passive - 0/8
+Gain a 2 + 6/level hp shield which also reduces damage by 4%/level while it is active
+Your shield regenerates at a rate of level/2 per second
+Your shield regeneration starts 3 seconds after being shot

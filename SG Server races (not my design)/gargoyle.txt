@@ -1,0 +1,18 @@
+Gargoyle
+
+Knife and incendiary only. requires total level 2200. limited to 3 per team. cannot buy long jump.
+
+Acid Spittle
+your incendiary grenade removes 1/2/3/4/5/6/7/8/9/10% of the enemy's armor each tick.
+
+Pack Instinct
+100% chance on hit to deal 1/2/3/4/5/6/7/8/9/10 extra damage for each other Gargoyle that is alive on your team.
+
+Enchanted Skin
+you spawn with 5/10/15/20/25/30/35/40/45/50 more HP and 5/10/15/20/25/30% increased movement speed. you take 5/10/15/20/25/30/35/40/45/50% less damage from extra damage.
+
+Stone Form (ability)
+Set your player model to gray, paralyze yourself but you are invulnerable. if you activate this in the air and you gain 500% gravity and you die when you land, but if you land on an enemy you instantly kill them and get 1k XP bonus. 10/9/8/7/6/5/4/3/2/1 second cooldown.
+
+Flight (ultimate)
+Begin to fly and gain 25/30/35/40/45/50/55/60/65/70% increased movement speed while flying. no cooldown.

@@ -1,0 +1,15 @@
+Glacius
+
+requires total level 6500. limited to 1 per team. cannot buy ammo resupply or HP.
+
+Tundra Blast
+10/20/30/40/50% chance on hit to deal 1/2/3/4/5 extra damage to that enemy and enemies in a 200 unit radius of that enemy. enemies damaged by this effect are slowed by 40% for 3 seconds.
+
+Ice Imprisonment (ability)
+Paralyze the enemy you are aiming at for .5/1/1.5/2/2.5 seconds. 10 second cooldown.
+
+Attribute Boost
+Spawn with 5/10/15/20/25 more HP.
+
+Glacial Downpour (ultimate)
+All enemies in a 650 unit radius have their movement speed and fire rate slowed by 40% for 1/2/3/4/5 seconds. 30 second cooldown.

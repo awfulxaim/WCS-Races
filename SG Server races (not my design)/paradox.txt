@@ -1,0 +1,21 @@
+Paradox
+
+famas, glock, and knife only. requires total level 2100. limited to 2 per team. cannot buy long jump.
+
+Custom Firearms
+Your Famas and Glock have 5/10/15/20 more ammo in its mag. You have a 25/50/75/100% chance to spawn with disarm immunity. You regen 1 ammo in the weapon you are holding every 4/3/2/1 second. You do not have a famas on the first round.
+
+Fast/Tough
+while in semi-auto/full-auto you have 5/15/25/35% increased movement speed. while in burst mode you take 5/15/25/35% reduced damage from hits.
+
+Hot/Cold
+While in semi-auto/full-auto you have a 10/20/30/40% chance on hit to burn the enemy for 2 seconds. While in burst mode you have a 10/20/30/40% chance on hit to slow the enemy by 60% for 3 seconds.
+
+Spray/Combo
+while in semi-auto/full-auto you have a 5/10/15/20% increased fire rate. while in burst mode you deal 6/9/12/15 extra damage for each bullet you hit in the burst after the first.
+
+Reload/Zoom (ability)
+while in semi-auto/full-auto, pressing ability instantly adds 10/15/20/25 ammo your gun with a 20 second cooldown. while in burst mode, pressing ability zooms you 25/50/75/100% in with a 0 second cooldown.
+
+Lunge/Teleport (ultimate)
+while in semi-auto/full-auto, pressing ultimate pushes you towards the nearest enemy with a 12 second cooldown, this push is increased with levels. while in burst mode, pressing ultimate gives you human teleport with a 3 second cooldown, the teleport force increases with levels.

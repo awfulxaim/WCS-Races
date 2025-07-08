@@ -1,0 +1,15 @@
+Orcish Horde [WC3]
+
+uses General RAAM model.
+
+Brutal Blow
+25% chance on hit to deal 15/20/25/30/35/40/45/50% more damage.
+
+Crude Explosives
+Grenades deal 45/50/55/60/65/70/75/80% more damage.
+
+Reincarnation
+50% chance on death to respawn where you died with a random amount of health missing (0–40 / 0–35 / 0–30 / 0–25 / 0–20 / 0–15 / 0–10 / 0%).
+
+Chain Lightning (Ultimate)
+Deal 33 damage to up to 3/3/3/4/5/6/7/8 enemies within 550/650/750/750/750/750/750/750 units of you. 20 second cooldown.

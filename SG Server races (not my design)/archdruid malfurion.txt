@@ -1,0 +1,15 @@
+Archdruid Malfurion
+
+requires total level 1250. limited to 1 per team. cannot buy HP.
+
+Regrowth (ability)
+Heal the teammate you are aiming at for 2/4/6/8/10 HP and heal them for 1/2/3/4/5 HP per second for 5 seconds. 15 second cooldown. you cannot heal yourself with this.
+
+Moonfire
+10/25/40/55/70% chance on hit to deal 5 damage per second for 2/3/4/5/6 seconds. (30 damage over 6 seconds.) this is not considered a burn or poison for damage blocking purposes.
+
+Ysera's Gift
+You heal for 1/2/3/4 HP per second to a max of 150 HP. if you are at max HP, instead you heal a teammate within 500 units.
+
+Tranquility (ultimate)
+Root yourself for 1/2/4/5 seconds. Heal yourself and all allies in a 500 unit radius for 5/10/15/20 HP per second while you are rooted. 25 second cooldown.

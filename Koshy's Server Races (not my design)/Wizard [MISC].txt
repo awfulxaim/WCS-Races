@@ -1,0 +1,15 @@
+Wizard [MISC]
+
+requires Level 150+.
+
+Ice Storm
+33% chance on hit to deal 1 to 100% extra damage to all enemies within 200/225/250/250/300 units of the enemy you hit and freeze those enemies for 0.5 seconds.
+
+Firestorm
+33% chance on hit to burn all enemies in a 300 unit radius of the enemy you hit for 1/1.5/2/2.5/3 seconds.
+
+Magic Missile
+33% chance on hit to deal 10 / 10–13 / 10–16 / 10–19 / 10–25 bonus damage.
+
+Stop Time (Ultimate)
+Freeze all enemies for 0.5/0.8/1.2/1.6/2.0 seconds. 30 seconds cooldown.

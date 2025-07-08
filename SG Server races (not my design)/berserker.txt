@@ -1,0 +1,18 @@
+Berserker, The Impatient
+
+require total level 1400. limited to 2 per team. cannot buy long jump, boots of speed, claws of attack.
+
+Rage Builder
+100% chance on hit to deal 23/26/29/32/35/38/41/44/47/50% extra damage to the enemy's armor. The armor lost this way is added to your rage.
+
+Max Rage
+you have a maximum of 125/120/115/110/100/95/90/85/80/75 rage.
+
+Berserk
+When you reach maximum rage you gain 5/10/15/20/25/30/35/40/45/50% increased movement speed, damage reduction, and attack speed.
+
+Leap
+When you jump you lose 10 rage but have long jump. 2/2.25/2.5/2.75/3/3.25/3.5/3.75/4/4.25x multiplier.
+
+Calm (ultimate)
+Lose all rage but heal for 5/10/15/20/25/30/35/40/45/50% of the rage you lost. 15 second cooldown.

@@ -1,0 +1,21 @@
+Impetus
+
+scout, HE grenade, and knife only. requires total level 2500. limited to 2 per team. cannot buy long jump, boots of speed, claws of attack, mask of death, or ammo resupply.
+
+Railgun
+You cannot zoom with your scout, but it fires 10/20/30/40/50% faster and regenerates 1 ammo every 5/4/3/2/1 second.
+
+Force
+Wherever your grenades bounce or shots land pull enemies in a 200 unit radius towards that location. 100/200/300/400/500 force pull.
+
+Deflect
+5/10/15/20/25% chance when hit to knock the enemy who hit you back 100/200/300/400/500 units.
+
+Distance
+For every 100 units away you are from the enemy the more extra damage you deal and life you steal. 10% extra damage for each 100 units to a max of 30/40/50/60/70% extra damage. 5% life steal for each 100 units up to 20/25/30/40/50% life steal.
+
+Mark (ability)
+Place a marker. you can place up to 1/2/3/4/5. no cooldown.
+
+Teleport (ultimate)
+instantly teleport to your markers in order of recency. you gain 10/15/20/25/30% increased movement speed for 5 seconds when you teleport. 5 second cooldown.

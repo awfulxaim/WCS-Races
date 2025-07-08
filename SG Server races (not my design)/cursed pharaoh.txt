@@ -1,0 +1,18 @@
+Cursed Pharaoh
+
+knife only. requires total level 2800. limited to 2 per team. cannot buy long jump, boots of speed, or HP.
+
+Eternal
+Spawn with 75/100/125/150/175 more HP. While you are standing still you regenerate 5/9/13/17/20 HP per second.
+
+Dune Dweller
+You take 10/20/25/30/40% less damage from all sources. this double dips on extra damage.
+
+Bandage Wrap
+20/25/30/35/40% chance on hit to bash for 1 second.
+
+Sandstorm
+You get a smoke grenade every 40/35/30/25/20 seconds. while in smoke and for 1 second adter leaving smoke you have 20/40/60/80/100% invisibility and 10/20/30/40/50% increased movement speed.
+
+Dust Devil (ultimate)
+Can only be activated within 2 seconds of taking damage. become 90% invisible and gain 50% increased movement speed for 2/2.5/3/3.5/4 seconds. While this is active you are immune to slows and bash. if you attack during this the bonuses are canceled.

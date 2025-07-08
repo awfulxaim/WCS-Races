@@ -1,0 +1,19 @@
+Zealot - SC-Protoss
+Passive effects:
+Knife Only
+
+Furinax Power Suit - Passive/Victim - 0/8
+You spawn with 10 + 5/level reduced HP, but gain 10 + 5%/level chance to evade.
+
+Psi-Blades - Passive - 0/8
+Your knife attack deals half physical damage, but also deals half of it's damage as magical
+Additionally, increase the magical portion of damage by 9%/level
+
+Plasma Shields - Passive - 0/8
+Spawn with a 2 + 6/level HP shield.
+Your shield regenerates at a rate of 1/level per second
+Your shield regeneration starts 3 seconds after taking damage
+
+Charge - Passive/Ultimate - 0/8
+Gain 2 + 6%/level passive movespeed
+On use, double your movespeed bonus for 4 seconds. 11 second cooldown.

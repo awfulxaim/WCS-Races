@@ -1,0 +1,26 @@
+Jarmen Kell, AK Sniper
+
+AK, pistols, and knife only. requires total level 500. limited to 3 per team. cannot buy knight's armaments or cloak of shadows.
+
+The Path of the Hidden
+You spawn with 5/9/13/17/21/25/29/33/37/40% invisibility.
+
+Extended Clip
+Your AK has 33/36/39/42/45/48/51/54/57/60 rounds in its mag.
+
+Random Bullets
+35/39/43/47/51/55/59/63/67/70% chance on hit to do one of the following effects, rolled randomly. Your first shot while zoomed is guaranteed to do 2 random effects with a 10 second cooldown.
+10 extra damage.
+bash for 1 seconds.
+burn for 2.5 seconds.
+poison the enemy for 5 damage per second for 4 seconds.
+drug the enemy for 1 second
+blind the enemy for 1 second.
+slow the enemy by 30% for 2 seconds.
+leech 30% of the damage dealt.
+
+Scavenger
+You gain 3/6/9/12/15/18/21/24/27/30 HP and 4/8/12/16/20/24/28/32/36/40 armor when you kill an enemy.
+
+Improved Weapons (ultimate)
+You can zoom in with any weapon, including the knife. You zoom in further with levels. no cooldown

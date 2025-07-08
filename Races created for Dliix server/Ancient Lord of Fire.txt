@@ -1,0 +1,22 @@
+Ancient Lord of Fire
+
+Firewall
+When you shoot you also deal 25/40/55/70/85/100% damage to enemies 180 degrees in the opposite direction of where you are aiming.
+
+Scorching Ray
+When you deal damage to an enemy from a source other than scorching ray's burning or gun damage they are burned and take 4/8/12/16/20/25% of that damage per .5 seconds for 3 seconds. this stacks. Your gun deals 1/2/3/4/5/6 extra damage on hit for each second you have been firing your gun consecutively. 
+
+Flame Link (ability2)
+You and the teammate you are aiming at gain .5/1/1.5/2/2.5/3 HP per second for as long as you are both alive. Each of you deal extra damage on hit equal to 5% of the other player's HP. if you or the other player die, the player that did not die takes 50 damage. Only one link can be active at a time. 5 second cooldown.
+
+Molten Shell
+Spawn with 200 armor. 50/55/60/65/70/75% of the damage you take is abosrbed by your armor, up to a maximum reduction equal to 10% of you armor. When your armor reaches zero, 100% chance when hit to deal 25/40/55/70/85/100% of the damage you took to enemies in a 250 unit radius of you.
+
+Molten Strike
+Knife hits have a 25/30/35/40/45/50% chance to destroy the weapon the enemy is holding and deal 25/40/55/70/85/100% of that damage to other enemies in a 300 unit radius of that enemy.
+
+Flame Blast (ability)
+Lay a 250 unit radius ward where you are aiming that deals 10 damage and lasts 6 seconds. That ward grows in size and damage until an enemy enters its radius or the duration ends. When they do, they take a flat amount of damage and the ward is destroyed. The ward grows 8/17/25/34/42/50 unit radius and will deal 2/3/4/5/6/7 more damage each second. 10 second cooldown.
+
+Caged Sun (ultimate)
+When you take lethal damage, instead set your HP to 1 and become rooted and invulnerable. after 3 seconds of being rooted, you gain 50% increased movement speed and Human teleport with no cooldown. After 3/4/5/6/7/8 seconds of invulnerability you explode dealing 500 damage to all enemies in a 400 unit radius.

@@ -1,0 +1,21 @@
+Keldon Warlord
+
+SG556 and knife only. requires total level 3200. limited to 2 per team.
+
+First Strike
+10/20/30/40% chance on hit to slow the enemy by 10/20/30/40% for 1/2/3/4 seconds.
+
+Double Strike
+100% chance on hit if the enemy is slowed by First Strike to deal 20/30/40/50% more damage.
+
+Whispersilk Cloak
+You spawn with 125 armor and helmet and have a 25/50/75/100% chance to spawn with ultimate immunity.
+
+Plunder
+5/10/15/20% chance on hit to steal 250/500/750/1000 money from your enemy.
+
+Advanced Weaponry
+Your SG556 deals extra damage equal to 20/30/40/50% of the number of teammates you have.
+
+Quieting Aura (1 level)
+Enemies within a 600 unit radius of you are silenced. (aka they cannot activate abilities or ultimates)

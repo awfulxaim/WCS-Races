@@ -1,0 +1,16 @@
+Harpy [WC3]
+
+restricted from purchasing: evasion.
+used winged elf techknow model.
+
+Dodge
+11/13/15/17/19/21/23/25% chance to evade incoming damage entirely.
+
+Enhanced Tendons
+Spawn with 15/20/25/30/35/40/45/50% increased movement speed.
+
+Harpy Hoop (Ability1)
+Place a damaging and slowing ward that deals 3/4/5/6/7/8/9/10 damage per second for 20 seconds in a 240 unit radius. 5 second cooldown.
+
+Winged Flight (Ultimate)
+Fly with an additional 11/13/15/17/19/21/23/25 bonus health and armor. 1 second cooldown.

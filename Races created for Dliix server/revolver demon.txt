@@ -1,0 +1,18 @@
+Revolver Demon
+
+R8 and knife only.
+
+Russian Roulette
+You have a 90/79/68/57/46/35/24/13% chance when you fire the R8 to die. If you have no points in this skill you die when you miss.
+
+Call of the Void
+When you fire and do not die, you deal 2/4/6/8/10/12/14/16% more damage until you die. this stacks.
+
+Click, Click, Boom
+When you hit with the last shot in your magazine, deal the damage dealt to that enemy to all enemies in an 100/200/300/400/500/600/700/800 unit radius of that enemy.
+
+Self-Reliance
+You spawn with 3/6/9/12/15/18/21/24% increased movement speed. If you died to your own skills this round, you spawn next round with double this movement speed.
+
+Test the Trigger (ultimate)
+Each time you fire and miss while this is active, your Russian Roulette chance rolls an additional time and your Call of the Void stacks twice per shot. ultimate toggles this on or off.

@@ -1,0 +1,24 @@
+Quillfiend
+
+PP-Bizon and knife only. requires total level 3700. limited to 2 per team. cannot buy long jump, claws of attack, orb of venom, or HP.
+
+Enrage
+You gain 1/2/3/4/5% increased movement speed and fire rate for each 10 HP you have less than 100.
+
+Noxious Needles
+100% chance on hit to slow the enemy by 2/4/6/7/8% for 2/4/6/8/10 seconds. For that duration the enemy takes 1 damage per second. the slow stacks to a max of 40% slow.
+
+Needle Spray
+6/12/18/24/30% chance when hit to deal 4 damage to all enemies in a 600 unit radius. For each 100 units closer to you than 600 units each enemy that is hit is, this effect repeats on them. For example, an enemy is 600 units away and another enemy is 300 units away. the player that is 600 units away shoots you and procs Needle Spray. the enemy that is 600 units away takes 4 damage. the enemy that is 300 units away, takes 4 damage 4 times (1 + 3 because they are 300 units closer than 600). Noxious Needles and Piercing Needles apply to this damage.
+
+Piercing Needles
+Your Needles and hits deal 2/3/4/6/7 extra damage and remove 3/6/9/12/15 more armor.
+
+Scale Armor
+You spawn with 8/16/24/32/40 more HP.
+
+Needle Regeneration
+gain 1/2/3/4/5 reserve ammo per second.
+
+Needle Barrage (ultimate)
+Every .2 seconds you deal 4 damage to any enemy that you are aiming at, at that moment. this happens 2/4/6/8/10 times. Noxious Needles and Piercing Needles apply to this damage. 20 second cooldown. (for buppy this is 110 damage over 2 seconds if you have perfect tracking)

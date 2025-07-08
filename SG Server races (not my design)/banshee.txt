@@ -1,0 +1,18 @@
+Banshee
+
+knife only. requires total level 1800. limited to 2 per team. cannot buy long jump, boots of speed, cloak of shadow, or ammo resupply.
+
+Vengeful Spirit
+100% chance when hit to gain 4/8/12/16/20% increased movement speed for the rest of the round to a maximum of 60% increased movement speed.
+
+Insubstantial
+Spawn with 24/34/44/54/64% invisibility and 20/30/40/50/60% damage reduction from all sources.
+
+Chilling Aura
+Enemies within 450 units of you are slowed by 8/16/24/32/40%.
+
+Terrify
+8/16/24/32/40% on hit bash the enemy for .25/.5/.75/1/1.25 seconds.
+
+Wail (ultimate)
+For the next 10 seconds enemies who you can see and who can see you are shook and take damage the longer they can see you. for the first second they take 5 damage, this damage increases by 5 for each second they look at you. the shake increases in magnitude the same way. If the enemy looks away from you this damage is reset. 30 second cooldown.

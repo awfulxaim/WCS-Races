@@ -1,0 +1,15 @@
+Battlefield Pro
+
+requires total level 4500. limited to 3 per team. cannot buy boots of speed, cloak of shadows, or sock of the feather.
+
+Silencer
+25/50/75/100% chance when you shoot for that shot to make no sound. 25/50/75/100% chance when you spawn to not show up on radar.
+
+Combat Boots
+Spawn with 8/16/24/32% increased movement speed and 3/6/9/12% INCREASED gravity.
+
+Cloaking Device
+Spawn with 15/25/35/45% invisibility.
+
+C4 (ultimate)
+pressing ultimate underhand throws a decoy. after two seconds pressing ultimate again causes that decoy to explode like an HE grenade, dealing 25/50/75/100 damage. you can throw a C4 decoy twice per round.

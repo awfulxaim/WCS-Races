@@ -1,0 +1,18 @@
+Deadly Decoy
+
+require total level 750. limited to 2 per team. cannot buy ring of armor, thorns, or HP.
+
+Deadly (6 levels)
+100% chance when hit to deal 5/10/15/20/25/30% mirror damage.
+
+Health (5 levels)
+Spawn with 5/10/20/40/60 more HP.
+
+Speed (4 levels)
+Spawn with 10/20/30/40% increased movement speed.
+
+Explosive (ability) (4 levels)
+100% chance on death to deal 70/80/90/100 damage to all enemies in a 125/150/175/200 unit radius. press ability to suicide.
+
+Deadly Decoy (ultimate) (5 levels)
+After a 7/6/5/4/3 second delay, increase your movement speed by 40% and increase your mirror damage by 30% for 3/4/5/6/7 seconds. 30 second cooldown.

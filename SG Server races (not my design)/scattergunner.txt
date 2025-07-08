@@ -1,0 +1,21 @@
+Scattergunner
+
+Sawed off and knife only. requires total level 500. limited to 3 per team. cannot buy HP.
+
+Boomstick
+You spawn with a Sawed off with 5/10/15/20/25 more ammo per mag.
+
+Explosive Shot
+100% chance on hit to deal 1/2/3/4/5 extra damage on each pellet that hits.
+
+Double Tap
+You have 5/10/15/20/25% increased fire rate. 5/10/15/20/25% chance on hit to increase your fire rate by 250% for the next shot.
+
+Knock Back
+20/22/24/26/28/30% chance on hit to knock the enemy back
+
+Hardy
+You spawn with 20/24/28/32/36/40 more HP.
+
+Drink Keg (ultimate)
+You get 10/18/26/34/42/50% damage reduction for 1.5/1.7/1.9/2.1/2.3/2.5 seconds. 10 second cooldown.

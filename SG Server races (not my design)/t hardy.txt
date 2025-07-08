@@ -1,0 +1,20 @@
+T Hardy
+
+requires total level 8250. limited to 1 per team. cannot buy boots of speed, mask of death, or HP.
+
+You gain a skull for each 2 damage you deal. lose all skulls on death or round end. if you survive a round you spawn with 25 skulls.
+
+Perseverence
+You take .06/.09/.11/.13/.15/.17/.19/.21/.23/.25% less damage from all sources for each skull you have.
+
+High Spirits
+When you have at least 70/65/60/55/50/45/40/35/30/25 skulls you gain 1/1.1/1.2/1.3/1.4/1.6/1.7/1.8/1.9/2 HP per second.
+
+Morale
+Spawn with 2/3/4/5/6/11/12/13/14/15% increased movement speed.
+
+Accusations (ability)
+Lose 5 skulls, gain 100% chance to leech 20% of the damage you deal for 5/5.5/6/6.5/7/8/8.5/9/9.5/10 seconds.
+
+Arrogant (ulimtate)
+Gain 50 skulls for 5/6/7/8/9/11/12/13/14/15 seconds. 45 second cooldown.

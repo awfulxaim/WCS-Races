@@ -1,0 +1,15 @@
+Toggo, Goblin Weaponsmith
+
+HE grenades and knife only. While you are playing this race, all players grenades can self-damage. You get XP for players killing themselves with grenades.
+
+Behold! The Ultimate Weapon!
+You get an HE grenade 2/1.5/1/.5/.1 second after throwing your last HE. You throw HE's 25/50/100/125/150/175% faster and farther. Your HE grenades do not explode, when they stop bouncing they just sit on the ground for up to 10/15/20/25/30 seconds. Your HE grenades deal 50 damage on hit.
+
+Goblin Armor
+You spawn with 200 armor and helmet, 25/50/75/100/125 more HP, and you deal 5/10/15/20/25% mirror damage when hit.
+
+Upgrade! (ability)
+All grenades each player has no longer explode this round, intead they just sit on the ground for up to 10/15/20/25/30 seconds. 30/25/20/15/10 second cooldown.
+
+Accident (ultimate)
+Deal 32 damage to all enemies within 200/300/400/500/600 units. all grenades that are active (laying on the ground or thrown) in that area explode. 50/45/40/35/30 second cooldown.

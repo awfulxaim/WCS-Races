@@ -1,0 +1,27 @@
+Ancient Lord of Air
+
+this race takes no fall damage.
+
+Windripper
+You have 3/6/9/12/15/18% increased fire rate. You have a 5/10/15/20/25/30% chance on hit to 1-20 extra damage rolled randomly and slow the enemy by 30% for 2 seconds. When this procs on an enemy already affected by it, you have a 30/32/34/36/38/40% chance for that proc to deal 150% of the damage it rolled.
+
+Crash Through
+When you land from a jump, flight, or stepping off an edge, you deal 2/4/6/8/10/12 damage to enemies in an area based on how high you fell from. Max radius is 300/400/500/600/700/800 units.
+
+Leap Slam
+Strong Long Jump. Costs 1 charge. You have a maximum of 3 charges and refresh a charge every 8/7/6/5/4/3 seconds. 
+
+Sigil of Power (ability2)
+Lay a 300 unit radius ward that lasts 12 seconds. when you or a teammate proc a passive skill or activate an ability or ultimate while in the area of the ward the effect of the ward increases, to a maximum of 4 stages, this increase in effect has a 1 second cooldown. You and teammates inside the ward deal 1-3/5/7/9/11/14 extra damage on hit, rolled randomly + 10% of the rolled amount for each stage past the first. enemies inside the ward deal 10/12/14/16/18/20% less damage + an additional 10% for each stage past the first. 20 second cooldown.
+
+Tornado Shot
+When you miss a shot, deal 33% of gun damage to up to 3 enemies in a 300/400/500/600/700/800 unit radius of the impact location. Enemies must be in line of sight of the impact location to be affected.
+
+Forbidden Rite of Shrapnel (ability)
+Lose 6/12/18/24/30/36 HP divided by the number of enemies within 1200 units of you, up to a maximum of 4/5/6/7/8/9. Get an HE grenade. When you throw that grenade it explodes each time it bounces and deals 7/9/11/13/15/17 extra damage with each explosion. this damage cannot be blocked or evaded.
+
+Barrage
+While you are flying your fire rate is increased by 100% and Tornado Shot becomes a ward with a radius of 1/4 of the radius set by that skill. The ward lasts 2 seconds and deals 33% of your gun damage to all enemies who enter the ward area.
+
+Flight (ultimate)
+Begin Flying. While flying you have 75% chance to evade, ultimate immunity, ward immunity, and 100% increased movement speed. You can fly for a maximum of 2/4/6/8/10/12 seconds. 20 second cooldown.

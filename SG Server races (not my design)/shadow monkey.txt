@@ -1,0 +1,21 @@
+Shadow Monkey
+
+knife only. requires total level 5150. limited to 2 per team. cannot buy long jump, boots of speed, cloak of shadows, or sock of the feather.
+
+Strike from Shadows
+You gain 60/70/80/90/100% invisibility for 6 seconds on spawn, then become visible for 2 seconds, then invisible again, repeat.
+
+Tail Slap
+7/14/21/28/35% chance on hit to force the enemy look away from you. 5/10/15/20/25% chance on hit to disarm.
+
+Ape Agility
+Spawn with 6/12/18/24/30% increased movement speed and 5/10/15/20/25% faster fire rate.
+
+Tree Climber
+Spawn with 6/12/18/24/30% reduced gravity and long jump with a 3 second cooldown.
+
+Rock Throw (ability)
+Get an HE grenade. that grenade deals 2/4/6/8/10 damage on hit and paralyzes for .25/.5/.5/.75/1 second.
+
+Evolution (ultimate)
+you get a Five-Seven for 2/3/4/5/6/7 seconds. 35 second cooldown.

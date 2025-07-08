@@ -1,0 +1,18 @@
+Neve
+
+requires total level 4250. limited to 2 per team. cannot buy flaming gloves of warmth, long jump, boots of speed, or sock of feather.
+
+Storm
+5/10/15/20/25% chance on hit to shake the enemy for 2/2.5/3/3.5/4 seconds.
+
+Blizzard
+65% chance on hit to slow the enemy by 40% for 1/1.5/2/2.5/3 seconds.
+
+Hail
+You get a random grenade every 30/25/20/15/10 seconds.
+
+Avalanche
+Spawn with 8/16/24/32/40% increased movement speed and 15/20/25/30/35% decreased gravity.
+
+Mist (ultimate)
+Become 75% invisible, not including your gun, for 2/2.5/3/3.5/4 seconds. 20 second cooldown.

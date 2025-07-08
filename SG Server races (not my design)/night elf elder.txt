@@ -1,0 +1,18 @@
+Night Elf Elder
+
+requires total level 1100. limited to 2 per team. cannot buy boots of speed or orb of frost.
+
+Quickness
+Spawn with 2/4/6/8/10/12/14/16/18/20% increased movement speed and chance to evade.
+
+Trueshot Aura
+Teammates in a 500 unit radius have a 2.5/5/7.5/10/12.5/15/17.5/20/22.5/25% chance to ignore evasion. You have a 5/10/15/20/25/30/35/40/45/50% chance to ignore evasion.
+
+Touch of Elune
+2/4/6/8/10/12/14/16/18/20% chance on hit to deal 200% extra damage.
+
+Entangling Roots
+100% chance on hit to slow the enemy by a % based on the weapon you are using for .5/1/1.5/2/2.5/3/3.5/4/4.5/5 seconds. The slower the fire rate of the gun the higher the slow percent. this stacks.
+
+Shadowmeld (ultimate)
+Become 100% invisible but you cannot attack and have 50% reduced movement speed. press ultimate again to lose the invisibility but you still cannot attack for 2/1.5/1/.5 seconds. if an enemy enters a 100 unit radius of you while this is active it is automatically canceled, losing the invisibility and starting the attack delay.

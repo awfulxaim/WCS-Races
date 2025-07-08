@@ -1,0 +1,21 @@
+Culexus Assassin
+
+Flashbang and Knife only.
+
+Null Entity
+You have 20/40/60/80/100% skill and spell immunity.
+
+Culexus Training
+Spawn with 5/10/15/20/25% more movement speed, 5/10/15/20/25% reduced gravity, 5/10/15/20/25% chance to evade, and 5/10/15/20/25 more HP.
+
+Pariah
+You deal 1/2/3/4/5 damage per second to all enemies in a 300 unit radius of you. Enemies who activate abilities or ultimates in a 550 unit radius of you take 10/15/20/25/30 damage.
+
+Animus Speculum (Ability1)
+The enemy you are aiming at takes damage equal to 20/40/60/80/100% of the damage Pariah has dealt since you last activated this ability. That enemy is hexed and silenced for 5 seconds. 5 second cooldown.
+
+Etherium Synskin (Ability2)
+You blink into and out of 100% invisibility including your weapons every 1.75/1.5/1.25/1/.75 seconds. Activating this ability gives you 100% invisibility for 6/7/8/9/10 seconds. 20 second cooldown.
+
+Psyk-out Grenade
+Enemies you blind with your flashbang are bashed and can friendly fire for the duration of the blind. Enemies who activate an ability or ultimate while they are blinded are silenced and take 2/4/6/8/10 damage per second for 10 seconds.

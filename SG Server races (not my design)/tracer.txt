@@ -1,0 +1,15 @@
+Tracer
+
+dualies and knife only. requires total level 9500. limited to 2 per team. cannot buy long jump, boots of speed, or XP.
+
+Pulse Pistols
+Spawn with 10/20/30/40/50/60% increased movement speed. Your dualies have infinite reserve ammo.
+
+Blink (ability)
+Instantly teleport to a location 500 units away in the direction you are moving. has up to 3 charges. costs 1 charge to activate. recover a charge every 8/7/6/5/4/3 seconds.
+
+Recall (ability2)
+Teleport to the location you were at .3 seconds before every .1 seconds for 1 second. 19/17/16/15/14/13 second cooldown.
+
+Pulse Bomb (ultimate)
+underhand throw a grenade. that grenade sticks to any surface and explodes after being stuck for 1 second. that grenade has a 400 unit radius and deals 150/200/250/300/350/400% of normal damage. 275 second cooldown. every 1 damage you deal with any weapon reduces the cooldown by 1 second.

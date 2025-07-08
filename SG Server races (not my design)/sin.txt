@@ -1,0 +1,24 @@
+Sin
+
+Deagle and knife only. require total level 3000. limited to 3 per team. cannot buy mask of death or HP.
+
+Envy
+100% chance on hit to deal 1/2/3/4/5/6/7% extra damage for each shopmenu item that enemy has.
+
+Gluttony
+Spawn with 5/10/15/20/25/30/35 more HP.
+
+Greed
+100% chance on kill to steal 1/2/3/4/5/6/7% of that enemy's total money.
+
+Lust
+100% chance on hit to gain 5/10/15/20/25/30/35% increased movement speed for 5 seconds. this does not stack.
+
+Pride
+100% chance on headshot to deal 10/20/30/40/50/60/70% extra damage.
+
+Sloth
+While standing still you have 5/10/15/20/25/30/35% damage reduction from all sources, this double dips on extra damage. You also have 2/2.5/3/3.5/4/4.5/5 HP regen per second while standing still.
+
+Wrath
+You have a 100% chance on hit against enemies who have dealt 95/90/85/80/75/70/65/60 damage or more in the last 7 seconds to leech 35% of the damage you deal back as HP. (the description for this says it checks every 20 seconds but i don't think thats necessary)

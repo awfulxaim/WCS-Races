@@ -1,0 +1,28 @@
+Stone [Golem]
+Author: Koshy
+Requires level 250+
+Restricted from buying: Evasion, Helm of Excellence, Boots of Speed, Mole, Disguiser
+
+Come from the Earth
+25/30/35/40/45/50% chance on spawn to mole effect.
+
+Crush
+33% chance on hit to deal 15/20/25/30/35/40% bonus damage.
+
+Lumber
+Spawn with 275/300/325/350/375/400 bonus HP and reduced speed (0.4).
+
+Tremor (Ability1)
+Place a slowing ward that affects enemies in a 500/550/600/650/700/750 unit radius for 3 seconds. You can create up to 10 of these wards. 3 seconds cooldown.
+
+Smash
+33% chance on hit to freeze the enemy for 0.5/0.6/0.7/0.8/0.9/1.0 seconds.
+
+Stone Skin
+30/34/38/42/46/50% chance when hit to absorb all incoming damage.
+
+Amplify Speed
+75% chance when hit to gain 0.1/0.12/0.14/0.16/0.18/0.2 speed (stacks up to 1.8 max).
+
+Return to the Earth (Ultimate)
+Become invisible and invincible for 3–5 / 3–6 / 3–7 / 3–8 / 3–9 / 3–10 seconds but unable to use weapons. 20 seconds cooldown.

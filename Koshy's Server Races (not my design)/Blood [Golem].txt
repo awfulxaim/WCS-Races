@@ -1,0 +1,23 @@
+Blood [Golem]
+Author: Koshy
+Requires level 250
+Restricted from buying: Evasion, Helm of Excellence, Boots of Speed, Long Jump
+Restricted to knife only
+
+Flesh Disguise
+Spawn with 50%/60%/70%/80%/90%/100% chance to disguise yourself
+
+Coagulate
+20–30/20–32/20–34/20–36/20–38/20–40 HP and armor returned when hit
+
+Raked Claws
+66% chance on hit to deal 15%/20%/25%/30%/35%/40% bonus damage
+
+Blood Lust
+66% chance on hit to gain 15%/16%/17%/18%/19%/20% speed (stacks up to 2.0)
+
+Leach Blood
+Steal 14%/17%/20%/25%/33%/50% of the damage you deal as health
+
+Cadaverous Skin
+Spawn with 75/100/125/150/175/200 bonus HP and armor

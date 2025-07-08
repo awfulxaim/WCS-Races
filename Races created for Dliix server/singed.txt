@@ -1,0 +1,29 @@
+Singed, Mad Chemist
+
+knife only
+
+Empowered Bulwark
+Spawn with 100/200/300/400/500 armor and helmet and 50/100/150/200/250 more HP. you take 5/10/15/20/25% of damage from your armor first and deal 10/20/30/40/50% less damage with hits. you regenerate 1/2/3/4/5 armor per second.
+
+Noxious Slipstream
+When an enemy enters a 225 unit radius of you, you gain a slipstream stack, which gives you 20% increased movement speed for 2 seconds. these stacks refresh for as long as an enemy stays in that radius. if an enemy has stayed in that radius for 2 seconds, you gain another stack. all stacks refresh upon getting a new stack. An enemy can only grant you a stack once every 2 seconds. this stacks up to 25 times.
+
+Poison Trail (toggle)
+Lose 10 armor per second. you create 180 unit radius smoke clouds around you every 1 second or 90 units you move whichever comes first. these clouds last 3.25 seconds. enemies who enter the smoke cloud are poisoned, taking 1/2/3/3/4/5 damage per .5 second for 2 seconds. while they are in the radius of one of these clouds that duration is refreshed constantly. pressing walk toggles this on or off.
+
+Mega Adhesive (ability)
+Lay a 265 unit radius ward where you are aiming up to 1000 units away that lasts 3 seconds. enemies in the ward area cannot use movement based abilities or ultimates and are slowed by 50/55/60/65/70%. 17/16/15/14/13 second cooldown.
+
+Fling (ability2)
+knock an enemy within 125 units of the front of you up and throw them diagonally back down to the ground behind you 550 units away. that enemy takes 15/20/25/30/35 damage and they lose 6/7/8/9/10% of the HP they spawned with. if the enemy lands in your mega adhesive ward they are rooted for 2 seconds. 10/9/8/7/6 second cooldown.
+
+Insanity Potion (ultimate)
+for the next 25 seconds:
+You deal 1/2/3/4/5 more damage from sources of extra damage,
+you take 5/10/15/20/25% less damage from all sources,
+you gain 10/20/30/40/50% increased movement speed,
+you regenerate 1/2/3/4/5 armor and HP per second,
+enemies poisoned by poison trail have their healing reduced by 20/25/30/35/40%,
+your poison smoke clouds last 1 second longer.
+
+30 second initial cooldown. 100 second cooldown.

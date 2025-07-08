@@ -1,0 +1,16 @@
+Assault Soldier [MISC]
+
+requires Level 150+.
+used JRPC Jin elis model.
+
+Heavy Strike
+33% chance on hit to deal bonus damage equal to 10% of the enemy’s current HP, plus an additional 7–11 / 7–12 / 7–13 / 7–14 / 7–15 damage.
+
+True Strike
+33% chance on hit to deal bonus damage equal to 10% of the enemy’s current HP, plus an additional 7–11 / 7–12 / 7–13 / 7–14 / 7–15 damage.
+
+Death Strike
+20% chance on hit to deal bonus damage equal to 20% of the enemy’s current HP, plus an additional 10–12 / 10–14 / 10–16 / 10–18 / 10–20 damage.
+
+I Shall Never Die
+Respawn where you died with a random amount of health missing (0–40 / 0–30 / 0–25 / 0–20 / 0–10).

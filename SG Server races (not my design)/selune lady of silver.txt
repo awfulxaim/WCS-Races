@@ -1,0 +1,21 @@
+Selune, Lady of Silver
+
+p90 and knife only. requires total level 4500. limited to 3 per team. cannot buy long jump, boots of speed, claws of attack, necklace of immune, or scroll of respawning.
+
+Moon Bridge
+long jump. you leave a white line from your feet while you are jumping.
+
+Faerie Fire
+5/10/15/20/25% chance on hit to remove 5/10/15/20/25% invisibility from the enemy and burn them for 3 seconds. (30 damage over 3 seconds)
+
+Spell Resistance
+20/40/60/80/100% chance to spawn with ultimate immunity.
+
+Premonition
+Every 11/10/9/8/7 seconds, you evade the next shot you take.
+
+Faerie Confusion
+20/40/60/80/100% chance to be immune to wallhack effects.
+
+Phase Door (ultimate)
+Instantly teleport to spawn. if you are dead, respawn at spawn with 50/60/70/80/90 HP. you can use this 1/1/1/2/2 times per round.

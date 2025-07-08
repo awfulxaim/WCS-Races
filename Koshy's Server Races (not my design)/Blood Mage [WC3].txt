@@ -1,0 +1,16 @@
+Blood Mage [WC3]
+
+Phoenix
+65/70/75/80/85/90/95/100% chance to respawn the first teammate who dies each round.
+
+Banish
+25% chance on hit to confuse the enemy’s vision for 1.5/2.0/2.5/3.0/3.5/4.0/4.5/5.0 seconds.
+
+Siphon Mana
+33% chance on hit to steal 100–110 / 100–115 / 100–125 / 100–150 / 100–175 / 100–200 / 100–225 / 100–250 money from the target.
+
+Flame Strike
+25% chance on hit to burn the enemy for 0.5/1/1.5/2/2.5/3/3.5/4 seconds.
+
+Sacrifice Mana (Ultimate)
+Sacrifice 250 mana to gain 1–4 / 1–7 / 1–10 / 1–13 / 1–16 / 1–19 / 1–22 / 1–25 bonus health and armor. 15 second cooldown.

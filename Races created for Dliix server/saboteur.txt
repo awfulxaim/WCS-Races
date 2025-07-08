@@ -1,0 +1,21 @@
+Saboteur
+
+You deal 90% less damage with guns and knives, but you get a random primary and secondary weapon every round.
+
+Booby Trap
+Anyone, even restricted races, can pick up the guns you are given when you spawn or guns you manufacture with your ultimate. When a gun you held is dropped on the ground it deals 2/4/6/8/10 damage per second to enemies in a 200 unit radius of it. This effect is applied to any gun you pick up. When an enemy picks up a gun you've dropped they take 20/40/60/80/100 damage and drop the gun. The AoE damage does not apply to guns dropped on bomb sites and that effect is lost if/when an enemy picks up that gun.
+
+Overgassed
+Enemies within 550/600/650/700/750 units of you take 1/2/3/4/5 damage when they shoot a pistol, rifle, or SMG; 4/5/6/7/8 damage when they shoot a sniper rifle; and 6/7/8/9/10 damage when they shoot a shotgun.
+
+Damaged Magazine
+Enemies within 300/350/400/450/500 units of you have a 35/45/55/65/75% chance of losing 3 more rounds out of their magazine when they shoot.
+
+Manipulated Grenades
+When an enemy picks up a grenade you have dropped, it goes off and they do not get that grenade: HE grenades explode, Flashbangs pop, molotovs and incendiaries drop fire, smokes pop smoke, decoys beacon the enemy for 20 seconds. When you throw instead of drop a grenade: HE grenades deal 5/10/15/20/25 extra damage, Flashbang duration is increased by .5/1/1.5/2/2.5 seconds, molotovs and incendiaries burn enemies for 1 seconds on hit (this doesn't stack or refresh), smokes poison enemies who enter it dealing 1/1/2/2/3 damage every 2 seconds for 6 seconds, decoys explode when they finish making gun sounds dealing 50 damage to enemies in a 200 unit radius.
+
+Prismatic Barrier (ability)
+You spawn with 60/70/80/90/100% invisibility. When you shoot/attack lose that invisibility for .5 seconds. When you are shot/attacked while invisible, evade that hit and lose that invisibility for 1 second. Pressing ability gives teammates in a 150 unit radius of you your current level of invisibility while they stay in that radius of you for 1/2/3/4/5 seconds or until they shoot, whichever happens first. 45/40/35/30/25 second cooldown.
+
+Manufacture Weapons (ultimate)
+If you have no guns you are given a new primary and secondary weapon. If you have a primary or secondary, primary or secondary weapons you have are thrown far in the direction you are aiming when you activate this. 30/25/20/15/10 second cooldown.

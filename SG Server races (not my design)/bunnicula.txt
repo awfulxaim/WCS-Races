@@ -1,0 +1,20 @@
+Bunnicula
+
+knife only. requires total level 5000. limited to 2 per team. cannot buy long jump, boots of speed, or HP.
+
+this race cannot right click and is constantly jumping.
+
+Hyperactive
+Spawn with 10/20/30/40/50/60% increased movement speed and weak long jump.
+
+Agile
+5/10/15/20/25/30% chance to evade. You cannot be bashed or slowed.
+
+Sharp Teeth
+you deal 5/7/9/11/13/15 extra damage on hit.
+
+Fluffy Fur
+You take 1/2/4/6/8/10 less damage from hits.
+
+Leap (ultimate)
+weaker human dash on a 6/5/4/3/2/1 second cooldown.

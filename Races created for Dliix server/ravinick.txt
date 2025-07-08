@@ -1,0 +1,24 @@
+Ravinick, Storm Shaman
+
+knife only. requires total level 3400. limited to 2 per team. cannot buy long jump, boots of speed, claws of attack, or thorns
+
+Maelstrom Weapon
+12/24/36/48/60/72% chance on hit to get a Lightning Shield charge.
+
+Storm Strike
+50% chance on hit to deal 8/16/24/32/40/50% extra damage.
+
+Ghost Wolf
+Spawn with 5/10/15/20/25/30% increased movement speed and 8/16/24/32/40/50% invisibility.
+
+Lightning Shield
+100% chance when hit to deal 1/5/9/13/17/21% mirror damage and lose a Lightning Shield charge. You spawn with 1/2/3/4/5/6 Lightning Shield charges.
+
+Aftershock
+When you die you deal 6/9/12/15/18/20 damage + 2/4/6/8/9/10 damage for each Lightning Shield charge you had to all enemies in a 250 unit radius.
+
+Windfury
+6/12/18/24/30/36% chance on hit to trigger 1/1/2/2/3/3 more attacks (left click if this procced on a left, and right for a right click) These extra attacks deal 40% extra damage.
+
+Unleah Elements (ultimate)
+For the next 1/2/3/4/5/6 seconds, your attacks impale enemies on hit, you burn enemies for 3 seconds on hit, and you gain 30% increased movement speed. 30 second cooldown.

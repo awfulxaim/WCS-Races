@@ -1,0 +1,18 @@
+Hand of God
+
+knife only. requires total level 3000. limited to 1 per team. cannot buy mole, boots of speed, mask of death, cloak of shadows, or HP.
+
+Combo Fiend
+You have 20 max combo score. every time you hit a player with the knife you gain one combo score. you lose 1 combo score every 3.25/3.5/3.75/4/4.25/4.5/4.75/5/5.25/5.5/5.75/6 seconds. While you have 20 combo score you have 200% increased attack speed, 185% movement speed, and 75% invisibility.
+
+Awareness
+You have a 5/10/15/20/25/30/35/40/45/50/55/60% chance to evade. You have a 20% increased chance to evade against smgs, 15% increased chance to evade against rifles, pistols, and machine guns, 10% increased chance to evade against shotguns, and 5% increased chance to evade against sniper rifles.
+
+Forward Slash (ability)
+weak human teleport. enemies that enter a 350 unit radius of you for 1 second after activating this ability take 3/5/8/10/13/15/18/20/23/25/28/30 damage. if this deals no damage you are instantly teleported back to your starting location when the timer runs out. gain a combo score for each enemy who takes damage. when you kill an enemy the cooldown for this ability is reset. 6 second cooldown.
+
+Judgement
+100% chance on kill to gain 4/5/6/7/8/9/10/11/12/13/14/15 HP times the number of kills that enemy had this round.
+
+Sacrifice (ultimate)
+kill yourself. 95/90/85/80/75/70/65/60/55/50/45/40% chance to respawn 0 teammates, 5/10/15/20/25/30/30/30/30/30/30/30% chance to respawn 1 teammate, 0/0/0/0/0/0/5/10/15/20/20/20% chance to respawn 2 teammates, 0/0/0/0/0/0/0/0/0/0/5/10% chance to respawn 3 teammates. no cooldown.

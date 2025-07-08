@@ -1,0 +1,30 @@
+High Priestess of the Conclave
+
+p2000 only. requires total level 9250. limited to 1 per team. cannot buy boots of speed, ammo resupply, XP or HP.
+
+you gain 1 XP for each 2 HP you heal your teammates for.
+
+Holy Cloth
+Gain .5/1/1.5/2/2.5/3 HP per second and spawn with 3/7/10/14/17/20% increased movement speed.
+
+Holy Power
+If you have no activated an ability or ultimate in the past 20 seocnds your next ability has 10/30/50/70/100% increased effect.
+
+Spirit of Redemption
+When you take fatal damage: become invulnerable, you cannot attack or use abilities or ultimates, you heal a teammate you can see for 3/7/10/14/17/20 HP per second. after 10 seconds you die.
+
+Desperate Prayer
+When you take 60/57/54/50/45/40 damage total damage, you heal for 40/42/44/46/48/50 HP. 25 second cooldown.
+
+Lightwell
+When you are standing still for 5/4/3/2/1.5/1 second, you heal teammates in a 400 unit radius for 5 HP per second.
+
+Flash Heal/Mind Blast (ability)
+Heal/damage the player you are aiming at for 25/30/35/40/45/50 or 10/13/16/18/20/25. 10 second cooldown if you used this to heal, 15 if you used it to damage.
+
+Holy Nova (ability2)
+Heal all teammates and damage all enemies in a 400 unit radius of you for 3/7/10/14/17/20 HP. 20 second cooldown.
+
+Divine Hymn (ultimate)
+Heal all teammates in a 400 unit radius for 3/7/10/14/17/20 HP per second for 5 seconds. 30 second cooldown. this does not stack with Lightwell.
+

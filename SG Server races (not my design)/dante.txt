@@ -1,0 +1,24 @@
+Dante
+
+dualies and knife only. requires total level 2400. limited to 2 per team. cannot buy long jump, claws of attack, mask of death, ammo resupply, or HP.
+
+Style Points
+Chat notifications update your style points when you get a kill or die. You have a max of 200/400/600/800/1000 Style Points. You gain 10/20/30/40/50 style points on a kill and lose half of your style points when you die. You spawn with 5/10/15/20/25 more HP.
+
+Ebony and Ivory
+Your dualies have a 40/45/50/55/60 round magazine. 20/40/60/80/100% chance on hit to add 1 round to your mag. You spawn with 1% increased attack speed for each 50 SP you have.
+
+Sparda
+You deal 2/4/6/8/10 extra damage on hit with knife and gain 7/14/21/28/35% chance to evade for 4 seconds on knife hit. You have 1% chance on hit to deal 50% extra damage with the knife for each 30 SP you have.
+
+Blade and Bullet (ability)
+Press ability to swap weapons instantly. 100% chance on hit with the dualies to make your knife deal 4/8/12/16/20 extra damage and grant 1/2/3/4/5 SP on the its next hit. 100% chance on hit with the knife to make your next dualie hit have 100% life leech and grant 1/2/3/4/5 SP.
+
+Demon Soul
+100% chance when you take damage from any source to heal for 2/3/4/5/6 HP. If you have survived your ultimate this round you deal 6/7/8/9/10 extra damage on hit.
+
+Bonus (10 levels)
+100% chance on headshot to gain 1/2/3/4/5/6/7/8/9/10 SP. 100% chance on knife kill to gain 2/4/6/8/10/12/14/16/18/20 SP. Kills during your ultimate grant 5/10/15/20/25/30/35/40/45/50 SP. You spawn with 1% increased movement speed for each 50 SP you have.
+
+Party Time (ultimate)
+You gain long jump, ultimate immunity, 100% chance on hit to leech 11/13/15/17/19/21/23/25% of the damage you dealt, and you take 11/13/15/17/19/21/23/25% less damage from all sources. You gain each of these effects for 8 seconds. If you do not get a kill or assist by the end of that duration you are slain. 30 second initial cooldown. 60 second cooldown.

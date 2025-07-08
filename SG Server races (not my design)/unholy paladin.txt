@@ -1,0 +1,21 @@
+Unholy Paladin
+
+requires total level 800. limited to 3 per team. cannot buy claws of attack, mask of death, or HP.
+
+Corruption
+You spawn with 1/2/3/4/5/6 more HP for each teammate you have.
+
+Unholy Healing
+100% chance on hit to leech 1/1.5/2/2.5/3/3.5% for each teammate you have.
+
+Unholy Armor
+You take 3/4/5/6/7/8% less damage from extra damage for each teammate you have.
+
+Unholy Weapon
+40/55/65/75/90/100% chance to spawn with an AK. you have 2 extra ammo in your mags for each teammate you have.
+
+Unholy Crusade
+You deal 1/2/3/4/5/6 extra damage on hit. you deal 10/12/14/16/18/20 extra damage on hit to players playing races with "holy" "cleric" "angel" or "priest" in its name.
+
+Unholy Feast
+Lay a 250/300/350/400/450/500 unit radius ward. enemies who stay in the radius for 5/4.5/4/3.5/3/2.5 second are instantly killed.

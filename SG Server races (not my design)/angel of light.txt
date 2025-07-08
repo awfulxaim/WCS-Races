@@ -1,0 +1,21 @@
+Angel of Light
+
+requires total level 1750. limited to 2 per team. Cannot buy long jump, boots of speed, or sock of the feather.
+
+Bathe in Light
+Enemies with any amount of invisibility that enter a 250 unit radius of you take 6/12/18/24/30 damage and lose all their invisibility for 10 seconds.
+
+Bastion of Light
+4/8/12/16/20% chance when hit to blind the enemy for 2 seconds.
+
+Anthem of Light
+You take 40/50/60/70/80% less damage from extra damage sources. 3/6/9/12/15% chance when you spawn to give your teammates your level of extra damage reduction.
+
+Sword of Light
+You deal 5/10/15/20/25% more damage to enemies with more HP than you. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Divine Light
+You spawn with 5/10/15/20/25 more HP, 5/10/15/20/25% increased movement speed, and 10/20/30/40/50% decreased gravity.
+
+Light of Punishment
+When you die you deal 10/20/30/40/50 damage to enemies in a 300 unit radius and heal teammates in that same radius for the same amount.

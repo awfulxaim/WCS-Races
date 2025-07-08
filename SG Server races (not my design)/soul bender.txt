@@ -1,0 +1,18 @@
+Soul Bender
+
+requires total level 6100. limited to 2 per team. cannot buy boots of speed, claws of attack, cloak of shadows, or orb of venom.
+
+Cloth Armor Mastery
+You take 4/8/12/16/20/24% less damage from all sources.
+
+Ghost Step (ability)
+Gain 8/16/24/32/40/48% increased movement speed and 11/22/33/44/55/66% invisibility for 4 seconds. 10 second cooldown.
+
+Soul Silencer
+6/12/18/24/30/36% chance on hit to silence the enemy (they cannot activate abilities or ultimates) for 2/2.5/3/3.5/4/4.5 seconds.
+
+Master of Souls (ultimate)
+If you are aiming at a teammate you and that teammate both gain 15% increased movement speed and their passive bonuses apply to you for 5/6/7/8/9/10 seconds.
+If you are not aiming at a teammate, you silence a random enemy for 5/6/7/8/9/10 seconds. For that duration pressing ultimate uses their ability at the level they have it at if they have one. 45 second cooldown.
+
+originally Master of Souls opened a menu to allow you to pick from a list of souls that granted you different effects but I don't have that list. but we could remake it.

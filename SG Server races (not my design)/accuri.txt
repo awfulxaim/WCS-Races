@@ -1,0 +1,18 @@
+Accuri, Master Marksman
+
+Awp and knife only. Requires total level 2900. limited to 2 per team. cannot buy mask of death or HP.
+
+Deadeye
+You deal 10/11/12/13/15/17/19/20% more damage. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches) Enemies who survive your hit take extra damage equal to 10/15/20/25/30/35/40% of their remaining HP.
+
+Ghillie Suit
+Spawn with 25 more HP and 30/35/40/45/50/55/60% invisibility.
+
+Precision
+100% chance on kill to gain 2/4/6/8/10/12/14% increased movement speed and .5/1/1.5/2/2.5/3/3.5 HP regen every 2 seconds. this stacks. If you survive the round, you keep up to 2 kills worth of these bonuses.
+
+Freeze Pistol
+100% chance on hit to slow enemies by 15/25/35/45/55/65/75% for .5/1/1.5/2/2.5/3/3.5 seconds.
+
+Teleport
+you instantly teleport to the location of your nearest bullet impact. you can only activate this within 5 seconds of that impact. 20/18/17/16/14/12/10 second cooldown.

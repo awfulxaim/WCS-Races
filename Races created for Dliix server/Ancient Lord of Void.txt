@@ -1,0 +1,12 @@
+Ancient Lord of Void
+
+Spawns with and is restricted to decoy grenade and knife only. right clicking drops the grenade live at your feet and it explodes instantly.
+
+Non-Euclidian Geometry (ability)
+You must be aiming at a ward you created to activate this. Become 100% invisible and gain 100% chance to evade for 2 seconds then at the end of that duration instantly teleport to the center of the ward you were aiming at when you activated this ability. 10/9/8/7/6/5 second cooldown.
+
+Void Puddle
+When your grenade bounces it creates a 150 unit radius ward that slows enemies who enter it by 50% and deals 1/2/3/4/5/6 damage per second. that ward lasts 10 seconds. When your grenade stops bouncing it lifts into the air and floats back to you. when it reaches you, you get your grenade back. while floating back to you the grenade has no clip.
+
+Apostle of the 4th Dimension
+Your grenade is much more bouncy but still explodes after a maximum duration. When your grenade stops bouncing it explodes like an HE grenade before floating back to you. When the grenade explodes it creates 16 Void Puddles: 1 200 unit radius Puddle at the center of the explosion and three 100 unit puddles end to end pointing outward in a pentagonal formation. You leech 25/40/55/70/85/100% of the damage you deal with your explosion and Void Puddles.

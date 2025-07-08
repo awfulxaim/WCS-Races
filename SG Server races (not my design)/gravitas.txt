@@ -1,0 +1,18 @@
+Gravitas
+
+requires total level 1800. limited to 2 per team. cannot buy boots of speed or sock of the feather.
+
+Slip Space (ability)
+You gain 10/12/14/16/18/20% increased movement speed and 15/20/25/30/35/40% reduced gravity for 4 seconds. 12/11/10/9/8/7 second cooldown.
+
+Grounding
+33% chance on hit to increase your enemy's gravity by 10/25/40/55/70/75% for .5/.75/1/1.25/1.5/2 seconds. this stacks.
+
+Force Spike
+15/20/30/40/50/55% chance on hit on an enemy that is not on the ground to turn off their flying if they have it and push them towards the ground with 1200/1600/2000/2400/2800/3200 force.
+
+Slingshot
+Shooting a teammate reduces their gravity by 25/30/35/40/45/50% and gives them 10/13/16/19/21/25% increased movement speed for 5 seconds.
+
+Gravity Sphere (ultimate)
+Lay an 650 unit radius ward. all enemies who enter the ward area are slowed by 75%, have 300% gravity and cannot jump. When an enemy first enters the ward area they are force spiked. This ward lasts 5/6/7/8/9/10 seconds. 20 second cooldown.

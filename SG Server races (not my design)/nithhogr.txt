@@ -1,0 +1,15 @@
+Nithhogr, Fire Dragon
+
+requires total level 450. limited to 2 per team. cannot buy orb of venom or sock of the feather
+
+Incinerate
+3/6/9/12/15/18/21/24% chance on hit to burn the enemy for 3 seconds (30 damage over 3 seconds.) 
+
+Fire Shrieker
+4/8/12/16/20/24/28/32% chance when hit to burn the enemy for 3 seconds.
+
+Dragon Wings
+You spawn with 5/10/15/20/25/30/35/40% reduced gravity
+
+Rising Fire
+Human teleport. 3 seconds cooldown.

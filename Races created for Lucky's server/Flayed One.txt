@@ -1,0 +1,18 @@
+Flayed One
+
+Knife only. this race has louder footsteps except when ulting. the player model for this race is yellow.
+
+Flayer Virus
+When you spawn you constantly lose 5 HP per second but when you kill an enemy you heal back to 50/60/70/80/90/100. this is active even with no levels in it. if there are no levels in this skill they take the damage every second but cannot heal on kill.
+
+Living Metal
+Spawn with 100/150/200/250/300/350 Armor and Helmet and you take reduced damage equal to 10% of your current armor.
+
+Hunger for Blood
+You deal 50% less damage with right clicks but your left clicks cause your enemy to bleed for 2HP per second for 1/2/3/4/5/6 seconds and you heal for the bleeding damage.
+
+Flayed Horror (Ability1)
+Enemies in a 450 unit radius are disarmed and pushed away from you once per second for 4 seconds. 35/32/29/26/23/20 second cooldown.
+
+Flayer Dimension (ultimate)
+Become 100% invisible and invulnerable but become 50% blinded with a red screen and unable to attack for the duration. Press Ultimate again to cancel the blind, invisibility, and invulnerability, but for 1 additional second you still cannot attack. 25/22/19/16/13/10 second cooldown. cooldown starts after the ultimate is canceled.

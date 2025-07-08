@@ -1,0 +1,18 @@
+Troll of Tel-Jilad
+
+knife only. requires total level 4000. limited to 1 per team. cannot buy long jump, cloak of shadows or HP.
+
+Regeneration
+you regenerate 3/6/9/12/15 HP per second.
+
+Chameleon Cloak
+Spawn with 5/15/25/35/45% invisibility.
+
+Long Leap
+long jump. 2.2/2.4/2.6/2.8/3x multiplier.
+
+Loxodon Warhammer
+When you attack, enemies in a 105/115/125/135/145 unit radius area in front of you take 32/38/44/50/56 damage.
+
+Indestructible (ultimate)
+Become invulnerable for 1.25/1.5/1.75/2/2.25 seconds. 30 second cooldown.

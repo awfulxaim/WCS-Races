@@ -1,0 +1,21 @@
+Eostre
+
+No weapon restrictions
+
+Feast (Ability1)
+Eostre lays a basket on the ground. Teammates who enter a 150 unit radius around the basket get 10/20/30/40/50 HP. This works like Periapt of Vitality. Teammates who have already feasted from the basket cannot get more HP from it that round. The basket lasts 15 seconds. 25 second cooldown.
+
+Goddess of Fertility
+4/8/12/16/20% chance when Eostre is hit to lay a grassy 300 unit radius healing ward on the ground. Eostre and Teammates standing in the ward are healed for 5 HP per second. The ward lasts 10 seconds and can only proc if none of these wards exist already. If Eostre dies inside the area of one of these wards there is a 6/12/18/24/30% chance that you respawn up to 1/1/2/2/3 teammates where you died.
+
+Spring Cleansing
+5/10/15/20/25% chance on hit to burn the enemy for 3 damage per second for 5 seconds. This damage removes buffs from that enemy for the duration. Eostre loses all debuffs when this procs and heals for the burning damage dealt.
+
+Move Amongst Nature
+While Eostre is within 300 units of a teammate, Eostre and those teammates have 5/10/15/20/25% increased movement speed.
+
+Sunrise (Ability2)
+Eostre lays a 500 unit radius ward that lasts 6 seconds. Enemies who enter the ward area lose their invisibility and take 5 damage per second. 20/18/16/14/12 second cooldown.
+
+Equinox (ultimate)
+Eostre begins flying. Enemies who damage Eostre while you are flying are 75% blinded for .5/.75/1/1.25/1.5 seconds. Eostre leaves behind a misty trail while flying. (no cooldown)

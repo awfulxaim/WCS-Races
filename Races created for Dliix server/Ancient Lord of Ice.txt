@@ -1,0 +1,32 @@
+Ancient Lord of Ice
+
+default pistol, Tec9, and knife only.
+
+Icetomb
+You spawn with 30/32/34/36/38/40 more HP and armor then increase your armor by 140/145/150/155/160/160%. (if you only have this skill this is 64 armor at max)
+You cannot be slowed and have a 20% chance when hit (if the damage isn't blocked) to paralyze the enemy for 1 second.
+All damage (including extra damage) you take is dealt to armor first.
+
+Frostbreath
+You spawn with a Tec9 that fires full auto.
+You have 9/10/11/12/13/14% increased fire rate.
+You deal 2/3/4/5/6/7 extra damage on hit.
+25/30/35/40/45/50% chance on hit to slow the enemy by 5/10/15/20/25/30% for 2 seconds.
+You deal 100% extra damage to enemies that are slowed.
+
+Lochtonial Caress
+You have 10/11/12/13/14/15% increased fire rate.
+You have a 10/11/12/13/14/15% chance on kill to gain one of the following effects randomly for 10 seconds:
+you and teammates in a 750 unit radius have a 5% chance to deal 150% extra damage.
+you and teammates in a 750 unit radius have 4% increased fire rate and deal 4% more damage with hits and extra damage.
+You and teammates in a 750 unit radius take 4% less damage from all sources.
+
+These effects stack and the duration is refreshed when this procs.
+
+Veil of Night
+Your screen is faded by 40% and you take 100% more extra damage but you have:
+Reduced duration of bashes against you by 12/14/16/18/20/22%
+You take 12/14/16/18/20/22% less damage from all sources.
+You spawn with 75/80/85/90/95/100 armor and helmet.
+You regenerate 1/2/3/4/5/6 armor per .1 second when you havent been hit for 2 seconds.
+You have a 65/70/75/80/85/90% chance to block non-extra damage when hit. when you do, if that hit procced extra damage you deal 100% of that extra damage back to the enemy.

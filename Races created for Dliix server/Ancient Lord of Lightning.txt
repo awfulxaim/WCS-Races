@@ -1,0 +1,21 @@
+Ancient Lord of Lightning
+
+Spawns with a Zeus, but is not restricted to any weapon.
+
+Arcing Cascade
+pressing jump while in the air forces you to the ground and releases 5 rings of lightning that expand outward from you when you land. these rings expand to a radius of 650 units horizontally with a height of 10 units and deals 3/5/9/12/15/18 damage to enemies who are hit by a ring. An enemy can only be affected by one ring per activation. it takes 5 seconds for the rings to reach their limit of expansion. 5 second cooldown.
+
+Galvanic Arrow
+Missed shots create a 250 unit radius ward that deals 25/30/35/40/45/50% of gun damage to enemies that enter it and lasts 2 seconds. 100% chance on hit to deal 4/8/12/16/20/25% extra damage to all enemies in a 250 unit radius of the enemy you hit.
+
+Lightning Rod (ability)
+Instantly teleport within 150 units of the nearest enemy that you have damaged this round and swap weapons to the Zeus. 10/9/8/7/6/5 second cooldown. The Zeus still has its natural recharge time.
+
+Stormcall (ability2)
+You deal 2/4/6/8/10/12 damage to a random enemy. 25/23/21/19/17/15 second cooldown.
+
+Tempest Shield
+You take 1/2/3/4/5/6 less damage for each hit you've taken until you completely block a hit, then this resets. When you completely block a hit deal damage equal to the total damage reduction you had to the enemy who hit you.
+
+Charged Dash (ultimate)
+While holding ultimate, set your player model to light blue, set your movement speed to 200/220/240/260/280/300%, become invulnerable, and lose all your weapons for up to 3/4/5/6/7/8 seconds. while this is active you deal damage equal to 5 times the number of seconds you have been dashing to enemies in a 200 unit radius of you every second. When the duration ends you do not get your weapons back for 2 seconds. 7/6/5/4/3/2 second cooldown.

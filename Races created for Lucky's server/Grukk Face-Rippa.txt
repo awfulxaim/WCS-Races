@@ -1,0 +1,23 @@
+Grukk Face-Rippa
+
+R8 and knife only.
+
+Orkish Growth
+Your HP and max HP increases by 1/2/3/4/5 every 2 seconds. This resets when you spawn.
+
+Stikkbomb (Ability1)
+While your gun is out, toss an HE grenade. It has a 10/20/30/40/50% increased AoE and increased volume.
+While your knife is out, your next hit with the knife causes an HE grenade explosion dealing damage and knockback to yourself and all enemies in the area (+ the bonus AoE).
+15 second cooldown.
+
+Bosspole
+You and teammates in a 250 unit radius deal 10/20/30/40/50% extra damage.
+
+Power Klaw
+Your right click knife attacks slow enemies by 50% for 1/2/3/4/5 seconds. Hitting an enemy already slowed by your Power Klaw bashes them and deals 100% extra damage.
+
+Berserk Fury
+20/25/30/35/40% chance when you lose HP to gain 50% increased movement speed and deal double damage for 10 seconds.
+
+WAAAGH!
+You and teammates in a 750 unit radius gain 75% damage reduction but become knife only for 4/5/6/7/8 seconds. 30 second cooldown.

@@ -1,0 +1,15 @@
+Grim Harvester
+
+knife only. requires total level 1600. limited to 1 per team. cannot buy Long Jump, Boots of Speed, Ammo Resupply, or HP.
+
+Reaper Haste
+Spawn with 10/17/24/31/38/45/52/59/66/70% increased movement speed and 5/10/15/20/25/30/35/40/45/50% reduced gravity.
+
+Hollow Soul
+10/20/30/40/50/60/70/80/90/100% chance to spawn with immunity to roots, paralyzes, and slows.
+
+Reaper Perseverence
+You take 10/15/20/25/30/35/40/45/50/55% less damage from hits. You have immunity to extra damage.
+
+Death Scythe
+5/10/15/20/25/30/35/40/45/50% chance on hit to deal 5/10/15/20/25/30/35/40/45/50% extra damage.

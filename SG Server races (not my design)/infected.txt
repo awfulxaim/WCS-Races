@@ -1,0 +1,15 @@
+The Infected
+
+knife only. requires total level 1000. limited to 2 per team. cannot buy long jump, anti-leech, blessed aim, any tunic, necklace of immunity, thorns, or HP.
+
+Undead Health
+Spawn with 165/330/495/660/825/990/1155/1300 more HP. 350 less on round 1, 240 less on round 2, 160 less on round 3, then full HP.
+
+Undead Regeneration
+You heal for 2/4/6/8/10/12/14/17 HP per second up to the HP you spawned with.
+
+Infected Wound
+100% chance on hit to poison the enemy for 3 damage per second for 1/1/2/2/3/3/4/5 seconds. (15 damage over 5 seconds at max)
+
+Thirst for Brains (ultimate)
+Gain 30/35/40/45/50/55/60/65% increased movement speed for 3.5 seconds. when you activate this you remove all slows, bashes, and roots from yourself. 20 second cooldown.

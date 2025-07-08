@@ -1,0 +1,21 @@
+Terran Marine
+
+M4A4 and knife only. requires total level 2400. limited to 3 per team. cannot buy long jump, boots of speed, claws of attack, mask of death, or HP.
+
+C-14 Rifle
+Your M4A4 has infinite ammo and a 2/4/6/8/10% increased fire rate. Your gun can overheat. if it does you cannot shoot for 5 seconds. You gain 1 heat for each shot fired. you lose 10 heat per .5 seconds spent not shooting. you have a maximum of 100 heat.
+
+Regenerative Bullets
+100% chance on hit to gain 4/6/8/10/12% of the damage you dealt back as HP.
+
+Infantry Weapons
+You deal 2/4/7 extra damage on hit.
+
+Infantry Armor
+You take 2/4/7 less damage from hits.
+
+Combat Shields
+You spawn with 8/14/20/26/30 more HP and 100 armor and helmet.
+
+Stim Pack (ultimate)
+take 10 damage but gain 10/20/30/40/55% increased movement speed and 50% increased fire rate for 5 seconds. You take 1/2/3/4/5 less damage from hits while this is active. this stacks with your other skills. 20 second cooldown.

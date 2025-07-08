@@ -1,0 +1,21 @@
+Dark Angel
+
+Rquires total level 1850. limited to 2 per team. cannot buy long jump, boots of speed, claws of attakc, cloak of shadows, orb of venom, or HP.
+
+Bathe in Darkness
+You deal 6/12/18/24/30 damage to enemies who enter a 500 unit radius of you with movement speed above 100% and slow them to 90% for 10 seconds.
+
+Bastion of Darkness
+Spawn with 6/12/18/24/30 more HP and long jump with 1.55/1.7/1.95/2.1/2.25x multiplier.
+
+Anthem of Darkness
+Enemies have a 3/6/9/12/15% chance to take 33% extra damage when they take extra damage. this cannot deal more than 20 damage per proc.
+
+Sword of Darkness
+100% chance on hit to deal 2/4/6/8/10% extra damage for each 10 HP the enemy has less than 100, to a max of 60% extra damage.
+
+Demented Darkness
+Spawn with 7/14/21/28/35% invisibility and 3/6/9/12/15% increased movement speed.
+
+Darkness of Defilement
+100% chance on death to drug and slow all enemies by 50% for .75/1/1.25/1.5/2 seconds. Teammates are given 90% invisibility for that same duration.

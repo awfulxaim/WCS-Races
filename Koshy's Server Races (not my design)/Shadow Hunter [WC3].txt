@@ -1,0 +1,15 @@
+Shadow Hunter [WC3]
+
+uses doom Hellknight model.
+
+Healing Wave
+Regenerate 3/4/5/6/7/8/9/10 health and armor every 7 seconds for yourself and teammates in a 360 unit area.
+
+Hex
+20% chance on hit to slow the enemy by 50% for 1.5/2.0/2.5/3.0/3.5/4.0/4.5/5.0 seconds.
+
+Serpent Ward
+Place a 200 unit radius ward that deals 3/4/5/6/7/8/9/10 damage per second and slows enemies by 20% for 3 seconds when they take damage. The ward lasts 10 seconds. 5 second cooldown.
+
+Big Bad Voodoo (Ultimate)
+Become invulnerable to all damage for 3.1/3.2/3.3/3.4/3.5/3.6/3.7/3.8 seconds. 25 second cooldown.

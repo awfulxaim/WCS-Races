@@ -1,0 +1,21 @@
+Dwarven Tank
+
+Mag7, AWP, and knife only. requires total level 2100. limited to 2 per team. cannot buy ankh.
+
+Improved Treads (7 levels)
+Spawn with 10/13/15/18/20/23/25% increased movement speed.
+
+Incendiary Shrapnel (5 levels)
+Every 28/26/24/22/20s your next shot will deal 1/2/4/6/9 damage every second for 3 seconds. (3/6/12/18/27 damage over 3 seconds)
+
+Heavy Armor (5 levels)
+You take 5/10/15/20/25% less damage from all sources. This amount doubles while you are in siege mode.
+
+Overdrive
+Your Mag7 starts with 2/4/6/8 more rounds in its mag. While not in siege mode, you have a 10/15/20/25% increased fire rate.
+
+Shell Shock
+100% chance on when you damage an enemy to paralyze them for .1/.2/.3/.4 seconds, while in siege mode.
+
+Siege Mode (ultimate) (6 levels)
+after a 2.5/2.2/1.9/1.6/1.3/1 second delay switch into siege mode. while in siege mode you cannot move and have an AWP. Your AWP deals 10/13/16/19/22/25 damage to all enemies in a 200 unit radius of the location the bullet lands. press ultimate again to start the delay to switch back into "tank mode"

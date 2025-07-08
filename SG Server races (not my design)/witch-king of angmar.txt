@@ -1,0 +1,21 @@
+Witch-King of Angmar
+
+knife only. requires total level 10000. limited to 2 per team. cannot buy long jump, boots of speed, necklace of immunity, thorns, or HP
+
+Hunger of the Ring
+Spawn with 20/40/60/80/100 more HP, 10/15/20/25/30% increased movement speed, and you take 5/10/15/20/25% less damage from all sources. this double dips on extra damage.
+
+Fist of Sauron
+7/14/21/28/35% chance on hit to bash the enemy for 1 second.
+
+Sap Will
+4/8/12/16/20% chance on hit to disarm.
+
+Magic Ward
+You take 16/32/48/64/80% less damage from extra damage.
+
+Shriek of Torment (ability)
+Enemies in a 400 unit radius have their screen shake for 2/3/4/5/6 seconds.
+
+Fell Beast (ultimate)
+begin flying, you have 5/11/16/21/27% chance to evade while flying. no cooldown.

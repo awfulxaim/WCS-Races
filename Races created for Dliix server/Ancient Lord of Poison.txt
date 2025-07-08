@@ -1,0 +1,18 @@
+Ancient Lord of Poison
+
+Knife and HE grenade only. cannot buy ammo resupply
+
+Poison Sac
+While you are moving you drop 50 unit radius wards every .25 seconds that last 5 seconds. Enemies who enter those wards are poisoned and take 3 damage per second for 3 seconds. this stacks up to 2/3/4/5/6/7 times and refreshes when a new stack is gained.
+
+Withering Step
+You spawn with 100% invisibility and 50% increased movement speed. Every 3/4/5/6/7/8 seconds you lose your invisibility for 2 seconds. You deal 5 damage per second to enemies within 300 units of you.
+
+Spore Pod
+You get an HE grenade every 30/27/24/21/18/15 seconds. When your HE grenade explodes it creates a 250 unit radius ward that poisons enemies who enter it, dealing 5 damage per second for 3 seconds. the ward lasts 15 seconds.
+
+Viper Strike
+10/20/30/40/50/60% chance on hit to poison the enemy, dealing 10/20/30/40/50/60% of the damage you dealt over 4 seconds.
+
+Toxic Rain (ultimate)
+Begin Flying. Withering Step becomes permanent invisibility while you are flying. Poison Sac wards are created on the ground beneath you rather than at your feet while flying. Viper Strike has 100% proc chance while flying. You have standing accuracy while flying. Your poisons slow the enemy by 5% for each poison on them, while you are flying. You get an autosniper with 5 ammo and lose that gun when you stop flying. 15 second cooldown that starts when you stop flying. You can fly for a maximum of 5/10/15/20/25/30 seconds.

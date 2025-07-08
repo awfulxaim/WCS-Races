@@ -1,0 +1,18 @@
+Priest of the Sun
+
+Decoy and Knife only.
+
+Righteous Fire
+Enemies who enter an 800 unit radius of you take damage every second. The damage is based on the enemy's distance from you. Damage increases by 1 for every 100/75/50/25/10 units closer to you they get.
+
+Solar Orb
+Your decoy grenade slowly homes onto the nearest enemy to it. Your decoy grenade deals 3/6/9/12/15 damage per second to enemies who enter a 150 unit radius of it. Your decoy is unaffected by gravity. Your decoy flies for 6 seconds before disappearing. you get a new decoy every 15 seconds.
+
+Scorching Ray (ability)
+Hold ability to become rooted and get a negev. releasing ability unroots you and you lose your negev. damage from the negev burns enemies for 1.5 seconds (5dmg/.5sec). You lose 5/4/3/2/1 armor per shot taken with the negev. If you have no armor you cannot activate this ability and if you run out of armor while this is active it is cancelled.
+
+Light of Divinity
+Your knife attacks deal damage to all enemies in a 200 unit radius of the enemy you hit. Enemies damaged by your knife or this skill take 20% increased damage for the next 6 seconds. this stacks.
+
+Delayed Blast
+20/40/60/80/100% chance when you would take lethal damage, to become invulnerable and rooted. after a 3 second delay you explode dealing 100/150/200/250/300 damage to all enemies in a 300/350/400/450/500 unit radius.

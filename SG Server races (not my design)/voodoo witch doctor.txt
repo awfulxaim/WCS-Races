@@ -1,0 +1,21 @@
+Voodoo Witch Doctor
+
+Mac10 and knife only. requires total level 450. limited to 2 per team. cannot buy mask of death.
+
+Voodoo Staff
+You Mac10 has 10/15/20/25/30 more rounds per mag.
+
+Death Rituals
+Shooting a teammate marks them. when a marked teammate dies your team heals for 7/9/11/13/15 HP. one teammate can be marked at a time.
+
+Rituals of War
+15/17/20/22/25% chance on hit to slow the enemy by 10/15/20/25/30% for 1/1.5/2/2.5/3 seconds. While they are slowed they leave a red trail.
+
+Wex
+100% chance on hit to leech 12/14/16/18/20% of the damage you dealt.
+
+Voodoo Curse (10 levels)
+20% chance on hit to deal 60/70/80/90/100/110/120/130/140/150% extra damage.
+
+Hex (Ultimate) (10 levels)
+Turn the enemy you're aiming at into a chicken for 1.1/1.2/1.3/1.4/1.5/1.6/1.7/1.8/1.9/2 seconds. For that duration they cannot attack, take 50% less damage from non-extra damage sources, and are slowed by 11/12/13/14/15/18/21/24/27/30%. 20 second cooldown.

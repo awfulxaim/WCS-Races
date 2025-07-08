@@ -1,0 +1,18 @@
+Valsharess, Drow Queen
+
+requires total level 3500. limited to 2 per team. cannot buy necklace of immunity.
+
+Foresight
+8/10/12/14/16/18/20/22% chance to evade.
+
+Insight
+30/40/50/60/70/80/90/100% chance on hit to remove the enemy's invisibility for 5 seconds.
+
+Wisdom
+30/40/50/60/70/80/90/100% chance to spawn with ultimate immunity.
+
+Knowledge
+You can see the outline of all enemies through walls for 1/1.5/2/2.5/3/3.5/4/4.5 seconds every 10-40 seconds rolled randomly.
+
+Darkness (ultimate)
+Create a 350 unit radius ward. Players inside that ward are 100% invisible but blinded. You can see the outline of all players inside the ward and when you are in the ward you can see the outline of all players within 300 units of you. this ward lasts 4/4.5/5/5.5/6/6.5/7/7.5 seconds. 30 second cooldown.

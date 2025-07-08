@@ -1,0 +1,21 @@
+Swag7
+
+Mag7 only, no knife. requires total level 1300. limited to 2 per team. cannot buy long jump, boots of speed, mask of death, or HP.
+
+Mag7
+Spawn with a mag7 with 5/8/11/14/17/20/23/25/28 rounds in its mag.
+
+Frag7
+100% chance on hit to deal 4/5/6/7/8/9/10 extra damage for each pellet hit.
+
+Brag7
+100% chance on kill to gain 6/6/7/7/8/8/9% increased speed for the round. this stacks to a max of 18/19/21/24/25/26/27% increased movement speed from this skill.
+
+Rag7
+40/50/60/70/80/90/100% chance on hit to heal 3 HP for each pellet that hits.
+
+Zag7
+Spawn with 4/7/10/13/16/19/20% increased movement speed and 5/10/15/20/25/30/35% reduced gravity. this stacks with Brag7.
+
+Swag7 (ultimate)
+Gain 10/17/24/31/38/45/52 temporary HP for 20 seconds. 50 second cooldown.

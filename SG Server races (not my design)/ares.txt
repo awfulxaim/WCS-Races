@@ -1,0 +1,18 @@
+Ares
+
+M4A4 and knife only. requires total level 2000. limited to 2 per team. cannot buy long jump, boots of speed, claws of attack, necklace of immunity, or HP.
+
+Spear of a God
+You deal 6/10/14/19/22% extra damage with the M4.
+
+Ornithes Areioi
+You regenerate .5/.75/1/1.25/1.5 HP per second.
+
+War Chariot
+Spawn with 5/10/15/20/25% increased movement speed.
+
+Supplies of War
+You regenerate 1/2/3/4/5 ammo per second to max of 40/45/50/55/60 ammo per magazine. if you have a full magazine you regenerate reserve ammo instead.
+
+War-Torn Helmet
+20/40/60/80/100% chance on spawn to be immune to ultimates.

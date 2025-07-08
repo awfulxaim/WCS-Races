@@ -1,0 +1,24 @@
+Siddhartha, the Adherent
+
+When you spawn, you get the effects of one random realm for the round. When you respawn a new realm is randomly chosen and added to your previous realm's effects. effects are lost on round end. requires total level 1600. limited to 2 per team. cannot buy long jump, mask of death, or scroll of respawning.
+
+Realm of Gods
+You regen 1/1.5/2/2.25/2.5/3 HP per second. When you are hit you lose this regen for 4 seconds.
+
+Realm of Titans
+You deal 6/12/18/24/30/36% more damage. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Realm of Humans
+You take 6/12/18/24/30/36% reduced damage from all sources.
+
+Realm of Animals
+You spawn with 7/14/21/28/35/45% increased movement speed.
+
+Realm of Ghosts
+100% chance on hit to leech 5/10/15/20/25/30% of the damage you deal back as HP.
+
+Path of the Ascetic
+You spawn with 10/15/20/30/35/40 more HP and 100 armor and helmet.
+
+Enlightenment (ultimate)
+Respawn. Once per round.

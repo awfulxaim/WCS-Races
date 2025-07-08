@@ -1,0 +1,22 @@
+Nyx Assassin
+DotA-Universal
+
+Restricted to knife only.
+
+Nyxth Sense
+Enemies in a 100/200/300/400/500/600 unit radius have a blue line only you can see drawn from them to you which updates every .25 seconds.
+
+Impale
+Attacking causes a line of rocks burst from the ground out to 750 units away. enemies hit by the spikes take 10/16/22/28/34/40 damage, are impaled and then bashed when they land for 1/1.2/1.4/1.6/1.8/2 seconds. 18 second cooldown for this to happen.
+
+Mind Flare (ability1)
+Target enemy within 600 units of you loses 25% of their money and takes damage equal to 25% of the damage you've dealt to them over the past 15 seconds. For the next 7/8/9/10/11/12 seconds when they cast a spell they take 10/11/12/13/14/15 damage, ultimates deal them double that damage. 8 second cooldown.
+
+Spiked Carapace (ability2)
+When you activate this spikes appear all over you, alerting enemies not to hit you. For the next 2.5 seconds when an enemy would deal damage to you they take that damage instead and are bashed for .4/.8/1.2/1.6/2/2.4 seconds. Each enemy can only proc this on themselves once per activation. 25 second cooldown.
+
+Burrow (ability3)
+Bury yourself halfway under ground. You take 40% reduced damage and regen 2 HP per second. Impale range is set to 1200 while you are burrowed and its cooldown is reduced to 12 seconds. Mind Flare's range is set to 1000 units. Spiked Carapace bashes all enemies in a 300 unit radius of you in addition to its other effects. 5 second cooldown.
+
+Vendetta (ultimate)
+Become 100% invisible including your weapon for the next 60 seconds or until you attack or activate an ability besides spiked carapace. While invisible you have 15/25/30/35/40/45% increased movement speed. If you break the invis with an attack you deal 25/30/35/40/45/50 extra damage with that hit. 60 second cooldown.

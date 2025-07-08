@@ -1,0 +1,18 @@
+Circu, Dimir Lobotomist
+
+requires total level 2000. limited to 2 per team. cannot buy boots of speed or sock of the feather.
+
+Reveal
+10/20/30/40/50/60% chance on hit to remove the invisibility from the enemy and destroy their cloak of shadows or disguise if they have either. That player's player model is set to red if they are T or blue if they are CT.
+
+Mind Twist
+6/12/18/24/30/36% chance on hit to banish the enemy for 3 seconds.
+
+Mind Warp
+5/10/15/20/25/30% chance on hit to slow the enemy by 40% for 4 seconds.
+
+Haste
+You spawn with 5/10/15/20/25/30% increased movement speed and 10/20/30/40/50/60% reduced gravity.
+
+Lobotomy
+1/2/3/4/5/6% chance on hit to paralyze the enemy for 4 seconds.

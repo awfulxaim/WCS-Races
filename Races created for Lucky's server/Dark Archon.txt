@@ -1,0 +1,21 @@
+Dark Archon - SC Protoss
+Passive effects:
+No weapons!
+
+Mind Control - Ability1 - 0/8
+Force the enemy you are aiming at to your team. You gain XP as if you killed them. if there is no enemy aimed at the ability still goes on cooldown. 32 - 2/level second cooldown.
+
+Feedback - Ability2 - 0/6
+For the next 1/level seconds, if the target triggers a skill or spell, they take damage
+1/level damage for skill
+2/level damage for ability
+3/level damage for ultimate
+Cooldown 18 seconds
+
+Advanced Plasma Shields - Passive - 0/8
+Spawn with a 20/level HP shield which also grants a 5%/level chance to deal 100% mirror damage while it is active.
+Your shield regenerates at a rate of 1/level per second
+Your shield regeneration starts 3 seconds after taking damage
+
+Psionic Maelstrom - Ultimate - 0/8
+Deal 32 damage to all enemies in a 300 + 50/level unit radius, they are blinded with a 40% opactiy blue screen for 4 seconds. 25 second cooldown.

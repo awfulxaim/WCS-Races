@@ -1,0 +1,15 @@
+Anti-Mage
+
+requires total level 1000. limited to 3 per team.
+
+Mana Break
+100% chance on hit to remove 1/2/2/2 ammo from the enemy's reserve ammo and 0/0/1/2 ammo from the enemy's mag. If that enemy is holding a grenade or knife, bash them for .5 seconds instead.
+
+Blink (ability)
+Instantly teleport to the location you are aiming at, up to 500 units away. 12/9/6/4 second cooldown.
+
+Spell Shield
+You take 25/35/45/55% less damage from extra damage.
+
+Mana Void (ultimate) (5 levels)
+The enemy you are aiming at takes 3/3.5/4/4.5/5 damage for each ammo missing from their primary mag, to a maximum of 30/40/50/60/70 damage. If the enemy has no primary they take 10/15/20/25/30 damage. 10 second cooldown.

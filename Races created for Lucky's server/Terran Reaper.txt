@@ -1,0 +1,18 @@
+Terran Reaper
+
+Dualies, HE, and knife only. Sock of feather is not restricted
+
+U238 Rounds (Attack) 6 levels
+4/8/12/16/20/24% chance on hit to deal 100% extra damage with the dualies.
+
+Vanadium Jump Suit (Passive) 6 levels
+Spawn with 5/8/11/14/17/20 more HP, 10/15/20/25/30/35% increased movement speed, and long jump.
+
+Combat Drugs (Passive) 6 levels
+If you have not taken damage for 10/9/8/7/6/5 seconds, you heal 3 HP per second.
+
+D-8 Charge (Attack) 6 levels
+You deal 100/120/140/160/180/200% extra damage with HE grenades.
+
+Jet Boost (Ultimate) 6 levels
+Human Teleport. 10 second cooldown.

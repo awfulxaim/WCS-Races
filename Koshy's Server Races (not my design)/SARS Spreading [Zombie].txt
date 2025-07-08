@@ -1,0 +1,21 @@
+SARS Spreading [Zombie]
+
+requires Level 250+.
+restricted to: knife only.
+restricted from purchasing: Evasion, Helm of Excellence, Boots of Speed.
+team limit: 3 players.
+uses infected guerilla model.
+
+Zombie Resistance
+Spawn with +100/200/400/600/800/1000/1300/1650 HP and armor and reduced movement speed (23% to 40% slower).
+
+Infected Zombie
+Return 13/14/15/16/17/18/19/20% of the damage taken back to the attacker.
+
+Zombie Bite
+8/9/10/11/12/13/14/15% chance on hit to infect the target.
+The infected target takes damage over 10 seconds equal to 10% of their health at the time of infection.
+If they die while infected: They respawn as a knife only zombie on your team with 80% movement speed and 900 HP. And you both get 50xp.
+
+Zombie Leap (Ultimate)
+Leap up to 450/500/550/600/650/700/750/800 units in the direction you're aiming. 3 seconds cooldown.

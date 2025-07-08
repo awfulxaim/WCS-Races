@@ -1,0 +1,30 @@
+Smoke
+
+smoke grenade and knife only. requires total level 3300. limited to 1 per team. cannot buy long jump, boots of speed, or HP.
+
+Insubstantial (1 level)
+Spawn with 15 more HP.
+
+Vanish (4 levels)
+You spawn with 45/55/65/75% invisibility and 25/30/35/40% increased movement speed.
+
+Smoke Bomb (5 levels)
+25/27/29/31/33% chance to evade with a 20 second cooldown. when you evade 60/70/80/90/100% chance to drop a live smoke grenade.
+
+Smoke Grenades (4 levels)
+Every 21/19/17/15 seconds you get a smoke grenade.
+
+Second-Hand Smoke (5 levels)
+Enemies who enter your smoke take 2/4/6/8/10 damage per second. You heal for 2/4/6/8/10 HP per second while you are in your smoke.
+
+Burn Out (4 levels)
+While in your smoke, you deal 35/40/45/50% more knife damage and take 20/22/24/25% less damage from all sources. this double dips on extra damage. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Vibration (6 levels)
+Enemies that enter a 50 unit radius of your smoke cloud area have their screen shaken for 2/2.2/2.4/2.6/2.8/3 seconds.
+
+Smoke Vision (7 levels)
+You see an outline of enemies through smoke and walls if they have less than 85% invisibility and are within 400/450/500/550/600/650/700 units of you.
+
+Smokeport (ultimate) (6 levels)
+instantly teleport to the center of the last smoke cloud you created. 10/9/8/7/6/5 second cooldown. this cooldown instantly refreshes when you take damage from any source.

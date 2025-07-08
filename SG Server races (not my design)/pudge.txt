@@ -1,0 +1,18 @@
+Pudge
+
+knife only. requires total level 7000. limited to 1 per team. cannot buy long jump or boots of speed.
+
+Strength Hero (1 level)
+Spawn with 500 HP, but -10% movement speed.
+
+Flesh Heap
+Heal for and spawn with 1/2/3/4 more HP and take 1/2/3/4% less damage from extra damage for each enemy that dies within 800 units of you. this stacks and persists through rounds. caps at 100 more HP and 80% less extra damage.
+
+Rot
+Enemies who enter a 250 unit radius of you are slowed by 10/20/30/40% and take 5 damage per .5 seconds while they are in that area.
+
+Meat Hook (ability)
+Pull the enemy you are aiming at to 50 units in front of you. 10/9/8/7 seocnd cooldown.
+
+Dismember
+You and an enemy within 100 units of you are paralyzed for 3 seconds. that enemy takes 25 damage per second and you are healed for that damage. 30 second cooldown.

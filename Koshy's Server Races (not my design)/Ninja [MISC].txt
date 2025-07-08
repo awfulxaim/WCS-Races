@@ -1,0 +1,23 @@
+Ninja [MISC]
+
+requires Level 150+.
+restricted from purchasing: Boots of Speed.
+knife only race.
+
+Blend In
+Spawn with 35/40/50/55/60% invisibility.
+
+Swift Movement
+Spawn with 20/30/40/50/60% increased movement speed, 30/30/40/50/60% reduced gravity, and enhanced jump force of 1.4/1.5/1.6/1.7/1.8×.
+
+Hemorrhage
+25/27/29/31/33% chance on hit to apply a bleed effect that deals 5% of max HP every 3 seconds for 5 seconds.
+
+Sai Dagger
+33% chance on hit to deal 20% extra damage plus 10–20 / 10–25 / 10–30 / 10–35 / 10–40.
+
+Hamstring
+33% chance on hit to slow the enemy by 30/40/50/60/70% for 3/4/5/6/7 seconds.
+
+Smoke and Mirrors (Ultimate)
+25/40/60/80/100% chance to teleport behind a random enemy. 20 second cooldown.

@@ -1,0 +1,21 @@
+Persnickety
+
+CZ75A and knife only. requires total level 1900. limited to 2 per team. cannot buy ankh, long jump, mask of death, or ammo resupply.
+
+Critic
+Spawn with 10/20/30/40% increased movement speed.
+
+Extra Ammo
+you spawn with a CZ75A. Its first mag has 20/30/40/50 rounds and has 60/70/80/95 reserve ammo.
+
+Fussy
+10/20/30/40/50% chance on hit to get 1 ammo back.
+
+Drain
+100% chance on hit to leech 10/15/20/25% of the damage you dealt back as HP.
+
+Perfection
+100% chance on hit to deal 4/8/12/16% extra damage.
+
+Ammo Check (ultimate)
+Refill your ammo as if you just spawned. no cooldown, instead you can activate this each time you have taken 60/50/40/30 or more damage since the last activation.

@@ -1,0 +1,18 @@
+Night Elf Sentinel
+
+requires total level 4100. limited to 2 per team. cannot buy necklace of immunity.
+
+Evasion
+10/16/22/28/34% chance to evade.
+
+Hide
+Spawn with 15/30/45/60/70% invisibility.
+
+Moon Armor
+20/40/60/80/100% chance to spawn with ultimate immunity
+
+Searing Arrows
+You deal 3/6/9/12/15% more damage. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Starfall (ultimate)
+you deal 8/16/24/32/40 damage to all enemies in a 500 unit radius. 25 second cooldown.

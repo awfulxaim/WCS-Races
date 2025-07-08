@@ -1,0 +1,15 @@
+Dreadknight
+
+requires total level 600. limited to 2 per team.
+
+Acute Senses
+When an enemy holding a knife enters a 450 unit radius of you they are rooted for 1.75/2/2.25/2.5/2.75/3 seconds. 15 second cooldown.
+
+Corruption
+When the player who killed you dies you respawn where you died with 50/60/70/80/90/100 HP and all of your weapons and equipment.
+
+Close Combat
+You take 10/20/30/40/50/60% less damage from knife hits and deal 5/7/9/11/13/15 extra damage with knife attacks.
+
+Portal (ultimate)
+Lay a 150 unit radius ward. Any teammate, including you, who enter the ward area are teleported to spawn. you and teammates heal for 1/2/3/4/5/6 HP per second while they are in the buy zone to a max of 175 HP.

@@ -1,0 +1,27 @@
+Sensei Golden-Tail, Fox Samurai
+
+knife only. requires total level 700. limited to 2 per team. cannot buy knight's armaments, long jump, ammo resupply, orb of venom, cloak of shadows, HP.
+
+Spirit Cloak
+Spawn with 40/45/50/55/60/65% invisibility.
+
+Enlightened Bushi
+You heal 1 HP every 1.4/1.25/1.1/.95/.8/.7 seconds.
+
+Evasion
+10/13/16/19/20/22% chance to evade.
+
+Deadly Poison
+40% chance on hit to deal 2/3/3/4/5 damage per second for 5 seconds. (25 damage over 5 seconds at max)
+
+Noggin Whack
+25% chance on hit to shake the enemy for .5/1/1.5/2/2.5/3 seconds.
+
+The Big Kill
+100% chance when hit to gain 30/40/50/60/70/80% increased movement speed for 3 seconds.
+
+Entomb
+8/16/24/32/40/50% chance on hit to bash the enemy for 1 second.
+
+Grappling Hook
+weaker Human teleport. 5/4/3/2/1/.9 second cooldown.

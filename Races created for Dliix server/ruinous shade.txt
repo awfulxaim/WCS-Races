@@ -1,0 +1,18 @@
+Ruinous Shade
+
+knife only. cannot left click attack.
+
+Ruin
+100% chance on hit to give the enemy a stack of ruin. When you apply the 11/10/9/8/7th (or more) stack, they lose all Ruin stacks and die. These stacks last through rounds and maps. Ruin stacks from other Ruinous Shades count toward this number. Evasion (not invulnerability) prevents stacks from being applied.
+
+Grim Procession
+You are invulnerable and 65% invisible but have 90/80/70/60/50% reduced movement speed.
+
+Inevitability (ability)
+Gain 25% increased movement speed until you attack. When you attack, you are rooted for 1.5 seconds have 25% reduced attack speed for 5 seconds. 2 second cooldown. this does not stack.
+
+Single-minded
+You can see players that have at least one stack of Ruin through walls. Rather than seeing the outline of the player, you see an effect which tells you the number of Ruin stacks that player has. The effect is visible through walls and updates once every 6/5/4/3/2 seconds.
+
+Intangibility (ultimate)
+Gain no clip for 6/7/8/9/10 seconds. 12/14/16/18/20 second cooldown.

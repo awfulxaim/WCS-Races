@@ -1,0 +1,18 @@
+Shadespawn
+
+requires total level 2300. limited to 2 per team. Cannot buy long jump, boots of speed, claws of attack, or cloak of shadows.
+
+Engulfing Shadows
+100% chance on hit to fade the enemies screen by 5/5/10/10/15/15/20/20/25/25% for 1.2/1.4/1.6/1.8/2/2.2/2.4/2.6/2.8/3 seconds. this stacks.
+
+Vicious Strikes
+Engulfing Shadows deals 1 extra damage per second for each 11/10/9/8/7 HP the affected enemy has.
+
+Deceive
+While you have your knife out you have 23/26/29/32/35% increased movement speed and 30/40/50/60/70% invisibility. When you don't have your knife out you have 7/9/11/13/15% increased movement speed.
+
+Mind Sear (ability)
+You inflict a random enemy with Mind Sear. That enemy takes 3 damage every time they shoot and 10 damage every time they attack with their knife. Mind Sear lasts for 5.5/6/6.5/7/7.5/8/8.5/9/9.5/10 seconds. 30 second cooldown.
+
+Rewrite Reality (ultimate)
+Swap places with a random enemy. You get their player model. When you activate this, the duration of Engulfing Shadows and Mind Sear is reset. 30 second cooldown.

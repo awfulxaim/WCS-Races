@@ -1,0 +1,18 @@
+The Defiler
+
+AWP and knife only. requires total level 700. limited to 2 per team. cannot buy ankh, long jump, or cloak of shadows.
+
+Blend
+You spawn with 5/8/11/14/17/20/24/30% invisibility.
+
+The Defiler
+long jump. you have 2/5/7/10/12/15/17/20% decreased gravity.
+
+Hidden Strike
+When you leave your ult you deal 5/10/15/20/25/30/35/40% extra damage on the next hit.
+
+Flame Lash
+7/14/21/28/35/42/48/56% chance on hit to burn the enemy for 3 damage per .1 seconds for .3/.4/.5/.6/.7/.8/.9/1 second. (30 damage over 1 second at max.)
+
+Cloak of the Deceiver (ultimate)
+You become 95% invisible but unable to shoot for 1.5/2/2.5/3/3.5/4/4.5/5 seconds.

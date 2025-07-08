@@ -1,0 +1,18 @@
+Ranger of the Woods
+
+requires total level 1100. limited to 2 per team. cannot buy long jump, ring of armor, orb of venom, or HP.
+
+Trackless Step
+Spawn with 10/20/30/40/50% invisibility.
+
+Barkskin
+Spawn with 100/105/110/115/120 armor. Your armor absorbs 10/20/25/30/40% of damage you take.
+
+Craft Weapon
+Spawn with an M4A1-S with 40/45/55/60/65 reserve ammo. If you lived through the last round it has 50/60/65/70/80 reserve ammo instead.
+
+Poison
+33% chance on hit to poison the enemy for 5 damage every 2 seconds for 2/4/6/8/10 seconds. (25 damage over 10 seconds at max.) 5 second cooldown.
+
+Heal Wounds (ultimate)
+Root yourself for 1 second, you heal for 5/10/15/20/25 HP to a max of 100 HP. 2 second cooldown.

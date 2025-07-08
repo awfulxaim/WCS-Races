@@ -1,0 +1,15 @@
+Tiny
+
+knife only. requires total level 1000. limited to 2 per team. cannot buy knight's armaments, flaming gloves of warmth, mole, long jump, boots of speed, claws of attack, mask of death, orb of frost, or HP.
+
+Avalanche (ability)
+Deal 22/24/26/28/30/32/34/36/38/40 damage and bash for 1/1.1/1.1/1.2/1.2/1.3/1.3/1.4/1.4/1.5 seconds all enemies in a 600 unit radius in front of you. 25 second cooldown.
+
+Craggy Exterior
+2/4/6/8/10/12/14/16/18/20% chance when hit to reflect 2/4/6/8/10/12/14/16/18/20 damage back to the enemy. when this procs paralyze that enemy for .25 seconds.
+
+Grow
+Spawn with 3/6/9/12/15/18/21/24/27/30% increased movement speed and 20/40/60/80/100/120/140/160/180/200 more HP.
+
+Toss (ultimate) (5 levels)
+Knock an enemy within 300 units in front of you up and away 300 units and deal 30 damage to them. If you activate Avalanche within 2 seconds of activating Toss, that enemy takes an additional 30 damage when you activate Avalanche. 23/21/19/17/15 second cooldown.

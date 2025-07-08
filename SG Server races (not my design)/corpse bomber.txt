@@ -1,0 +1,18 @@
+Corpse Bomber
+
+requires total level 2600. limited to 2 per team. cannot buy mole, long jump, boots of speed, claws of attack, or HP.
+
+Corpse Erasers
+Your primary weapon deals no damage, instead that enemy gains an explosive charge on hit. Explosive charges deal 10/20/30/40 damage when they are detonated.
+
+Corpse Speed
+Spawn with 15/20/25/30% increased movement speed.
+
+Corpse Evasion
+6/9/12/16% chance to evade
+
+Corpse Health
+spawn with 15/25/30/40 more HP.
+
+Detonation (ultimate)
+detonate your explosive charges. Enemies in a 150/200/250/300 unit radius of an enemy with an explosive charge also take the damage that enemy took. 1 second cooldown.

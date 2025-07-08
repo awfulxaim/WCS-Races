@@ -1,0 +1,18 @@
+Duelist
+
+knife only. requires total level 1450. limited to 2 per team. cannot buy long jump or boots of speed.
+
+Parry
+10/20/30/40/50/60/70/80/90/100% chance to evade knife attacks that are not backstabs.
+
+Rapier
+You add 1/2/3/4/5/6/7/8/9/10 damage to slashes and 4/8/12/16/20/24/28/32/36/40 damage to stabs. this damage is not considered extra damage for the purpose of blocking extra damage.
+
+Chainmail
+You take 6/7/8/9/10/11/12/13/14/15 less damage from hits.
+
+Quickstep
+You spawn with 3/6/9/12/15/18/21/24/27/30% increased movement speed.
+
+Lunge (ultimate)
+human teleport. when you enter a 125 unit radius of an enemy your momentum is stopped.

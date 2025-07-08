@@ -1,0 +1,15 @@
+Elvish Enchanter
+
+requires total level 3400. limited to 3 per team. cannot buy claws of attack, orb of venom, or HP.
+
+Lethal Arrows
+33% chance on hit to deal 10/20/30/40/50% extra damage. When this procs the hit that procs it ignores evasion and cannot be blocked or reduced.
+
+Tree of Life Aura
+19/23/27/31/35% chance when hit to heal yourself and your team for 33% of the damage taken.
+
+Poison Sting
+20/25/30/35/40% chance on hit to poison the enemy dealing 4 damage per second for 1/2/3/4/5 seconds. (20 damage over 5 seconds)
+
+Chain Heal (ultimate)
+heal yourself and teammates in a 500 unit radius around you for 3/6/9/12/15 HP. The heal you receive is multiplied for each teammate healed by this activation to a maximum multiplication of 4. 50/45/40/35/30 second cooldown.

@@ -1,0 +1,27 @@
+Crab Man
+
+knife only. When W or S is pressed this race has loses 75% movement speed.
+
+Only Move Sideways
+While strafing you get 20/40/60/80/100% increased movement speed.
+
+Exo-Skeleton
+You spawn with 100/200/300/400/500 armor and take 50% less damage while you have armor.
+
+No Head, Only Face (1 level)
+You take damage from headshots as if you were shot in the chest.
+
+Carcinization
+25/35/45/55/65% chance on hit to cause the enemy to only be able to strafe for 10 seconds.
+
+Pinchers
+while left click attacking you have an 10/20/40/60/80% chance to paralyze the enemy for .4 seconds
+
+Crab With a Knife
+while right clicking you have a 10/20/30/40/50% chance on hit to deal 100% extra damage.
+
+Smoke Break (ability)
+Hold ability down to root yourself and heal for 5HP per second. Every other second you get a 10HP boost instead. 5 second cooldown. You can only activate this up to 1/2/3/4/5 times per round. A smoke particle effect comes from your head while this is active.
+
+Crab Rave (ultimate) (1 level)
+You spawn with 10 more HP for each other Crab Man on the server (not counting yourself). When there are 3 or more Crab Men on the server the crab rave song plays from your playermodel while you are alive. When you press ultimate a notification saying "Yee-Claw!" appears in chat for all Crab Men in a 200 unit radius of you. If they say Yee-Claw back, you both get 20% increased movement speed until the end of the round. You can only get the benefits of Yee-Claw once, but can give the bonus to any number of other Crab Men. no cooldown.

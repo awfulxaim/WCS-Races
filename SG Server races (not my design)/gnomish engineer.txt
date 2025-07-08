@@ -1,0 +1,24 @@
+Gnomish Engineer
+
+requires total level 3600. limited to 1 per team. cannot buy long jump, boots of speed, claws of attack, or HP.
+
+Gnomish Poultryizer
+4/8/12/16/20% chance on hit to remove all weapons from the enemy, set their speed to .75, and set their player model to a chicken for 3 seconds. they get their weapons back and lose these debuffs after that duration. 10% chance when this procs for it to happen to you instead.
+
+Hyperspeed Accelerators
+You have 10/20/30/40/50% increased fire rate.
+
+Gnomish Alarm-O-Bot
+Every 30/25/20/15/10 seconds, all enemies in a 400 unit radius lose their invisibility.
+
+Gnomish Parachute Cloak (ability) (1 level)
+Gain 75% reduced gravity until you land. this can only be activated while you are in the air.
+
+Gnomish Rocket Boots (ability2)
+for the next 5 seconds, while you are holding a pistol, you have 10/20/30/40/50% increased movement speed. 10% chance when you activate this for you to be slowed by 50% instead. 10 second cooldown.
+
+Saronite Bomb (ability3)
+Lay an invisible 100 unit ward where you are aiming. When you or an enemy step in that area that player takes 10/15/20/25/30 damage. 10 second cooldown.
+
+Gnomish Army Knife (ultimate)
+When you next knife a teammate's corpse they are respawned at that location with all the weapons and equipment they had. 10% chance when you activate this that you are slain. 30 second cooldown.

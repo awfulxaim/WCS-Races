@@ -1,0 +1,18 @@
+Stalker
+
+knife only. requires total level 2300. limited to 2 per team. cannot buy mole, boots of speed, cloak of shadows, or ammo resupply.
+
+Stealth Field
+Spawn with 35/40/45/50/55/60/65/70/75/80 invisibility. When you take a hit you lose yuor invisibility for .5 seconds.
+
+Critical Strike
+15/20/25/30/35/40/45/50/55/60% chance on hit to deal 9-36 extra damage rolled randomly.
+
+Swift
+Spawn with 12/14/16/18/20/22/24/26/28/30% increased movement speed.
+
+Heightened Senses
+Enemies with less than 70% invisibility have an outline around them you can see through walls if they are within 300/350/400/450/500/550/600/650/700/750 units of you.
+
+Implosion Bomb (ultimate)
+kill yourself. you deal 25/35/45/55/65/75/85/95/105/115 to all enemies in a 250 unit radius.

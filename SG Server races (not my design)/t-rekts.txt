@@ -1,0 +1,23 @@
+T-Rekts
+
+deagle and knife only.
+
+requires total level 2500. limited to 2 per team. cannot buy claws of attack, ammo resupply, or HP.
+
+Hunt (ability)
+Activates the Apex Predator and Stomp Skill. 34/33/32/31/30 second cooldown.
+
+Apex Predator
+When you Hunt you gain 50% increased movement speed for 1/1.5/2/2.5/3 seconds.
+
+Stomp
+When you Hunt you deal 3/6/9/12/15 damage per second to enemies within 100 units of you. this lasts 5 seconds.
+
+Powerful Jaws
+You deal 4/7/10/13/16% extra damage on hit.
+
+Thick Skin
+You take 8/16/24/32/40% less damage from all sources.
+
+Rekt (ultimate)
+Your next shot deals 33/66/100/133/166% extra damage if you hit. 30 second cooldown.

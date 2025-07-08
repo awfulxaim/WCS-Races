@@ -1,0 +1,20 @@
+Hunter of Demons
+requires total level 750. limited to 2 per team. cannot buy flaming gloves of warmth, long jump, boots of speed, or cloak of shadows.
+
+Vault
+Long jump. you spawn with 5/10/15/20/25% increased movement speed.
+
+Grenade
+You spawn with an HE grenade. your HE grenades burn enemies damaged by it for 3 seconds (30 total damage)
+
+Mark for Death
+.2/.4/.6/.8/1% chance per damage dealt to a player to block them from respawning.
+
+Smoke Screen
+Spawn with 12/24/36/48/60% invisibility.
+
+Awareness
+When you would be hit for lethal damage block 50 damage of it and heal for 40 HP. 35/32/29/26/25 second cooldown.
+
+Preparation (ultimate)
+add 4/8/12/16/20 bullets to your magazine. 20 second cooldown.

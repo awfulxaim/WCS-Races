@@ -1,0 +1,20 @@
+Lurker [MISC]
+
+requires Level 150+.
+restricted from purchasing: Helm of Excellence, Evasion, Life Preserver, Stone of Health, Tome of HP +100, Greater Tome of HP +100, Ring of Regen, Boots of Speed.
+USP only race.
+
+Undead Legs
+Spawn with 40/50/60/70/80% increased movement speed.
+
+Cloak of Hiding
+Spawn with 60/40/20/10/1 HP and 60/70/80/90/100% invisibility, not including the USP.
+
+Silent Strike
+Deal 10% extra damage plus 5 / 3–7 / 3–8 / 3–9 / 3–10.
+
+Sneak Attack
+14% chance to deal 30% extra damage plus 10–20 / 10–25 / 10–30 / 10–35 / 10–40.
+
+Skill Protection
+60/70/80/90/100% chance to gain immunity to non-spell/non-ultimate skill effects.

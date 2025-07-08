@@ -1,0 +1,17 @@
+Twilight Archon - Protoss
+Passive effects:
+Mag-7 only, no knife.
+
+Psionic Shockwave - Attack - 0/8
+4 + 2%/level chance on hit to deal 200% more damage as magic damage.
+
+Advanced Plasma Shields - Passive - 0/8
+Gain a 8 + 4/level HP shield which also grants 3 + 4%/level chance to evade while it is active
+Your shield regenerates at a rate of level/2 per second
+Your shield regeneration starts 3 seconds after being shot
+
+Uraj Fragment - Passive - 0/8
+Spawn with 8 + 4/level more HP.
+
+Twilight - Ultimate - 0/8
+Blind all enemies in a 300 + 50/level unit radius with a 100% opacity dark blue screen for 3 seconds, after 3 seconds the blind loses 10% opacity per .5 seconds until it reaches 50% opacity and is removed completely. 24 second cooldown.

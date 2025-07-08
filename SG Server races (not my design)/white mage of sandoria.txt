@@ -1,0 +1,18 @@
+White Mage of San d'Oria
+
+requires total level 4000. limited to 2 per team. cannot buy long jump, boots of speed, sock of feather, or HP.
+
+Stone Skin
+4/8/12/16/20% damage reduction from all sources. this double dips on extra damage.
+
+Banish
+Convert 5/10/15/20/25% of the damage you deal on hit to extra damage. You blind enemies hit by your extra damage for .5/1/1.5/2/2.5 seconds.
+
+Haste
+Spawn with 7/14/21/28/35% increased movement speed and 15/30/45/60/75% reduced gravity
+
+Gift of the Magi
+Spawn with 20/40/60/80/100 more HP.
+
+Benediction (ultimate)
+Respawn the last teammate who died. 160/150/140/130/120 second cooldown.

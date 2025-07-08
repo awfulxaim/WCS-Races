@@ -1,0 +1,18 @@
+Devious Flimflammer
+
+Cannot buy non-pistols. AWP, pistols, and knife only. requires total level 1000. limited to 2 per team.
+
+Sneaky Deaky (ability)
+become 90% invisible for 1.5 seconds. 6.5/6/5.5/5/4.5/4/3.5/3/2.5/2 second cooldown.
+
+The Adam West
+12/14/16/18/20% chance to evade. at max level you have a 1% chance to diarm an enemy when they hit you.
+
+Surprise Bang Bang
+10/20/30/40/50/60/70/80/90/100% chance when you kill an enemy with a pistol or knife to get an AWP with 1/2/2/3/3/4/4/5/5/6 rounds. if you already have an AWP add that much ammo to your AWP. your AWP is not reloaded on round start.
+
+Bonus Bang
+100% chance on hit with the AWP to heal 2/4/6/8/10/12/14/16/18/20 HP.
+
+Maximum Overflimflam (ultimate)
+the next time you hit an enemy they have their player model set to a chicken for 1.1/1.2/1.3/1.4/1.5/1.6/1.7/1.8/1.9/2 seconds. they cannot shoot or activate ultimates or abilities while they are a chicken and are slowed by 25% for that duration. 10 second cooldown

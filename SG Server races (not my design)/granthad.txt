@@ -1,0 +1,21 @@
+Granthad, The Divine Knight
+
+requires total level 500. limited to 3 per team. cannot buy mask of death, cloak of shadows, or HP.
+
+Divine Speed
+Spawn with 5/10/15/20/25/30% increased movement speed.
+
+Purifying Light
+When you blind an enemy or an enemy tries to blind you, you heal for 2/4/6/8/10/12 HP.
+
+Adjusted Eyes
+Blinds and Flash effects on you are reduced by 50/60/70/80/90/100%.
+
+Divine Ultimatum
+You heal for 1/2/3/4/5/6 HP every 2 seconds.
+
+Divine Deagle
+You spawn with a Deagle with 5/10/15/20/25/30 more ammo in mag. Your deagle 50% blinds for .25/.5/.75/1/1.25/1.5 seconds on hit.
+
+Flash (ultimate)
+Drop a flashbang at your feet and become 100% invisible for 2 seconds. 25/23/21/19/17/15 second cooldown.

@@ -1,0 +1,18 @@
+Widowmaker
+
+requires total level 5750. limited to 2 per team. cannot buy HP.
+
+Widow's Kiss (ability3) (1 level)
+Your primary weapon can zoom in. it has a 25% reduced fire rate while zoomed in.
+
+Defense
+Spawn with 10/20/30/40/50/60 more HP.
+
+Grappling Hook (ability)
+Spiderman Ult. 13/12/11/10/9/8 second cooldown.
+
+Venom Mine (ability2)
+lay an 150 unit radius ward only you can see. When an enemy enters the ward radius all enemies in 400 unit radius are poisoned, taking 1/2/3/4/5/6 damage per second for 3 seconds. 30 second cooldown. you can have 1 ward active at a time.
+
+Infra-Sight (ultimate)
+You can see all enemies that are 69% or less invisible in a 700/800/900/1000/1100/1200 unit radius through walls for 1/2/3/4/5/6 seconds. 300 second cooldown. damage you deal decreases this cooldown by 1 second for each 1 damage dealt.

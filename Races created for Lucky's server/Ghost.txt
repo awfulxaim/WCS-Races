@@ -1,0 +1,31 @@
+Terran Ghost - SC-Terran
+Passive effects:
+Scout and knife only
+
+Steady Targeting - Attack - 0/6
+While scoped, the next shot gains 15% damage every 1.1 - .1 seconds, caps at 5 charged
+This bonus resets upon firing or unscoping
+
+EMP Shot - Ability1 - 0/6
+At a range of up to 400 + 200/level units, in an AoE of 500, silence enemies in the area and remove their buffs for 1/level seconds
+
+Lock Down - Attack - 0/6
+1 + 4%/level chance on hit to bash the enemy for 1.5 seconds. This can only proc on enemies within 800 + 400/level units of you.
+
+Crius Suit Cloaking - Passive/Ability2 - 0/6
+Spawn with 10 + 10%/level invisibility. While this is inactive it charges 1% invisibility per second. When activated, gain that much additional invisibility for 1/level seconds. Firing while cloaked reduces the cloak duration by 1 second.
+
+Ocular Implants - Passive - 0/6
+Increase the range that your skills can activate or proc by 100 + 50/level units.
+
+Moebius Factor - Passive - 0/6
+Spawn with 10 + 5/level more HP.
+
+Arm Nuke - Ability3 - 0/6
+When activated pay 14000 - 1000/level for a nuke. If you die or do not launch your nuke this round, it is lost. If you cannot pay the cost the ability fails and the cooldown is reset. You cannot have more than one armed nuke at a time. 10 second cooldown.
+
+Nuclear Strike - Ultimate - 0/6
+30 second cooldown from start of round.
+Global sound alert
+A small red ball and a slightly larger red circle is created at the location you aim at up to 200 + 100/level units away. That ball and circle are only visible to you. Root yourself for 21 - 1/level seconds. If you die during this time the launch is canceled.
+After the root has ended, all players are blinded with a white screen for .5 seconds and all enemies in a 1400 unit radius of the red ball take 6000 damage. A nuclear explosion sound plays for all players.

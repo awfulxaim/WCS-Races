@@ -1,0 +1,26 @@
+Chansey [Pokemon]
+Requires level 300
+Restricted from buying: Evasion, Helm of Excellence, Boots of Speed
+Restricted to: Knife, HE grenade
+Team limit: 2
+
+Healthy Living
+Spawn with 500/600/700/800/900 bonus HP and armor, but 20% reduced movement speed.
+
+Hospitality
+Spawn with 6/7/8/9/10 HP regeneration over time for yourself and teammates within a 500 unit radius. Duration: permanent. Heals every 5 seconds.
+
+Double Slap
+50% chance on hit to grant 5–7/5–10/5–15/5–20/5–25 HP, $100–150/$100–175/$100–200/$100–225/$100–250, and 10–15/10–20/10–30/10–40/10–50 XP.
+
+Serene Grace
+16%/17%/18%/19%/20% chance when hit to completely evade all incoming damage.
+
+Medicare
+25% chance when hit to heal yourself and all teammates for 4–8/4–10/4–12/4–14/4–16 HP and armor.
+
+Advanced Medicare
+50% chance on death to revive all nearby teammates within a 550/600/650/700/750 unit radius. You gain experience equal to 25% of each revived player's kills.
+
+Soft Boiled (Ultimate)
+Grants 2/3/4/5/6 HE grenades. 20 seconds cooldown.

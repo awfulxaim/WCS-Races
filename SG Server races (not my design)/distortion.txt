@@ -1,0 +1,40 @@
+Distortion
+
+knife only. requires total level 3800. limited to 1 per team. cannot buy flaming gloves of warmth, long jump, boots of speed, cloak of shadows, sock of the feather, or HP.
+
+Footing
+Spawn with 1/2/3/4/5/6/7/8/9/10 Blink Charges and 5/10/15/20/25/30/35/40/45/50 more HP.
+
+Blink Recovery
+You gain a Blink Charge every 13/11/9/7/5 seconds. 
+
+Blink Acceleration
+When you Blink gain 5/15/25/35/45% increased movement speed for 2 seconds.
+
+Blink Distortion
+When you Blink you leave behind a copy of your player model where you were. this copy lasts 1/2/3/4/5 seconds.
+
+Tempest Sword (ability)
+Each successive press of ability has a different effect when used successfully. when this ability does not hit an enemy restart from the beginning, if it does hit an enemy move forward one, restart from the beginning each round/life and when you use the finisher.
+1st press: deal 2/4/6/8/10 extra damage on your next attack if it hits. enemies in a 100 unit radius of that enemy also take that extra damage.
+2nd press: deal 4/8/12/16/20 damage to all enemies in 200 unit radius.
+3rd press: deal 6/12/18/24/30 damage to all enemies who enter a 300 unit radius of you for the next 3 seconds.
+4th press: lay a 400 unit radius ward that lasts 5 seconds and deals 1/2/3/4/5 damage per .5 seconds for 4 seconds to each enemy who enters that radius. (40 damage over 4 seconds)
+5th press: Instantly teleport to the location you are aiming at. enemies in a 300 unit radius of where you started and 400 units of where you teleported to take 10/20/30/40/50 damage. Apply Blink Acceleration and Blink Distortion when you activate this effect.
+
+Sword Vitals
+10/20/30/40/50% chance to deal double damage with your Tempest Sword effects. This chance is divided by 1 for each stage you are currently at in Tempest Sword. eg. 50% chance on first press, 40% on second, 30% on third, etc.
+
+Requiem
+When you kill an enemy or activate your finisher you gain 5/10/15/20/25 HP.
+
+Reality Distortion (ability2)
+your attacks hit everywhere around you in an 85 unit radius. damage chart below. BS means damage to an enemy facing away from you. pressing ability2 causes your distortion copies to deal this damage to enemies in an 85 unit radius of them. 5/4/3/2/1 second cooldown. 
+
+	Left Click					Right Click
+armored		unarmored		armored		unarmored
+34				40				55			65
+76 BS			90 BS			153 BS		180 BS
+
+Blink (ultimate)
+instantly teleport 155 units away in the direction you are moving. 6.25/5/3.75/2.5/1.25 second cooldown.

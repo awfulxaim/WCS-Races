@@ -1,0 +1,15 @@
+Igna Phoenix
+
+requires total level 6000. limited to 2 per team. cannot buy claws of attack, orb of venom, ring of armor, or HP.
+
+Energy Shields
+10/20/30/40/50/60% of damage you take is taken from your armor first.
+
+Zealot's Oath
+You regenerate 3/7/10/14/17/20 armor every second.
+
+Firestorm
+30% chance on hit to burn the enemy and all enemies in a 200 unit radius of that enemy for 1/1.5/2/2.5/3/3.5 seconds. (35 damage over 3.5 seconds)
+
+Righteous Fire
+Enemies who enter a 250 unit radius of you are slowed by 10/16/22/28/34/40% and take 5 damage per .5 seconds while they are in that area.

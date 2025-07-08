@@ -1,0 +1,21 @@
+Black Mage of San d'Oria
+
+requires total level 4000. limited to 1 per team. cannot buy long jump, boots of speed, thorns, or HP.
+
+Respawn Steal
+7/14/21/28/35% chance when an enemy respawns to block the respawn and respawn a teammate.
+
+Frost Barrier
+Reduces all damage you take by 1/3/5/7/9 and deal 1/3/5/7/9% mirror damage. This applies to extra damage and damage from abilities/ultimates/wards too.
+
+Mana Steal
+100% chance on hit to gain 1/2/3/4/5 armor and remove 1/2/3/4/5 armor from the enemy.
+
+Thaumaturge Boots
+Spawn with 5/10/15/20/25% increased movement speed.
+
+Purify
+Remove all movement debuffs from you and teammates in a 500 unit radius every 9/7/5/3/1 second.
+
+Convert (ultimate)
+Lose 20/17/15/12/10 armor and gain 15 HP. 5 second cooldown.

@@ -1,0 +1,23 @@
+Modern Assassin [MISC]
+
+requires Level 150+.
+restricted from purchasing: Boots of Speed.
+glock and smoke grenade only (plus special weapons from ultimate).
+
+Marked Target
+75% chance on spawn to mark 3/4/5/6/7 enemies for the round. Marked enemies are beaconed.
+
+Knowledge of Vitals
+Deal 20/25/30/35/40% bonus damage on hit.
+
+Silent Step (Ability1)
+60/70/80/90/100% chance to move without making footstep sounds, but with reduced accuracy. 3 second cooldown.
+
+Travel Light
+Spawn with 20/25/30/35/40% increased movement speed.
+
+Trained Assassin
+Spawn with 30/40/50/60/70% invisibility.
+
+Assassin’s Tools (Ultimate)
+60/70/80/90/100% chance to switch between an AWP and Glock. 10/9/8/7/6 second cooldown.

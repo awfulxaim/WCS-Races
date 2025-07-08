@@ -1,0 +1,21 @@
+Death Bringer
+
+requires total level 8250. limited to 1 per team. cannot buy cloak of shadows or scroll of respawning.
+
+Unholy Touch
+7/14/21/28/35/42% chance on hit to cause any healing that enemy would get into damage they take instead for 10 seconds.
+
+Death's Door
+When you fall below 45 HP heal for 5/10/15/20/25/30 HP every 2 seconds. 10 second cooldown.
+
+Creature of the Shadows
+Spawn with 10/20/30/40/50/60% invisibility
+
+Inevitability
+10/20/30/40/50/60% chance when you die to respawn after 3 seconds at the location another random teammate died at with the weapons and equipment you had. once per round. press ability to cancel this.
+
+Scythe
+You deal 12/24/36/48/60/72% extra damage over 2 seconds on hit with the knife.
+
+Vile Scream (ultimate)
+Enemies cannot gain HP for 2/3/4/5/6/7 seconds. 25 second cooldown.

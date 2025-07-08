@@ -1,0 +1,15 @@
+Nature Wisp
+
+knife only. requires total level 1000. limited to 2 per team. cannot buy knights armament's, long jump, ammo resupply, or ring of regen.
+
+Fluid
+Long jump. 2.5/3/3.5/4/4.5/5/5.5/6/6.5/7x multiplier
+
+Forgiving
+Set yout HP to 100 9.25/8.5/7.75/7/6.25/5.5/4.75/4/3.25/2.5 seconds after being hit. Timer restarts if hit again.
+
+Nimble
+20/25/30/35/40/45/50/55/60/65% chance to evade.
+
+Sprout (ultimate)
+Instantly teleport back to where you were 7 seconds ago. 20/19/18/17/16/15/14/13/12/11 second cooldown.

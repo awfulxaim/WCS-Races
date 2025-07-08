@@ -1,0 +1,15 @@
+Holy Paladin
+
+requires total level 800. limited to 1 per team. cannot buy necklace of immunity.
+
+Holy Light
+Shooting teammates heals them for 18/20/22/24/26/28/30/32/34/36/38/40% of the damage those bullets would deal. 30% chance on hit to deal 18/20/22/24/26/28/30/32/34/36/38/40% extra damage. 100% chance on hit to deal 100% extra damage to enemies who have respawned or who have over 200 HP.
+
+Divine Shield
+45/50/55/60/65/70/75/80/85/90/95/100% chance to spawn with ultimate immunity. Teammates have a 1/2/3/4/5/6/7/8/9/10/11/12% chance to spawn with ultimate immunity.
+
+Devotion Aura
+You and teammates in a 225/250/275/300/325/350/375/400/425/450/475/500 unit radius take 20% less damage.
+
+Resurrection
+Respawn a random teammate with 82/86/90/93/96/99/102/105/109/113/115/120 HP. 45 second cooldown.

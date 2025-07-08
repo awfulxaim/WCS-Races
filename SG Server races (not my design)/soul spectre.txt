@@ -1,0 +1,24 @@
+Soul Spectre
+
+requires total level 7500. limited to 1 per team. cannot buy long jump, boots of speed, claws of attack, mask of death, or HP.
+
+Collector of Souls
+20/40/60/80/100% chance on kill or assist to gain 1 soul. souls last the entire map.
+
+Differentiation (ability)
+Trade 10/8/6/4/2% of your current HP to separate your souls from impure to pure. Assists grant impure souls, kills grant pure souls.
+
+Repository
+You can have up to 5/11/17/23/30 undifferentiated souls.
+
+Grenades of Power
+Your Smoke Grenade Clouds deal 2/4/6/8/10 damage per second to enemies who enter their area. Your HE grenades knock enemies back. knockback distance increases with levels.
+
+Soul Charged
+You deal 1/2/3/4/5% extra damage for each impure soul you have.
+
+Soul Shield
+Spawn with 2/4/6/8/10 more HP and 1/2/3/4/5% increased movement speed for each pure soul you have. You take 1/2/3/4/5% less damage from enemies within a 300 unit radius of you and you deal mirror damage equal to the damage reduced.
+
+Altered Soul (ultimate)
+Lose 5/4/3/2/1 of each soul type. if you do not have enough souls you cannot activate this. You deal 5/10/15/20/25% increased damage, take 5/10/15/20/25% less damage from all sources, and gain 5/10/15/20/25% increased movement speed for 1/2/3/4/5 seconds. 20 second cooldown.

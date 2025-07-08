@@ -1,0 +1,32 @@
+Tesla Researcher
+
+Lightning Rod (ability2)
+Lay up to two 200 unit radius wards. When you activate an ability, shock an enemy, or hit an enemy inside the Lightning Rod ward area, these wards deals 1/2/3/4/5 damage to all enemies in the ward area. Potential adds 3% of your Potential Energy as damage when these wards trigger. These wards have no maximum duration. 5 second cooldown.
+
+Tesla Gun
+You deal extra damage based on 1/2/3/4/5% of your Potential Energy.
+
+Lightning Warp (ability)
+instantly teleport where you are aiming up to 600/650/700/750/800 units away and deal 1/2/3/4/5 damage to all enemies in a 150 unit radius of where you teleported from and where you teleported to. Potential adds 5% of your Potential Energy as damage, when you activate this. 6 second cooldown.
+
+Shocked Ground
+10% chance on hit to lay a 250 unit radius ward underneath the enemy hit. That ward causes enemies in its area to become shocked taking 4/8/12/16/20% more damage for as long as they are in the ward area and lingering for 1.5 seconds. the ward lasts 15 seconds. Potential adds 5% of your Potential Energy to the percentage more damage shocked enemies take.
+
+Power Charge
+100% chance on kill to gain a power charge. Power Charges last 10/12/15/17/20 seconds. You have a 2/4/6/8/10% chance on hit to deal 100/110/120/130/140% extra damage for each power charge you have. You can have a maximum of 3 power charges at a time.
+
+Charged Staff (ability3)
+Lose all of your power charges. For the next (10 x the number of power charges lost when you activated this) seconds, you deal 1/2/3/4/5 extra damage on hit for each power charge lost when you activated this. While this is active, you have a 30% chance on hit to shock the enemy causing them to take 20% more damage for 5 seconds. no cooldown. this can stack with itself. new stacks do not refresh the timer.
+
+Potential
+While doing almost any action you gain Potential Energy. Potential Energy increases the damage of your skills based on the amount you have. You can have a maximum of 200/250/300/350/400 Potential Energy. You lose all Potential Energy on death or at round end.
+You gain 1 energy per 2 seconds spent moving. 
+You gain 1 energy per 2 damage dealt.
+You gain 1 energy per 1 damage you take.
+You gain 5 energy when you teleport with Lightning Warp.
+You gain 5 energy for each enemy dealt damage by a Lightning Rod.
+You gain 10 energy when you shock an enemy with Charged Staff. 
+You gain 25 energy for beginning to defuse the bomb.
+You gain 50 energy for planting the bomb.
+You gain 50 energy for picking up a hostage.
+You gain 1% increased movement speed equal to 10% of your energy.

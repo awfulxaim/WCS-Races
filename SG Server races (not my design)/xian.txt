@@ -1,0 +1,23 @@
+Xian
+
+p2000 and knife only.
+
+requires total level 2500. limited to 2 per team. cannot buy long jump, boots o speed, claws of attack, or HP.
+
+Hashiri
+While walking you move 50/80/110/130% faster.
+
+Doku
+You deal 5/10/15/20% more damage with the p2000. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Soubi
+10/15/20/25% chance to evade.
+
+Shirizoku (ability)
+Instantly teleport to the location you last cast Shukuchi from. you have 2/3/4/5 seconds from when you last cast Shukuchi to activate this. 16 second cooldown.
+
+Kampo
+You regen .5/1/1.5/2 HP per second.
+
+Shukuchi
+You instantly teleport where you are aiming up to 200/300/400/500 units away every 5 seconds.

@@ -6,10 +6,10 @@ Dominance
 you spawn with 50/125/200/275/350/400 more HP. Your player model size increases with levels. at max you are 100% bigger. When you activate Battle Cry you gain 25/29/33/37/41/46% increased movement speed.
 
 Big Swings
-When you attack enemies in a 85/105/115/125/135/145 unit area in front of you take 12/16/20/24/28/32 damage.
+When you attack enemies in a 85/105/115/125/135/145 unit radius area in front of you take 12/16/20/24/28/32 damage.
 
 Battle Cry (ability)
-Gain movement speed set by Dominance for 1/2/3/4/5/6 seconds. 10 second cooldown.
+Gain movement speed set by Dominance for 1/2/3/4/5/6 seconds. 15 second cooldown.
 
 Pride
 When you reach <=25/50/75/100/125/150 HP you become invulnerable for 1/2/3/3/4/5 seconds.

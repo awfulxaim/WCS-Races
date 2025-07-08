@@ -1,0 +1,81 @@
+Exile of Wraeclast
+
+AK and knife only. requires total level 4750. limited to 2 per team. cannot buy HP.
+
+Assassination
+4/8/12/16/20% chance on hit with the AK to deal 60% extra damage.
+
+Warrior's Blood
+You gain .5/.75/1/1.25/1.5 HP per second.
+
+Drop Chance
+15/30/45/60/75% chance on kill to get a random shopmenu item.
+
+Flask (ability)
+Opens a menu allowing you to pick a flask to use. Flasks last 5/8/11/14/17 seconds and each can be used once per round. you can have up to 1/2/3/4/5 active at a time. Leveling this skill levels all the flasks, they are not separate skills.
+
+Life Flask
+Heal for 2/3/4/5/6 HP per second.
+
+Mana Flask
+Gain 5/6/7/8/9 armor per second.
+
+Hybrid Flask
+Gain 1/1.5/2/2.5/3 HP and armor per second.
+
+Quicksilver Flask
+Gain 8/16/24/32/40% increased movement speed.
+
+Bismuth Flask
+Become immune to burn, movement reducing effects, and extra damage.
+
+Amethyst Flask
+Become immune to poison.
+
+Ruby Flask
+Become immune to burn.
+
+Sapphire Flask
+Become immune to movement reducing effects.
+
+Topaz Flask
+Become immune to extra damage.
+
+Aquamarine Flask
+Reduce movement reducing effect durations on you by 20/30/40/50/60%. lay a 200 unit radius ward that lasts as long as this flask does, it slows enemies who enter its radius by 60%.
+
+Basalt Flask
+You take 5/10/15/20/25% less damage from hits.
+
+Corundum Flask
+You cannot be bashed.
+
+Diamond Flask
+Double the chance to proc Assassination.
+
+Gold Flask
+When Drop Chance procs you are more likely to get a more expensive item. 30% chance to get an item that is 5k or more, 10% chance to get an item that is 10k or more.
+
+Granite Flask
+You take 4/6/8/10/12 less damage from hits.
+
+Iron Flask
+You take damage from armor before HP.
+
+Jade Flask
+5/10/15/20/25% chance to evade.
+
+Quartz Flask
+You are not blocked by players. 2/4/6/8/10% chance to evade extra damage.
+
+Silver Flask
+100% chance on kill to deal 2 extra damage on hit for the duration of this flask. this stacks up to 4/5/6/7/8 times.
+
+Stibnite Flas
+4/8/12/16/20% chance to evade. when you evade you create a smoke cloud.
+
+Sulphur Flask
+You deal 8/16/23/32/40% more damage. lay a 200 unit radius ward that lasts as long as this flask effect, you and teammates who stand in this ward gain your current level of Warrior's Blood regen. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Lightning Warp (ultimate)
+After a 1.25 second delay, instantly teleport to where you are aiming. enemies in a 200 unit radius of where you teleported from and where you land take 5/10/15/20/25 damage. 15/12/9/7/5 second cooldown.

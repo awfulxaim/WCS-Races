@@ -1,0 +1,54 @@
+Magatha Grimtotem
+
+requires total level 8000. limited to 1 per team. cannot buy claws of attack, necklace of immunity, or HP.
+
+Lightning Bolt
+When an enemy enters a 350/450/550/650/750 unit radius of you, there is a 50% chance that they take 10-20 damage rolled randomly. 12 second cooldown.
+
+Multistrike
+On hit, roll a d100 twice. If you roll under 8/16/24/32/40 on either deal 30% extra damage. If you roll under that number on both you deal 60% extra damage.
+
+Totems (ability) (4 levels)
+You can lay up to 4 totems at a time. pressing ability lays the next totem in order. type "/totem" to pick the order of your totems. Each level adds a new totem element. totems are wards. 15 second cooldown.
+
+Fire Nova Totem
+300 unit radius. burns enemies who enter it for 1 second. this effect reapplies every .5 seconds the player is in the ward area and stacks.
+
+Flame Tongue Totem
+250 unit radius, you and teammates who are in the area deal 40% more extra damage.
+
+Frost Resistance Totem
+500 unit radius, you and teammates who are in the area cannot be slowed or rooted.
+
+Earthbind Totem
+250 unit radius, enemies in the area are slowed by 50%.
+
+Earthen Wall Totem
+250 unit radius, you and teammates who are in the area take 35% less damage from hits.
+
+Tremor Totem
+500 unit radius, you and teammates who are in the area cannot be paralyzed, slept, or feared.
+
+Cleansing Totem
+300 unit radius, you and teammates who are in the area are immune to poison.
+
+Healing Tide Totem
+300 unit radius, you and teammates who are in the area are healed for 5 HP every 2 seconds.
+
+Mana Spring Totem
+300 unit radius, you and teammates who are in the area gain 10 armor per second.
+
+Counterstrike Totem
+200 unit radius, you and teammates who are in the area have a 20% chance to deal 100% mirror damage.
+
+Wind Rush Totem
+300 unit radius, you and teammates who enter the area gain 60% increased movement speed for 4 seconds.
+
+Windfury Totem
+300 unit radius, you and teammates who are in the area have a 40% chance to deal 60% extra damage.
+
+Far Sight (ability2)
+You can see through through the eyes of the nearest enemy for 1/2/3/4/5 seconds. press ability2 again to cancel early. 30 second cooldown. (this basically makes you spectate them, not sure how it works codewise)
+
+Bloodlust (ultimate)
+All teammates and you deal 5/10/15/20/25% more damage for the next 10 seconds. once per round.

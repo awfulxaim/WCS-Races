@@ -1,0 +1,20 @@
+Dark Templar - Protoss
+Passive effects:
+Knife Only
+
+Shroud of Adun - Passive - 0/6
+Become 32% + 11%/level less visible at the cost of 1 + 4/level hp
+
+Warp Blade - Attack - 0/6
+14%/level chance to deal double damage on a backstab
+
+Void Stasis - Ability1 - 0/6
+Sleep the targeted enemy for 0.5/level seconds
+Cooldown 18 seconds
+
+Eradicate - Attack - 0/6
+2%/level chance to instantly kill the enemy on hit. Reduce left click attack speed by 5%/level.
+
+Shadow Stride - Ultimate - 0/6
+Blink where you are aiming up to 100 + 75/level units away. If you aim out of range this goes on cooldown for a shortened cooldown.
+Cooldown 18 seconds

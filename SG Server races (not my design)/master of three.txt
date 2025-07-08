@@ -9,7 +9,7 @@ Bullets
 You spawn with 30/60/90 more ammo in your mag. your shots deal 1/2/3 extra damage.
 
 Unload (3 levels)
-Your fire rate is increased by the modulus of the log 3 of 3 times your levels in this skill factorial times 3. (Log3(3*skill level)!)*3)%%
+Your fire rate is increased by the log 3 of 3 times your levels in this skill factorial times 3 as a percentage. (Log3(3*skill level)!)*3)
 
 Burst (ultimate)
 you gain .3%/3.33%/33.3% increased movement speed for 3 seconds. 3.3 second cooldown.

@@ -1,0 +1,21 @@
+Cho'gall
+
+five-seven and knife only. requires total level 2000. limited to 2 per team. cannot buy cloak of shadows.
+
+Conversion
+You have a shield which absorbs 10/20/30/40/50 damage you would have taken from your HP before you lose HP.
+
+Fury of Cho'gall
+100% chance on hit to deal 4/8/12/16/20% extra damage. Once an enemy has been hit by you they can be affected by Hands of the Void after 2 seconds.
+
+Might of the Hammer
+Your Five-Seven has a 30/40/50/60/70 round magazine and 120/140/160/180/200 reserve ammo.
+
+Hands of the Void (ability)
+Lay a 200 unit radius ward. When an enemy is affected by the ward they cannot leave the ward area for 2 seconds and take 5/10/15/20/25 damage per second for that duration. You can lay up to 3 wards at a time and they last 20 seconds. An enemy can only be affected by Hands of the Void once per round. 15 second cooldown.
+
+Twisted Devotion
+5/10/15/20/25% chance on hit to gain 50% of the enemy's invisibility value, stacking to a max of 80% invisibility.
+
+Shadow's Orders (ultimate)
+Two random enemies are blinded and become 70% invisible for 3 seconds. then their locations are swapped and they take 5/7/10/13/15 damage. 40 second cooldown. if this ultimate fails the cooldown is 30 seconds instead.

@@ -1,0 +1,18 @@
+Forest Elf
+
+Scout, dualies, and knife only. requires total level 3900. limited to 2 per team. cannot buy long jump, boots of speed, cloak of shadows, or sock of the feather.
+
+Fire Arrow
+25/40/55/70/85% chance on hit with the scout to burn the enemy for 4 seconds. (40 dmg over 4 seconds)
+
+Scented Arrow
+100% chance on hit with the scout to make that enemy leave a red trail behind them from where they were hit to when the effect wears off. this effect lasts 1/2/2.5/3/4 seconds. If the enemy stops moving during this effect it ends early.
+
+Swift
+Spawn with long jump and 10/15/20/25/30% reduced gravity.
+
+Forest Toll
+100% chance on hit with the scout to steal .5/1.5/2.5/3.5/4% of the enemy's money on hit. you steal half that amount on hit with the dualies.
+
+One With the Trees (ultimate)
+Press ultimate to slowly rise in the air, gain ultimate immunity, and set your invisibility to 15/30/45/60/75%. press crouch to cancel the rising, rooting you where you are. you have standing accuracy while you are in the air this way. press ultimate again to land and lose the invisibility and ultimate immunity. 18/13/8/4 second cooldown.

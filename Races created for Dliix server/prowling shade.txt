@@ -1,0 +1,21 @@
+Prowling Shade
+
+knife and decoy grenade only. deals no right click damage.
+
+Sprint
+Spawn with 10/20/30/40/50% increased movement speed.
+
+Ornamental Headdress
+You take 10/20/30/40/50% less damage from headshots.
+
+Glacial Cascade (ability)
+You get a decoy grenade. when you throw a decoy grenade it creates a trail of 100 unit radius wards that last 5 seconds. Those wards slow enemies who enter them by 6/12/18/24/30% for 3 seconds. That decoy is destroyed instantly when it bounces. If you directly hit an enemy that enemy is paralyzed for .3/.6/.9/1.2/1.5 seconds. 30/27/24/21/19/16 second cooldown.
+
+Blade Dance
+You have 25% increased fire rate. You gain 3/6/9/12/15% increased movement speed for 1 second when you attack.
+
+Proximal Intangibility
+You are invulnerable to enemies that are 1000/900/800/700/600 or more units away from you. This radius is halved while you are Prowling.
+
+Prowl (ultimate)
+Gain 75% invisibility and 3/6/9/12/15% increased movement speed for 10 seconds or until an enemy enters a 300 unit radius of you. You cannot activate this when an enemy is within 1000/900/800/700/600 units of you. You can deal right click damage for one attack or 2 seconds, whichever comes first, after leaving Prowl. 45/40/35/30/25 second cooldown.

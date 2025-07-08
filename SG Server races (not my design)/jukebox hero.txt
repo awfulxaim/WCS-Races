@@ -1,0 +1,36 @@
+Jukebox Hero
+
+requires total level 1000. limited to 2 per team.
+
+Get Lucky
+When you play this song, you gain:
+15/20/25/30/35% chance to evade.
+8/9/11/14/17% chance on hit to deal 50/75/100/125/150% extra damage
+
+Firework
+When you play this song, you gain:
+5/8/11/14/17% chance on hit to burn the enemy for 2 seconds. (20 damage over 2 seconds)
+You deal 1/2/3/4/5 extra damage on hit.
+
+Eye of the Tiger
+When you play this song, you gain:
+15/20/40/55/70% invisibility.
+10/20/30/40/50% increased movement speed.
+Long jump with 1.5/2/2.5/3/3.5x multiplier.
+
+TNT (ability2)
+When you play this song, you gain:
+Every 10 seconds you drop a live HE grenade at your feet.
+100% chance on death to explode dealing 10/20/30/40/50 damage to all enemies in a 250 unit radius.
+Press ability2 to kill yourself and deal 50/60/70/80/90 damage to all enemies in a 250 unit radius.
+
+Werewolf of London
+When you play this song, you gain:
+10/15/20/25/30% increased movement speed.
+25/50/75/100/125 armor.
+Armor absorbs 90% of the damage you take.
+5/10/15/20/25 bonus HP.
+You regenerate .5/1/1.5/2/2.5 armor and HP per second.
+
+Jukebox Hero (ultimate)
+Play a random song. press ultimate again to cancel the effect. 30 second cooldown.

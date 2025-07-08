@@ -1,0 +1,15 @@
+Soul Stealer
+
+requires total level 1000. limited to 2 per team.
+
+Consume
+Gain 1/2/2/3/3/4/4/5 souls on kill, to a maximum of 3/4/5/6/7/8/9/10 souls.
+
+Empower
+Spawn with bonus HP equal to 3/4/5/6/7/8/9/10x the number of souls you have, bonus movement speed equal to 1/1.5/2/2.5/3/3.5/4/4.5x the number of souls you have, and 5/10/15/20/25/30/35/40% chance on hit to deal extra damage equal to the number of souls you have.
+
+Soul Strike (ability)
+Lose 2 souls. Enemies in a 450 unit radius of the location you are aiming at take damage equal to .5/1/1.5/2/2.5/3/3.5/4x the number of souls you have (-2 for activating this). Enemies damaged by this are knocked away from the location you were aiming at, slowed by 20% and are unable to shoot for .25/.5/.75/1/1.25/1.5/1.75/2 seconds. You gain 1 soul for each enemy hit by this. 10 second cooldown.
+
+Haunt (ultimate)
+For 6 seconds, all enemies are slowed by 3/4/5/6/7/8/9/10% for each enemy that is already dead when you activate this. 20 second cooldown.

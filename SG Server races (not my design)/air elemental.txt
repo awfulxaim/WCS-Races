@@ -1,0 +1,21 @@
+Air Elemental
+
+pistols only. requires total level 9000. limited to 1 per team. cannot buy XP.
+
+Aerial Betrayal
+100% chance on hit to lower the enemy's gravity by 10/20/30/40/50% for 1 second.
+
+Ferocity of Velocity
+3/6/9/12/15% chance on hit to impale the enemy and deal 3/6/9/12/15 extra damage.
+
+Pocket Pressure
+You spawn with a smoke grenade. When you throw a smoke grenade it sticks to any surface. when an enemy enters a 120 unit radius of the grenade it pops. You get a smoke grenade on kill.
+
+Cloudy
+20/40/60/80/100% chance to be immune to backstabs. 7/14/21/28/35% chance to evade.
+
+Eye of the Storm
+100% chance on kill to cause that enemy to explode like a grenade, this knocks enemies back. knock back increases with levels.
+
+Mist Form (ultimate)
+For the next 1/2/3/4/5 seconds you gain: 60% reduced gravity, 60% increased movement speed, take 50% less damage from all sources, and get 80% invisibility. 30 second cooldown.

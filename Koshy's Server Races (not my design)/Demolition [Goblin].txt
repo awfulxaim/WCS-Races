@@ -1,0 +1,17 @@
+Demolition [Goblin]
+
+requires Level 250+.
+restricted to: knife and hegrenade only.
+uses elis goblin model.
+
+Grenade Dispenser
+75% chance on grenade hit to receive 1/2/3/4/5/6 additional grenades.
+
+Mech Grenade
+Grenades deal 100/110/120/130/140/150% damage.
+
+Nature of the Goblin
+Spawn with +25/30/35/40/45/50 HP and armor and 20% increased movement speed.
+
+Goblin Jetpack (Ultimate)
+Fly and gain +10/11/12/13/14/15 bonus HP. 1 second cooldown.

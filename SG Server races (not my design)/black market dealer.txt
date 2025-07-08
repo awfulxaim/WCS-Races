@@ -1,0 +1,30 @@
+Black Market Dealer
+
+requires total level 7000. limited to 1 per team. cannot buy shopmenu items.
+
+Dealer Discount
+Your teammates can buy shopmenu items at a 2/4/6/8/10% discount. you gain XP equal to the money they saved. Teammates only get this discount if they have been on your team for 2 or more rounds.
+
+Transfer (ability)
+You give the player on your team with the lowest money all of your money. If that player has not been on your team for 2 or more rounds, this money goes to the next player. You get 10/20/30/40/50 XP for each 1000 money you gave that player.
+
+Ankh of Reincarnation
+You cannot put points into this skill until you are level 11 in this race. You have a 50/60/70/80/100% chance to restore your equipment like ankh.
+
+Sword of Striking
+You cannot put points into this skill until you are level 16 in this race. 10/15/20/25/30% chance on hit to deal 50% extra damage.
+
+Imbued Plate
+You cannot put points into this skill until you are level 21 in this race. You take 3/6/9/12/15% less damage from all sources. this double dips on extra damage.
+
+Axe of Cleaving
+You cannot put points into this skill until you are level 26 in this race. You have a 10/15/20/25/30% chance on hit to deal 10 extra damage to all enemies within a 200 unit radius of the enemy you hit.
+
+Holy Shield
+You cannot put points into this skill until you are level 31 in this race. You have a 10/15/20/25/30% chance to block bash, extra damage, and leech effects.
+
+Necklace of Immunity
+You cannot put points into this skill until you are level 36 in this race. You have a 20/40/60/80/100% chance to spawn with ultimate immunity.
+
+Pot Luck (1 level)
+You cannot put points into this skill until you are level 41 in this race. You get a random shopmenu item each time you spawn. the higher level you are in this race the more expensive the item that you can get: the item you receive must cost less than or equal to 150x your level in this race.

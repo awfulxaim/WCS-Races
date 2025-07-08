@@ -1,0 +1,18 @@
+Dog Logan
+
+requires total level 4250. limited to 1 per team. cannot buy boots of speed or XP.
+
+Unrelenting Strikes
+10/12/14/16/18/20% chance on hit to deal 50% extra dmaage. every hit this does not proc increases the chance by 10/12/14/16/18/20%. When this procs reset the chance to 10%. (effectively 62.5% chance to deal 50% extra damage on average)
+
+Stolen Funds
+100% chance on hit to steal .5/1/1.5/2/2.5/3% of your enemy's money.
+
+On The Hunt
+When you have a bounty target you have 10/15/20/25/30/35% increased movement speed.
+
+Tracking (ability)
+Draw a 100 unit long line at your feet pointing at the player who is your bounty target. this line updates constantly and lasts 1/2/3/4/5 seconds. 20 second cooldown.
+
+Place Bounty (ultimate)
+Place a 20/40/60/80/100 XP bounty on a random enemy. That bounty increases by 100 XP for each kill that enemy gets while they have a bounty. If a player with a bounty survives the round that bounty carries over to the next round and is doubled. 30 second cooldown. You can have more than one bounty at a time.

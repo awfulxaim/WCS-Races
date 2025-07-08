@@ -1,0 +1,21 @@
+Brewmaster Monk
+
+requires total level 600. limited to 2 per team. cannot buy claws of attack, mask of death, ring of armor, or HP.
+
+Keg Smash
+100% chance on hit to deal 1/2/4/5/6/7/8 extra damage to the enemy and all enemies in a 200 unit radius of the enemy you hit.
+
+Stagger
+You do not take damage when you are hit. instead you take up to 60/55/50/45/40/35/30/25 of the damage you would have taken per second until all the damage has been dealt starting 1 second after being hit.
+
+Purifying Brew (ability)
+Remove all of your queued stagger damage. 40/36/32/28/24/20/16/12 second cooldown.
+
+The Sturdy Ox
+Spawn with 5/10/15/20/25/30/35/40 more HP and 100/125/150/175/200/225/250/275 armor.
+
+Elusive Brew
+3/6/9/12/15/18/21/24% chance to evade.
+
+Touch of Death (ultimate)
+Add 200 damage to your next shot. 60/55/50/45/40/35/30/25 second cooldown.

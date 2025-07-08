@@ -1,0 +1,21 @@
+Damoi Tui
+
+requires total level 4250. limited to 2 per team. cannot buy long jump, boots of speed, or HP.
+
+Explicit Mods
+You take 2/3/4% less damage from all extra damage sources for every 10 levels you have in this race.
+
+Implicit Mods
+Spawn with 1/2/3% increased movement speed and 3/4/5% chance to ignore bash for every 10 levels you have in this race.
+
+Cleave
+100% chance on hit to deal 10/20/30/40/50% of the damage you dealt to another enemy within 200 units of the enemy you hit to a maximum of 30 damage.
+
+Cyclone
+left click knife attacks deal 6/12/18/24/30 damage to everyone in a 150 unit radius. if you hit an enemy directly with your knife they do not take this damage.
+
+Vitality
+You and teammates in a 300 unit radius regen .3/.6/.9/1.2/1.5 HP per second.
+
+Warlord's Mark
+Enemies in a 300 unit radius have a 20/25/30/35/40% chance to be bashed when hit.

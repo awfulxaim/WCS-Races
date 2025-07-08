@@ -1,0 +1,24 @@
+Lady Hederine, The Succubus
+
+knife only. your player model is dark purple. requires total level 6666. limited to 1 per team. cannot buy long jump, boots of speed, cloak of shadows, XP, or HP.
+
+Playful Trickster
+Spawn with 11/22/33/44/55/66 more HP. that becomes your max HP.
+
+Lash of Pain (10 levels)
+10/20/30/40/50/60/70/80/90/100% of damage you deal cannot be evaded or reduced. you deal 1/2/3/4/5/6/7/8/9/10% more damage. You banish enemies for 1 second on hit. this is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Eternal Embrace (8 levels)
+100% chance on kill to heal for 5/10/15/20/25/30/35/40% of the HP that enemy spawned with over 6 seconds.
+
+Lesser Invisibility
+Spawn with 11/22/33/44/55/66% invisibility.
+
+Quickstep (5 levels)
+Spawn with 5/10/15/20/25% increased movement speed.
+
+Whiplash (ability) (5 levels)
+All enemies in a 300/350/400/450/500 unit cone in front of you lose their long jump or flying and are slowed by 3/6/9/12/15% for 5 seconds. 15 second cooldown. if this doesnt affect any enemies the cooldown is reduced to 2.5 seconds.
+
+Seduction (ultimate)
+ALL players in a 666 unit radius of you take and deal 11/22/33/44/55/66% less damage for 5 seconds. 20 second cooldown.

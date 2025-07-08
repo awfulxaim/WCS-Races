@@ -1,0 +1,19 @@
+Prismatic [Golem]
+Requires level 250
+Restricted from buying: Evasion, Helm of Excellence, Boots of Speed
+Knife only
+
+Thick Skinned
+20% chance when hit with a knife to reduce damage by 25%/25%/33%/33%/50%/50% and deal 1–10/1–12/1–14/1–16/1–18/1–20 damage back.
+
+Damage Resistance
+20% chance when hit to gain back 1–30/1–32/1–34/1–36/1–38/1–40 HP and armor.
+
+Camouflage
+Spawn with 20%/30%/40%/50%/60%/70% invisibility.
+
+Souless Rage
+50% chance when hit to gain 1%/2%/3%/4%/5%/6% bonus speed, stacking up to 1.6 max speed.
+
+Titanous
+Spawn with 50/100/150/200/250/300 bonus HP and armor.

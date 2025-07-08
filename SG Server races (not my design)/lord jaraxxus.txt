@@ -1,0 +1,21 @@
+Lord Jaraxxus
+
+requires total level 5000. limited to 2 per team. cannot buy mask of death or HP.
+
+Raid Boss
+spawn with 25/30/35/40/45/50 more HP.
+
+Incinerate Flesh
+25/30/35/40/45/50% chance on hit to cause any healing that enemy receives for the next 2.5/3/3.5/4/4.5/5 seconds to be blocked and you gain that HP instead.
+
+Touch of Jaraxxus
+25/30/35/40/45/50% chance on hit to poison the enemy for 1/1.25/1.5/1.75/2/2.25 damage every second for 5 seconds. this poison spreads to any enemy that is within 100 units of a poisoned enemy when the damage ticks.
+
+Nether Power
+100% chance when hit to take 7/8/9/10/11/12% less damage extra damage for the rest of this life, to a max of 75%. Your extra damage is increased by the amount of extra damage reduction you have.
+
+Fel Lightning (ability)
+Deal 8/9/10/11/12/13 damage to an enemy within a 250 unit radius of you. that lightning can jump up to 4 times to other within 250 units of each other. The damage increases by 30% for each jump.
+
+Infernal Eruption (ultimate)
+Lay a 250 unit radius ward where you are aiming, that ward deals 5/6/7/8/9/10 damage per second and lasts 10 seconds. when the ward duration ends, there is a 20/25/30/35/40/45% chance for a teammate to be respawned at the location the ward was at with all the weapons and equipment they had. 40 second cooldown.

@@ -1,0 +1,26 @@
+High Templar - Protoss
+Passive effects:
+P2000 Only
+
+Plasma Shields - Passive - 0/6
+Gain a 8 + 7/level hp shield
+Your shield regenerates at a rate of level/2 per second
+Your shield regeneration starts 3 seconds after being shot
+
+Psi Blast - Attack - 0/6
+On hit, 5%/level chance to deal 10 extra damage as magic damage
+
+Feedback - Ability1 - 0/6
+For the next 1/level seconds, if the target triggers a skill or spell, they take damage
+1/level damage for skill
+2/level damage for ability
+3/level damage for ultimate
+Cooldown 18 seconds
+
+Plasma Surge - Passive - 0/6
+Your ultimate grants 1/level shields every .5 second for 6 seconds to friendly protoss players (including you) in its area.
+
+Psionic Storm - Ultimate - 0/6
+Saturate a 250 unit radius area where you're looking at a range of up to 1000 with psionic energy.
+Your psionic storm deals 1/level damage every 0.5 seconds for 6 seconds
+Cooldown 30 seconds

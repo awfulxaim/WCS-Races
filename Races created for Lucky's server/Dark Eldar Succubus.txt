@@ -1,0 +1,21 @@
+Dark Eldar Succubus
+
+Fiveseven, Decoy grenade, and knife only.
+
+Impossible Elegance
+You have a 20/25/30/35/40% chance to evade and 15/20/25/30/35% increased movement speed.
+
+Impossible Beauty
+4/8/12/16/20% chance when you get hit to root the enemy for 1.5 seconds.
+
+Wychsuit
+You take 10/20/30/40/50% less damage from hits to the right leg and right arm.
+
+Haywire Grenade
+Your decoy grenade creates a 300 unit radius ward that lasts 10 seconds. Enemies who enter the ward are debuffed, removing all of their buffs, setting their skill's proc chances to 0%, and silencing them for 10 seconds. 
+
+Darklight Blast Pistol
+Your Fiveseven has 30/50/70/90/100 extra ammo in mag, but no reserve ammo.
+
+Venom Whip
+Your right click knife attacks bash for 1/2/3/4/5 seconds. Your right and left click knife attacks poison the enemy for 5 damage per second for that duration.

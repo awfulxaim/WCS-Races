@@ -1,0 +1,16 @@
+Knight-Gaunt
+
+Knight's Armaments
+Spawn with 100 Armor and Helmet and an M4A1-S with 22/24/26/28/30 rounds in each magazine.
+
+Scythe of Madness
+Your hits have reverse knockback, pulling enemies towards you with each shot. You deal extra damage to enemies who are closer to you. Enemies 100 or less units from you take 10/20/30/40/50% extra damage, and this damage is reduced by 10% for each 100 units away an enemy is.
+
+As The Crow Flies (ability)
+Become restricted to the knife and ignore gravity and push yourself constantly in the direction you are aiming. While this is active you have the bird player model. press ability again to cancel this. When you cancel this you become 100% invisible but become visible over the next 2 seconds. until you are fully visible again you are still restricted to the knife. 14/11/8/5/2 second cooldown. the cooldown starts when you cancel this effect.
+
+Life Drain
+100% chance on hit to prevent that enemy from healing for the next 5/9/13/17/21 seconds.
+
+Soul Grip
+100% chance on hit to remove the enemy's armor for 2/3/4/5/6 seconds. Enemies afflicted with Soul Grip cannot reduce the damage they take in any way, including evasion or invulnerability. After that duration, that enemy gets their armor back.

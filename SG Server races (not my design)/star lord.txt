@@ -1,0 +1,19 @@
+Star Lord
+
+Five Seven and knife only. requires toptal level 550. limited to 3 per team. cannot buy long jump, boots of speed, claws of attack, mask of death, or sock of the feather.
+
+Augmented Strength
+You spawn with long jump and 5/10/15/20% increased movement speed.
+
+Space Armor
+You spawn with 10/20/30/40% reduced gravity.
+
+Weapons Training
+You deal 4/8/12/16 extra damage on hit with the five seven.
+
+Elemental Gun (ultimate)
+Cycle through 4 elements.
+Earth: Shake the enemy for 1 second on hit.
+Air: 5/10/15/20% chance on hit to bash the enemy for 1 second
+Fire: 10/15/20/25% chance on hit to burn the enemy for 3 seconds. (30 damage over 3 seconds.)
+Water: Leech 10/15/20/25% of the damage you deal.

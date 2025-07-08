@@ -1,0 +1,37 @@
+The Musician
+
+requires total level 1000. limited to 2 per team.
+
+Superman (ability2)
+When you play this song, you gain:
+You can fly by pressing ability2.
+You gain 25/50/75/100/125 armor.
+Your armor absorbs 10/20/30/40/50% of the damage you take before your HP.
+You regenerate .5/.6/.7/.8/1 armor per second.
+When your armor is at or above 125, you regenerate 1/1.5/2/2.5/3.5 HP per second.
+
+Iron Man
+When you play this song, you gain:
+You gain 25/50/75/100/125 armor.
+Your armor absorbs 20/30/40/50/60% of the damage you take before your HP.
+You regenerate 1/1.75/2.5/3.25/4 armor per second up to 125 armor.
+10/15/20/25/30% chance on hit to knock the enemy by 10/30/40/80/110 units.
+
+Firestarter
+When you play this song, you gain:
+10/20/30/40/50% chance on hit to burn the enemy for 2 seconds. (20 damage over 2 seconds)
+Reduce the damage you take by 20/25/30/35/40%.
+
+Wrecking Ball
+When you play this song, you gain:
+10/20/30/40/50% increased movement speed while you have your knife out.
+You deal 145/160/175/190/215% extra damage and knock enemies back 400 units on hit with the knife.
+10/17/24/31/38% chance to evade while you have your knife out.
+
+Bat Out of Hell
+When you play this song, you gain:
+10/20/30/40/50% increased movement speed.
+5/10/15/20/25% chance to evade.
+
+Musician (ultimate) (1 level)
+Play a random song. press ultimate again to cancel the effect. 30 second cooldown.

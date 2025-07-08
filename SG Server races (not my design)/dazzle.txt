@@ -1,0 +1,15 @@
+Dazzle
+
+pistols only. requires total level 5250. limited to 1 per team. cannot buy orb of venom.
+
+Poison Touch
+8/16/24/32/40% chance on hit to poison the enemy for 3 damage per second for 2 seconds. while they are poisoned they are slowed by 30%. after the poison ends they are bashed for 1 second.
+
+Shallow Grave (ability)
+the teammate you are aiming at cannot die for 1/2/3/4/5 seconds. if they would take lethal damage their HP is set to 1 instead.
+
+Shadow Wave (ability2)
+Heal yourself for 2/4/6/8/10 HP. a teammate within 250 units of you is healed for 10 HP. this can jump from player to player, both teammates and enemies, gaining 2 damage/healing with each jump. When this jumps to an enemy they take damage rather than heal. 14 second cooldown.
+
+Weave (ultimate)
+All teammates and enemies within an 800 unit radius of the location you are aiming at gain .5/1/1.5/2/2.5% reduced/increased damage taken/given every second for 16 seconds. 28 second cooldown.

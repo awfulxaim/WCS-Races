@@ -1,0 +1,24 @@
+Ravener
+
+Knife only
+
+Serpentine Body
+Spawn with 10/20/30/40/50/60% increased movement speed
+
+Scythe Claws
+5/10/15/20/25/30% chance on hit to deal 100% extra damage with the knife.
+
+Biomorph (ability)
+gain an xm1014 or scout, either with 1 shot. the scout deals no damage but poisons the enemy hit for 10 seconds. 2dmg/sec. 10 second cooldown.
+
+Armored Carapace
+You take 25/30/35/40/45/50% reduced damage.
+
+Full Spectrum Vision
+You can see a static outline of an enemy through walls for 1.5/2/2.5/3/3.5/4 seconds when that enemy: shoots, jumps, activates an ability or ultimate, procs a passive, talks on mic or types in chat. That static outline location updates when the player that triggered it procs this again.
+
+Revert to Instinct
+When you are the last player alive on your team, you gain 5/10/15/20/25/30 HP on kill, gain 10/20/30/40/50/60% increased movement speed when there are no enemies in a 150 unit radius, and gain a 4/8/12/16/20/25% chance to disarm on hit with the knife.
+
+Burrow (ultimate)
+become 100% invisible and reduce the damage you take by an additional 25%, but lose your knife. there is a dusty sfx covering you while this is active to show where you are. press ult again to cancel. 20/18/16/14/12/10 second cooldown. cooldown only starts after you leave burrow.

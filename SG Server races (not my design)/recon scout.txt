@@ -12,4 +12,4 @@ Disarm
 6/9/12/15% chance on hit to disarm the enemy
 
 Marksman Shot
-Standing still for 1 second causes your shots to deal up to 150/200/225/250% more damage. each 100 units away the enemy is increases the damage by 15/20/22.5/25%. if you move, you can keep this effect for 1 second.
+Standing still for 1 second causes your shots to deal up to 150/200/225/250% more damage based on your distance from the enemy. each 100 units away the enemy is increases the damage by 15/20/22.5/25%. if you move, you can keep this effect for 1 second.

@@ -1,0 +1,24 @@
+Ruthless Mercenary
+
+M4A1-S, HE, and knife only. requires total level 3800. limited to 2 per team. cannot buy flaming gloves of warmth, cloak of shadows, ankh, or HP.
+
+Weaponry
+Spawn with an M4A1-S. 5/10/15/20% chance on hit to bash
+
+Carpet Bomb
+Spawn with 1/1/2/2 HE grenades. HE grenades you throw explode into 1/2/3/4 more grenades.
+
+Body Armor
+Spawn with 100 armor, no helmet, and 10/20/30/40 more HP.
+
+Helmet
+If you have at least 1 point in Body Armor, you get a helmet with the armor. 25/50/75/100% chance to block 50% of the damage you take from the first headshot you take each round.
+
+Weapon Handling
+25/50/75/100% chance to ignore disarm.
+
+Camouflage
+You have 45/50/55/60% invisibility while standing still.
+
+Scavenge
+100% chance on kill to add 4/7/10/13 ammo to your magazine.

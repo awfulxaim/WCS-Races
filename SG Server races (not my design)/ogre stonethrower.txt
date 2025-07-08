@@ -1,0 +1,22 @@
+Ogre Stonethrower
+
+smoke, flash, and knife only. requires total level 3500. limited to 2 per team. cannot buy long jump or HP.
+
+Power Throw
+Direct hits with grenades deal 200/300/400/500/600 damage.
+
+Unstoppable Force
+Your grenade damage ignores evasion and damage reduction.
+
+Flash Rock
+When you throw your flashbang you get a new one 1/2/3/4/5 times per round.
+
+Powder Stone
+When you throw your smoke grenade you get a new one 1/2/3/4/5 times per round.
+
+Muscle
+Spawn with 20/40/60/80/100 more HP and 10/20/30/40/50% damage reduction from all sources. this double dips on extra damage.
+
+Restock (ultimate)
+Refill your grenades. Add 1/2/3/4/5 smokes and flashes to the number you can receive this round. 30 second cooldown.
+

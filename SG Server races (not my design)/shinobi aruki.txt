@@ -1,0 +1,15 @@
+Shinobi Aruki
+
+requires total level 2800. limited to 2 per team. cannot buy long jump, cloak of shadows, or orb of venom.
+
+Poisonous Shuriken
+100% chance on hit to poison the enemy for 1/2/3/4/5/6/7/8/9/10 damage every 3 seconds for 9 seconds. (30 damage over 9 seconds) this stacks.
+
+Ninja Stealth
+Spawn with 5/10/15/20/25/30/35/40/45/50% invisibility.
+
+Ninja Vanish
+100% chance when hit to become 100% invisible for .25/.5/.75/1/1.25/1.5/1.75/2/2.25/2.5 seconds when hit.
+
+Grappling Hook
+Spiderman ult. 4 seocnd cooldown.

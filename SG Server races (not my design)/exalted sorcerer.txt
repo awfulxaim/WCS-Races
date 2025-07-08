@@ -1,0 +1,41 @@
+Exalted Sorcerer
+
+requires total level 5500. limited to 2 per team. cannot buy boots of speed or claws of attack.
+
+Pick a Staff, Hat, Robe, and Boots when you spawn.
+
+Staff of Lightning
+5/10/15/20/25/30% chance on hit to cast orc chain lightning that deals 10 damage.
+
+Staff of Turning
+If you hit an enemy for more than 80/76/72/68/64/60 damage, you force them to look away from you. this cannot proc while you are holding an autosniper.
+
+Staff of Earthen Strikes
+3/6/9/12/15/18% chance on hit to deal 10 extra damage and bash the enemy for 1 second.
+
+Hat of Radiance
+17/34/51/68/85/100% chance to spawn with immunity to wallhack effects. When this procs you also do not show up on the radar this round.
+
+Hat of Draining
+You steal 5 HP from each enemy in a 500 unit radius every 3.5/3/2.5/2/1.5/1 second.
+
+Hat of Storms
+Deal 5 damage to each enemy in a 650 unit radius every 10/9/8/7/6/5 seconds. Gain 5% movement speed for each enemy effected by this.
+
+Robe of Balance
+Enemies cannot deal more damage to you in a single hit than they have HP. Their damage is attempted to be reduced to their current HP if its above that value, to a max of 10/20/30/40/50/60% damage reduction.
+
+Robe of Redirection
+5/7/9/11/13/15% chance to evade. when you evade you deal up to 8 of that damage to a random enemy.
+
+Robe of Density
+You take 5/10/15/20/25/30% less damage from non-headshot hits.
+
+Boots of the Flame Walker
+You leave a trail of incendiary grenade fire behind you. you don't take damage from your own flames. You spawn with 5/10/15/20/25/30% increased movement speed.
+
+Boots of Illusion
+You leave behind a copy of yourself every 30/25/20/15/10/5 seconds. You spawn with 4/8/12/16/20/25% increased movement speed.
+
+Boots of the Unyielding
+You are immune to bash, slow, and knockback. Spawn with 4/8/12/16/20/25% increased movement speed.

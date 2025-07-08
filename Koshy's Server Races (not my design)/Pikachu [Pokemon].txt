@@ -1,0 +1,17 @@
+Pikachu [Pokemon]
+Requires level 300
+
+ZipZap
+Spawn with 1.1/1.1/1.2/1.3/1.4 speed and 0.8/0.7/0.6/0.5/0.4 gravity at the cost of 0/5/8/10/10 health and armor
+
+Shock
+13/16/19/22/25% chance on hit to knock the enemy into the air with a force of 300 units
+
+Super-Cuteness
+When you spawn, slow a random enemy by 0.1/0.15/0.2/0.25/0.3
+
+Pokeball Retreat
+35/45/55/65/75% chance when hit to teleport to spawn if HP is 50 or less
+
+Electrical Field
+Spawn with an aura that deals 15/20/25/30/35 damage every 10 seconds in a 400 unit radius

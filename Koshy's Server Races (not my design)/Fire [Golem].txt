@@ -1,0 +1,29 @@
+Fire [Golem]
+Requires level 250
+Restricted from buying: Evasion, Boots of Speed, Helm of Excellence, Longjump
+Restricted to knife only
+Model: models/player/techknow/bonez/bonez.mdl
+
+Fiery Core
+Spawn with 50/100/150/200/250/300 bonus health, 1.4 speed.
+
+Molten Heart
+When hit with a non-knife weapon, gain back damage equal to 18%/20%/22%/25%/29%/33% of the damage taken.
+
+Enflame
+25% chance on hit to burn the enemy for 2.5/3/3.5/4/4.5/5 seconds.
+
+Scorched Earth (Ability1)
+Place a ward that deals 10/12/14/16/18/20 damage per second in a 125 unit radius for 30 seconds. Can be used up to 5 times. 5 seconds cooldown.
+
+Fiery Touch
+25% chance on hit to deal 15%/20%/25%/30%/35%/40% bonus damage.
+
+Scalding to the Touch
+When hit with a knife, gain back 25%/25%/33%/33%/50%/50% of the damage taken and reflect 1–10/1–12/1–14/1–16/1–18/1–20 damage back.
+
+Melt Weapon
+13%/16%/19%/22%/25% chance on hit to make the enemy drop their primary weapon.
+
+Ambient Heat
+Deals 10/11/12/13/14/15 damage per second in a 360 unit radius permanently.

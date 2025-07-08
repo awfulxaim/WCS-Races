@@ -1,0 +1,18 @@
+Orcish Chieftain
+
+requires total level 1100. limited to 2 per team. cannot buy boots of speed, scroll of respawning, or orb of venom.
+
+Orcish Warcry
+20% chance on hit to deal 60/70/80/90/100% extra damage.
+
+Orcish Poison
+8/16/24/32/40% chance on hit to slow the enemy by 10% for 2 seconds and shake them for a half second.
+
+Ring of Resilience
+Heal 1/1.2/1.4/1.6/1.8 HP per second.
+
+Ring of Rebirth (ability)
+30/37/44/51/60% chance on death to respawn with your guns and equipment. press ability to choose where you will respawn if this procs, and your choice is saved going forward. choices are: in spawn, at your corpse, don't respawn.
+
+Berserk
+100% chance when hit to gain 20/30/40/50/60% increased movement speed for 2.5 seconds.

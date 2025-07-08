@@ -1,0 +1,21 @@
+Immortal - SC-Protoss
+Passive effects:
+Deagle only with an increased mag size to 10. Does not get armor with increased Max HP.
+
+Assault Strider - Passive - 0/6
+Gain 7% + 3%/level movespeed
+
+Twin Phase Disruptor - Attack - 0/6
+2% + 3%/level chance on hit to bash the enemy for 1 seconds, then after that bash ends, 1 second later, bash them again for 1 second. 
+
+Singularity Discharge - Ability1 - 0/6
+Toss an HE grenade which explodes twice, the second explosion dealing an extra 10/level damage
+Between the first and second explosions, there is a pull effect
+
+Hardened Plasma Shield - Passive - 0/6
+Gain a 12 + 8/level hp shield which also blocks damage you would take that is more than 160 - 15/level while it is active.
+Your shield regenerates at a rate of level/2 per second
+Your shield regeneration starts 3 seconds after being shot
+
+Immortality - Death - 0/6
+You have a 20% + 10%/level chance when you die to respawn after 4-6.5 seconds at the location you died at. When you respawn, reduce the chance that you respawn by 20%, to a minimum of 20%. no max number of respawns.

@@ -1,0 +1,18 @@
+Dwarven Mage
+
+Sawed-off and knife only. requires total level 4750. limited to 2 per team. cannot buy long jump or HP.
+
+Tinker's Blastgun
+Your Sawed-off has 20/40/60/80/100% increased fire rate and infinite ammo.
+
+Fireblast
+10/20/30/40/50% chance per pellet hit to burn the enemy for .5 seconds for each pellet hit. (sawed-off has 8 pellets.)
+
+Invisibility
+Spawn with 10/20/30/40/50% invisibility
+
+Blood Magic
+20/40/60/80/100% chance when you take damage from any source that isn't normal gun damage to heal for that damage after .25 seconds.
+
+Teleportation (ultimate)
+Instantly teleport where you are aiming up to 100/200/300/400/500 units away.

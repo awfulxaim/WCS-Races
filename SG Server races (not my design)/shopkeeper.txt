@@ -1,0 +1,27 @@
+Shopkeeper
+
+requires total level 1700. limited to 2 per team. cannot buy shopmenu items.
+
+Team Player, Cash Share (ability)
+You redistribute your money evenly across your team. You gain 10/20/30/40/50 XP for each teammate who received at least $1000.
+
+Ankh of Reincarnation
+You cannot put points into this skill until you are level 6 in this race. You have a 50/60/70/80/100% chance to restore your equipment like ankh.
+
+Ring of Armor
+You cannot put points into this skill until you are level 11 in this race. You spawn with 25/50/75/100/125 armor and helmet.
+
+Claws of Attack
+You cannot put points into this skill until you are level 16 in this race. 100% chance on hit to deal 4/5/6/7/8 extra damage.
+
+Enchanted Chainmail
+You cannot put points into this skill until you are level 21 in this race. You take 4/5/6/7/8 less damage from hits.
+
+Boots of Speed
+You cannot put points into this skill until you are level 26 in this race. You spawn with 10/15/20/25/30% increased movement speed.
+
+Cloak of Shadows
+You cannot put points into this skill until you are level 31 in this race. You spawn with 20/25/30/35/40% invisibility.
+
+Pot Luck (1 level)
+You cannot put points into this skill until you are level 36 in this race. Each time you spawn you get a random shopmenu item you don't have.

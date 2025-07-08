@@ -1,0 +1,24 @@
+Priest of the Bloodrite
+
+Knife only. cannot buy ammo resupply.
+
+Blood Siphon
+100% chance on hit to leech 20/40/60/80/100% of the damage you dealt to a maximum of 100/125/150/175/200 HP.
+
+Corrupting Blood
+10/20/30/40/50% chance on hit to cause the enemy to bleed, dealing 10% of the damage dealt every second for 5 seconds. that damage is doubled while the enemy is moving.
+
+Rite of the Dagger (ability)
+Lose 50/40/35/30/25 HP. You deal 100% more damage with your knife for the next 10 seconds. This is not considered extra damage for the purposes of blocking extra damage and calculating weapon damage. (that means that leech considers this damage when it leeches)
+
+Rite of the Longbow (ability2)
+Lose 65/60/50/40/35 HP. Gain a SCAR-20 with 3 rounds. When you use your 3 rounds, the gun is destroyed. If you do not fire the SCAR for 10 seconds the SCAR is destroyed.
+
+Rite of the Leopard (ability3)
+Lose 50/40/30/20/10 HP. Gain 35% increased movement speed and long jump for 4/5/6/7/8 seconds.
+
+Rite of the Sanguine (uses the ultimate bind but is not the ultimate)
+Lose 10/20/25/30/35 HP. Deal 10/15/20/25/30 damage to 1/1/2/2/3 random enemies. 10 second cooldown.
+
+Sacrificial Heart
+10/20/30/40/50% chance when you kill an enemy to gain a Sacrificial Heart stack. You can have up to 1 Sacrificial Heart stack. When you die with a Sacrificial Heart stack you will respawn where you died after 4-10 seconds, rolled randomly, and lose your Sacrificial Heart stack.

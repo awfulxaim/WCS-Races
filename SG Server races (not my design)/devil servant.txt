@@ -1,0 +1,18 @@
+Devil Servant
+
+requires total level 1250. limited to 2 per team. cannot buy mask of death, scroll of respawning, or HP.
+
+Soul Siphon
+100% chance on hit to leech 9/11/13/15/17/19/21/23/25% of the damage you dealt back as HP.
+
+Unholy Recovery
+You regenerate .5/.75/1/1.25/1.5/1.75/2/2.25 HP per second.
+
+Unholy Rising (ability)
+12/24/36/48/60/72/84/100% chance on death to respawn. no maximum number of respawns. press ability to choose where you will respawn if this procs, and your choice is saved going forward. choices are: in spawn, at your corpse, don't respawn.
+
+Greed
+12/24/36/48/60/72/84/100% chance to save your equipment like ankh of reincarnation.
+
+Cripple
+6/8/10/12/14/16/18/20% chance on hit to reduce the enemy's movement speed by 75%, their attack speed by 25%, and their damage dealt by 50% for 1/2/3/4/5/6/7/8 seconds.

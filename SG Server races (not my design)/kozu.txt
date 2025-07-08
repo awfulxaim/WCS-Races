@@ -1,0 +1,18 @@
+Kozu The Stalwart
+
+requires total level 1500. limited to 2 per team. cannot buy claws of attack, or HP.
+
+Sturdy
+Spawn with 20/25/30/35/40 more HP.
+
+Strong
+100% chance on hit to deal 2/3/4/5/6 extra damage.
+
+Resistant
+You take 1/3/5/7/8 less damage from hits and 20/25/30/35/40% less damage from extra damage.
+
+Steadfast
+You reduce the duration of bashes against you to .55/.45/.35/.25/.15 seconds.
+
+Regeneration (ultimate)
+Heal yourself for 5 HP per second for 4/5/6/7/8 seconds. Double the HP healed per second while you are standing still. 25 second cooldown.

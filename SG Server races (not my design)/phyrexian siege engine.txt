@@ -1,0 +1,21 @@
+Phyrexian Siege Engine
+
+Scout, grenades, and knife only. requires total level 2750. limited to 2 per team. cannot buy long jump or HP.
+
+Bioplasma Grenades (1 level)
+Your grenades stick to the first surface they hit. You spawn with one of each grenade.
+
+Blinding Abyss
+Enemies blinded by your flashbangs are slowed by 10/20/30/40/50% for the duration of the blind.
+
+Built for War
+You deal 10/20/30/40/50% extra damage on hit.
+
+Yawgmoth's Fire
+You deal 1/2/3/4/5 extra damage on tick with your molotovs.
+
+Flesh to Fuel
+10/20/30/40/50% chance on kill to get one of each grenade, full ammo, and an additional ultimate use.
+
+Impale Cannon (ultimate)
+You get an AWP with 1 shot. enemies within 200 units of the location the shot lands are knocked backwards and rooted for 3 seconds. once per round.

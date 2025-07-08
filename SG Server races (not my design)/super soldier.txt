@@ -1,0 +1,18 @@
+Super Soldier
+
+requires total level 600. limited to 2 per team. cannot buy HP.
+
+Sprint
+Spawn with 5/10/15/20/25% increased movement speed.
+
+Veteran's Endurance
+Spawn with 8/16/24/32/40 more HP.
+
+Arm Up
+20/40/60/80/100% chance to spawn with an M4A1-S.
+
+Marksmanship
+4/8/10/12/14% chance on hit to deal 250% extra damage.
+
+Flaming Valor (ultimate)
+60 second initial cooldown. Gain a 100% chance on hit to burn and slow the enemy by 25% for 2.5 seconds. this does not stack (25 damage over 2.5 seconds.)
