@@ -1,7 +1,5 @@
 Lich King
 
-requires total level 3500.
-
 Defile (ability2)
 Lay a 200 unit radius purple ward that lasts 10/15/20/25/30 seconds and deals 10 damage per second. each time an enemy is dealt damage by this ward its radius increases by 50 units. 30 second cooldown.
 
