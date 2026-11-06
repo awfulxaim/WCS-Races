@@ -9,7 +9,7 @@ Warrior's Blood
 You gain .5/.75/1/1.25/1.5 HP per second.
 
 Drop Chance
-15/30/45/60/75% chance on kill to get a random shopmenu item.
+15/30/45/60/75% chance on kill to get a random item. Items are unique to this race.
 
 Flask (ability)
 Opens a menu allowing you to pick a flask to use. Flasks last 5/8/11/14/17 seconds and each can be used once per round. you can have up to 1/2/3/4/5 active at a time. Leveling this skill levels all the flasks, they are not separate skills.
